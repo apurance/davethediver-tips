@@ -1,0 +1,425 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLUE HOLE / 深蓝攻略手册</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
+    
+    :root {
+      --navy: #102e43;
+      --paper: #f5f8f9;
+      --teal: #087f8c;
+      --slate: #687e8d;
+      --yellow: #f2ca65;
+      --divider: #e5e9eb;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      background-color: var(--paper);
+      color: var(--navy);
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .ant-card {
+      background: white;
+      border: 1px solid var(--divider);
+      border-radius: 8px;
+      transition: all 0.15s ease-in-out;
+    }
+
+    .ant-card:hover {
+      border-color: var(--teal);
+    }
+
+    .sidebar-link {
+      display: flex;
+      align-items: center;
+      padding: 10px 16px;
+      color: rgba(255, 255, 255, 0.65);
+      transition: all 0.2s;
+      font-size: 14px;
+    }
+
+    .sidebar-link:hover, .sidebar-link.active {
+      color: white;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .sidebar-link.active {
+      border-right: 3px solid var(--yellow);
+    }
+
+    .custom-scroll::-webkit-scrollbar {
+      width: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: var(--slate);
+      border-radius: 2px;
+    }
+
+    .hero-gradient {
+      background: linear-gradient(135deg, var(--teal) 0%, #06646d 100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="flex min-h-screen" data-sd-id="1">
+    <!-- Sidebar (240px) -->
+    <aside class="w-[240px] bg-[#102e43] text-white flex-shrink-0 sticky top-0 h-screen flex flex-col z-50" data-sd-id="2">
+      <div class="p-6 flex items-center gap-3" data-sd-id="3">
+        <div class="w-8 h-8 bg-[#f2ca65] rounded flex items-center justify-center text-[#102e43]" data-sd-id="4">
+          <iconify-icon icon="lucide:anchor" width="20"></iconify-icon>
+        </div>
+        <h1 class="text-lg font-bold tracking-wider mono uppercase" data-sd-id="5">Blue Hole</h1>
+      </div>
+      
+      <nav class="flex-1 overflow-y-auto custom-scroll py-4" data-sd-id="6">
+        <div class="px-6 py-2 text-[10px] uppercase tracking-widest text-slate-400 mono" data-sd-id="7">Navigation</div>
+        <a href="#" id="nav-overview" class="sidebar-link active" data-sd-id="8">
+          <iconify-icon icon="lucide:layout-dashboard" class="mr-3"></iconify-icon> 全局概览
+        </a>
+        <a href="#" id="nav-progression" class="sidebar-link" data-sd-id="9">
+          <iconify-icon icon="lucide:compass" class="mr-3"></iconify-icon> 进度指引
+        </a>
+        <a href="#" id="nav-diving" class="sidebar-link" data-sd-id="10">
+          <iconify-icon icon="lucide:waves" class="mr-3"></iconify-icon> 潜水装备
+        </a>
+        <a href="#" id="nav-recipes" class="sidebar-link" data-sd-id="11">
+          <iconify-icon icon="lucide:utensils" class="mr-3"></iconify-icon> 寿司食谱
+        </a>
+        <a href="#" id="nav-staff" class="sidebar-link" data-sd-id="12">
+          <iconify-icon icon="lucide:users" class="mr-3"></iconify-icon> 员工与派遣
+        </a>
+        <a href="#" id="nav-farm" class="sidebar-link" data-sd-id="13">
+          <iconify-icon icon="lucide:sprout" class="mr-3"></iconify-icon> 渔场与农场
+        </a>
+        <a href="#" id="nav-bosses" class="sidebar-link" data-sd-id="14">
+          <iconify-icon icon="lucide:skull" class="mr-3"></iconify-icon> 首领战术
+        </a>
+        <a href="#" id="nav-events" class="sidebar-link" data-sd-id="15">
+          <iconify-icon icon="lucide:calendar" class="mr-3"></iconify-icon> 特殊节日
+        </a>
+        <a href="#" id="nav-collectibles" class="sidebar-link" data-sd-id="16">
+          <iconify-icon icon="lucide:gem" class="mr-3"></iconify-icon> 全收集要素
+        </a>
+        <a href="#" id="nav-dlc" class="sidebar-link" data-sd-id="17">
+          <iconify-icon icon="lucide:package-plus" class="mr-3"></iconify-icon> DLC 扩展内容
+        </a>
+        <a href="#" id="nav-calculator" class="sidebar-link" data-sd-id="18">
+          <iconify-icon icon="lucide:calculator" class="mr-3"></iconify-icon> 经营模拟器
+        </a>
+        <a href="#" id="nav-sources" class="sidebar-link" data-sd-id="19">
+          <iconify-icon icon="lucide:external-link" class="mr-3"></iconify-icon> 资料来源
+        </a>
+      </nav>
+
+      <div class="p-6 border-t border-white/10" data-sd-id="20">
+        <div class="flex items-center gap-2 mb-2" data-sd-id="21">
+          <div class="w-2 h-2 rounded-full bg-green-400" data-sd-id="22"></div>
+          <span class="text-[10px] text-slate-400 mono" data-sd-id="23">VER 1.0.4 - 2026.10.09</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 relative flex flex-col" data-sd-id="24">
+      <!-- Top Navigation -->
+      <header class="h-14 bg-white border-b border-[#e5e9eb] sticky top-0 z-40 px-8 flex items-center justify-between" data-sd-id="25">
+        <div class="flex items-center gap-4 flex-1 max-w-xl" data-sd-id="26">
+          <iconify-icon icon="lucide:search" class="text-slate-400"></iconify-icon>
+          <input type="text" placeholder="搜索鱼类、食谱或员工..." class="bg-transparent text-sm w-full outline-none" data-sd-id="27">
+        </div>
+        <div class="flex items-center gap-6" data-sd-id="28">
+          <div class="flex items-center gap-2" data-sd-id="29">
+             <span class="text-xs text-slate-500" data-sd-id="30">剧透开关</span>
+             <div class="w-8 h-4 bg-slate-200 rounded-full relative" data-sd-id="31">
+               <div class="absolute left-1 top-1 w-2 h-2 bg-white rounded-full" data-sd-id="32"></div>
+             </div>
+          </div>
+          <button class="flex items-center gap-1 text-sm font-medium text-slate-600" data-sd-id="33">
+            <iconify-icon icon="lucide:bookmark"></iconify-icon>
+            <span data-sd-id="34">我的收藏</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Scrollable Container -->
+      <div class="flex-1 overflow-y-auto p-8" data-sd-id="35">
+        <div class="max-w-[1180px] mx-auto" data-sd-id="36">
+          
+          <!-- Hero Section -->
+          <section class="hero-gradient rounded-xl p-10 text-white flex flex-col lg:flex-row items-center overflow-hidden relative mb-8" data-sd-id="37">
+            <div class="flex-1 z-10" data-sd-id="38">
+              <div class="inline-block px-3 py-1 bg-[#f2ca65] text-[#102e43] text-xs font-bold mono mb-4" data-sd-id="39">攻略手册 // GUIDE</div>
+              <h2 class="text-[42px] font-bold leading-tight mb-4 tracking-tight" data-sd-id="40">白天探索蓝洞，<br>夜晚经营寿司店。</h2>
+              <p class="text-teal-50 text-lg max-w-lg mb-8 opacity-90" data-sd-id="41">欢迎来到深蓝攻略手册。本指南涵盖了从入水第一步到终极深海优化的所有核心机制与经营策略。</p>
+              <div class="flex gap-2" data-sd-id="42">
+                <button class="px-6 py-2.5 bg-white text-[#087f8c] font-semibold rounded-md shadow-sm text-sm hover:bg-teal-50 transition-colors" data-sd-id="43">开始攻略</button>
+                <button class="px-6 py-2.5 bg-teal-800/40 text-white font-semibold rounded-md text-sm border border-teal-400/30 hover:bg-teal-800/60 transition-colors" data-sd-id="44">版本日志</button>
+              </div>
+            </div>
+            <!-- SVG Illustration -->
+            <div class="w-full lg:w-[420px] h-[300px] relative mt-8 lg:mt-0" data-sd-id="45">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" data-sd-id="46">
+                <rect width="400" height="300" rx="8" fill="rgba(255,255,255,0.05)"></rect>
+                <!-- Depth Lines -->
+                <path d="M50 40 H350" stroke="white" stroke-dasharray="4 4" opacity="0.2"></path>
+                <path d="M50 140 H350" stroke="white" stroke-dasharray="4 4" opacity="0.2"></path>
+                <path d="M50 240 H350" stroke="white" stroke-dasharray="4 4" opacity="0.2"></path>
+                <!-- Depth Text -->
+                <text x="20" y="45" fill="white" font-size="10" font-family="monospace" opacity="0.6">50m</text>
+                <text x="20" y="145" fill="white" font-size="10" font-family="monospace" opacity="0.6">130m</text>
+                <text x="20" y="245" fill="white" font-size="10" font-family="monospace" opacity="0.6">250m</text>
+                <!-- Diver Sonar -->
+                <circle cx="150" cy="100" r="6" fill="#f2ca65"></circle>
+                <circle cx="150" cy="100" r="20" stroke="#f2ca65" stroke-dasharray="2 2">
+                   <animate attributeName="r" from="6" to="30" dur="2s" repeatCount="indefinite"></animate>
+                   <animate attributeName="opacity" from="1" to="0" dur="2s" repeatCount="indefinite"></animate>
+                </circle>
+                <!-- Fish Silhouettes -->
+                <path d="M280 80 Q290 75 300 80 Q290 85 280 80 Z" fill="white" opacity="0.4"></path>
+                <path d="M240 160 Q260 150 280 160 Q260 170 240 160 Z" fill="white" opacity="0.3"></path>
+                <path d="M100 200 Q130 185 160 200 Q130 215 100 200 Z" fill="white" opacity="0.2"></path>
+                <!-- Depth Curve -->
+                <path d="M0 50 C 100 40, 150 250, 400 280" stroke="white" stroke-width="1" fill="none" opacity="0.3"></path>
+              </svg>
+            </div>
+          </section>
+
+          <!-- Phase Selector & Metrics -->
+          <div class="flex flex-col md:flex-row justify-between items-end gap-6 mb-8" data-sd-id="47">
+            <div class="flex-1 w-full" data-sd-id="48">
+              <div class="flex border-b border-[#e5e9eb] mb-6" data-sd-id="49">
+                <button class="px-6 py-3 text-sm font-semibold border-b-2 border-[#087f8c] text-[#087f8c]" data-sd-id="50">新手起步</button>
+                <button class="px-6 py-3 text-sm font-medium text-slate-500 hover:text-navy" data-sd-id="51">中期成型</button>
+                <button class="px-6 py-3 text-sm font-medium text-slate-500 hover:text-navy" data-sd-id="52">后期优化</button>
+              </div>
+              <div class="grid grid-cols-3 gap-6" data-sd-id="53">
+                <div class="bg-white p-4 rounded-lg border border-[#e5e9eb] flex items-center gap-4" data-sd-id="54">
+                   <div class="w-10 h-10 rounded-full bg-teal-50 text-teal-600 flex items-center justify-center" data-sd-id="55">
+                     <iconify-icon icon="lucide:arrow-up-right" width="20"></iconify-icon>
+                   </div>
+                   <div data-sd-id="56">
+                     <div class="text-xs text-slate-500 mono" data-sd-id="57">优先升级</div>
+                     <div class="font-bold" data-sd-id="58">氧气瓶 &amp; 负重</div>
+                   </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-[#e5e9eb] flex items-center gap-4" data-sd-id="59">
+                   <div class="w-10 h-10 rounded-full bg-yellow-50 text-yellow-600 flex items-center justify-center" data-sd-id="60">
+                     <iconify-icon icon="lucide:trending-up" width="20"></iconify-icon>
+                   </div>
+                   <div data-sd-id="61">
+                     <div class="text-xs text-slate-500 mono" data-sd-id="62">经济目标</div>
+                     <div class="font-bold" data-sd-id="63">2500 金币/日</div>
+                   </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-[#e5e9eb] flex items-center gap-4" data-sd-id="64">
+                   <div class="w-10 h-10 rounded-full bg-slate-50 text-slate-600 flex items-center justify-center" data-sd-id="65">
+                     <iconify-icon icon="lucide:shield-check" width="20"></iconify-icon>
+                   </div>
+                   <div data-sd-id="66">
+                     <div class="text-xs text-slate-500 mono" data-sd-id="67">核心威胁</div>
+                     <div class="font-bold" data-sd-id="68">锯鲨 &amp; 巨型乌贼</div>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsystem Cards -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12" data-sd-id="69">
+            <!-- Card 1 -->
+            <div class="ant-card flex flex-col" data-sd-id="70">
+              <div class="p-6 border-b border-[#e5e9eb]" data-sd-id="71">
+                <div class="flex items-center gap-2 mb-2" data-sd-id="72">
+                  <iconify-icon icon="lucide:anchor" class="text-teal-600"></iconify-icon>
+                  <h3 class="font-bold text-base" data-sd-id="73">捕鱼与装备</h3>
+                </div>
+                <p class="text-xs text-slate-500" data-sd-id="74">深潜技巧与武器升级路径</p>
+              </div>
+              <div class="p-6 flex-1 space-y-4" data-sd-id="75">
+                <div class="bg-[#f5f8f9] p-3 rounded text-sm border-l-4 border-[#087f8c]" data-sd-id="76">
+                  <span class="font-bold text-[#087f8c]" data-sd-id="77">推荐：</span> 优先制作「催眠狙击枪」，它是捕捉高星级大型鱼类的终极利器。
+                </div>
+                <ul class="text-sm space-y-2" data-sd-id="78">
+                  <li class="flex items-start gap-2" data-sd-id="79">
+                    <iconify-icon icon="lucide:check-circle" class="text-green-500 mt-0.5"></iconify-icon>
+                    <span data-sd-id="80">利用潜水舱快捷返回，节省氧气</span>
+                  </li>
+                  <li class="flex items-start gap-2" data-sd-id="81">
+                    <iconify-icon icon="lucide:check-circle" class="text-green-500 mt-0.5"></iconify-icon>
+                    <span data-sd-id="82">通过「达夫」升级武器属性</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 text-center" data-sd-id="83">
+                <a href="#" class="text-xs font-bold text-teal-600 hover:underline" data-sd-id="84">查看装备树 →</a>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="ant-card flex flex-col" data-sd-id="85">
+              <div class="p-6 border-b border-[#e5e9eb]" data-sd-id="86">
+                <div class="flex items-center gap-2 mb-2" data-sd-id="87">
+                  <iconify-icon icon="lucide:utensils-crosshair" class="text-teal-600"></iconify-icon>
+                  <h3 class="font-bold text-base" data-sd-id="88">餐厅与员工</h3>
+                </div>
+                <p class="text-xs text-slate-500" data-sd-id="89">人员分配与效率最大化</p>
+              </div>
+              <div class="p-6 flex-1 space-y-4" data-sd-id="90">
+                <div class="bg-[#f5f8f9] p-3 rounded text-sm border-l-4 border-[#087f8c]" data-sd-id="91">
+                  <span class="font-bold text-[#087f8c]" data-sd-id="92">配置：</span> 艾尔尼诺（跑堂）+ 真纪（厨师）是前期最强组合。
+                </div>
+                <ul class="text-sm space-y-2" data-sd-id="93">
+                  <li class="flex items-start gap-2" data-sd-id="94">
+                    <iconify-icon icon="lucide:check-circle" class="text-green-500 mt-0.5"></iconify-icon>
+                    <span data-sd-id="95">多余员工用于「派遣」获取调料</span>
+                  </li>
+                  <li class="flex items-start gap-2" data-sd-id="96">
+                    <iconify-icon icon="lucide:check-circle" class="text-green-500 mt-0.5"></iconify-icon>
+                    <span data-sd-id="97">提升员工等级可解锁特殊技能</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 text-center" data-sd-id="98">
+                <a href="#" class="text-xs font-bold text-teal-600 hover:underline" data-sd-id="99">员工技能库 →</a>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="ant-card flex flex-col" data-sd-id="100">
+              <div class="p-6 border-b border-[#e5e9eb]" data-sd-id="101">
+                <div class="flex items-center gap-2 mb-2" data-sd-id="102">
+                  <iconify-icon icon="lucide:package" class="text-teal-600"></iconify-icon>
+                  <h3 class="font-bold text-base" data-sd-id="103">菜谱与供应链</h3>
+                </div>
+                <p class="text-xs text-slate-500" data-sd-id="104">利润核算与素材囤积</p>
+              </div>
+              <div class="p-6 flex-1 space-y-4" data-sd-id="105">
+                <div class="bg-[#f5f8f9] p-3 rounded text-sm border-l-4 border-[#087f8c]" data-sd-id="106">
+                  <span class="font-bold text-[#087f8c]" data-sd-id="107">策略：</span> 集中资源升级「热带鱼刺身拼盘」，单价回报率最高。
+                </div>
+                <ul class="text-sm space-y-2" data-sd-id="108">
+                  <li class="flex items-start gap-2" data-sd-id="109">
+                    <iconify-icon icon="lucide:check-circle" class="text-green-500 mt-0.5"></iconify-icon>
+                    <span data-sd-id="110">每日检查养殖场产量</span>
+                  </li>
+                  <li class="flex items-start gap-2" data-sd-id="111">
+                    <iconify-icon icon="lucide:check-circle" class="text-green-500 mt-0.5"></iconify-icon>
+                    <span data-sd-id="112">合理分配海藻农场空间</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 text-center" data-sd-id="113">
+                <a href="#" class="text-xs font-bold text-teal-600 hover:underline" data-sd-id="114">利润计算器 →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lower Section: Diagram and Checklist -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8" data-sd-id="115">
+            <!-- Economic Loop Diagram -->
+            <div class="lg:col-span-2" data-sd-id="116">
+              <h4 class="text-lg font-bold mb-6 flex items-center gap-2" data-sd-id="117">
+                <span class="w-1 h-6 bg-[#f2ca65]" data-sd-id="118"></span>
+                循环经济模型 <span class="text-xs text-slate-400 mono ml-2 uppercase" data-sd-id="119">Economic Loop</span>
+              </h4>
+              <div class="bg-white border border-[#e5e9eb] rounded-xl p-8 h-[320px] flex items-center justify-center overflow-hidden" data-sd-id="120">
+                 <svg width="600" height="200" viewBox="0 0 600 200" class="w-full" data-sd-id="121">
+                   <!-- Nodes -->
+                   <g>
+                     <rect x="50" y="70" width="120" height="60" rx="4" fill="#087f8c"></rect>
+                     <text x="110" y="105" text-anchor="middle" fill="white" font-size="14" font-weight="bold">白天：潜水</text>
+                     <text x="110" y="120" text-anchor="middle" fill="white" font-size="10" opacity="0.8">收集素材 &amp; 鱼类</text>
+                   </g>
+
+                   <g>
+                     <rect x="240" y="70" width="120" height="60" rx="4" fill="#102e43"></rect>
+                     <text x="300" y="105" text-anchor="middle" fill="white" font-size="14" font-weight="bold">傍晚：经营</text>
+                     <text x="300" y="120" text-anchor="middle" fill="white" font-size="10" opacity="0.8">金币收益 &amp; 名声</text>
+                   </g>
+
+                   <g>
+                     <rect x="430" y="70" width="120" height="60" rx="4" fill="#f2ca65"></rect>
+                     <text x="490" y="105" text-anchor="middle" fill="#102e43" font-size="14" font-weight="bold">夜晚：升级</text>
+                     <text x="490" y="120" text-anchor="middle" fill="#102e43" font-size="10" opacity="0.8">强化能力 &amp; 扩建</text>
+                   </g>
+
+                   <!-- Connecting Arrows -->
+                   <path d="M170 100 H235" stroke="#687e8d" stroke-width="2" marker-end="url(#arrowhead)"></path>
+                   <path d="M360 100 H425" stroke="#687e8d" stroke-width="2" marker-end="url(#arrowhead)"></path>
+                   <path d="M490 70 Q490 20, 110 20 L110 65" stroke="#687e8d" stroke-width="2" stroke-dasharray="4 2" fill="none" marker-end="url(#arrowhead)"></path>
+
+                   <defs>
+                     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+                       <polygon points="0 0, 10 3.5, 0 7" fill="#687e8d"></polygon>
+                     </marker>
+                   </defs>
+                 </svg>
+              </div>
+            </div>
+
+            <!-- Checklist -->
+            <div class="bg-[#102e43] text-white rounded-xl p-6" data-sd-id="122">
+              <h4 class="text-base font-bold mb-4 flex items-center justify-between" data-sd-id="123">
+                <span data-sd-id="124">今天该做什么？</span>
+                <span class="text-[10px] mono text-slate-400" data-sd-id="125">CHECKLIST</span>
+              </h4>
+              <div class="space-y-3" data-sd-id="126">
+                <label class="flex items-center gap-3 p-2 bg-white/5 rounded hover:bg-white/10 cursor-pointer" data-sd-id="127">
+                  <input type="checkbox" class="w-4 h-4 rounded accent-teal-500" data-sd-id="128">
+                  <span class="text-sm" data-sd-id="129">清空养殖场多余鱼苗</span>
+                </label>
+                <label class="flex items-center gap-3 p-2 bg-white/5 rounded hover:bg-white/10 cursor-pointer" data-sd-id="130">
+                  <input type="checkbox" class="w-4 h-4 rounded accent-teal-500" data-sd-id="131">
+                  <span class="text-sm" data-sd-id="132">给农场作物浇水 &amp; 施肥</span>
+                </label>
+                <label class="flex items-center gap-3 p-2 bg-white/5 rounded hover:bg-white/10 cursor-pointer" data-sd-id="133">
+                  <input type="checkbox" class="w-4 h-4 rounded accent-teal-500" checked="" data-sd-id="134">
+                  <span class="text-sm text-slate-400 line-through" data-sd-id="135">检查员工派遣状态</span>
+                </label>
+                <label class="flex items-center gap-3 p-2 bg-white/5 rounded hover:bg-white/10 cursor-pointer" data-sd-id="136">
+                  <input type="checkbox" class="w-4 h-4 rounded accent-teal-500" data-sd-id="137">
+                  <span class="text-sm" data-sd-id="138">查看今日特殊菜单需求</span>
+                </label>
+                <label class="flex items-center gap-3 p-2 bg-white/5 rounded hover:bg-white/10 cursor-pointer" data-sd-id="139">
+                  <input type="checkbox" class="w-4 h-4 rounded accent-teal-500" data-sd-id="140">
+                  <span class="text-sm" data-sd-id="141">深海 200m+ 素材扫荡</span>
+                </label>
+              </div>
+              <button class="w-full mt-6 py-2 bg-[#f2ca65] text-[#102e43] text-xs font-bold rounded hover:bg-[#e8bc4a] transition-colors" data-sd-id="142">
+                保存当前进度
+              </button>
+            </div>
+          </div>
+
+          <!-- Footer Metadata -->
+          <footer class="mt-16 pt-8 border-t border-[#e5e9eb] flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400" data-sd-id="143">
+            <div class="flex items-center gap-4" data-sd-id="144">
+              <span data-sd-id="145">© 2026 深蓝攻略组</span>
+              <span class="w-1 h-1 bg-slate-300 rounded-full" data-sd-id="146"></span>
+              <span data-sd-id="147">文档更新: 2026.10.09</span>
+            </div>
+            <div class="flex gap-4" data-sd-id="148">
+              <span class="px-2 py-0.5 border border-slate-200 rounded mono" data-sd-id="149">BASE GAME</span>
+              <span class="px-2 py-0.5 border border-slate-200 rounded mono" data-sd-id="150">JUNGLE DLC</span>
+            </div>
+            <div class="flex gap-6" data-sd-id="151">
+              <a href="#" class="hover:text-teal-600" data-sd-id="152">使用条款</a>
+              <a href="#" class="hover:text-teal-600" data-sd-id="153">社区贡献</a>
+              <a href="#" class="hover:text-teal-600" data-sd-id="154">问题反馈</a>
+            </div>
+          </footer>
+
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body></html>
