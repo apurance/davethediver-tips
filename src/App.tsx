@@ -2,7 +2,7 @@ import { App as AntApp, Drawer, Space, Tag, Switch, Button } from "antd";
 import { useGuideState } from "./hooks/useGuideState";
 import { Sidebar } from "./components/layout/Sidebar";
 import { Topbar } from "./components/layout/Topbar";
-import { GuideContent } from "./pages/GuideContent";
+import { Outlet, ScrollRestoration } from "react-router";
 
 export default function App() {
   return (
@@ -18,7 +18,6 @@ function GuideApp() {
     page,
     active,
     searchMode,
-    navigate,
     mobile,
     setMobile,
     query,
@@ -31,7 +30,11 @@ function GuideApp() {
     setSpoilers,
   } = state;
   const sidebar = (
-    <Sidebar page={page} searchMode={searchMode} navigate={navigate} />
+    <Sidebar
+      page={page}
+      searchMode={searchMode}
+      onNavigate={() => setMobile(false)}
+    />
   );
 
   return (
@@ -76,7 +79,7 @@ function GuideApp() {
               />
             </Space>
           </div>
-          <GuideContent {...state} />
+          <Outlet context={state} />
           <footer>
             <span className="mono">BLUE HOLE / FIELD NOTES</span>
             <span>非官方攻略 · 本地保存收藏与清单 · 数据来源可查</span>
@@ -86,6 +89,7 @@ function GuideApp() {
           </footer>
         </main>
       </div>
+      <ScrollRestoration />
     </div>
   );
 }

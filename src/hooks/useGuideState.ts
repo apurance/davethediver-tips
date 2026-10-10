@@ -3,50 +3,82 @@ import type { SectionId, Phase } from "../data";
 import { sections, articles, recipes } from "../data";
 import { useSaved } from "./useSaved";
 import type { InputRef } from "antd";
+import { useLocation, useMatches, useNavigate, useSearchParams } from "react-router";
+import { sectionPath } from "../routing/paths";
 
 export function useGuideState() {
-  const [page, setPage] = useState<SectionId>(() => {
-    const id = location.hash.slice(1);
-    return sections.some((s) => s.id === id) ? (id as SectionId) : "overview";
-  });
+  const location = useLocation();
+  const routerNavigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const matches = useMatches();
+  const route = matches[matches.length - 1];
+  const page = (route.handle as { section?: SectionId } | undefined)?.section;
+  const isSearching = route.id === "search";
   const [phase, setPhase] = useSaved<string>("bluehole.phase.v1", "all");
   const [spoilers, setSpoilers] = useSaved<boolean>(
     "bluehole.spoilers.v1",
     false,
   );
   const [saved, setSaved] = useSaved<string[]>("bluehole.bookmarks.v1", []);
-  const [query, setQuery] = useState("");
-  const [savedOnly, setSavedOnly] = useState(false);
+  const query = isSearching ? searchParams.get("q") ?? "" : "";
+  const savedOnly = route.id === "bookmarks";
   const [mobile, setMobile] = useState(false);
-  const [calcRecipe, setCalcRecipe] = useState("tropical");
+  const calcRecipe =
+    recipes.find((recipe) => recipe.id === searchParams.get("recipe"))?.id ??
+    "tropical";
   const searchRef = useRef<InputRef>(null);
+  const returnTo = typeof location.state?.returnTo === "string"
+    ? location.state.returnTo
+    : "/";
+  const backgroundPath = page ? location.pathname + location.search : returnTo;
+  const setQuery = (value: string) => {
+    if (value) {
+      routerNavigate(`/search?${new URLSearchParams({ q: value })}`, {
+        replace: isSearching,
+        state: { returnTo: backgroundPath },
+        preventScrollReset: true,
+      });
+    } else if (isSearching) {
+      routerNavigate(returnTo, { replace: true });
+    }
+  };
+  const setSavedOnly = (value: boolean) => {
+    routerNavigate(value ? "/bookmarks" : returnTo, {
+      state: value ? { returnTo: backgroundPath } : null,
+    });
+  };
+  const setCalcRecipe = (id: string) => {
+    setSearchParams(
+      (current) => {
+        const next = new URLSearchParams(current);
+        next.set("recipe", id);
+        return next;
+      },
+      { replace: true },
+    );
+  };
   const navigate = (id: SectionId) => {
-    setPage(id);
-    location.hash = id;
-    setQuery("");
-    setSavedOnly(false);
+    routerNavigate(sectionPath(id));
     setMobile(false);
-    window.scrollTo({ top: 0, behavior: "instant" });
   };
   useEffect(() => {
-    const hash = () => {
-      const id = location.hash.slice(1);
-      if (sections.some((s) => s.id === id)) setPage(id as SectionId);
-    };
+    setMobile(false);
+  }, [location.pathname]);
+  useEffect(() => {
     const key = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.key === "k") {
         e.preventDefault();
         searchRef.current?.focus();
       }
-      if (e.key === "Escape") setQuery("");
+      if (e.key === "Escape" && isSearching) {
+        routerNavigate(returnTo, { replace: true });
+      }
     };
-    window.addEventListener("hashchange", hash);
     window.addEventListener("keydown", key);
     return () => {
-      window.removeEventListener("hashchange", hash);
       window.removeEventListener("keydown", key);
     };
-  }, []);
+  }, [isSearching, returnTo, routerNavigate]);
   const toggle = (id: string) =>
     setSaved(
       saved.includes(id) ? saved.filter((v) => v !== id) : [...saved, id],
@@ -65,8 +97,12 @@ export function useGuideState() {
       ),
     [phase, spoilers, savedOnly, saved, query],
   );
-  const active = sections.find((s) => s.id === page)!;
-  const searchMode = !!query.trim() || savedOnly;
+  const active = sections.find((s) => s.id === page) ?? {
+    title: "页面未找到",
+    en: "NOT FOUND",
+    desc: "这个地址没有对应的攻略页面。",
+  };
+  const searchMode = isSearching || savedOnly;
   const matchedRecipes = recipes.filter(
     (r) =>
       !savedOnly &&
@@ -77,8 +113,8 @@ export function useGuideState() {
         .includes(query.trim().toLocaleLowerCase()),
   );
   const plan = (id: string) => {
-    setCalcRecipe(id);
-    navigate("tools");
+    routerNavigate(`/tools?${new URLSearchParams({ recipe: id })}`);
+    setMobile(false);
   };
 
   return {

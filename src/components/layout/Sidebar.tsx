@@ -14,6 +14,8 @@ import {
 import type { SectionId } from "../../data";
 import { Menu } from "antd";
 import { sections } from "../../data";
+import { Link } from "react-router";
+import { sectionPath } from "../../routing/paths";
 
 const icons = [
   <DashboardOutlined />,
@@ -31,12 +33,12 @@ const icons = [
 ];
 
 interface SidebarProps {
-  page: SectionId;
+  page: SectionId | undefined;
   searchMode: boolean;
-  navigate: (id: SectionId) => void;
+  onNavigate: () => void;
 }
 
-export function Sidebar({ page, searchMode, navigate }: SidebarProps) {
+export function Sidebar({ page, searchMode, onNavigate }: SidebarProps) {
   return (
     <>
       <div className="brand">
@@ -52,13 +54,13 @@ export function Sidebar({ page, searchMode, navigate }: SidebarProps) {
       <Menu
         theme="dark"
         mode="inline"
-        selectedKeys={searchMode ? [] : [page]}
+        selectedKeys={searchMode || !page ? [] : [page]}
         items={sections.map((s, i) => ({
           key: s.id,
           icon: icons[i],
-          label: s.title,
+          label: <Link to={sectionPath(s.id)}>{s.title}</Link>,
         }))}
-        onClick={({ key }) => navigate(key as SectionId)}
+        onClick={onNavigate}
       />
       <div className="sidebar-bottom">
         <span className="status-dot" /> LOCAL FIELD GUIDE

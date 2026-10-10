@@ -29,6 +29,17 @@ pnpm test     # 使用 Node 内置 test runner 验证经营模型（Node 22.18+�
 - 全文搜索（Ctrl+K）、阶段筛选、Boss 剧透开关、收藏、日常清单与打印。
 - 收藏、清单和偏好保存于浏览器 localStorage，不发送给服务器；计算参数仅保留本次会话。
 - 桌面侧栏、移动目录抽屉与响应式卡片。表格在手机上可横向滚动。
+- React Router 路由：`/` 概览、`/recipes` 菜谱、`/staff` 员工、`/tools` 计算器等专题；`/search?q=关键词` 搜索、`/bookmarks` 收藏。菜谱备货链接如 `/tools?recipe=tropical` 可刷新或分享，旧 `/#recipes` 链接自动跳转到新地址。
+
+## 部署路由
+
+使用 Browser History 路由。Vite 开发和预览服务支持直接打开、刷新子页面；部署到静态服务器时，需要将不存在的文件路径回退到 `index.html`，并保留真实静态资源请求。例如 Nginx：
+
+```nginx
+location / {
+  try_files $uri $uri/ /index.html;
+}
+```
 
 ## 调研范围
 
@@ -39,7 +50,11 @@ pnpm test     # 使用 Node 内置 test runner 验证经营模型（Node 22.18+�
 ## 修改内容
 
 - `src/data.ts`：攻略、资料、菜谱数据与清单。
-- `src/App.tsx`：Ant Design 页面与交互。
+- `src/App.tsx`：共享布局与路由出口。
+- `src/routing/routes.tsx`：路由表，专题页、搜索、收藏与 404。
+- `src/pages/`：各路由页面。
+- `src/components/`：布局与功能组件。
+- `src/hooks/`：路由导航、搜索、收藏、本地保存与共享页面状态。
 - `src/calculations.ts`：经营与供给计算逻辑。
 - `src/styles.css`：布局、主题、手机与打印样式。
 - `.superdesign/overview.html`：已确认的设计参考，不是运行页面。

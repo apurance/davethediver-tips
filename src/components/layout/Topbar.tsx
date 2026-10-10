@@ -53,16 +53,13 @@ export function Topbar({
           type={savedOnly ? "primary" : "text"}
           icon={<HeartOutlined />}
           aria-label="查看收藏"
-          onClick={() => {
-            setSavedOnly(!savedOnly);
-            setQuery("");
-          }}
+          onClick={() => setSavedOnly(!savedOnly)}
         >
           <Badge count={savedCount} size="small" color="#087f8c">
             <span className="save-label">收藏</span>
           </Badge>
         </Button>
       </Tooltip>
-      </header>
+    </header>
   );
 }

@@ -2,9 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { ConfigProvider } from "antd";
 import zhCN from "antd/locale/zh_CN";
-import App from "./App";
+import { createBrowserRouter } from "react-router";
+import { RouterProvider } from "react-router/dom";
+import { routes } from "./routing/routes";
 import "antd/dist/reset.css";
 import "./styles.css";
+
+const router = createBrowserRouter(routes);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -31,7 +35,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         },
       }}
     >
-      <App />
+      <RouterProvider router={router} />
     </ConfigProvider>
   </React.StrictMode>,
 );

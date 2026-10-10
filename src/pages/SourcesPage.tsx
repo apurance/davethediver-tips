@@ -2,10 +2,12 @@ import { Alert, Collapse, List, Space, Tag } from "antd";
 import { sources } from "../data";
 import { ExportOutlined } from "@ant-design/icons";
 import { SourceLinks } from "../components/SourceLinks";
+import { PageHeading } from "../components/PageHeading";
 
 export function SourcesPage() {
   return (
     <>
+      <PageHeading />
       <Alert
         showIcon
         type="info"
