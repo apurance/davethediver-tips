@@ -83,6 +83,18 @@ location / {
 
 需要翻译的单个文本属性统一放在 `facets`，值直接保存译名 ID，例如 `"gatheringSource": "text/660af5fdf8cd"`、`"knockbackResistance": "text/b5141d3d19e9"`。字段键按驼峰形式还原为 `field/gathering-source` 等译名键；已有的 `time` 仍对应 `field/active-time`。字段名和值均通过名称表显示，`null` 表示来源未提供。带 `entityId` 的链接及多值混合内容继续保留在 `facts`，以保留跳转目标和原有顺序。
 
+鱼类位置按人工确认结果统一保存到顶层 `region`，区域筛选与详情共用该值，鱼类的 `location` 副本已全部删除。已确认的“浅海 / 蓝洞，0-50 米”使用后者；白对虾使用“蓝洞，0-130 米”，蓝鳍及黄鳍金枪鱼使用“蓝洞，0-50 米”，巨型笔石使用“热泉喷口”。Glacial Area / Glacier Zone（含大小写变体）统一为 `region/glacial-area`，英文采用 Glacial Area，中文为“冰川区域”。
+
+Cargo Ship / shipwreck 已统一为 shipwreck，中文为“遇难船”；红石蟹、旗鱼、黑虎虾共用该区域，黑虎虾原有的“中层”已修正。Glacial Passage / Glacier Passage 已统一为 Glacier Passage，中文为“冰川通道”，对应 6 条鱼的独立位置副本已删除。
+
+“深层水域”和“深海”统一使用“蓝洞，130-250 米”。Glacial Area Dungeon 1 / glacial 1 统一为 `region/glacial-area-dungeon-1`（第一冰川洞穴）；Vents / vents 与已有“热泉喷口”统一为 `region/hydrothermal-vents`（Hydrothermal Vents，热泉喷口）；已确认的 Limestone Cave / stalactite 统一为 `region/limestone-cave`（Limestone Cave，钟乳石窟）。
+
+顶层 `region` 保存区域 ID 列表，例如 `"region": ["region/8c354854b261", "region/glacial-area"]`；未知区域使用空列表 `[]`。同一条鱼可以属于多个区域：区域筛选检查列表是否包含选中 ID，下拉选项合并所有列表并去重，列表、详情和搜索读取全部区域译名。当前单个区域已包装为单元素列表，本次不新增分布信息；`facets` 仅保存单个译名 ID 或 `null`，区域列表独立于 `facets`。
+
+已确认的“蓝洞，50-130 米 / 中层”及“中层水域 / 中层”使用“蓝洞，50-130 米”；“浅水区 / 浅海”使用“蓝洞，0-50 米”。Glacial Area Dungeon 3 / glacial 3 统一为 `region/glacial-area-dungeon-3`（第三冰川洞穴）。
+
+fog coast、black cliff、jellyfish basin 分别译为“迷雾海岸”“黑色峭壁”“水母盆地”；Dredge Point01 A/B、Point02 A/B、Point03 A/B 分别合并到对应区域，避免同一区域在筛选中出现多个选项。
+
 ## 维护数据快照
 
 后续不再从该网站抓取此类数据，直接维护 `src/data/` 中的 JSON。旧导入脚本保留为历史工具，未加入本次清理规则，重新运行会覆盖清理结果。应用运行时不抓取网站，也没有后端。

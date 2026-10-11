@@ -1,5 +1,5 @@
-import snapshot from "./data/database.json";
-import translations from "./data/names.zh-CN.json";
+import snapshot from "./data/database.json" with { type: "json" };
+import translations from "./data/names.zh-CN.json" with { type: "json" };
 
 export type EntityType = "recipe" | "ingredient" | "fish" | "staff";
 export interface FactValue {
@@ -18,6 +18,7 @@ export interface Entity {
   facts: { labelId: string; values: FactValue[] }[];
   stats: Record<string, number | null>;
   fields?: Record<string, string>;
+  region?: string[];
   /** Translation IDs for scalar text attributes; null means unprovided. */
   facets: Record<string, string | null>;
   ingredients?: { ingredientId: string; quantity: number | null }[];
@@ -51,7 +52,8 @@ export function entityPath(entity: Entity | string) {
 export function searchable(entity: Entity) {
   const ingredients = (entity.ingredients ?? []).map(i => `${name(i.ingredientId)} ${getEntity(i.ingredientId)?.en ?? ""}`);
   return [name(entity.id), entity.en, ...ingredients, ...(entity.skillIds ?? []).map(name),
-    ...Object.values(entity.facets).filter((v): v is string => !!v).map(name)]
+    ...(entity.region ?? []).map(name),
+    ...Object.values(entity.facets).filter((value): value is string => !!value).map(name)]
     .join(" ").toLocaleLowerCase();
 }
 export function searchCatalog(query: string, type?: EntityType) {

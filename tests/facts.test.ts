@@ -167,6 +167,29 @@ test("translated scalar facets restore field labels and resolve current translat
   assert.equal(recipe.facets.acquisitionMethod, undefined);
 });
 
+test("corrected regions display from the top-level list without the obsolete numeric value", () => {
+  for (const [id, expected] of [
+    ["fish/white-shrimp", "蓝洞，0-130 米"], ["fish/bluefin-tuna", "蓝洞，0-50 米"],
+    ["fish/antarctic-octopus", "冰川区域"], ["fish/black-tiger-shrimp", "遇难船"],
+    ["fish/vampire-squid", "冰川通道"], ["fish/clione", "蓝洞，130-250 米"],
+    ["fish/alaska-pollock", "第一冰川洞穴"], ["fish/allenypterus", "热泉喷口"],
+    ["fish/atlantic-anglerfish", "钟乳石窟"],
+    ["fish/atlantic-mackerel", "蓝洞，50-130 米"], ["fish/blackfin-barracuda", "蓝洞，50-130 米"],
+    ["fish/whitetip-reefshark", "蓝洞，0-50 米"], ["fish/snub-nosed-spiny-eel", "第三冰川洞穴"],
+    ["fish/megamouth-shark", "蓝洞，130-250 米"], ["fish/viperfish", "蓝洞，130-250 米"],
+    ["fish/bloodskin-shark", "迷雾海岸"], ["fish/dredge-host-eel", "迷雾海岸"],
+    ["fish/translucent-sturgeon", "黑色峭壁"], ["fish/dredge-cortex-decorator", "黑色峭壁"],
+    ["fish/gazing-shark", "水母盆地"], ["fish/dredge-aurora-jellyfish", "水母盆地"],
+  ]) {
+    const fish = byId.get(id)!;
+    const display = getDisplayFacts(fish);
+    const regions = display.filter(fact => fact.labelId === "field/region");
+    assert.equal(regions.length, 1);
+    assert.equal(formatFactValue(regions[0].values[0], fish, translate), expected);
+    assert.ok(!display.some(fact => fact.labelId === "field/location"));
+  }
+});
+
 test("migrated numeric facts display current stats with inferred units and templates", () => {
   const fish = byId.get("fish/zebra-shark")!;
   assert.equal(fish.stats.length, 210);

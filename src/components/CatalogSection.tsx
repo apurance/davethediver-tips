@@ -5,6 +5,7 @@ import { database, entityTypes, name, searchable } from "../catalog";
 import type { Entity, EntityType } from "../catalog";
 import { EntityLink } from "./EntityLink";
 import { formatNumber } from "../utils/formatNumber";
+import { getRegions, matchesRegion } from "../regions";
 
 export const statText = (value: number | null | undefined, suffix = "") => value == null ? "未提供" : `${formatNumber(value)}${suffix}`;
 
@@ -21,7 +22,7 @@ export function CatalogSection({ type }: { type: EntityType }) {
   }, { replace: true });
   const entries = type === "recipe" ? database.recipes : type === "ingredient" ? database.ingredients : type === "fish" ? database.fish : database.staff;
   const data = entries.filter(e => searchable(e).includes(term.trim().toLocaleLowerCase()) &&
-    (region === "all" || e.facets.region === region) &&
+    matchesRegion(e, region) &&
     (kind === "all" || (kind === "multiple" ? (e.stats.maxServings ?? 0) > 1 : kind === "simple" ? e.ingredients?.length === 1 : kind === "taste" ? (e.stats.maxTaste ?? 0) >= 375 : e.facets.tier === kind)));
   const columns = [
     { title: `${entityTypes[type]} / 英文名`, key: "name", width: 245, render: (_: unknown, e: Entity) => <div><strong><EntityLink id={e.id} /></strong><small className="catalog-en">{e.en}</small></div> },
@@ -34,7 +35,7 @@ export function CatalogSection({ type }: { type: EntityType }) {
       ...[["maxCooking", "满级烹饪"], ["maxServing", "满级服务"], ["maxProcurement", "满级采购"], ["maxAppeal", "满级吸引力"]].map(([key, title]) => ({ title, key, render: (_: unknown, e: Entity) => statText(e.stats[key]), sorter: (a: Entity, b: Entity) => (a.stats[key] ?? -1) - (b.stats[key] ?? -1) })),
       { title: "技能", key: "skills", width: 230, render: (_: unknown, e: Entity) => e.skillIds?.length ? e.skillIds.map(id => <Tag key={id}>{name(id)}</Tag>) : "未提供" },
     ] : type === "fish" ? [
-      { title: "区域 / 时段", key: "location", render: (_: unknown, e: Entity) => <>{e.facets.region ? name(e.facets.region) : "未提供"}<small className="catalog-en">{e.facets.time ? name(e.facets.time) : "未提供"}</small></> },
+      { title: "区域 / 时段", key: "location", render: (_: unknown, e: Entity) => <>{e.region?.length ? e.region.map(name).join("、") : "未提供"}<small className="catalog-en">{e.facets.time ? name(e.facets.time) : "未提供"}</small></> },
       { title: "等级", key: "rank", render: (_: unknown, e: Entity) => statText(e.stats.rank), sorter: (a: Entity, b: Entity) => (a.stats.rank ?? -1) - (b.stats.rank ?? -1) },
       { title: "重量", key: "weight", render: (_: unknown, e: Entity) => statText(e.stats.weight, " kg") },
       { title: "鱼肉 · 1 / 2 / 3 星", key: "meat", render: (_: unknown, e: Entity) => [1, 2, 3].map(i => statText(e.stats[`meat${i}`])).join(" / ") },
@@ -50,7 +51,7 @@ export function CatalogSection({ type }: { type: EntityType }) {
       {type === "recipe" && <Select aria-label="数据库菜谱筛选" value={kind} onChange={value => set("kind", value)} options={[
         { value: "all", label: "全部菜谱" }, { value: "multiple", label: "多份料理" }, { value: "simple", label: "单一原料" }, { value: "taste", label: "满级口感 ≥ 375" },
       ]} />}
-      {type === "fish" && <Select aria-label="鱼类区域筛选" value={region} onChange={value => set("region", value)} options={[{ value: "all", label: "全部区域" }, ...[...new Set(entries.map(e => e.facets.region).filter((v): v is string => !!v))].map(value => ({ value, label: name(value) }))]} />}
+      {type === "fish" && <Select aria-label="鱼类区域筛选" value={region} onChange={value => set("region", value)} options={[{ value: "all", label: "全部区域" }, ...getRegions(entries).map(value => ({ value, label: name(value) }))]} />}
       {type === "staff" && <Select aria-label="员工评级筛选" value={kind} onChange={value => set("kind", value)} options={[{ value: "all", label: "全部评级" }, ...[...new Set(entries.map(e => e.facets.tier).filter((v): v is string => !!v))].map(value => ({ value, label: name(value) }))]} />}
       <span className="muted small">{data.length} / {entries.length} 条</span>
     </div>

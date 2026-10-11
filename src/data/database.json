@@ -23712,10 +23712,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -23773,14 +23774,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -23802,8 +23795,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -23872,10 +23867,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -23930,10 +23926,11 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -24004,10 +24001,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -24049,14 +24047,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -24078,8 +24068,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -24122,14 +24114,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -24151,8 +24135,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -24224,10 +24210,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -24269,14 +24256,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Cargo Ship"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -24298,8 +24277,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/42a2a7652438"
+      ],
       "facets": {
-        "region": "region/42a2a7652438",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/0c70665b6eb6",
         "size": "text/5b3ed24e0472",
@@ -24359,14 +24340,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Passage"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -24388,8 +24361,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/22dcf4d19351"
+      ],
       "facets": {
-        "region": "region/22dcf4d19351",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -24463,18 +24438,18 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": 17,
-        "region": 130,
         "length": 8,
         "health": 10,
         "damage": 0,
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/blue-hole-0-130-meters"
+      ],
       "facets": {
-        "region": "region/38d66d9692ac",
         "time": "time/0b97c851e4a7",
         "photoMode": "text/0c70665b6eb6",
-        "location": "text/0d38a9588543",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -24508,14 +24483,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Dungeon 1"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -24537,8 +24504,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area-dungeon-1"
+      ],
       "facets": {
-        "region": "region/24fb2a0959cc",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -24573,14 +24542,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -24602,8 +24563,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -24638,14 +24601,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Dungeon 1"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -24667,8 +24622,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area-dungeon-1"
+      ],
       "facets": {
-        "region": "region/24fb2a0959cc",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -24711,14 +24668,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Limestone Cave"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -24740,8 +24689,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/limestone-cave"
+      ],
       "facets": {
-        "region": "region/2e779c8a0bb0",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -24813,10 +24764,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -24881,10 +24833,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -24939,10 +24892,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25000,14 +24954,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Cargo Ship"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -25029,8 +24975,10 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/42a2a7652438"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -25073,14 +25021,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -25102,8 +25042,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -25159,10 +25101,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25225,10 +25168,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25291,10 +25235,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25357,10 +25302,11 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25431,10 +25377,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25476,14 +25423,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -25505,8 +25444,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -25549,14 +25490,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -25578,8 +25511,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -25643,10 +25578,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25688,14 +25624,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -25717,8 +25645,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -25782,10 +25712,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25856,10 +25787,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25935,10 +25867,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -25980,14 +25913,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -26009,8 +25934,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/a939d5c04382",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -26074,10 +26001,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26148,10 +26076,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/b77ea2b347b8",
-        "location": "text/82a8f0e0b78d",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26214,10 +26143,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26280,10 +26210,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26346,10 +26277,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26425,10 +26357,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26491,10 +26424,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26549,10 +26483,11 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/c7dc7765b88f",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a36858866c13",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26615,10 +26550,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26681,10 +26617,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26747,10 +26684,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -26800,14 +26738,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Passage"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -26829,8 +26759,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/22dcf4d19351"
+      ],
       "facets": {
-        "region": "region/22dcf4d19351",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -26873,14 +26805,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -26902,8 +26826,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -26938,14 +26864,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -26967,8 +26885,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -27032,10 +26952,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27098,10 +27019,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27164,10 +27086,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27230,10 +27153,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27296,10 +27220,11 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27349,14 +27274,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Dungeon 3"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -27378,8 +27295,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area-dungeon-3"
+      ],
       "facets": {
-        "region": "region/ba6c7e6f0963",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -27443,10 +27362,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/b77ea2b347b8",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27509,10 +27429,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27575,10 +27496,11 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27620,14 +27542,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -27649,8 +27563,10 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -27722,10 +27638,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27812,10 +27729,11 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -27857,14 +27775,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -27886,8 +27796,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -27951,10 +27863,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28016,10 +27929,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28081,10 +27995,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28146,10 +28061,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28211,10 +28127,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28277,10 +28194,11 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28342,10 +28260,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/b77ea2b347b8",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28379,14 +28298,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -28407,8 +28318,10 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/8083d1ea35d1",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -28468,10 +28381,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28533,10 +28447,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28590,10 +28505,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/b77ea2b347b8",
-        "location": "text/82a8f0e0b78d",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28657,10 +28573,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28739,10 +28656,11 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/0b97c851e4a7",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28784,14 +28702,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -28812,8 +28722,10 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/a939d5c04382",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -28873,10 +28785,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -28918,14 +28831,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -28946,8 +28851,10 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/a939d5c04382",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -28990,14 +28897,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29018,8 +28917,10 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/8083d1ea35d1",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -29082,10 +28983,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -29127,14 +29029,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29155,8 +29049,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -29206,14 +29102,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Passage"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29234,8 +29122,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/22dcf4d19351"
+      ],
       "facets": {
-        "region": "region/22dcf4d19351",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -29277,14 +29167,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Passage"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29305,8 +29187,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/22dcf4d19351"
+      ],
       "facets": {
-        "region": "region/22dcf4d19351",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -29360,10 +29244,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -29404,14 +29289,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Passage"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29432,8 +29309,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/22dcf4d19351"
+      ],
       "facets": {
-        "region": "region/22dcf4d19351",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -29475,14 +29354,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29503,8 +29374,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -29546,14 +29419,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29574,8 +29439,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -29637,10 +29504,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -29681,14 +29549,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Passage"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29709,8 +29569,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/22dcf4d19351"
+      ],
       "facets": {
-        "region": "region/22dcf4d19351",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -29744,14 +29606,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -29772,8 +29626,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -29852,10 +29708,11 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -29933,10 +29790,11 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -29989,10 +29847,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30045,10 +29904,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30102,10 +29962,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30169,10 +30030,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30252,10 +30114,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30311,10 +30174,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
         "time": "time/b77ea2b347b8",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30379,10 +30243,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30438,10 +30303,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30544,17 +30410,17 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": null,
-        "region": 130,
         "length": 250,
         "health": 180,
         "damage": 10,
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/38d66d9692ac",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30575,14 +30441,6 @@
       "inferred": false,
       "relatedIds": [],
       "facts": [
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Bottom"
-            }
-          ]
-        },
         {
           "labelId": "field/category",
           "values": [
@@ -30605,8 +30463,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9",
         "size": "text/8bc868b54922",
@@ -30656,10 +30516,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30707,10 +30568,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30766,10 +30628,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30802,14 +30665,6 @@
               "nameId": "recipe/lumpfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area Dungeon 3"
-            }
-          ]
         }
       ],
       "stats": {
@@ -30825,8 +30680,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/glacial-area-dungeon-3"
+      ],
       "facets": {
-        "region": "region/ba6c7e6f0963",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -30883,10 +30740,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -30943,14 +30801,6 @@
               "text": "Sailfish Meat, Sailfish Bill"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Cargo Ship"
-            }
-          ]
         }
       ],
       "stats": {
@@ -30966,8 +30816,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/42a2a7652438"
+      ],
       "facets": {
-        "region": "region/42a2a7652438",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -31024,10 +30876,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -31122,17 +30975,17 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": null,
-        "region": 130,
         "length": 150,
         "health": 140,
         "damage": 10,
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/38d66d9692ac",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -31219,10 +31072,11 @@
         "sellPrice": 8,
         "length": 210
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/0b97c851e4a7",
-        "location": "text/7ce92651c3c2"
+        "time": "time/0b97c851e4a7"
       },
       "fields": {
         "encyclopediaNumber": "0022",
@@ -31286,10 +31140,11 @@
         "sellPrice": 5,
         "length": 80
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0020",
@@ -31353,10 +31208,11 @@
         "sellPrice": 17,
         "length": 100
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/b77ea2b347b8",
-        "location": "text/7ce92651c3c2"
+        "time": "time/b77ea2b347b8"
       },
       "fields": {
         "encyclopediaNumber": "0505",
@@ -31408,10 +31264,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -31477,10 +31334,11 @@
         "sellPrice": 3,
         "length": 38
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/0b97c851e4a7",
-        "location": "text/7ce92651c3c2"
+        "time": "time/0b97c851e4a7"
       },
       "fields": {
         "encyclopediaNumber": "0025",
@@ -31536,10 +31394,11 @@
         "sellPrice": 20,
         "length": 140
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/b77ea2b347b8",
-        "location": "text/3e14c1d7039b"
+        "time": "time/b77ea2b347b8"
       },
       "fields": {
         "encyclopediaNumber": "0510",
@@ -31576,14 +31435,6 @@
               "text": "Bloodskin Shark Tendon"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -31599,8 +31450,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -31660,10 +31513,11 @@
         "sellPrice": 5,
         "length": 30
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0021",
@@ -31701,14 +31555,6 @@
               "nameId": "recipe/gazing-shark-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -31724,8 +31570,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -31793,10 +31641,11 @@
         "sellPrice": 31,
         "length": 350
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0208",
@@ -31843,14 +31692,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacier Zone"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -31868,8 +31709,10 @@
         "sellPrice": 55,
         "length": 400
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab"
       },
       "fields": {
@@ -31930,10 +31773,11 @@
         "sellPrice": 17,
         "length": 650
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/0b97c851e4a7",
-        "location": "text/3e14c1d7039b"
+        "time": "time/0b97c851e4a7"
       },
       "fields": {
         "encyclopediaNumber": "0118",
@@ -31989,10 +31833,11 @@
         "sellPrice": 5,
         "length": 70
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/0b97c851e4a7",
-        "location": "text/7ce92651c3c2"
+        "time": "time/0b97c851e4a7"
       },
       "fields": {
         "encyclopediaNumber": "0026",
@@ -32029,14 +31874,6 @@
               "nameId": "recipe/translucent-sturgeon-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32052,8 +31889,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -32086,14 +31925,6 @@
               "nameId": "recipe/aurora-jellyfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32109,8 +31940,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -32144,14 +31977,6 @@
               "nameId": "recipe/barbed-eel-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32167,8 +31992,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -32201,14 +32028,6 @@
               "nameId": "recipe/bony-wreckfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32224,8 +32043,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -32259,14 +32080,6 @@
               "nameId": "recipe/bursting-anglerfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32282,8 +32095,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -32316,14 +32131,6 @@
               "nameId": "recipe/cerebral-crab-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32339,8 +32146,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -32373,14 +32182,6 @@
               "nameId": "recipe/concertina-barracuda-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32396,8 +32197,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -32430,14 +32233,6 @@
               "nameId": "recipe/cortex-decorator-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32453,8 +32248,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -32487,14 +32284,6 @@
               "nameId": "recipe/entangled-crab-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32510,8 +32299,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -32544,14 +32335,6 @@
               "nameId": "recipe/enthralled-stonefish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32567,8 +32350,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -32601,14 +32386,6 @@
               "nameId": "recipe/fanged-cod-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32624,8 +32401,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -32658,14 +32437,6 @@
               "nameId": "recipe/gelatinous-stonefish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32681,8 +32452,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -32715,14 +32488,6 @@
               "nameId": "recipe/gnashing-perch-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32738,8 +32503,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -32799,10 +32566,11 @@
         "sellPrice": 6,
         "length": 170
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/0b97c851e4a7",
-        "location": "text/3e14c1d7039b"
+        "time": "time/0b97c851e4a7"
       },
       "fields": {
         "marincaCardNumber": "0119"
@@ -32830,14 +32598,6 @@
               "nameId": "recipe/grotesque-mackerel-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32853,8 +32613,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -32887,14 +32649,6 @@
               "nameId": "recipe/host-eel-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32910,8 +32664,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -32944,14 +32700,6 @@
               "nameId": "recipe/imperious-lobster-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32967,8 +32715,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -33029,10 +32779,11 @@
         "sellPrice": 12,
         "length": 210
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/0b97c851e4a7",
-        "location": "text/3e14c1d7039b"
+        "time": "time/0b97c851e4a7"
       },
       "fields": {
         "encyclopediaNumber": "0121",
@@ -33061,14 +32812,6 @@
               "nameId": "recipe/malignant-pincer-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33084,8 +32827,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -33119,14 +32864,6 @@
               "nameId": "recipe/many-eyed-mackerel-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33142,8 +32879,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -33177,14 +32916,6 @@
               "nameId": "recipe/parhelion-jellyfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33200,8 +32931,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -33234,14 +32967,6 @@
               "nameId": "recipe/perished-loosejaw-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33257,8 +32982,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -33291,14 +33018,6 @@
               "nameId": "recipe/radiant-squid-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33314,8 +33033,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -33348,14 +33069,6 @@
               "nameId": "recipe/sallow-sailfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33371,8 +33084,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -33405,14 +33120,6 @@
               "nameId": "recipe/savage-barracuda-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33428,8 +33135,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -33462,14 +33171,6 @@
               "nameId": "recipe/scouring-bass-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33485,8 +33186,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -33519,14 +33222,6 @@
               "nameId": "recipe/seizing-snailfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33542,8 +33237,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/565a3a911b9e",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -33576,14 +33273,6 @@
               "nameId": "recipe/shattered-wreckfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33599,8 +33288,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -33633,14 +33324,6 @@
               "nameId": "recipe/splintered-crab-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33656,8 +33339,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -33692,14 +33377,6 @@
               "nameId": "recipe/sprouting-eel-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33715,8 +33392,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -33749,14 +33428,6 @@
               "nameId": "recipe/three-headed-cod-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33772,8 +33443,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -33806,14 +33479,6 @@
               "nameId": "recipe/tusked-grouper-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33829,8 +33494,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -33863,14 +33530,6 @@
               "nameId": "recipe/voltaic-grouper-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33886,8 +33545,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/a7a86e92fda1",
         "time": "time/b77ea2b347b8",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -33920,14 +33581,6 @@
               "nameId": "recipe/withered-ray-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -33943,8 +33596,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/d3b15f5fc5e0",
         "time": "time/b77ea2b347b8",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -33978,14 +33633,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -34000,8 +33647,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -34032,14 +33681,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacial Area"
-            }
-          ]
         }
       ],
       "stats": {
@@ -34054,8 +33695,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/0a2c39a94fa4",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -34100,10 +33743,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34148,10 +33792,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34195,10 +33840,11 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34243,10 +33889,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/82a8f0e0b78d",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34290,10 +33937,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/a36858866c13",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a36858866c13",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34339,10 +33987,11 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34386,10 +34035,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/721eb9e71c69",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34434,10 +34084,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34482,10 +34133,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34529,10 +34181,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34577,10 +34230,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34611,14 +34265,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -34633,8 +34279,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -34680,10 +34328,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34714,14 +34363,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle Lake 75m F"
-            }
-          ]
         }
       ],
       "stats": {
@@ -34736,8 +34377,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/32aeb2b0139d"
+      ],
       "facets": {
-        "region": "region/32aeb2b0139d",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -34782,10 +34425,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34816,14 +34460,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -34838,8 +34474,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -34884,10 +34522,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34932,10 +34571,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -34980,10 +34620,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -35027,10 +34668,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -35075,10 +34717,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -35122,10 +34765,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -35156,14 +34800,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35178,8 +34814,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -35211,14 +34849,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35233,8 +34863,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -35265,14 +34897,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35287,8 +34911,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/058e4a69c82b",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -35319,14 +34945,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35341,8 +34959,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/08ef2f2f3427",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -35373,14 +34993,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35395,8 +35007,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/bedf0a56656f",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -35427,14 +35041,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35449,8 +35055,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/08ef2f2f3427",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -35481,14 +35089,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35503,8 +35103,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/633f56248caa",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -35535,14 +35137,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35557,8 +35151,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/c38ca7282d29",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -35589,14 +35185,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35611,8 +35199,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/633f56248caa",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -35643,14 +35233,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35665,8 +35247,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/c38ca7282d29",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -35697,14 +35281,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35719,8 +35295,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/08ef2f2f3427",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -35751,14 +35329,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35773,8 +35343,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/c38ca7282d29",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -35805,14 +35377,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35827,8 +35391,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/bedf0a56656f",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -35859,14 +35425,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35881,8 +35439,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/08ef2f2f3427",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -35913,14 +35473,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35935,8 +35487,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/13196b992ff3",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -35967,14 +35521,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -35989,8 +35535,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/058e4a69c82b",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36021,14 +35569,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36043,8 +35583,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/13196b992ff3",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36075,14 +35617,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36097,8 +35631,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/633f56248caa",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -36129,14 +35665,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36151,8 +35679,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/058e4a69c82b",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36183,14 +35713,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36205,8 +35727,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/13196b992ff3",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -36237,14 +35761,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36259,8 +35775,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/633f56248caa",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -36291,14 +35809,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36313,8 +35823,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/bedf0a56656f",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36345,14 +35857,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point03 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36367,8 +35871,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/565a3a911b9e"
+      ],
       "facets": {
-        "region": "region/058e4a69c82b",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36399,14 +35905,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36421,8 +35919,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/bedf0a56656f",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -36453,14 +35953,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36475,8 +35967,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/bedf0a56656f",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36506,14 +36000,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36528,8 +36014,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/08ef2f2f3427",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -36560,14 +36048,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36582,8 +36062,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/bedf0a56656f",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -36614,14 +36096,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36636,8 +36110,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/13196b992ff3",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -36668,14 +36144,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point01 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36690,8 +36158,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/a7a86e92fda1"
+      ],
       "facets": {
-        "region": "region/13196b992ff3",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -36722,14 +36192,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Dredge Point02 B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36744,8 +36206,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/d3b15f5fc5e0"
+      ],
       "facets": {
-        "region": "region/c38ca7282d29",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -36777,14 +36241,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36799,8 +36255,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -36831,14 +36289,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle RPG"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36853,8 +36303,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/359ebf977a3a"
+      ],
       "facets": {
-        "region": "region/359ebf977a3a",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36885,14 +36337,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36907,8 +36351,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36939,14 +36385,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -36961,8 +36399,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -36994,14 +36434,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle Lake 75m E"
-            }
-          ]
         }
       ],
       "stats": {
@@ -37016,8 +36448,10 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/b1ea289d6e31"
+      ],
       "facets": {
-        "region": "region/b1ea289d6e31",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -37048,14 +36482,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -37070,8 +36496,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -37117,10 +36545,11 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37150,14 +36579,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle RPG"
-            }
-          ]
         }
       ],
       "stats": {
@@ -37172,8 +36593,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/359ebf977a3a"
+      ],
       "facets": {
-        "region": "region/359ebf977a3a",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -37220,10 +36643,11 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37268,10 +36692,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37316,10 +36741,11 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37366,10 +36792,11 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/721eb9e71c69",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37414,10 +36841,11 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37461,10 +36889,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37494,14 +36923,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -37516,8 +36937,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -37562,10 +36985,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37595,14 +37019,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -37617,8 +37033,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -37663,10 +37081,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37712,10 +37131,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37759,10 +37179,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37807,10 +37228,11 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37855,10 +37277,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37903,10 +37326,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37951,10 +37375,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -37984,14 +37409,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle Tropical Zone Inside"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38006,8 +37423,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/79551b7d17a7"
+      ],
       "facets": {
-        "region": "region/79551b7d17a7",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -38038,14 +37457,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle RPG"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38060,8 +37471,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/359ebf977a3a"
+      ],
       "facets": {
-        "region": "region/359ebf977a3a",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -38092,14 +37505,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle Lake 20m A"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38114,8 +37519,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/c35e35fc142f"
+      ],
       "facets": {
-        "region": "region/c35e35fc142f",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -38161,10 +37568,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -38194,14 +37602,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle Tropical Zone Inside"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38216,8 +37616,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/79551b7d17a7"
+      ],
       "facets": {
-        "region": "region/79551b7d17a7",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -38263,10 +37665,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -38307,14 +37710,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacier Zone"
-            }
-          ]
-        },
-        {
           "labelId": "field/category",
           "values": [
             {
@@ -38332,8 +37727,10 @@
         "sellPrice": 46,
         "length": 300
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab"
       },
       "fields": {
@@ -38376,10 +37773,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -38410,14 +37808,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38432,8 +37822,10 @@
         "harvestCount": 2,
         "captureRank": 99
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -38465,14 +37857,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38487,8 +37871,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -38519,14 +37905,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38541,8 +37919,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -38574,14 +37954,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38596,8 +37968,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -38628,14 +38002,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle RPG"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38650,8 +38016,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/359ebf977a3a"
+      ],
       "facets": {
-        "region": "region/359ebf977a3a",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -38697,10 +38065,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -38746,10 +38115,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -38780,14 +38150,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle Lake 20m B"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38802,8 +38164,10 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/e5e3f5c9a576"
+      ],
       "facets": {
-        "region": "region/e5e3f5c9a576",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -38849,10 +38213,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/3d6617b736c4"
+      ],
       "facets": {
-        "region": "region/3d6617b736c4",
         "time": "time/6fa7e15a01ab",
-        "location": "text/3d6617b736c4",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -38883,14 +38248,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38905,8 +38262,10 @@
         "harvestCount": 1,
         "captureRank": 99
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
@@ -38937,14 +38296,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -38959,8 +38310,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39006,10 +38359,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39054,10 +38408,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39087,14 +38442,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39109,8 +38456,10 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39156,10 +38505,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/82a8f0e0b78d",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39189,14 +38539,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle RPG"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39211,8 +38553,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/359ebf977a3a"
+      ],
       "facets": {
-        "region": "region/359ebf977a3a",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39257,10 +38601,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39304,10 +38649,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39338,14 +38684,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39360,8 +38698,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39392,14 +38732,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle Tropical Zone Inside"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39414,8 +38746,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/79551b7d17a7"
+      ],
       "facets": {
-        "region": "region/79551b7d17a7",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39460,10 +38794,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39508,10 +38843,11 @@
         "harvestCount": 0,
         "captureRank": 10
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/721eb9e71c69",
         "time": "time/6fa7e15a01ab",
-        "location": "text/721eb9e71c69",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39542,14 +38878,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle RPG"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39564,8 +38892,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/359ebf977a3a"
+      ],
       "facets": {
-        "region": "region/359ebf977a3a",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39597,14 +38927,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39619,8 +38941,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -39652,14 +38976,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle RPG"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39674,8 +38990,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/359ebf977a3a"
+      ],
       "facets": {
-        "region": "region/359ebf977a3a",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39706,14 +39024,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle RPG"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39728,8 +39038,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/359ebf977a3a"
+      ],
       "facets": {
-        "region": "region/359ebf977a3a",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39760,14 +39072,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle Tropical Zone Inside"
-            }
-          ]
         }
       ],
       "stats": {
@@ -39782,8 +39086,10 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/79551b7d17a7"
+      ],
       "facets": {
-        "region": "region/79551b7d17a7",
         "time": "time/6fa7e15a01ab",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
@@ -39829,10 +39135,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39877,10 +39184,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/a1667dce2eba"
+      ],
       "facets": {
-        "region": "region/a1667dce2eba",
         "time": "time/6fa7e15a01ab",
-        "location": "text/a1667dce2eba",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39924,10 +39232,11 @@
         "harvestCount": 0,
         "captureRank": 0
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/82a8f0e0b78d",
         "time": "time/6fa7e15a01ab",
-        "location": "text/82a8f0e0b78d",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -39960,14 +39269,6 @@
           ]
         },
         {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "control room"
-            }
-          ]
-        },
-        {
           "labelId": "field/camera-mode",
           "values": [
             {
@@ -39985,8 +39286,10 @@
         "sellPrice": null,
         "length": 30
       },
+      "region": [
+        "region/c7dc7765b88f"
+      ],
       "facets": {
-        "region": "region/c7dc7765b88f",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/0c70665b6eb6"
       },
@@ -40031,10 +39334,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -40076,10 +39380,11 @@
         "damage": 0,
         "harvestCount": 0
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/b77ea2b347b8",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -40123,10 +39428,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -40173,10 +39479,11 @@
         "harvestCount": 0,
         "captureRank": 99
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -40212,14 +39519,6 @@
               "text": "Hammerhead Meat, Hammerhead Shark Skull"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "shipwreck"
-            }
-          ]
         }
       ],
       "stats": {
@@ -40231,8 +39530,10 @@
         "sellPrice": 47,
         "length": 280
       },
+      "region": [
+        "region/42a2a7652438"
+      ],
       "facets": {
-        "region": "region/42a2a7652438",
         "time": "time/6fa7e15a01ab"
       },
       "fields": {
@@ -40276,10 +39577,11 @@
         "harvestCount": 2,
         "captureRank": 10
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/8c354854b261",
         "time": "time/6fa7e15a01ab",
-        "location": "text/8c354854b261",
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -40310,14 +39612,6 @@
               "text": "Fish & Seafood"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Jungle underwater cave"
-            }
-          ]
         }
       ],
       "stats": {
@@ -40331,8 +39625,10 @@
         "damage": 45,
         "captureRank": 0
       },
+      "region": [
+        "region/07c551962a8c"
+      ],
       "facets": {
-        "region": "region/07c551962a8c",
         "time": "time/6fa7e15a01ab",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
@@ -40391,10 +39687,11 @@
         "sellPrice": null,
         "length": 70
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0204",
@@ -40450,10 +39747,11 @@
         "sellPrice": null,
         "length": 230
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0038",
@@ -40489,14 +39787,6 @@
               "nameId": "recipe/seadragon-onigiri"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "vents"
-            }
-          ]
         }
       ],
       "stats": {
@@ -40508,8 +39798,10 @@
         "sellPrice": null,
         "length": 24
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/8083d1ea35d1",
         "time": "time/6fa7e15a01ab"
       },
       "fields": {
@@ -40566,10 +39858,11 @@
         "sellPrice": null,
         "length": 150
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0030",
@@ -40633,10 +39926,11 @@
         "sellPrice": null,
         "length": 80
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/0b97c851e4a7",
-        "location": "text/7ce92651c3c2"
+        "time": "time/0b97c851e4a7"
       },
       "fields": {
         "encyclopediaNumber": "0023",
@@ -40673,14 +39967,6 @@
               "nameId": "recipe/dried-stingray"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacier Zone"
-            }
-          ]
         }
       ],
       "stats": {
@@ -40692,8 +39978,10 @@
         "sellPrice": 44,
         "length": 120
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab"
       },
       "fields": {
@@ -40751,10 +40039,11 @@
         "sellPrice": null,
         "length": 100
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0032",
@@ -40810,10 +40099,11 @@
         "sellPrice": null,
         "length": 50
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/3e14c1d7039b"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0117",
@@ -40876,10 +40166,11 @@
         "sellPrice": null,
         "length": 35
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0602",
@@ -40919,10 +40210,11 @@
         "sellPrice": null,
         "length": 6
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0003",
@@ -40970,10 +40262,11 @@
         "sellPrice": null,
         "length": 15
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/3e14c1d7039b"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0102",
@@ -41036,10 +40329,11 @@
         "sellPrice": null,
         "length": 10
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0603",
@@ -41102,10 +40396,11 @@
         "sellPrice": null,
         "length": 5
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/3e14c1d7039b"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0604",
@@ -41168,10 +40463,11 @@
         "sellPrice": null,
         "length": 10
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/3e14c1d7039b"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0605",
@@ -41234,10 +40530,11 @@
         "sellPrice": null,
         "length": 10
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/3e14c1d7039b"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0606",
@@ -41300,10 +40597,11 @@
         "sellPrice": null,
         "length": 14
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0607",
@@ -41354,10 +40652,11 @@
         "sellPrice": null,
         "length": 30
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0011",
@@ -41385,14 +40684,6 @@
               "nameId": "recipe/seadragon-onigiri"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "glacier zone"
-            }
-          ]
         }
       ],
       "stats": {
@@ -41404,8 +40695,10 @@
         "sellPrice": null,
         "length": 35
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/a939d5c04382",
         "time": "time/6fa7e15a01ab"
       },
       "fields": {
@@ -41469,10 +40762,11 @@
         "sellPrice": null,
         "length": 17
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0608",
@@ -41536,10 +40830,11 @@
         "sellPrice": null,
         "length": 21
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0609",
@@ -41587,10 +40882,11 @@
         "sellPrice": null,
         "length": 6
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0008",
@@ -41653,10 +40949,11 @@
         "sellPrice": null,
         "length": 19
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0610",
@@ -41704,10 +41001,11 @@
         "sellPrice": null,
         "length": 20
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0010",
@@ -41747,10 +41045,11 @@
         "sellPrice": null,
         "length": 6
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/b77ea2b347b8",
-        "location": "text/7ce92651c3c2"
+        "time": "time/b77ea2b347b8"
       },
       "fields": {
         "encyclopediaNumber": "0701",
@@ -41790,10 +41089,11 @@
         "sellPrice": null,
         "length": 30
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0007",
@@ -41833,10 +41133,11 @@
         "sellPrice": null,
         "length": 20
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0004",
@@ -41900,10 +41201,11 @@
         "sellPrice": null,
         "length": 200
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0207",
@@ -41966,10 +41268,11 @@
         "sellPrice": null,
         "length": 30
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0611",
@@ -42017,10 +41320,11 @@
         "sellPrice": null,
         "length": 30
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/3e14c1d7039b"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0105",
@@ -42083,10 +41387,11 @@
         "sellPrice": null,
         "length": 18
       },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
       "facets": {
-        "region": "region/ef809f2febc3",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/3e14c1d7039b"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0612",
@@ -42114,14 +41419,6 @@
               "nameId": "recipe/seadragon-onigiri"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "glacier zone"
-            }
-          ]
         }
       ],
       "stats": {
@@ -42133,8 +41430,10 @@
         "sellPrice": null,
         "length": 43
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/a939d5c04382",
         "time": "time/6fa7e15a01ab"
       },
       "fields": {
@@ -42198,10 +41497,11 @@
         "sellPrice": null,
         "length": 16
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0601",
@@ -42253,14 +41553,6 @@
               "nameId": "recipe/seahorse-udon"
             }
           ]
-        },
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "limestone"
-            }
-          ]
         }
       ],
       "stats": {
@@ -42272,8 +41564,10 @@
         "sellPrice": null,
         "length": 15
       },
+      "region": [
+        "region/147a8ea18403"
+      ],
       "facets": {
-        "region": "region/147a8ea18403",
         "time": "time/6fa7e15a01ab"
       },
       "fields": {
@@ -42314,10 +41608,11 @@
         "sellPrice": null,
         "length": 60
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "marincaCardNumber": "0216"
@@ -42333,16 +41628,7 @@
       ],
       "inferred": false,
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Vents"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -42352,8 +41638,10 @@
         "sellPrice": null,
         "length": 20
       },
+      "region": [
+        "region/hydrothermal-vents"
+      ],
       "facets": {
-        "region": "region/ca854cecffbc",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9",
         "cameraMode": "text/b5141d3d19e9"
@@ -42383,11 +41671,12 @@
         "sellPrice": null,
         "length": 550
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9",
-        "location": "text/7ce92651c3c2",
         "cameraMode": "text/b5141d3d19e9"
       },
       "fields": {
@@ -42405,16 +41694,7 @@
       ],
       "inferred": false,
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacier Zone"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -42424,8 +41704,10 @@
         "sellPrice": null,
         "length": 3000
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9",
         "cameraMode": "text/b5141d3d19e9"
@@ -42455,11 +41737,12 @@
         "sellPrice": null,
         "length": 350
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9",
-        "location": "text/7ce92651c3c2",
         "cameraMode": "text/b5141d3d19e9"
       },
       "fields": {
@@ -42487,11 +41770,12 @@
         "sellPrice": null,
         "length": 400
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
         "photoMode": "text/b5141d3d19e9",
-        "location": "text/7ce92651c3c2",
         "cameraMode": "text/b5141d3d19e9"
       },
       "fields": {
@@ -42519,11 +41803,12 @@
         "sellPrice": null,
         "length": 1100
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9",
-        "location": "text/314218dba0c6",
         "cameraMode": "text/b5141d3d19e9"
       },
       "fields": {
@@ -42551,11 +41836,12 @@
         "sellPrice": null,
         "length": 350
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9",
-        "location": "text/314218dba0c6",
         "cameraMode": "text/b5141d3d19e9"
       },
       "fields": {
@@ -42583,11 +41869,12 @@
         "sellPrice": null,
         "length": 450
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9",
-        "location": "text/7ce92651c3c2",
         "cameraMode": "text/b5141d3d19e9"
       },
       "fields": {
@@ -42615,11 +41902,12 @@
         "sellPrice": null,
         "length": 40
       },
+      "region": [
+        "region/8c354854b261"
+      ],
       "facets": {
-        "region": "region/544dd3e67759",
         "time": "time/b77ea2b347b8",
         "photoMode": "text/b5141d3d19e9",
-        "location": "text/7ce92651c3c2",
         "cameraMode": "text/b5141d3d19e9"
       },
       "fields": {
@@ -42637,16 +41925,7 @@
       ],
       "inferred": false,
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/location",
-          "values": [
-            {
-              "text": "Glacier Zone"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -42656,8 +41935,10 @@
         "sellPrice": null,
         "length": 220
       },
+      "region": [
+        "region/glacial-area"
+      ],
       "facets": {
-        "region": "region/fee0ef0b4687",
         "time": "time/6fa7e15a01ab",
         "cameraMode": "text/b5141d3d19e9"
       },
@@ -42686,10 +41967,11 @@
         "sellPrice": null,
         "length": 50
       },
+      "region": [
+        "region/glacial-area-dungeon-1"
+      ],
       "facets": {
-        "region": "region/24fb2a0959cc",
         "time": "time/6fa7e15a01ab",
-        "location": "text/5214180edc08",
         "cameraMode": "text/b5141d3d19e9"
       },
       "fields": {
@@ -42729,8 +42011,8 @@
         "meat3": null,
         "sellPrice": 12
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -42771,8 +42053,8 @@
         "meat3": null,
         "sellPrice": 3
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -42795,10 +42077,11 @@
         "meat3": null,
         "sellPrice": null
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/d16725cb6347",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/314218dba0c6"
+        "time": "time/6fa7e15a01ab"
       }
     },
     {
@@ -42833,8 +42116,8 @@
         "meat3": null,
         "sellPrice": 8
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -42869,8 +42152,8 @@
         "meat3": null,
         "sellPrice": 35
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -42905,8 +42188,8 @@
         "meat3": null,
         "sellPrice": 2
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -42941,8 +42224,8 @@
         "meat3": null,
         "sellPrice": 17
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -42978,8 +42261,8 @@
         "meat3": null,
         "sellPrice": 15
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -43019,8 +42302,8 @@
         "meat3": null,
         "sellPrice": 6
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -43055,8 +42338,8 @@
         "meat3": null,
         "sellPrice": 9
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -43091,8 +42374,8 @@
         "meat3": null,
         "sellPrice": 10
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -43130,8 +42413,8 @@
         "meat3": null,
         "sellPrice": 5
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -43171,10 +42454,11 @@
         "meat3": null,
         "sellPrice": null
       },
+      "region": [
+        "region/7ce92651c3c2"
+      ],
       "facets": {
-        "region": "region/7ce92651c3c2",
-        "time": "time/6fa7e15a01ab",
-        "location": "text/7ce92651c3c2"
+        "time": "time/6fa7e15a01ab"
       }
     },
     {
@@ -43205,8 +42489,8 @@
         "meat3": null,
         "sellPrice": 1
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -43256,8 +42540,8 @@
         "meat3": null,
         "sellPrice": null
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null,
         "gender": "text/0ab4610b9257"
       }
@@ -43281,8 +42565,8 @@
         "meat3": null,
         "sellPrice": null
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null,
         "collectionUnlock": "text/7bc4a174a078",
         "racingUnlock": "text/2d28e9895f35",
@@ -43318,8 +42602,8 @@
         "meat3": null,
         "sellPrice": 2
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -43354,8 +42638,8 @@
         "meat3": null,
         "sellPrice": 38
       },
+      "region": [],
       "facets": {
-        "region": null,
         "time": null
       }
     },
@@ -43387,10 +42671,11 @@
         "meat3": null,
         "sellPrice": null
       },
+      "region": [
+        "region/721eb9e71c69"
+      ],
       "facets": {
-        "region": "region/314218dba0c6",
-        "time": null,
-        "location": "text/314218dba0c6"
+        "time": null
       }
     }
   ],
@@ -44847,9 +44132,10 @@
         "weight": 0.1,
         "rank": 2
       },
-      "facets": {
-        "region": "text/544dd3e67759"
-      }
+      "region": [
+        "text/544dd3e67759"
+      ],
+      "facets": {}
     },
     {
       "id": "ingredient/grade-a-egg",
@@ -45013,9 +44299,10 @@
         "weight": 0.1,
         "rank": 2
       },
-      "facets": {
-        "region": "text/ef809f2febc3"
-      }
+      "region": [
+        "text/ef809f2febc3"
+      ],
+      "facets": {}
     },
     {
       "id": "ingredient/klauss-fin",
@@ -45053,8 +44340,10 @@
         "weight": 1,
         "rank": 99
       },
+      "region": [
+        "text/544dd3e67759"
+      ],
       "facets": {
-        "region": "text/544dd3e67759",
         "time": "text/b77ea2b347b8"
       }
     },
@@ -45399,9 +44688,10 @@
         "weight": 2.5,
         "rank": 4
       },
-      "facets": {
-        "region": "text/544dd3e67759"
-      }
+      "region": [
+        "text/544dd3e67759"
+      ],
+      "facets": {}
     },
     {
       "id": "ingredient/whitetip-reefshark-meat",
@@ -45444,9 +44734,10 @@
         "weight": 2.5,
         "rank": 4
       },
-      "facets": {
-        "region": "text/544dd3e67759"
-      }
+      "region": [
+        "text/544dd3e67759"
+      ],
+      "facets": {}
     },
     {
       "id": "ingredient/bladderwrack",
@@ -45602,8 +44893,10 @@
         "weight": 1,
         "rank": 99
       },
+      "region": [
+        "text/d16725cb6347"
+      ],
       "facets": {
-        "region": "text/d16725cb6347",
         "time": "text/6fa7e15a01ab"
       }
     },
@@ -45799,9 +45092,10 @@
         "weight": 5,
         "rank": 4
       },
-      "facets": {
-        "region": "text/ef809f2febc3"
-      }
+      "region": [
+        "text/ef809f2febc3"
+      ],
+      "facets": {}
     },
     {
       "id": "ingredient/goblin-sharks-fatty-meat",
@@ -45831,8 +45125,10 @@
         "weight": 1,
         "rank": 99
       },
+      "region": [
+        "text/d16725cb6347"
+      ],
       "facets": {
-        "region": "text/d16725cb6347",
         "time": "text/6fa7e15a01ab"
       }
     },
@@ -46520,8 +45816,10 @@
         "weight": 1,
         "rank": 99
       },
+      "region": [
+        "text/ef809f2febc3"
+      ],
       "facets": {
-        "region": "text/ef809f2febc3",
         "time": "text/b77ea2b347b8"
       }
     },
@@ -46553,8 +45851,10 @@
         "weight": 1,
         "rank": 99
       },
+      "region": [
+        "text/ef809f2febc3"
+      ],
       "facets": {
-        "region": "text/ef809f2febc3",
         "time": "text/b77ea2b347b8"
       }
     },
@@ -46586,8 +45886,10 @@
         "weight": 1,
         "rank": 99
       },
+      "region": [
+        "text/544dd3e67759"
+      ],
       "facets": {
-        "region": "text/544dd3e67759",
         "time": "text/b77ea2b347b8"
       }
     },
@@ -47731,8 +47033,10 @@
         "weight": 1,
         "rank": 99
       },
+      "region": [
+        "text/544dd3e67759"
+      ],
       "facets": {
-        "region": "text/544dd3e67759",
         "time": "text/b77ea2b347b8"
       }
     },
@@ -47775,9 +47079,10 @@
         "weight": 3.5,
         "rank": 6
       },
-      "facets": {
-        "region": "text/544dd3e67759"
-      }
+      "region": [
+        "text/544dd3e67759"
+      ],
+      "facets": {}
     },
     {
       "id": "ingredient/seahorse-ingredient",
@@ -47874,9 +47179,10 @@
         "weight": 3,
         "rank": 6
       },
-      "facets": {
-        "region": "text/544dd3e67759"
-      }
+      "region": [
+        "text/544dd3e67759"
+      ],
+      "facets": {}
     },
     {
       "id": "ingredient/wolf-eel-tail-meat",

@@ -46,7 +46,7 @@ const additionalStatFields: Record<Entity["type"], [string, string][]> = {
   ],
   fish: [
     ["length", "length"], ["health", "health"], ["damage", "damage"],
-    ["harvest-count", "harvestCount"], ["capture-rank", "captureRank"], ["region", "region"],
+    ["harvest-count", "harvestCount"], ["capture-rank", "captureRank"],
   ],
   staff: [["cooking", "cooking"], ["appeal", "appeal"], ["serving", "serving"]],
 };
@@ -94,6 +94,7 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
     }
     if (values.length) append(field, values);
   }
+  if (entity.region?.length) append("region", entity.region.map(nameId => ({ nameId })));
   for (const [key, nameId] of Object.entries(entity.facets)) {
     const field = key === "time" ? "active-time" : key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
     if (nameId) append(field, [{ nameId }]);

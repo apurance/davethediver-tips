@@ -17,6 +17,12 @@ test("every catalog identifier and translation reference resolves", () => {
   assert.equal(byId.size, all.length);
   for (const entity of all) {
     assert.ok(names[entity.nameId], entity.id);
+    assert.ok(!("region" in entity.facets), `${entity.id}: region in facets`);
+    if (entity.region !== undefined) {
+      assert.ok(Array.isArray(entity.region), `${entity.id}: region must be a list`);
+      assert.equal(new Set(entity.region).size, entity.region.length, `${entity.id}: repeated region`);
+      for (const id of entity.region) assert.ok(names[id], `${entity.id}: ${id}`);
+    }
     for (const [key, value] of Object.entries(entity.fields ?? {})) {
       assert.equal(typeof value, "string", `${entity.id}: ${key}`);
       const labelId = `field/${key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`)}`;
@@ -28,9 +34,10 @@ test("every catalog identifier and translation reference resolves", () => {
       assert.ok(!entity.facts.some(fact => fact.labelId === labelId), `${entity.id}: ${labelId}`);
     }
     for (const id of entity.skillIds ?? []) assert.ok(names[id], `${entity.id}: ${id}`);
-    for (const [key, id] of Object.entries(entity.facets)) {
-      if (id === null) continue;
-      assert.ok(names[id], `${entity.id}: ${id}`);
+    for (const [key, value] of Object.entries(entity.facets)) {
+      assert.ok(value === null || typeof value === "string", `${entity.id}: scalar facet ${key}`);
+      if (value == null) continue;
+      assert.ok(names[value], `${entity.id}: ${value}`);
       const field = key === "time" ? "active-time" : key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
       assert.ok(names[`field/${field}`], `${entity.id}: ${key}`);
       assert.ok(!entity.facts.some(fact => fact.labelId === `field/${field}`), `${entity.id}: duplicate facet`);
@@ -138,4 +145,82 @@ test("unprovided source values remain null and non-food records are excluded", (
   assert.ok(!byId.has("ingredient/n-a"));
   assert.ok(!byId.has("fish/ore-iron"));
   for (const entity of all) for (const value of Object.values(entity.stats)) assert.ok(value === null || Number.isFinite(value));
+});
+
+test("confirmed fish locations share the canonical region used for filtering", () => {
+  for (const [id, expected] of [
+    ["fish/zebra-shark", "region/8c354854b261"],
+    ["fish/white-shrimp", "region/blue-hole-0-130-meters"],
+    ["fish/bluefin-tuna", "region/8c354854b261"],
+    ["fish/yellowfin-tuna", "region/8c354854b261"],
+    ["fish/megalograptus", "region/hydrothermal-vents"],
+    ["fish/antarctic-octopus", "region/glacial-area"],
+    ["fish/golden-king-crab", "region/glacial-area"],
+    ["fish/antarctic-starry-skate", "region/glacial-area"],
+    ["fish/sally-lightfoot-crab", "region/42a2a7652438"],
+    ["fish/sailfish", "region/42a2a7652438"],
+    ["fish/black-tiger-shrimp", "region/42a2a7652438"],
+    ["fish/vampire-squid", "region/22dcf4d19351"],
+    ["fish/peacock-squid", "region/22dcf4d19351"],
+    ["fish/barreleye", "region/22dcf4d19351"],
+    ["fish/blobfish", "region/22dcf4d19351"],
+    ["fish/dumbo-octopus", "region/22dcf4d19351"],
+    ["fish/pelican-eel", "region/22dcf4d19351"],
+    ["fish/clione", "region/721eb9e71c69"],
+    ["fish/alaska-pollock", "region/glacial-area-dungeon-1"],
+    ["fish/arctic-telescope-fish", "region/glacial-area-dungeon-1"],
+    ["fish/bathynomus", "region/glacial-area-dungeon-1"],
+    ["fish/allenypterus", "region/hydrothermal-vents"],
+    ["fish/dollocaris-ingens", "region/hydrothermal-vents"],
+    ["fish/ruby-seadragon", "region/hydrothermal-vents"],
+    ["fish/atlantic-anglerfish", "region/limestone-cave"],
+    ["fish/atlantic-mackerel", "region/82a8f0e0b78d"],
+    ["fish/blackfin-barracuda", "region/82a8f0e0b78d"],
+    ["fish/whitetip-reefshark", "region/8c354854b261"],
+    ["fish/snub-nosed-spiny-eel", "region/glacial-area-dungeon-3"],
+    ["fish/lumpfish", "region/glacial-area-dungeon-3"],
+    ["fish/megamouth-shark", "region/721eb9e71c69"],
+    ["fish/viperfish", "region/721eb9e71c69"],
+    ["fish/bloodskin-shark", "region/a7a86e92fda1"],
+    ["fish/dredge-bloodskin-shark", "region/a7a86e92fda1"],
+    ["fish/dredge-host-eel", "region/a7a86e92fda1"],
+    ["fish/translucent-sturgeon", "region/d3b15f5fc5e0"],
+    ["fish/dredge-bony-wreckfish", "region/d3b15f5fc5e0"],
+    ["fish/dredge-cortex-decorator", "region/d3b15f5fc5e0"],
+    ["fish/gazing-shark", "region/565a3a911b9e"],
+    ["fish/dredge-aurora-jellyfish", "region/565a3a911b9e"],
+    ["fish/dredge-concertina-barracuda", "region/565a3a911b9e"],
+  ]) {
+    const fish = byId.get(id)!;
+    assert.deepEqual(fish.region, [expected], id);
+    assert.ok(!("location" in fish.facets), id);
+    assert.ok(!fish.facts.some(fact => fact.labelId === "field/location"), id);
+  }
+  assert.equal(names["region/glacial-area"], "冰川区域");
+  assert.equal(db.fish.filter((fish: Entity) => fish.region?.includes("region/glacial-area")).length, 19);
+  assert.equal(names["region/42a2a7652438"], "遇难船");
+  assert.equal(names["region/22dcf4d19351"], "冰川通道");
+  assert.equal(names["region/glacial-area-dungeon-1"], "第一冰川洞穴");
+  assert.equal(names["region/hydrothermal-vents"], "热泉喷口");
+  assert.equal(names["region/limestone-cave"], "钟乳石窟");
+  assert.equal(names["region/glacial-area-dungeon-3"], "第三冰川洞穴");
+  for (const [id, label, count] of [
+    ["region/721eb9e71c69", "蓝洞，130-250 米", 29],
+    ["region/a7a86e92fda1", "迷雾海岸", 22],
+    ["region/d3b15f5fc5e0", "黑色峭壁", 21],
+    ["region/565a3a911b9e", "水母盆地", 19],
+  ] as const) {
+    assert.equal(names[id], label);
+    assert.equal(db.fish.filter((fish: Entity) => fish.region?.includes(id)).length, count);
+  }
+  assert.equal(db.fish.filter((fish: Entity) => fish.region?.includes("region/glacial-area-dungeon-3")).length, 2);
+  assert.equal(db.fish.filter((fish: Entity) => fish.region?.includes("region/glacial-area-dungeon-1")).length, 3);
+  assert.equal(db.fish.filter((fish: Entity) => fish.region?.includes("region/hydrothermal-vents")).length, 15);
+  assert.ok(!db.fish.some((fish: Entity) => fish.region?.includes("region/38d66d9692ac")));
+  for (const fish of db.fish as Entity[]) {
+    assert.ok(Array.isArray(fish.region), fish.id);
+    assert.ok(!("region" in fish.stats), fish.id);
+    assert.ok(!("location" in fish.facets), fish.id);
+    assert.ok(!fish.facts.some(fact => fact.labelId === "field/location"), fish.id);
+  }
 });
