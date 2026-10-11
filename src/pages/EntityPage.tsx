@@ -19,8 +19,8 @@ export function EntityPage({ type }: { type: EntityType }) {
   if (requestedId !== entity.id) return <Navigate replace to={entityPath(entity)} />;
   const strategy = recipes.find(recipe => recipe.entityId === entity.id);
   const related = entity.relatedIds.map(getEntity).filter(e => !!e);
-  const summarized = type === "recipe" ? ["基础价格", "基础售价", "售价", "基础口感", "口感", "基础菜品", "满级价格", "满级口感", "满级菜品", "最高售价", "最高口感"] : type === "staff" ? ["基础烹饪", "基础服务", "基础采购", "基础吸引力", "满级烹饪", "满级服务", "满级采购", "满级吸引力", "烹饪", "服务", "采购", "魅力", "雇佣费", "工资", "经理等级", "评级", "特殊技能"] : [];
-  const facts = entity.facts.filter(f => !summarized.includes(name(f.labelId)));
+  const summarized = type === "recipe" ? ["base-price", "base-selling-price", "sell-price", "base-taste", "taste", "base-servings", "max-price", "max-taste", "max-servings", "highest-sell-price", "highest-taste"] : type === "staff" ? ["base-cooking", "base-serving", "base-procurement", "base-appeal", "max-cooking", "max-serving", "max-procurement", "max-appeal", "cooking", "serving", "procurement", "appeal", "hiring-cost", "wage", "manager-rank", "tier", "special-skills"] : [];
+  const facts = entity.facts.filter(f => !summarized.some(field => f.labelId === `field/${field}`));
   return <>
     <Breadcrumb items={[{ title: <Link to="/">概览</Link> }, { title: <Link to={entityLists[type]}>{entityTypes[type]}数据库</Link> }, { title: name(entity.id) }]} />
     <PageHeading eyebrow={`${entityTypes[type]} / ${entity.en}`} title={name(entity.id)} description={`本地资料 · ${database.metadata.importedAt} 导入`} />

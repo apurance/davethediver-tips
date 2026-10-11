@@ -9,7 +9,7 @@ const names: Record<string, string> = load("names.zh-CN.json");
 const all: Entity[] = [...db.recipes, ...db.ingredients, ...db.fish, ...db.staff];
 const byId = new Map(all.map(entity => [entity.id, entity]));
 // Stable field ID remains valid even when the user edits the Chinese label.
-const fishRecipeFieldId = "field/197666ffba0b";
+const fishRecipeFieldId = "field/related-recipes";
 const declaredRecipes = (fish: Entity) => fish.facts.find(fact => fact.labelId === fishRecipeFieldId)
   ?.values.flatMap(value => value.entityId?.startsWith("recipe/") ? [value.entityId] : []);
 
@@ -19,6 +19,8 @@ test("every catalog identifier and translation reference resolves", () => {
     assert.ok(names[entity.nameId], entity.id);
     for (const id of [...(entity.skillIds ?? []), ...Object.values(entity.facets).filter(Boolean)]) assert.ok(names[id!], `${entity.id}: ${id}`);
     for (const fact of entity.facts) {
+      assert.match(fact.labelId, /^field\/[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/, entity.id);
+      assert.doesNotMatch(fact.labelId, /^field\/[a-f0-9]{12}$/, entity.id);
       assert.ok(names[fact.labelId]);
       for (const value of fact.values) {
         if (value.nameId) assert.ok(names[value.nameId], `${entity.id}: ${value.nameId}`);
@@ -56,6 +58,7 @@ test("all recipe ingredients and source fish have working reverse links", () => 
 });
 
 test("fish recipe links follow the declared recipe field and removed entries cannot resolve", () => {
+  assert.equal(db.metadata.recipeCleanup.authorityFieldId, fishRecipeFieldId);
   for (const fish of db.fish as Entity[]) {
     const declared = declaredRecipes(fish);
     if (declared === undefined) continue;
