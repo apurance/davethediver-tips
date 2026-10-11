@@ -22,7 +22,6 @@ interface EntityBase {
 export interface RecipeEntity extends EntityBase {
   type: "recipe";
   ingredients: { ingredientId: string; quantity: number | null }[];
-  relatedIngredients: string[];
   relatedFish: string[];
 }
 export interface IngredientEntity extends EntityBase {
@@ -64,7 +63,7 @@ export const entityTypes: Record<EntityType, string> = { recipe: "食谱", ingre
 export const entityLists: Record<EntityType, string> = { recipe: "/recipes", ingredient: "/ingredients", fish: "/fish", staff: "/staff" };
 export function getRelatedGroups(entity: Entity): { type: EntityType; ids: string[] }[] {
   switch (entity.type) {
-    case "recipe": return [{ type: "ingredient", ids: entity.relatedIngredients }, { type: "fish", ids: entity.relatedFish }];
+    case "recipe": return [{ type: "fish", ids: entity.relatedFish }];
     case "ingredient": return [{ type: "fish", ids: entity.relatedFish }, { type: "recipe", ids: entity.relatedRecipes }];
     case "fish": return [{ type: "ingredient", ids: entity.relatedIngredients }, { type: "recipe", ids: entity.relatedRecipes }];
     case "staff": return [];

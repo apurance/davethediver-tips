@@ -369,11 +369,6 @@
         "https://davethediver.net/zh-hans/recipe/atlantic-bonito-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/carrot",
-        "ingredient/curry-block",
-        "ingredient/atlantic-bonito"
-      ],
       "relatedFish": [
         "fish/atlantic-bonito"
       ],
@@ -430,13 +425,6 @@
         "https://davethediver.net/zh-hans/recipe/bluefin-tuna-rice-bowl/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/egg",
-        "ingredient/sesame-seed",
-        "ingredient/special-blue-fin-tuna-akami",
-        "ingredient/bluefin-tuna-akami"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -497,11 +485,6 @@
         "https://davethediver.net/zh-hans/recipe/crystal-lobster-roll/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/bladderwrack",
-        "ingredient/crystal-lobster"
-      ],
       "relatedFish": [
         "fish/crystal-lobster"
       ],
@@ -558,11 +541,6 @@
         "https://davethediver.net/zh-hans/recipe/ice-fish-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bean",
-        "ingredient/curry-block",
-        "ingredient/ice-fish"
-      ],
       "relatedFish": [
         "fish/ice-fish"
       ],
@@ -619,10 +597,6 @@
         "https://davethediver.net/zh-hans/recipe/moray-eel-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/turmeric",
-        "ingredient/moray-eel"
-      ],
       "relatedFish": [
         "fish/moray-eel"
       ],
@@ -675,10 +649,6 @@
         "https://davethediver.net/zh-hans/recipe/seadragon-onigiri/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/seadragon-ingredient",
-        "ingredient/seadragon"
-      ],
       "relatedFish": [
         "fish/seadragon",
         "fish/leafy-seadragon",
@@ -724,11 +694,6 @@
         "https://davethediver.net/zh-hans/recipe/vegetable-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/carrot",
-        "ingredient/eggplant"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -776,12 +741,6 @@
         "https://davethediver.net/zh-hans/recipe/wrasse-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bean",
-        "ingredient/curry-block",
-        "ingredient/rainbow-wrasse",
-        "ingredient/ornate-wrasse"
-      ],
       "relatedFish": [
         "fish/rainbow-wrasse",
         "fish/ornate-wrasse",
@@ -844,11 +803,6 @@
         "https://davethediver.net/zh-hans/recipe/antarctic-octopus-carpaccio/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/onion",
-        "ingredient/olive-oil",
-        "ingredient/antarctic-octopus"
-      ],
       "relatedFish": [
         "fish/antarctic-octopus"
       ],
@@ -897,13 +851,6 @@
         "https://davethediver.net/zh-hans/recipe/blobfish-spring-roll/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/mayonnaise",
-        "ingredient/sesame-seed",
-        "ingredient/flour",
-        "ingredient/blobfish"
-      ],
       "relatedFish": [
         "fish/blobfish"
       ],
@@ -956,13 +903,6 @@
         "https://davethediver.net/zh-hans/recipe/comber-sandwich/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/egg",
-        "ingredient/wheat",
-        "ingredient/flour",
-        "ingredient/comber",
-        "ingredient/painted-comber"
-      ],
       "relatedFish": [
         "fish/comber",
         "fish/painted-comber"
@@ -1016,12 +956,6 @@
         "https://davethediver.net/zh-hans/recipe/eggplant-soba-oyaki/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/buckwheat",
-        "ingredient/eggplant",
-        "ingredient/carrot",
-        "ingredient/miso"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -1072,12 +1006,6 @@
         "https://davethediver.net/zh-hans/recipe/great-barracuda-canape/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cherry-tomato",
-        "ingredient/onion",
-        "ingredient/mayonnaise",
-        "ingredient/great-barracuda"
-      ],
       "relatedFish": [
         "fish/great-barracuda"
       ],
@@ -1130,14 +1058,6 @@
         "https://davethediver.net/zh-hans/recipe/hot-pepper-tuna/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/habanero",
-        "ingredient/sea-grape",
-        "ingredient/sesame-seed",
-        "ingredient/special-blue-fin-tuna-chutoro",
-        "ingredient/chili-pepper",
-        "ingredient/bluefin-tuna-chutoro"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -1197,11 +1117,6 @@
         "https://davethediver.net/zh-hans/recipe/lobster-platter/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/american-lobster",
-        "ingredient/tropical-rock-lobster",
-        "ingredient/tokummia-katalepsis"
-      ],
       "relatedFish": [
         "fish/american-lobster",
         "fish/tropical-rock-lobster",
@@ -1259,12 +1174,6 @@
         "https://davethediver.net/zh-hans/recipe/peacock-squid-ripieni/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/egg",
-        "ingredient/garlic",
-        "ingredient/black-pepper",
-        "ingredient/peacock-squid"
-      ],
       "relatedFish": [
         "fish/peacock-squid"
       ],
@@ -1317,11 +1226,6 @@
         "https://davethediver.net/zh-hans/recipe/pelican-eel-jelly/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/black-vinegar",
-        "ingredient/agar",
-        "ingredient/pelican-eel"
-      ],
       "relatedFish": [
         "fish/pelican-eel",
         "fish/gelidium"
@@ -1371,15 +1275,6 @@
         "https://davethediver.net/zh-hans/recipe/pikaia-ramen/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/grade-a-egg",
-        "ingredient/wheat",
-        "ingredient/southern-bull-kelp",
-        "ingredient/special-egg",
-        "ingredient/flour",
-        "ingredient/durvillaea",
-        "ingredient/pikaia"
-      ],
       "relatedFish": [
         "fish/pikaia"
       ],
@@ -1432,11 +1327,6 @@
         "https://davethediver.net/zh-hans/recipe/smallspotted-dart-kajime-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kajime",
-        "ingredient/soy-sauce",
-        "ingredient/small-spotted-dart"
-      ],
       "relatedFish": [
         "fish/small-spotted-dart"
       ],
@@ -1485,12 +1375,6 @@
         "https://davethediver.net/zh-hans/recipe/spear-squid-soba-futomaki/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/buckwheat",
-        "ingredient/egg",
-        "ingredient/carrot",
-        "ingredient/spear-squid"
-      ],
       "relatedFish": [
         "fish/spear-squid"
       ],
@@ -1543,11 +1427,6 @@
         "https://davethediver.net/zh-hans/recipe/stellate-puffer-nicogori/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/agar",
-        "ingredient/soy-sauce",
-        "ingredient/starry-puffer"
-      ],
       "relatedFish": [
         "fish/starry-puffer",
         "fish/stellate-puffer",
@@ -1598,12 +1477,6 @@
         "https://davethediver.net/zh-hans/recipe/tomato-egg-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/grade-a-egg",
-        "ingredient/cherry-tomato",
-        "ingredient/black-pepper",
-        "ingredient/special-egg"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -1651,9 +1524,6 @@
         "https://davethediver.net/zh-hans/recipe/american-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/american-lobster"
-      ],
       "relatedFish": [
         "fish/american-lobster"
       ],
@@ -1704,9 +1574,6 @@
         "https://davethediver.net/zh-hans/recipe/barrel-jellyfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/barrel-jellyfish"
-      ],
       "relatedFish": [
         "fish/barrel-jellyfish"
       ],
@@ -1757,9 +1624,6 @@
         "https://davethediver.net/zh-hans/recipe/blue-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blue-lobster"
-      ],
       "relatedFish": [
         "fish/blue-lobster"
       ],
@@ -1810,9 +1674,6 @@
         "https://davethediver.net/zh-hans/recipe/box-jellyfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/box-jellyfish"
-      ],
       "relatedFish": [
         "fish/box-jellyfish"
       ],
@@ -1863,9 +1724,6 @@
         "https://davethediver.net/zh-hans/recipe/california-spiny-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/california-spiny-lobster"
-      ],
       "relatedFish": [
         "fish/california-spiny-lobster"
       ],
@@ -1916,9 +1774,6 @@
         "https://davethediver.net/zh-hans/recipe/comb-jelly/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/comb-jelly"
-      ],
       "relatedFish": [
         "fish/comb-jelly"
       ],
@@ -1968,9 +1823,6 @@
         "https://davethediver.net/zh-hans/recipe/cooked-whiteleg-shrimp-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/whiteleg-shrimp"
-      ],
       "relatedFish": [
         "fish/whiteleg-shrimp"
       ],
@@ -2021,9 +1873,6 @@
         "https://davethediver.net/zh-hans/recipe/cookiecutter-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cookiecutter-shark"
-      ],
       "relatedFish": [
         "fish/cookiecutter-shark"
       ],
@@ -2074,9 +1923,6 @@
         "https://davethediver.net/zh-hans/recipe/crystal-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crystal-lobster"
-      ],
       "relatedFish": [
         "fish/crystal-lobster"
       ],
@@ -2127,9 +1973,6 @@
         "https://davethediver.net/zh-hans/recipe/dollocaris-ingens/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dollocaris-ingens"
-      ],
       "relatedFish": [
         "fish/dollocaris-ingens"
       ],
@@ -2180,9 +2023,6 @@
         "https://davethediver.net/zh-hans/recipe/eastern-rock-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/eastern-rock-lobster"
-      ],
       "relatedFish": [
         "fish/eastern-rock-lobster"
       ],
@@ -2233,9 +2073,6 @@
         "https://davethediver.net/zh-hans/recipe/european-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/european-lobster"
-      ],
       "relatedFish": [
         "fish/european-lobster"
       ],
@@ -2286,9 +2123,6 @@
         "https://davethediver.net/zh-hans/recipe/falcatus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/falcatus"
-      ],
       "relatedFish": [
         "fish/falcatus"
       ],
@@ -2339,9 +2173,6 @@
         "https://davethediver.net/zh-hans/recipe/fan-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/fan-lobster"
-      ],
       "relatedFish": [
         "fish/fan-lobster"
       ],
@@ -2392,9 +2223,6 @@
         "https://davethediver.net/zh-hans/recipe/fried-egg-jellyfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/fried-egg-jellyfish"
-      ],
       "relatedFish": [
         "fish/fried-egg-jellyfish"
       ],
@@ -2445,9 +2273,6 @@
         "https://davethediver.net/zh-hans/recipe/norway-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/norway-lobster"
-      ],
       "relatedFish": [
         "fish/norway-lobster"
       ],
@@ -2497,9 +2322,6 @@
         "https://davethediver.net/zh-hans/recipe/raw-black-tiger-shrimp-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/black-tiger-shrimp"
-      ],
       "relatedFish": [
         "fish/black-tiger-shrimp"
       ],
@@ -2550,9 +2372,6 @@
         "https://davethediver.net/zh-hans/recipe/cucumber-stick/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -2601,9 +2420,6 @@
         "https://davethediver.net/zh-hans/recipe/tokummia-katalepsis/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tokummia-katalepsis"
-      ],
       "relatedFish": [
         "fish/tokummia-katalepsis"
       ],
@@ -2654,9 +2470,6 @@
         "https://davethediver.net/zh-hans/recipe/tropical-rock-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tropical-rock-lobster"
-      ],
       "relatedFish": [
         "fish/tropical-rock-lobster"
       ],
@@ -2707,9 +2520,6 @@
         "https://davethediver.net/zh-hans/recipe/waptia-fieldensis/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/waptia-fieldensis"
-      ],
       "relatedFish": [
         "fish/waptia-fieldensis"
       ],
@@ -2760,9 +2570,6 @@
         "https://davethediver.net/zh-hans/recipe/white-shrimp/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/white-shrimp"
-      ],
       "relatedFish": [
         "fish/white-shrimp"
       ],
@@ -2813,9 +2620,6 @@
         "https://davethediver.net/zh-hans/recipe/alaska-pollock/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/alaska-pollock"
-      ],
       "relatedFish": [
         "fish/alaska-pollock"
       ],
@@ -2858,9 +2662,6 @@
         "https://davethediver.net/zh-hans/recipe/allenypterus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/allenypterus"
-      ],
       "relatedFish": [
         "fish/allenypterus"
       ],
@@ -2903,9 +2704,6 @@
         "https://davethediver.net/zh-hans/recipe/antarctic-octopus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/antarctic-octopus"
-      ],
       "relatedFish": [
         "fish/antarctic-octopus"
       ],
@@ -2948,9 +2746,6 @@
         "https://davethediver.net/zh-hans/recipe/arctic-cod/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/arctic-cod"
-      ],
       "relatedFish": [
         "fish/arctic-cod"
       ],
@@ -2993,9 +2788,6 @@
         "https://davethediver.net/zh-hans/recipe/arctic-telescope-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/arctic-telescope-fish"
-      ],
       "relatedFish": [
         "fish/arctic-telescope-fish"
       ],
@@ -3038,9 +2830,6 @@
         "https://davethediver.net/zh-hans/recipe/atlantic-anglerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/atlantic-anglerfish"
-      ],
       "relatedFish": [
         "fish/atlantic-anglerfish"
       ],
@@ -3083,9 +2872,6 @@
         "https://davethediver.net/zh-hans/recipe/atlantic-bonito/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/atlantic-bonito"
-      ],
       "relatedFish": [
         "fish/atlantic-bonito"
       ],
@@ -3128,9 +2914,6 @@
         "https://davethediver.net/zh-hans/recipe/atlantic-mackerel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/atlantic-mackerel"
-      ],
       "relatedFish": [
         "fish/atlantic-mackerel"
       ],
@@ -3173,9 +2956,6 @@
         "https://davethediver.net/zh-hans/recipe/blackand-white-snapper/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/black-and-white-snapper"
-      ],
       "relatedFish": [
         "fish/black-and-white-snapper"
       ],
@@ -3218,9 +2998,6 @@
         "https://davethediver.net/zh-hans/recipe/barreleye/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/barreleye"
-      ],
       "relatedFish": [
         "fish/barreleye"
       ],
@@ -3263,9 +3040,6 @@
         "https://davethediver.net/zh-hans/recipe/bigeye-scad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bigeye-scad"
-      ],
       "relatedFish": [
         "fish/bigeye-scad"
       ],
@@ -3307,9 +3081,6 @@
         "https://davethediver.net/zh-hans/recipe/blackfin-barracuda-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blackfin-barracuda"
-      ],
       "relatedFish": [
         "fish/blackfin-barracuda"
       ],
@@ -3352,9 +3123,6 @@
         "https://davethediver.net/zh-hans/recipe/blackspot-seabream/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blackspot-seabream"
-      ],
       "relatedFish": [
         "fish/blackspot-seabream"
       ],
@@ -3397,9 +3165,6 @@
         "https://davethediver.net/zh-hans/recipe/blobfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blobfish"
-      ],
       "relatedFish": [
         "fish/blobfish"
       ],
@@ -3442,9 +3207,6 @@
         "https://davethediver.net/zh-hans/recipe/bluehead-tilefish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bluehead-tilefish"
-      ],
       "relatedFish": [
         "fish/bluehead-tilefish"
       ],
@@ -3486,12 +3248,6 @@
         "https://davethediver.net/zh-hans/recipe/boiled-and-deep-fried-white-shrimp/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/egg",
-        "ingredient/mayonnaise",
-        "ingredient/olive-oil",
-        "ingredient/whiteleg-shrimp"
-      ],
       "relatedFish": [
         "fish/whiteleg-shrimp",
         "fish/white-shrimp"
@@ -3552,12 +3308,6 @@
         "https://davethediver.net/zh-hans/recipe/boiled-mantis-shrimp-with-soy-paste/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/mantis-shrimp-meat",
-        "ingredient/eggplant",
-        "ingredient/agar",
-        "ingredient/miso"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -3615,11 +3365,6 @@
         "https://davethediver.net/zh-hans/recipe/boiled-porbeagle-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/black-vinegar",
-        "ingredient/black-pepper",
-        "ingredient/meat-porbeagle-shark"
-      ],
       "relatedFish": [
         "fish/porbeagle-shark"
       ],
@@ -3675,12 +3420,6 @@
         "https://davethediver.net/zh-hans/recipe/boiled-sailfish-and-seaweed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/southern-bull-kelp",
-        "ingredient/kajime",
-        "ingredient/soy-sauce",
-        "ingredient/meat-sail-fish"
-      ],
       "relatedFish": [
         "fish/sailfish"
       ],
@@ -3742,9 +3481,6 @@
         "https://davethediver.net/zh-hans/recipe/capelin/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/capelin"
-      ],
       "relatedFish": [
         "fish/capelin"
       ],
@@ -3787,9 +3523,6 @@
         "https://davethediver.net/zh-hans/recipe/chambered-nautilus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/chambered-nautilus"
-      ],
       "relatedFish": [
         "fish/chambered-nautilus"
       ],
@@ -3832,9 +3565,6 @@
         "https://davethediver.net/zh-hans/recipe/clearfin-lionfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clearfin-lionfish"
-      ],
       "relatedFish": [
         "fish/clearfin-lionfish"
       ],
@@ -3877,9 +3607,6 @@
         "https://davethediver.net/zh-hans/recipe/clione/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clione"
-      ],
       "relatedFish": [
         "fish/clione"
       ],
@@ -3921,11 +3648,6 @@
         "https://davethediver.net/zh-hans/recipe/cold-jellyfish-and-green-sea-urchin-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-grape",
-        "ingredient/green-sea-urchin",
-        "ingredient/box-jellyfish"
-      ],
       "relatedFish": [
         "fish/green-sea-urchin",
         "fish/box-jellyfish"
@@ -3984,9 +3706,6 @@
         "https://davethediver.net/zh-hans/recipe/coral-trout/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/coral-trout"
-      ],
       "relatedFish": [
         "fish/coral-trout"
       ],
@@ -4028,11 +3747,6 @@
         "https://davethediver.net/zh-hans/recipe/crimson-fish-roll/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clown-frogfish",
-        "ingredient/red-bream",
-        "ingredient/meat-rhinochimaeridae"
-      ],
       "relatedFish": [
         "fish/clown-frogfish",
         "fish/red-bream",
@@ -4090,12 +3804,6 @@
         "https://davethediver.net/zh-hans/recipe/deep-fried-eggplant-shrimp-meatballs/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/eggplant",
-        "ingredient/olive-oil",
-        "ingredient/black-tiger-shrimp",
-        "ingredient/whiteleg-shrimp"
-      ],
       "relatedFish": [
         "fish/black-tiger-shrimp",
         "fish/whiteleg-shrimp"
@@ -4157,9 +3865,6 @@
         "https://davethediver.net/zh-hans/recipe/dumbo-octopus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dumbo-octopus"
-      ],
       "relatedFish": [
         "fish/dumbo-octopus"
       ],
@@ -4202,9 +3907,6 @@
         "https://davethediver.net/zh-hans/recipe/dusky-grouper/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dusky-grouper"
-      ],
       "relatedFish": [
         "fish/dusky-grouper"
       ],
@@ -4246,12 +3948,6 @@
         "https://davethediver.net/zh-hans/recipe/falcatus-soybean-paste-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/seaweed",
-        "ingredient/buckbean",
-        "ingredient/miso",
-        "ingredient/falcatus"
-      ],
       "relatedFish": [
         "fish/falcatus"
       ],
@@ -4312,9 +4008,6 @@
         "https://davethediver.net/zh-hans/recipe/fangtooth/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/fangtooth"
-      ],
       "relatedFish": [
         "fish/fangtooth"
       ],
@@ -4357,9 +4050,6 @@
         "https://davethediver.net/zh-hans/recipe/gelatinous-snailfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gelatinous-snailfish"
-      ],
       "relatedFish": [
         "fish/gelatinous-snailfish"
       ],
@@ -4401,12 +4091,6 @@
         "https://davethediver.net/zh-hans/recipe/goblin-shark-belly-roast/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/goblin-sharks-fatty-meat",
-        "ingredient/sea-grape",
-        "ingredient/olive-oil",
-        "ingredient/salt"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -4465,9 +4149,6 @@
         "https://davethediver.net/zh-hans/recipe/golden-king-crab/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/golden-king-crab"
-      ],
       "relatedFish": [
         "fish/golden-king-crab"
       ],
@@ -4510,9 +4191,6 @@
         "https://davethediver.net/zh-hans/recipe/great-barracuda/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/great-barracuda"
-      ],
       "relatedFish": [
         "fish/great-barracuda"
       ],
@@ -4554,10 +4232,6 @@
         "https://davethediver.net/zh-hans/recipe/great-spider-crab-and-cucumber-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/spider-crab"
-      ],
       "relatedFish": [
         "fish/spider-crab"
       ],
@@ -4610,11 +4284,6 @@
         "https://davethediver.net/zh-hans/recipe/great-spider-crab-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/grade-a-egg",
-        "ingredient/curry-block",
-        "ingredient/spider-crab"
-      ],
       "relatedFish": [
         "fish/spider-crab"
       ],
@@ -4671,9 +4340,6 @@
         "https://davethediver.net/zh-hans/recipe/green-humphead-parrotfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/green-humphead-parrotfish"
-      ],
       "relatedFish": [
         "fish/green-humphead-parrotfish"
       ],
@@ -4716,9 +4382,6 @@
         "https://davethediver.net/zh-hans/recipe/grey-triggerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/grey-triggerfish"
-      ],
       "relatedFish": [
         "fish/grey-triggerfish"
       ],
@@ -4761,9 +4424,6 @@
         "https://davethediver.net/zh-hans/recipe/haddock/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/haddock"
-      ],
       "relatedFish": [
         "fish/haddock"
       ],
@@ -4806,9 +4466,6 @@
         "https://davethediver.net/zh-hans/recipe/harlequin-hind/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/harlequin-hind"
-      ],
       "relatedFish": [
         "fish/harlequin-hind"
       ],
@@ -4850,12 +4507,6 @@
         "https://davethediver.net/zh-hans/recipe/hawaiian-poke/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/mayonnaise",
-        "ingredient/sesame-seed",
-        "ingredient/yellowfin-tuna-akami"
-      ],
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -4915,11 +4566,6 @@
         "https://davethediver.net/zh-hans/recipe/humphead-parrotfish-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/onion",
-        "ingredient/turmeric",
-        "ingredient/green-humphead-parrotfish"
-      ],
       "relatedFish": [
         "fish/green-humphead-parrotfish"
       ],
@@ -4975,11 +4621,6 @@
         "https://davethediver.net/zh-hans/recipe/hyalonema-tuna-sashimi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/hyalonema",
-        "ingredient/bluefin-tuna-ootoro",
-        "ingredient/yellowfin-tuna-ootoro"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna",
         "fish/yellowfin-tuna"
@@ -5037,9 +4678,6 @@
         "https://davethediver.net/zh-hans/recipe/ice-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/ice-fish"
-      ],
       "relatedFish": [
         "fish/ice-fish"
       ],
@@ -5082,9 +4720,6 @@
         "https://davethediver.net/zh-hans/recipe/longspine-squirrelfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/longspine-squirrelfish"
-      ],
       "relatedFish": [
         "fish/longspine-squirrelfish"
       ],
@@ -5126,12 +4761,6 @@
         "https://davethediver.net/zh-hans/recipe/lusca-neck-tadaki/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/lusca-neck-meat",
-        "ingredient/mayonnaise",
-        "ingredient/soy-sauce",
-        "ingredient/sesame-seed"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -5190,9 +4819,6 @@
         "https://davethediver.net/zh-hans/recipe/mackerel-scad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/mackerel-scad"
-      ],
       "relatedFish": [
         "fish/mackerel-scad"
       ],
@@ -5234,11 +4860,6 @@
         "https://davethediver.net/zh-hans/recipe/marlin-and-soybean-paste-roast/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/garlic",
-        "ingredient/miso",
-        "ingredient/marlin-meat"
-      ],
       "relatedFish": [
         "fish/marlin"
       ],
@@ -5296,9 +4917,6 @@
         "https://davethediver.net/zh-hans/recipe/mediterranean-parrotfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/mediterranean-parrotfish"
-      ],
       "relatedFish": [
         "fish/mediterranean-parrotfish"
       ],
@@ -5341,9 +4959,6 @@
         "https://davethediver.net/zh-hans/recipe/megalograptus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/megalograptus"
-      ],
       "relatedFish": [
         "fish/megalograptus"
       ],
@@ -5385,12 +5000,6 @@
         "https://davethediver.net/zh-hans/recipe/mianbao-xia/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/olive-oil",
-        "ingredient/black-tiger-shrimp",
-        "ingredient/whiteleg-shrimp"
-      ],
       "relatedFish": [
         "fish/black-tiger-shrimp",
         "fish/whiteleg-shrimp"
@@ -5452,9 +5061,6 @@
         "https://davethediver.net/zh-hans/recipe/moray-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/moray-eel"
-      ],
       "relatedFish": [
         "fish/moray-eel"
       ],
@@ -5497,9 +5103,6 @@
         "https://davethediver.net/zh-hans/recipe/narrow-barred-spanish-mackerel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/narrow-barred-spanish-mackerel"
-      ],
       "relatedFish": [
         "fish/narrow-barred-spanish-mackerel"
       ],
@@ -5542,9 +5145,6 @@
         "https://davethediver.net/zh-hans/recipe/ornate-wrasse/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/ornate-wrasse"
-      ],
       "relatedFish": [
         "fish/ornate-wrasse"
       ],
@@ -5587,9 +5187,6 @@
         "https://davethediver.net/zh-hans/recipe/painted-comber/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/painted-comber"
-      ],
       "relatedFish": [
         "fish/painted-comber"
       ],
@@ -5632,9 +5229,6 @@
         "https://davethediver.net/zh-hans/recipe/peacock-squid/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/peacock-squid"
-      ],
       "relatedFish": [
         "fish/peacock-squid"
       ],
@@ -5677,9 +5271,6 @@
         "https://davethediver.net/zh-hans/recipe/pelican-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/pelican-eel"
-      ],
       "relatedFish": [
         "fish/pelican-eel"
       ],
@@ -5721,11 +5312,6 @@
         "https://davethediver.net/zh-hans/recipe/phantom-jellyfish-jelly/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/phantom-jellyfish-meat",
-        "ingredient/agar",
-        "ingredient/buckbean"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -5780,9 +5366,6 @@
         "https://davethediver.net/zh-hans/recipe/pikaia/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/pikaia"
-      ],
       "relatedFish": [
         "fish/pikaia"
       ],
@@ -5825,9 +5408,6 @@
         "https://davethediver.net/zh-hans/recipe/polar-eelpout/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/polar-eelpout"
-      ],
       "relatedFish": [
         "fish/polar-eelpout"
       ],
@@ -5870,9 +5450,6 @@
         "https://davethediver.net/zh-hans/recipe/purple-sea-urchin/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/purple-sea-urchin"
-      ],
       "relatedFish": [
         "fish/purple-sea-urchin"
       ],
@@ -5915,9 +5492,6 @@
         "https://davethediver.net/zh-hans/recipe/qingmendous/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/qingmendous"
-      ],
       "relatedFish": [
         "fish/qingmendous"
       ],
@@ -5960,9 +5534,6 @@
         "https://davethediver.net/zh-hans/recipe/red-bream/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-bream"
-      ],
       "relatedFish": [
         "fish/red-bream"
       ],
@@ -6005,9 +5576,6 @@
         "https://davethediver.net/zh-hans/recipe/red-lionfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-lionfish"
-      ],
       "relatedFish": [
         "fish/red-lionfish"
       ],
@@ -6050,9 +5618,6 @@
         "https://davethediver.net/zh-hans/recipe/redtoothed-triggerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/redtoothed-triggerfish"
-      ],
       "relatedFish": [
         "fish/redtoothed-triggerfish"
       ],
@@ -6094,12 +5659,6 @@
         "https://davethediver.net/zh-hans/recipe/rice-with-white-shrimp-meat/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/egg",
-        "ingredient/soy-sauce",
-        "ingredient/white-shrimp"
-      ],
       "relatedFish": [
         "fish/white-shrimp"
       ],
@@ -6159,11 +5718,6 @@
         "https://davethediver.net/zh-hans/recipe/roasted-capelin/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/black-coral",
-        "ingredient/turmeric",
-        "ingredient/capelin"
-      ],
       "relatedFish": [
         "fish/capelin"
       ],
@@ -6219,13 +5773,6 @@
         "https://davethediver.net/zh-hans/recipe/roasted-helicoprion-tail/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/helicoprion-tail",
-        "ingredient/kajime",
-        "ingredient/seaweed",
-        "ingredient/black-vinegar",
-        "ingredient/southern-bull-kelp"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -6284,9 +5831,6 @@
         "https://davethediver.net/zh-hans/recipe/sally-lightfoot-crab/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sally-lightfoot-crab"
-      ],
       "relatedFish": [
         "fish/sally-lightfoot-crab"
       ],
@@ -6329,9 +5873,6 @@
         "https://davethediver.net/zh-hans/recipe/salmon-snailfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/salmon-snailfish"
-      ],
       "relatedFish": [
         "fish/salmon-snailfish"
       ],
@@ -6373,10 +5914,6 @@
         "https://davethediver.net/zh-hans/recipe/sea-toad-and-cucumber-gunkan-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/sea-toad"
-      ],
       "relatedFish": [
         "fish/sea-toad"
       ],
@@ -6430,9 +5967,6 @@
         "https://davethediver.net/zh-hans/recipe/sea-toad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-toad"
-      ],
       "relatedFish": [
         "fish/sea-toad"
       ],
@@ -6474,12 +6008,6 @@
         "https://davethediver.net/zh-hans/recipe/seasoned-jellyfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/garlic",
-        "ingredient/black-coral",
-        "ingredient/barrel-jellyfish",
-        "ingredient/fried-egg-jellyfish"
-      ],
       "relatedFish": [
         "fish/barrel-jellyfish",
         "fish/fried-egg-jellyfish"
@@ -6540,12 +6068,6 @@
         "https://davethediver.net/zh-hans/recipe/seasoned-waptia-fieldensis/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/black-coral",
-        "ingredient/black-vinegar",
-        "ingredient/waptia-fieldensis"
-      ],
       "relatedFish": [
         "fish/waptia-fieldensis"
       ],
@@ -6605,12 +6127,6 @@
         "https://davethediver.net/zh-hans/recipe/shark-karaage/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blacktip-shark-meat",
-        "ingredient/wheat",
-        "ingredient/olive-oil",
-        "ingredient/meat-copper-shark"
-      ],
       "relatedFish": [
         "fish/copper-shark",
         "fish/blacktip-reefshark"
@@ -6672,9 +6188,6 @@
         "https://davethediver.net/zh-hans/recipe/snow-crab/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/snow-crab"
-      ],
       "relatedFish": [
         "fish/snow-crab"
       ],
@@ -6717,9 +6230,6 @@
         "https://davethediver.net/zh-hans/recipe/snub-nosed-spiny-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/snub-nosed-spiny-eel"
-      ],
       "relatedFish": [
         "fish/snub-nosed-spiny-eel"
       ],
@@ -6762,9 +6272,6 @@
         "https://davethediver.net/zh-hans/recipe/spear-squid/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/spear-squid"
-      ],
       "relatedFish": [
         "fish/spear-squid"
       ],
@@ -6807,12 +6314,6 @@
         "https://davethediver.net/zh-hans/recipe/fried-shrimp-special/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/olive-oil",
-        "ingredient/black-tiger-shrimp",
-        "ingredient/whiteleg-shrimp"
-      ],
       "relatedFish": [
         "fish/black-tiger-shrimp",
         "fish/whiteleg-shrimp"
@@ -6873,11 +6374,6 @@
         "https://davethediver.net/zh-hans/recipe/steamed-eastern-rock-lobster-and-egg/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/egg",
-        "ingredient/kelp",
-        "ingredient/eastern-rock-lobster"
-      ],
       "relatedFish": [
         "fish/eastern-rock-lobster"
       ],
@@ -6934,9 +6430,6 @@
         "https://davethediver.net/zh-hans/recipe/striped-catfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/striped-catfish"
-      ],
       "relatedFish": [
         "fish/striped-catfish"
       ],
@@ -6979,9 +6472,6 @@
         "https://davethediver.net/zh-hans/recipe/threetooth-puffer/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/threetooth-puffer"
-      ],
       "relatedFish": [
         "fish/threetooth-puffer"
       ],
@@ -7024,9 +6514,6 @@
         "https://davethediver.net/zh-hans/recipe/titan-triggerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/titan-triggerfish"
-      ],
       "relatedFish": [
         "fish/titan-triggerfish"
       ],
@@ -7069,11 +6556,6 @@
         "https://davethediver.net/zh-hans/recipe/trevally-sand/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/giant-trevally-meat",
-        "ingredient/cucumber",
-        "ingredient/bigeye-trevally"
-      ],
       "relatedFish": [
         "fish/giant-trevally"
       ],
@@ -7131,9 +6613,6 @@
         "https://davethediver.net/zh-hans/recipe/vampire-squid/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/vampire-squid"
-      ],
       "relatedFish": [
         "fish/vampire-squid"
       ],
@@ -7175,10 +6654,6 @@
         "https://davethediver.net/zh-hans/recipe/white-shark-omelet/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/klauss-fin",
-        "ingredient/grade-a-egg"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -7229,9 +6704,6 @@
         "https://davethediver.net/zh-hans/recipe/white-trevally/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/white-trevally"
-      ],
       "relatedFish": [
         "fish/white-trevally"
       ],
@@ -7273,10 +6745,6 @@
         "https://davethediver.net/zh-hans/recipe/whole-roasted-shark-head/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/whitetip-reefshark-head",
-        "ingredient/olive-oil"
-      ],
       "relatedFish": [
         "fish/whitetip-reefshark"
       ],
@@ -7328,10 +6796,6 @@
         "https://davethediver.net/zh-hans/recipe/yawie-steamed-meat/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/yawies-inner-flesh",
-        "ingredient/salt"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -7382,9 +6846,6 @@
         "https://davethediver.net/zh-hans/recipe/yellow-tang/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/yellow-tang"
-      ],
       "relatedFish": [
         "fish/yellow-tang"
       ],
@@ -7427,9 +6888,6 @@
         "https://davethediver.net/zh-hans/recipe/yellowback-fusilier/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/yellowback-fusilier"
-      ],
       "relatedFish": [
         "fish/yellowback-fusilier"
       ],
@@ -7472,11 +6930,6 @@
         "https://davethediver.net/zh-hans/recipe/yellow-fin-tuna-stake/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cherry-tomato",
-        "ingredient/olive-oil",
-        "ingredient/yellowfin-tuna-chutoro"
-      ],
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -7532,10 +6985,6 @@
         "https://davethediver.net/zh-hans/recipe/agar-tokoroten/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/agar",
-        "ingredient/soy-sauce"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -7578,12 +7027,6 @@
         "https://davethediver.net/zh-hans/recipe/arctic-cod-rizotto/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cherry-tomato",
-        "ingredient/rice",
-        "ingredient/garlic",
-        "ingredient/arctic-cod"
-      ],
       "relatedFish": [
         "fish/arctic-cod"
       ],
@@ -7635,12 +7078,6 @@
         "https://davethediver.net/zh-hans/recipe/batfish-ricebowl/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/egg",
-        "ingredient/longfin-batfish",
-        "ingredient/orbicular-batfish"
-      ],
       "relatedFish": [
         "fish/longfin-batfish",
         "fish/orbicular-batfish"
@@ -7693,11 +7130,6 @@
         "https://davethediver.net/zh-hans/recipe/big-eyed-scad-and-soybean-paste-roast/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/miso",
-        "ingredient/sesame-seed",
-        "ingredient/bigeye-scad"
-      ],
       "relatedFish": [
         "fish/bigeye-scad"
       ],
@@ -7745,11 +7177,6 @@
         "https://davethediver.net/zh-hans/recipe/black-vinegar-braised-parrotfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/carrot",
-        "ingredient/black-vinegar",
-        "ingredient/mediterranean-parrotfish"
-      ],
       "relatedFish": [
         "fish/mediterranean-parrotfish"
       ],
@@ -7798,9 +7225,6 @@
         "https://davethediver.net/zh-hans/recipe/blacktip-reef-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blacktip-shark-meat"
-      ],
       "relatedFish": [
         "fish/blacktip-reefshark"
       ],
@@ -7848,11 +7272,6 @@
         "https://davethediver.net/zh-hans/recipe/blanched-lusca-tentacle/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/lusca-tentacle",
-        "ingredient/salt",
-        "ingredient/olive-oil"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -7898,9 +7317,6 @@
         "https://davethediver.net/zh-hans/recipe/blood-belly-comb-jelly-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blood-belly-comb-jellyfish"
-      ],
       "relatedFish": [
         "fish/blood-belly-comb-jellyfish"
       ],
@@ -7949,9 +7365,6 @@
         "https://davethediver.net/zh-hans/recipe/blue-fin-tuna-akami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bluefin-tuna-akami"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -7999,9 +7412,6 @@
         "https://davethediver.net/zh-hans/recipe/blue-fin-tuna-chutoro/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bluefin-tuna-chutoro"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -8048,9 +7458,6 @@
         "https://davethediver.net/zh-hans/recipe/bluefin-tuna-ootoro-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bluefin-tuna-ootoro"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -8098,10 +7505,6 @@
         "https://davethediver.net/zh-hans/recipe/boiled-yellowback-fusilier/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/soy-sauce",
-        "ingredient/yellowback-fusilier"
-      ],
       "relatedFish": [
         "fish/yellowback-fusilier"
       ],
@@ -8146,11 +7549,6 @@
         "https://davethediver.net/zh-hans/recipe/chirashizushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/green-sea-urchin",
-        "ingredient/bluefin-tuna-chutoro",
-        "ingredient/cuttlefish"
-      ],
       "relatedFish": [
         "fish/green-sea-urchin",
         "fish/bluefin-tuna",
@@ -8207,12 +7605,6 @@
         "https://davethediver.net/zh-hans/recipe/clione-queen-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clione-queen-tentacle",
-        "ingredient/kelp",
-        "ingredient/miso",
-        "ingredient/salt"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -8263,9 +7655,6 @@
         "https://davethediver.net/zh-hans/recipe/copper-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-copper-shark"
-      ],
       "relatedFish": [
         "fish/copper-shark"
       ],
@@ -8312,12 +7701,6 @@
         "https://davethediver.net/zh-hans/recipe/deep-fish-tempura/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kelp",
-        "ingredient/cookiecutter-shark",
-        "ingredient/vampire-squid",
-        "ingredient/barreleye"
-      ],
       "relatedFish": [
         "fish/cookiecutter-shark",
         "fish/vampire-squid",
@@ -8378,12 +7761,6 @@
         "https://davethediver.net/zh-hans/recipe/deep-fried-red-lionfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/olive-oil",
-        "ingredient/black-pepper",
-        "ingredient/red-lionfish"
-      ],
       "relatedFish": [
         "fish/red-lionfish"
       ],
@@ -8435,12 +7812,6 @@
         "https://davethediver.net/zh-hans/recipe/deep-fried-sea-urchin/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kajime",
-        "ingredient/olive-oil",
-        "ingredient/green-sea-urchin",
-        "ingredient/purple-sea-urchin"
-      ],
       "relatedFish": [
         "fish/green-sea-urchin",
         "fish/purple-sea-urchin"
@@ -8494,12 +7865,6 @@
         "https://davethediver.net/zh-hans/recipe/deep-fried-vegetables/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/onion",
-        "ingredient/carrot",
-        "ingredient/olive-oil"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -8557,11 +7922,6 @@
         "https://davethediver.net/zh-hans/recipe/deep-sea-kaiju-ramen/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/seaweed",
-        "ingredient/miso",
-        "ingredient/comb-jelly"
-      ],
       "relatedFish": [
         "fish/comb-jelly"
       ],
@@ -8616,12 +7976,6 @@
         "https://davethediver.net/zh-hans/recipe/dried-stingray/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/stingray-meat",
-        "ingredient/marbled-electric-ray-meat",
-        "ingredient/salt",
-        "ingredient/starry-skate"
-      ],
       "relatedFish": [
         "fish/starry-skate",
         "fish/marbled-electric-ray",
@@ -8675,11 +8029,6 @@
         "https://davethediver.net/zh-hans/recipe/dumbo-takoyaki/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/mayonnaise",
-        "ingredient/dumbo-octopus"
-      ],
       "relatedFish": [
         "fish/dumbo-octopus"
       ],
@@ -8728,9 +8077,6 @@
         "https://davethediver.net/zh-hans/recipe/dunkleosteus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-dunkleosteus"
-      ],
       "relatedFish": [
         "fish/dunkleosteus"
       ],
@@ -8779,12 +8125,6 @@
         "https://davethediver.net/zh-hans/recipe/dusky-grouper-stake/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cherry-tomato",
-        "ingredient/salt",
-        "ingredient/olive-oil",
-        "ingredient/dusky-grouper"
-      ],
       "relatedFish": [
         "fish/dusky-grouper"
       ],
@@ -8836,11 +8176,6 @@
         "https://davethediver.net/zh-hans/recipe/ebirah-chasing-sashimi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-grape",
-        "ingredient/california-spiny-lobster",
-        "ingredient/barreleye"
-      ],
       "relatedFish": [
         "fish/california-spiny-lobster",
         "fish/barreleye"
@@ -8896,12 +8231,6 @@
         "https://davethediver.net/zh-hans/recipe/fried-onion-cuttlefish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/onion",
-        "ingredient/olive-oil",
-        "ingredient/salt",
-        "ingredient/cuttlefish"
-      ],
       "relatedFish": [
         "fish/cuttlefish"
       ],
@@ -8954,12 +8283,6 @@
         "https://davethediver.net/zh-hans/recipe/sally-lightfoot-crab-fried-rice/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/grade-a-egg",
-        "ingredient/black-pepper",
-        "ingredient/sally-lightfoot-crab"
-      ],
       "relatedFish": [
         "fish/sally-lightfoot-crab"
       ],
@@ -9012,12 +8335,6 @@
         "https://davethediver.net/zh-hans/recipe/seahorse-fry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/olive-oil",
-        "ingredient/black-vinegar",
-        "ingredient/seahorse-ingredient",
-        "ingredient/long-snouted-seahorse"
-      ],
       "relatedFish": [
         "fish/long-snouted-seahorse",
         "fish/big-belly-seahorse",
@@ -9079,12 +8396,6 @@
         "https://davethediver.net/zh-hans/recipe/fried-tomato-and-snailfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bean",
-        "ingredient/cherry-tomato",
-        "ingredient/gelatinous-snailfish",
-        "ingredient/salmon-snailfish"
-      ],
       "relatedFish": [
         "fish/gelatinous-snailfish",
         "fish/salmon-snailfish"
@@ -9137,12 +8448,6 @@
         "https://davethediver.net/zh-hans/recipe/godzilla-vs-ebirah-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/turmeric",
-        "ingredient/olive-oil",
-        "ingredient/european-lobster",
-        "ingredient/moray-eel"
-      ],
       "relatedFish": [
         "fish/european-lobster"
       ],
@@ -9201,11 +8506,6 @@
         "https://davethediver.net/zh-hans/recipe/green-sea-urchin-and-cucumber-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/buckbean",
-        "ingredient/green-sea-urchin"
-      ],
       "relatedFish": [
         "fish/green-sea-urchin"
       ],
@@ -9262,9 +8562,6 @@
         "https://davethediver.net/zh-hans/recipe/greenland-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-greenland-shark"
-      ],
       "relatedFish": [
         "fish/greenland-shark"
       ],
@@ -9313,12 +8610,6 @@
         "https://davethediver.net/zh-hans/recipe/haddock-aquapazza/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cherry-tomato",
-        "ingredient/carrot",
-        "ingredient/olive-oil",
-        "ingredient/haddock"
-      ],
       "relatedFish": [
         "fish/haddock"
       ],
@@ -9370,12 +8661,6 @@
         "https://davethediver.net/zh-hans/recipe/humboldt-ink-pasta/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/garlic",
-        "ingredient/meat-humboldt-squid",
-        "ingredient/white-shrimp"
-      ],
       "relatedFish": [
         "fish/humboldt-squid",
         "fish/white-shrimp"
@@ -9435,12 +8720,6 @@
         "https://davethediver.net/zh-hans/recipe/latok-omelet/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/grade-a-egg",
-        "ingredient/rice",
-        "ingredient/sea-grape",
-        "ingredient/soy-sauce"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -9491,9 +8770,6 @@
         "https://davethediver.net/zh-hans/recipe/longnose-saw-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-long-nose-saw-shark"
-      ],
       "relatedFish": [
         "fish/long-nose-saw-shark"
       ],
@@ -9542,11 +8818,6 @@
         "https://davethediver.net/zh-hans/recipe/mackerel-scad-hot-dog/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/mayonnaise",
-        "ingredient/mackerel-scad"
-      ],
       "relatedFish": [
         "fish/mackerel-scad"
       ],
@@ -9594,9 +8865,6 @@
         "https://davethediver.net/zh-hans/recipe/marlin-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/marlin-meat"
-      ],
       "relatedFish": [
         "fish/marlin"
       ],
@@ -9646,9 +8914,6 @@
         "https://davethediver.net/zh-hans/recipe/megamouth-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-megamouth-shark"
-      ],
       "relatedFish": [
         "fish/megamouth-shark"
       ],
@@ -9696,12 +8961,6 @@
         "https://davethediver.net/zh-hans/recipe/narrow-barred-spanish-mackerel-arancini/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/egg",
-        "ingredient/rice",
-        "ingredient/garlic",
-        "ingredient/narrow-barred-spanish-mackerel"
-      ],
       "relatedFish": [
         "fish/narrow-barred-spanish-mackerel"
       ],
@@ -9753,12 +9012,6 @@
         "https://davethediver.net/zh-hans/recipe/narwhal-miso-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/carrot",
-        "ingredient/buckbean",
-        "ingredient/miso",
-        "ingredient/meat-narwhal"
-      ],
       "relatedFish": [
         "fish/narwhal"
       ],
@@ -9811,12 +9064,6 @@
         "https://davethediver.net/zh-hans/recipe/eggplant-nasu-dengaku/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/eggplant",
-        "ingredient/garlic",
-        "ingredient/olive-oil",
-        "ingredient/miso"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -9866,12 +9113,6 @@
         "https://davethediver.net/zh-hans/recipe/pickled-vegetables/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/eggplant",
-        "ingredient/carrot",
-        "ingredient/black-vinegar"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -9929,12 +9170,6 @@
         "https://davethediver.net/zh-hans/recipe/plotosid-pie/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/onion",
-        "ingredient/bean",
-        "ingredient/striped-catfish"
-      ],
       "relatedFish": [
         "fish/striped-catfish"
       ],
@@ -9987,9 +9222,6 @@
         "https://davethediver.net/zh-hans/recipe/porbeagle-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-porbeagle-shark"
-      ],
       "relatedFish": [
         "fish/porbeagle-shark"
       ],
@@ -10038,9 +9270,6 @@
         "https://davethediver.net/zh-hans/recipe/red-banded-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-banded-lobster"
-      ],
       "relatedFish": [
         "fish/red-banded-lobster",
         "fish/red-bbanded-lobster"
@@ -10089,11 +9318,6 @@
         "https://davethediver.net/zh-hans/recipe/rice-with-great-spider-crab-meat/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/bean",
-        "ingredient/spider-crab"
-      ],
       "relatedFish": [
         "fish/spider-crab"
       ],
@@ -10141,11 +9365,6 @@
         "https://davethediver.net/zh-hans/recipe/rice-with-purple-sea-urchin-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/sesame-seed",
-        "ingredient/purple-sea-urchin"
-      ],
       "relatedFish": [
         "fish/purple-sea-urchin"
       ],
@@ -10193,12 +9412,6 @@
         "https://davethediver.net/zh-hans/recipe/roasted-tropical-fish-and-garlic/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/garlic",
-        "ingredient/clownfish",
-        "ingredient/pyramid-butterflyfish",
-        "ingredient/blue-tang"
-      ],
       "relatedFish": [
         "fish/clownfish",
         "fish/pyramid-butterflyfish",
@@ -10253,9 +9466,6 @@
         "https://davethediver.net/zh-hans/recipe/sail-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-sail-fish"
-      ],
       "relatedFish": [
         "fish/sailfish"
       ],
@@ -10304,10 +9514,6 @@
         "https://davethediver.net/zh-hans/recipe/salt-grilled-redtoothed-triggerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/salt",
-        "ingredient/redtoothed-triggerfish"
-      ],
       "relatedFish": [
         "fish/redtoothed-triggerfish"
       ],
@@ -10351,11 +9557,6 @@
         "https://davethediver.net/zh-hans/recipe/seagrapes-jellyfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-grape",
-        "ingredient/salt",
-        "ingredient/white-spotted-jellyfish"
-      ],
       "relatedFish": [
         "fish/white-spotted-jellyfish"
       ],
@@ -10411,10 +9612,6 @@
         "https://davethediver.net/zh-hans/recipe/sea-grapes-special/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-grape",
-        "ingredient/rice"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -10456,13 +9653,6 @@
         "https://davethediver.net/zh-hans/recipe/seahorse-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cherry-tomato",
-        "ingredient/sea-grape",
-        "ingredient/olive-oil",
-        "ingredient/seahorse-ingredient",
-        "ingredient/long-snouted-seahorse"
-      ],
       "relatedFish": [
         "fish/long-snouted-seahorse",
         "fish/big-belly-seahorse",
@@ -10527,12 +9717,6 @@
         "https://davethediver.net/zh-hans/recipe/seahorse-udon/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/miso",
-        "ingredient/seahorse-ingredient",
-        "ingredient/long-snouted-seahorse"
-      ],
       "relatedFish": [
         "fish/long-snouted-seahorse",
         "fish/big-belly-seahorse",
@@ -10593,10 +9777,6 @@
         "https://davethediver.net/zh-hans/recipe/seasoned-kajime/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kajime",
-        "ingredient/black-vinegar"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -10638,11 +9818,6 @@
         "https://davethediver.net/zh-hans/recipe/seasoned-long-spine-porcupinefish-skin/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kelp",
-        "ingredient/black-vinegar",
-        "ingredient/longspine-porcupinefish"
-      ],
       "relatedFish": [
         "fish/longspine-porcupinefish"
       ],
@@ -10690,11 +9865,6 @@
         "https://davethediver.net/zh-hans/recipe/seaweed-rolled-omelet/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/grade-a-egg",
-        "ingredient/seaweed",
-        "ingredient/kelp"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -10741,9 +9911,6 @@
         "https://davethediver.net/zh-hans/recipe/shortfin-mako/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/mako-meat"
-      ],
       "relatedFish": [
         "fish/shortfin-mako"
       ],
@@ -10791,11 +9958,6 @@
         "https://davethediver.net/zh-hans/recipe/smoked-atlantic-mackerel-scramble/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/egg",
-        "ingredient/atlantic-mackerel"
-      ],
       "relatedFish": [
         "fish/atlantic-mackerel"
       ],
@@ -10844,9 +10006,6 @@
         "https://davethediver.net/zh-hans/recipe/smooth-hammershark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/hammerhead-meat"
-      ],
       "relatedFish": [
         "fish/smooth-hammerhead"
       ],
@@ -10894,11 +10053,6 @@
         "https://davethediver.net/zh-hans/recipe/steamed-hyalonema-angler-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/hyalonema",
-        "ingredient/soy-sauce",
-        "ingredient/atlantic-anglerfish"
-      ],
       "relatedFish": [
         "fish/atlantic-anglerfish"
       ],
@@ -10946,12 +10100,6 @@
         "https://davethediver.net/zh-hans/recipe/steamed-kronosaurus-tongue/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kronosaurus-tongue",
-        "ingredient/seaweed",
-        "ingredient/agar",
-        "ingredient/southern-bull-kelp"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -11001,12 +10149,6 @@
         "https://davethediver.net/zh-hans/recipe/steamed-wolf-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wolf-eel-tail-meat",
-        "ingredient/agar",
-        "ingredient/salt",
-        "ingredient/black-vinegar"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -11057,10 +10199,6 @@
         "https://davethediver.net/zh-hans/recipe/stellate-puffer-special/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/starry-puffer"
-      ],
       "relatedFish": [
         "fish/starry-puffer",
         "fish/stellate-puffer"
@@ -11105,11 +10243,6 @@
         "https://davethediver.net/zh-hans/recipe/stir-fried-habanero-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/habanero",
-        "ingredient/olive-oil",
-        "ingredient/norway-lobster"
-      ],
       "relatedFish": [
         "fish/norway-lobster"
       ],
@@ -11157,12 +10290,6 @@
         "https://davethediver.net/zh-hans/recipe/stir-fried-hermit-crab-and-seaweed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/truck-hermit-crab-legs",
-        "ingredient/kajime",
-        "ingredient/seaweed",
-        "ingredient/black-vinegar"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -11212,10 +10339,6 @@
         "https://davethediver.net/zh-hans/recipe/striped-red-mullet-tangle-roll/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kelp",
-        "ingredient/striped-red-mullet"
-      ],
       "relatedFish": [
         "fish/striped-red-mullet"
       ],
@@ -11259,12 +10382,6 @@
         "https://davethediver.net/zh-hans/recipe/three-colored-squid-roast/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/salt",
-        "ingredient/peacock-squid",
-        "ingredient/vampire-squid",
-        "ingredient/cuttlefish"
-      ],
       "relatedFish": [
         "fish/peacock-squid",
         "fish/vampire-squid",
@@ -11319,9 +10436,6 @@
         "https://davethediver.net/zh-hans/recipe/thresher-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-thresher-shark"
-      ],
       "relatedFish": [
         "fish/thresher-shark"
       ],
@@ -11370,9 +10484,6 @@
         "https://davethediver.net/zh-hans/recipe/tiger-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tiger-shark-meat"
-      ],
       "relatedFish": [
         "fish/tiger-shark"
       ],
@@ -11420,12 +10531,6 @@
         "https://davethediver.net/zh-hans/recipe/trevally-nanbanzuke/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/onion",
-        "ingredient/soy-sauce",
-        "ingredient/olive-oil",
-        "ingredient/white-trevally"
-      ],
       "relatedFish": [
         "fish/white-trevally"
       ],
@@ -11477,12 +10582,6 @@
         "https://davethediver.net/zh-hans/recipe/trout-sea-grapes-ricebowl/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-grape",
-        "ingredient/rice",
-        "ingredient/soy-sauce",
-        "ingredient/coral-trout"
-      ],
       "relatedFish": [
         "fish/coral-trout"
       ],
@@ -11534,10 +10633,6 @@
         "https://davethediver.net/zh-hans/recipe/truffle-blue-lobster-tail-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/truffle",
-        "ingredient/blue-lobster"
-      ],
       "relatedFish": [
         "fish/blue-lobster"
       ],
@@ -11588,11 +10683,6 @@
         "https://davethediver.net/zh-hans/recipe/truffle-sailfish-tartare/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/truffle",
-        "ingredient/meat-sail-fish",
-        "ingredient/purple-sea-urchin"
-      ],
       "relatedFish": [
         "fish/sailfish",
         "fish/purple-sea-urchin"
@@ -11650,11 +10740,6 @@
         "https://davethediver.net/zh-hans/recipe/truffle-frilled-shark-sand/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/truffle",
-        "ingredient/meat-frilled-shark",
-        "ingredient/meat-megamouth-shark"
-      ],
       "relatedFish": [
         "fish/frilled-shark",
         "fish/megamouth-shark"
@@ -11710,12 +10795,6 @@
         "https://davethediver.net/zh-hans/recipe/warm-atlantic-mackerel-soba/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/buckwheat",
-        "ingredient/seaweed",
-        "ingredient/soy-sauce",
-        "ingredient/atlantic-mackerel"
-      ],
       "relatedFish": [
         "fish/atlantic-mackerel"
       ],
@@ -11767,9 +10846,6 @@
         "https://davethediver.net/zh-hans/recipe/white-spotted-jellyfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/white-spotted-jellyfish"
-      ],
       "relatedFish": [
         "fish/white-spotted-jellyfish"
       ],
@@ -11818,11 +10894,6 @@
         "https://davethediver.net/zh-hans/recipe/white-trevally-tangle-ochazuke/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kelp",
-        "ingredient/soy-sauce",
-        "ingredient/white-trevally"
-      ],
       "relatedFish": [
         "fish/white-trevally",
         "fish/tangle"
@@ -11872,9 +10943,6 @@
         "https://davethediver.net/zh-hans/recipe/whitetip-reefshark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/whitetip-reefshark-meat"
-      ],
       "relatedFish": [
         "fish/whitetip-reefshark"
       ],
@@ -11923,9 +10991,6 @@
         "https://davethediver.net/zh-hans/recipe/yellow-fin-tuna-akami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/yellowfin-tuna-akami"
-      ],
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -11973,9 +11038,6 @@
         "https://davethediver.net/zh-hans/recipe/yellow-fin-tuna-chutoro/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/yellowfin-tuna-chutoro"
-      ],
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -12023,9 +11085,6 @@
         "https://davethediver.net/zh-hans/recipe/yellow-fin-tuna-ootoro/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/yellowfin-tuna-ootoro"
-      ],
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -12072,9 +11131,6 @@
         "https://davethediver.net/zh-hans/recipe/zebra-shark-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-zebra-shark"
-      ],
       "relatedFish": [
         "fish/zebra-shark"
       ],
@@ -12122,9 +11178,6 @@
         "https://davethediver.net/zh-hans/recipe/aurora-jellyfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/aurora-jellyfish"
-      ],
       "relatedFish": [
         "fish/aurora-jellyfish"
       ],
@@ -12165,9 +11218,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-barbed-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/barbed-eel"
-      ],
       "relatedFish": [
         "fish/barbed-eel"
       ],
@@ -12207,9 +11257,6 @@
         "https://davethediver.net/zh-hans/recipe/bloodskin-shark-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bloodskin-shark"
-      ],
       "relatedFish": [
         "fish/bloodskin-shark"
       ],
@@ -12250,9 +11297,6 @@
         "https://davethediver.net/zh-hans/recipe/bluetang/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blue-tang"
-      ],
       "relatedFish": [
         "fish/blue-tang"
       ],
@@ -12293,9 +11337,6 @@
         "https://davethediver.net/zh-hans/recipe/bluespotted-stargazer/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bluespotted-stargazer"
-      ],
       "relatedFish": [
         "fish/bluespotted-stargazer",
         "fish/stargazer"
@@ -12336,11 +11377,6 @@
         "https://davethediver.net/zh-hans/recipe/boiled-asian-sheepshead-wrasse-and-truffle/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kelp",
-        "ingredient/truffle",
-        "ingredient/sheepshead-meat"
-      ],
       "relatedFish": [
         "fish/sheepshead"
       ],
@@ -12387,9 +11423,6 @@
         "https://davethediver.net/zh-hans/recipe/bony-wreckfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bony-wreckfish"
-      ],
       "relatedFish": [
         "fish/bony-wreckfish"
       ],
@@ -12430,9 +11463,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-bursting-anglerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bursting-anglerfish"
-      ],
       "relatedFish": [
         "fish/bursting-anglerfish"
       ],
@@ -12472,9 +11502,6 @@
         "https://davethediver.net/zh-hans/recipe/cardinalfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cardinal-fish"
-      ],
       "relatedFish": [
         "fish/cardinal-fish"
       ],
@@ -12514,9 +11541,6 @@
         "https://davethediver.net/zh-hans/recipe/cerebral-crab-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cerebral-crab"
-      ],
       "relatedFish": [
         "fish/cerebral-crab"
       ],
@@ -12556,9 +11580,6 @@
         "https://davethediver.net/zh-hans/recipe/clown-frogfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clown-frogfish"
-      ],
       "relatedFish": [
         "fish/clown-frogfish"
       ],
@@ -12598,9 +11619,6 @@
         "https://davethediver.net/zh-hans/recipe/concertina-barracuda-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/concertina-barracuda"
-      ],
       "relatedFish": [
         "fish/concertina-barracuda"
       ],
@@ -12640,9 +11658,6 @@
         "https://davethediver.net/zh-hans/recipe/cortex-decorator-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cortex-decorator"
-      ],
       "relatedFish": [
         "fish/cortex-decorator"
       ],
@@ -12683,9 +11698,6 @@
         "https://davethediver.net/zh-hans/recipe/cuttle-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cuttlefish"
-      ],
       "relatedFish": [
         "fish/cuttlefish"
       ],
@@ -12726,9 +11738,6 @@
         "https://davethediver.net/zh-hans/recipe/devil-scorpion-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/devil-scorpionfish"
-      ],
       "relatedFish": [
         "fish/devil-scorpionfish"
       ],
@@ -12769,9 +11778,6 @@
         "https://davethediver.net/zh-hans/recipe/drepanaspis/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-drepanaspis"
-      ],
       "relatedFish": [
         "fish/drepanaspis"
       ],
@@ -12812,9 +11818,6 @@
         "https://davethediver.net/zh-hans/recipe/emperor-angelfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/emperor-angelfish"
-      ],
       "relatedFish": [
         "fish/emperor-angelfish"
       ],
@@ -12854,9 +11857,6 @@
         "https://davethediver.net/zh-hans/recipe/entangled-crab-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/entangled-crab"
-      ],
       "relatedFish": [
         "fish/entangled-crab"
       ],
@@ -12896,9 +11896,6 @@
         "https://davethediver.net/zh-hans/recipe/enthralled-stonefish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/enthralled-stonefish"
-      ],
       "relatedFish": [
         "fish/enthralled-stonefish"
       ],
@@ -12938,9 +11935,6 @@
         "https://davethediver.net/zh-hans/recipe/fanged-cod-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/fanged-cod"
-      ],
       "relatedFish": [
         "fish/fanged-cod"
       ],
@@ -12981,9 +11975,6 @@
         "https://davethediver.net/zh-hans/recipe/flame-angelfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/flame-angelfish"
-      ],
       "relatedFish": [
         "fish/flame-angelfish"
       ],
@@ -13023,12 +12014,6 @@
         "https://davethediver.net/zh-hans/recipe/fried-habanero-fangtooth/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/habanero",
-        "ingredient/bladderwrack",
-        "ingredient/olive-oil",
-        "ingredient/fangtooth"
-      ],
       "relatedFish": [
         "fish/fangtooth"
       ],
@@ -13080,9 +12065,6 @@
         "https://davethediver.net/zh-hans/recipe/frilled-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-frilled-shark"
-      ],
       "relatedFish": [
         "fish/frilled-shark"
       ],
@@ -13122,9 +12104,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-gazing-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gazing-shark"
-      ],
       "relatedFish": [
         "fish/gazing-shark"
       ],
@@ -13164,9 +12143,6 @@
         "https://davethediver.net/zh-hans/recipe/gelatinous-stonefish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gelatinous-stonefish"
-      ],
       "relatedFish": [
         "fish/gelatinous-stonefish"
       ],
@@ -13207,9 +12183,6 @@
         "https://davethediver.net/zh-hans/recipe/giant-trevally/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/giant-trevally-meat"
-      ],
       "relatedFish": [
         "fish/giant-trevally"
       ],
@@ -13249,9 +12222,6 @@
         "https://davethediver.net/zh-hans/recipe/gnashing-perch-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gnashing-perch"
-      ],
       "relatedFish": [
         "fish/gnashing-perch"
       ],
@@ -13291,11 +12261,6 @@
         "https://davethediver.net/zh-hans/recipe/grilled-antarctic-octopus-and-truffle/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kajime",
-        "ingredient/truffle",
-        "ingredient/antarctic-octopus"
-      ],
       "relatedFish": [
         "fish/antarctic-octopus"
       ],
@@ -13342,12 +12307,6 @@
         "https://davethediver.net/zh-hans/recipe/grilled-eel-with-habanero/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/habanero",
-        "ingredient/kajime",
-        "ingredient/soy-sauce",
-        "ingredient/snub-nosed-spiny-eel"
-      ],
       "relatedFish": [
         "fish/snub-nosed-spiny-eel"
       ],
@@ -13398,9 +12357,6 @@
         "https://davethediver.net/zh-hans/recipe/grotesque-mackerel-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/grotesque-mackerel"
-      ],
       "relatedFish": [
         "fish/grotesque-mackerel"
       ],
@@ -13440,9 +12396,6 @@
         "https://davethediver.net/zh-hans/recipe/host-eel-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/host-eel"
-      ],
       "relatedFish": [
         "fish/host-eel"
       ],
@@ -13483,9 +12436,6 @@
         "https://davethediver.net/zh-hans/recipe/humboldt-squid/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-humboldt-squid"
-      ],
       "relatedFish": [
         "fish/humboldt-squid"
       ],
@@ -13525,9 +12475,6 @@
         "https://davethediver.net/zh-hans/recipe/imperious-lobster-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/imperious-lobster"
-      ],
       "relatedFish": [
         "fish/imperious-lobster"
       ],
@@ -13567,9 +12514,6 @@
         "https://davethediver.net/zh-hans/recipe/longfin-batfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/longfin-batfish"
-      ],
       "relatedFish": [
         "fish/longfin-batfish"
       ],
@@ -13610,9 +12554,6 @@
         "https://davethediver.net/zh-hans/recipe/lump-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/lumpfish"
-      ],
       "relatedFish": [
         "fish/lumpfish"
       ],
@@ -13652,9 +12593,6 @@
         "https://davethediver.net/zh-hans/recipe/malignant-pincer-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/malignant-pincer"
-      ],
       "relatedFish": [
         "fish/malignant-pincer"
       ],
@@ -13695,9 +12633,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-many-eyed-mackerel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/many-eyed-mackerel"
-      ],
       "relatedFish": [
         "fish/many-eyed-mackerel"
       ],
@@ -13738,9 +12673,6 @@
         "https://davethediver.net/zh-hans/recipe/marbled-electric-ray/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/marbled-electric-ray-meat"
-      ],
       "relatedFish": [
         "fish/marbled-electric-ray"
       ],
@@ -13780,12 +12712,6 @@
         "https://davethediver.net/zh-hans/recipe/moonlight-bladderwrack-roll/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bladderwrack",
-        "ingredient/longspine-squirrelfish",
-        "ingredient/clearfin-lionfish",
-        "ingredient/blackfin-barracuda"
-      ],
       "relatedFish": [
         "fish/longspine-squirrelfish",
         "fish/clearfin-lionfish",
@@ -13839,9 +12765,6 @@
         "https://davethediver.net/zh-hans/recipe/narwhales/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-narwhal"
-      ],
       "relatedFish": [
         "fish/narwhal"
       ],
@@ -13881,7 +12804,6 @@
         "https://davethediver.net/zh-hans/recipe/norimaki/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
       "relatedFish": [],
       "ingredients": [],
       "stats": {
@@ -13906,9 +12828,6 @@
         "https://davethediver.net/zh-hans/recipe/orbicular-batfish-fry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/orbicular-batfish"
-      ],
       "relatedFish": [
         "fish/orbicular-batfish"
       ],
@@ -13949,9 +12868,6 @@
         "https://davethediver.net/zh-hans/recipe/pacificfanfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/pacific-fanfish"
-      ],
       "relatedFish": [
         "fish/pacific-fanfish"
       ],
@@ -13992,9 +12908,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-parhelion-jellyfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/parhelion-jellyfish"
-      ],
       "relatedFish": [
         "fish/parhelion-jellyfish"
       ],
@@ -14034,9 +12947,6 @@
         "https://davethediver.net/zh-hans/recipe/perished-loosejaw-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/perished-loosejaw"
-      ],
       "relatedFish": [
         "fish/perished-loosejaw"
       ],
@@ -14076,12 +12986,6 @@
         "https://davethediver.net/zh-hans/recipe/pufferfish-dumpling-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/egg",
-        "ingredient/bladderwrack",
-        "ingredient/longspine-porcupinefish",
-        "ingredient/starry-puffer"
-      ],
       "relatedFish": [
         "fish/longspine-porcupinefish",
         "fish/starry-puffer"
@@ -14134,9 +13038,6 @@
         "https://davethediver.net/zh-hans/recipe/pyramid-butterfly-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/pyramid-butterflyfish"
-      ],
       "relatedFish": [
         "fish/pyramid-butterflyfish"
       ],
@@ -14176,9 +13077,6 @@
         "https://davethediver.net/zh-hans/recipe/radiant-squid-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/radiant-squid"
-      ],
       "relatedFish": [
         "fish/radiant-squid"
       ],
@@ -14219,11 +13117,6 @@
         "https://davethediver.net/zh-hans/recipe/rainbow-cap-snub-nosed-spiny-eel-skewer/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rainbow-cap",
-        "ingredient/soy-sauce",
-        "ingredient/snub-nosed-spiny-eel"
-      ],
       "relatedFish": [
         "fish/snub-nosed-spiny-eel"
       ],
@@ -14271,12 +13164,6 @@
         "https://davethediver.net/zh-hans/recipe/rainbow-cap-pacificfanfish-ochazuke/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rainbow-cap",
-        "ingredient/rice",
-        "ingredient/kelp",
-        "ingredient/pacific-fanfish"
-      ],
       "relatedFish": [
         "fish/pacific-fanfish",
         "fish/tangle"
@@ -14328,12 +13215,6 @@
         "https://davethediver.net/zh-hans/recipe/rainbow-cap-triggerfish-fishcake/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rainbow-cap",
-        "ingredient/seaweed",
-        "ingredient/lagoon-triggerfish",
-        "ingredient/grey-triggerfish"
-      ],
       "relatedFish": [
         "fish/lagoon-triggerfish",
         "fish/grey-triggerfish"
@@ -14385,9 +13266,6 @@
         "https://davethediver.net/zh-hans/recipe/rainbow-wrasse-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rainbow-wrasse"
-      ],
       "relatedFish": [
         "fish/rainbow-wrasse"
       ],
@@ -14428,9 +13306,6 @@
         "https://davethediver.net/zh-hans/recipe/rhinochimaeridae/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-rhinochimaeridae"
-      ],
       "relatedFish": [
         "fish/rhinochimaeridae"
       ],
@@ -14470,9 +13345,6 @@
         "https://davethediver.net/zh-hans/recipe/salema-porgy-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/salema-porgy"
-      ],
       "relatedFish": [
         "fish/salema-porgy"
       ],
@@ -14512,9 +13384,6 @@
         "https://davethediver.net/zh-hans/recipe/sallow-sailfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sallow-sailfish"
-      ],
       "relatedFish": [
         "fish/sallow-sailfish"
       ],
@@ -14554,9 +13423,6 @@
         "https://davethediver.net/zh-hans/recipe/savage-barracuda-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/savage-barracuda"
-      ],
       "relatedFish": [
         "fish/savage-barracuda"
       ],
@@ -14596,9 +13462,6 @@
         "https://davethediver.net/zh-hans/recipe/scouring-bass-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/scouring-bass"
-      ],
       "relatedFish": [
         "fish/scouring-bass"
       ],
@@ -14638,10 +13501,6 @@
         "https://davethediver.net/zh-hans/recipe/seahorse-skewers/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/seahorse-ingredient",
-        "ingredient/long-snouted-seahorse"
-      ],
       "relatedFish": [
         "fish/long-snouted-seahorse",
         "fish/big-belly-seahorse",
@@ -14694,9 +13553,6 @@
         "https://davethediver.net/zh-hans/recipe/seizing-snailfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/seizing-snailfish"
-      ],
       "relatedFish": [
         "fish/seizing-snailfish"
       ],
@@ -14736,9 +13592,6 @@
         "https://davethediver.net/zh-hans/recipe/shattered-wreckfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/shattered-wreckfish"
-      ],
       "relatedFish": [
         "fish/shattered-wreckfish"
       ],
@@ -14778,9 +13631,6 @@
         "https://davethediver.net/zh-hans/recipe/sheepshead-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sheepshead-meat"
-      ],
       "relatedFish": [
         "fish/sheepshead"
       ],
@@ -14821,9 +13671,6 @@
         "https://davethediver.net/zh-hans/recipe/smallspotted-dart/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/small-spotted-dart"
-      ],
       "relatedFish": [
         "fish/small-spotted-dart"
       ],
@@ -14864,12 +13711,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-soysauce-marinated/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/soy-sauce",
-        "ingredient/golden-king-crab",
-        "ingredient/snow-crab",
-        "ingredient/horsehair-crab"
-      ],
       "relatedFish": [
         "fish/golden-king-crab",
         "fish/snow-crab",
@@ -14922,9 +13763,6 @@
         "https://davethediver.net/zh-hans/recipe/spider-crab-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/spider-crab"
-      ],
       "relatedFish": [
         "fish/spider-crab"
       ],
@@ -14964,9 +13802,6 @@
         "https://davethediver.net/zh-hans/recipe/splintered-crab-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/splintered-crab"
-      ],
       "relatedFish": [
         "fish/splintered-crab"
       ],
@@ -15006,9 +13841,6 @@
         "https://davethediver.net/zh-hans/recipe/sprouting-eel-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sprouting-eel"
-      ],
       "relatedFish": [
         "fish/sprouting-eel"
       ],
@@ -15048,9 +13880,6 @@
         "https://davethediver.net/zh-hans/recipe/starry-skate-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/starry-skate"
-      ],
       "relatedFish": [
         "fish/starry-skate"
       ],
@@ -15090,9 +13919,6 @@
         "https://davethediver.net/zh-hans/recipe/stingray-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/stingray-meat"
-      ],
       "relatedFish": [
         "fish/stingray"
       ],
@@ -15132,9 +13958,6 @@
         "https://davethediver.net/zh-hans/recipe/striped-red-mullet-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/striped-red-mullet"
-      ],
       "relatedFish": [
         "fish/striped-red-mullet"
       ],
@@ -15174,12 +13997,6 @@
         "https://davethediver.net/zh-hans/recipe/sweet-and-sour-stargazer/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wheat",
-        "ingredient/egg",
-        "ingredient/olive-oil",
-        "ingredient/bluespotted-stargazer"
-      ],
       "relatedFish": [
         "fish/bluespotted-stargazer"
       ],
@@ -15231,9 +14048,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-three-headed-cod/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/three-headed-cod"
-      ],
       "relatedFish": [
         "fish/three-headed-cod",
         "fish/dredge-three-headed-cod"
@@ -15274,9 +14088,6 @@
         "https://davethediver.net/zh-hans/recipe/translucent-sturgeon-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/translucent-sturgeon"
-      ],
       "relatedFish": [
         "fish/translucent-sturgeon"
       ],
@@ -15316,12 +14127,6 @@
         "https://davethediver.net/zh-hans/recipe/tropical-fish-sushi-set/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/titan-triggerfish",
-        "ingredient/harlequin-hind",
-        "ingredient/coral-trout"
-      ],
       "relatedFish": [
         "fish/titan-triggerfish",
         "fish/harlequin-hind",
@@ -15374,9 +14179,6 @@
         "https://davethediver.net/zh-hans/recipe/tusked-grouper-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tusked-grouper"
-      ],
       "relatedFish": [
         "fish/tusked-grouper"
       ],
@@ -15416,9 +14218,6 @@
         "https://davethediver.net/zh-hans/recipe/voltaic-grouper-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/voltaic-grouper"
-      ],
       "relatedFish": [
         "fish/voltaic-grouper"
       ],
@@ -15458,9 +14257,6 @@
         "https://davethediver.net/zh-hans/recipe/withered-ray-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/withered-ray"
-      ],
       "relatedFish": [
         "fish/withered-ray"
       ],
@@ -15501,9 +14297,6 @@
         "https://davethediver.net/zh-hans/recipe/xenacanthus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-xenacanthus"
-      ],
       "relatedFish": [
         "fish/xenacanthus"
       ],
@@ -15542,9 +14335,6 @@
         "https://davethediver.net/zh-hans/recipe/young-anomalocaris-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/anomalocaris"
-      ],
       "relatedFish": [
         "fish/anomalocaris"
       ],
@@ -15584,7 +14374,6 @@
         "https://davethediver.net/zh-hans/recipe/gim/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
       "relatedFish": [],
       "ingredients": [],
       "stats": {
@@ -15614,9 +14403,6 @@
         "https://davethediver.net/zh-hans/recipe/ammonite/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/ammonite"
-      ],
       "relatedFish": [
         "fish/ammonite"
       ],
@@ -15649,9 +14435,6 @@
         "https://davethediver.net/zh-hans/recipe/anomalocaris/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/baby-anomalocaris"
-      ],
       "relatedFish": [
         "fish/baby-anomalocaris"
       ],
@@ -15684,9 +14467,6 @@
         "https://davethediver.net/zh-hans/recipe/antarctic-starry-skate/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/antarctic-starry-skate"
-      ],
       "relatedFish": [
         "fish/antarctic-starry-skate"
       ],
@@ -15719,9 +14499,6 @@
         "https://davethediver.net/zh-hans/recipe/archerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/archerfish"
-      ],
       "relatedFish": [
         "fish/archerfish"
       ],
@@ -15754,9 +14531,6 @@
         "https://davethediver.net/zh-hans/recipe/armored-catfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/armored-catfish"
-      ],
       "relatedFish": [
         "fish/armored-catfish"
       ],
@@ -15789,9 +14563,6 @@
         "https://davethediver.net/zh-hans/recipe/asian-arowana/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/asian-arowana"
-      ],
       "relatedFish": [
         "fish/asian-arowana"
       ],
@@ -15824,9 +14595,6 @@
         "https://davethediver.net/zh-hans/recipe/asian-sheepshead/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-asian-sheepshead"
-      ],
       "relatedFish": [
         "fish/asian-sheepshead"
       ],
@@ -15859,9 +14627,6 @@
         "https://davethediver.net/zh-hans/recipe/australian-spotted-jellyfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/australian-spotted-jellyfish"
-      ],
       "relatedFish": [
         "fish/australian-spotted-jellyfish"
       ],
@@ -15894,9 +14659,6 @@
         "https://davethediver.net/zh-hans/recipe/black-caiman/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/black-caiman"
-      ],
       "relatedFish": [
         "fish/black-caiman"
       ],
@@ -15929,9 +14691,6 @@
         "https://davethediver.net/zh-hans/recipe/bloodbelly-comb-jelly/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bloodbelly-comb-jelly"
-      ],
       "relatedFish": [
         "fish/bloodbelly-comb-jelly"
       ],
@@ -15964,9 +14723,6 @@
         "https://davethediver.net/zh-hans/recipe/blue-discus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blue-discus"
-      ],
       "relatedFish": [
         "fish/blue-discus"
       ],
@@ -15999,9 +14755,6 @@
         "https://davethediver.net/zh-hans/recipe/blue-fin-tuna-ootoro/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-blue-fin-tuna-ootoro"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -16032,9 +14785,6 @@
         "https://davethediver.net/zh-hans/recipe/blue-gill/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blue-gill"
-      ],
       "relatedFish": [
         "fish/blue-gill"
       ],
@@ -16067,12 +14817,6 @@
         "https://davethediver.net/zh-hans/recipe/blue-spotted-stargazer-sweet-and-sour-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/flour",
-        "ingredient/egg",
-        "ingredient/olive-oil",
-        "ingredient/stargazer"
-      ],
       "relatedFish": [
         "fish/stargazer"
       ],
@@ -16117,9 +14861,6 @@
         "https://davethediver.net/zh-hans/recipe/bluegray-mbuna/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bluegray-mbuna"
-      ],
       "relatedFish": [
         "fish/bluegray-mbuna"
       ],
@@ -16152,9 +14893,6 @@
         "https://davethediver.net/zh-hans/recipe/brown-discus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/brown-discus"
-      ],
       "relatedFish": [
         "fish/brown-discus"
       ],
@@ -16187,9 +14925,6 @@
         "https://davethediver.net/zh-hans/recipe/burgessomedusa/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/burgessomedusa"
-      ],
       "relatedFish": [
         "fish/burgessomedusa"
       ],
@@ -16222,11 +14957,6 @@
         "https://davethediver.net/zh-hans/recipe/caulerpa-racemosa-jellyfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-grape",
-        "ingredient/salt",
-        "ingredient/australian-spotted-jellyfish"
-      ],
       "relatedFish": [
         "fish/australian-spotted-jellyfish"
       ],
@@ -16267,9 +14997,6 @@
         "https://davethediver.net/zh-hans/recipe/channa-striata/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/striped-snakehead"
-      ],
       "relatedFish": [
         "fish/striped-snakehead"
       ],
@@ -16302,9 +15029,6 @@
         "https://davethediver.net/zh-hans/recipe/chocolate-gourami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/chocolate-gourami"
-      ],
       "relatedFish": [
         "fish/chocolate-gourami"
       ],
@@ -16337,9 +15061,6 @@
         "https://davethediver.net/zh-hans/recipe/clarias/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/walking-catfish"
-      ],
       "relatedFish": [
         "fish/walking-catfish"
       ],
@@ -16372,9 +15093,6 @@
         "https://davethediver.net/zh-hans/recipe/clown-feather-back/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clown-featherback"
-      ],
       "relatedFish": [
         "fish/clown-featherback"
       ],
@@ -16408,9 +15126,6 @@
         "https://davethediver.net/zh-hans/recipe/clownfish-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clownfish"
-      ],
       "relatedFish": [
         "fish/clownfish"
       ],
@@ -16443,9 +15158,6 @@
         "https://davethediver.net/zh-hans/recipe/clown-loach/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clown-loach"
-      ],
       "relatedFish": [
         "fish/clown-loach"
       ],
@@ -16479,9 +15191,6 @@
         "https://davethediver.net/zh-hans/recipe/comber-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/comber"
-      ],
       "relatedFish": [
         "fish/comber"
       ],
@@ -16514,9 +15223,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-ciurcopterus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-ciurcopterus"
-      ],
       "relatedFish": [
         "fish/crab-trap-ciurcopterus"
       ],
@@ -16549,9 +15255,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-common-yabby/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-common-yabby"
-      ],
       "relatedFish": [
         "fish/crab-trap-common-yabby"
       ],
@@ -16584,9 +15287,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-murray-crayfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-murray-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-murray-crayfish"
       ],
@@ -16619,9 +15319,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-red-swamp-crayfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-red-swamp-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-red-swamp-crayfish"
       ],
@@ -16654,9 +15351,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-signal-crayfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-signal-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-signal-crayfish"
       ],
@@ -16689,9 +15383,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-smooth-marron/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-smooth-marron"
-      ],
       "relatedFish": [
         "fish/crab-trap-smooth-marron"
       ],
@@ -16724,9 +15415,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-tricolor-crayfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-tricolor-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-tricolor-crayfish"
       ],
@@ -16759,9 +15447,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-tumidocarcinus-giganteus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-tumidocarcinus-giganteus"
-      ],
       "relatedFish": [
         "fish/crab-trap-tumidocarcinus-giganteus"
       ],
@@ -16794,9 +15479,6 @@
         "https://davethediver.net/zh-hans/recipe/crab-trap-tuzoia/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/crab-trap-tuzoia"
-      ],
       "relatedFish": [
         "fish/crab-trap-tuzoia"
       ],
@@ -16829,12 +15511,6 @@
         "https://davethediver.net/zh-hans/recipe/crayfish-lemongrass-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/crab-trap-smooth-marron",
-        "ingredient/crab-trap-murray-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-smooth-marron",
         "fish/crab-trap-murray-crayfish"
@@ -16880,9 +15556,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-aurora-jellyfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-aurora-jellyfish"
-      ],
       "relatedFish": [
         "fish/dredge-aurora-jellyfish"
       ],
@@ -16915,9 +15588,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-bloodskin-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-bloodskin-shark"
-      ],
       "relatedFish": [
         "fish/dredge-bloodskin-shark"
       ],
@@ -16950,9 +15620,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-bony-wreckfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-bony-wreckfish"
-      ],
       "relatedFish": [
         "fish/dredge-bony-wreckfish"
       ],
@@ -16985,9 +15652,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-cerebral-crab/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-cerebral-crab"
-      ],
       "relatedFish": [
         "fish/dredge-cerebral-crab"
       ],
@@ -17020,9 +15684,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-concertina-barracuda/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-concertina-barracuda"
-      ],
       "relatedFish": [
         "fish/dredge-concertina-barracuda"
       ],
@@ -17055,9 +15716,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-cortex-decorator/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-cortex-decorator"
-      ],
       "relatedFish": [
         "fish/dredge-cortex-decorator"
       ],
@@ -17090,9 +15748,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-entangled-crab/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-entangled-crab"
-      ],
       "relatedFish": [
         "fish/dredge-entangled-crab"
       ],
@@ -17125,9 +15780,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-enthralled-stonefish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-enthralled-stonefish"
-      ],
       "relatedFish": [
         "fish/dredge-enthralled-stonefish"
       ],
@@ -17160,9 +15812,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-fanged-cod/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-fanged-cod"
-      ],
       "relatedFish": [
         "fish/dredge-fanged-cod"
       ],
@@ -17195,9 +15844,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-gelatinous-stonefish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-gelatinous-stonefish"
-      ],
       "relatedFish": [
         "fish/dredge-gelatinous-stonefish"
       ],
@@ -17230,9 +15876,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-gnashing-perch/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-gnashing-perch"
-      ],
       "relatedFish": [
         "fish/dredge-gnashing-perch"
       ],
@@ -17265,9 +15908,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-grotesque-mackerel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-grotesque-mackerel"
-      ],
       "relatedFish": [
         "fish/dredge-grotesque-mackerel"
       ],
@@ -17300,9 +15940,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-host-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-host-eel"
-      ],
       "relatedFish": [
         "fish/dredge-host-eel"
       ],
@@ -17335,9 +15972,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-imperious-lobster/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-imperious-lobster"
-      ],
       "relatedFish": [
         "fish/dredge-imperious-lobster"
       ],
@@ -17370,9 +16004,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-malignant-pincer/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-malignant-pincer"
-      ],
       "relatedFish": [
         "fish/dredge-malignant-pincer"
       ],
@@ -17405,9 +16036,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-perished-loosejaw/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-perished-loosejaw"
-      ],
       "relatedFish": [
         "fish/dredge-perished-loosejaw"
       ],
@@ -17440,9 +16068,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-radiant-squid/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-radiant-squid"
-      ],
       "relatedFish": [
         "fish/dredge-radiant-squid"
       ],
@@ -17475,9 +16100,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-sallow-sailfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-sallow-sailfish"
-      ],
       "relatedFish": [
         "fish/dredge-sallow-sailfish"
       ],
@@ -17510,9 +16132,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-savage-barracuda/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-savage-barracuda"
-      ],
       "relatedFish": [
         "fish/dredge-savage-barracuda"
       ],
@@ -17545,9 +16164,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-scouring-bass/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-scouring-bass"
-      ],
       "relatedFish": [
         "fish/dredge-scouring-bass"
       ],
@@ -17580,9 +16196,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-seizing-snailfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-seizing-snailfish"
-      ],
       "relatedFish": [
         "fish/dredge-seizing-snailfish"
       ],
@@ -17615,9 +16228,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-shattered-wreckfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-shattered-wreckfish"
-      ],
       "relatedFish": [
         "fish/dredge-shattered-wreckfish"
       ],
@@ -17650,9 +16260,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-splintered-crab/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-splintered-crab"
-      ],
       "relatedFish": [
         "fish/dredge-splintered-crab"
       ],
@@ -17685,9 +16292,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-translucent-sturgeon/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-translucent-sturgeon"
-      ],
       "relatedFish": [
         "fish/dredge-translucent-sturgeon"
       ],
@@ -17720,9 +16324,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-tusked-grouper/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-tusked-grouper"
-      ],
       "relatedFish": [
         "fish/dredge-tusked-grouper"
       ],
@@ -17755,9 +16356,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-voltaic-grouper/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-voltaic-grouper"
-      ],
       "relatedFish": [
         "fish/dredge-voltaic-grouper"
       ],
@@ -17790,9 +16388,6 @@
         "https://davethediver.net/zh-hans/recipe/dredge-withered-ray/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-withered-ray"
-      ],
       "relatedFish": [
         "fish/dredge-withered-ray"
       ],
@@ -17825,9 +16420,6 @@
         "https://davethediver.net/zh-hans/recipe/eagle-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/eagle-shark"
-      ],
       "relatedFish": [
         "fish/eagle-shark"
       ],
@@ -17860,9 +16452,6 @@
         "https://davethediver.net/zh-hans/recipe/electric-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/electric-eel"
-      ],
       "relatedFish": [
         "fish/electric-eel"
       ],
@@ -17895,9 +16484,6 @@
         "https://davethediver.net/zh-hans/recipe/emperor-snakehead/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/emperor-snakehead"
-      ],
       "relatedFish": [
         "fish/emperor-snakehead"
       ],
@@ -17930,9 +16516,6 @@
         "https://davethediver.net/zh-hans/recipe/eomesodon/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/eomesodon"
-      ],
       "relatedFish": [
         "fish/eomesodon"
       ],
@@ -17965,9 +16548,6 @@
         "https://davethediver.net/zh-hans/recipe/exellia/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/exellia"
-      ],
       "relatedFish": [
         "fish/exellia"
       ],
@@ -18000,9 +16580,6 @@
         "https://davethediver.net/zh-hans/recipe/fire-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/fire-eel"
-      ],
       "relatedFish": [
         "fish/fire-eel"
       ],
@@ -18035,9 +16612,6 @@
         "https://davethediver.net/zh-hans/recipe/foreyia/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/foreyia"
-      ],
       "relatedFish": [
         "fish/foreyia"
       ],
@@ -18070,9 +16644,6 @@
         "https://davethediver.net/zh-hans/recipe/giant-fresh-water-stingray/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/giant-fresh-water-stingray"
-      ],
       "relatedFish": [
         "fish/giant-fresh-water-stingray"
       ],
@@ -18105,11 +16676,6 @@
         "https://davethediver.net/zh-hans/recipe/giant-fresh-water-stingray-barbecued/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/loot-palm-sugar",
-        "ingredient/giant-fresh-water-stingray"
-      ],
       "relatedFish": [
         "fish/giant-fresh-water-stingray"
       ],
@@ -18150,9 +16716,6 @@
         "https://davethediver.net/zh-hans/recipe/giant-gourami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/giant-gourami"
-      ],
       "relatedFish": [
         "fish/giant-gourami"
       ],
@@ -18185,9 +16748,6 @@
         "https://davethediver.net/zh-hans/recipe/giant-snakehead/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/giant-snakehead"
-      ],
       "relatedFish": [
         "fish/giant-snakehead"
       ],
@@ -18220,9 +16780,6 @@
         "https://davethediver.net/zh-hans/recipe/goliath-tigerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/goliath-tigerfish"
-      ],
       "relatedFish": [
         "fish/goliath-tigerfish"
       ],
@@ -18255,9 +16812,6 @@
         "https://davethediver.net/zh-hans/recipe/grass-carp/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/grass-carp"
-      ],
       "relatedFish": [
         "fish/grass-carp"
       ],
@@ -18290,9 +16844,6 @@
         "https://davethediver.net/zh-hans/recipe/great-spider-crab/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/great-spider-crab"
-      ],
       "relatedFish": [
         "fish/great-spider-crab"
       ],
@@ -18325,10 +16876,6 @@
         "https://davethediver.net/zh-hans/recipe/great-spider-crab-cucumber/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/great-spider-crab"
-      ],
       "relatedFish": [
         "fish/great-spider-crab"
       ],
@@ -18365,9 +16912,6 @@
         "https://davethediver.net/zh-hans/recipe/great-sturgeon/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/great-sturgeon"
-      ],
       "relatedFish": [
         "fish/great-sturgeon"
       ],
@@ -18400,9 +16944,6 @@
         "https://davethediver.net/zh-hans/recipe/green-discus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/green-discus"
-      ],
       "relatedFish": [
         "fish/green-discus"
       ],
@@ -18435,9 +16976,6 @@
         "https://davethediver.net/zh-hans/recipe/gyrodus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gyrodus"
-      ],
       "relatedFish": [
         "fish/gyrodus"
       ],
@@ -18470,9 +17008,6 @@
         "https://davethediver.net/zh-hans/recipe/heckel-discus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/heckel-discus"
-      ],
       "relatedFish": [
         "fish/heckel-discus"
       ],
@@ -18505,9 +17040,6 @@
         "https://davethediver.net/zh-hans/recipe/hensodon/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/hensodon"
-      ],
       "relatedFish": [
         "fish/hensodon"
       ],
@@ -18540,9 +17072,6 @@
         "https://davethediver.net/zh-hans/recipe/horse-face-loach/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/horse-face-loach"
-      ],
       "relatedFish": [
         "fish/horse-face-loach"
       ],
@@ -18575,9 +17104,6 @@
         "https://davethediver.net/zh-hans/recipe/horsehair-crab-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/horsehair-crab"
-      ],
       "relatedFish": [
         "fish/horsehair-crab"
       ],
@@ -18608,9 +17134,6 @@
         "https://davethediver.net/zh-hans/recipe/indonesian-tiger-perch/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/indonesian-tiger-perch"
-      ],
       "relatedFish": [
         "fish/indonesian-tiger-perch"
       ],
@@ -18643,9 +17166,6 @@
         "https://davethediver.net/zh-hans/recipe/juvenile-circular-bat-fish-fry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/juvenile-circular-bat-fish"
-      ],
       "relatedFish": [
         "fish/juvenile-circular-bat-fish"
       ],
@@ -18678,9 +17198,6 @@
         "https://davethediver.net/zh-hans/recipe/king-salmon/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/king-salmon"
-      ],
       "relatedFish": [
         "fish/king-salmon"
       ],
@@ -18713,9 +17230,6 @@
         "https://davethediver.net/zh-hans/recipe/kissing-gourami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kissing-gourami"
-      ],
       "relatedFish": [
         "fish/kissing-gourami"
       ],
@@ -18748,9 +17262,6 @@
         "https://davethediver.net/zh-hans/recipe/large-mouth-bass/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/large-mouth-bass"
-      ],
       "relatedFish": [
         "fish/large-mouth-bass"
       ],
@@ -18783,9 +17294,6 @@
         "https://davethediver.net/zh-hans/recipe/lemon-yellow-lab/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/lemon-yellow-lab"
-      ],
       "relatedFish": [
         "fish/lemon-yellow-lab"
       ],
@@ -18818,9 +17326,6 @@
         "https://davethediver.net/zh-hans/recipe/malayan-leaffish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/malayan-leaffish"
-      ],
       "relatedFish": [
         "fish/malayan-leaffish"
       ],
@@ -18853,9 +17358,6 @@
         "https://davethediver.net/zh-hans/recipe/malayan-mahseer/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/malayan-mahseer"
-      ],
       "relatedFish": [
         "fish/malayan-mahseer"
       ],
@@ -18888,9 +17390,6 @@
         "https://davethediver.net/zh-hans/recipe/malayan-pike-head/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/malayan-pikehead"
-      ],
       "relatedFish": [
         "fish/malayan-pikehead"
       ],
@@ -18923,9 +17422,6 @@
         "https://davethediver.net/zh-hans/recipe/mediterranean-rainbow-wrasse/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/mediterranean-rainbow-wrasse"
-      ],
       "relatedFish": [
         "fish/mediterranean-rainbow-wrasse"
       ],
@@ -18958,9 +17454,6 @@
         "https://davethediver.net/zh-hans/recipe/moonlight-gourami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/moonlight-gourami"
-      ],
       "relatedFish": [
         "fish/moonlight-gourami"
       ],
@@ -18993,9 +17486,6 @@
         "https://davethediver.net/zh-hans/recipe/mud-carp/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/mud-carp"
-      ],
       "relatedFish": [
         "fish/mud-carp"
       ],
@@ -19028,9 +17518,6 @@
         "https://davethediver.net/zh-hans/recipe/nile-perch/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/nile-perch"
-      ],
       "relatedFish": [
         "fish/nile-perch"
       ],
@@ -19063,9 +17550,6 @@
         "https://davethediver.net/zh-hans/recipe/ophthalmosaurus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/ophthalmosaurus"
-      ],
       "relatedFish": [
         "fish/ophthalmosaurus"
       ],
@@ -19098,9 +17582,6 @@
         "https://davethediver.net/zh-hans/recipe/orthoceras/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/orthoceras"
-      ],
       "relatedFish": [
         "fish/orthoceras"
       ],
@@ -19133,9 +17614,6 @@
         "https://davethediver.net/zh-hans/recipe/paradoxides/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/paradoxides"
-      ],
       "relatedFish": [
         "fish/paradoxides"
       ],
@@ -19168,9 +17646,6 @@
         "https://davethediver.net/zh-hans/recipe/parameteroraspis/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/parameteroraspis"
-      ],
       "relatedFish": [
         "fish/parameteroraspis"
       ],
@@ -19203,9 +17678,6 @@
         "https://davethediver.net/zh-hans/recipe/peacock-bass/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/peacock-bass"
-      ],
       "relatedFish": [
         "fish/peacock-bass"
       ],
@@ -19238,9 +17710,6 @@
         "https://davethediver.net/zh-hans/recipe/pearl-gourami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/pearl-gourami"
-      ],
       "relatedFish": [
         "fish/pearl-gourami"
       ],
@@ -19273,9 +17742,6 @@
         "https://davethediver.net/zh-hans/recipe/piraiba-catfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/piraiba-catfish"
-      ],
       "relatedFish": [
         "fish/piraiba-catfish"
       ],
@@ -19308,9 +17774,6 @@
         "https://davethediver.net/zh-hans/recipe/pirarucu/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/pirarucu"
-      ],
       "relatedFish": [
         "fish/pirarucu"
       ],
@@ -19343,9 +17806,6 @@
         "https://davethediver.net/zh-hans/recipe/platinum-alligator-gar/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/platinum-alligator-gar"
-      ],
       "relatedFish": [
         "fish/platinum-alligator-gar"
       ],
@@ -19378,9 +17838,6 @@
         "https://davethediver.net/zh-hans/recipe/platyceramus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/platyceramus"
-      ],
       "relatedFish": [
         "fish/platyceramus"
       ],
@@ -19413,9 +17870,6 @@
         "https://davethediver.net/zh-hans/recipe/promissum/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/promissum"
-      ],
       "relatedFish": [
         "fish/promissum"
       ],
@@ -19448,9 +17902,6 @@
         "https://davethediver.net/zh-hans/recipe/red-bellied-piranha/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-bellied-piranha"
-      ],
       "relatedFish": [
         "fish/red-bellied-piranha"
       ],
@@ -19483,9 +17934,6 @@
         "https://davethediver.net/zh-hans/recipe/red-discus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-discus"
-      ],
       "relatedFish": [
         "fish/red-discus"
       ],
@@ -19518,9 +17966,6 @@
         "https://davethediver.net/zh-hans/recipe/red-feather-starfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-feather-starfish"
-      ],
       "relatedFish": [
         "fish/red-feather-starfish"
       ],
@@ -19553,9 +17998,6 @@
         "https://davethediver.net/zh-hans/recipe/red-mullet/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-mullet"
-      ],
       "relatedFish": [
         "fish/red-mullet"
       ],
@@ -19588,9 +18030,6 @@
         "https://davethediver.net/zh-hans/recipe/red-stingray/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-red-stingray"
-      ],
       "relatedFish": [
         "fish/red-stingray"
       ],
@@ -19623,9 +18062,6 @@
         "https://davethediver.net/zh-hans/recipe/redeye-piranha/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/redeye-piranha"
-      ],
       "relatedFish": [
         "fish/redeye-piranha"
       ],
@@ -19658,9 +18094,6 @@
         "https://davethediver.net/zh-hans/recipe/redtail-catfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/redtail-catfish"
-      ],
       "relatedFish": [
         "fish/redtail-catfish"
       ],
@@ -19693,9 +18126,6 @@
         "https://davethediver.net/zh-hans/recipe/reef-triggerfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/reef-triggerfish"
-      ],
       "relatedFish": [
         "fish/reef-triggerfish",
         "fish/lagoon-triggerfish"
@@ -19729,9 +18159,6 @@
         "https://davethediver.net/zh-hans/recipe/ruby-cardinal-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/ruby-cardinal-fish"
-      ],
       "relatedFish": [
         "fish/ruby-cardinal-fish"
       ],
@@ -19764,9 +18191,6 @@
         "https://davethediver.net/zh-hans/recipe/sacabambaspis/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sacabambaspis"
-      ],
       "relatedFish": [
         "fish/sacabambaspis"
       ],
@@ -19799,9 +18223,6 @@
         "https://davethediver.net/zh-hans/recipe/seahorse-roasted/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/seahorse"
-      ],
       "relatedFish": [
         "fish/seahorse"
       ],
@@ -19834,9 +18255,6 @@
         "https://davethediver.net/zh-hans/recipe/snakeskin-gourami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/snakeskin-gourami"
-      ],
       "relatedFish": [
         "fish/snakeskin-gourami"
       ],
@@ -19869,11 +18287,6 @@
         "https://davethediver.net/zh-hans/recipe/spider-crab-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-egg",
-        "ingredient/curry-block",
-        "ingredient/great-spider-crab"
-      ],
       "relatedFish": [
         "fish/great-spider-crab"
       ],
@@ -19914,9 +18327,6 @@
         "https://davethediver.net/zh-hans/recipe/square-spot-anthias/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/square-spot-anthias"
-      ],
       "relatedFish": [
         "fish/square-spot-anthias"
       ],
@@ -19949,9 +18359,6 @@
         "https://davethediver.net/zh-hans/recipe/striped-marlin/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-striped-marlin"
-      ],
       "relatedFish": [
         "fish/striped-marlin"
       ],
@@ -19984,9 +18391,6 @@
         "https://davethediver.net/zh-hans/recipe/stylonurus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/stylonurus"
-      ],
       "relatedFish": [
         "fish/stylonurus"
       ],
@@ -20019,9 +18423,6 @@
         "https://davethediver.net/zh-hans/recipe/sword-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-sword-fish"
-      ],
       "relatedFish": [
         "fish/sword-fish"
       ],
@@ -20054,9 +18455,6 @@
         "https://davethediver.net/zh-hans/recipe/tambaqui/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tambaqui"
-      ],
       "relatedFish": [
         "fish/tambaqui"
       ],
@@ -20089,9 +18487,6 @@
         "https://davethediver.net/zh-hans/recipe/tapah/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tapah"
-      ],
       "relatedFish": [
         "fish/tapah"
       ],
@@ -20124,9 +18519,6 @@
         "https://davethediver.net/zh-hans/recipe/three-spot-gourami/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/three-spot-gourami"
-      ],
       "relatedFish": [
         "fish/three-spot-gourami"
       ],
@@ -20159,9 +18551,6 @@
         "https://davethediver.net/zh-hans/recipe/tilapia/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tilapia"
-      ],
       "relatedFish": [
         "fish/tilapia"
       ],
@@ -20194,9 +18583,6 @@
         "https://davethediver.net/zh-hans/recipe/tullimonstrum/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tullimonstrum"
-      ],
       "relatedFish": [
         "fish/tullimonstrum"
       ],
@@ -20229,12 +18615,6 @@
         "https://davethediver.net/zh-hans/recipe/vege-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/onion",
-        "ingredient/carrot",
-        "ingredient/olive-oil"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20277,12 +18657,6 @@
         "https://davethediver.net/zh-hans/recipe/vege-tsukemono/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cucumber",
-        "ingredient/eggplant",
-        "ingredient/carrot",
-        "ingredient/black-vinegar"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20325,9 +18699,6 @@
         "https://davethediver.net/zh-hans/recipe/warty-frogfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/warty-frogfish"
-      ],
       "relatedFish": [
         "fish/warty-frogfish"
       ],
@@ -20360,10 +18731,6 @@
         "https://davethediver.net/zh-hans/recipe/whitetip-reefshark-roast/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-whitetip-reefshark-head",
-        "ingredient/olive-oil"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20398,9 +18765,6 @@
         "https://davethediver.net/zh-hans/recipe/wiwaxia/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-wiwaxia-01"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20431,12 +18795,6 @@
         "https://davethediver.net/zh-hans/recipe/alligator-gar-durian-head-curry/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/platinum-alligator-gar",
-        "ingredient/durian"
-      ],
       "relatedFish": [
         "fish/platinum-alligator-gar"
       ],
@@ -20479,13 +18837,6 @@
         "https://davethediver.net/zh-hans/recipe/ammonite-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/egg",
-        "ingredient/ammonite",
-        "ingredient/water-spinach",
-        "ingredient/jungle-egg"
-      ],
       "relatedFish": [
         "fish/ammonite"
       ],
@@ -20528,12 +18879,6 @@
         "https://davethediver.net/zh-hans/recipe/bamboo-shoot-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/egg",
-        "ingredient/bamboo-shoot",
-        "ingredient/jungle-egg",
-        "ingredient/king-trumpet-mushroom"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20570,12 +18915,6 @@
         "https://davethediver.net/zh-hans/recipe/banana-dragon-fruit-pudding/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/loot-palm-sugar",
-        "ingredient/banana",
-        "ingredient/dragon-fruit"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20616,12 +18955,6 @@
         "https://davethediver.net/zh-hans/recipe/banana-halo-halo/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-palm-sugar",
-        "ingredient/banana",
-        "ingredient/mangosteen",
-        "ingredient/pineapple"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20662,11 +18995,6 @@
         "https://davethediver.net/zh-hans/recipe/bananablossom-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/calamansi",
-        "ingredient/banana-blossom"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20703,9 +19031,6 @@
         "https://davethediver.net/zh-hans/recipe/battle-dish-carbonara/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gim"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20734,9 +19059,6 @@
         "https://davethediver.net/zh-hans/recipe/battle-dish-dimsum/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gim"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20765,9 +19087,6 @@
         "https://davethediver.net/zh-hans/recipe/battle-dish-fish-and-chips/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gim"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20796,12 +19115,6 @@
         "https://davethediver.net/zh-hans/recipe/bird-mix-seasoned/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/pheasant-meat",
-        "ingredient/quail-meat",
-        "ingredient/loot-shallot",
-        "ingredient/loot-capirlime-leaf"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -20842,11 +19155,6 @@
         "https://davethediver.net/zh-hans/recipe/black-caiman-grilled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/loot-palm-sugar",
-        "ingredient/special-black-caiman-tail"
-      ],
       "relatedFish": [
         "fish/special-black-caiman-tail"
       ],
@@ -20885,12 +19193,6 @@
         "https://davethediver.net/zh-hans/recipe/black-caiman-red-pineapple-stir-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-tamarind",
-        "ingredient/loot-palm-sugar",
-        "ingredient/black-caiman",
-        "ingredient/pineapple-colored"
-      ],
       "relatedFish": [
         "fish/black-caiman"
       ],
@@ -20933,11 +19235,6 @@
         "https://davethediver.net/zh-hans/recipe/black-caiman-taco/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/black-caiman",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [
         "fish/black-caiman"
       ],
@@ -20976,7 +19273,6 @@
         "https://davethediver.net/zh-hans/recipe/blackfin-barracuda/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
       "relatedFish": [],
       "ingredients": [],
       "stats": {
@@ -21000,11 +19296,6 @@
         "https://davethediver.net/zh-hans/recipe/blue-gill-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/lake-weeds-water-chestnut",
-        "ingredient/blue-gill"
-      ],
       "relatedFish": [
         "fish/blue-gill"
       ],
@@ -21043,12 +19334,6 @@
         "https://davethediver.net/zh-hans/recipe/boss-basilosaurus-hot-pot/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-fish-sauce",
-        "ingredient/loot-lemongrass",
-        "ingredient/basilosaurus",
-        "ingredient/bamboo-shoot"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21089,12 +19374,6 @@
         "https://davethediver.net/zh-hans/recipe/boss-fringehead-herb-roast/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/special-fringehead",
-        "ingredient/banana-blossom",
-        "ingredient/fiddlehead-fern"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21135,12 +19414,6 @@
         "https://davethediver.net/zh-hans/recipe/boss-giant-mudskipper-cheek-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/loot-capirlime-leaf",
-        "ingredient/loot-shallot",
-        "ingredient/special-mud-skipper"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21181,12 +19454,6 @@
         "https://davethediver.net/zh-hans/recipe/boss-snapping-turtle-seafood-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/loot-tamarind",
-        "ingredient/boss-snapper-turtle",
-        "ingredient/water-spinach"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21227,12 +19494,6 @@
         "https://davethediver.net/zh-hans/recipe/boss-stethacanthus-shark-fin-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-capirlime-leaf",
-        "ingredient/loot-shallot",
-        "ingredient/stethacanthus",
-        "ingredient/bamboo-shoot"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21273,12 +19534,6 @@
         "https://davethediver.net/zh-hans/recipe/boss-surong-foreleg-seasoned/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/loot-fish-sauce",
-        "ingredient/loot-palm-sugar",
-        "ingredient/boss-sulong"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21319,12 +19574,6 @@
         "https://davethediver.net/zh-hans/recipe/boss-xiphactinus-spicy-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-fish-sauce",
-        "ingredient/loot-tamarind",
-        "ingredient/boss-xiphactinus",
-        "ingredient/banana-blossom"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21365,12 +19614,6 @@
         "https://davethediver.net/zh-hans/recipe/burgessomedusa-pink-honeydew-jelly/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/loot-palm-sugar",
-        "ingredient/burgessomedusa",
-        "ingredient/honeydew-melon-colored"
-      ],
       "relatedFish": [
         "fish/burgessomedusa"
       ],
@@ -21413,12 +19656,6 @@
         "https://davethediver.net/zh-hans/recipe/catfish-mix-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/armored-catfish",
-        "ingredient/piraiba-catfish",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [
         "fish/armored-catfish",
         "fish/piraiba-catfish"
@@ -21462,11 +19699,6 @@
         "https://davethediver.net/zh-hans/recipe/ciurcopterus-boiled-stir-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/crab-trap-ciurcopterus",
-        "ingredient/fiddlehead-fern"
-      ],
       "relatedFish": [
         "fish/crab-trap-ciurcopterus"
       ],
@@ -21505,12 +19737,6 @@
         "https://davethediver.net/zh-hans/recipe/clown-featherback-taro-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/loot-shallot",
-        "ingredient/clown-featherback",
-        "ingredient/taro"
-      ],
       "relatedFish": [
         "fish/clown-featherback"
       ],
@@ -21553,11 +19779,6 @@
         "https://davethediver.net/zh-hans/recipe/crayfish-sambal-stir-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/loot-sambal-sauce",
-        "ingredient/crab-trap-red-swamp-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-red-swamp-crayfish"
       ],
@@ -21596,12 +19817,6 @@
         "https://davethediver.net/zh-hans/recipe/dragon-fruit-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/loot-fish-sauce",
-        "ingredient/dragon-fruit",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21642,12 +19857,6 @@
         "https://davethediver.net/zh-hans/recipe/eagle-shark-stew/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/lake-weeds-water-chestnut",
-        "ingredient/loot-fish-sauce",
-        "ingredient/eagle-shark",
-        "ingredient/taro"
-      ],
       "relatedFish": [
         "fish/eagle-shark"
       ],
@@ -21690,11 +19899,6 @@
         "https://davethediver.net/zh-hans/recipe/egg-tamago/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-egg",
-        "ingredient/wakame",
-        "ingredient/tangle"
-      ],
       "relatedFish": [
         "fish/wakame",
         "fish/tangle"
@@ -21734,12 +19938,6 @@
         "https://davethediver.net/zh-hans/recipe/egg-tenshinhan/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-egg",
-        "ingredient/rice",
-        "ingredient/sea-grape",
-        "ingredient/soy-sauce"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21780,12 +19978,6 @@
         "https://davethediver.net/zh-hans/recipe/electric-eel-pineapple-stir-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/lake-weeds-water-chestnut",
-        "ingredient/loot-tamarind",
-        "ingredient/electric-eel",
-        "ingredient/pineapple"
-      ],
       "relatedFish": [
         "fish/electric-eel"
       ],
@@ -21828,10 +20020,6 @@
         "https://davethediver.net/zh-hans/recipe/fiddlehead-fern-boiled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/fiddlehead-fern"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -21864,10 +20052,6 @@
         "https://davethediver.net/zh-hans/recipe/gelidium-tokoroten/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/soy-sauce",
-        "ingredient/gelidium"
-      ],
       "relatedFish": [
         "fish/gelidium"
       ],
@@ -21902,12 +20086,6 @@
         "https://davethediver.net/zh-hans/recipe/giant-mottled-eel-sliced/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/electric-eel",
-        "ingredient/fire-eel",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [
         "fish/electric-eel",
         "fish/fire-eel"
@@ -21951,12 +20129,6 @@
         "https://davethediver.net/zh-hans/recipe/giant-snakehead-fin-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/loot-cilantro",
-        "ingredient/loot-fish-sauce",
-        "ingredient/special-giant-snakehead"
-      ],
       "relatedFish": [
         "fish/giant-snakehead"
       ],
@@ -21999,12 +20171,6 @@
         "https://davethediver.net/zh-hans/recipe/giant-snakehead-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-fish-sauce",
-        "ingredient/loot-capirlime-leaf",
-        "ingredient/loot-lemongrass",
-        "ingredient/giant-snakehead"
-      ],
       "relatedFish": [
         "fish/giant-snakehead"
       ],
@@ -22047,12 +20213,6 @@
         "https://davethediver.net/zh-hans/recipe/goliath-tigerfish-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/loot-fish-sauce",
-        "ingredient/goliath-tigerfish",
-        "ingredient/banana-blossom"
-      ],
       "relatedFish": [
         "fish/goliath-tigerfish"
       ],
@@ -22095,12 +20255,6 @@
         "https://davethediver.net/zh-hans/recipe/gourami-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/kissing-gourami",
-        "ingredient/chocolate-gourami",
-        "ingredient/pearl-gourami"
-      ],
       "relatedFish": [
         "fish/kissing-gourami",
         "fish/chocolate-gourami",
@@ -22145,11 +20299,6 @@
         "https://davethediver.net/zh-hans/recipe/grass-carp-bamboo-shoot-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-fish-sauce",
-        "ingredient/grass-carp",
-        "ingredient/bamboo-shoot"
-      ],
       "relatedFish": [
         "fish/grass-carp"
       ],
@@ -22188,12 +20337,6 @@
         "https://davethediver.net/zh-hans/recipe/great-sturgeon-steak/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/loot-capirlime-leaf",
-        "ingredient/loot-shallot",
-        "ingredient/great-sturgeon"
-      ],
       "relatedFish": [
         "fish/great-sturgeon"
       ],
@@ -22236,12 +20379,6 @@
         "https://davethediver.net/zh-hans/recipe/hindleg-mix-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/frog-meat",
-        "ingredient/lizard-meat",
-        "ingredient/loot-sambal-sauce",
-        "ingredient/loot-cilantro"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -22282,11 +20419,6 @@
         "https://davethediver.net/zh-hans/recipe/indonesian-tiger-perch-sate/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/loot-shallot",
-        "ingredient/indonesian-tiger-perch"
-      ],
       "relatedFish": [
         "fish/indonesian-tiger-perch"
       ],
@@ -22325,11 +20457,6 @@
         "https://davethediver.net/zh-hans/recipe/jungle-egg-omelet/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/egg",
-        "ingredient/loot-fish-sauce",
-        "ingredient/jungle-egg"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -22362,10 +20489,6 @@
         "https://davethediver.net/zh-hans/recipe/kajime-seasoned/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kajime",
-        "ingredient/black-vinegar"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -22398,13 +20521,6 @@
         "https://davethediver.net/zh-hans/recipe/king-trumpet-mushroom-pepper-stir-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/loot-fish-sauce",
-        "ingredient/egg",
-        "ingredient/king-trumpet-mushroom",
-        "ingredient/jungle-egg"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -22445,11 +20561,6 @@
         "https://davethediver.net/zh-hans/recipe/large-mouth-bass-boiled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-capirlime-leaf",
-        "ingredient/loot-fish-sauce",
-        "ingredient/large-mouth-bass"
-      ],
       "relatedFish": [
         "fish/large-mouth-bass"
       ],
@@ -22488,11 +20599,6 @@
         "https://davethediver.net/zh-hans/recipe/lemon-yellow-lab-banana-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/lemon-yellow-lab",
-        "ingredient/banana-blossom",
-        "ingredient/banana"
-      ],
       "relatedFish": [
         "fish/lemon-yellow-lab"
       ],
@@ -22531,10 +20637,6 @@
         "https://davethediver.net/zh-hans/recipe/mangosteen-coconut-dessert/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/mangosteen"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -22567,11 +20669,6 @@
         "https://davethediver.net/zh-hans/recipe/mudcarp-banana-leaf-grilled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/mud-carp",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [
         "fish/mud-carp"
       ],
@@ -22610,12 +20707,6 @@
         "https://davethediver.net/zh-hans/recipe/ophthalmosaurus-grilled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/loot-tamarind",
-        "ingredient/ophthalmosaurus",
-        "ingredient/cassava"
-      ],
       "relatedFish": [
         "fish/ophthalmosaurus"
       ],
@@ -22658,12 +20749,6 @@
         "https://davethediver.net/zh-hans/recipe/parameteroraspis-tom-yum/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/loot-fish-sauce",
-        "ingredient/parameteroraspis"
-      ],
       "relatedFish": [
         "fish/parameteroraspis"
       ],
@@ -22706,12 +20791,6 @@
         "https://davethediver.net/zh-hans/recipe/perch-mix-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/nile-perch",
-        "ingredient/indonesian-tiger-perch",
-        "ingredient/cassava"
-      ],
       "relatedFish": [
         "fish/nile-perch",
         "fish/indonesian-tiger-perch"
@@ -22755,11 +20834,6 @@
         "https://davethediver.net/zh-hans/recipe/pink-durian-pudding/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/loot-palm-sugar",
-        "ingredient/durian-colored"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -22796,11 +20870,6 @@
         "https://davethediver.net/zh-hans/recipe/piraiba-catfish-tamarind-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/loot-tamarind",
-        "ingredient/piraiba-catfish"
-      ],
       "relatedFish": [
         "fish/piraiba-catfish"
       ],
@@ -22839,12 +20908,6 @@
         "https://davethediver.net/zh-hans/recipe/piranha-head-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/red-bellied-piranha",
-        "ingredient/redeye-piranha"
-      ],
       "relatedFish": [
         "fish/red-bellied-piranha",
         "fish/redeye-piranha"
@@ -22888,11 +20951,6 @@
         "https://davethediver.net/zh-hans/recipe/pirarucu-banana-lasagna/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-palm-sugar",
-        "ingredient/pirarucu",
-        "ingredient/banana"
-      ],
       "relatedFish": [
         "fish/pirarucu"
       ],
@@ -22931,12 +20989,6 @@
         "https://davethediver.net/zh-hans/recipe/premium-fruit-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/pineapple-colored",
-        "ingredient/watermelon-colored",
-        "ingredient/dragon-fruit-colored"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -22977,10 +21029,6 @@
         "https://davethediver.net/zh-hans/recipe/red-mullet-tangle-roll/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-mullet",
-        "ingredient/tangle"
-      ],
       "relatedFish": [
         "fish/red-mullet",
         "fish/tangle"
@@ -23016,12 +21064,6 @@
         "https://davethediver.net/zh-hans/recipe/sacabambaspis-sate/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/sacabambaspis",
-        "ingredient/bamboo-shoot",
-        "ingredient/cassava"
-      ],
       "relatedFish": [
         "fish/sacabambaspis"
       ],
@@ -23064,12 +21106,6 @@
         "https://davethediver.net/zh-hans/recipe/salmon-watermelon-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-cilantro",
-        "ingredient/king-salmon",
-        "ingredient/watermelon",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [
         "fish/king-salmon"
       ],
@@ -23112,7 +21148,6 @@
         "https://davethediver.net/zh-hans/recipe/sarcastic-fringehead/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
       "relatedFish": [],
       "ingredients": [],
       "stats": {
@@ -23136,9 +21171,6 @@
         "https://davethediver.net/zh-hans/recipe/sea-goldie-sushi/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-goldie"
-      ],
       "relatedFish": [
         "fish/sea-goldie"
       ],
@@ -23168,12 +21200,6 @@
         "https://davethediver.net/zh-hans/recipe/seahorse-sea-grapes-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/cherry-tomato",
-        "ingredient/sea-grape",
-        "ingredient/olive-oil",
-        "ingredient/seahorse"
-      ],
       "relatedFish": [
         "fish/seahorse"
       ],
@@ -23216,12 +21242,6 @@
         "https://davethediver.net/zh-hans/recipe/shell-mix-hot-pot/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/loot-fish-sauce",
-        "ingredient/ammonite",
-        "ingredient/platyceramus"
-      ],
       "relatedFish": [
         "fish/ammonite",
         "fish/platyceramus"
@@ -23265,12 +21285,6 @@
         "https://davethediver.net/zh-hans/recipe/snake-mix-spicy-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/snake-meat",
-        "ingredient/viper-meat"
-      ],
       "relatedFish": [
         "fish/snake-meat",
         "fish/viper-meat"
@@ -23314,13 +21328,6 @@
         "https://davethediver.net/zh-hans/recipe/special-clione-queen-tentacle-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/clione-queen-tentacle",
-        "ingredient/miso",
-        "ingredient/salt",
-        "ingredient/special-clione-queen-tentacle",
-        "ingredient/tangle"
-      ],
       "relatedFish": [
         "fish/tangle"
       ],
@@ -23363,12 +21370,6 @@
         "https://davethediver.net/zh-hans/recipe/special-goblin-shark-belly-meat-grilled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sea-grape",
-        "ingredient/olive-oil",
-        "ingredient/salt",
-        "ingredient/special-goblin-shark-belly-meat"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -23409,13 +21410,6 @@
         "https://davethediver.net/zh-hans/recipe/special-helicoprion-tail-grilled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/helicoprion-tail",
-        "ingredient/durvillaea",
-        "ingredient/olive-oil",
-        "ingredient/special-helicoprion-tail",
-        "ingredient/wakame"
-      ],
       "relatedFish": [
         "fish/wakame"
       ],
@@ -23458,12 +21452,6 @@
         "https://davethediver.net/zh-hans/recipe/special-hermit-crab-leg-roastered/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kajime",
-        "ingredient/black-vinegar",
-        "ingredient/special-hermit-crab-leg",
-        "ingredient/wakame"
-      ],
       "relatedFish": [
         "fish/wakame"
       ],
@@ -23506,10 +21494,6 @@
         "https://davethediver.net/zh-hans/recipe/special-klaus-fin-meat-ricebowl/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-egg",
-        "ingredient/special-klaus-fin-meat"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -23542,13 +21526,6 @@
         "https://davethediver.net/zh-hans/recipe/special-kronosaurus-tongue-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/kronosaurus-tongue",
-        "ingredient/durvillaea",
-        "ingredient/special-kronosaurus-tongue",
-        "ingredient/wakame",
-        "ingredient/gelidium"
-      ],
       "relatedFish": [
         "fish/wakame",
         "fish/gelidium"
@@ -23592,11 +21569,6 @@
         "https://davethediver.net/zh-hans/recipe/special-lusca-leg-blanched/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/salt",
-        "ingredient/olive-oil",
-        "ingredient/special-lusca-leg"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -23633,13 +21605,6 @@
         "https://davethediver.net/zh-hans/recipe/special-lusca-neck-meat-tataki/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/lusca-neck-meat",
-        "ingredient/mayonnaise",
-        "ingredient/soy-sauce",
-        "ingredient/sesame-seed",
-        "ingredient/special-lusca-neck-meat"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -23680,12 +21645,6 @@
         "https://davethediver.net/zh-hans/recipe/special-mantis-shrimp-shell-meat-boiled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/eggplant",
-        "ingredient/miso",
-        "ingredient/special-mantis-shrimp-shell-meat",
-        "ingredient/gelidium"
-      ],
       "relatedFish": [
         "fish/gelidium"
       ],
@@ -23728,11 +21687,6 @@
         "https://davethediver.net/zh-hans/recipe/special-phantom-jelly-fillet-jelly/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-phantom-jelly-fillet",
-        "ingredient/gelidium",
-        "ingredient/umbellula"
-      ],
       "relatedFish": [
         "fish/gelidium",
         "fish/umbellula"
@@ -23772,12 +21726,6 @@
         "https://davethediver.net/zh-hans/recipe/special-wolffish-tail-meat-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/salt",
-        "ingredient/black-vinegar",
-        "ingredient/special-wolffish-tail-meat",
-        "ingredient/gelidium"
-      ],
       "relatedFish": [
         "fish/gelidium"
       ],
@@ -23820,11 +21768,6 @@
         "https://davethediver.net/zh-hans/recipe/spider-crab-ricebowl/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/rice",
-        "ingredient/bean",
-        "ingredient/great-spider-crab"
-      ],
       "relatedFish": [
         "fish/great-spider-crab"
       ],
@@ -23863,11 +21806,6 @@
         "https://davethediver.net/zh-hans/recipe/spiny-seahorse-udon/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/flour",
-        "ingredient/miso",
-        "ingredient/seahorse"
-      ],
       "relatedFish": [
         "fish/seahorse"
       ],
@@ -23906,12 +21844,6 @@
         "https://davethediver.net/zh-hans/recipe/squid-mix-stir-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-palm-sugar",
-        "ingredient/orthoceras",
-        "ingredient/tullimonstrum",
-        "ingredient/starfruit"
-      ],
       "relatedFish": [
         "fish/orthoceras",
         "fish/tullimonstrum"
@@ -23955,11 +21887,6 @@
         "https://davethediver.net/zh-hans/recipe/striped-marlin-miso-grilled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-striped-marlin",
-        "ingredient/garlic",
-        "ingredient/miso"
-      ],
       "relatedFish": [
         "fish/striped-marlin"
       ],
@@ -23998,11 +21925,6 @@
         "https://davethediver.net/zh-hans/recipe/striped-snakehead-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/striped-snakehead",
-        "ingredient/bamboo-shoot",
-        "ingredient/water-spinach"
-      ],
       "relatedFish": [
         "fish/striped-snakehead"
       ],
@@ -24041,12 +21963,6 @@
         "https://davethediver.net/zh-hans/recipe/stylonurus-honeydew-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-capirlime-leaf",
-        "ingredient/loot-shallot",
-        "ingredient/stylonurus",
-        "ingredient/honeydew-melon"
-      ],
       "relatedFish": [
         "fish/stylonurus"
       ],
@@ -24089,11 +22005,6 @@
         "https://davethediver.net/zh-hans/recipe/tambaqui-grilled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-tamarind",
-        "ingredient/tambaqui",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [
         "fish/tambaqui"
       ],
@@ -24132,12 +22043,6 @@
         "https://davethediver.net/zh-hans/recipe/tangsuyuk-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/raw-meat",
-        "ingredient/loot-coconut-milk",
-        "ingredient/loot-tamarind",
-        "ingredient/cassava"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -24178,11 +22083,6 @@
         "https://davethediver.net/zh-hans/recipe/tilapia-calamansi-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/tilapia",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [
         "fish/tilapia"
       ],
@@ -24221,12 +22121,6 @@
         "https://davethediver.net/zh-hans/recipe/tropical-fish-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-coconut-milk",
-        "ingredient/red-discus",
-        "ingredient/brown-discus",
-        "ingredient/blue-discus"
-      ],
       "relatedFish": [
         "fish/red-discus",
         "fish/brown-discus",
@@ -24271,12 +22165,6 @@
         "https://davethediver.net/zh-hans/recipe/tropical-fruit-salad/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-sambal-sauce",
-        "ingredient/pineapple",
-        "ingredient/watermelon",
-        "ingredient/honeydew-melon"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -24317,11 +22205,6 @@
         "https://davethediver.net/zh-hans/recipe/truffle-asian-sheepshead-steamed/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-asian-sheepshead",
-        "ingredient/truffle",
-        "ingredient/tangle"
-      ],
       "relatedFish": [
         "fish/tangle",
         "fish/asian-sheepshead"
@@ -24361,11 +22244,6 @@
         "https://davethediver.net/zh-hans/recipe/tumidocarcinus-tamarind-stir-fried/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-tamarind",
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/crab-trap-tumidocarcinus-giganteus"
-      ],
       "relatedFish": [
         "fish/crab-trap-tumidocarcinus-giganteus"
       ],
@@ -24404,11 +22282,6 @@
         "https://davethediver.net/zh-hans/recipe/tuna-ootoro-sliced/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-blue-fin-tuna-ootoro",
-        "ingredient/special-yellow-fin-tuna-ootoro",
-        "ingredient/hyalonema"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -24445,12 +22318,6 @@
         "https://davethediver.net/zh-hans/recipe/tuzoia-soup/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-fish-sauce",
-        "ingredient/loot-capirlime-leaf",
-        "ingredient/crab-trap-tuzoia",
-        "ingredient/calamansi"
-      ],
       "relatedFish": [
         "fish/crab-trap-tuzoia"
       ],
@@ -24493,11 +22360,6 @@
         "https://davethediver.net/zh-hans/recipe/walking-catfish-tom-yum/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/loot-lemongrass",
-        "ingredient/loot-birds-eye-chili",
-        "ingredient/walking-catfish"
-      ],
       "relatedFish": [
         "fish/walking-catfish"
       ],
@@ -24536,12 +22398,6 @@
         "https://davethediver.net/zh-hans/recipe/water-cashewnut-duck-grilled/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/duck-meat",
-        "ingredient/lake-weeds-water-chestnut",
-        "ingredient/loot-shallot",
-        "ingredient/loot-lemongrass"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -24582,12 +22438,6 @@
         "https://davethediver.net/zh-hans/recipe/yellow-fin-tuna-poke/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-yellow-fin-tuna-akami",
-        "ingredient/rice",
-        "ingredient/mayonnaise",
-        "ingredient/sesame-seed"
-      ],
       "relatedFish": [],
       "ingredients": [
         {
@@ -24628,7 +22478,6 @@
         "https://davethediver.net/zh-hans/recipe/default/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
       "relatedFish": [],
       "ingredients": [],
       "stats": {
@@ -39309,11 +37158,7 @@
         "recipe/smoked-atlantic-mackerel-scramble",
         "recipe/pufferfish-dumpling-soup",
         "recipe/sweet-and-sour-stargazer",
-        "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
-        "recipe/ammonite-salad",
-        "recipe/bamboo-shoot-soup",
-        "recipe/jungle-egg-omelet",
-        "recipe/king-trumpet-mushroom-pepper-stir-fried"
+        "recipe/blue-spotted-stargazer-sweet-and-sour-fish"
       ],
       "facts": [],
       "stats": {
@@ -39572,9 +37417,7 @@
         "recipe/spider-crab-curry",
         "recipe/egg-tamago",
         "recipe/egg-tenshinhan",
-        "recipe/special-klaus-fin-meat-ricebowl",
-        "recipe/pikaia-ramen",
-        "recipe/tomato-egg-soup"
+        "recipe/special-klaus-fin-meat-ricebowl"
       ],
       "facts": [],
       "stats": {
@@ -40455,8 +38298,7 @@
       "relatedRecipes": [
         "recipe/pikaia-ramen",
         "recipe/boiled-sailfish-and-seaweed",
-        "recipe/steamed-kronosaurus-tongue",
-        "recipe/roasted-helicoprion-tail"
+        "recipe/steamed-kronosaurus-tongue"
       ],
       "facts": [
         {
@@ -40683,9 +38525,7 @@
       "inferred": false,
       "fishIds": [],
       "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/hot-pepper-tuna"
-      ],
+      "relatedRecipes": [],
       "facts": [],
       "stats": {
         "sellPrice": 16,
@@ -40705,8 +38545,7 @@
       "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
-        "recipe/clione-queen-soup",
-        "recipe/special-clione-queen-tentacle-soup"
+        "recipe/clione-queen-soup"
       ],
       "facts": [],
       "stats": {
@@ -40785,8 +38624,7 @@
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-helicoprion-tail-grilled",
-        "recipe/special-kronosaurus-tongue-steamed",
-        "recipe/pikaia-ramen"
+        "recipe/special-kronosaurus-tongue-steamed"
       ],
       "facts": [],
       "stats": {
@@ -40808,10 +38646,7 @@
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
-        "recipe/spiny-seahorse-udon",
-        "recipe/blobfish-spring-roll",
-        "recipe/comber-sandwich",
-        "recipe/pikaia-ramen"
+        "recipe/spiny-seahorse-udon"
       ],
       "facts": [],
       "stats": {
@@ -40944,8 +38779,7 @@
       "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
-        "recipe/roasted-helicoprion-tail",
-        "recipe/special-helicoprion-tail-grilled"
+        "recipe/roasted-helicoprion-tail"
       ],
       "facts": [
         {
@@ -41008,8 +38842,7 @@
       "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
-        "recipe/steamed-kronosaurus-tongue",
-        "recipe/special-kronosaurus-tongue-steamed"
+        "recipe/steamed-kronosaurus-tongue"
       ],
       "facts": [
         {
@@ -41416,8 +39249,7 @@
       "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
-        "recipe/lusca-neck-tadaki",
-        "recipe/special-lusca-neck-meat-tataki"
+        "recipe/lusca-neck-tadaki"
       ],
       "facts": [],
       "stats": {
@@ -42159,9 +39991,7 @@
       "inferred": false,
       "fishIds": [],
       "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/seadragon-onigiri"
-      ],
+      "relatedRecipes": [],
       "facts": [
         {
           "labelId": "field/harvest-source",
@@ -42220,9 +40050,7 @@
       "inferred": false,
       "fishIds": [],
       "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/bluefin-tuna-rice-bowl"
-      ],
+      "relatedRecipes": [],
       "facts": [],
       "stats": {
         "sellPrice": 27,
@@ -42241,9 +40069,7 @@
       "inferred": false,
       "fishIds": [],
       "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/hot-pepper-tuna"
-      ],
+      "relatedRecipes": [],
       "facts": [],
       "stats": {
         "sellPrice": 32,
@@ -42400,12 +40226,7 @@
       "inferred": false,
       "fishIds": [],
       "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/fried-seahorses",
-        "recipe/seahorse-salad",
-        "recipe/seahorse-udon",
-        "recipe/seahorse-skewers"
-      ],
+      "relatedRecipes": [],
       "facts": [],
       "stats": {
         "sellPrice": 10,

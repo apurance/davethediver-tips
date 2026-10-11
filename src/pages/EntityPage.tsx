@@ -35,7 +35,7 @@ export function EntityPage({ type }: { type: EntityType }) {
         { title: "口感", dataIndex: "taste", render: v => statText(v) }, { title: "每批份数", dataIndex: "servings", render: v => statText(v) },
       ]} />
       <h3 className="catalog-subheading">每批用料</h3>
-      {entity.ingredients?.length ? <div className="catalog-ingredients">{entity.ingredients.map((i, index) => <div key={`${i.ingredientId}-${index}`}><EntityLink id={i.ingredientId} /><strong>× {i.quantity ?? "未提供数量"}</strong></div>)}</div> : <Empty description="来源未提供用料" />}
+      {entity.ingredients.length ? <div className="catalog-ingredients">{entity.ingredients.map((i, index) => <div key={`${i.ingredientId}-${index}`}><div><EntityLink id={i.ingredientId} /><small className="catalog-en">{getEntity(i.ingredientId)?.en}</small></div><strong>× {i.quantity ?? "未提供数量"}</strong></div>)}</div> : <Empty description="来源未提供用料" />}
       {strategy && <Link className="catalog-tab catalog-tab-active" to={`/tools?recipe=${strategy.id}`}>计算备货</Link>}
     </Card>}
     {entity.type === "staff" && <Card title="员工属性" className="catalog-detail-card">

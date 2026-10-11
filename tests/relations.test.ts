@@ -12,7 +12,16 @@ test("relations are grouped by target type and retain valid bidirectional links"
     } else {
       assert.ok(!("relatedRecipes" in entity), entity.id);
     }
-    if (entity.type === "recipe") assert.ok(Array.isArray(entity.ingredients), entity.id);
+    if (entity.type === "recipe") {
+      assert.ok(Array.isArray(entity.ingredients), entity.id);
+      assert.ok(!("relatedIngredients" in entity), entity.id);
+      assert.ok(!getRelatedGroups(entity).some(group => group.type === "ingredient"), entity.id);
+      for (const item of entity.ingredients) {
+        const ingredient = getEntity(item.ingredientId);
+        assert.ok(ingredient?.type === "ingredient", `${entity.id} -> ${item.ingredientId}`);
+        assert.ok(ingredient.relatedRecipes.includes(entity.id), `${entity.id} <-> ${item.ingredientId}`);
+      }
+    }
     if (entity.type === "ingredient") assert.ok(Array.isArray(entity.fishIds), entity.id);
     if (entity.type === "staff") assert.ok(Array.isArray(entity.skillIds), entity.id);
     assert.ok(!entity.facts.some(fact => fact.labelId === "field/related-recipes"), entity.id);
@@ -29,8 +38,12 @@ test("relations are grouped by target type and retain valid bidirectional links"
         assert.equal(related.type, group.type, `${entity.id} -> ${id}`);
         assert.equal(id, related.id, `${entity.id} -> ${id}`);
         assert.notEqual(id, entity.id);
-        const reverse = getRelatedGroups(related).find(group => group.type === entity.type);
-        assert.ok(reverse?.ids.includes(entity.id), `${entity.id} <-> ${id}`);
+        if (entity.type === "ingredient" && related.type === "recipe") {
+          assert.ok(related.ingredients.some(item => item.ingredientId === entity.id), `${entity.id} <-> ${id}`);
+        } else {
+          const reverse = getRelatedGroups(related).find(group => group.type === entity.type);
+          assert.ok(reverse?.ids.includes(entity.id), `${entity.id} <-> ${id}`);
+        }
       }
     }
   }
