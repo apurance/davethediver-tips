@@ -3,7 +3,7 @@
     "source": "https://davethediver.net/zh-hans/database/",
     "importedAt": "2026-10-11",
     "rawPageCount": 1312,
-    "aliasCount": 257,
+    "aliasCount": 260,
     "excluded": [
       "fish/aberrations",
       "fish/beluga-gyao",
@@ -361,7 +361,10 @@
     "fish/australian-spotted-jellyfish": "fish/white-spotted-jellyfish",
     "ingredient/australian-spotted-jellyfish": "ingredient/white-spotted-jellyfish",
     "recipe/australian-spotted-jellyfish": "recipe/white-spotted-jellyfish-sushi",
-    "recipe/caulerpa-racemosa-jellyfish": "recipe/seagrapes-jellyfish-sushi"
+    "recipe/caulerpa-racemosa-jellyfish": "recipe/seagrapes-jellyfish-sushi",
+    "fish/gelidium": "ingredient/agar",
+    "ingredient/gelidium": "ingredient/agar",
+    "recipe/gelidium-tokoroten": "recipe/agar-tokoroten"
   },
   "recipes": [
     {
@@ -1078,8 +1081,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/pelican-eel",
-        "fish/gelidium"
+        "fish/pelican-eel"
       ],
       "ingredients": [
         {
@@ -1256,8 +1258,7 @@
       "inferred": false,
       "relatedFish": [
         "fish/starry-puffer",
-        "fish/stellate-puffer",
-        "fish/gelidium"
+        "fish/stellate-puffer"
       ],
       "ingredients": [
         {
@@ -5640,7 +5641,8 @@
       "nameId": "recipe/agar-tokoroten",
       "en": "Agar Tokoroten",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/agar-tokoroten/"
+        "https://davethediver.net/zh-hans/recipe/agar-tokoroten/",
+        "https://davethediver.net/zh-hans/recipe/gelidium-tokoroten/"
       ],
       "inferred": false,
       "relatedFish": [],
@@ -5661,7 +5663,8 @@
         "maxTaste": 266,
         "baseServings": 5,
         "maxServings": 7,
-        "flameCost": 3
+        "flameCost": 3,
+        "maxLevel": 10
       },
       "facets": {},
       "acquisition-method": {
@@ -17326,40 +17329,6 @@
       "facts": []
     },
     {
-      "id": "recipe/gelidium-tokoroten",
-      "type": "recipe",
-      "nameId": "recipe/gelidium-tokoroten",
-      "en": "Gelidium Tokoroten",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/gelidium-tokoroten/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/gelidium"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/gelidium",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 51,
-        "maxPrice": null,
-        "baseTaste": 68,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/giant-mottled-eel-sliced",
       "type": "recipe",
       "nameId": "recipe/giant-mottled-eel-sliced",
@@ -18809,8 +18778,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/wakame",
-        "fish/gelidium"
+        "fish/wakame"
       ],
       "ingredients": [
         {
@@ -18822,7 +18790,7 @@
           "quantity": 3
         },
         {
-          "ingredientId": "ingredient/gelidium",
+          "ingredientId": "ingredient/agar",
           "quantity": 3
         },
         {
@@ -18927,9 +18895,7 @@
         "https://davethediver.net/zh-hans/recipe/special-mantis-shrimp-shell-meat-boiled/"
       ],
       "inferred": false,
-      "relatedFish": [
-        "fish/gelidium"
-      ],
+      "relatedFish": [],
       "ingredients": [
         {
           "ingredientId": "ingredient/special-mantis-shrimp-shell-meat",
@@ -18940,7 +18906,7 @@
           "quantity": null
         },
         {
-          "ingredientId": "ingredient/gelidium",
+          "ingredientId": "ingredient/agar",
           "quantity": null
         },
         {
@@ -18970,7 +18936,6 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/gelidium",
         "fish/umbellula"
       ],
       "ingredients": [
@@ -18979,7 +18944,7 @@
           "quantity": null
         },
         {
-          "ingredientId": "ingredient/gelidium",
+          "ingredientId": "ingredient/agar",
           "quantity": 3
         },
         {
@@ -19008,16 +18973,14 @@
         "https://davethediver.net/zh-hans/recipe/special-wolffish-tail-meat-steamed/"
       ],
       "inferred": false,
-      "relatedFish": [
-        "fish/gelidium"
-      ],
+      "relatedFish": [],
       "ingredients": [
         {
           "ingredientId": "ingredient/special-wolffish-tail-meat",
           "quantity": null
         },
         {
-          "ingredientId": "ingredient/gelidium",
+          "ingredientId": "ingredient/agar",
           "quantity": null
         },
         {
@@ -33489,41 +33452,6 @@
       }
     },
     {
-      "id": "fish/gelidium",
-      "type": "fish",
-      "nameId": "fish/gelidium",
-      "en": "Gelidium",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/gelidium/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/gelidium"
-      ],
-      "relatedRecipes": [
-        "recipe/gelidium-tokoroten",
-        "recipe/pelican-eel-jelly",
-        "recipe/special-kronosaurus-tongue-steamed",
-        "recipe/special-mantis-shrimp-shell-meat-boiled",
-        "recipe/special-phantom-jelly-fillet-jelly",
-        "recipe/special-wolffish-tail-meat-steamed",
-        "recipe/stellate-puffer-nicogori"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 0.1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 3
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
       "id": "fish/poison-ghost-squid",
       "type": "fish",
       "nameId": "fish/poison-ghost-squid",
@@ -34975,7 +34903,6 @@
         "recipe/rainbow-cap-eel-skewers",
         "recipe/soy-sauce-marinated-crab",
         "recipe/egg-tenshinhan",
-        "recipe/gelidium-tokoroten",
         "recipe/special-lusca-neck-meat-tataki"
       ],
       "acquisition-method": {
@@ -35143,7 +35070,8 @@
       "nameId": "ingredient/agar",
       "en": "Agar",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/agar/"
+        "https://davethediver.net/zh-hans/ingredient/agar/",
+        "https://davethediver.net/zh-hans/fish/gelidium/"
       ],
       "inferred": false,
       "fishIds": [],
@@ -35155,7 +35083,11 @@
         "recipe/phantom-jellyfish-jelly",
         "recipe/agar-tokoroten",
         "recipe/steamed-kronosaurus-tongue",
-        "recipe/steamed-wolf-eel"
+        "recipe/steamed-wolf-eel",
+        "recipe/special-kronosaurus-tongue-steamed",
+        "recipe/special-mantis-shrimp-shell-meat-boiled",
+        "recipe/special-phantom-jelly-fillet-jelly",
+        "recipe/special-wolffish-tail-meat-steamed"
       ],
       "facts": [
         {
@@ -43564,30 +43496,6 @@
       ],
       "relatedRecipes": [
         "recipe/special-phantom-jelly-fillet-jelly"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/gelidium",
-      "type": "ingredient",
-      "nameId": "fish/gelidium",
-      "en": "Gelidium",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/gelidium"
-      ],
-      "relatedFish": [
-        "fish/gelidium"
-      ],
-      "relatedRecipes": [
-        "recipe/gelidium-tokoroten",
-        "recipe/special-kronosaurus-tongue-steamed",
-        "recipe/special-mantis-shrimp-shell-meat-boiled",
-        "recipe/special-phantom-jelly-fillet-jelly",
-        "recipe/special-wolffish-tail-meat-steamed"
       ],
       "facts": [],
       "stats": {},
