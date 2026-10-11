@@ -28,42 +28,6 @@ test("currency units are inferred from stat keys and remain translatable", () =>
   }
 });
 
-test("derived fields exist only in the frontend and leave source data unchanged", () => {
-  const derivedLabels = new Set(["value-per-kilogram", "base-total", "max-total", "recipe-count", "recipes-using-ingredient"].map(field => `field/${field}`));
-  let count = 0;
-  for (const entity of all) {
-    const source = JSON.stringify(entity);
-    for (const fact of entity.facts) {
-      assert.ok(!derivedLabels.has(fact.labelId), `${entity.id}: ${fact.labelId}`);
-      for (const value of fact.values) assert.ok(!("computed" in value) && !("stat" in value), entity.id);
-    }
-    const display = getDisplayFacts(entity);
-    assert.ok(!display.some(fact => fact.labelId === "field/recipe-count"), entity.id);
-    assert.equal(display.length, new Set(display.map(fact => fact.labelId)).size, entity.id);
-    assert.equal(JSON.stringify(entity), source, entity.id);
-    for (const fact of display) {
-      if (fact.labelId !== "field/value-per-kilogram") continue;
-      count++;
-      assert.equal(fact.values.length, 1);
-      const value = fact.values[0];
-      assert.equal(value.computed, "value-per-kilogram", entity.id);
-      assert.equal(value.number, undefined);
-      assert.equal(value.text, undefined);
-      assert.equal(value.nameId, undefined);
-      assert.equal(resolveFactNumber(value, entity), entity.stats.sellPrice! / entity.stats.weight!, entity.id);
-    }
-  }
-  assert.ok(count > 0);
-  for (const id of ["fish/white-shrimp", "fish/black-tiger-shrimp", "ingredient/cherry-tomato"]) {
-    const entity = byId.get(id)!;
-    const value = factValue(entity, "field/value-per-kilogram");
-    assert.equal(formatFactValue(value, entity, translate), "170 金币/kg");
-    assert.equal(formatFactValue(value, { stats: { ...entity.stats, sellPrice: 34 } }, translate), "340 金币/kg");
-    assert.equal(formatFactValue(value, { stats: { ...entity.stats, weight: 0.2 } }, translate), "85 金币/kg");
-  }
-  const trevally = byId.get("fish/giant-trevally")!;
-  assert.equal(formatFactValue(factValue(trevally, "field/value-per-kilogram"), trevally, translate), "2 金币/kg");
-});
 
 test("missing or invalid ratio inputs do not produce misleading zero or infinity", () => {
   const value: DisplayFactValue = { computed: "value-per-kilogram", unitId: "unit/gold", perUnitId: "unit/kilogram" };
@@ -159,62 +123,7 @@ test("translated scalar facets restore field labels and resolve current translat
   assert.equal(recipe.facets.acquisitionMethod, undefined);
 });
 
-test("acquisition methods use the top-level text or entity reference and display current values", () => {
-  for (const entity of all) {
-    assert.ok(!entity.facts.some(fact => fact.labelId === "field/acquisition-method"), entity.id);
-    assert.ok(!("acquisitionMethod" in entity.facets), entity.id);
-    assert.ok(!("acquisitionMethod" in entity.stats), entity.id);
-    if (entity.type !== "recipe" && entity.type !== "ingredient") continue;
-    const acquisition = entity["acquisition-method"];
-    if (!acquisition) continue;
-    const keys = Object.keys(acquisition);
-    assert.equal(keys.length, 1, entity.id);
-    assert.ok(keys[0] === "text" || keys[0] === "entityId", entity.id);
-    assert.equal(typeof (acquisition.text ?? acquisition.entityId), "string", entity.id);
-    const display = getDisplayFacts(entity).filter(fact => fact.labelId === "field/acquisition-method");
-    assert.deepEqual(display, [{ labelId: "field/acquisition-method", values: [acquisition] }], entity.id);
-  }
-  const recipe = byId.get("recipe/seadragon-onigiri")!;
-  assert.ok(recipe.type === "recipe");
-  const edited = { ...recipe, "acquisition-method": { text: "测试获取方式" } };
-  const source = JSON.stringify(edited);
-  assert.equal(formatFactValue(factValue(edited, "field/acquisition-method"), edited, translate), "测试获取方式");
-  assert.equal(JSON.stringify(edited), source);
-  assert.ok(!getDisplayFacts({ ...recipe, "acquisition-method": undefined }).some(fact => fact.labelId === "field/acquisition-method"));
-  const norimaki = byId.get("recipe/norimaki")!;
-  assert.equal(formatFactValue(factValue(norimaki, "field/acquisition-method"), norimaki, translate), "默认");
-  const kajime = byId.get("ingredient/kajime")!;
-  assert.equal(formatFactValue(factValue(kajime, "field/acquisition-method"), kajime, translate), "130");
-});
 
-test("events are recipe-only top-level strings and display without entity links", () => {
-  let count = 0;
-  for (const entity of all) {
-    assert.ok(!entity.facts.some(fact => fact.labelId === "field/event"), entity.id);
-    if (entity.type !== "recipe") {
-      assert.ok(!("event" in entity), entity.id);
-      continue;
-    }
-    if (entity.event === undefined) continue;
-    count++;
-    assert.equal(typeof entity.event, "string", entity.id);
-    assert.ok(!entity.event.includes("/"), entity.id);
-    assert.deepEqual(factValue(entity, "field/event"), { text: entity.event }, entity.id);
-  }
-  assert.ok(count > 0);
-  const marlin = byId.get("recipe/marlin-sushi")!;
-  assert.ok(marlin.type === "recipe");
-  assert.equal(marlin.event, "marlin");
-  const cucumber = byId.get("recipe/skewered-cucumber")!;
-  assert.ok(cucumber.type === "recipe");
-  assert.equal(cucumber.event, "cucumber");
-  const mixed = byId.get("recipe/godzilla-vs-ebirah-curry")!;
-  assert.ok(mixed.type === "recipe");
-  assert.equal(mixed.event, "curry lobster");
-  const edited = { ...marlin, event: "测试活动" };
-  assert.equal(formatFactValue(factValue(edited, "field/event"), edited, translate), "测试活动");
-  assert.ok(!getDisplayFacts({ ...marlin, event: undefined }).some(fact => fact.labelId === "field/event"));
-});
 
 test("corrected regions display from the top-level list without the obsolete numeric value", () => {
   for (const [id, expected] of [

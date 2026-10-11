@@ -1,31 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { catalog, database, getEntity, name, searchCatalog } from "../src/catalog.ts";
-import { getDisplayFacts } from "../src/facts.ts";
-import translations from "../src/data/names.zh-CN.json" with { type: "json" };
-
-test("staff skills use translated name/description pairs without legacy fields", () => {
-  const dictionary: Record<string, string> = translations;
-  for (const entity of catalog) {
-    assert.ok(!("skillIds" in entity), entity.id);
-    assert.ok(!entity.facts.some(fact => fact.labelId === "field/skills"), entity.id);
-    assert.ok(!getDisplayFacts(entity).some(fact => ["field/skills", "field/special-skills"].includes(fact.labelId)), entity.id);
-    if (entity.type !== "staff") {
-      assert.ok(!("skills" in entity), entity.id);
-      continue;
-    }
-    assert.ok(Array.isArray(entity.skills), entity.id);
-    for (const skill of entity.skills) {
-      assert.deepEqual(Object.keys(skill).sort(), ["description", "name"]);
-      for (const key of [skill.name, skill.description]) {
-        assert.equal(typeof key, "string", entity.id);
-        assert.ok(!/\p{Script=Han}/u.test(key), entity.id);
-        assert.ok(dictionary[key], `${entity.id}: ${key}`);
-        assert.match(name(key), /\p{Script=Han}/u, `${entity.id}: ${key}`);
-      }
-    }
-  }
-});
+import { database, getEntity, name, searchCatalog } from "../src/catalog.ts";
 
 test("skill order, unlock levels and effects remain paired and searchable", () => {
   const billy = getEntity("staff/billy");

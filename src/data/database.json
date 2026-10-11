@@ -20259,7 +20259,6 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "photoMode": "text/0c70665b6eb6",
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -20356,7 +20355,6 @@
       ],
       "facets": {
         "time": "time/0b97c851e4a7",
-        "photoMode": "text/0c70665b6eb6",
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
@@ -31594,16 +31592,7 @@
       "relatedRecipes": [
         "recipe/young-anomalocaris-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/camera-mode",
-          "values": [
-            {
-              "text": "no"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 4,
@@ -31617,8 +31606,7 @@
         "region/c7dc7765b88f"
       ],
       "facets": {
-        "time": "time/6fa7e15a01ab",
-        "photoMode": "text/0c70665b6eb6"
+        "time": "time/6fa7e15a01ab"
       },
       "fields": {
         "encyclopediaNumber": "0715",
@@ -33226,8 +33214,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0990",
@@ -33260,8 +33247,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0901",
@@ -33294,8 +33280,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0982",
@@ -33328,8 +33313,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0907",
@@ -33362,8 +33346,7 @@
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0514",
@@ -33396,8 +33379,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0219",
@@ -33430,8 +33412,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0218",
@@ -33464,8 +33445,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0902",
@@ -33498,8 +33478,7 @@
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
-        "photoMode": "text/b5141d3d19e9",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0515",
@@ -33532,7 +33511,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0980",
@@ -33565,7 +33544,7 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
-        "cameraMode": "text/b5141d3d19e9"
+        "photoMode": "text/b5141d3d19e9"
       },
       "fields": {
         "marincaCardNumber": "0981"
@@ -44623,16 +44602,7 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [
-        {
-          "labelId": "field/hiring-cost",
-          "values": [
-            {
-              "text": "0 (142)"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": 0,
         "wage": 7,
