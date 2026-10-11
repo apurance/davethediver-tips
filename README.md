@@ -91,7 +91,7 @@ Cargo Ship / shipwreck 已统一为 shipwreck，中文为“遇难船”；红�
 
 顶层 `region` 保存区域 ID 列表，例如 `"region": ["region/8c354854b261", "region/glacial-area"]`；未知区域使用空列表 `[]`。同一条鱼可以属于多个区域：区域筛选检查列表是否包含选中 ID，下拉选项合并所有列表并去重，列表、详情和搜索读取全部区域译名。当前单个区域已包装为单元素列表，本次不新增分布信息；`facets` 仅保存单个译名 ID 或 `null`，区域列表独立于 `facets`。
 
-已确认的“蓝洞，50-130 米 / 中层”及“中层水域 / 中层”使用“蓝洞，50-130 米”；“浅水区 / 浅海”使用“蓝洞，0-50 米”。Glacial Area Dungeon 3 / glacial 3 统一为 `region/glacial-area-dungeon-3`（第三冰川洞穴）。
+已确认的“蓝洞，50-130 米 / 中层”及“中层水域 / 中层”使用“蓝洞，50-130 米”；“浅水区”合并到“蓝洞，0-50 米”，limestone 合并到“钟乳石窟”，旧区域 ID 已删除。白斑水母（White Spotted Jellyfish）的区域为“钟乳石窟”。Glacial Area Dungeon 3 / glacial 3 统一为 `region/glacial-area-dungeon-3`（第三冰川洞穴）。
 
 fog coast、black cliff、jellyfish basin 分别译为“迷雾海岸”“黑色峭壁”“水母盆地”；Dredge Point01 A/B、Point02 A/B、Point03 A/B 分别合并到对应区域，避免同一区域在筛选中出现多个选项。
 
@@ -99,7 +99,7 @@ fog coast、black cliff、jellyfish basin 分别译为“迷雾海岸”“黑�
 
 后续不再从该网站抓取此类数据，直接维护 `src/data/` 中的 JSON。旧导入脚本保留为历史工具，未加入本次清理规则，重新运行会覆盖清理结果。应用运行时不抓取网站，也没有后端。
 
-修改后运行 `pnpm test` 和 `pnpm build`，检查条目、译名、关联链接、鱼类声明的菜谱以及七道代表菜谱的经营曲线。
+修改后运行 `pnpm test` 和 `pnpm build`，检查经营模型、字段显示和区域筛选。
 
 ## 修改内容
 

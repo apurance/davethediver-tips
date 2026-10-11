@@ -174,6 +174,8 @@ test("corrected regions display from the top-level list without the obsolete num
     ["fish/vampire-squid", "冰川通道"], ["fish/clione", "蓝洞，130-250 米"],
     ["fish/alaska-pollock", "第一冰川洞穴"], ["fish/allenypterus", "热泉喷口"],
     ["fish/atlantic-anglerfish", "钟乳石窟"],
+    ["fish/warrior-parrotfish", "蓝洞，0-50 米"],
+    ["fish/zebra-seahorse", "钟乳石窟"], ["fish/white-spotted-jellyfish", "钟乳石窟"],
     ["fish/atlantic-mackerel", "蓝洞，50-130 米"], ["fish/blackfin-barracuda", "蓝洞，50-130 米"],
     ["fish/whitetip-reefshark", "蓝洞，0-50 米"], ["fish/snub-nosed-spiny-eel", "第三冰川洞穴"],
     ["fish/megamouth-shark", "蓝洞，130-250 米"], ["fish/viperfish", "蓝洞，130-250 米"],
