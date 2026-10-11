@@ -13,7 +13,6 @@ interface EntityBase {
   en: string;
   sourceUrls: string[];
   inferred: boolean;
-  relatedIds: string[];
   facts: { labelId: string; values: FactValue[] }[];
   stats: Record<string, number | null>;
   fields?: Record<string, string>;
@@ -23,16 +22,20 @@ interface EntityBase {
 export interface RecipeEntity extends EntityBase {
   type: "recipe";
   ingredients: { ingredientId: string; quantity: number | null }[];
+  relatedIngredients: string[];
+  relatedFish: string[];
 }
 export interface IngredientEntity extends EntityBase {
   type: "ingredient";
   relatedRecipes: string[];
+  relatedFish: string[];
   fishIds: string[];
   region?: string[];
 }
 export interface FishEntity extends EntityBase {
   type: "fish";
   relatedRecipes: string[];
+  relatedIngredients: string[];
   region?: string[];
 }
 export interface StaffEntity extends EntityBase {
@@ -59,6 +62,14 @@ export function translateText(text: string) {
 }
 export const entityTypes: Record<EntityType, string> = { recipe: "食谱", ingredient: "食材", fish: "鱼类", staff: "员工" };
 export const entityLists: Record<EntityType, string> = { recipe: "/recipes", ingredient: "/ingredients", fish: "/fish", staff: "/staff" };
+export function getRelatedGroups(entity: Entity): { type: EntityType; ids: string[] }[] {
+  switch (entity.type) {
+    case "recipe": return [{ type: "ingredient", ids: entity.relatedIngredients }, { type: "fish", ids: entity.relatedFish }];
+    case "ingredient": return [{ type: "fish", ids: entity.relatedFish }, { type: "recipe", ids: entity.relatedRecipes }];
+    case "fish": return [{ type: "ingredient", ids: entity.relatedIngredients }, { type: "recipe", ids: entity.relatedRecipes }];
+    case "staff": return [];
+  }
+}
 export function entityPath(entity: Entity | string) {
   const id = typeof entity === "string" ? getEntity(entity)?.id ?? entity : entity.id;
   const [type, slug] = id.split("/");

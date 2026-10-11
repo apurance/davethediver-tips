@@ -1,6 +1,6 @@
 import { Alert, Breadcrumb, Card, Descriptions, Empty, Space, Table, Tag } from "antd";
 import { Link, Navigate, useParams } from "react-router";
-import { database, entityLists, entityPath, entityTypes, getEntity, name } from "../catalog";
+import { database, entityLists, entityPath, entityTypes, getEntity, getRelatedGroups, name } from "../catalog";
 import type { Entity, EntityType } from "../catalog";
 import { formatFactValue, getDisplayFacts } from "../facts";
 import type { DisplayFactValue } from "../facts";
@@ -20,8 +20,6 @@ export function EntityPage({ type }: { type: EntityType }) {
   if (!entity) return <><PageHeading title="条目未找到" description="该条目不存在，或链接中的名称有误。" /><Empty description="没有对应数据" /><Link to={entityLists[type]}>返回{entityTypes[type]}目录</Link></>;
   if (requestedId !== entity.id) return <Navigate replace to={entityPath(entity)} />;
   const strategy = recipes.find(recipe => recipe.entityId === entity.id);
-  const related = entity.relatedIds.map(getEntity).filter(e => !!e);
-  const relatedRecipes = entity.type === "fish" || entity.type === "ingredient" ? entity.relatedRecipes.map(getEntity).filter(e => !!e) : [];
   const summarized = type === "recipe" ? ["base-price", "base-selling-price", "sell-price", "base-taste", "taste", "base-servings", "max-price", "max-taste", "max-servings", "highest-sell-price", "highest-taste"] : type === "staff" ? ["base-cooking", "base-serving", "base-procurement", "base-appeal", "max-cooking", "max-serving", "max-procurement", "max-appeal", "cooking", "serving", "procurement", "appeal", "hiring-cost", "wage", "manager-rank", "tier", "special-skills"] : [];
   const facts = getDisplayFacts(entity).filter(f => !summarized.some(field => f.labelId === `field/${field}`));
   return <>
@@ -53,9 +51,9 @@ export function EntityPage({ type }: { type: EntityType }) {
     <Card title={type === "recipe" || type === "staff" ? "解锁与其他信息" : "游戏数据"} className="catalog-detail-card">
       {facts.length ? <Descriptions bordered column={1} size="small" items={facts.map((f, i) => ({ key: i, label: name(f.labelId), children: <FactContent values={f.values} entity={entity} /> }))} /> : <p className="muted">来源未提供其他独立属性数据。</p>}
     </Card>
-    {(["ingredient", "fish", "recipe", "staff"] as EntityType[]).map(group => {
-      const entries = group === "recipe" && (entity.type === "fish" || entity.type === "ingredient") ? relatedRecipes : related.filter(e => e.type === group);
-      return entries.length ? <Card key={group} title={group === "recipe" ? `可制作食谱 · ${entries.length}` : `关联${entityTypes[group]} · ${entries.length}`} className="catalog-detail-card">
+    {getRelatedGroups(entity).map(group => {
+      const entries = group.ids.map(getEntity).filter((e): e is Entity => !!e && e.type === group.type);
+      return entries.length ? <Card key={group.type} title={group.type === "recipe" ? `可制作食谱 · ${entries.length}` : `关联${entityTypes[group.type]} · ${entries.length}`} className="catalog-detail-card">
         <div className="catalog-related">{entries.map(e => <div key={e.id}><EntityLink id={e.id} /><small className="catalog-en">{e.en}</small></div>)}</div>
       </Card> : null;
     })}

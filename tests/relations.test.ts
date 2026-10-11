@@ -1,15 +1,14 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { catalog, getEntity } from "../src/catalog.ts";
+import { catalog, getEntity, getRelatedGroups } from "../src/catalog.ts";
 import { getDisplayFacts } from "../src/facts.ts";
 
-test("recipe relations use their own field and retain valid bidirectional links", () => {
+test("relations are grouped by target type and retain valid bidirectional links", () => {
   for (const entity of catalog) {
+    assert.ok(!("relatedIds" in entity), entity.id);
     const hasRecipes = entity.type === "fish" || entity.type === "ingredient";
     if (hasRecipes) {
       assert.ok(Array.isArray(entity.relatedRecipes), entity.id);
-      assert.ok(!entity.relatedIds.some(id => id.startsWith("recipe/")), entity.id);
-      assert.ok(entity.relatedRecipes.every(id => id.startsWith("recipe/")), entity.id);
     } else {
       assert.ok(!("relatedRecipes" in entity), entity.id);
     }
@@ -19,15 +18,20 @@ test("recipe relations use their own field and retain valid bidirectional links"
     assert.ok(!entity.facts.some(fact => fact.labelId === "field/related-recipes"), entity.id);
     assert.ok(!getDisplayFacts(entity).some(fact => fact.labelId === "field/related-recipes"), entity.id);
 
-    const ids = [...entity.relatedIds, ...(hasRecipes ? entity.relatedRecipes : [])];
+    const groups = getRelatedGroups(entity);
+    const ids = groups.flatMap(group => group.ids);
     assert.equal(ids.length, new Set(ids).size, entity.id);
-    for (const id of ids) {
-      const related = getEntity(id);
-      assert.ok(related, `${entity.id} -> ${id}`);
-      assert.equal(id, related.id, `${entity.id} -> ${id}`);
-      assert.notEqual(id, entity.id);
-      const reverse = entity.type === "recipe" && (related.type === "fish" || related.type === "ingredient") ? related.relatedRecipes : related.relatedIds;
-      assert.ok(reverse.includes(entity.id), `${entity.id} <-> ${id}`);
+    for (const group of groups) {
+      assert.ok(Array.isArray(group.ids), `${entity.id}: ${group.type}`);
+      for (const id of group.ids) {
+        const related = getEntity(id);
+        assert.ok(related, `${entity.id} -> ${id}`);
+        assert.equal(related.type, group.type, `${entity.id} -> ${id}`);
+        assert.equal(id, related.id, `${entity.id} -> ${id}`);
+        assert.notEqual(id, entity.id);
+        const reverse = getRelatedGroups(related).find(group => group.type === entity.type);
+        assert.ok(reverse?.ids.includes(entity.id), `${entity.id} <-> ${id}`);
+      }
     }
   }
 });
