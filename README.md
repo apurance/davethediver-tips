@@ -75,7 +75,7 @@ location / {
 
 属性字段的 `labelId` 使用可读的英文语义键，例如 `field/base-procurement`（基础采购）、`field/related-recipes`（关联菜谱）和 `field/max-price`（满级价格）。字段 ID 固定，中文显示仍从名称 JSON 读取；手动改译名时无需修改数据引用。详情页的属性分类及菜谱关联检查也使用固定 ID，不依赖中文译文。
 
-金额、重量、体长等独立数量使用 `{ "number": 1000, "unitId": "unit/gold" }`；已有 `stats` 数值、`facets` 分类和 `skillIds` 技能不再在 `facts` 中重复保存，前端根据统一规则生成这些显示字段。中文单位及显示模板集中在名称 JSON，例如 `unit/gold`、`unit/kilogram`、`template/daily-quantity`。带商家名、每日上限或出餐时间的数量通过 `templateId` 和 `parameters` 格式化。图鉴编号等标识保留字符串，避免丢失前导零。
+所有独立数值统一放在 `stats`，例如 `"length": 210`、`"health": 250`、`"dailyLimit": 1`、`"servingTime": 19`。数据不再逐项声明 `unitId`、`templateId` 或 `parameters`，前端根据统计键推断单位和显示模板；中文单位及模板仍集中在名称 JSON，例如 `unit/gold`、`unit/centimeter`、`template/daily-quantity`。不同商家的价格分别保存为 `purchasePriceOtto`、`purchasePriceJango` 等数值键；同价共用商家使用 `purchasePriceJangoAndMushroomer`。来源中的“购买金币”对应 `buyGoldOtto`、`buyGoldJango`，保留独立字段。员工的 `cooking` 等来源属性与 `maxCooking` 等满级属性也分别保存。`facts` 仅保留文本、名称和实体引用，`facets` 分类和 `skillIds` 技能由前端生成显示字段。图鉴编号等标识保留字符串，避免丢失前导零。
 
 `database.json` 不保存“每公斤价值”、员工基础 / 满级属性总和、关联菜谱数量，也不保存 `computed`、`stat` 等显示描述。前端的 `getDisplayFacts()` 根据基础数据追加：每公斤价值 = `stats.sellPrice / stats.weight`（显示最多一位小数）；员工总和 = 对应四项属性之和；菜谱数量 = 当前去重后的关联菜谱数。基础数据不齐或重量非正时不追加相应计算字段，零售价和零菜谱数量正常显示。来源鱼类的“关联菜谱”字段仍保留，作为已核对的独立关联依据。
 

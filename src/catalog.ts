@@ -6,11 +6,6 @@ export interface FactValue {
   text?: string;
   nameId?: string;
   entityId?: string;
-  number?: number;
-  unitId?: string;
-  perUnitId?: string;
-  templateId?: string;
-  parameters?: Record<string, string | number | { nameId: string }>;
 }
 export interface Entity {
   id: string;

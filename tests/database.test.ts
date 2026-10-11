@@ -23,11 +23,8 @@ test("every catalog identifier and translation reference resolves", () => {
       assert.doesNotMatch(fact.labelId, /^field\/[a-f0-9]{12}$/, entity.id);
       assert.ok(names[fact.labelId]);
       for (const value of fact.values) {
-        for (const id of [value.unitId, value.perUnitId, value.templateId].filter(Boolean)) assert.ok(names[id!], `${entity.id}: ${id}`);
-        if (value.number !== undefined) assert.ok(Number.isFinite(value.number), entity.id);
-        assert.ok(!("stat" in value) && !("computed" in value), `${entity.id}: presentation data in source facts`);
-        for (const parameter of Object.values(value.parameters ?? {})) {
-          if (typeof parameter === "object") assert.ok(names[parameter.nameId], entity.id);
+        for (const key of ["number", "unitId", "perUnitId", "templateId", "parameters", "stat", "computed"]) {
+          assert.ok(!(key in value), `${entity.id}: ${key} in source facts`);
         }
         if (value.nameId) assert.ok(names[value.nameId], `${entity.id}: ${value.nameId}`);
         if (value.entityId) assert.ok(byId.has(value.entityId), `${entity.id}: ${value.entityId}`);

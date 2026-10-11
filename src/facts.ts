@@ -2,6 +2,11 @@ import type { Entity, FactValue } from "./catalog.ts";
 import { formatNumber } from "./utils/formatNumber.ts";
 
 export type DisplayFactValue = FactValue & {
+  number?: number;
+  unitId?: string;
+  perUnitId?: string;
+  templateId?: string;
+  parameters?: Record<string, string | number | { nameId: string }>;
   stat?: string;
   computed?: "value-per-kilogram" | "base-total" | "max-total" | "recipe-count";
 };
@@ -27,6 +32,41 @@ const statFields: Record<Entity["type"], [string, string, string?][]> = {
   ],
 };
 
+const additionalStatFields: Record<Entity["type"], [string, string][]> = {
+  recipe: [
+    ["flame-cost", "flameCost"], ["max-level", "maxLevel"],
+    ["ingredient-cost", "ingredientCost"], ["estimated-profit", "estimatedProfit"],
+    ["servings-per-plate", "servingsPerPlate"], ["serving-time", "servingTime"],
+    ["research-cost", "researchCost"], ["repeat-research-taste", "repeatResearchTaste"],
+    ["plates-per-serving", "platesPerServing"],
+  ],
+  ingredient: [
+    ["level", "rank"], ["purchase-price", "purchasePrice"],
+    ["acquisition-method", "acquisitionMethod"], ["region", "region"], ["daily-limit", "dailyLimit"],
+  ],
+  fish: [
+    ["length", "length"], ["health", "health"], ["damage", "damage"],
+    ["harvest-count", "harvestCount"], ["capture-rank", "captureRank"], ["region", "region"],
+  ],
+  staff: [["cooking", "cooking"], ["appeal", "appeal"], ["serving", "serving"]],
+};
+
+// Units and quantity templates are determined by the stat key, not stored per entity.
+const statUnits: Record<string, string> = {
+  ...Object.fromEntries(Object.values(statFields).flat().filter(([, , unit]) => unit).map(([, stat, unit]) => [stat, unit!])),
+  ingredientCost: "unit/gold", estimatedProfit: "unit/gold", purchasePrice: "unit/gold",
+  length: "unit/centimeter", servingTime: "unit/second", dailyLimit: "unit/can",
+};
+const statTemplates: Record<string, string> = {
+  servingTime: "template/per-plate-quantity", dailyLimit: "template/daily-quantity",
+};
+const vendors: [string, string][] = [
+  ["Otto", "Otto"], ["Mushroomer", "Mushroomer"], ["Jango", "Jango"],
+  ["JangoAndMushroomer", "Jango and Mushroomer"],
+];
+const vendorStats = Object.fromEntries(["purchasePrice", "buyGold"].flatMap(prefix =>
+  vendors.map(([suffix, vendor]) => [`${prefix}${suffix}`, vendor])));
+
 /** Source facts contain independent information; presentation-only fields live here. */
 export function getDisplayFacts(entity: Entity): DisplayFact[] {
   const facts: DisplayFact[] = [...entity.facts];
@@ -38,8 +78,18 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
       labels.add(labelId);
     }
   };
-  for (const [field, stat, unitId] of statFields[entity.type]) {
-    if (entity.stats[stat] != null) append(field, [{ stat, ...(unitId ? { unitId } : {}) }]);
+  for (const [field, stat] of [...statFields[entity.type], ...additionalStatFields[entity.type]]) {
+    if (entity.stats[stat] != null) append(field, [{ stat }]);
+  }
+  if (entity.type === "ingredient") for (const [field, prefix] of [["purchase-price", "purchasePrice"], ["buy-gold", "buyGold"]]) {
+    const values: DisplayFactValue[] = [];
+    for (const [suffix] of vendors) {
+      const stat = `${prefix}${suffix}`;
+      if (entity.stats[stat] == null) continue;
+      if (values.length) values.push({ text: "／" });
+      values.push({ stat });
+    }
+    if (values.length) append(field, values);
   }
   for (const [facet, field] of [["region", "region"], ["time", "active-time"], ["tier", "tier"]]) {
     if (entity.facets[facet]) append(field, [{ nameId: entity.facets[facet]! }]);
@@ -92,14 +142,18 @@ export function formatFactValue(value: DisplayFactValue, entity: FactContext, tr
   if (numeric && number === null) return translate("label/not-provided");
   // Keep source quantities precise; only the derived ratio is rounded for display.
   const formatted = number === null ? "" : formatNumber(number, value.computed === "value-per-kilogram" ? 1 : 10);
-  const unit = value.unitId ? translate(value.unitId) + (value.perUnitId ? `/${translate(value.perUnitId)}` : "") : "";
-  if (value.templateId) {
+  const vendor = value.stat ? vendorStats[value.stat] : undefined;
+  const unitId = value.unitId ?? (value.stat ? vendor ? "unit/gold" : statUnits[value.stat] : undefined);
+  const templateId = value.templateId ?? (value.stat ? vendor ? "template/vendor-price" : statTemplates[value.stat] : undefined);
+  const unit = unitId ? translate(unitId) + (value.perUnitId ? `/${translate(value.perUnitId)}` : "") : "";
+  if (templateId) {
     const parameters: Record<string, string> = { value: formatted, unit };
+    if (vendor) parameters.vendor = vendor;
     for (const [key, parameter] of Object.entries(value.parameters ?? {})) {
       parameters[key] = typeof parameter === "number" ? formatNumber(parameter, 10)
         : typeof parameter === "string" ? parameter : translate(parameter.nameId);
     }
-    return translate(value.templateId).replace(/\{([a-zA-Z][a-zA-Z0-9]*)\}/g, (token, key: string) => parameters[key] ?? token);
+    return translate(templateId).replace(/\{([a-zA-Z][a-zA-Z0-9]*)\}/g, (token, key: string) => parameters[key] ?? token);
   }
-  return formatted + (unit ? `${value.unitId === "unit/percent" ? "" : " "}${unit}` : "");
+  return formatted + (unit ? `${unitId === "unit/percent" ? "" : " "}${unit}` : "");
 }
