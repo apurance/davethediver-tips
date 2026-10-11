@@ -187,6 +187,35 @@ test("acquisition methods use the top-level text or entity reference and display
   assert.equal(formatFactValue(factValue(kajime, "field/acquisition-method"), kajime, translate), "130");
 });
 
+test("events are recipe-only top-level strings and display without entity links", () => {
+  let count = 0;
+  for (const entity of all) {
+    assert.ok(!entity.facts.some(fact => fact.labelId === "field/event"), entity.id);
+    if (entity.type !== "recipe") {
+      assert.ok(!("event" in entity), entity.id);
+      continue;
+    }
+    if (entity.event === undefined) continue;
+    count++;
+    assert.equal(typeof entity.event, "string", entity.id);
+    assert.ok(!entity.event.includes("/"), entity.id);
+    assert.deepEqual(factValue(entity, "field/event"), { text: entity.event }, entity.id);
+  }
+  assert.ok(count > 0);
+  const marlin = byId.get("recipe/marlin-sushi")!;
+  assert.ok(marlin.type === "recipe");
+  assert.equal(marlin.event, "marlin");
+  const cucumber = byId.get("recipe/skewered-cucumber")!;
+  assert.ok(cucumber.type === "recipe");
+  assert.equal(cucumber.event, "cucumber");
+  const mixed = byId.get("recipe/godzilla-vs-ebirah-curry")!;
+  assert.ok(mixed.type === "recipe");
+  assert.equal(mixed.event, "curry lobster");
+  const edited = { ...marlin, event: "测试活动" };
+  assert.equal(formatFactValue(factValue(edited, "field/event"), edited, translate), "测试活动");
+  assert.ok(!getDisplayFacts({ ...marlin, event: undefined }).some(fact => fact.labelId === "field/event"));
+});
+
 test("corrected regions display from the top-level list without the obsolete numeric value", () => {
   for (const [id, expected] of [
     ["fish/white-shrimp", "蓝洞，0-130 米"], ["fish/bluefin-tuna", "蓝洞，0-50 米"],

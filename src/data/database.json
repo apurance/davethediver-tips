@@ -400,16 +400,8 @@
       "acquisition-method": {
         "text": "Cooksta Platinum Rank"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "curry"
-            }
-          ]
-        }
-      ]
+      "event": "curry",
+      "facts": []
     },
     {
       "id": "recipe/bluefin-tuna-rice-bowl",
@@ -455,16 +447,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/crystal-lobster-roll",
@@ -506,16 +490,8 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/ice-fish-curry",
@@ -557,16 +533,8 @@
       "acquisition-method": {
         "text": "Train Drae to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "curry"
-            }
-          ]
-        }
-      ]
+      "event": "curry",
+      "facts": []
     },
     {
       "id": "recipe/moray-eel-curry",
@@ -604,16 +572,8 @@
       "acquisition-method": {
         "text": "Cooksta Silver Rank"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "curry"
-            }
-          ]
-        }
-      ]
+      "event": "curry",
+      "facts": []
     },
     {
       "id": "recipe/seadragon-onigiri",
@@ -740,16 +700,8 @@
       "acquisition-method": {
         "text": "Train Jandi to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "curry"
-            }
-          ]
-        }
-      ]
+      "event": "curry",
+      "facts": []
     },
     {
       "id": "recipe/antarctic-octopus-carpaccio",
@@ -1019,16 +971,8 @@
       "acquisition-method": {
         "text": "Complete Spicy Pepper Seeds!"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/lobster-platter",
@@ -1071,16 +1015,8 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/peacock-squid-ripieni",
@@ -1422,16 +1358,8 @@
       "acquisition-method": {
         "entityId": "fish/american-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/barrel-jellyfish-sushi",
@@ -1466,16 +1394,8 @@
       "acquisition-method": {
         "entityId": "fish/barrel-jellyfish"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/blue-lobster-sushi",
@@ -1510,16 +1430,8 @@
       "acquisition-method": {
         "entityId": "fish/blue-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/box-jellyfish-sushi",
@@ -1554,16 +1466,8 @@
       "acquisition-method": {
         "entityId": "fish/box-jellyfish"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/california-spiny-lobster-sushi",
@@ -1598,16 +1502,8 @@
       "acquisition-method": {
         "entityId": "fish/california-spiny-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/comb-jelly-sushi",
@@ -1642,16 +1538,8 @@
       "acquisition-method": {
         "entityId": "fish/comb-jelly"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/cooked-whiteleg-shrimp-sushi",
@@ -1685,16 +1573,8 @@
       "acquisition-method": {
         "entityId": "fish/whiteleg-shrimp"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/cookiecutter-shark-sushi",
@@ -1729,16 +1609,8 @@
       "acquisition-method": {
         "entityId": "fish/cookiecutter-shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/crystal-lobster-sushi",
@@ -1773,16 +1645,8 @@
       "acquisition-method": {
         "entityId": "fish/crystal-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/dollocaris-ingens-sushi",
@@ -1817,16 +1681,8 @@
       "acquisition-method": {
         "entityId": "fish/dollocaris-ingens"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/eastern-rock-lobster-sushi",
@@ -1861,16 +1717,8 @@
       "acquisition-method": {
         "entityId": "fish/eastern-rock-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/european-lobster-sushi",
@@ -1905,16 +1753,8 @@
       "acquisition-method": {
         "entityId": "fish/european-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/falcatus-sushi",
@@ -1949,16 +1789,8 @@
       "acquisition-method": {
         "entityId": "fish/falcatus"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/fan-lobster-sushi",
@@ -1993,16 +1825,8 @@
       "acquisition-method": {
         "entityId": "fish/fan-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/fried-egg-jellyfish-sushi",
@@ -2037,16 +1861,8 @@
       "acquisition-method": {
         "entityId": "fish/fried-egg-jellyfish"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/norway-lobster-sushi",
@@ -2081,16 +1897,8 @@
       "acquisition-method": {
         "entityId": "fish/norway-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/raw-black-tiger-shrimp-sushi",
@@ -2124,16 +1932,8 @@
       "acquisition-method": {
         "entityId": "fish/black-tiger-shrimp"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/skewered-cucumber",
@@ -2166,17 +1966,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "ingredient/cucumber",
-              "entityId": "ingredient/cucumber"
-            }
-          ]
-        }
-      ]
+      "event": "cucumber",
+      "facts": []
     },
     {
       "id": "recipe/tokummia-katalepsis-sushi",
@@ -2211,16 +2002,8 @@
       "acquisition-method": {
         "entityId": "fish/tokummia-katalepsis"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/tropical-rock-lobster-sushi",
@@ -2255,16 +2038,8 @@
       "acquisition-method": {
         "entityId": "fish/tropical-rock-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/waptia-sushi",
@@ -2299,16 +2074,8 @@
       "acquisition-method": {
         "entityId": "fish/waptia-fieldensis"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/white-shrimp-sushi",
@@ -2343,16 +2110,8 @@
       "acquisition-method": {
         "entityId": "fish/white-shrimp"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/alaska-pollock-sushi",
@@ -2922,16 +2681,8 @@
       "acquisition-method": {
         "text": "Train Raptor to Level 5"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/boiled-mantis-shrimp-with-soy-paste",
@@ -2974,16 +2725,8 @@
       "acquisition-method": {
         "text": "Defeat Mantis Shrimp"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/boiled-porbeagle-shark",
@@ -3024,16 +2767,8 @@
       "acquisition-method": {
         "text": "Train Raul to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/boiled-sailfish-and-seaweed",
@@ -3078,17 +2813,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Marlin Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "fish/marlin",
-              "entityId": "fish/marlin"
-            }
-          ]
-        }
-      ]
+      "event": "marlin",
+      "facts": []
     },
     {
       "id": "recipe/capelin-sushi",
@@ -3270,16 +2996,8 @@
       "acquisition-method": {
         "entityId": "fish/green-sea-urchin"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/coral-trout-sushi",
@@ -3357,16 +3075,8 @@
       "acquisition-method": {
         "text": "Train Billy to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/deep-fried-eggplant-shrimp-meatballs",
@@ -3412,16 +3122,8 @@
       "acquisition-method": {
         "text": "Train Yusuke to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/dumbo-octopus-sushi",
@@ -3536,16 +3238,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Shark Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/fangtooth-sushi",
@@ -3658,16 +3352,8 @@
       "acquisition-method": {
         "text": "Defeat Goblin Shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/golden-king-crab-sushi",
@@ -3774,17 +3460,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "ingredient/cucumber",
-              "entityId": "ingredient/cucumber"
-            }
-          ]
-        }
-      ]
+      "event": "cucumber",
+      "facts": []
     },
     {
       "id": "recipe/great-spider-crab-curry",
@@ -3825,16 +3502,8 @@
       "acquisition-method": {
         "text": "Train Charlie to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "curry"
-            }
-          ]
-        }
-      ]
+      "event": "curry",
+      "facts": []
     },
     {
       "id": "recipe/green-humphead-parrotfish-sushi",
@@ -4019,16 +3688,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/humphead-parrotfish-curry",
@@ -4069,16 +3730,8 @@
       "acquisition-method": {
         "text": "Cooksta Platinum Rank"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "curry"
-            }
-          ]
-        }
-      ]
+      "event": "curry",
+      "facts": []
     },
     {
       "id": "recipe/hyalonema-tuna-sashimi",
@@ -4120,16 +3773,8 @@
       "acquisition-method": {
         "text": "Complete Trapped in the Glacial Cave"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/ice-fish-sushi",
@@ -4242,16 +3887,8 @@
       "acquisition-method": {
         "text": "Defeat Lusca"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/mackerel-scad-sushi",
@@ -4327,17 +3964,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Marlin Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "fish/marlin",
-              "entityId": "fish/marlin"
-            }
-          ]
-        }
-      ]
+      "event": "marlin",
+      "facts": []
     },
     {
       "id": "recipe/mediterranean-parrotfish-sushi",
@@ -4453,16 +4081,8 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/moray-eel-sushi",
@@ -4711,16 +4331,8 @@
       "acquisition-method": {
         "text": "Defeat Phantom Jellyfish"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/pikaia-sushi",
@@ -5010,16 +4622,8 @@
       "acquisition-method": {
         "text": "Train Kyoko to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/roasted-capelin",
@@ -5060,16 +4664,8 @@
       "acquisition-method": {
         "text": "Train Drae to Level 10"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "curry"
-            }
-          ]
-        }
-      ]
+      "event": "curry",
+      "facts": []
     },
     {
       "id": "recipe/roasted-helicoprion-tail",
@@ -5112,16 +4708,8 @@
       "acquisition-method": {
         "text": "Defeat Helicoprion"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/sally-lightfoot-crab-sushi",
@@ -5228,17 +4816,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "ingredient/cucumber",
-              "entityId": "ingredient/cucumber"
-            }
-          ]
-        }
-      ]
+      "event": "cucumber",
+      "facts": []
     },
     {
       "id": "recipe/sea-toad-sushi",
@@ -5319,16 +4898,8 @@
       "acquisition-method": {
         "text": "Train James to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/seasoned-waptia-fieldensis",
@@ -5373,16 +4944,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "cucumber shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "cucumber shrimp",
+      "facts": []
     },
     {
       "id": "recipe/shark-karaage",
@@ -5428,16 +4991,8 @@
       "acquisition-method": {
         "text": "Train Itsuki to Level 15"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/snow-crab-sushi",
@@ -5589,16 +5144,8 @@
       "acquisition-method": {
         "text": "Train Drae to Level 5"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/steamed-eastern-rock-lobster-and-egg",
@@ -5639,16 +5186,8 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/striped-catfish-sushi",
@@ -5795,17 +5334,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "ingredient/cucumber",
-              "entityId": "ingredient/cucumber"
-            }
-          ]
-        }
-      ]
+      "event": "cucumber",
+      "facts": []
     },
     {
       "id": "recipe/vampire-squid-sushi",
@@ -5875,16 +5405,8 @@
       "acquisition-method": {
         "text": "Defeat Klaus"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/white-trevally-sushi",
@@ -5956,16 +5478,8 @@
       "acquisition-method": {
         "text": "Complete A Scolding from Yoshie"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/yawie-steamed-meat",
@@ -6000,16 +5514,8 @@
       "acquisition-method": {
         "text": "Defeat Yawie"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/yellow-tang-sushi",
@@ -6121,16 +5627,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/agar-tokoroten",
@@ -6372,16 +5870,8 @@
       "acquisition-method": {
         "entityId": "fish/blacktip-reefshark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/blanched-lusca-tentacle",
@@ -6452,16 +5942,8 @@
       "acquisition-method": {
         "entityId": "fish/blood-belly-comb-jellyfish"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/bluefin-tuna-akami-sushi",
@@ -6494,16 +5976,8 @@
       "acquisition-method": {
         "text": "Bluefin Tuna Akami"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/bluefin-tuna-chutoro-sushi",
@@ -6536,16 +6010,8 @@
       "acquisition-method": {
         "text": "Bluefin Tuna Chutoro"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/bluefin-tuna-ootoro-sushi",
@@ -6577,16 +6043,8 @@
       "acquisition-method": {
         "entityId": "recipe/blue-fin-tuna-ootoro"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/boiled-yellowback-fusilier",
@@ -6666,16 +6124,8 @@
       "acquisition-method": {
         "text": "Complete Inspirational Chirashi Sushi"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/clione-queen-soup",
@@ -6751,16 +6201,8 @@
       "acquisition-method": {
         "text": "Copper Shark Meat"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/deep-fish-tempura",
@@ -6806,16 +6248,8 @@
       "acquisition-method": {
         "text": "Complete Whose Fried food is the Best?"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/deep-fried-red-lionfish",
@@ -6948,17 +6382,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "ingredient/cucumber",
-              "entityId": "ingredient/cucumber"
-            }
-          ]
-        }
-      ]
+      "event": "cucumber",
+      "facts": []
     },
     {
       "id": "recipe/deep-sea-kaiju-ramen",
@@ -6998,16 +6423,8 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/dried-stingray",
@@ -7128,16 +6545,8 @@
       "acquisition-method": {
         "entityId": "fish/dunkleosteus"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/dusky-grouper-steak",
@@ -7224,16 +6633,8 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/fried-onion-cuttlefish",
@@ -7470,16 +6871,8 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "curry lobster"
-            }
-          ]
-        }
-      ]
+      "event": "curry lobster",
+      "facts": []
     },
     {
       "id": "recipe/green-sea-urchin-and-cucumber-salad",
@@ -7519,17 +6912,8 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "ingredient/cucumber",
-              "entityId": "ingredient/cucumber"
-            }
-          ]
-        }
-      ]
+      "event": "cucumber",
+      "facts": []
     },
     {
       "id": "recipe/greenland-shark-sushi",
@@ -7562,16 +6946,8 @@
       "acquisition-method": {
         "entityId": "fish/greenland-shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/haddock-acqua-pazza",
@@ -7662,16 +7038,8 @@
       "acquisition-method": {
         "text": "Complete Let Us Begin the Contest"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shrimp"
-            }
-          ]
-        }
-      ]
+      "event": "shrimp",
+      "facts": []
     },
     {
       "id": "recipe/latok-omelet",
@@ -7747,16 +7115,8 @@
       "acquisition-method": {
         "entityId": "fish/long-nose-saw-shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/mackerel-scad-hotdog",
@@ -7830,17 +7190,8 @@
       "acquisition-method": {
         "entityId": "fish/marlin"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "fish/marlin",
-              "entityId": "fish/marlin"
-            }
-          ]
-        }
-      ]
+      "event": "marlin",
+      "facts": []
     },
     {
       "id": "recipe/megamouth-shark-sushi",
@@ -7873,16 +7224,8 @@
       "acquisition-method": {
         "entityId": "fish/megamouth-shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/narrow-barred-spanish-mackerel-arancini",
@@ -8058,17 +7401,8 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "ingredient/cucumber",
-              "entityId": "ingredient/cucumber"
-            }
-          ]
-        }
-      ]
+      "event": "cucumber",
+      "facts": []
     },
     {
       "id": "recipe/plotosid-pie",
@@ -8146,16 +7480,8 @@
       "acquisition-method": {
         "entityId": "fish/porbeagle-shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/red-banded-lobster-sushi",
@@ -8189,16 +7515,8 @@
       "acquisition-method": {
         "entityId": "fish/red-banded-lobster"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/rice-with-great-spider-crab-meat",
@@ -8360,17 +7678,8 @@
       "acquisition-method": {
         "entityId": "fish/sailfish"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "fish/marlin",
-              "entityId": "fish/marlin"
-            }
-          ]
-        }
-      ]
+      "event": "marlin",
+      "facts": []
     },
     {
       "id": "recipe/salt-grilled-redtoothed-triggerfish",
@@ -8447,16 +7756,8 @@
       "acquisition-method": {
         "text": "Complete Gourmet Vincent's Challenge"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/seagrapes-special-sushi",
@@ -8752,16 +8053,8 @@
       "acquisition-method": {
         "entityId": "fish/shortfin-mako"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/smoked-atlantic-mackerel-scramble",
@@ -8835,16 +8128,8 @@
       "acquisition-method": {
         "entityId": "fish/smooth-hammerhead"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/steamed-hyalonema-angler-fish",
@@ -9211,16 +8496,8 @@
       "acquisition-method": {
         "entityId": "fish/thresher-shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/tiger-shark-sushi",
@@ -9253,16 +8530,8 @@
       "acquisition-method": {
         "entityId": "fish/tiger-shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/trevally-nanbanzuke",
@@ -9388,16 +8657,8 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "lobster"
-            }
-          ]
-        }
-      ]
+      "event": "lobster",
+      "facts": []
     },
     {
       "id": "recipe/truffle-sailfish-tartare",
@@ -9438,17 +8699,8 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "nameId": "fish/marlin",
-              "entityId": "fish/marlin"
-            }
-          ]
-        }
-      ]
+      "event": "marlin",
+      "facts": []
     },
     {
       "id": "recipe/truffle-shark-sandwich",
@@ -9490,16 +8742,8 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/warm-atlantic-mackerel-soba",
@@ -9576,16 +8820,8 @@
       "acquisition-method": {
         "entityId": "fish/white-spotted-jellyfish"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "jellyfish"
-            }
-          ]
-        }
-      ]
+      "event": "jellyfish",
+      "facts": []
     },
     {
       "id": "recipe/white-trevally-kombu-ochazuke",
@@ -9661,16 +8897,8 @@
       "acquisition-method": {
         "entityId": "fish/whitetip-reefshark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/yellowfin-tuna-akami-sushi",
@@ -9703,16 +8931,8 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Akami"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/yellowfin-tuna-chutoro-sushi",
@@ -9745,16 +8965,8 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Chutoro"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/yellowfin-tuna-ootoro-sushi",
@@ -9787,16 +8999,8 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Ootoro"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "tuna"
-            }
-          ]
-        }
-      ]
+      "event": "tuna",
+      "facts": []
     },
     {
       "id": "recipe/zebra-shark-sushi",
@@ -9828,16 +9032,8 @@
       "acquisition-method": {
         "entityId": "fish/zebra-shark"
       },
-      "facts": [
-        {
-          "labelId": "field/event",
-          "values": [
-            {
-              "text": "shark"
-            }
-          ]
-        }
-      ]
+      "event": "shark",
+      "facts": []
     },
     {
       "id": "recipe/aurora-jellyfish-sushi",

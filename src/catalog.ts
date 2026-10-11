@@ -25,6 +25,7 @@ interface EntityBase {
 }
 export interface RecipeEntity extends EntityBase {
   type: "recipe";
+  event?: string;
   "acquisition-method"?: AcquisitionMethod;
   ingredients: { ingredientId: string; quantity: number | null }[];
   relatedFish: string[];

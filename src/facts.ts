@@ -81,6 +81,7 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
   if ((entity.type === "recipe" || entity.type === "ingredient") && entity["acquisition-method"]) {
     append("acquisition-method", [entity["acquisition-method"]]);
   }
+  if (entity.type === "recipe" && entity.event !== undefined) append("event", [{ text: entity.event }]);
   for (const [key, text] of Object.entries(entity.fields ?? {})) {
     append(key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`), [{ text }]);
   }
