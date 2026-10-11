@@ -1,14 +1,16 @@
 import { Alert, Breadcrumb, Card, Descriptions, Empty, Space, Table, Tag } from "antd";
 import { Link, Navigate, useParams } from "react-router";
 import { database, entityLists, entityPath, entityTypes, getEntity, name } from "../catalog";
-import type { EntityType, FactValue } from "../catalog";
+import type { Entity, EntityType } from "../catalog";
+import { formatFactValue, getDisplayFacts } from "../facts";
+import type { DisplayFactValue } from "../facts";
 import { EntityLink } from "../components/EntityLink";
 import { statText } from "../components/CatalogSection";
 import { PageHeading } from "../components/PageHeading";
 import { recipes } from "../data";
 
-function FactContent({ values }: { values: FactValue[] }) {
-  return <>{values.map((value, index) => <span key={index}>{index > 0 ? " " : ""}{value.entityId ? <EntityLink id={value.entityId} /> : value.nameId ? name(value.nameId) : value.text}</span>)}</>;
+function FactContent({ values, entity }: { values: DisplayFactValue[]; entity: Entity }) {
+  return <>{values.map((value, index) => <span key={index}>{index > 0 ? " " : ""}{value.entityId ? <EntityLink id={value.entityId} /> : formatFactValue(value, entity, name)}</span>)}</>;
 }
 
 export function EntityPage({ type }: { type: EntityType }) {
@@ -20,7 +22,7 @@ export function EntityPage({ type }: { type: EntityType }) {
   const strategy = recipes.find(recipe => recipe.entityId === entity.id);
   const related = entity.relatedIds.map(getEntity).filter(e => !!e);
   const summarized = type === "recipe" ? ["base-price", "base-selling-price", "sell-price", "base-taste", "taste", "base-servings", "max-price", "max-taste", "max-servings", "highest-sell-price", "highest-taste"] : type === "staff" ? ["base-cooking", "base-serving", "base-procurement", "base-appeal", "max-cooking", "max-serving", "max-procurement", "max-appeal", "cooking", "serving", "procurement", "appeal", "hiring-cost", "wage", "manager-rank", "tier", "special-skills"] : [];
-  const facts = entity.facts.filter(f => !summarized.some(field => f.labelId === `field/${field}`));
+  const facts = getDisplayFacts(entity).filter(f => !summarized.some(field => f.labelId === `field/${field}`));
   return <>
     <Breadcrumb items={[{ title: <Link to="/">概览</Link> }, { title: <Link to={entityLists[type]}>{entityTypes[type]}数据库</Link> }, { title: name(entity.id) }]} />
     <PageHeading eyebrow={`${entityTypes[type]} / ${entity.en}`} title={name(entity.id)} description={`本地资料 · ${database.metadata.importedAt} 导入`} />
@@ -48,7 +50,7 @@ export function EntityPage({ type }: { type: EntityType }) {
       <p className="muted">雇佣费 {statText(entity.stats.hiringCost, " G")} · 工资 {statText(entity.stats.wage, " G")} · 满级经理等级 {statText(entity.stats.managerRank)}</p>
     </Card>}
     <Card title={type === "recipe" || type === "staff" ? "解锁与其他信息" : "游戏数据"} className="catalog-detail-card">
-      {facts.length ? <Descriptions bordered column={1} size="small" items={facts.map((f, i) => ({ key: i, label: name(f.labelId), children: <FactContent values={f.values} /> }))} /> : <p className="muted">来源未提供其他独立属性数据。</p>}
+      {facts.length ? <Descriptions bordered column={1} size="small" items={facts.map((f, i) => ({ key: i, label: name(f.labelId), children: <FactContent values={f.values} entity={entity} /> }))} /> : <p className="muted">来源未提供其他独立属性数据。</p>}
     </Card>
     {(["ingredient", "fish", "recipe", "staff"] as EntityType[]).map(group => {
       const entries = related.filter(e => e.type === group);
@@ -56,7 +58,7 @@ export function EntityPage({ type }: { type: EntityType }) {
         <div className="catalog-related">{entries.map(e => <div key={e.id}><EntityLink id={e.id} /><small className="catalog-en">{e.en}</small></div>)}</div>
       </Card> : null;
     })}
-    <p className="muted small">数值及中文名沿用来源网站；未提供的属性不会推算。来源：</p>
+    <p className="muted small">基础数值及中文名沿用来源网站；派生数值根据当前基础数据计算。来源：</p>
     <Space orientation="vertical">{entity.sourceUrls.map((url, index) => <a key={url} href={url} target="_blank" rel="noreferrer">{index === 0 ? "查看原始条目" : `其他来源记录 ${index + 1}`}</a>)}{!entity.sourceUrls.length && <span className="muted">请参阅上方关联菜谱的来源。</span>}</Space>
     <p className="catalog-back"><Link to={entityLists[type]}>← 返回{entityTypes[type]}目录</Link></p>
   </>;

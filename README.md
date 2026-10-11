@@ -75,6 +75,10 @@ location / {
 
 属性字段的 `labelId` 使用可读的英文语义键，例如 `field/base-procurement`（基础采购）、`field/related-recipes`（关联菜谱）和 `field/max-price`（满级价格）。字段 ID 固定，中文显示仍从名称 JSON 读取；手动改译名时无需修改数据引用。详情页的属性分类及菜谱关联检查也使用固定 ID，不依赖中文译文。
 
+金额、重量、体长等独立数量使用 `{ "number": 1000, "unitId": "unit/gold" }`；已有 `stats` 数值、`facets` 分类和 `skillIds` 技能不再在 `facts` 中重复保存，前端根据统一规则生成这些显示字段。中文单位及显示模板集中在名称 JSON，例如 `unit/gold`、`unit/kilogram`、`template/daily-quantity`。带商家名、每日上限或出餐时间的数量通过 `templateId` 和 `parameters` 格式化。图鉴编号等标识保留字符串，避免丢失前导零。
+
+`database.json` 不保存“每公斤价值”、员工基础 / 满级属性总和、关联菜谱数量，也不保存 `computed`、`stat` 等显示描述。前端的 `getDisplayFacts()` 根据基础数据追加：每公斤价值 = `stats.sellPrice / stats.weight`（显示最多一位小数）；员工总和 = 对应四项属性之和；菜谱数量 = 当前去重后的关联菜谱数。基础数据不齐或重量非正时不追加相应计算字段，零售价和零菜谱数量正常显示。来源鱼类的“关联菜谱”字段仍保留，作为已核对的独立关联依据。
+
 ## 维护数据快照
 
 后续不再从该网站抓取此类数据，直接维护 `src/data/` 中的 JSON。旧导入脚本保留为历史工具，未加入本次清理规则，重新运行会覆盖清理结果。应用运行时不抓取网站，也没有后端。
@@ -88,6 +92,7 @@ location / {
 - `src/data/names.zh-CN.json`：中文名称和译文的唯一维护入口。
 - `src/data/strategy-recipes.json`：七道代表菜谱的经营用途与已核对等级曲线。
 - `src/catalog.ts`：统一名称读取、关联解析和数据库搜索。
+- `src/facts.ts`：属性数值、单位、模板格式化与每公斤价值的运行时计算。
 - `scripts/`：数据抓取与整理工具，不参与应用运行。
 - `src/App.tsx`：共享布局与路由出口。
 - `src/routing/routes.tsx`：路由表，专题页、搜索、收藏与 404。

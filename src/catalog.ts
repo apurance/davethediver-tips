@@ -2,7 +2,16 @@ import snapshot from "./data/database.json";
 import translations from "./data/names.zh-CN.json";
 
 export type EntityType = "recipe" | "ingredient" | "fish" | "staff";
-export interface FactValue { text?: string; nameId?: string; entityId?: string }
+export interface FactValue {
+  text?: string;
+  nameId?: string;
+  entityId?: string;
+  number?: number;
+  unitId?: string;
+  perUnitId?: string;
+  templateId?: string;
+  parameters?: Record<string, string | number | { nameId: string }>;
+}
 export interface Entity {
   id: string;
   type: EntityType;

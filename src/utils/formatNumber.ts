@@ -1,2 +1,2 @@
-export const formatNumber = (n: number) =>
-  n.toLocaleString("zh-CN", { maximumFractionDigits: 1 });
+export const formatNumber = (n: number, maximumFractionDigits = 1) =>
+  n.toLocaleString("zh-CN", { maximumFractionDigits });
