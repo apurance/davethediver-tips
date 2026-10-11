@@ -23689,14 +23689,6 @@
               "text": "fish"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -23772,14 +23764,6 @@
               "text": "Antarctic Octopus Venom Sack"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -23844,14 +23828,6 @@
               "text": "Box Jellyfish Tentacle"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -23901,14 +23877,6 @@
             {
               "entityId": "recipe/clione-sushi",
               "nameId": "recipe/clione-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -23978,14 +23946,6 @@
               "nameId": "recipe/deep-sea-kaiju-ramen"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -24045,14 +24005,6 @@
               "nameId": "recipe/haddock-acqua-pazza"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -24110,14 +24062,6 @@
             {
               "entityId": "recipe/ice-fish-curry",
               "nameId": "recipe/ice-fish-curry"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -24187,14 +24131,6 @@
               "text": "Rhinochimaeridae Meat, Rhinochimaeridae Poison Thorn"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -24252,14 +24188,6 @@
             {
               "entityId": "recipe/sally-lightfoot-crab-sushi",
               "nameId": "recipe/sally-lightfoot-crab-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -24338,14 +24266,6 @@
               "text": "Vampire Squid Tentacle"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -24421,14 +24341,6 @@
               "nameId": "recipe/white-shrimp-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -24479,14 +24391,6 @@
             {
               "entityId": "recipe/alaska-pollock-sushi",
               "nameId": "recipe/alaska-pollock-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -24540,14 +24444,6 @@
               "nameId": "recipe/allenypterus-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -24597,14 +24493,6 @@
             {
               "entityId": "recipe/arctic-telescope-fish-sushi",
               "nameId": "recipe/arctic-telescope-fish-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -24664,14 +24552,6 @@
             {
               "entityId": "recipe/steamed-hyalonema-angler-fish",
               "nameId": "recipe/steamed-hyalonema-angler-fish"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -24741,14 +24621,6 @@
               "nameId": "recipe/warm-atlantic-mackerel-soba"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -24810,14 +24682,6 @@
               "nameId": "recipe/big-eyed-scad-and-soybean-paste-roast"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -24867,14 +24731,6 @@
             {
               "entityId": "recipe/b-and-w-snapper-sushi",
               "nameId": "recipe/b-and-w-snapper-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -24952,14 +24808,6 @@
               "nameId": "recipe/special-fried-shrimp-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25019,14 +24867,6 @@
               "nameId": "recipe/roasted-capelin"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25076,14 +24916,6 @@
             {
               "entityId": "recipe/chambered-nautilus-sushi",
               "nameId": "recipe/chambered-nautilus-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -25145,14 +24977,6 @@
               "nameId": "recipe/moonlight-bladderwrack-roll"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25212,14 +25036,6 @@
               "nameId": "recipe/comber-sandwich"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25277,14 +25093,6 @@
             {
               "entityId": "recipe/deep-fish-tempura",
               "nameId": "recipe/deep-fish-tempura"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -25354,14 +25162,6 @@
               "nameId": "recipe/trout-sea-grapes-ricebowl"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25419,14 +25219,6 @@
             {
               "entityId": "recipe/drepanaspis-sushi",
               "nameId": "recipe/drepanaspis-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -25488,14 +25280,6 @@
               "text": "Dunkleosteus Meat, Dunkleosteus Thoracic Shield"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25553,14 +25337,6 @@
             {
               "entityId": "recipe/dusky-grouper-sushi",
               "nameId": "recipe/dusky-grouper-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -25622,14 +25398,6 @@
               "nameId": "recipe/falcatus-soybean-paste-soup"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25687,14 +25455,6 @@
             {
               "entityId": "recipe/fried-habanero-fangtooth",
               "nameId": "recipe/fried-habanero-fangtooth"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -25762,14 +25522,6 @@
           "values": [
             {
               "text": "Frilled Shark Meat, Frilled Shark Teeth"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -25844,14 +25596,6 @@
               "text": ", Giant Trevally Fin"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25911,14 +25655,6 @@
               "nameId": "recipe/soy-sauce-marinated-crab"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -25976,14 +25712,6 @@
             {
               "entityId": "recipe/tropical-fish-sushi-set",
               "nameId": "recipe/tropical-fish-sushi-set"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -26053,14 +25781,6 @@
               "nameId": "recipe/humboldt-ink-pasta"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26118,14 +25838,6 @@
             {
               "entityId": "recipe/seasoned-long-spine-porcupinefish-skin",
               "nameId": "recipe/seasoned-long-spine-porcupinefish-skin"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -26187,14 +25899,6 @@
               "nameId": "recipe/moonlight-bladderwrack-roll"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26252,14 +25956,6 @@
             {
               "entityId": "recipe/mackerel-scad-hotdog",
               "nameId": "recipe/mackerel-scad-hotdog"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -26334,14 +26030,6 @@
               "text": ", Marbled Electric Ray Electroplax"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26401,14 +26089,6 @@
               "nameId": "recipe/mediterranean-parrotfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26458,14 +26138,6 @@
             {
               "entityId": "recipe/megalograptus-sushi",
               "nameId": "recipe/megalograptus-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -26527,14 +26199,6 @@
               "nameId": "recipe/narrow-barred-spanish-mackerel-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26594,14 +26258,6 @@
               "nameId": "recipe/wrasse-curry"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26659,14 +26315,6 @@
             {
               "entityId": "recipe/painted-comber-sushi",
               "nameId": "recipe/painted-comber-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -26736,14 +26384,6 @@
               "nameId": "recipe/three-colored-squid-roast"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26803,14 +26443,6 @@
               "nameId": "recipe/pikaia-ramen"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26860,14 +26492,6 @@
             {
               "entityId": "recipe/qingmendous-sushi",
               "nameId": "recipe/qingmendous-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -26929,14 +26553,6 @@
               "nameId": "recipe/crimson-fish-roll"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -26994,14 +26610,6 @@
             {
               "entityId": "recipe/salt-grilled-redtoothed-triggerfish",
               "nameId": "recipe/salt-grilled-redtoothed-triggerfish"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -27063,14 +26671,6 @@
               "nameId": "recipe/salmon-snailfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -27130,14 +26730,6 @@
               "nameId": "recipe/sea-toad-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -27195,14 +26787,6 @@
           "values": [
             {
               "text": "Mako Meat"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -27272,14 +26856,6 @@
               "nameId": "recipe/snub-nosed-spiny-eel-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -27337,14 +26913,6 @@
             {
               "entityId": "recipe/spear-squid-soba-futomaki",
               "nameId": "recipe/spear-squid-soba-futomaki"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -27406,14 +26974,6 @@
               "nameId": "recipe/striped-catfish-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -27473,14 +27033,6 @@
               "text": "Thresher Shark Tail, Thresher Shark Meat"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -27538,14 +27090,6 @@
             {
               "entityId": "recipe/waptia-sushi",
               "nameId": "recipe/waptia-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -27613,14 +27157,6 @@
             {
               "entityId": "recipe/white-trevally-kombu-ochazuke",
               "nameId": "recipe/white-trevally-kombu-ochazuke"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -27706,14 +27242,6 @@
               "nameId": "recipe/deep-fried-eggplant-shrimp-meatballs"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -27771,14 +27299,6 @@
           "values": [
             {
               "text": "Xenacanthus Meat"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -27840,14 +27360,6 @@
               "nameId": "recipe/boiled-yellowback-fusilier"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -27905,14 +27417,6 @@
             {
               "entityId": "recipe/lobster-platter",
               "nameId": "recipe/lobster-platter"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -27973,14 +27477,6 @@
               "nameId": "recipe/atlantic-bonito-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -28037,14 +27533,6 @@
             {
               "entityId": "recipe/truffle-blue-lobster-tail-sushi",
               "nameId": "recipe/truffle-blue-lobster-tail-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -28105,14 +27593,6 @@
               "nameId": "recipe/ebirah-chasing-sashimi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -28169,14 +27649,6 @@
             {
               "entityId": "recipe/shark-karaage",
               "nameId": "recipe/shark-karaage"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -28238,14 +27710,6 @@
               "nameId": "recipe/crystal-lobster-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -28294,14 +27758,6 @@
             {
               "entityId": "recipe/dollocaris-ingens-sushi",
               "nameId": "recipe/dollocaris-ingens-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -28357,14 +27813,6 @@
             {
               "entityId": "recipe/steamed-eastern-rock-lobster-and-egg",
               "nameId": "recipe/steamed-eastern-rock-lobster-and-egg"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -28425,14 +27873,6 @@
               "nameId": "recipe/godzilla-vs-ebirah-curry"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -28481,14 +27921,6 @@
             {
               "entityId": "recipe/fan-lobster-sushi",
               "nameId": "recipe/fan-lobster-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -28548,14 +27980,6 @@
             {
               "entityId": "recipe/humphead-parrotfish-curry",
               "nameId": "recipe/humphead-parrotfish-curry"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -28633,14 +28057,6 @@
               "nameId": "recipe/green-sea-urchin-and-cucumber-salad"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -28700,14 +28116,6 @@
               "nameId": "recipe/soy-sauce-marinated-crab"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -28761,14 +28169,6 @@
             {
               "entityId": "recipe/stir-fried-habanero-lobster",
               "nameId": "recipe/stir-fried-habanero-lobster"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -28829,14 +28229,6 @@
               "nameId": "recipe/soy-sauce-marinated-crab"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -28893,14 +28285,6 @@
             {
               "entityId": "recipe/lobster-platter",
               "nameId": "recipe/lobster-platter"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -28961,14 +28345,6 @@
               "nameId": "recipe/lobster-platter"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -29025,14 +28401,6 @@
             {
               "entityId": "recipe/arctic-cod-risotto",
               "nameId": "recipe/arctic-cod-risotto"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -29100,14 +28468,6 @@
               "nameId": "recipe/ebirah-chasing-sashimi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -29165,14 +28525,6 @@
               "nameId": "recipe/blobfish-spring-roll"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -29220,14 +28572,6 @@
             {
               "entityId": "recipe/bluehead-tilefish-sushi",
               "nameId": "recipe/bluehead-tilefish-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -29287,14 +28631,6 @@
               "nameId": "recipe/dumbo-takoyaki"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -29350,14 +28686,6 @@
             {
               "entityId": "recipe/fried-tomato-and-snailfish",
               "nameId": "recipe/fried-tomato-and-snailfish"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -29417,14 +28745,6 @@
               "text": "Greenland Shark Meat, Greenland Shark Spine"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -29480,14 +28800,6 @@
             {
               "entityId": "recipe/rainbow-cap-triggerfish-fishcake",
               "nameId": "recipe/rainbow-cap-triggerfish-fishcake"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -29547,14 +28859,6 @@
               "nameId": "recipe/pelican-eel-jelly"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -29602,14 +28906,6 @@
             {
               "entityId": "recipe/polar-eelpout-sushi",
               "nameId": "recipe/polar-eelpout-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -29683,14 +28979,6 @@
             {
               "entityId": "recipe/deep-fried-sea-urchin",
               "nameId": "recipe/deep-fried-sea-urchin"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -29767,14 +29055,6 @@
               "nameId": "recipe/seahorse-udon"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -29823,14 +29103,6 @@
             {
               "entityId": "recipe/threetooth-puffer-sushi",
               "nameId": "recipe/threetooth-puffer-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -29882,14 +29154,6 @@
               "nameId": "recipe/yellow-tang-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -29937,14 +29201,6 @@
             {
               "entityId": "recipe/blackspot-seabream-sushi",
               "nameId": "recipe/blackspot-seabream-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -30440,16 +29696,7 @@
       ],
       "inferred": false,
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 99,
         "weight": 20,
@@ -31053,14 +30300,6 @@
               "nameId": "recipe/whole-roasted-shark-head"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -31121,14 +30360,6 @@
               "text": "Barrel Jellyfish Tentacle"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -31187,14 +30418,6 @@
           "values": [
             {
               "text": "Moray Eel Jawbone"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -31315,14 +30538,6 @@
               "text": "Red Lionfish Thorn"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -31373,14 +30588,6 @@
             {
               "entityId": "recipe/blackfin-barracuda-sushi",
               "nameId": "recipe/blackfin-barracuda-sushi"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -31492,14 +30699,6 @@
             {
               "entityId": "recipe/seasoned-jellyfish",
               "nameId": "recipe/seasoned-jellyfish"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -31622,14 +30821,6 @@
               "text": "Megamouth Shark Meat, Megamouth Shark Jawbone"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -31690,14 +30881,6 @@
               "text": "Porbeagle Shark Meat, Porbeagle Shark Tooth"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -31754,14 +30937,6 @@
               "text": ", Tiger Shark Tooth"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -31812,14 +30987,6 @@
             {
               "entityId": "recipe/tropical-fish-sushi-set",
               "nameId": "recipe/tropical-fish-sushi-set"
-            }
-          ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
             }
           ]
         }
@@ -32547,14 +31714,6 @@
               "nameId": "recipe/great-barracuda-sushi"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -32744,14 +31903,6 @@
         "ingredient/meat-long-nose-saw-shark"
       ],
       "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
         {
           "labelId": "field/related-recipes",
           "values": [
@@ -33625,16 +32776,7 @@
         "recipe/shell-mix-hot-pot",
         "ingredient/ammonite"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 9.2,
@@ -33673,16 +32815,7 @@
         "recipe/antarctic-starry-skate",
         "ingredient/antarctic-starry-skate"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 5.5,
@@ -33721,16 +32854,7 @@
         "recipe/archerfish",
         "ingredient/archerfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 2.2,
@@ -33770,16 +32894,7 @@
         "recipe/catfish-mix-fried",
         "ingredient/armored-catfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 2.9,
@@ -33818,16 +32933,7 @@
         "recipe/asian-arowana",
         "ingredient/asian-arowana"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 7.2,
@@ -33867,16 +32973,7 @@
         "recipe/caulerpa-racemosa-jellyfish",
         "ingredient/australian-spotted-jellyfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1,
@@ -33915,16 +33012,7 @@
         "recipe/anomalocaris",
         "ingredient/baby-anomalocaris"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 4,
@@ -33965,16 +33053,7 @@
         "recipe/black-caiman-taco",
         "ingredient/black-caiman"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 22.4,
@@ -34013,16 +33092,7 @@
         "recipe/bloodbelly-comb-jelly",
         "ingredient/bloodbelly-comb-jelly"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 7,
@@ -34062,16 +33132,7 @@
         "recipe/tropical-fish-steamed",
         "ingredient/blue-discus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -34111,16 +33172,7 @@
         "recipe/blue-gill-steamed",
         "ingredient/blue-gill"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.6,
@@ -34159,16 +33211,7 @@
         "recipe/bluegray-mbuna",
         "ingredient/bluegray-mbuna"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.8,
@@ -34208,16 +33251,7 @@
         "recipe/tropical-fish-steamed",
         "ingredient/brown-discus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.7,
@@ -34257,16 +33291,7 @@
         "recipe/burgessomedusa-pink-honeydew-jelly",
         "ingredient/burgessomedusa"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4.8,
@@ -34306,16 +33331,7 @@
         "recipe/gourami-fried",
         "ingredient/chocolate-gourami"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.5,
@@ -34355,16 +33371,7 @@
         "recipe/clown-featherback-taro-fried",
         "ingredient/clown-featherback"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 8.8,
@@ -34403,16 +33410,7 @@
         "recipe/clown-loach",
         "ingredient/clown-loach"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 1.6,
@@ -34452,16 +33450,7 @@
         "recipe/crab-trap-ciurcopterus",
         "ingredient/crab-trap-ciurcopterus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 3.5,
@@ -34500,16 +33489,7 @@
         "recipe/crab-trap-common-yabby",
         "ingredient/crab-trap-common-yabby"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.8,
@@ -34549,16 +33529,7 @@
         "recipe/crayfish-lemongrass-steamed",
         "ingredient/crab-trap-murray-crayfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3.3,
@@ -34598,16 +33569,7 @@
         "recipe/crayfish-sambal-stir-fried",
         "ingredient/crab-trap-red-swamp-crayfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.9,
@@ -34646,16 +33608,7 @@
         "recipe/crab-trap-signal-crayfish",
         "ingredient/crab-trap-signal-crayfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.4,
@@ -34695,16 +33648,7 @@
         "recipe/crayfish-lemongrass-steamed",
         "ingredient/crab-trap-smooth-marron"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 2.9,
@@ -34743,16 +33687,7 @@
         "recipe/crab-trap-tricolor-crayfish",
         "ingredient/crab-trap-tricolor-crayfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 1.6,
@@ -34792,16 +33727,7 @@
         "recipe/tumidocarcinus-tamarind-stir-fried",
         "ingredient/crab-trap-tumidocarcinus-giganteus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 2.3,
@@ -34841,16 +33767,7 @@
         "recipe/tuzoia-soup",
         "ingredient/crab-trap-tuzoia"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 1.9,
@@ -34889,16 +33806,7 @@
         "recipe/dredge-aurora-jellyfish",
         "ingredient/dredge-aurora-jellyfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -34937,16 +33845,7 @@
         "recipe/dredge-bloodskin-shark",
         "ingredient/dredge-bloodskin-shark"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 11.5,
@@ -34985,16 +33884,7 @@
         "recipe/dredge-bony-wreckfish",
         "ingredient/dredge-bony-wreckfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 8,
@@ -35033,16 +33923,7 @@
         "recipe/dredge-cerebral-crab",
         "ingredient/dredge-cerebral-crab"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 2,
@@ -35081,16 +33962,7 @@
         "recipe/dredge-concertina-barracuda",
         "ingredient/dredge-concertina-barracuda"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 6.5,
@@ -35129,16 +34001,7 @@
         "recipe/dredge-cortex-decorator",
         "ingredient/dredge-cortex-decorator"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 2.5,
@@ -35177,16 +34040,7 @@
         "recipe/dredge-entangled-crab",
         "ingredient/dredge-entangled-crab"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 2.5,
@@ -35225,16 +34079,7 @@
         "recipe/dredge-enthralled-stonefish",
         "ingredient/dredge-enthralled-stonefish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 8,
@@ -35273,16 +34118,7 @@
         "recipe/dredge-fanged-cod",
         "ingredient/dredge-fanged-cod"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3.5,
@@ -35321,16 +34157,7 @@
         "recipe/dredge-gelatinous-stonefish",
         "ingredient/dredge-gelatinous-stonefish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 7.5,
@@ -35369,16 +34196,7 @@
         "recipe/dredge-gnashing-perch",
         "ingredient/dredge-gnashing-perch"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4.5,
@@ -35417,16 +34235,7 @@
         "recipe/dredge-grotesque-mackerel",
         "ingredient/dredge-grotesque-mackerel"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3,
@@ -35465,16 +34274,7 @@
         "recipe/dredge-host-eel",
         "ingredient/dredge-host-eel"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 5.5,
@@ -35513,16 +34313,7 @@
         "recipe/dredge-imperious-lobster",
         "ingredient/dredge-imperious-lobster"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 3,
@@ -35561,16 +34352,7 @@
         "recipe/dredge-malignant-pincer",
         "ingredient/dredge-malignant-pincer"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 2.5,
@@ -35609,16 +34391,7 @@
         "recipe/dredge-perished-loosejaw",
         "ingredient/dredge-perished-loosejaw"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3,
@@ -35657,16 +34430,7 @@
         "recipe/dredge-radiant-squid",
         "ingredient/dredge-radiant-squid"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 4.5,
@@ -35705,16 +34469,7 @@
         "recipe/dredge-sallow-sailfish",
         "ingredient/dredge-sallow-sailfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 9.5,
@@ -35753,16 +34508,7 @@
         "recipe/dredge-savage-barracuda",
         "ingredient/dredge-savage-barracuda"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 7,
@@ -35801,16 +34547,7 @@
         "recipe/dredge-scouring-bass",
         "ingredient/dredge-scouring-bass"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3.5,
@@ -35849,16 +34586,7 @@
         "recipe/dredge-seizing-snailfish",
         "ingredient/dredge-seizing-snailfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -35897,16 +34625,7 @@
         "recipe/dredge-shattered-wreckfish",
         "ingredient/dredge-shattered-wreckfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 6.5,
@@ -35945,16 +34664,7 @@
         "recipe/dredge-splintered-crab",
         "ingredient/dredge-splintered-crab"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 3.5,
@@ -35992,16 +34702,7 @@
       "relatedIds": [
         "recipe/three-headed-cod-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 6,
@@ -36040,16 +34741,7 @@
         "recipe/dredge-translucent-sturgeon",
         "ingredient/dredge-translucent-sturgeon"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8,
@@ -36088,16 +34780,7 @@
         "recipe/dredge-tusked-grouper",
         "ingredient/dredge-tusked-grouper"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -36136,16 +34819,7 @@
         "recipe/dredge-voltaic-grouper",
         "ingredient/dredge-voltaic-grouper"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 6,
@@ -36184,16 +34858,7 @@
         "recipe/dredge-withered-ray",
         "ingredient/dredge-withered-ray"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8.5,
@@ -36233,16 +34898,7 @@
         "recipe/eagle-shark-stew",
         "ingredient/eagle-shark"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 15.8,
@@ -36281,16 +34937,7 @@
         "recipe/emperor-snakehead",
         "ingredient/emperor-snakehead"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.2,
@@ -36329,16 +34976,7 @@
         "recipe/eomesodon",
         "ingredient/eomesodon"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.2,
@@ -36377,16 +35015,7 @@
         "recipe/exellia",
         "ingredient/exellia"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.6,
@@ -36426,16 +35055,7 @@
         "recipe/giant-mottled-eel-sliced",
         "ingredient/fire-eel"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5.8,
@@ -36474,16 +35094,7 @@
         "recipe/foreyia",
         "ingredient/foreyia"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.8,
@@ -36523,16 +35134,7 @@
         "recipe/giant-fresh-water-stingray-barbecued",
         "ingredient/giant-fresh-water-stingray"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 19.8,
@@ -36571,16 +35173,7 @@
         "recipe/giant-gourami",
         "ingredient/giant-gourami"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.5,
@@ -36621,16 +35214,7 @@
         "ingredient/giant-snakehead",
         "recipe/giant-snakehead-soup"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 8.5,
@@ -36670,16 +35254,7 @@
         "recipe/goliath-tigerfish-salad",
         "ingredient/goliath-tigerfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 12.7,
@@ -36719,16 +35294,7 @@
         "recipe/grass-carp-bamboo-shoot-steamed",
         "ingredient/grass-carp"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 7.5,
@@ -36770,16 +35336,7 @@
         "recipe/spider-crab-ricebowl",
         "ingredient/great-spider-crab"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 7.5,
@@ -36819,16 +35376,7 @@
         "recipe/great-sturgeon-steak",
         "ingredient/great-sturgeon"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 21.5,
@@ -36867,16 +35415,7 @@
         "recipe/green-discus",
         "ingredient/green-discus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -36915,16 +35454,7 @@
         "recipe/gyrodus",
         "ingredient/gyrodus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.2,
@@ -36963,16 +35493,7 @@
         "recipe/heckel-discus",
         "ingredient/heckel-discus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.9,
@@ -37011,16 +35532,7 @@
         "recipe/hensodon",
         "ingredient/hensodon"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 2.8,
@@ -37059,16 +35571,7 @@
         "recipe/horse-face-loach",
         "ingredient/horse-face-loach"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.9,
@@ -37109,16 +35612,7 @@
         "recipe/perch-mix-steamed",
         "ingredient/indonesian-tiger-perch"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3.9,
@@ -37157,16 +35651,7 @@
         "recipe/juvenile-circular-bat-fish-fry",
         "ingredient/juvenile-circular-bat-fish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.3,
@@ -37206,16 +35691,7 @@
         "recipe/salmon-watermelon-salad",
         "ingredient/king-salmon"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 8.1,
@@ -37255,16 +35731,7 @@
         "recipe/kissing-gourami",
         "ingredient/kissing-gourami"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.2,
@@ -37304,16 +35771,7 @@
         "recipe/large-mouth-bass-boiled",
         "ingredient/large-mouth-bass"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3.8,
@@ -37353,16 +35811,7 @@
         "recipe/lemon-yellow-lab-banana-fried",
         "ingredient/lemon-yellow-lab"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.6,
@@ -37401,16 +35850,7 @@
         "recipe/malayan-leaffish",
         "ingredient/malayan-leaffish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.1,
@@ -37449,16 +35889,7 @@
         "recipe/malayan-mahseer",
         "ingredient/malayan-mahseer"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3.5,
@@ -37497,16 +35928,7 @@
         "recipe/malayan-pike-head",
         "ingredient/malayan-pikehead"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 1.1,
@@ -37546,16 +35968,7 @@
         "recipe/wrasse-curry",
         "ingredient/mediterranean-rainbow-wrasse"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.6,
@@ -37594,16 +36007,7 @@
         "recipe/moonlight-gourami",
         "ingredient/moonlight-gourami"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.7,
@@ -37643,16 +36047,7 @@
         "recipe/mudcarp-banana-leaf-grilled",
         "ingredient/mud-carp"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3.6,
@@ -37708,14 +36103,6 @@
               "nameId": "recipe/narwhal-miso-soup"
             }
           ]
-        },
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
         }
       ],
       "stats": {
@@ -37751,16 +36138,7 @@
         "recipe/perch-mix-steamed",
         "ingredient/nile-perch"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 11.2,
@@ -37800,16 +36178,7 @@
         "recipe/ophthalmosaurus-grilled",
         "ingredient/ophthalmosaurus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 21.7,
@@ -37849,16 +36218,7 @@
         "recipe/squid-mix-stir-fried",
         "ingredient/orthoceras"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 9.4,
@@ -37897,16 +36257,7 @@
         "recipe/paradoxides",
         "ingredient/paradoxides"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 6.2,
@@ -37946,16 +36297,7 @@
         "recipe/parameteroraspis-tom-yum",
         "ingredient/parameteroraspis"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 9.6,
@@ -37994,16 +36336,7 @@
         "recipe/peacock-bass",
         "ingredient/peacock-bass"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 2.7,
@@ -38043,16 +36376,7 @@
         "recipe/pearl-gourami",
         "ingredient/pearl-gourami"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 0.7,
@@ -38093,16 +36417,7 @@
         "recipe/piraiba-catfish-tamarind-soup",
         "ingredient/piraiba-catfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 14.6,
@@ -38142,16 +36457,7 @@
         "recipe/pirarucu-banana-lasagna",
         "ingredient/pirarucu"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 15.8,
@@ -38191,16 +36497,7 @@
         "recipe/platinum-alligator-gar",
         "ingredient/platinum-alligator-gar"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 12.3,
@@ -38240,16 +36537,7 @@
         "recipe/shell-mix-hot-pot",
         "ingredient/platyceramus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -38288,16 +36576,7 @@
         "recipe/promissum",
         "ingredient/promissum"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.5,
@@ -38337,16 +36616,7 @@
         "recipe/red-bellied-piranha",
         "ingredient/red-bellied-piranha"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 2.6,
@@ -38386,16 +36656,7 @@
         "recipe/tropical-fish-steamed",
         "ingredient/red-discus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -38434,16 +36695,7 @@
         "recipe/red-feather-starfish",
         "ingredient/red-feather-starfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1.3,
@@ -38483,16 +36735,7 @@
         "recipe/red-mullet-tangle-roll",
         "ingredient/red-mullet"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.7,
@@ -38531,16 +36774,7 @@
         "recipe/redtail-catfish",
         "ingredient/redtail-catfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4,
@@ -38579,16 +36813,7 @@
         "recipe/reef-triggerfish",
         "ingredient/reef-triggerfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.7,
@@ -38627,16 +36852,7 @@
         "recipe/ruby-cardinal-fish",
         "ingredient/ruby-cardinal-fish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.2,
@@ -38676,16 +36892,7 @@
         "recipe/sacabambaspis-sate",
         "ingredient/sacabambaspis"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 2.6,
@@ -38724,16 +36931,7 @@
         "recipe/snakeskin-gourami",
         "ingredient/snakeskin-gourami"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.3,
@@ -38772,16 +36970,7 @@
         "recipe/square-spot-anthias",
         "ingredient/square-spot-anthias"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.3,
@@ -38821,16 +37010,7 @@
         "recipe/bluespotted-stargazer-sushi",
         "ingredient/stargazer"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -38870,16 +37050,7 @@
         "recipe/striped-snakehead-fried",
         "ingredient/striped-snakehead"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.5,
@@ -38919,16 +37090,7 @@
         "recipe/stylonurus-honeydew-salad",
         "ingredient/stylonurus"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 7.9,
@@ -38968,16 +37130,7 @@
         "recipe/tambaqui-grilled",
         "ingredient/tambaqui"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3.3,
@@ -39016,16 +37169,7 @@
         "recipe/tapah",
         "ingredient/tapah"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4.3,
@@ -39064,16 +37208,7 @@
         "recipe/three-spot-gourami",
         "ingredient/three-spot-gourami"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.9,
@@ -39113,16 +37248,7 @@
         "recipe/tilapia-calamansi-steamed",
         "ingredient/tilapia"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 3.5,
@@ -39162,16 +37288,7 @@
         "recipe/walking-catfish-tom-yum",
         "ingredient/walking-catfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 2.3,
@@ -39210,16 +37327,7 @@
         "recipe/warty-frogfish",
         "ingredient/warty-frogfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.3,
@@ -39312,16 +37420,7 @@
         "recipe/asian-sheepshead",
         "recipe/truffle-asian-sheepshead-steamed"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1.8,
@@ -39359,16 +37458,7 @@
       "relatedIds": [
         "recipe/red-banded-lobster-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.1,
@@ -39406,16 +37496,7 @@
         "ingredient/meat-red-stingray",
         "recipe/red-stingray"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3,
@@ -39457,16 +37538,7 @@
         "recipe/spiny-seahorse-udon",
         "ingredient/seahorse"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.4,
@@ -39555,16 +37627,7 @@
         "recipe/striped-marlin",
         "recipe/striped-marlin-miso-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 7.5,
@@ -39604,16 +37667,7 @@
         "recipe/tullimonstrum",
         "ingredient/tullimonstrum"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3.8,
@@ -41993,16 +40047,7 @@
         "recipe/giant-mottled-eel-sliced",
         "ingredient/electric-eel"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 12.5,
@@ -42035,16 +40080,7 @@
         "recipe/stellate-puffer-nicogori",
         "ingredient/gelidium"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 0.1,
@@ -42098,16 +40134,7 @@
         "recipe/redeye-piranha",
         "ingredient/redeye-piranha"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 3.4,
@@ -42134,16 +40161,7 @@
         "recipe/seadragon-onigiri",
         "ingredient/seadragon"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 0.4,
@@ -42170,16 +40188,7 @@
         "recipe/snake-mix-spicy-soup",
         "ingredient/snake-meat"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 1,
@@ -42206,16 +40215,7 @@
         "recipe/black-caiman-grilled",
         "ingredient/special-black-caiman-tail"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 12,
@@ -42243,16 +40243,7 @@
         "recipe/stellate-puffer-special-sushi",
         "ingredient/stellate-puffer"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 3,
@@ -42284,16 +40275,7 @@
         "recipe/white-trevally-kombu-ochazuke",
         "ingredient/tangle"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 0.1,
@@ -42320,16 +40302,7 @@
         "recipe/special-phantom-jelly-fillet-jelly",
         "ingredient/umbellula"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 0.1,
@@ -42356,16 +40329,7 @@
         "recipe/snake-mix-spicy-soup",
         "ingredient/viper-meat"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 1,
@@ -42395,16 +40359,7 @@
         "recipe/special-kronosaurus-tongue-steamed",
         "ingredient/wakame"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 0.1,
@@ -42471,16 +40426,7 @@
       ],
       "inferred": false,
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 0.2,
@@ -42584,16 +40530,7 @@
       ],
       "inferred": false,
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 1,
@@ -42620,16 +40557,7 @@
         "ingredient/meat-sword-fish",
         "recipe/sword-fish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": 7.5,
@@ -42699,16 +40627,7 @@
         "recipe/rice-with-great-spider-crab-meat",
         "recipe/spider-crab-ricebowl"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 20,
         "weight": 0.1,
@@ -42736,16 +40655,7 @@
         "recipe/seasoned-jellyfish",
         "recipe/seasoned-waptia-fieldensis"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1,
@@ -42780,16 +40690,7 @@
         "recipe/vege-fried",
         "recipe/vege-tsukemono"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 25,
         "weight": 0.1,
@@ -42823,16 +40724,7 @@
         "recipe/seahorse-salad",
         "recipe/seahorse-sea-grapes-salad"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 17,
         "weight": 0.1,
@@ -42868,16 +40760,7 @@
         "recipe/vege-fried",
         "recipe/vege-tsukemono"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 20,
         "weight": 0.1,
@@ -42918,16 +40801,7 @@
         "recipe/jungle-egg-omelet",
         "recipe/king-trumpet-mushroom-pepper-stir-fried"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 15,
         "weight": 0.1,
@@ -42960,16 +40834,7 @@
         "recipe/vege-tsukemono",
         "recipe/special-mantis-shrimp-shell-meat-boiled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 21,
         "weight": 0.1,
@@ -43003,16 +40868,7 @@
         "recipe/roasted-tropical-fish-and-garlic",
         "recipe/striped-marlin-miso-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 19,
         "weight": 0.1,
@@ -43047,16 +40903,7 @@
         "recipe/kajime-seasoned",
         "recipe/special-hermit-crab-leg-roastered"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 7,
         "weight": 0.1,
@@ -43088,16 +40935,7 @@
         "recipe/trevally-nanbanzuke",
         "recipe/vege-fried"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 20,
         "weight": 0.1,
@@ -43143,16 +40981,7 @@
         "recipe/spider-crab-ricebowl",
         "recipe/yellow-fin-tuna-poke"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 15,
         "weight": 0.1,
@@ -43191,14 +41020,6 @@
       ],
       "facts": [
         {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
-        {
           "labelId": "field/acquisition-method",
           "values": [
             {
@@ -43234,16 +41055,7 @@
         "recipe/pikaia-ramen",
         "recipe/tomato-egg-soup"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 90,
         "weight": 0.1,
@@ -43269,14 +41081,6 @@
         "recipe/whitetip-reefshark-roast"
       ],
       "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
         {
           "labelId": "field/acquisition-method",
           "values": [
@@ -43320,16 +41124,7 @@
         "recipe/deep-fried-red-lionfish",
         "recipe/fried-rice-with-sally-lightfoot-crab"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -43368,16 +41163,7 @@
         "recipe/special-hermit-crab-leg-roastered",
         "recipe/special-wolffish-tail-meat-steamed"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.1,
@@ -43404,16 +41190,7 @@
         "recipe/spear-squid-soba-futomaki",
         "recipe/warm-atlantic-mackerel-soba"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 18,
         "weight": 0.1,
@@ -43442,16 +41219,7 @@
         "recipe/great-spider-crab-curry",
         "recipe/spider-crab-curry"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -43479,14 +41247,6 @@
         "recipe/tuna-ootoro-sliced"
       ],
       "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
         {
           "labelId": "field/acquisition-method",
           "values": [
@@ -43527,16 +41287,7 @@
         "recipe/special-lusca-neck-meat-tataki",
         "recipe/yellow-fin-tuna-poke"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 7,
         "weight": 0.1,
@@ -43563,14 +41314,6 @@
         "fish/giant-trevally"
       ],
       "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
         {
           "labelId": "field/acquisition-method",
           "values": [
@@ -43614,16 +41357,7 @@
         "recipe/spiny-seahorse-udon",
         "recipe/striped-marlin-miso-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1,
@@ -43678,16 +41412,7 @@
         "recipe/special-helicoprion-tail-grilled",
         "recipe/special-lusca-leg-blanched"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -43715,14 +41440,6 @@
         "recipe/rainbow-cap-triggerfish-fishcake"
       ],
       "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
         {
           "labelId": "field/acquisition-method",
           "values": [
@@ -43770,16 +41487,7 @@
         "recipe/special-lusca-leg-blanched",
         "recipe/special-wolffish-tail-meat-steamed"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1,
@@ -43822,16 +41530,7 @@
         "recipe/gelidium-tokoroten",
         "recipe/special-lusca-neck-meat-tataki"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -43860,14 +41559,6 @@
         "recipe/tiger-shark-sushi"
       ],
       "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
         {
           "labelId": "field/acquisition-method",
           "values": [
@@ -43905,14 +41596,6 @@
       ],
       "facts": [
         {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
-        {
           "labelId": "field/acquisition-method",
           "values": [
             {
@@ -43946,16 +41629,7 @@
         "recipe/roasted-capelin",
         "recipe/godzilla-vs-ebirah-curry"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.1,
@@ -43983,14 +41657,6 @@
         "fish/blacktip-reefshark"
       ],
       "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
         {
           "labelId": "field/acquisition-method",
           "values": [
@@ -44023,14 +41689,6 @@
         "fish/marbled-electric-ray"
       ],
       "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        },
         {
           "labelId": "field/acquisition-method",
           "values": [
@@ -44756,16 +42414,7 @@
         "recipe/moonlight-bladderwrack-roll",
         "recipe/pufferfish-dumpling-soup"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 10,
         "weight": 0.1
@@ -44848,16 +42497,7 @@
       "relatedIds": [
         "recipe/hot-pepper-tuna"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 16,
         "weight": 0.1
@@ -44943,16 +42583,7 @@
       "relatedIds": [
         "recipe/water-cashewnut-duck-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 2,
         "weight": 1
@@ -44974,16 +42605,7 @@
         "recipe/special-kronosaurus-tongue-steamed",
         "recipe/pikaia-ramen"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1
@@ -45007,16 +42629,7 @@
         "recipe/comber-sandwich",
         "recipe/pikaia-ramen"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 19,
         "weight": 0.1
@@ -45036,16 +42649,7 @@
       "relatedIds": [
         "recipe/hindleg-mix-fried"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 1
@@ -45324,16 +42928,7 @@
         "recipe/electric-eel-pineapple-stir-fried",
         "recipe/water-cashewnut-duck-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 1.2
@@ -45353,16 +42948,7 @@
       "relatedIds": [
         "recipe/hindleg-mix-fried"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 7,
         "weight": 1
@@ -45392,16 +42978,7 @@
         "recipe/tumidocarcinus-tamarind-stir-fried",
         "recipe/walking-catfish-tom-yum"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 0.3
@@ -45428,16 +43005,7 @@
         "recipe/stylonurus-honeydew-salad",
         "recipe/tuzoia-soup"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.3
@@ -45467,16 +43035,7 @@
         "recipe/hindleg-mix-fried",
         "recipe/salmon-watermelon-salad"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 4,
         "weight": 0.3
@@ -45507,16 +43066,7 @@
         "recipe/tangsuyuk-fried",
         "recipe/tropical-fish-steamed"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 0.5
@@ -45550,16 +43100,7 @@
         "recipe/shell-mix-hot-pot",
         "recipe/tuzoia-soup"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 2,
         "weight": 0.6
@@ -45592,16 +43133,7 @@
         "recipe/walking-catfish-tom-yum",
         "recipe/water-cashewnut-duck-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 0.3
@@ -45630,16 +43162,7 @@
         "recipe/pirarucu-banana-lasagna",
         "recipe/squid-mix-stir-fried"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.5
@@ -45669,16 +43192,7 @@
         "recipe/sacabambaspis-sate",
         "recipe/tropical-fruit-salad"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 4,
         "weight": 0.8
@@ -45705,16 +43219,7 @@
         "recipe/stylonurus-honeydew-salad",
         "recipe/water-cashewnut-duck-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.6
@@ -45742,16 +43247,7 @@
         "recipe/tangsuyuk-fried",
         "recipe/tumidocarcinus-tamarind-stir-fried"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.4
@@ -45771,16 +43267,7 @@
       "relatedIds": [
         "recipe/wiwaxia"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 13,
         "weight": 2
@@ -45910,16 +43397,7 @@
         "recipe/asian-sheepshead",
         "recipe/truffle-asian-sheepshead-steamed"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 10,
         "weight": 1.8
@@ -45943,16 +43421,7 @@
         "recipe/shark-karaage",
         "recipe/copper-shark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 22,
         "weight": 4
@@ -45975,16 +43444,7 @@
         "fish/drepanaspis",
         "recipe/drepanaspis-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 50,
         "weight": 8.5
@@ -46007,16 +43467,7 @@
         "fish/dunkleosteus",
         "recipe/dunkleosteus-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 70,
         "weight": 19.5
@@ -46040,16 +43491,7 @@
         "recipe/truffle-shark-sandwich",
         "recipe/frilled-shark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 28,
         "weight": 8.5
@@ -46071,16 +43513,7 @@
       "relatedIds": [
         "fish/green-humphead-parrotfish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 1.8
@@ -46103,16 +43536,7 @@
         "fish/greenland-shark",
         "recipe/greenland-shark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 62,
         "weight": 20
@@ -46136,16 +43560,7 @@
         "recipe/humboldt-ink-pasta",
         "recipe/humboldt-squid-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 48,
         "weight": 7.5
@@ -46168,16 +43583,7 @@
         "fish/long-nose-saw-shark",
         "recipe/longnose-sawshark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 12,
         "weight": 6.5
@@ -46201,16 +43607,7 @@
         "recipe/megamouth-shark-sushi",
         "recipe/truffle-shark-sandwich"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 31,
         "weight": 11.5
@@ -46234,16 +43631,7 @@
         "recipe/narwhal-miso-soup",
         "recipe/narwhal-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 46,
         "weight": 9.5
@@ -46267,16 +43655,7 @@
         "recipe/boiled-porbeagle-shark",
         "recipe/porbeagle-shark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 55,
         "weight": 13.5
@@ -46299,16 +43678,7 @@
         "fish/red-stingray",
         "recipe/red-stingray"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 17,
         "weight": 3
@@ -46332,16 +43702,7 @@
         "recipe/crimson-fish-roll",
         "recipe/rhinochimaeridae-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 30,
         "weight": 5
@@ -46366,16 +43727,7 @@
         "recipe/sailfish-sushi",
         "recipe/truffle-sailfish-tartare"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 65,
         "weight": 9
@@ -46397,16 +43749,7 @@
       "relatedIds": [
         "fish/shortfin-mako"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 43,
         "weight": 9
@@ -46424,16 +43767,7 @@
       "inferred": false,
       "fishIds": [],
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 47,
         "weight": 13
@@ -46457,16 +43791,7 @@
         "recipe/striped-marlin",
         "recipe/striped-marlin-miso-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 45,
         "weight": 7.5
@@ -46489,16 +43814,7 @@
         "fish/sword-fish",
         "recipe/sword-fish"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 38,
         "weight": 7.5
@@ -46521,16 +43837,7 @@
         "fish/thresher-shark",
         "recipe/thresher-shark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 53,
         "weight": 8.5
@@ -46548,16 +43855,7 @@
       "inferred": false,
       "fishIds": [],
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 2.5
@@ -46580,16 +43878,7 @@
         "fish/xenacanthus",
         "recipe/xenacanthus-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 53,
         "weight": 5.5
@@ -46612,16 +43901,7 @@
         "fish/zebra-shark",
         "recipe/zebra-shark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 42,
         "weight": 10.5
@@ -46681,16 +43961,7 @@
       "relatedIds": [
         "recipe/bird-mix-seasoned"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 1
@@ -46710,16 +43981,7 @@
       "relatedIds": [
         "recipe/bird-mix-seasoned"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 2,
         "weight": 1
@@ -46739,16 +44001,7 @@
       "relatedIds": [
         "recipe/tangsuyuk-fried"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 2,
         "weight": 1
@@ -46816,16 +44069,7 @@
         "recipe/special-lusca-neck-meat-tataki",
         "recipe/yellow-fin-tuna-poke"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1
@@ -46845,16 +44089,7 @@
       "relatedIds": [
         "recipe/bluefin-tuna-rice-bowl"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 27,
         "weight": 8
@@ -46874,16 +44109,7 @@
       "relatedIds": [
         "recipe/hot-pepper-tuna"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 32,
         "weight": 8
@@ -46904,16 +44130,7 @@
         "recipe/blue-fin-tuna-ootoro",
         "recipe/tuna-ootoro-sliced"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 45,
         "weight": 8
@@ -46933,16 +44150,7 @@
       "relatedIds": [
         "recipe/yellow-fin-tuna-poke"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 24,
         "weight": 6
@@ -46960,16 +44168,7 @@
       "inferred": false,
       "fishIds": [],
       "relatedIds": [],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 30,
         "weight": 6
@@ -46989,16 +44188,7 @@
       "relatedIds": [
         "recipe/tuna-ootoro-sliced"
       ],
-      "facts": [
-        {
-          "labelId": "field/category",
-          "values": [
-            {
-              "text": "Fish & Seafood"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "sellPrice": 42,
         "weight": 6
