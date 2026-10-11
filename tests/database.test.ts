@@ -27,8 +27,16 @@ test("every catalog identifier and translation reference resolves", () => {
     for (const labelId of ["field/encyclopedia-number", "field/marinca-card-number"]) {
       assert.ok(!entity.facts.some(fact => fact.labelId === labelId), `${entity.id}: ${labelId}`);
     }
-    for (const id of [...(entity.skillIds ?? []), ...Object.values(entity.facets).filter(Boolean)]) assert.ok(names[id!], `${entity.id}: ${id}`);
+    for (const id of entity.skillIds ?? []) assert.ok(names[id], `${entity.id}: ${id}`);
+    for (const [key, id] of Object.entries(entity.facets)) {
+      if (id === null) continue;
+      assert.ok(names[id], `${entity.id}: ${id}`);
+      const field = key === "time" ? "active-time" : key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
+      assert.ok(names[`field/${field}`], `${entity.id}: ${key}`);
+      assert.ok(!entity.facts.some(fact => fact.labelId === `field/${field}`), `${entity.id}: duplicate facet`);
+    }
     for (const fact of entity.facts) {
+      assert.ok(!(fact.values.length === 1 && Object.keys(fact.values[0]).length === 1 && fact.values[0].nameId), `${entity.id}: scalar translation in facts`);
       assert.match(fact.labelId, /^field\/[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/, entity.id);
       assert.doesNotMatch(fact.labelId, /^field\/[a-f0-9]{12}$/, entity.id);
       assert.ok(names[fact.labelId]);

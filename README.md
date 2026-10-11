@@ -81,6 +81,8 @@ location / {
 
 无需翻译的字符串值放在可选的 `fields` 中，例如 `"fields": { "encyclopediaNumber": "0016", "marincaCardNumber": "16" }`；没有此类值的条目省略 `fields`。显示时将驼峰键转换为 `field/encyclopedia-number`、`field/marinca-card-number` 查询字段译名，值原样显示，保留前导零。两种编号尚未整体合并：忽略前导零后，腔棘鱼的图鉴编号 `0991` 与 Marinca 卡编号 `913` 仍不一致，现保留来源值。`stats` 继续只保存数值或缺失值 `null`。
 
+需要翻译的单个文本属性统一放在 `facets`，值直接保存译名 ID，例如 `"gatheringSource": "text/660af5fdf8cd"`、`"knockbackResistance": "text/b5141d3d19e9"`。字段键按驼峰形式还原为 `field/gathering-source` 等译名键；已有的 `time` 仍对应 `field/active-time`。字段名和值均通过名称表显示，`null` 表示来源未提供。带 `entityId` 的链接及多值混合内容继续保留在 `facts`，以保留跳转目标和原有顺序。
+
 ## 维护数据快照
 
 后续不再从该网站抓取此类数据，直接维护 `src/data/` 中的 JSON。旧导入脚本保留为历史工具，未加入本次清理规则，重新运行会覆盖清理结果。应用运行时不抓取网站，也没有后端。

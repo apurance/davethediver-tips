@@ -141,6 +141,32 @@ test("Marinca identifiers retain their original text and differing encyclopedia 
   assert.equal(spinySeahorse.fields?.marincaCardNumber, undefined);
 });
 
+test("translated scalar facets restore field labels and resolve current translation IDs", () => {
+  const bean = byId.get("ingredient/bean")!;
+  assert.equal(bean.facets.gatheringSource, "text/660af5fdf8cd");
+  assert.equal(formatFactValue(factValue(bean, "field/gathering-source"), bean, translate), "Otto 农场");
+  const fin = byId.get("ingredient/klauss-fin")!;
+  assert.equal(fin.facets.time, "text/b77ea2b347b8");
+  assert.equal(formatFactValue(factValue(fin, "field/active-time"), fin, translate), translate(fin.facets.time!));
+
+  const fish = byId.get("fish/zebra-shark")!;
+  const edited = { ...fish, facets: { ...fish.facets, knockbackResistance: "text/test-resistance", photoMode: null } };
+  const source = JSON.stringify(edited);
+  const display = getDisplayFacts(edited);
+  const resistance = display.find(fact => fact.labelId === "field/knockback-resistance")!;
+  const customTranslate = (id: string) => id === "field/knockback-resistance" ? "抗击退" : id === "text/test-resistance" ? "测试值" : translate(id);
+  assert.equal(customTranslate(resistance.labelId), "抗击退");
+  assert.equal(formatFactValue(resistance.values[0], edited, customTranslate), "测试值");
+  assert.ok(!display.some(fact => fact.labelId === "field/photo-mode"));
+  assert.equal(JSON.stringify(edited), source);
+
+  const recipe = byId.get("recipe/seadragon-onigiri")!;
+  const linkedSource = recipe.facts.find(fact => fact.labelId === "field/acquisition-method")!;
+  assert.equal(linkedSource.values[0].entityId, "fish/seadragon");
+  assert.deepEqual(getDisplayFacts(recipe).find(fact => fact.labelId === "field/acquisition-method"), linkedSource);
+  assert.equal(recipe.facets.acquisitionMethod, undefined);
+});
+
 test("migrated numeric facts display current stats with inferred units and templates", () => {
   const fish = byId.get("fish/zebra-shark")!;
   assert.equal(fish.stats.length, 210);

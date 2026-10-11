@@ -94,8 +94,9 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
     }
     if (values.length) append(field, values);
   }
-  for (const [facet, field] of [["region", "region"], ["time", "active-time"], ["tier", "tier"]]) {
-    if (entity.facets[facet]) append(field, [{ nameId: entity.facets[facet]! }]);
+  for (const [key, nameId] of Object.entries(entity.facets)) {
+    const field = key === "time" ? "active-time" : key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
+    if (nameId) append(field, [{ nameId }]);
   }
   if (entity.skillIds?.length) append("special-skills", entity.skillIds.map(nameId => ({ nameId })));
   if (entity.type === "fish" || entity.type === "ingredient") {
