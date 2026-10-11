@@ -3,7 +3,7 @@
     "source": "https://davethediver.net/zh-hans/database/",
     "importedAt": "2026-10-11",
     "rawPageCount": 1312,
-    "aliasCount": 260,
+    "aliasCount": 262,
     "excluded": [
       "fish/aberrations",
       "fish/beluga-gyao",
@@ -210,6 +210,8 @@
     "fish/blue-fin-tuna": "fish/bluefin-tuna",
     "fish/sail-fish": "fish/sailfish",
     "fish/smooth-hammershark": "fish/smooth-hammerhead",
+    "fish/stellate-puffer": "fish/starry-puffer",
+    "ingredient/stellate-puffer": "ingredient/starry-puffer",
     "fish/yellow-fin-tuna": "fish/yellowfin-tuna",
     "fish/longnose-sawshark": "fish/long-nose-saw-shark",
     "recipe/alaska-pollock": "recipe/alaska-pollock-sushi",
@@ -1257,8 +1259,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/starry-puffer",
-        "fish/stellate-puffer"
+        "fish/starry-puffer"
       ],
       "ingredients": [
         {
@@ -8280,8 +8281,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/starry-puffer",
-        "fish/stellate-puffer"
+        "fish/starry-puffer"
       ],
       "ingredients": [
         {
@@ -31937,7 +31937,8 @@
       "nameId": "fish/starry-puffer",
       "en": "Starry Puffer",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/starry-puffer/"
+        "https://davethediver.net/zh-hans/fish/starry-puffer/",
+        "https://davethediver.net/zh-hans/fish/stellate-puffer/"
       ],
       "inferred": false,
       "relatedIngredients": [
@@ -31960,7 +31961,7 @@
         "meat1": 1,
         "meat2": 2,
         "meat3": 3,
-        "sellPrice": null,
+        "sellPrice": 15,
         "length": 80
       },
       "region": [
@@ -33589,36 +33590,6 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": 17
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/stellate-puffer",
-      "type": "fish",
-      "nameId": "fish/stellate-puffer",
-      "en": "Stellate Puffer",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/stellate-puffer/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/stellate-puffer"
-      ],
-      "relatedRecipes": [
-        "recipe/stellate-puffer-nicogori",
-        "recipe/stellate-puffer-special-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 3,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 15
       },
       "region": [],
       "facets": {
@@ -43548,24 +43519,6 @@
       "relatedRecipes": [
         "recipe/pink-durian-pudding"
       ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/stellate-puffer",
-      "type": "ingredient",
-      "nameId": "fish/stellate-puffer",
-      "en": "Stellate Puffer",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/stellate-puffer"
-      ],
-      "relatedFish": [
-        "fish/stellate-puffer"
-      ],
-      "relatedRecipes": [],
       "facts": [],
       "stats": {},
       "facets": {}
