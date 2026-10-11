@@ -3,3 +3,4 @@ dist/
 *.tsbuildinfo
 .superdesign/tmp/
 test-results/
+scripts/.source-cache/

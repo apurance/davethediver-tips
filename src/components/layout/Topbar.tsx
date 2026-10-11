@@ -1,6 +1,7 @@
 import type { Ref } from "react";
 import type { InputRef } from "antd";
-import { Button, Input, Tooltip, Badge } from "antd";
+import { Button, Tooltip, Badge } from "antd";
+import { CompositionInput } from "../CompositionInput";
 import { MenuOutlined, SearchOutlined, HeartOutlined } from "@ant-design/icons";
 
 interface TopbarProps {
@@ -37,16 +38,16 @@ export function Topbar({
       <div className="breadcrumb">
         攻略手册 <span>/</span> {searchMode ? "检索结果" : title}
       </div>
-      <Input
+      <CompositionInput
         ref={searchRef}
         aria-label="搜索攻略"
         className="global-search"
-        placeholder="搜索菜谱、员工、装备…"
+        placeholder="搜索食谱、食材、鱼类、员工…"
         prefix={<SearchOutlined />}
         suffix={<kbd>Ctrl K</kbd>}
         allowClear
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onValueChange={setQuery}
       />
       <Tooltip title="只看收藏的攻略">
         <Button

@@ -5,6 +5,7 @@ import { useSaved } from "./useSaved";
 import type { InputRef } from "antd";
 import { useLocation, useMatches, useNavigate, useSearchParams } from "react-router";
 import { sectionPath } from "../routing/paths";
+import { searchCatalog } from "../catalog";
 
 export function useGuideState() {
   const location = useLocation();
@@ -66,6 +67,7 @@ export function useGuideState() {
   }, [location.pathname]);
   useEffect(() => {
     const key = (e: KeyboardEvent) => {
+      if (e.isComposing || e.keyCode === 229) return;
       if ((e.ctrlKey || e.metaKey) && e.key === "k") {
         e.preventDefault();
         searchRef.current?.focus();
@@ -103,15 +105,7 @@ export function useGuideState() {
     desc: "这个地址没有对应的攻略页面。",
   };
   const searchMode = isSearching || savedOnly;
-  const matchedRecipes = recipes.filter(
-    (r) =>
-      !savedOnly &&
-      !!query.trim() &&
-      (phase === "all" || r.phase === phase) &&
-      `${r.name} ${r.en} ${r.role} ${r.unlock} ${r.ingredients.map(([n]) => n).join(" ")}`
-        .toLocaleLowerCase()
-        .includes(query.trim().toLocaleLowerCase()),
-  );
+  const matchedCatalog = !savedOnly && query.trim() ? searchCatalog(query) : [];
   const plan = (id: string) => {
     routerNavigate(`/tools?${new URLSearchParams({ recipe: id })}`);
     setMobile(false);
@@ -138,7 +132,7 @@ export function useGuideState() {
     filtered,
     active,
     searchMode,
-    matchedRecipes,
+    matchedCatalog,
     plan,
   };
 }

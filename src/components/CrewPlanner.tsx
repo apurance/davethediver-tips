@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Card, Segmented, Table, Alert } from "antd";
 import { TeamOutlined } from "@ant-design/icons";
 import { SourceLinks } from "./SourceLinks";
+import { EntityLink } from "./EntityLink";
 
 export function CrewPlanner() {
   const [mode, setMode] = useState("easy");
@@ -72,7 +73,7 @@ export function CrewPlanner() {
         dataSource={rows}
         columns={[
           { title: "岗位", dataIndex: "role", width: 130 },
-          { title: "推荐人员", dataIndex: "crew", width: 230 },
+          { title: "推荐人员", dataIndex: "crew", width: 230, render: (crew: string) => <>{crew.split(/ (\+|\/) /).map((part, index) => part === "+" || part === "/" ? <span key={index}> {part} </span> : <EntityLink key={index} id={`staff/${part === "El Niño" ? "el-nino" : part.toLowerCase()}`} />)}</> },
           { title: "选择条件", dataIndex: "why" },
         ]}
       />

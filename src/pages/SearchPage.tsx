@@ -1,19 +1,18 @@
-import { Card, Tag, Button, Empty } from "antd";
+import { Empty } from "antd";
 import { ArticleCard } from "../components/ArticleCard";
 import { PageHeading } from "../components/PageHeading";
-import { SourceLinks } from "../components/SourceLinks";
 import { useGuideContext } from "../hooks/useGuideContext";
-import { formatNumber } from "../utils/formatNumber";
+import { CatalogSearchResults } from "../components/CatalogSearchResults";
 
 export function SearchPage() {
-  const { query, savedOnly, filtered, matchedRecipes, saved, toggle, plan } = useGuideContext();
+  const { query, savedOnly, filtered, matchedCatalog, saved, toggle } = useGuideContext();
   if (!savedOnly && !query.trim()) {
     return (
       <>
         <PageHeading
           eyebrow="SEARCH THE FIELD NOTES"
           title="搜索攻略"
-          description="输入菜谱、员工或装备名称查找适用攻略。"
+          description="输入食谱、食材、鱼类、员工或装备名称，查找数据库和适用攻略。"
           filter
         />
         <Empty description="输入关键词开始搜索" />
@@ -25,34 +24,10 @@ export function SearchPage() {
       <PageHeading
         eyebrow="SEARCH THE FIELD NOTES"
         title={savedOnly ? "我的收藏" : `搜索「${query.trim()}」`}
-        description={`找到 ${filtered.length} 条适用攻略${matchedRecipes.length ? `、${matchedRecipes.length} 道菜谱` : ""}。阶段筛选和剧透开关会影响结果。`}
+        description={`找到 ${matchedCatalog.length} 条数据库记录、${filtered.length} 条适用攻略。阶段筛选和剧透开关仅影响攻略。`}
         filter
       />
-      {matchedRecipes.length > 0 && (
-        <div className="article-grid recipe-search-results">
-          {matchedRecipes.map((r) => (
-            <Card
-              key={r.id}
-              title={r.name}
-              extra={<Tag color="cyan">菜谱</Tag>}
-            >
-              <p className="muted">
-                {r.en} · {r.role}
-              </p>
-              <p>
-                满级每盘 <strong>{formatNumber(r.max)} G</strong>，每批{" "}
-                {r.servings} 盘。
-              </p>
-              <p>解锁：{r.unlock}</p>
-              <p>{r.constraint}</p>
-              <Button type="primary" onClick={() => plan(r.id)}>
-                计算备货
-              </Button>
-              <SourceLinks ids={[r.source]} />
-            </Card>
-          ))}
-        </div>
-      )}
+      {matchedCatalog.length > 0 && <CatalogSearchResults key={query} entries={matchedCatalog} />}
       {filtered.length ? (
         <div className="article-grid">
           {filtered.map((a) => (
@@ -64,7 +39,7 @@ export function SearchPage() {
             />
           ))}
         </div>
-      ) : matchedRecipes.length === 0 ? (
+      ) : matchedCatalog.length === 0 ? (
         <Empty
           description={
             savedOnly

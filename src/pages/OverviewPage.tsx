@@ -131,7 +131,7 @@ export function OverviewPage({
             icon: <ShopOutlined />,
             name: "菜谱与供应链",
             tag: "PROFIT",
-            text: "热带套餐稳定经营，绯红鱼卷释放农田与调料。",
+            text: `${name("recipe/tropical-fish-sushi-set")}稳定经营，${name("recipe/crimson-fish-roll")}释放农田与调料。`,
             hint: "价格对比 · 批次数 · 回本",
           },
           {
@@ -236,3 +236,4 @@ export function OverviewPage({
     </>
   );
 }
+import { name } from "../catalog";

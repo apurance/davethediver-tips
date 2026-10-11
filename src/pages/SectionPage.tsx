@@ -1,4 +1,7 @@
-import { Alert, Card, Empty, Button } from "antd";
+import { Alert, Card, Empty, Button, Tabs } from "antd";
+import { useState } from "react";
+import { CatalogSection } from "../components/CatalogSection";
+import { database } from "../catalog";
 import { ArrowRightOutlined } from "@ant-design/icons";
 import type { SectionId } from "../data";
 import { ArticleCard } from "../components/ArticleCard";
@@ -10,13 +13,21 @@ import { useGuideContext } from "../hooks/useGuideContext";
 
 export function SectionPage({ section: page }: { section: SectionId }) {
   const { phase, plan, spoilers, filtered, saved, toggle, navigate } = useGuideContext();
+  const [tab, setTab] = useState("database");
+  const hasDatabase = page === "recipes" || page === "staff";
+  const showGuide = !hasDatabase || tab === "guide";
   return (
     <>
-      <PageHeading filter />
-      {page === "recipes" && (
+      <PageHeading filter={showGuide} />
+      {hasDatabase && <Tabs activeKey={tab} onChange={setTab} items={[
+        { key: "database", label: `全部${page === "recipes" ? "食谱" : "员工"} · ${page === "recipes" ? database.recipes.length : database.staff.length}` },
+        { key: "guide", label: page === "recipes" ? "经营建议与对比" : "配队与分店建议" },
+      ]} />}
+      {hasDatabase && tab === "database" && <CatalogSection key={page} type={page === "recipes" ? "recipe" : "staff"} />}
+      {showGuide && page === "recipes" && (
         <RecipeSection phase={phase} onPlan={plan} />
       )}
-      {page === "staff" && <CrewPlanner />}
+      {showGuide && page === "staff" && <CrewPlanner />}
       {page === "progression" && (
         <Card className="timeline-card">
           <FlowDiagram />
@@ -33,7 +44,7 @@ export function SectionPage({ section: page }: { section: SectionId }) {
           description="打开右上角的剧透开关即可显示。开关只隐藏标记的 Boss 卡片，不屏蔽装备、地区和系统解锁信息。"
         />
       )}
-      <div className="article-grid detail-articles">
+      {showGuide && <div className="article-grid detail-articles">
         {filtered
           .filter((a) => a.section === page)
           .map((a) => (
@@ -44,8 +55,8 @@ export function SectionPage({ section: page }: { section: SectionId }) {
               toggle={() => toggle(a.id)}
             />
           ))}
-      </div>
-      {!filtered.some((a) => a.section === page) && (
+      </div>}
+      {showGuide && !filtered.some((a) => a.section === page) && (
         <Empty description="此阶段没有可见条目，请切换全部阶段或开启 Boss 剧透。" />
       )}
       {page === "farm" && (

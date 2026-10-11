@@ -3,6 +3,7 @@ import { sources } from "../data";
 import { ExportOutlined } from "@ant-design/icons";
 import { SourceLinks } from "../components/SourceLinks";
 import { PageHeading } from "../components/PageHeading";
+import { name } from "../catalog";
 
 export function SourcesPage() {
   return (
@@ -27,10 +28,10 @@ export function SourcesPage() {
                   检索整理日期：2026-10-09。本体完整玩法为主，丛林为可执行附录；未宣称覆盖所有联动的全收集或全部新料理。中文名仅用于阅读，容易混淆的鱼和员工保留英文名。
                 </p>
                 <p>
-                  本文把最优拆为：省操作、稳定持续收入、活捉效率、推进速度和收集便利。推荐取决于已解锁内容、材料与员工等级；数值表使用代表性菜谱，非全量游戏数据库。
+                  本文把最优拆为：省操作、稳定持续收入、活捉效率、推进速度和收集便利。推荐取决于已解锁内容、材料与员工等级。经营建议与计算器保留七道已核对等级曲线的代表菜谱；另设食谱、食材、鱼类和员工数据库，使用来源网站的本地快照。
                 </p>
                 <p>
-                  员工经理的等级门槛基于旧版实测，换人后以游戏显示确认。绯红鱼卷的美味值在部分旧网站有冲突，本页采用与现行
+                  员工经理的等级门槛基于旧版实测，换人后以游戏显示确认。{name("recipe/crimson-fish-roll")}的美味值在部分旧网站有冲突，本页采用与现行
                   Wiki 汇总一致的 258；其他关键价格和份数交叉核对。
                 </p>
               </>

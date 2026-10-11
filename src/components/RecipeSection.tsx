@@ -4,6 +4,9 @@ import { recipes } from "../data";
 import { Select, Table, Button, Tag, Card, Empty, Modal, Alert } from "antd";
 import { formatNumber } from "../utils/formatNumber";
 import { SourceLinks } from "./SourceLinks";
+import { Link } from "react-router";
+import { entityPath, getEntity } from "../catalog";
+import { EntityLink } from "./EntityLink";
 
 export function RecipeSection({
   phase,
@@ -96,9 +99,9 @@ export function RecipeSection({
             width: 250,
             render: (_, r) => (
               <div className="ingredient-mini">
-                {r.ingredients.map(([n, q]) => (
+                {r.ingredients.map(([n, q], index) => (
                   <span key={n}>
-                    {n} ×{q}
+                    <EntityLink id={getEntity(r.entityId)?.ingredients?.[index]?.ingredientId ?? n} /> ×{q}
                   </span>
                 ))}
               </div>
@@ -181,6 +184,7 @@ export function RecipeSection({
         {detail && (
           <>
             <p className="mono muted">{detail.en}</p>
+            <p><Link to={entityPath(detail.entityId)}>打开食谱资料与关联鱼类 →</Link></p>
             <Tag color="cyan">{detail.role}</Tag>
             <p>
               <strong>解锁：</strong>
@@ -192,7 +196,7 @@ export function RecipeSection({
             </p>
             <p>
               <strong>一批用料：</strong>
-              {detail.ingredients.map(([n, q]) => `${n} ×${q}`).join("、")}
+              {detail.ingredients.map(([n, q], index) => <span key={n}><EntityLink id={getEntity(detail.entityId)?.ingredients?.[index]?.ingredientId ?? n} /> ×{q}{index < detail.ingredients.length - 1 ? "、" : ""}</span>)}
             </p>
             <Alert
               type="info"
