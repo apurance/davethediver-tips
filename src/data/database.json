@@ -44160,24 +44160,8 @@
         "https://davethediver.net/zh-hans/staff/billy/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-collects customer tips on the floor; Lv7: Auto-cleans tables (action time 1.5s)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 562,
         "wage": 20,
@@ -44195,9 +44179,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/83f6186b063d",
-        "skill/9a14ac7d54e7"
+      "skills": [
+        {
+          "name": "skill/83f6186b063d",
+          "description": "skill-description/0580ddacd9f5"
+        },
+        {
+          "name": "skill/9a14ac7d54e7",
+          "description": "skill-description/f8e9ccdccb9d"
+        }
       ]
     },
     {
@@ -44209,24 +44199,8 @@
         "https://davethediver.net/zh-hans/staff/carolina/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-refills wasabi (action time 5.0s); Lv7: Auto-collects customer tips on the floor"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 410,
         "wage": 10,
@@ -44244,9 +44218,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/bf6d1f0f5a19",
-        "skill/384039e5e707"
+      "skills": [
+        {
+          "name": "skill/bf6d1f0f5a19",
+          "description": "skill-description/76c784e5a947"
+        },
+        {
+          "name": "skill/384039e5e707",
+          "description": "skill-description/3eac6053de48"
+        }
       ]
     },
     {
@@ -44259,24 +44239,8 @@
         "https://davethediver.net/zh-hans/staff/charlie-bonnet/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: +50 Cooking (passive); Lv7: 5% chance to gain a bonus ingredient when serving"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 123,
         "wage": 13,
@@ -44295,9 +44259,15 @@
         "tier": "tier/8f6c204b2518",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/1e590f557c33",
-        "skill/a68b6c19ba54"
+      "skills": [
+        {
+          "name": "skill/1e590f557c33",
+          "description": "skill-description/a74c05d1b50f"
+        },
+        {
+          "name": "skill/a68b6c19ba54",
+          "description": "skill-description/567b8a60b09a"
+        }
       ]
     },
     {
@@ -44309,24 +44279,8 @@
         "https://davethediver.net/zh-hans/staff/chitose/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: +50 Cooking (passive); Lv7: +100 Cooking (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 2917,
         "wage": null,
@@ -44347,9 +44301,15 @@
         "eyeColor": "text/d4969ce9b575",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/1e590f557c33",
-        "skill/38267bc6d470"
+      "skills": [
+        {
+          "name": "skill/1e590f557c33",
+          "description": "skill-description/a74c05d1b50f"
+        },
+        {
+          "name": "skill/38267bc6d470",
+          "description": "skill-description/9d5b7467c1be"
+        }
       ]
     },
     {
@@ -44361,24 +44321,8 @@
         "https://davethediver.net/zh-hans/staff/davina/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: +50 Appeal (passive); Lv7: +2 dispatch ingredient grade (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 143,
         "wage": 12.5,
@@ -44397,9 +44341,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/0f5600b15754",
-        "skill/3176e0d267e1"
+      "skills": [
+        {
+          "name": "skill/0f5600b15754",
+          "description": "skill-description/6392e03073f2"
+        },
+        {
+          "name": "skill/3176e0d267e1",
+          "description": "skill-description/ae7fcd2fa1e0"
+        }
       ]
     },
     {
@@ -44411,24 +44361,8 @@
         "https://davethediver.net/zh-hans/staff/drae/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-cleans tables (action time 3.0s); Lv7: Auto-serves cocktails (high-quality drinks) (action time 3.0s)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 297,
         "wage": 31,
@@ -44446,9 +44380,15 @@
         "tier": "tier/8f6c204b2518",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/019f34ed2b19",
-        "skill/a472c188603b"
+      "skills": [
+        {
+          "name": "skill/019f34ed2b19",
+          "description": "skill-description/2712e9226ffe"
+        },
+        {
+          "name": "skill/a472c188603b",
+          "description": "skill-description/2d61369eb60f"
+        }
       ]
     },
     {
@@ -44460,24 +44400,8 @@
         "https://davethediver.net/zh-hans/staff/el-nino/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-pours 2 drink(s) (action time 1.5s); Lv7: Auto-cleans tables (action time 1.5s)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 2327,
         "wage": 39,
@@ -44495,9 +44419,15 @@
         "tier": "tier/8f6c204b2518",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/694c2429e48d",
-        "skill/7e90664ed713"
+      "skills": [
+        {
+          "name": "skill/694c2429e48d",
+          "description": "skill-description/41cca7ecfeab"
+        },
+        {
+          "name": "skill/7e90664ed713",
+          "description": "skill-description/f8e9ccdccb9d"
+        }
       ]
     },
     {
@@ -44509,24 +44439,8 @@
         "https://davethediver.net/zh-hans/staff/etsuko/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-cleans tables (action time 3.0s); Lv7: Auto-serves cocktails (high-quality drinks) (action time 3.0s)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 1187,
         "wage": null,
@@ -44546,9 +44460,15 @@
         "eyeColor": "text/ed7d2c54184b",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/019f34ed2b19",
-        "skill/a472c188603b"
+      "skills": [
+        {
+          "name": "skill/019f34ed2b19",
+          "description": "skill-description/2712e9226ffe"
+        },
+        {
+          "name": "skill/a472c188603b",
+          "description": "skill-description/2d61369eb60f"
+        }
       ]
     },
     {
@@ -44560,24 +44480,8 @@
         "https://davethediver.net/zh-hans/staff/hamako/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-pours 2 drink(s) (action time 1.5s); Lv7: Auto-serves cocktails (high-quality drinks) (action time 3.0s)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 215,
         "wage": null,
@@ -44597,9 +44501,15 @@
         "eyeColor": "text/d4969ce9b575",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/694c2429e48d",
-        "skill/a472c188603b"
+      "skills": [
+        {
+          "name": "skill/694c2429e48d",
+          "description": "skill-description/41cca7ecfeab"
+        },
+        {
+          "name": "skill/a472c188603b",
+          "description": "skill-description/2d61369eb60f"
+        }
       ]
     },
     {
@@ -44611,24 +44521,8 @@
         "https://davethediver.net/zh-hans/staff/itsuki/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-pours 1 drink(s) (action time 3.0s); Lv7: +50 Appeal (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 4,
         "wage": 22.5,
@@ -44647,9 +44541,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/16053113be25",
-        "skill/01c128981521"
+      "skills": [
+        {
+          "name": "skill/16053113be25",
+          "description": "skill-description/f2c0f8e0ce3e"
+        },
+        {
+          "name": "skill/01c128981521",
+          "description": "skill-description/81495804c722"
+        }
       ]
     },
     {
@@ -44661,24 +44561,8 @@
         "https://davethediver.net/zh-hans/staff/james/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: +50 Cooking (passive); Lv7: 10% chance to gain a bonus ingredient when serving"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 707,
         "wage": 20,
@@ -44697,9 +44581,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/1e590f557c33",
-        "skill/214e8320e952"
+      "skills": [
+        {
+          "name": "skill/1e590f557c33",
+          "description": "skill-description/a74c05d1b50f"
+        },
+        {
+          "name": "skill/214e8320e952",
+          "description": "skill-description/7c29e946e9bf"
+        }
       ]
     },
     {
@@ -44711,24 +44601,8 @@
         "https://davethediver.net/zh-hans/staff/jandi/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-collects customer tips on the floor; Lv7: Auto-refills wasabi (action time 5.0s)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 302,
         "wage": 10,
@@ -44746,9 +44620,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/f3f333e0177c",
-        "skill/5dc1fae81bca"
+      "skills": [
+        {
+          "name": "skill/f3f333e0177c",
+          "description": "skill-description/0580ddacd9f5"
+        },
+        {
+          "name": "skill/5dc1fae81bca",
+          "description": "skill-description/458fdd28c482"
+        }
       ]
     },
     {
@@ -44760,28 +44640,13 @@
         "https://davethediver.net/zh-hans/staff/kyoko/"
       ],
       "inferred": false,
+      "occupation": "Sushi Staff",
       "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
         {
           "labelId": "field/hiring-cost",
           "values": [
             {
               "text": "0 (142)"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-pours 1 drink(s) (action time 3.0s); Lv7: Auto-collects customer tips on the floor"
             }
           ]
         }
@@ -44803,9 +44668,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/16053113be25",
-        "skill/384039e5e707"
+      "skills": [
+        {
+          "name": "skill/16053113be25",
+          "description": "skill-description/f2c0f8e0ce3e"
+        },
+        {
+          "name": "skill/384039e5e707",
+          "description": "skill-description/3eac6053de48"
+        }
       ]
     },
     {
@@ -44817,24 +44688,8 @@
         "https://davethediver.net/zh-hans/staff/liu/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-cleans tables (action time 3.0s); Lv7: +50 Serving (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 125,
         "wage": 7,
@@ -44853,9 +44708,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/019f34ed2b19",
-        "skill/390c9cc3c6b8"
+      "skills": [
+        {
+          "name": "skill/019f34ed2b19",
+          "description": "skill-description/2712e9226ffe"
+        },
+        {
+          "name": "skill/390c9cc3c6b8",
+          "description": "skill-description/efef7bdbaf02"
+        }
       ]
     },
     {
@@ -44867,24 +44728,8 @@
         "https://davethediver.net/zh-hans/staff/masayoshi/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: 5% chance to gain a bonus ingredient when serving; Lv7: +2 dispatch ingredient grade (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 551,
         "wage": 14,
@@ -44902,9 +44747,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/97fffd70bcd7",
-        "skill/3176e0d267e1"
+      "skills": [
+        {
+          "name": "skill/97fffd70bcd7",
+          "description": "skill-description/a7756e0be1b0"
+        },
+        {
+          "name": "skill/3176e0d267e1",
+          "description": "skill-description/ae7fcd2fa1e0"
+        }
       ]
     },
     {
@@ -44916,24 +44767,8 @@
         "https://davethediver.net/zh-hans/staff/mitchell/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-pours 1 drink(s) (action time 3.0s); Lv7: +50 Serving (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 258,
         "wage": 14,
@@ -44952,9 +44787,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/16053113be25",
-        "skill/390c9cc3c6b8"
+      "skills": [
+        {
+          "name": "skill/16053113be25",
+          "description": "skill-description/f2c0f8e0ce3e"
+        },
+        {
+          "name": "skill/390c9cc3c6b8",
+          "description": "skill-description/efef7bdbaf02"
+        }
       ]
     },
     {
@@ -44966,24 +44807,8 @@
         "https://davethediver.net/zh-hans/staff/pai/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: +50 Cooking (passive); Lv7: +50 Serving (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 467,
         "wage": 10,
@@ -45003,9 +44828,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/1e590f557c33",
-        "skill/390c9cc3c6b8"
+      "skills": [
+        {
+          "name": "skill/1e590f557c33",
+          "description": "skill-description/a74c05d1b50f"
+        },
+        {
+          "name": "skill/390c9cc3c6b8",
+          "description": "skill-description/efef7bdbaf02"
+        }
       ]
     },
     {
@@ -45017,24 +44848,8 @@
         "https://davethediver.net/zh-hans/staff/raptor/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: Auto-refills wasabi (action time 5.0s); Lv7: Auto-serves cocktails (high-quality drinks) (action time 3.0s)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 1150,
         "wage": 36,
@@ -45052,9 +44867,15 @@
         "tier": "tier/8f6c204b2518",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/bf6d1f0f5a19",
-        "skill/a472c188603b"
+      "skills": [
+        {
+          "name": "skill/bf6d1f0f5a19",
+          "description": "skill-description/76c784e5a947"
+        },
+        {
+          "name": "skill/a472c188603b",
+          "description": "skill-description/2d61369eb60f"
+        }
       ]
     },
     {
@@ -45066,24 +44887,8 @@
         "https://davethediver.net/zh-hans/staff/raul/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: 10% chance to gain a bonus ingredient when serving; Lv7: +10 drink sale price (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 991,
         "wage": 15,
@@ -45101,9 +44906,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/97fffd70bcd7",
-        "skill/5ce3d1286a4e"
+      "skills": [
+        {
+          "name": "skill/97fffd70bcd7",
+          "description": "skill-description/32c40c9448f2"
+        },
+        {
+          "name": "skill/5ce3d1286a4e",
+          "description": "skill-description/162ad493ea8e"
+        }
       ]
     },
     {
@@ -45115,24 +44926,8 @@
         "https://davethediver.net/zh-hans/staff/tohoku/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: +50 Cooking (passive); Lv7: +100 Cooking (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 1307,
         "wage": 20,
@@ -45151,9 +44946,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/1e590f557c33",
-        "skill/2790b6904cfa"
+      "skills": [
+        {
+          "name": "skill/1e590f557c33",
+          "description": "skill-description/a74c05d1b50f"
+        },
+        {
+          "name": "skill/2790b6904cfa",
+          "description": "skill-description/9d5b7467c1be"
+        }
       ]
     },
     {
@@ -45165,24 +44966,8 @@
         "https://davethediver.net/zh-hans/staff/yone/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: +100 Cooking (passive); Lv7: 5% chance to gain a bonus ingredient when serving"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 1464,
         "wage": 39,
@@ -45201,9 +44986,15 @@
         "tier": "tier/8f6c204b2518",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/d89842c939d1",
-        "skill/a68b6c19ba54"
+      "skills": [
+        {
+          "name": "skill/d89842c939d1",
+          "description": "skill-description/7d162a9f201a"
+        },
+        {
+          "name": "skill/a68b6c19ba54",
+          "description": "skill-description/567b8a60b09a"
+        }
       ]
     },
     {
@@ -45215,24 +45006,8 @@
         "https://davethediver.net/zh-hans/staff/yusuke/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        },
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv3: 5% chance to gain a bonus ingredient when serving; Lv7: +50 Cooking (passive)"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 267,
         "wage": 14,
@@ -45251,9 +45026,15 @@
         "tier": "tier/4608039c9364",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/97fffd70bcd7",
-        "skill/381571e0545b"
+      "skills": [
+        {
+          "name": "skill/97fffd70bcd7",
+          "description": "skill-description/a7756e0be1b0"
+        },
+        {
+          "name": "skill/381571e0545b",
+          "description": "skill-description/5d09f7a33152"
+        }
       ]
     },
     {
@@ -45266,16 +45047,8 @@
         "https://davethediver.net/zh-hans/staff/cohh-carnage/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 1079,
         "wage": 36,
@@ -45293,9 +45066,15 @@
         "tier": "tier/8f6c204b2518",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/f3f333e0177c",
-        "skill/a472c188603b"
+      "skills": [
+        {
+          "name": "skill/f3f333e0177c",
+          "description": "label/not-provided"
+        },
+        {
+          "name": "skill/a472c188603b",
+          "description": "label/not-provided"
+        }
       ]
     },
     {
@@ -45308,16 +45087,8 @@
         "https://davethediver.net/zh-hans/staff/maki-staff/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/occupation",
-          "values": [
-            {
-              "text": "Sushi Staff"
-            }
-          ]
-        }
-      ],
+      "occupation": "Sushi Staff",
+      "facts": [],
       "stats": {
         "hiringCost": 0,
         "wage": 0,
@@ -45335,9 +45106,15 @@
         "tier": "tier/8ab15443bb5a",
         "species": "text/d1414ba68902"
       },
-      "skillIds": [
-        "skill/94ad85eaad14",
-        "skill/7af9274ef08d"
+      "skills": [
+        {
+          "name": "skill/94ad85eaad14",
+          "description": "label/not-provided"
+        },
+        {
+          "name": "skill/7af9274ef08d",
+          "description": "label/not-provided"
+        }
       ]
     },
     {
@@ -45349,16 +45126,7 @@
         "https://davethediver.net/zh-hans/staff/longbottom/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv1: LongbottomDispatch (value 0.0, 100%); Lv5: +2 dispatch ingredient grade (passive)"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -45375,7 +45143,16 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": [
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/23f2ac938a4b"
+        },
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/3c08055cf859"
+        }
+      ]
     },
     {
       "id": "staff/martin-tweed",
@@ -45386,16 +45163,7 @@
         "https://davethediver.net/zh-hans/staff/martin-tweed/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv1: Instantly finishes cooking dish(es); Lv5: +50 Cooking (passive)"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -45412,7 +45180,16 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": [
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/14e989b46aeb"
+        },
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/9f02e252f20d"
+        }
+      ]
     },
     {
       "id": "staff/mita",
@@ -45423,16 +45200,7 @@
         "https://davethediver.net/zh-hans/staff/mita/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv1: Instantly finishes grilling; Lv5: AutoQTE_Coconut (value 1.0, 100% (action time 3.0s))"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -45449,7 +45217,16 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": [
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/9a3e98eecfcd"
+        },
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/7323f90298d1"
+        }
+      ]
     },
     {
       "id": "staff/om-nom",
@@ -45460,16 +45237,7 @@
         "https://davethediver.net/zh-hans/staff/om-nom/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv1: AutoQTE_JungleDrink (value 2.0, 100% (action time 1.5s)); Lv5: FlashAttack (value 0.0, 100% (action time 2.0s))"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -45486,7 +45254,16 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": [
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/161315746ed6"
+        },
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/b33264d61c26"
+        }
+      ]
     },
     {
       "id": "staff/rover",
@@ -45497,16 +45274,7 @@
         "https://davethediver.net/zh-hans/staff/rover/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv1: Auto-collects customer tips on the floor; Lv5: +2 dispatch ingredient grade (passive)"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -45523,7 +45291,16 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": [
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/6085833c0ea6"
+        },
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/3c08055cf859"
+        }
+      ]
     },
     {
       "id": "staff/sato",
@@ -45534,16 +45311,7 @@
         "https://davethediver.net/zh-hans/staff/sato/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv1: Throws dishes to serve faster; Lv5: Instantly finishes cooking dish(es)"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -45560,7 +45328,16 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": [
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/6662816ecb31"
+        },
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/e4ef645a0235"
+        }
+      ]
     },
     {
       "id": "staff/udo",
@@ -45571,16 +45348,7 @@
         "https://davethediver.net/zh-hans/staff/udo/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv1: TakePhoto (value 0.0, 100%); Lv5: FlashAttack (value 0.0, 100% (action time 3.0s))"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -45597,7 +45365,16 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": [
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/9a58dd5b58b8"
+        },
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/c5a4b1629b35"
+        }
+      ]
     },
     {
       "id": "staff/yasuto",
@@ -45608,16 +45385,7 @@
         "https://davethediver.net/zh-hans/staff/yasuto/"
       ],
       "inferred": false,
-      "facts": [
-        {
-          "labelId": "field/skills",
-          "values": [
-            {
-              "text": "Lv1: WebShooter (value 0.0, 100% (action time 1.0s)); Lv5: WebShooter (value 0.0, 100% (action time 1.0s))"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -45634,7 +45402,16 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": [
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/fcebd0d1eedd"
+        },
+        {
+          "name": "label/not-provided",
+          "description": "skill-description/142a62c3c3c9"
+        }
+      ]
     },
     {
       "id": "staff/dave-shirt",
@@ -45662,7 +45439,7 @@
       "facets": {
         "tier": null
       },
-      "skillIds": []
+      "skills": []
     }
   ]
 }

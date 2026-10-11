@@ -23,7 +23,7 @@ test("relations are grouped by target type and retain valid bidirectional links"
       }
     }
     if (entity.type === "ingredient") assert.ok(Array.isArray(entity.fishIds), entity.id);
-    if (entity.type === "staff") assert.ok(Array.isArray(entity.skillIds), entity.id);
+    if (entity.type === "staff") assert.ok(Array.isArray(entity.skills), entity.id);
     assert.ok(!entity.facts.some(fact => fact.labelId === "field/related-recipes"), entity.id);
     assert.ok(!getDisplayFacts(entity).some(fact => fact.labelId === "field/related-recipes"), entity.id);
 

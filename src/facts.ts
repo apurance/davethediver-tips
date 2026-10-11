@@ -82,6 +82,7 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
     append("acquisition-method", [entity["acquisition-method"]]);
   }
   if (entity.type === "recipe" && entity.event !== undefined) append("event", [{ text: entity.event }]);
+  if (entity.type === "staff" && entity.occupation !== undefined) append("occupation", [{ text: entity.occupation }]);
   for (const [key, text] of Object.entries(entity.fields ?? {})) {
     append(key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`), [{ text }]);
   }
@@ -103,7 +104,6 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
     const field = key === "time" ? "active-time" : key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
     if (nameId) append(field, [{ nameId }]);
   }
-  if (entity.type === "staff" && entity.skillIds.length) append("special-skills", entity.skillIds.map(nameId => ({ nameId })));
   if (entity.type === "fish" || entity.type === "ingredient") {
     const value: DisplayFactValue = { computed: "value-per-kilogram", unitId: "unit/gold", perUnitId: "unit/kilogram" };
     if (resolveFactNumber(value, entity) !== null) append("value-per-kilogram", [value]);

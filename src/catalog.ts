@@ -47,7 +47,9 @@ export interface FishEntity extends EntityBase {
 }
 export interface StaffEntity extends EntityBase {
   type: "staff";
-  skillIds: string[];
+  occupation?: string;
+  /** Name and description are translation IDs. */
+  skills: { name: string; description: string }[];
 }
 export type Entity = RecipeEntity | IngredientEntity | FishEntity | StaffEntity;
 export const database = snapshot as unknown as {
@@ -84,7 +86,7 @@ export function entityPath(entity: Entity | string) {
 }
 export function searchable(entity: Entity) {
   const ingredients = entity.type === "recipe" ? entity.ingredients.map(i => `${name(i.ingredientId)} ${getEntity(i.ingredientId)?.en ?? ""}`) : [];
-  const skills = entity.type === "staff" ? entity.skillIds.map(name) : [];
+  const skills = entity.type === "staff" ? entity.skills.flatMap(skill => [name(skill.name), name(skill.description)]) : [];
   const regions = entity.type === "fish" || entity.type === "ingredient" ? (entity.region ?? []).map(name) : [];
   const acquisition = entity.type === "recipe" || entity.type === "ingredient" ? entity["acquisition-method"] : undefined;
   return [name(entity.id), entity.en, ...ingredients, ...skills, ...regions,

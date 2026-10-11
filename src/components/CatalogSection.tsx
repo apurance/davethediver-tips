@@ -33,7 +33,10 @@ export function CatalogSection({ type }: { type: EntityType }) {
       { title: "每批用料", key: "ingredients", width: 290, render: (_: unknown, e: Entity) => <div className="ingredient-mini">{e.type === "recipe" && e.ingredients.map((i, index) => <span key={`${i.ingredientId}-${index}`}><EntityLink id={i.ingredientId} /> ×{i.quantity ?? "?"}</span>)}</div> },
     ] : type === "staff" ? [
       ...[["maxCooking", "满级烹饪"], ["maxServing", "满级服务"], ["maxProcurement", "满级采购"], ["maxAppeal", "满级吸引力"]].map(([key, title]) => ({ title, key, render: (_: unknown, e: Entity) => statText(e.stats[key]), sorter: (a: Entity, b: Entity) => (a.stats[key] ?? -1) - (b.stats[key] ?? -1) })),
-      { title: "技能", key: "skills", width: 230, render: (_: unknown, e: Entity) => e.type === "staff" && e.skillIds.length ? e.skillIds.map(id => <Tag key={id}>{name(id)}</Tag>) : "未提供" },
+      { title: "技能", key: "skills", width: 230, render: (_: unknown, e: Entity) => {
+        const skills = e.type === "staff" ? e.skills.filter(skill => skill.name !== "label/not-provided") : [];
+        return skills.length ? skills.map((skill, index) => <Tag key={index}>{name(skill.name)}</Tag>) : "未提供";
+      } },
     ] : type === "fish" ? [
       { title: "区域 / 时段", key: "location", render: (_: unknown, e: Entity) => <>{e.type === "fish" && e.region?.length ? e.region.map(name).join("、") : "未提供"}<small className="catalog-en">{e.facets.time ? name(e.facets.time) : "未提供"}</small></> },
       { title: "等级", key: "rank", render: (_: unknown, e: Entity) => statText(e.stats.rank), sorter: (a: Entity, b: Entity) => (a.stats.rank ?? -1) - (b.stats.rank ?? -1) },
