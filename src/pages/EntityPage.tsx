@@ -21,13 +21,14 @@ export function EntityPage({ type }: { type: EntityType }) {
   if (requestedId !== entity.id) return <Navigate replace to={entityPath(entity)} />;
   const strategy = recipes.find(recipe => recipe.entityId === entity.id);
   const related = entity.relatedIds.map(getEntity).filter(e => !!e);
+  const relatedRecipes = entity.type === "fish" || entity.type === "ingredient" ? entity.relatedRecipes.map(getEntity).filter(e => !!e) : [];
   const summarized = type === "recipe" ? ["base-price", "base-selling-price", "sell-price", "base-taste", "taste", "base-servings", "max-price", "max-taste", "max-servings", "highest-sell-price", "highest-taste"] : type === "staff" ? ["base-cooking", "base-serving", "base-procurement", "base-appeal", "max-cooking", "max-serving", "max-procurement", "max-appeal", "cooking", "serving", "procurement", "appeal", "hiring-cost", "wage", "manager-rank", "tier", "special-skills"] : [];
   const facts = getDisplayFacts(entity).filter(f => !summarized.some(field => f.labelId === `field/${field}`));
   return <>
     <Breadcrumb items={[{ title: <Link to="/">概览</Link> }, { title: <Link to={entityLists[type]}>{entityTypes[type]}数据库</Link> }, { title: name(entity.id) }]} />
     <PageHeading eyebrow={`${entityTypes[type]} / ${entity.en}`} title={name(entity.id)} description={`本地资料 · ${database.metadata.importedAt} 导入`} />
     {entity.inferred && <Alert type="info" showIcon title="由菜谱用料建立的食材条目" description="来源网站未提供独立食材页，以下关联根据菜谱及鱼类记录整理。" />}
-    {type === "recipe" && <Card title="售价、口感与份数" className="catalog-detail-card">
+    {entity.type === "recipe" && <Card title="售价、口感与份数" className="catalog-detail-card">
       <Table pagination={false} rowKey="level" size="small" dataSource={[
         { level: "基础", price: entity.stats.basePrice, taste: entity.stats.baseTaste, servings: entity.stats.baseServings },
         { level: "满级", price: entity.stats.maxPrice, taste: entity.stats.maxTaste, servings: entity.stats.maxServings },
@@ -39,7 +40,7 @@ export function EntityPage({ type }: { type: EntityType }) {
       {entity.ingredients?.length ? <div className="catalog-ingredients">{entity.ingredients.map((i, index) => <div key={`${i.ingredientId}-${index}`}><EntityLink id={i.ingredientId} /><strong>× {i.quantity ?? "未提供数量"}</strong></div>)}</div> : <Empty description="来源未提供用料" />}
       {strategy && <Link className="catalog-tab catalog-tab-active" to={`/tools?recipe=${strategy.id}`}>计算备货</Link>}
     </Card>}
-    {type === "staff" && <Card title="员工属性" className="catalog-detail-card">
+    {entity.type === "staff" && <Card title="员工属性" className="catalog-detail-card">
       <Space wrap className="catalog-skills">{entity.facets.tier && <Tag color="cyan">{name(entity.facets.tier)}</Tag>}{entity.skillIds?.map(id => <Tag key={id}>{name(id)}</Tag>)}</Space>
       <Table pagination={false} rowKey="level" scroll={{ x: 500 }} dataSource={[
         { level: "基础", cooking: entity.stats.baseCooking, serving: entity.stats.baseServing, procurement: entity.stats.baseProcurement, appeal: entity.stats.baseAppeal },
@@ -53,7 +54,7 @@ export function EntityPage({ type }: { type: EntityType }) {
       {facts.length ? <Descriptions bordered column={1} size="small" items={facts.map((f, i) => ({ key: i, label: name(f.labelId), children: <FactContent values={f.values} entity={entity} /> }))} /> : <p className="muted">来源未提供其他独立属性数据。</p>}
     </Card>
     {(["ingredient", "fish", "recipe", "staff"] as EntityType[]).map(group => {
-      const entries = related.filter(e => e.type === group);
+      const entries = group === "recipe" && (entity.type === "fish" || entity.type === "ingredient") ? relatedRecipes : related.filter(e => e.type === group);
       return entries.length ? <Card key={group} title={group === "recipe" ? `可制作食谱 · ${entries.length}` : `关联${entityTypes[group]} · ${entries.length}`} className="catalog-detail-card">
         <div className="catalog-related">{entries.map(e => <div key={e.id}><EntityLink id={e.id} /><small className="catalog-en">{e.en}</small></div>)}</div>
       </Card> : null;

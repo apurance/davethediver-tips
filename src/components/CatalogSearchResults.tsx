@@ -12,7 +12,7 @@ export function CatalogSearchResults({ entries }: { entries: Entity[] }) {
       { title: "名称", key: "name", render: (_: unknown, e: Entity) => <strong><EntityLink id={e.id} /></strong> },
       { title: "英文名", dataIndex: "en" },
       { title: "类型", key: "type", render: (_: unknown, e: Entity) => <Tag color="cyan">{entityTypes[e.type as EntityType]}</Tag> },
-      { title: "相关信息", key: "related", render: (_: unknown, e: Entity) => e.type === "recipe" ? e.ingredients?.map(i => name(i.ingredientId)).join("、") : e.type === "staff" ? e.skillIds?.map(name).join("、") : `${e.relatedIds.filter(id => id.startsWith("recipe/")).length} 道关联菜谱` },
+      { title: "相关信息", key: "related", render: (_: unknown, e: Entity) => e.type === "recipe" ? e.ingredients?.map(i => name(i.ingredientId)).join("、") : e.type === "staff" ? e.skillIds?.map(name).join("、") : `${e.relatedRecipes.length} 道关联菜谱` },
     ]} />
   </div>;
 }

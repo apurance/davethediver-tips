@@ -88,11 +88,12 @@ test("staff totals and recipe counts reflect edits without maintaining extra dat
   const davina = byId.get("staff/davina")!;
   assert.equal(resolveFactNumber(factValue(davina, "field/base-total"), davina), 85);
   const tomato = byId.get("ingredient/cherry-tomato")!;
+  assert.ok(tomato.type === "ingredient");
   const count = factValue(tomato, "field/recipe-count");
   assert.equal(resolveFactNumber(count, tomato), 9);
-  assert.equal(resolveFactNumber(count, { ...tomato, relatedIds: [...tomato.relatedIds, "recipe/tiger-shark-sushi"] }), 10);
-  assert.equal(resolveFactNumber(count, { ...tomato, relatedIds: [...tomato.relatedIds, tomato.relatedIds.find(id => id.startsWith("recipe/"))!] }), 9);
-  assert.equal(resolveFactNumber(count, { ...tomato, relatedIds: [] }), 0);
+  assert.equal(resolveFactNumber(count, { ...tomato, relatedRecipes: [...tomato.relatedRecipes, "recipe/tiger-shark-sushi"] }), 10);
+  assert.equal(resolveFactNumber(count, { ...tomato, relatedRecipes: [...tomato.relatedRecipes, tomato.relatedRecipes[0]] }), 9);
+  assert.equal(resolveFactNumber(count, { ...tomato, relatedRecipes: [] }), 0);
   assert.equal(resolveFactNumber(count, { stats: {} }), null);
   const photo = byId.get("fish/baby-humpback-whale")!;
   assert.equal(resolveFactNumber(factValue(photo, "field/recipe-count"), photo), 0);

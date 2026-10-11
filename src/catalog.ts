@@ -7,9 +7,8 @@ export interface FactValue {
   nameId?: string;
   entityId?: string;
 }
-export interface Entity {
+interface EntityBase {
   id: string;
-  type: EntityType;
   nameId: string;
   en: string;
   sourceUrls: string[];
@@ -18,20 +17,36 @@ export interface Entity {
   facts: { labelId: string; values: FactValue[] }[];
   stats: Record<string, number | null>;
   fields?: Record<string, string>;
-  region?: string[];
   /** Translation IDs for scalar text attributes; null means unprovided. */
   facets: Record<string, string | null>;
-  ingredients?: { ingredientId: string; quantity: number | null }[];
-  fishIds?: string[];
-  skillIds?: string[];
 }
+export interface RecipeEntity extends EntityBase {
+  type: "recipe";
+  ingredients: { ingredientId: string; quantity: number | null }[];
+}
+export interface IngredientEntity extends EntityBase {
+  type: "ingredient";
+  relatedRecipes: string[];
+  fishIds: string[];
+  region?: string[];
+}
+export interface FishEntity extends EntityBase {
+  type: "fish";
+  relatedRecipes: string[];
+  region?: string[];
+}
+export interface StaffEntity extends EntityBase {
+  type: "staff";
+  skillIds: string[];
+}
+export type Entity = RecipeEntity | IngredientEntity | FishEntity | StaffEntity;
 export const database = snapshot as unknown as {
   metadata: { source: string; importedAt: string; rawPageCount: number; aliasCount: number };
   aliases: Record<string, string>;
-  recipes: Entity[]; ingredients: Entity[]; fish: Entity[]; staff: Entity[];
+  recipes: RecipeEntity[]; ingredients: IngredientEntity[]; fish: FishEntity[]; staff: StaffEntity[];
 };
 const names: Record<string, string> = translations;
-export const catalog = [...database.recipes, ...database.ingredients, ...database.fish, ...database.staff];
+export const catalog: Entity[] = [...database.recipes, ...database.ingredients, ...database.fish, ...database.staff];
 const byId = new Map(catalog.map(entity => [entity.id, entity]));
 export function getEntity(id: string) { return byId.get(database.aliases[id] ?? id); }
 export function name(id: string) {
@@ -50,9 +65,10 @@ export function entityPath(entity: Entity | string) {
   return `${entityLists[type as EntityType]}/${slug}`;
 }
 export function searchable(entity: Entity) {
-  const ingredients = (entity.ingredients ?? []).map(i => `${name(i.ingredientId)} ${getEntity(i.ingredientId)?.en ?? ""}`);
-  return [name(entity.id), entity.en, ...ingredients, ...(entity.skillIds ?? []).map(name),
-    ...(entity.region ?? []).map(name),
+  const ingredients = entity.type === "recipe" ? entity.ingredients.map(i => `${name(i.ingredientId)} ${getEntity(i.ingredientId)?.en ?? ""}`) : [];
+  const skills = entity.type === "staff" ? entity.skillIds.map(name) : [];
+  const regions = entity.type === "fish" || entity.type === "ingredient" ? (entity.region ?? []).map(name) : [];
+  return [name(entity.id), entity.en, ...ingredients, ...skills, ...regions,
     ...Object.values(entity.facets).filter((value): value is string => !!value).map(name)]
     .join(" ").toLocaleLowerCase();
 }

@@ -1,4 +1,4 @@
-import type { Entity, FactValue } from "./catalog.ts";
+import type { Entity, FactValue, FishEntity } from "./catalog.ts";
 import { formatNumber } from "./utils/formatNumber.ts";
 
 export type DisplayFactValue = FactValue & {
@@ -11,7 +11,7 @@ export type DisplayFactValue = FactValue & {
   computed?: "value-per-kilogram" | "base-total" | "max-total" | "recipe-count";
 };
 export interface DisplayFact { labelId: string; values: DisplayFactValue[] }
-type FactContext = Pick<Entity, "stats"> & Partial<Pick<Entity, "relatedIds">>;
+type FactContext = Pick<Entity, "stats"> & Partial<Pick<FishEntity, "relatedRecipes">>;
 
 const statFields: Record<Entity["type"], [string, string, string?][]> = {
   recipe: [
@@ -94,12 +94,12 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
     }
     if (values.length) append(field, values);
   }
-  if (entity.region?.length) append("region", entity.region.map(nameId => ({ nameId })));
+  if ((entity.type === "fish" || entity.type === "ingredient") && entity.region?.length) append("region", entity.region.map(nameId => ({ nameId })));
   for (const [key, nameId] of Object.entries(entity.facets)) {
     const field = key === "time" ? "active-time" : key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
     if (nameId) append(field, [{ nameId }]);
   }
-  if (entity.skillIds?.length) append("special-skills", entity.skillIds.map(nameId => ({ nameId })));
+  if (entity.type === "staff" && entity.skillIds.length) append("special-skills", entity.skillIds.map(nameId => ({ nameId })));
   if (entity.type === "fish" || entity.type === "ingredient") {
     const value: DisplayFactValue = { computed: "value-per-kilogram", unitId: "unit/gold", perUnitId: "unit/kilogram" };
     if (resolveFactNumber(value, entity) !== null) append("value-per-kilogram", [value]);
@@ -117,7 +117,7 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
 /** Calculations read the current entity stats, never a preformatted source value. */
 export function resolveFactNumber(value: DisplayFactValue, entity: FactContext): number | null {
   if (value.computed === "recipe-count") {
-    return entity.relatedIds ? new Set(entity.relatedIds.filter(id => id.startsWith("recipe/"))).size : null;
+    return entity.relatedRecipes ? new Set(entity.relatedRecipes).size : null;
   }
   if (value.computed === "base-total" || value.computed === "max-total") {
     const prefix = value.computed === "base-total" ? "base" : "max";

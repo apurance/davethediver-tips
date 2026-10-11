@@ -8,6 +8,11 @@ import { Link } from "react-router";
 import { entityPath, getEntity } from "../catalog";
 import { EntityLink } from "./EntityLink";
 
+function recipeIngredientId(id: string, index: number) {
+  const entity = getEntity(id);
+  return entity?.type === "recipe" ? entity.ingredients[index]?.ingredientId : undefined;
+}
+
 export function RecipeSection({
   phase,
   onPlan,
@@ -101,7 +106,7 @@ export function RecipeSection({
               <div className="ingredient-mini">
                 {r.ingredients.map(([n, q], index) => (
                   <span key={n}>
-                    <EntityLink id={getEntity(r.entityId)?.ingredients?.[index]?.ingredientId ?? n} /> ×{q}
+                    <EntityLink id={recipeIngredientId(r.entityId, index) ?? n} /> ×{q}
                   </span>
                 ))}
               </div>
@@ -196,7 +201,7 @@ export function RecipeSection({
             </p>
             <p>
               <strong>一批用料：</strong>
-              {detail.ingredients.map(([n, q], index) => <span key={n}><EntityLink id={getEntity(detail.entityId)?.ingredients?.[index]?.ingredientId ?? n} /> ×{q}{index < detail.ingredients.length - 1 ? "、" : ""}</span>)}
+              {detail.ingredients.map(([n, q], index) => <span key={n}><EntityLink id={recipeIngredientId(detail.entityId, index) ?? n} /> ×{q}{index < detail.ingredients.length - 1 ? "、" : ""}</span>)}
             </p>
             <Alert
               type="info"
