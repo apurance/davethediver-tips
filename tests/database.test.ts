@@ -8,6 +8,10 @@ const db = load("database.json");
 const names: Record<string, string> = load("names.zh-CN.json");
 const all: Entity[] = [...db.recipes, ...db.ingredients, ...db.fish, ...db.staff];
 const byId = new Map(all.map(entity => [entity.id, entity]));
+// Stable field ID remains valid even when the user edits the Chinese label.
+const fishRecipeFieldId = "field/197666ffba0b";
+const declaredRecipes = (fish: Entity) => fish.facts.find(fact => fact.labelId === fishRecipeFieldId)
+  ?.values.flatMap(value => value.entityId?.startsWith("recipe/") ? [value.entityId] : []);
 
 test("every catalog identifier and translation reference resolves", () => {
   assert.equal(byId.size, all.length);
@@ -40,13 +44,42 @@ test("all recipe ingredients and source fish have working reverse links", () => 
     for (const fishId of ingredient.fishIds ?? []) {
       const fish = byId.get(fishId);
       assert.equal(fish?.type, "fish");
-      assert.ok(fish.relatedIds.includes(recipe.id), `${fishId}: ${recipe.id}`);
+      const declared = declaredRecipes(fish);
+      assert.equal(fish.relatedIds.includes(recipe.id), declared === undefined || declared.includes(recipe.id), `${fishId}: ${recipe.id}`);
       assert.ok(fish.relatedIds.includes(ingredient.id));
     }
   }
   for (const entity of all) for (const id of entity.relatedIds) {
     assert.ok(byId.has(id), `${entity.id}: ${id}`);
     assert.ok(byId.get(id)!.relatedIds.includes(entity.id), `Reverse link: ${entity.id}: ${id}`);
+  }
+});
+
+test("fish recipe links follow the declared recipe field and removed entries cannot resolve", () => {
+  for (const fish of db.fish as Entity[]) {
+    const declared = declaredRecipes(fish);
+    if (declared === undefined) continue;
+    assert.deepEqual(fish.relatedIds.filter(id => id.startsWith("recipe/")).sort(), [...new Set(declared)].sort(), fish.id);
+  }
+  const parrotfish = byId.get("fish/mediterranean-parrotfish")!;
+  assert.deepEqual(declaredRecipes(parrotfish)?.sort(), ["recipe/black-vinegar-braised-parrotfish", "recipe/mediterranean-parrotfish-sushi"]);
+  assert.ok(!byId.has("recipe/mediterranean-parrotfish-stewed"));
+  assert.ok(byId.has("recipe/black-vinegar-braised-parrotfish"));
+  // A recipe declared by another fish is retained; only the conflicting fish link is removed.
+  assert.ok(byId.has("recipe/trevally-sandwich"));
+  assert.ok(!byId.get("fish/bigeye-scad")!.relatedIds.includes("recipe/trevally-sandwich"));
+  assert.ok(byId.get("fish/giant-trevally")!.relatedIds.includes("recipe/trevally-sandwich"));
+  assert.ok(byId.has("recipe/godzilla-vs-ebirah-curry"));
+  assert.ok(!byId.get("fish/moray-eel")!.relatedIds.includes("recipe/godzilla-vs-ebirah-curry"));
+  assert.ok(byId.get("fish/european-lobster")!.relatedIds.includes("recipe/godzilla-vs-ebirah-curry"));
+  // Absence of the field is not evidence against vegetable, boss or newer recipes.
+  assert.ok(byId.has("recipe/vegetable-sushi"));
+  assert.ok(byId.has("recipe/boiled-mantis-shrimp-with-soy-paste"));
+  assert.ok(byId.has("recipe/bamboo-shoot-soup"));
+  for (const id of db.metadata.recipeCleanup.removedRecipeIds) {
+    assert.ok(!byId.has(id), id);
+    assert.ok(!(id in names), id);
+    assert.ok(!(id in db.aliases), id);
   }
 });
 

@@ -3,7 +3,7 @@
     "source": "https://davethediver.net/zh-hans/database/",
     "importedAt": "2026-10-11",
     "rawPageCount": 1312,
-    "aliasCount": 255,
+    "aliasCount": 253,
     "excluded": [
       "fish/aberrations",
       "fish/beluga-gyao",
@@ -32,7 +32,77 @@
       "fish/trumpetfish",
       "fish/whale-shark",
       "fish/yellowfin-puffer"
-    ]
+    ],
+    "recipeCleanup": {
+      "authorityFieldId": "field/197666ffba0b",
+      "removedRecipeIds": [
+        "recipe/atlantic-anglerfish-steamed",
+        "recipe/atlantic-mackerel-scramble",
+        "recipe/atlantic-mackerel-soba",
+        "recipe/bigeye-scad-grilled",
+        "recipe/bigeye-trevally-sushi",
+        "recipe/black-tiger-shrimp",
+        "recipe/capelin-turmeric-grilled",
+        "recipe/coral-trout-sea-grapes-rice-bowl",
+        "recipe/cuttle-fish-fried",
+        "recipe/deep-sea-tempura",
+        "recipe/dredge-sprouting-eel-crystal",
+        "recipe/dumbo-octopus-takoyaki",
+        "recipe/eastern-rock-lobster-steamed-egg",
+        "recipe/ebira-chasing-sashimi",
+        "recipe/ebira-godzilla-curry",
+        "recipe/eggplant-shrimp-fried",
+        "recipe/elephant-fish-fried",
+        "recipe/falcatus-miso-soup",
+        "recipe/fangtooth-fried",
+        "recipe/giant-trevally-pickled",
+        "recipe/green-humphead-parrotfish-curry",
+        "recipe/horsehair-crab",
+        "recipe/humboldt-squid-ink-pasta",
+        "recipe/jellyfish-salad",
+        "recipe/lagoon-triggerfish-sushi",
+        "recipe/longfin-bat-fish",
+        "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl",
+        "recipe/longspine-porcupinefish-seasoned",
+        "recipe/mediterranean-parrotfish-stewed",
+        "recipe/night-fish-bladderwrack-roll",
+        "recipe/porbeagle-shark-steamed",
+        "recipe/porcupine-puffer-soup",
+        "recipe/purple-sea-urchin-ricebowl",
+        "recipe/rainbow-cap-triggerfish-fishroll",
+        "recipe/ray-fin-grilled",
+        "recipe/red-fish-roll",
+        "recipe/red-lionfish-fried",
+        "recipe/red-norway-lobster-roasted",
+        "recipe/redtoothed-triggerfish-grilled",
+        "recipe/sail-fish-seaweed-boiled",
+        "recipe/sea-toad-cucumber",
+        "recipe/shrimp-menbosha",
+        "recipe/snailfish-stir-fried",
+        "recipe/snub-nosed-spiny-eel-grilled",
+        "recipe/spanish-mackerel-arancini",
+        "recipe/special-anomalocaris-shell-meat-steamed",
+        "recipe/squid-grilled",
+        "recipe/stargazer-miso-soup",
+        "recipe/stingray-sashimi-cold-noodles",
+        "recipe/striped-catfish-pie",
+        "recipe/tropical-fish-grilled",
+        "recipe/tropical-fish-sashimi",
+        "recipe/truffle-antarctic-octopus-grilled",
+        "recipe/truffle-blue-lobster-sliced",
+        "recipe/truffle-sea-urchin-sail-fish",
+        "recipe/underwater-godzilla-ramen",
+        "recipe/urchin-cucumber-salad",
+        "recipe/urchin-jellyfish-salad",
+        "recipe/urchin-tempura-set",
+        "recipe/waptia-fieldensis-seasoned",
+        "recipe/white-shrimp-ricebowl",
+        "recipe/whiteleg-shrimp",
+        "recipe/whiteleg-shrimp-mayo",
+        "recipe/yellowback-fusilier-boiled",
+        "recipe/zebra-shark"
+      ]
+    }
   },
   "aliases": {
     "fish/bean": "ingredient/bean",
@@ -154,7 +224,6 @@
     "recipe/barrel-jellyfish": "recipe/barrel-jellyfish-sushi",
     "recipe/barreleye": "recipe/barreleye-sushi",
     "recipe/bigeye-scad": "recipe/bigeye-scad-sushi",
-    "recipe/bigeye-trevally": "recipe/bigeye-trevally-sushi",
     "recipe/blackand-white-snapper": "recipe/b-and-w-snapper-sushi",
     "recipe/blackspot-seabream": "recipe/blackspot-seabream-sushi",
     "recipe/blacktip-reef-shark": "recipe/blacktip-reefshark-sushi",
@@ -285,7 +354,6 @@
     "recipe/rainbow-cap-snub-nosed-spiny-eel-skewer": "recipe/rainbow-cap-eel-skewers",
     "recipe/sally-lightfoot-crab-fried-rice": "recipe/fried-rice-with-sally-lightfoot-crab",
     "recipe/seahorse-fry": "recipe/fried-seahorses",
-    "recipe/stingray-cold-noodles": "recipe/stingray-sashimi-cold-noodles",
     "recipe/trevally-sand": "recipe/trevally-sandwich",
     "recipe/truffle-frilled-shark-sand": "recipe/truffle-shark-sandwich",
     "recipe/white-trevally-tangle-ochazuke": "recipe/white-trevally-kombu-ochazuke",
@@ -6881,110 +6949,6 @@
           "values": [
             {
               "nameId": "text/6441bef983ec"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/bigeye-trevally-sushi",
-      "type": "recipe",
-      "nameId": "recipe/bigeye-trevally-sushi",
-      "en": "Bigeye Trevally Sushi",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/bigeye-trevally-sushi/",
-        "https://davethediver.net/zh-hans/recipe/bigeye-trevally/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/bigeye-scad",
-        "ingredient/bigeye-trevally"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/bigeye-trevally",
-          "quantity": 1
-        }
-      ],
-      "stats": {
-        "basePrice": 19,
-        "maxPrice": 70,
-        "baseTaste": 17,
-        "maxTaste": 170,
-        "baseServings": 1,
-        "maxServings": 1
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/84a87cde9320",
-          "values": [
-            {
-              "text": "Bigeye Trevally"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ec39ba8def4a",
-          "values": [
-            {
-              "text": "19"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4670ff106041",
-          "values": [
-            {
-              "text": "17"
-            }
-          ]
-        },
-        {
-          "labelId": "field/289f7c0b53e0",
-          "values": [
-            {
-              "text": "1"
-            }
-          ]
-        },
-        {
-          "labelId": "field/824602745b8a",
-          "values": [
-            {
-              "text": "70"
-            }
-          ]
-        },
-        {
-          "labelId": "field/e2ecd3c950c3",
-          "values": [
-            {
-              "text": "170"
-            }
-          ]
-        },
-        {
-          "labelId": "field/297f2ccea73a",
-          "values": [
-            {
-              "text": "1"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4e7e03c59768",
-          "values": [
-            {
-              "nameId": "text/ecbdbdeeb330"
-            }
-          ]
-        },
-        {
-          "labelId": "field/52d5e795df50",
-          "values": [
-            {
-              "nameId": "text/909edb66330f"
             }
           ]
         }
@@ -14959,7 +14923,6 @@
       "inferred": false,
       "relatedIds": [
         "ingredient/giant-trevally-meat",
-        "fish/bigeye-scad",
         "ingredient/cucumber",
         "fish/giant-trevally",
         "ingredient/bigeye-trevally"
@@ -18992,7 +18955,6 @@
       "inferred": false,
       "relatedIds": [
         "fish/european-lobster",
-        "fish/moray-eel",
         "ingredient/turmeric",
         "ingredient/olive-oil",
         "ingredient/european-lobster",
@@ -27680,94 +27642,6 @@
       ]
     },
     {
-      "id": "recipe/lagoon-triggerfish-sushi",
-      "type": "recipe",
-      "nameId": "recipe/lagoon-triggerfish-sushi",
-      "en": "Lagoon Triggerfish Sushi",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/lagoon-triggerfish-sushi/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/lagoon-triggerfish",
-        "ingredient/lagoon-triggerfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/lagoon-triggerfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 7,
-        "maxPrice": 25,
-        "baseTaste": 12,
-        "maxTaste": 120,
-        "baseServings": 1,
-        "maxServings": 1
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/84a87cde9320",
-          "values": [
-            {
-              "nameId": "fish/lagoon-triggerfish",
-              "entityId": "fish/lagoon-triggerfish"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ec39ba8def4a",
-          "values": [
-            {
-              "text": "7"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4670ff106041",
-          "values": [
-            {
-              "text": "12"
-            }
-          ]
-        },
-        {
-          "labelId": "field/289f7c0b53e0",
-          "values": [
-            {
-              "text": "1"
-            }
-          ]
-        },
-        {
-          "labelId": "field/824602745b8a",
-          "values": [
-            {
-              "text": "25"
-            }
-          ]
-        },
-        {
-          "labelId": "field/e2ecd3c950c3",
-          "values": [
-            {
-              "text": "120"
-            }
-          ]
-        },
-        {
-          "labelId": "field/297f2ccea73a",
-          "values": [
-            {
-              "text": "1"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/longfin-batfish-sushi",
       "type": "recipe",
       "nameId": "recipe/longfin-batfish-sushi",
@@ -30863,104 +30737,6 @@
       ]
     },
     {
-      "id": "recipe/stingray-sashimi-cold-noodles",
-      "type": "recipe",
-      "nameId": "recipe/stingray-sashimi-cold-noodles",
-      "en": "Stingray Sashimi Cold Noodles",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/stingray-sashimi-cold-noodles/",
-        "https://davethediver.net/zh-hans/recipe/stingray-cold-noodles/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/stingray-meat",
-        "ingredient/buckwheat",
-        "ingredient/egg",
-        "fish/stingray"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/stingray-meat",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/buckwheat",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": 1
-        }
-      ],
-      "stats": {
-        "basePrice": 430,
-        "maxPrice": 1590,
-        "baseTaste": 160,
-        "maxTaste": 331,
-        "baseServings": 6,
-        "maxServings": 9
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/84a87cde9320",
-          "values": [
-            {
-              "text": "Complete Deliver Cold Noodles to Bartender"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ec39ba8def4a",
-          "values": [
-            {
-              "text": "430"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4670ff106041",
-          "values": [
-            {
-              "text": "160"
-            }
-          ]
-        },
-        {
-          "labelId": "field/289f7c0b53e0",
-          "values": [
-            {
-              "text": "6"
-            }
-          ]
-        },
-        {
-          "labelId": "field/824602745b8a",
-          "values": [
-            {
-              "text": "1590"
-            }
-          ]
-        },
-        {
-          "labelId": "field/e2ecd3c950c3",
-          "values": [
-            {
-              "text": "331"
-            }
-          ]
-        },
-        {
-          "labelId": "field/297f2ccea73a",
-          "values": [
-            {
-              "text": "9"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/stingray-sushi",
       "type": "recipe",
       "nameId": "recipe/stingray-sushi",
@@ -32681,77 +32457,6 @@
           "values": [
             {
               "nameId": "text/a9a71f2f1d5f"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/black-tiger-shrimp",
-      "type": "recipe",
-      "nameId": "recipe/black-tiger-shrimp",
-      "en": "Black Tiger Shrimp",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/black-tiger-shrimp/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/black-tiger-shrimp",
-        "ingredient/black-tiger-shrimp"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/black-tiger-shrimp",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 50,
-        "maxPrice": null,
-        "baseTaste": 24,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/e41bfc0de4bd"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "24"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4e7e03c59768",
-          "values": [
-            {
-              "nameId": "text/16d336975edc"
-            }
-          ]
-        },
-        {
-          "labelId": "field/52d5e795df50",
-          "values": [
-            {
-              "nameId": "text/234dc4ca9099"
             }
           ]
         }
@@ -36279,77 +35984,6 @@
       ]
     },
     {
-      "id": "recipe/dredge-sprouting-eel-crystal",
-      "type": "recipe",
-      "nameId": "recipe/dredge-sprouting-eel-crystal",
-      "en": "Dredge Sprouting Eel Crystal",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-sprouting-eel-crystal/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/sprouting-eel",
-        "ingredient/dredge-sprouting-eel"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-sprouting-eel",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 1040,
-        "maxPrice": null,
-        "baseTaste": 4,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/b399ca02cb5d"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "4"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "1"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4e7e03c59768",
-          "values": [
-            {
-              "nameId": "text/ecd18e40115f"
-            }
-          ]
-        },
-        {
-          "labelId": "field/52d5e795df50",
-          "values": [
-            {
-              "nameId": "text/8d4c84d866a4"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/dredge-translucent-sturgeon",
       "type": "recipe",
       "nameId": "recipe/dredge-translucent-sturgeon",
@@ -38140,77 +37774,6 @@
       ]
     },
     {
-      "id": "recipe/horsehair-crab",
-      "type": "recipe",
-      "nameId": "recipe/horsehair-crab",
-      "en": "Horsehair Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/horsehair-crab/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/horsehair-crab",
-        "ingredient/horsehair-crab"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/horsehair-crab",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 150,
-        "maxPrice": null,
-        "baseTaste": 45,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/e392be0c2f50"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "45"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4e7e03c59768",
-          "values": [
-            {
-              "nameId": "text/e41bfc0de4bd"
-            }
-          ]
-        },
-        {
-          "labelId": "field/52d5e795df50",
-          "values": [
-            {
-              "nameId": "text/3dcea1cda84b"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/horsehair-crab-sushi",
       "type": "recipe",
       "nameId": "recipe/horsehair-crab-sushi",
@@ -38702,77 +38265,6 @@
           "values": [
             {
               "nameId": "text/ecbdbdeeb330"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/longfin-bat-fish",
-      "type": "recipe",
-      "nameId": "recipe/longfin-bat-fish",
-      "en": "Longfin Bat Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/longfin-bat-fish/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/longfin-batfish",
-        "ingredient/longfin-batfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/longfin-batfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 10,
-        "maxPrice": null,
-        "baseTaste": 13,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/bb240f734e59"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "13"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4e7e03c59768",
-          "values": [
-            {
-              "nameId": "text/20b72e373992"
-            }
-          ]
-        },
-        {
-          "labelId": "field/52d5e795df50",
-          "values": [
-            {
-              "nameId": "text/fb411e98fe20"
             }
           ]
         }
@@ -40768,82 +40260,6 @@
       ]
     },
     {
-      "id": "recipe/sea-toad-cucumber",
-      "type": "recipe",
-      "nameId": "recipe/sea-toad-cucumber",
-      "en": "Sea Toad Cucumber",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/sea-toad-cucumber/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/sea-toad",
-        "ingredient/cucumber",
-        "ingredient/sea-toad"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/sea-toad",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/cucumber",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 320,
-        "maxPrice": null,
-        "baseTaste": 160,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/5a86d1db2f2b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "160"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4e7e03c59768",
-          "values": [
-            {
-              "nameId": "text/0e34caa3472b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/52d5e795df50",
-          "values": [
-            {
-              "nameId": "text/0e88b1974efe"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/seahorse-roasted",
       "type": "recipe",
       "nameId": "recipe/seahorse-roasted",
@@ -41947,77 +41363,6 @@
       ]
     },
     {
-      "id": "recipe/whiteleg-shrimp",
-      "type": "recipe",
-      "nameId": "recipe/whiteleg-shrimp",
-      "en": "Whiteleg Shrimp",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/whiteleg-shrimp/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/whiteleg-shrimp",
-        "ingredient/whiteleg-shrimp"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/whiteleg-shrimp",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 35,
-        "maxPrice": null,
-        "baseTaste": 22,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/d5f707a47da8"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "22"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4e7e03c59768",
-          "values": [
-            {
-              "nameId": "text/6441bef983ec"
-            }
-          ]
-        },
-        {
-          "labelId": "field/52d5e795df50",
-          "values": [
-            {
-              "nameId": "text/6726b8c1330f"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/whitetip-reefshark-roast",
       "type": "recipe",
       "nameId": "recipe/whitetip-reefshark-roast",
@@ -42163,77 +41508,6 @@
       ]
     },
     {
-      "id": "recipe/zebra-shark",
-      "type": "recipe",
-      "nameId": "recipe/zebra-shark",
-      "en": "Zebra Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/zebra-shark/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/meat-zebra-shark",
-        "fish/zebra-shark"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-zebra-shark",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 108,
-        "maxPrice": null,
-        "baseTaste": 36,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/d1c4ad02260e"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "36"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        },
-        {
-          "labelId": "field/4e7e03c59768",
-          "values": [
-            {
-              "nameId": "text/c7ba5e4233b2"
-            }
-          ]
-        },
-        {
-          "labelId": "field/52d5e795df50",
-          "values": [
-            {
-              "nameId": "text/f47d09c100fa"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/alligator-gar-durian-head-curry",
       "type": "recipe",
       "nameId": "recipe/alligator-gar-durian-head-curry",
@@ -42361,207 +41635,6 @@
           "values": [
             {
               "text": "59"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/atlantic-anglerfish-steamed",
-      "type": "recipe",
-      "nameId": "recipe/atlantic-anglerfish-steamed",
-      "en": "Atlantic Anglerfish Steamed",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/atlantic-anglerfish-steamed/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/atlantic-anglerfish",
-        "ingredient/hyalonema",
-        "ingredient/soy-sauce",
-        "ingredient/atlantic-anglerfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/atlantic-anglerfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/hyalonema",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 750,
-        "maxPrice": null,
-        "baseTaste": 180,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/9cb234b492b5"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "180"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/atlantic-mackerel-scramble",
-      "type": "recipe",
-      "nameId": "recipe/atlantic-mackerel-scramble",
-      "en": "Atlantic Mackerel Scramble",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/atlantic-mackerel-scramble/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/atlantic-mackerel",
-        "ingredient/flour",
-        "ingredient/egg",
-        "ingredient/atlantic-mackerel"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/atlantic-mackerel",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 387,
-        "maxPrice": null,
-        "baseTaste": 145,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/4b2fffabacf9"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "145"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/atlantic-mackerel-soba",
-      "type": "recipe",
-      "nameId": "recipe/atlantic-mackerel-soba",
-      "en": "Atlantic Mackerel Soba",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/atlantic-mackerel-soba/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/atlantic-mackerel",
-        "ingredient/buckwheat",
-        "fish/wakame",
-        "ingredient/soy-sauce",
-        "ingredient/atlantic-mackerel",
-        "ingredient/wakame"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/atlantic-mackerel",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/buckwheat",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/wakame",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 425,
-        "maxPrice": null,
-        "baseTaste": 170,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/a0add5f7d943"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "170"
             }
           ]
         },
@@ -42999,71 +42072,6 @@
           "values": [
             {
               "nameId": "text/8e32c3f7c531"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/bigeye-scad-grilled",
-      "type": "recipe",
-      "nameId": "recipe/bigeye-scad-grilled",
-      "en": "Bigeye Scad Grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/bigeye-scad-grilled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/bigeye-scad",
-        "ingredient/miso",
-        "ingredient/sesame-seed",
-        "ingredient/bigeye-scad"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/bigeye-scad",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/miso",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/sesame-seed",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 185,
-        "maxPrice": null,
-        "baseTaste": 114,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/4c201e48e496"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "114"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
             }
           ]
         }
@@ -44004,71 +43012,6 @@
       ]
     },
     {
-      "id": "recipe/capelin-turmeric-grilled",
-      "type": "recipe",
-      "nameId": "recipe/capelin-turmeric-grilled",
-      "en": "Capelin Turmeric Grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/capelin-turmeric-grilled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/capelin",
-        "ingredient/black-coral",
-        "ingredient/turmeric",
-        "ingredient/capelin"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/capelin",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/black-coral",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/turmeric",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 390,
-        "maxPrice": null,
-        "baseTaste": 138,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/9d62f949ff1b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "138"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/catfish-mix-fried",
       "type": "recipe",
       "nameId": "recipe/catfish-mix-fried",
@@ -44275,76 +43218,6 @@
       ]
     },
     {
-      "id": "recipe/coral-trout-sea-grapes-rice-bowl",
-      "type": "recipe",
-      "nameId": "recipe/coral-trout-sea-grapes-rice-bowl",
-      "en": "Coral Trout Sea Grapes Rice Bowl",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/coral-trout-sea-grapes-rice-bowl/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/coral-trout",
-        "ingredient/sea-grape",
-        "ingredient/rice",
-        "ingredient/soy-sauce",
-        "ingredient/coral-trout"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/coral-trout",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/sea-grape",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 175,
-        "maxPrice": null,
-        "baseTaste": 110,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/c75c0ed2ad31"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "110"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/crayfish-sambal-stir-fried",
       "type": "recipe",
       "nameId": "recipe/crayfish-sambal-stir-fried",
@@ -44396,149 +43269,6 @@
           "values": [
             {
               "text": "13"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/cuttle-fish-fried",
-      "type": "recipe",
-      "nameId": "recipe/cuttle-fish-fried",
-      "en": "Cuttle Fish Fried",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/cuttle-fish-fried/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/cuttlefish",
-        "ingredient/onion",
-        "ingredient/olive-oil",
-        "ingredient/salt",
-        "ingredient/cuttlefish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/cuttlefish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/onion",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/salt",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 153,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "153"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/deep-sea-tempura",
-      "type": "recipe",
-      "nameId": "recipe/deep-sea-tempura",
-      "en": "Deep Sea Tempura",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/deep-sea-tempura/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/cookiecutter-shark",
-        "fish/vampire-squid",
-        "fish/barreleye",
-        "fish/tangle",
-        "ingredient/cookiecutter-shark",
-        "ingredient/vampire-squid",
-        "ingredient/barreleye",
-        "ingredient/tangle"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/cookiecutter-shark",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/vampire-squid",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/barreleye",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/tangle",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 395,
-        "maxPrice": null,
-        "baseTaste": 140,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/1511be9728e9"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "140"
             }
           ]
         },
@@ -44622,71 +43352,6 @@
       ]
     },
     {
-      "id": "recipe/dumbo-octopus-takoyaki",
-      "type": "recipe",
-      "nameId": "recipe/dumbo-octopus-takoyaki",
-      "en": "Dumbo Octopus Takoyaki",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dumbo-octopus-takoyaki/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/dumbo-octopus",
-        "ingredient/flour",
-        "ingredient/mayonnaise",
-        "ingredient/dumbo-octopus"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dumbo-octopus",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/mayonnaise",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 420,
-        "maxPrice": null,
-        "baseTaste": 156,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/66e43db4eadb"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "156"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/eagle-shark-stew",
       "type": "recipe",
       "nameId": "recipe/eagle-shark-stew",
@@ -44743,209 +43408,6 @@
           "values": [
             {
               "text": "76"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/eastern-rock-lobster-steamed-egg",
-      "type": "recipe",
-      "nameId": "recipe/eastern-rock-lobster-steamed-egg",
-      "en": "Eastern Rock Lobster Steamed Egg",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/eastern-rock-lobster-steamed-egg/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/eastern-rock-lobster",
-        "ingredient/egg",
-        "fish/tangle",
-        "ingredient/eastern-rock-lobster",
-        "ingredient/tangle"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/eastern-rock-lobster",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/tangle",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 380,
-        "maxPrice": null,
-        "baseTaste": 140,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/7de83dd01655"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "140"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/ebira-chasing-sashimi",
-      "type": "recipe",
-      "nameId": "recipe/ebira-chasing-sashimi",
-      "en": "Ebira Chasing Sashimi",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/ebira-chasing-sashimi/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/california-spiny-lobster",
-        "fish/barreleye",
-        "ingredient/sea-grape",
-        "ingredient/california-spiny-lobster",
-        "ingredient/barreleye"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/california-spiny-lobster",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/barreleye",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/sea-grape",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 340,
-        "maxPrice": null,
-        "baseTaste": 130,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/dcb66d7151c1"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "130"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/ebira-godzilla-curry",
-      "type": "recipe",
-      "nameId": "recipe/ebira-godzilla-curry",
-      "en": "Ebira Godzilla Curry",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/ebira-godzilla-curry/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/european-lobster",
-        "fish/moray-eel",
-        "ingredient/turmeric",
-        "ingredient/olive-oil",
-        "ingredient/european-lobster",
-        "ingredient/moray-eel"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/european-lobster",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/moray-eel",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/turmeric",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 370,
-        "maxPrice": null,
-        "baseTaste": 140,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/e393e4b3ce60"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "140"
             }
           ]
         },
@@ -45095,77 +43557,6 @@
       ]
     },
     {
-      "id": "recipe/eggplant-shrimp-fried",
-      "type": "recipe",
-      "nameId": "recipe/eggplant-shrimp-fried",
-      "en": "Eggplant Shrimp Fried",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/eggplant-shrimp-fried/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/black-tiger-shrimp",
-        "fish/whiteleg-shrimp",
-        "ingredient/eggplant",
-        "ingredient/olive-oil",
-        "ingredient/black-tiger-shrimp",
-        "ingredient/whiteleg-shrimp"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/black-tiger-shrimp",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/whiteleg-shrimp",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/eggplant",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 145,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "145"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/electric-eel-pineapple-stir-fried",
       "type": "recipe",
       "nameId": "recipe/electric-eel-pineapple-stir-fried",
@@ -45222,218 +43613,6 @@
           "values": [
             {
               "text": "43"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/elephant-fish-fried",
-      "type": "recipe",
-      "nameId": "recipe/elephant-fish-fried",
-      "en": "Elephant Fish Fried",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/elephant-fish-fried/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/blacktip-shark-meat",
-        "ingredient/meat-copper-shark",
-        "ingredient/flour",
-        "ingredient/olive-oil",
-        "fish/copper-shark"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/blacktip-shark-meat",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/meat-copper-shark",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 155,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "155"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/falcatus-miso-soup",
-      "type": "recipe",
-      "nameId": "recipe/falcatus-miso-soup",
-      "en": "Falcatus Miso Soup",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/falcatus-miso-soup/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/falcatus",
-        "fish/wakame",
-        "fish/umbellula",
-        "ingredient/miso",
-        "ingredient/falcatus",
-        "ingredient/wakame",
-        "ingredient/umbellula"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/falcatus",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/wakame",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/umbellula",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/miso",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 420,
-        "maxPrice": null,
-        "baseTaste": 130,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/66e43db4eadb"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "130"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/fangtooth-fried",
-      "type": "recipe",
-      "nameId": "recipe/fangtooth-fried",
-      "en": "Fangtooth Fried",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/fangtooth-fried/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/fangtooth",
-        "ingredient/chili-pepper",
-        "ingredient/bladderwrack",
-        "ingredient/olive-oil",
-        "ingredient/fangtooth"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/fangtooth",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/chili-pepper",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/bladderwrack",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 410,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/2511a2d0bdb2"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "150"
             }
           ]
         },
@@ -45778,76 +43957,6 @@
       ]
     },
     {
-      "id": "recipe/giant-trevally-pickled",
-      "type": "recipe",
-      "nameId": "recipe/giant-trevally-pickled",
-      "en": "Giant Trevally Pickled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/giant-trevally-pickled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/white-trevally",
-        "ingredient/onion",
-        "ingredient/soy-sauce",
-        "ingredient/olive-oil",
-        "ingredient/white-trevally"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/white-trevally",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/onion",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 145,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "145"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/goliath-tigerfish-salad",
       "type": "recipe",
       "nameId": "recipe/goliath-tigerfish-salad",
@@ -46125,71 +44234,6 @@
       ]
     },
     {
-      "id": "recipe/green-humphead-parrotfish-curry",
-      "type": "recipe",
-      "nameId": "recipe/green-humphead-parrotfish-curry",
-      "en": "Green Humphead Parrotfish Curry",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/green-humphead-parrotfish-curry/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/meat-green-humphead-parrotfish",
-        "ingredient/onion",
-        "ingredient/turmeric",
-        "fish/green-humphead-parrotfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-green-humphead-parrotfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/onion",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/turmeric",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 375,
-        "maxPrice": null,
-        "baseTaste": 140,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/54ed4e0c7c1b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "140"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/hindleg-mix-fried",
       "type": "recipe",
       "nameId": "recipe/hindleg-mix-fried",
@@ -46259,77 +44303,6 @@
       ]
     },
     {
-      "id": "recipe/humboldt-squid-ink-pasta",
-      "type": "recipe",
-      "nameId": "recipe/humboldt-squid-ink-pasta",
-      "en": "Humboldt Squid Ink Pasta",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/humboldt-squid-ink-pasta/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/meat-humboldt-squid",
-        "fish/white-shrimp",
-        "ingredient/flour",
-        "ingredient/garlic",
-        "fish/humboldt-squid",
-        "ingredient/white-shrimp"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-humboldt-squid",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/white-shrimp",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/garlic",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 420,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/66e43db4eadb"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "150"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/indonesian-tiger-perch-sate",
       "type": "recipe",
       "nameId": "recipe/indonesian-tiger-perch-sate",
@@ -46381,77 +44354,6 @@
           "values": [
             {
               "text": "26"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/jellyfish-salad",
-      "type": "recipe",
-      "nameId": "recipe/jellyfish-salad",
-      "en": "Jellyfish Salad",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/jellyfish-salad/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/barrel-jellyfish",
-        "fish/fried-egg-jellyfish",
-        "ingredient/garlic",
-        "ingredient/black-coral",
-        "ingredient/barrel-jellyfish",
-        "ingredient/fried-egg-jellyfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/barrel-jellyfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/fried-egg-jellyfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/garlic",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/black-coral",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 163,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "163"
             }
           ]
         },
@@ -46785,143 +44687,6 @@
       ]
     },
     {
-      "id": "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl",
-      "type": "recipe",
-      "nameId": "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl",
-      "en": "Longfin Bat Fish Juvenile Circular Bat Fish Rice Bowl",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/longfin-batfish",
-        "fish/juvenile-circular-bat-fish",
-        "ingredient/rice",
-        "ingredient/egg",
-        "ingredient/longfin-batfish",
-        "ingredient/juvenile-circular-bat-fish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/longfin-batfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/juvenile-circular-bat-fish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "150"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/longspine-porcupinefish-seasoned",
-      "type": "recipe",
-      "nameId": "recipe/longspine-porcupinefish-seasoned",
-      "en": "Longspine Porcupinefish Seasoned",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/longspine-porcupinefish-seasoned/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/longspine-porcupinefish",
-        "fish/tangle",
-        "ingredient/black-vinegar",
-        "ingredient/longspine-porcupinefish",
-        "ingredient/tangle"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/longspine-porcupinefish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/tangle",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/black-vinegar",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 180,
-        "maxPrice": null,
-        "baseTaste": 140,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/7df1a5b4aa5b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "140"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/mangosteen-coconut-dessert",
       "type": "recipe",
       "nameId": "recipe/mangosteen-coconut-dessert",
@@ -46967,71 +44732,6 @@
           "values": [
             {
               "text": "20"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/mediterranean-parrotfish-stewed",
-      "type": "recipe",
-      "nameId": "recipe/mediterranean-parrotfish-stewed",
-      "en": "Mediterranean Parrotfish Stewed",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/mediterranean-parrotfish-stewed/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/mediterranean-parrotfish",
-        "ingredient/carrot",
-        "ingredient/black-vinegar",
-        "ingredient/mediterranean-parrotfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/mediterranean-parrotfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/carrot",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/black-vinegar",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 385,
-        "maxPrice": null,
-        "baseTaste": 136,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/7bdfe8b1af78"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "136"
             }
           ]
         },
@@ -47097,78 +44797,6 @@
           "values": [
             {
               "text": "23"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/night-fish-bladderwrack-roll",
-      "type": "recipe",
-      "nameId": "recipe/night-fish-bladderwrack-roll",
-      "en": "Night Fish Bladderwrack Roll",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/night-fish-bladderwrack-roll/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/longspine-squirrelfish",
-        "fish/clearfin-lionfish",
-        "fish/blackfin-barracuda",
-        "ingredient/bladderwrack",
-        "ingredient/longspine-squirrelfish",
-        "ingredient/clearfin-lionfish",
-        "ingredient/blackfin-barracuda"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/longspine-squirrelfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/clearfin-lionfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/blackfin-barracuda",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/bladderwrack",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 405,
-        "maxPrice": null,
-        "baseTaste": 135,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/4a0aa6261eea"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "135"
             }
           ]
         },
@@ -47659,142 +45287,6 @@
       ]
     },
     {
-      "id": "recipe/porbeagle-shark-steamed",
-      "type": "recipe",
-      "nameId": "recipe/porbeagle-shark-steamed",
-      "en": "Porbeagle Shark Steamed",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/porbeagle-shark-steamed/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/meat-porbeagle-shark",
-        "ingredient/black-vinegar",
-        "ingredient/black-pepper",
-        "fish/porbeagle-shark"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-porbeagle-shark",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/black-vinegar",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/black-pepper",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 143,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "143"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/porcupine-puffer-soup",
-      "type": "recipe",
-      "nameId": "recipe/porcupine-puffer-soup",
-      "en": "Porcupine Puffer Soup",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/porcupine-puffer-soup/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/longspine-porcupinefish",
-        "fish/stellate-puffer",
-        "ingredient/egg",
-        "ingredient/bladderwrack",
-        "ingredient/longspine-porcupinefish",
-        "ingredient/stellate-puffer"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/longspine-porcupinefish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/stellate-puffer",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/bladderwrack",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 420,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/66e43db4eadb"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "150"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/premium-fruit-salad",
       "type": "recipe",
       "nameId": "recipe/premium-fruit-salad",
@@ -47850,352 +45342,6 @@
           "values": [
             {
               "text": "41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/purple-sea-urchin-ricebowl",
-      "type": "recipe",
-      "nameId": "recipe/purple-sea-urchin-ricebowl",
-      "en": "Purple Sea Urchin Ricebowl",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/purple-sea-urchin-ricebowl/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/purple-sea-urchin",
-        "ingredient/rice",
-        "ingredient/sesame-seed",
-        "ingredient/purple-sea-urchin"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/purple-sea-urchin",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/sesame-seed",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 385,
-        "maxPrice": null,
-        "baseTaste": 140,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/7bdfe8b1af78"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "140"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/rainbow-cap-triggerfish-fishroll",
-      "type": "recipe",
-      "nameId": "recipe/rainbow-cap-triggerfish-fishroll",
-      "en": "Rainbow Cap Triggerfish Fishroll",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/rainbow-cap-triggerfish-fishroll/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/reef-triggerfish",
-        "fish/grey-triggerfish",
-        "ingredient/rainbow-cap",
-        "fish/wakame",
-        "ingredient/reef-triggerfish",
-        "ingredient/grey-triggerfish",
-        "ingredient/wakame"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/reef-triggerfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/grey-triggerfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/rainbow-cap",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/wakame",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 705,
-        "maxPrice": null,
-        "baseTaste": 180,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/9b24aea0bd1c"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "180"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/ray-fin-grilled",
-      "type": "recipe",
-      "nameId": "recipe/ray-fin-grilled",
-      "en": "Ray Fin Grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/ray-fin-grilled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/antarctic-starry-skate",
-        "ingredient/meat-red-stingray",
-        "ingredient/meat-marbled-electric-ray",
-        "ingredient/salt",
-        "ingredient/antarctic-starry-skate",
-        "fish/red-stingray",
-        "fish/marbled-electric-ray"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/antarctic-starry-skate",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/meat-red-stingray",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/meat-marbled-electric-ray",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/salt",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 180,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "180"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/red-fish-roll",
-      "type": "recipe",
-      "nameId": "recipe/red-fish-roll",
-      "en": "Red Fish Roll",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/red-fish-roll/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/warty-frogfish",
-        "fish/red-bream",
-        "ingredient/meat-rhinochimaeridae",
-        "ingredient/warty-frogfish",
-        "ingredient/red-bream",
-        "fish/rhinochimaeridae"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/warty-frogfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/red-bream",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/meat-rhinochimaeridae",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 168,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "168"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/red-lionfish-fried",
-      "type": "recipe",
-      "nameId": "recipe/red-lionfish-fried",
-      "en": "Red Lionfish Fried",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/red-lionfish-fried/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/red-lionfish",
-        "ingredient/flour",
-        "ingredient/olive-oil",
-        "ingredient/black-pepper",
-        "ingredient/red-lionfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/red-lionfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/black-pepper",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 390,
-        "maxPrice": null,
-        "baseTaste": 132,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/9d62f949ff1b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "132"
             }
           ]
         },
@@ -48271,131 +45417,6 @@
       ]
     },
     {
-      "id": "recipe/red-norway-lobster-roasted",
-      "type": "recipe",
-      "nameId": "recipe/red-norway-lobster-roasted",
-      "en": "Red Norway Lobster Roasted",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/red-norway-lobster-roasted/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/norway-lobster",
-        "ingredient/chili-pepper",
-        "ingredient/olive-oil",
-        "ingredient/norway-lobster"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/norway-lobster",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/chili-pepper",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 390,
-        "maxPrice": null,
-        "baseTaste": 140,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/9d62f949ff1b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "140"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/redtoothed-triggerfish-grilled",
-      "type": "recipe",
-      "nameId": "recipe/redtoothed-triggerfish-grilled",
-      "en": "Redtoothed Triggerfish Grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/redtoothed-triggerfish-grilled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/redtoothed-triggerfish",
-        "ingredient/salt",
-        "ingredient/redtoothed-triggerfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/redtoothed-triggerfish",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/salt",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 48,
-        "maxPrice": null,
-        "baseTaste": 70,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/1cfe11615eab"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "70"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/sacabambaspis-sate",
       "type": "recipe",
       "nameId": "recipe/sacabambaspis-sate",
@@ -48452,76 +45473,6 @@
           "values": [
             {
               "text": "46"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/sail-fish-seaweed-boiled",
-      "type": "recipe",
-      "nameId": "recipe/sail-fish-seaweed-boiled",
-      "en": "Sail Fish Seaweed Boiled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/sail-fish-seaweed-boiled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/meat-sail-fish",
-        "ingredient/durvillaea",
-        "ingredient/kajime",
-        "ingredient/soy-sauce",
-        "fish/sailfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-sail-fish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/durvillaea",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/kajime",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 425,
-        "maxPrice": null,
-        "baseTaste": 138,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/a0add5f7d943"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "138"
             }
           ]
         },
@@ -48849,148 +45800,6 @@
       ]
     },
     {
-      "id": "recipe/shrimp-menbosha",
-      "type": "recipe",
-      "nameId": "recipe/shrimp-menbosha",
-      "en": "Shrimp Menbosha",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/shrimp-menbosha/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/black-tiger-shrimp",
-        "fish/whiteleg-shrimp",
-        "ingredient/flour",
-        "ingredient/olive-oil",
-        "ingredient/black-tiger-shrimp",
-        "ingredient/whiteleg-shrimp"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/black-tiger-shrimp",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/whiteleg-shrimp",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 375,
-        "maxPrice": null,
-        "baseTaste": 125,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/54ed4e0c7c1b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "125"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/snailfish-stir-fried",
-      "type": "recipe",
-      "nameId": "recipe/snailfish-stir-fried",
-      "en": "Snailfish Stir Fried",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/snailfish-stir-fried/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/gelatinous-snailfish",
-        "fish/salmon-snailfish",
-        "ingredient/bean",
-        "ingredient/cherry-tomato",
-        "ingredient/gelatinous-snailfish",
-        "ingredient/salmon-snailfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/gelatinous-snailfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/salmon-snailfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/bean",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/cherry-tomato",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 390,
-        "maxPrice": null,
-        "baseTaste": 110,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/9d62f949ff1b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "110"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/snake-mix-spicy-soup",
       "type": "recipe",
       "nameId": "recipe/snake-mix-spicy-soup",
@@ -49056,206 +45865,6 @@
           "values": [
             {
               "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/snub-nosed-spiny-eel-grilled",
-      "type": "recipe",
-      "nameId": "recipe/snub-nosed-spiny-eel-grilled",
-      "en": "Snub Nosed Spiny Eel grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/snub-nosed-spiny-eel-grilled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/snub-nosed-spiny-eel",
-        "ingredient/chili-pepper",
-        "ingredient/kajime",
-        "ingredient/soy-sauce",
-        "ingredient/snub-nosed-spiny-eel"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/snub-nosed-spiny-eel",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/chili-pepper",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/kajime",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 425,
-        "maxPrice": null,
-        "baseTaste": 155,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/a0add5f7d943"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "155"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/spanish-mackerel-arancini",
-      "type": "recipe",
-      "nameId": "recipe/spanish-mackerel-arancini",
-      "en": "Spanish Mackerel Arancini",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/spanish-mackerel-arancini/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/narrow-barred-spanish-mackerel",
-        "ingredient/egg",
-        "ingredient/rice",
-        "ingredient/garlic",
-        "ingredient/narrow-barred-spanish-mackerel"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/narrow-barred-spanish-mackerel",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/garlic",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 390,
-        "maxPrice": null,
-        "baseTaste": 130,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/9d62f949ff1b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "130"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/special-anomalocaris-shell-meat-steamed",
-      "type": "recipe",
-      "nameId": "recipe/special-anomalocaris-shell-meat-steamed",
-      "en": "Special Anomalocaris Shell Meat Steamed",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/special-anomalocaris-shell-meat-steamed/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/anomalocaris",
-        "ingredient/salt",
-        "ingredient/special-anomalocaris-shell-meat"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-anomalocaris-shell-meat",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/salt",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 750,
-        "maxPrice": null,
-        "baseTaste": 180,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/9cb234b492b5"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "180"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "1"
             }
           ]
         }
@@ -50144,78 +46753,6 @@
       ]
     },
     {
-      "id": "recipe/squid-grilled",
-      "type": "recipe",
-      "nameId": "recipe/squid-grilled",
-      "en": "Squid Grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/squid-grilled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/peacock-squid",
-        "fish/vampire-squid",
-        "fish/cuttlefish",
-        "ingredient/salt",
-        "ingredient/peacock-squid",
-        "ingredient/vampire-squid",
-        "ingredient/cuttlefish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/peacock-squid",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/vampire-squid",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/cuttlefish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/salt",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 155,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "155"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/squid-mix-stir-fried",
       "type": "recipe",
       "nameId": "recipe/squid-mix-stir-fried",
@@ -50273,147 +46810,6 @@
           "values": [
             {
               "text": "72"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/stargazer-miso-soup",
-      "type": "recipe",
-      "nameId": "recipe/stargazer-miso-soup",
-      "en": "Stargazer Miso Soup",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/stargazer-miso-soup/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/meat-narwhal",
-        "ingredient/carrot",
-        "fish/umbellula",
-        "ingredient/miso",
-        "fish/narwhal",
-        "ingredient/umbellula"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-narwhal",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/carrot",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/umbellula",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/miso",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "150"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/striped-catfish-pie",
-      "type": "recipe",
-      "nameId": "recipe/striped-catfish-pie",
-      "en": "Striped Catfish Pie",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/striped-catfish-pie/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/striped-catfish",
-        "ingredient/flour",
-        "ingredient/onion",
-        "ingredient/bean",
-        "ingredient/striped-catfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/striped-catfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/onion",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/bean",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 385,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/7bdfe8b1af78"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "150"
             }
           ]
         },
@@ -50827,150 +47223,6 @@
       ]
     },
     {
-      "id": "recipe/tropical-fish-grilled",
-      "type": "recipe",
-      "nameId": "recipe/tropical-fish-grilled",
-      "en": "Tropical Fish Grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/tropical-fish-grilled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/clownfish",
-        "fish/pyramid-butterflyfish",
-        "fish/blue-tang",
-        "ingredient/garlic",
-        "ingredient/clownfish",
-        "ingredient/pyramid-butterflyfish",
-        "ingredient/blue-tang"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/clownfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/pyramid-butterflyfish",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/blue-tang",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/garlic",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 173,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "173"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/tropical-fish-sashimi",
-      "type": "recipe",
-      "nameId": "recipe/tropical-fish-sashimi",
-      "en": "Tropical Fish Sashimi",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/tropical-fish-sashimi/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/titan-triggerfish",
-        "fish/harlequin-hind",
-        "fish/coral-trout",
-        "ingredient/rice",
-        "ingredient/titan-triggerfish",
-        "ingredient/harlequin-hind",
-        "ingredient/coral-trout"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/titan-triggerfish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/harlequin-hind",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/coral-trout",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 375,
-        "maxPrice": null,
-        "baseTaste": 130,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/54ed4e0c7c1b"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "130"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/tropical-fish-steamed",
       "type": "recipe",
       "nameId": "recipe/tropical-fish-steamed",
@@ -51112,71 +47364,6 @@
       ]
     },
     {
-      "id": "recipe/truffle-antarctic-octopus-grilled",
-      "type": "recipe",
-      "nameId": "recipe/truffle-antarctic-octopus-grilled",
-      "en": "Truffle Antarctic Octopus Grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/truffle-antarctic-octopus-grilled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/antarctic-octopus",
-        "ingredient/kajime",
-        "ingredient/truffle",
-        "ingredient/antarctic-octopus"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/antarctic-octopus",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/kajime",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/truffle",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 770,
-        "maxPrice": null,
-        "baseTaste": 185,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/f213c0a8abb5"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "185"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "5"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/truffle-asian-sheepshead-steamed",
       "type": "recipe",
       "nameId": "recipe/truffle-asian-sheepshead-steamed",
@@ -51229,132 +47416,6 @@
           "values": [
             {
               "text": "180"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/truffle-blue-lobster-sliced",
-      "type": "recipe",
-      "nameId": "recipe/truffle-blue-lobster-sliced",
-      "en": "Truffle Blue Lobster Sliced",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/truffle-blue-lobster-sliced/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/blue-lobster",
-        "ingredient/truffle",
-        "ingredient/blue-lobster"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/blue-lobster",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/truffle",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 780,
-        "maxPrice": null,
-        "baseTaste": 190,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/da4d98d36fb1"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "190"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/truffle-sea-urchin-sail-fish",
-      "type": "recipe",
-      "nameId": "recipe/truffle-sea-urchin-sail-fish",
-      "en": "Truffle Sea Urchin Sail Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/truffle-sea-urchin-sail-fish/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "ingredient/meat-sail-fish",
-        "fish/purple-sea-urchin",
-        "ingredient/truffle",
-        "fish/sailfish",
-        "ingredient/purple-sea-urchin"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-sail-fish",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/purple-sea-urchin",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/truffle",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 785,
-        "maxPrice": null,
-        "baseTaste": 195,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/10f32d106695"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "195"
             }
           ]
         },
@@ -51568,275 +47629,6 @@
       ]
     },
     {
-      "id": "recipe/underwater-godzilla-ramen",
-      "type": "recipe",
-      "nameId": "recipe/underwater-godzilla-ramen",
-      "en": "Underwater Godzilla Ramen",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/underwater-godzilla-ramen/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/comb-jelly",
-        "fish/wakame",
-        "ingredient/miso",
-        "ingredient/comb-jelly",
-        "ingredient/wakame"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/comb-jelly",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/wakame",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/miso",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 350,
-        "maxPrice": null,
-        "baseTaste": 140,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/a2c24eee1744"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "140"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/urchin-cucumber-salad",
-      "type": "recipe",
-      "nameId": "recipe/urchin-cucumber-salad",
-      "en": "Urchin Cucumber Salad",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/urchin-cucumber-salad/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/green-sea-urchin",
-        "ingredient/cucumber",
-        "fish/umbellula",
-        "ingredient/green-sea-urchin",
-        "ingredient/umbellula"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/green-sea-urchin",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/cucumber",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/umbellula",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 700,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/485de8161488"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "150"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/urchin-jellyfish-salad",
-      "type": "recipe",
-      "nameId": "recipe/urchin-jellyfish-salad",
-      "en": "Urchin Jellyfish Salad",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/urchin-jellyfish-salad/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/green-sea-urchin",
-        "fish/box-jellyfish",
-        "ingredient/sea-grape",
-        "ingredient/green-sea-urchin",
-        "ingredient/box-jellyfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/green-sea-urchin",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/box-jellyfish",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/sea-grape",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 685,
-        "maxPrice": null,
-        "baseTaste": 145,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/1bedd9d95c01"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "145"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/urchin-tempura-set",
-      "type": "recipe",
-      "nameId": "recipe/urchin-tempura-set",
-      "en": "Urchin Tempura Set",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/urchin-tempura-set/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/green-sea-urchin",
-        "fish/purple-sea-urchin",
-        "ingredient/kajime",
-        "ingredient/olive-oil",
-        "ingredient/green-sea-urchin",
-        "ingredient/purple-sea-urchin"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/green-sea-urchin",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/purple-sea-urchin",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/kajime",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 690,
-        "maxPrice": null,
-        "baseTaste": 155,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/b8d7be60e073"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "155"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "5"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/walking-catfish-tom-yum",
       "type": "recipe",
       "nameId": "recipe/walking-catfish-tom-yum",
@@ -51888,76 +47680,6 @@
           "values": [
             {
               "text": "22"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/waptia-fieldensis-seasoned",
-      "type": "recipe",
-      "nameId": "recipe/waptia-fieldensis-seasoned",
-      "en": "Waptia Fieldensis Seasoned",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/waptia-fieldensis-seasoned/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/waptia-fieldensis",
-        "ingredient/cucumber",
-        "ingredient/black-coral",
-        "ingredient/black-vinegar",
-        "ingredient/waptia-fieldensis"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/waptia-fieldensis",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/cucumber",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/black-coral",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/black-vinegar",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 425,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/a0add5f7d943"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "150"
             }
           ]
         },
@@ -52041,146 +47763,6 @@
       ]
     },
     {
-      "id": "recipe/white-shrimp-ricebowl",
-      "type": "recipe",
-      "nameId": "recipe/white-shrimp-ricebowl",
-      "en": "White Shrimp Ricebowl",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/white-shrimp-ricebowl/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/white-shrimp",
-        "ingredient/rice",
-        "ingredient/egg",
-        "ingredient/soy-sauce",
-        "ingredient/white-shrimp"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/white-shrimp",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 148,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/8d98a9750f41"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "148"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/whiteleg-shrimp-mayo",
-      "type": "recipe",
-      "nameId": "recipe/whiteleg-shrimp-mayo",
-      "en": "Whiteleg Shrimp Mayo",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/whiteleg-shrimp-mayo/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/whiteleg-shrimp",
-        "ingredient/egg",
-        "ingredient/mayonnaise",
-        "ingredient/olive-oil",
-        "ingredient/whiteleg-shrimp"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/whiteleg-shrimp",
-          "quantity": 5
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/mayonnaise",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 225,
-        "maxPrice": null,
-        "baseTaste": 105,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/2863e2ea803e"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "105"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "recipe/yellow-fin-tuna-poke",
       "type": "recipe",
       "nameId": "recipe/yellow-fin-tuna-poke",
@@ -52236,66 +47818,6 @@
           "values": [
             {
               "text": "123"
-            }
-          ]
-        },
-        {
-          "labelId": "field/0cbe10e9dbdf",
-          "values": [
-            {
-              "text": "10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "recipe/yellowback-fusilier-boiled",
-      "type": "recipe",
-      "nameId": "recipe/yellowback-fusilier-boiled",
-      "en": "Yellowback Fusilier Boiled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/yellowback-fusilier-boiled/"
-      ],
-      "inferred": false,
-      "relatedIds": [
-        "fish/yellowback-fusilier",
-        "ingredient/soy-sauce",
-        "ingredient/yellowback-fusilier"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/yellowback-fusilier",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 50,
-        "maxPrice": null,
-        "baseTaste": 75,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null
-      },
-      "facets": {},
-      "facts": [
-        {
-          "labelId": "field/4ea47b184e01",
-          "values": [
-            {
-              "nameId": "text/e41bfc0de4bd"
-            }
-          ]
-        },
-        {
-          "labelId": "field/ac2ac47a69ea",
-          "values": [
-            {
-              "text": "75"
             }
           ]
         },
@@ -52369,8 +47891,7 @@
       "inferred": false,
       "relatedIds": [
         "recipe/zebra-shark-sushi",
-        "ingredient/meat-zebra-shark",
-        "recipe/zebra-shark"
+        "ingredient/meat-zebra-shark"
       ],
       "facts": [
         {
@@ -52593,7 +48114,6 @@
         "recipe/antarctic-octopus-sushi",
         "recipe/antarctic-octopus-carpaccio",
         "recipe/grilled-antarctic-octopus-and-truffle",
-        "recipe/truffle-antarctic-octopus-grilled",
         "ingredient/antarctic-octopus"
       ],
       "facts": [
@@ -52830,7 +48350,6 @@
       "relatedIds": [
         "recipe/box-jellyfish-sushi",
         "recipe/cold-jellyfish-and-green-sea-urchin-salad",
-        "recipe/urchin-jellyfish-salad",
         "ingredient/box-jellyfish"
       ],
       "facts": [
@@ -53270,7 +48789,6 @@
       "relatedIds": [
         "recipe/comb-jelly-sushi",
         "recipe/deep-sea-kaiju-ramen",
-        "recipe/underwater-godzilla-ramen",
         "ingredient/comb-jelly"
       ],
       "facts": [
@@ -53942,8 +49460,7 @@
       "relatedIds": [
         "recipe/rhinochimaeridae-sushi",
         "recipe/crimson-fish-roll",
-        "ingredient/meat-rhinochimaeridae",
-        "recipe/red-fish-roll"
+        "ingredient/meat-rhinochimaeridae"
       ],
       "facts": [
         {
@@ -54394,8 +49911,6 @@
         "recipe/deep-fish-tempura",
         "recipe/three-colored-squid-roast",
         "recipe/vampire-squid-sushi",
-        "recipe/deep-sea-tempura",
-        "recipe/squid-grilled",
         "ingredient/vampire-squid"
       ],
       "facts": [
@@ -54634,8 +50149,6 @@
         "recipe/humboldt-ink-pasta",
         "recipe/rice-with-white-shrimp-meat",
         "recipe/white-shrimp-sushi",
-        "recipe/humboldt-squid-ink-pasta",
-        "recipe/white-shrimp-ricebowl",
         "ingredient/white-shrimp"
       ],
       "facts": [
@@ -55518,7 +51031,6 @@
       "relatedIds": [
         "recipe/atlantic-anglerfish-sushi",
         "recipe/steamed-hyalonema-angler-fish",
-        "recipe/atlantic-anglerfish-steamed",
         "ingredient/atlantic-anglerfish"
       ],
       "facts": [
@@ -55741,8 +51253,6 @@
         "recipe/atlantic-mackerel-sushi",
         "recipe/smoked-atlantic-mackerel-scramble",
         "recipe/warm-atlantic-mackerel-soba",
-        "recipe/atlantic-mackerel-scramble",
-        "recipe/atlantic-mackerel-soba",
         "ingredient/atlantic-mackerel"
       ],
       "facts": [
@@ -55972,11 +51482,8 @@
       "relatedIds": [
         "recipe/bigeye-scad-sushi",
         "recipe/big-eyed-scad-and-soybean-paste-roast",
-        "recipe/bigeye-scad-grilled",
         "ingredient/bigeye-scad",
-        "ingredient/bigeye-trevally",
-        "recipe/bigeye-trevally-sushi",
-        "recipe/trevally-sandwich"
+        "ingredient/bigeye-trevally"
       ],
       "facts": [
         {
@@ -56412,9 +51919,6 @@
         "recipe/mianbao-xia",
         "recipe/raw-black-tiger-shrimp-sushi",
         "recipe/special-fried-shrimp-sushi",
-        "recipe/black-tiger-shrimp",
-        "recipe/eggplant-shrimp-fried",
-        "recipe/shrimp-menbosha",
         "ingredient/black-tiger-shrimp"
       ],
       "facts": [
@@ -56650,7 +52154,6 @@
       "relatedIds": [
         "recipe/capelin-sushi",
         "recipe/roasted-capelin",
-        "recipe/capelin-turmeric-grilled",
         "ingredient/capelin"
       ],
       "facts": [
@@ -57085,7 +52588,6 @@
       "relatedIds": [
         "recipe/clearfin-lionfish-sushi",
         "recipe/moonlight-bladderwrack-roll",
-        "recipe/night-fish-bladderwrack-roll",
         "ingredient/clearfin-lionfish"
       ],
       "facts": [
@@ -57528,7 +53030,6 @@
       "relatedIds": [
         "recipe/cookiecutter-shark-sushi",
         "recipe/deep-fish-tempura",
-        "recipe/deep-sea-tempura",
         "ingredient/cookiecutter-shark"
       ],
       "facts": [
@@ -57751,8 +53252,6 @@
         "recipe/coral-trout-sushi",
         "recipe/tropical-fish-sushi-set",
         "recipe/trout-sea-grapes-ricebowl",
-        "recipe/coral-trout-sea-grapes-rice-bowl",
-        "recipe/tropical-fish-sashimi",
         "ingredient/coral-trout"
       ],
       "facts": [
@@ -58628,7 +54127,6 @@
       "relatedIds": [
         "recipe/falcatus-sushi",
         "recipe/falcatus-soybean-paste-soup",
-        "recipe/falcatus-miso-soup",
         "ingredient/falcatus"
       ],
       "facts": [
@@ -58850,7 +54348,6 @@
       "relatedIds": [
         "recipe/fangtooth-sushi",
         "recipe/fried-habanero-fangtooth",
-        "recipe/fangtooth-fried",
         "ingredient/fangtooth"
       ],
       "facts": [
@@ -59740,7 +55237,6 @@
       "relatedIds": [
         "recipe/harlequin-hind-sushi",
         "recipe/tropical-fish-sushi-set",
-        "recipe/tropical-fish-sashimi",
         "ingredient/harlequin-hind"
       ],
       "facts": [
@@ -59962,8 +55458,7 @@
       "relatedIds": [
         "recipe/humboldt-squid-sushi",
         "recipe/humboldt-ink-pasta",
-        "ingredient/meat-humboldt-squid",
-        "recipe/humboldt-squid-ink-pasta"
+        "ingredient/meat-humboldt-squid"
       ],
       "facts": [
         {
@@ -60184,8 +55679,6 @@
       "relatedIds": [
         "recipe/pufferfish-dumpling-soup",
         "recipe/seasoned-long-spine-porcupinefish-skin",
-        "recipe/longspine-porcupinefish-seasoned",
-        "recipe/porcupine-puffer-soup",
         "ingredient/longspine-porcupinefish"
       ],
       "facts": [
@@ -60407,7 +55900,6 @@
       "relatedIds": [
         "recipe/longspine-squirrelfish-sushi",
         "recipe/moonlight-bladderwrack-roll",
-        "recipe/night-fish-bladderwrack-roll",
         "ingredient/longspine-squirrelfish"
       ],
       "facts": [
@@ -60851,8 +56343,7 @@
         "recipe/marbled-electric-ray-sushi",
         "recipe/dried-stingray",
         "ingredient/marbled-electric-ray-meat",
-        "ingredient/meat-marbled-electric-ray",
-        "recipe/ray-fin-grilled"
+        "ingredient/meat-marbled-electric-ray"
       ],
       "facts": [
         {
@@ -61077,7 +56568,6 @@
       "relatedIds": [
         "recipe/black-vinegar-braised-parrotfish",
         "recipe/mediterranean-parrotfish-sushi",
-        "recipe/mediterranean-parrotfish-stewed",
         "ingredient/mediterranean-parrotfish"
       ],
       "facts": [
@@ -61512,7 +57002,6 @@
       "relatedIds": [
         "recipe/narrow-barred-spanish-mackerel-arancini",
         "recipe/narrow-barred-spanish-mackerel-sushi",
-        "recipe/spanish-mackerel-arancini",
         "ingredient/narrow-barred-spanish-mackerel"
       ],
       "facts": [
@@ -62177,7 +57666,6 @@
         "recipe/peacock-squid-sushi",
         "recipe/peacock-squid-ripieni",
         "recipe/three-colored-squid-roast",
-        "recipe/squid-grilled",
         "ingredient/peacock-squid"
       ],
       "facts": [
@@ -62840,7 +58328,6 @@
       "relatedIds": [
         "recipe/red-bream-sushi",
         "recipe/crimson-fish-roll",
-        "recipe/red-fish-roll",
         "ingredient/red-bream"
       ],
       "facts": [
@@ -63062,7 +58549,6 @@
       "relatedIds": [
         "recipe/redtoothed-triggerfish-sushi",
         "recipe/salt-grilled-redtoothed-triggerfish",
-        "recipe/redtoothed-triggerfish-grilled",
         "ingredient/redtoothed-triggerfish"
       ],
       "facts": [
@@ -63284,7 +58770,6 @@
       "relatedIds": [
         "recipe/fried-tomato-and-snailfish",
         "recipe/salmon-snailfish-sushi",
-        "recipe/snailfish-stir-fried",
         "ingredient/salmon-snailfish"
       ],
       "facts": [
@@ -63506,7 +58991,6 @@
       "relatedIds": [
         "recipe/sea-toad-and-cucumber-gunkan-sushi",
         "recipe/sea-toad-sushi",
-        "recipe/sea-toad-cucumber",
         "ingredient/sea-toad"
       ],
       "facts": [
@@ -63942,7 +59426,6 @@
         "recipe/grilled-eel-with-habanero",
         "recipe/rainbow-cap-eel-skewers",
         "recipe/snub-nosed-spiny-eel-sushi",
-        "recipe/snub-nosed-spiny-eel-grilled",
         "ingredient/snub-nosed-spiny-eel"
       ],
       "facts": [
@@ -64392,7 +59875,6 @@
       "relatedIds": [
         "recipe/plotosid-pie",
         "recipe/striped-catfish-sushi",
-        "recipe/striped-catfish-pie",
         "ingredient/striped-catfish"
       ],
       "facts": [
@@ -64827,7 +60309,6 @@
       "relatedIds": [
         "recipe/seasoned-waptia-fieldensis",
         "recipe/waptia-sushi",
-        "recipe/waptia-fieldensis-seasoned",
         "ingredient/waptia-fieldensis"
       ],
       "facts": [
@@ -65050,7 +60531,6 @@
         "recipe/trevally-nanbanzuke",
         "recipe/white-trevally-sushi",
         "recipe/white-trevally-kombu-ochazuke",
-        "recipe/giant-trevally-pickled",
         "ingredient/white-trevally"
       ],
       "facts": [
@@ -65282,10 +60762,6 @@
         "recipe/special-fried-shrimp-sushi",
         "recipe/mianbao-xia",
         "recipe/deep-fried-eggplant-shrimp-meatballs",
-        "recipe/eggplant-shrimp-fried",
-        "recipe/shrimp-menbosha",
-        "recipe/whiteleg-shrimp",
-        "recipe/whiteleg-shrimp-mayo",
         "ingredient/whiteleg-shrimp"
       ],
       "facts": [
@@ -65741,7 +61217,6 @@
       "relatedIds": [
         "recipe/yellowback-fusilier-sushi",
         "recipe/boiled-yellowback-fusilier",
-        "recipe/yellowback-fusilier-boiled",
         "ingredient/yellowback-fusilier"
       ],
       "facts": [
@@ -66389,7 +61864,6 @@
       "relatedIds": [
         "recipe/blue-lobster-sushi",
         "recipe/truffle-blue-lobster-tail-sushi",
-        "recipe/truffle-blue-lobster-sliced",
         "ingredient/blue-lobster"
       ],
       "facts": [
@@ -66603,7 +62077,6 @@
       "relatedIds": [
         "recipe/california-spiny-lobster-sushi",
         "recipe/ebirah-chasing-sashimi",
-        "recipe/ebira-chasing-sashimi",
         "ingredient/california-spiny-lobster"
       ],
       "facts": [
@@ -66817,8 +62290,7 @@
       "relatedIds": [
         "recipe/copper-shark-sushi",
         "recipe/shark-karaage",
-        "ingredient/meat-copper-shark",
-        "recipe/elephant-fish-fried"
+        "ingredient/meat-copper-shark"
       ],
       "facts": [
         {
@@ -67449,7 +62921,6 @@
       "relatedIds": [
         "recipe/eastern-rock-lobster-sushi",
         "recipe/steamed-eastern-rock-lobster-and-egg",
-        "recipe/eastern-rock-lobster-steamed-egg",
         "ingredient/eastern-rock-lobster"
       ],
       "facts": [
@@ -67660,7 +63131,6 @@
       "relatedIds": [
         "recipe/european-lobster-sushi",
         "recipe/godzilla-vs-ebirah-curry",
-        "recipe/ebira-godzilla-curry",
         "ingredient/european-lobster"
       ],
       "facts": [
@@ -68080,8 +63550,7 @@
         "recipe/green-humphead-parrotfish-sushi",
         "recipe/humphead-parrotfish-curry",
         "ingredient/meat-green-humphead-parrotfish",
-        "ingredient/green-humphead-parrotfish",
-        "recipe/green-humphead-parrotfish-curry"
+        "ingredient/green-humphead-parrotfish"
       ],
       "facts": [
         {
@@ -68296,9 +63765,6 @@
         "recipe/cold-jellyfish-and-green-sea-urchin-salad",
         "recipe/deep-fried-sea-urchin",
         "recipe/green-sea-urchin-and-cucumber-salad",
-        "recipe/urchin-cucumber-salad",
-        "recipe/urchin-jellyfish-salad",
-        "recipe/urchin-tempura-set",
         "ingredient/green-sea-urchin"
       ],
       "facts": [
@@ -68518,7 +63984,6 @@
       "relatedIds": [
         "recipe/horsehair-crab-sushi",
         "recipe/soy-sauce-marinated-crab",
-        "recipe/horsehair-crab",
         "ingredient/horsehair-crab"
       ],
       "facts": [
@@ -68732,7 +64197,6 @@
       "relatedIds": [
         "recipe/norway-lobster-sushi",
         "recipe/stir-fried-habanero-lobster",
-        "recipe/red-norway-lobster-roasted",
         "ingredient/norway-lobster"
       ],
       "facts": [
@@ -69788,8 +65252,6 @@
         "recipe/barreleye-sushi",
         "recipe/deep-fish-tempura",
         "recipe/ebirah-chasing-sashimi",
-        "recipe/deep-sea-tempura",
-        "recipe/ebira-chasing-sashimi",
         "ingredient/barreleye"
       ],
       "facts": [
@@ -70404,7 +65866,6 @@
       "relatedIds": [
         "recipe/dumbo-octopus-sushi",
         "recipe/dumbo-takoyaki",
-        "recipe/dumbo-octopus-takoyaki",
         "ingredient/dumbo-octopus"
       ],
       "facts": [
@@ -70610,7 +66071,6 @@
       "relatedIds": [
         "recipe/gelatinous-snailfish-sushi",
         "recipe/fried-tomato-and-snailfish",
-        "recipe/snailfish-stir-fried",
         "ingredient/gelatinous-snailfish"
       ],
       "facts": [
@@ -71013,7 +66473,6 @@
       "relatedIds": [
         "recipe/grey-triggerfish-sushi",
         "recipe/rainbow-cap-triggerfish-fishcake",
-        "recipe/rainbow-cap-triggerfish-fishroll",
         "ingredient/grey-triggerfish"
       ],
       "facts": [
@@ -71623,9 +67082,6 @@
         "recipe/rice-with-purple-sea-urchin-sushi",
         "recipe/truffle-sailfish-tartare",
         "recipe/deep-fried-sea-urchin",
-        "recipe/purple-sea-urchin-ricebowl",
-        "recipe/truffle-sea-urchin-sail-fish",
-        "recipe/urchin-tempura-set",
         "ingredient/purple-sea-urchin"
       ],
       "facts": [
@@ -72649,8 +68105,7 @@
       "relatedIds": [
         "recipe/clown-fish",
         "recipe/roasted-tropical-fish-and-garlic",
-        "ingredient/clownfish",
-        "recipe/tropical-fish-grilled"
+        "ingredient/clownfish"
       ],
       "facts": [
         {
@@ -72866,9 +68321,7 @@
         "recipe/cuttlefish-sushi",
         "recipe/fried-onion-cuttlefish",
         "recipe/three-colored-squid-roast",
-        "ingredient/cuttlefish",
-        "recipe/cuttle-fish-fried",
-        "recipe/squid-grilled"
+        "ingredient/cuttlefish"
       ],
       "facts": [
         {
@@ -73485,8 +68938,7 @@
       "relatedIds": [
         "recipe/blue-tang-sushi",
         "recipe/roasted-tropical-fish-and-garlic",
-        "ingredient/blue-tang",
-        "recipe/tropical-fish-grilled"
+        "ingredient/blue-tang"
       ],
       "facts": [
         {
@@ -74484,9 +69936,7 @@
       "relatedIds": [
         "recipe/batfish-ricebowl",
         "recipe/longfin-batfish-sushi",
-        "ingredient/longfin-batfish",
-        "recipe/longfin-bat-fish",
-        "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl"
+        "ingredient/longfin-batfish"
       ],
       "facts": [
         {
@@ -74874,8 +70324,7 @@
       "relatedIds": [
         "recipe/pyramid-butterflyfish-sushi",
         "recipe/roasted-tropical-fish-and-garlic",
-        "ingredient/pyramid-butterflyfish",
-        "recipe/tropical-fish-grilled"
+        "ingredient/pyramid-butterflyfish"
       ],
       "facts": [
         {
@@ -75074,9 +70523,7 @@
         "recipe/sailfish-sushi",
         "recipe/boiled-sailfish-and-seaweed",
         "recipe/truffle-sailfish-tartare",
-        "ingredient/meat-sail-fish",
-        "recipe/sail-fish-seaweed-boiled",
-        "recipe/truffle-sea-urchin-sail-fish"
+        "ingredient/meat-sail-fish"
       ],
       "facts": [
         {
@@ -75898,7 +71345,6 @@
       "relatedIds": [
         "recipe/barrel-jellyfish-sushi",
         "recipe/seasoned-jellyfish",
-        "recipe/jellyfish-salad",
         "ingredient/barrel-jellyfish"
       ],
       "facts": [
@@ -76072,8 +71518,6 @@
       "relatedIds": [
         "recipe/moray-eel-sushi",
         "recipe/moray-eel-curry",
-        "recipe/ebira-godzilla-curry",
-        "recipe/godzilla-vs-ebirah-curry",
         "ingredient/moray-eel"
       ],
       "facts": [
@@ -76429,7 +71873,6 @@
       "relatedIds": [
         "recipe/red-lionfish-sushi",
         "recipe/deep-fried-red-lionfish",
-        "recipe/red-lionfish-fried",
         "ingredient/red-lionfish"
       ],
       "facts": [
@@ -76603,7 +72046,6 @@
       "relatedIds": [
         "recipe/moonlight-bladderwrack-roll",
         "recipe/blackfin-barracuda-sushi",
-        "recipe/night-fish-bladderwrack-roll",
         "ingredient/blackfin-barracuda"
       ],
       "facts": [
@@ -76934,7 +72376,6 @@
       "relatedIds": [
         "recipe/fried-egg-jellyfish-sushi",
         "recipe/seasoned-jellyfish",
-        "recipe/jellyfish-salad",
         "ingredient/fried-egg-jellyfish"
       ],
       "facts": [
@@ -77431,8 +72872,7 @@
       "relatedIds": [
         "recipe/boiled-porbeagle-shark",
         "recipe/porbeagle-shark-sushi",
-        "ingredient/meat-porbeagle-shark",
-        "recipe/porbeagle-shark-steamed"
+        "ingredient/meat-porbeagle-shark"
       ],
       "facts": [
         {
@@ -77758,7 +73198,6 @@
       "relatedIds": [
         "recipe/titan-triggerfish-sushi",
         "recipe/tropical-fish-sushi-set",
-        "recipe/tropical-fish-sashimi",
         "ingredient/titan-triggerfish"
       ],
       "facts": [
@@ -82491,8 +77930,7 @@
       "relatedIds": [
         "recipe/sprouting-eel-sushi",
         "ingredient/sprouting-eel",
-        "ingredient/dredge-sprouting-eel",
-        "recipe/dredge-sprouting-eel-crystal"
+        "ingredient/dredge-sprouting-eel"
       ],
       "facts": [
         {
@@ -83435,7 +78873,6 @@
       "inferred": false,
       "relatedIds": [
         "recipe/antarctic-starry-skate",
-        "recipe/ray-fin-grilled",
         "ingredient/antarctic-starry-skate"
       ],
       "facts": [
@@ -94696,7 +90133,6 @@
       "inferred": false,
       "relatedIds": [
         "recipe/juvenile-circular-bat-fish-fry",
-        "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl",
         "ingredient/juvenile-circular-bat-fish"
       ],
       "facts": [
@@ -96420,8 +91856,7 @@
       "relatedIds": [
         "recipe/narwhal-sushi",
         "recipe/narwhal-miso-soup",
-        "ingredient/meat-narwhal",
-        "recipe/stargazer-miso-soup"
+        "ingredient/meat-narwhal"
       ],
       "facts": [
         {
@@ -99233,7 +94668,6 @@
       ],
       "inferred": false,
       "relatedIds": [
-        "recipe/rainbow-cap-triggerfish-fishroll",
         "recipe/reef-triggerfish",
         "ingredient/reef-triggerfish"
       ],
@@ -101269,7 +96703,6 @@
       ],
       "inferred": false,
       "relatedIds": [
-        "recipe/red-fish-roll",
         "recipe/warty-frogfish",
         "ingredient/warty-frogfish"
       ],
@@ -101427,7 +96860,6 @@
       "inferred": false,
       "relatedIds": [
         "recipe/young-anomalocaris-sushi",
-        "recipe/special-anomalocaris-shell-meat-steamed",
         "ingredient/anomalocaris"
       ],
       "facts": [
@@ -101865,8 +97297,7 @@
       "inferred": false,
       "relatedIds": [
         "ingredient/meat-red-stingray",
-        "recipe/red-stingray",
-        "recipe/ray-fin-grilled"
+        "recipe/red-stingray"
       ],
       "facts": [
         {
@@ -103450,8 +98881,7 @@
       "relatedIds": [
         "recipe/stingray-sushi",
         "recipe/dried-stingray",
-        "ingredient/stingray-meat",
-        "recipe/stingray-sashimi-cold-noodles"
+        "ingredient/stingray-meat"
       ],
       "facts": [
         {
@@ -104880,7 +100310,6 @@
       "relatedIds": [
         "recipe/rainbow-cap-triggerfish-fishcake",
         "recipe/reef-triggerfish",
-        "recipe/lagoon-triggerfish-sushi",
         "ingredient/lagoon-triggerfish"
       ],
       "facts": [
@@ -108857,7 +104286,6 @@
       ],
       "inferred": false,
       "relatedIds": [
-        "recipe/porcupine-puffer-soup",
         "recipe/stellate-puffer-nicogori",
         "recipe/stellate-puffer-special-sushi",
         "ingredient/stellate-puffer"
@@ -108927,10 +104355,7 @@
       ],
       "inferred": false,
       "relatedIds": [
-        "recipe/deep-sea-tempura",
-        "recipe/eastern-rock-lobster-steamed-egg",
         "recipe/egg-tamago",
-        "recipe/longspine-porcupinefish-seasoned",
         "recipe/rainbow-cap-pacific-fanfish-ochazuke",
         "recipe/red-mullet-tangle-roll",
         "recipe/special-clione-queen-tentacle-soup",
@@ -109003,10 +104428,7 @@
       ],
       "inferred": false,
       "relatedIds": [
-        "recipe/falcatus-miso-soup",
         "recipe/special-phantom-jelly-fillet-jelly",
-        "recipe/stargazer-miso-soup",
-        "recipe/urchin-cucumber-salad",
         "ingredient/umbellula"
       ],
       "facts": [
@@ -109142,14 +104564,10 @@
       ],
       "inferred": false,
       "relatedIds": [
-        "recipe/atlantic-mackerel-soba",
         "recipe/egg-tamago",
-        "recipe/falcatus-miso-soup",
-        "recipe/rainbow-cap-triggerfish-fishroll",
         "recipe/special-helicoprion-tail-grilled",
         "recipe/special-hermit-crab-leg-roastered",
         "recipe/special-kronosaurus-tongue-steamed",
-        "recipe/underwater-godzilla-ramen",
         "ingredient/wakame"
       ],
       "facts": [
@@ -109622,9 +105040,7 @@
         "recipe/fried-tomato-and-snailfish",
         "recipe/plotosid-pie",
         "recipe/rice-with-great-spider-crab-meat",
-        "recipe/snailfish-stir-fried",
-        "recipe/spider-crab-ricebowl",
-        "recipe/striped-catfish-pie"
+        "recipe/spider-crab-ricebowl"
       ],
       "facts": [
         {
@@ -109709,10 +105125,7 @@
       "relatedIds": [
         "recipe/roasted-capelin",
         "recipe/seasoned-jellyfish",
-        "recipe/seasoned-waptia-fieldensis",
-        "recipe/capelin-turmeric-grilled",
-        "recipe/jellyfish-salad",
-        "recipe/waptia-fieldensis-seasoned"
+        "recipe/seasoned-waptia-fieldensis"
       ],
       "facts": [
         {
@@ -109805,9 +105218,7 @@
         "recipe/narwhal-miso-soup",
         "recipe/pickled-vegetables",
         "recipe/vege-fried",
-        "recipe/vege-tsukemono",
-        "recipe/mediterranean-parrotfish-stewed",
-        "recipe/stargazer-miso-soup"
+        "recipe/vege-tsukemono"
       ],
       "facts": [
         {
@@ -109898,8 +105309,7 @@
         "recipe/fried-tomato-and-snailfish",
         "recipe/haddock-acqua-pazza",
         "recipe/seahorse-salad",
-        "recipe/seahorse-sea-grapes-salad",
-        "recipe/snailfish-stir-fried"
+        "recipe/seahorse-sea-grapes-salad"
       ],
       "facts": [
         {
@@ -109991,11 +105401,8 @@
         "recipe/green-sea-urchin-and-cucumber-salad",
         "recipe/pickled-vegetables",
         "recipe/great-spider-crab-cucumber",
-        "recipe/sea-toad-cucumber",
         "recipe/vege-fried",
-        "recipe/vege-tsukemono",
-        "recipe/urchin-cucumber-salad",
-        "recipe/waptia-fieldensis-seasoned"
+        "recipe/vege-tsukemono"
       ],
       "facts": [
         {
@@ -110089,16 +105496,8 @@
         "recipe/narrow-barred-spanish-mackerel-arancini",
         "recipe/smoked-atlantic-mackerel-scramble",
         "recipe/pufferfish-dumpling-soup",
-        "recipe/stingray-sashimi-cold-noodles",
         "recipe/sweet-and-sour-stargazer",
         "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
-        "recipe/atlantic-mackerel-scramble",
-        "recipe/eastern-rock-lobster-steamed-egg",
-        "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl",
-        "recipe/porcupine-puffer-soup",
-        "recipe/spanish-mackerel-arancini",
-        "recipe/white-shrimp-ricebowl",
-        "recipe/whiteleg-shrimp-mayo",
         "recipe/ammonite-salad",
         "recipe/bamboo-shoot-soup",
         "recipe/jungle-egg-omelet",
@@ -110192,7 +105591,6 @@
         "recipe/nasu-dengaku",
         "recipe/pickled-vegetables",
         "recipe/vege-tsukemono",
-        "recipe/eggplant-shrimp-fried",
         "recipe/special-mantis-shrimp-shell-meat-boiled"
       ],
       "facts": [
@@ -110284,11 +105682,7 @@
         "recipe/narrow-barred-spanish-mackerel-arancini",
         "recipe/nasu-dengaku",
         "recipe/roasted-tropical-fish-and-garlic",
-        "recipe/humboldt-squid-ink-pasta",
-        "recipe/jellyfish-salad",
-        "recipe/spanish-mackerel-arancini",
-        "recipe/striped-marlin-miso-grilled",
-        "recipe/tropical-fish-grilled"
+        "recipe/striped-marlin-miso-grilled"
       ],
       "facts": [
         {
@@ -110380,11 +105774,7 @@
         "recipe/grilled-antarctic-octopus-and-truffle",
         "recipe/grilled-eel-with-habanero",
         "recipe/kajime-seasoned",
-        "recipe/sail-fish-seaweed-boiled",
-        "recipe/snub-nosed-spiny-eel-grilled",
-        "recipe/special-hermit-crab-leg-roastered",
-        "recipe/truffle-antarctic-octopus-grilled",
-        "recipe/urchin-tempura-set"
+        "recipe/special-hermit-crab-leg-roastered"
       ],
       "facts": [
         {
@@ -110474,11 +105864,7 @@
         "recipe/fried-onion-cuttlefish",
         "recipe/plotosid-pie",
         "recipe/trevally-nanbanzuke",
-        "recipe/vege-fried",
-        "recipe/cuttle-fish-fried",
-        "recipe/giant-trevally-pickled",
-        "recipe/green-humphead-parrotfish-curry",
-        "recipe/striped-catfish-pie"
+        "recipe/vege-fried"
       ],
       "facts": [
         {
@@ -110579,14 +105965,8 @@
         "recipe/trout-sea-grapes-ricebowl",
         "recipe/rainbow-cap-pacific-fanfish-ochazuke",
         "recipe/tropical-fish-sushi-set",
-        "recipe/coral-trout-sea-grapes-rice-bowl",
         "recipe/egg-tenshinhan",
-        "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl",
-        "recipe/purple-sea-urchin-ricebowl",
-        "recipe/spanish-mackerel-arancini",
         "recipe/spider-crab-ricebowl",
-        "recipe/tropical-fish-sashimi",
-        "recipe/white-shrimp-ricebowl",
         "recipe/yellow-fin-tuna-poke"
       ],
       "facts": [
@@ -110680,12 +106060,9 @@
         "recipe/seahorse-salad",
         "recipe/trout-sea-grapes-ricebowl",
         "recipe/caulerpa-racemosa-jellyfish",
-        "recipe/coral-trout-sea-grapes-rice-bowl",
-        "recipe/ebira-chasing-sashimi",
         "recipe/egg-tenshinhan",
         "recipe/seahorse-sea-grapes-salad",
-        "recipe/special-goblin-shark-belly-meat-grilled",
-        "recipe/urchin-jellyfish-salad"
+        "recipe/special-goblin-shark-belly-meat-grilled"
       ],
       "facts": [
         {
@@ -110942,9 +106319,7 @@
         "recipe/tomato-egg-soup",
         "recipe/boiled-porbeagle-shark",
         "recipe/deep-fried-red-lionfish",
-        "recipe/fried-rice-with-sally-lightfoot-crab",
-        "recipe/porbeagle-shark-steamed",
-        "recipe/red-lionfish-fried"
+        "recipe/fried-rice-with-sally-lightfoot-crab"
       ],
       "facts": [
         {
@@ -111040,12 +106415,8 @@
         "recipe/stir-fried-hermit-crab-and-seaweed",
         "recipe/vege-tsukemono",
         "recipe/kajime-seasoned",
-        "recipe/longspine-porcupinefish-seasoned",
-        "recipe/mediterranean-parrotfish-stewed",
-        "recipe/porbeagle-shark-steamed",
         "recipe/special-hermit-crab-leg-roastered",
-        "recipe/special-wolffish-tail-meat-steamed",
-        "recipe/waptia-fieldensis-seasoned"
+        "recipe/special-wolffish-tail-meat-steamed"
       ],
       "facts": [
         {
@@ -111130,9 +106501,7 @@
       "relatedIds": [
         "recipe/eggplant-soba-oyaki",
         "recipe/spear-squid-soba-futomaki",
-        "recipe/warm-atlantic-mackerel-soba",
-        "recipe/stingray-sashimi-cold-noodles",
-        "recipe/atlantic-mackerel-soba"
+        "recipe/warm-atlantic-mackerel-soba"
       ],
       "facts": [
         {
@@ -111304,7 +106673,6 @@
       "relatedIds": [
         "recipe/hyalonema-tuna-sashimi",
         "recipe/steamed-hyalonema-angler-fish",
-        "recipe/atlantic-anglerfish-steamed",
         "recipe/tuna-ootoro-sliced"
       ],
       "facts": [
@@ -111395,9 +106763,7 @@
         "recipe/lusca-neck-tadaki",
         "recipe/dumbo-takoyaki",
         "recipe/mackerel-scad-hotdog",
-        "recipe/dumbo-octopus-takoyaki",
         "recipe/special-lusca-neck-meat-tataki",
-        "recipe/whiteleg-shrimp-mayo",
         "recipe/yellow-fin-tuna-poke"
       ],
       "facts": [
@@ -111567,14 +106933,10 @@
         "recipe/narwhal-miso-soup",
         "recipe/nasu-dengaku",
         "recipe/seahorse-udon",
-        "recipe/bigeye-scad-grilled",
-        "recipe/falcatus-miso-soup",
         "recipe/special-clione-queen-tentacle-soup",
         "recipe/special-mantis-shrimp-shell-meat-boiled",
         "recipe/spiny-seahorse-udon",
-        "recipe/stargazer-miso-soup",
-        "recipe/striped-marlin-miso-grilled",
-        "recipe/underwater-godzilla-ramen"
+        "recipe/striped-marlin-miso-grilled"
       ],
       "facts": [
         {
@@ -111684,21 +107046,10 @@
         "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
         "recipe/vege-fried",
         "recipe/whitetip-reefshark-roast",
-        "recipe/cuttle-fish-fried",
-        "recipe/ebira-godzilla-curry",
-        "recipe/eggplant-shrimp-fried",
-        "recipe/elephant-fish-fried",
-        "recipe/fangtooth-fried",
-        "recipe/giant-trevally-pickled",
-        "recipe/red-lionfish-fried",
-        "recipe/red-norway-lobster-roasted",
         "recipe/seahorse-sea-grapes-salad",
-        "recipe/shrimp-menbosha",
         "recipe/special-goblin-shark-belly-meat-grilled",
         "recipe/special-helicoprion-tail-grilled",
-        "recipe/special-lusca-leg-blanched",
-        "recipe/urchin-tempura-set",
-        "recipe/whiteleg-shrimp-mayo"
+        "recipe/special-lusca-leg-blanched"
       ],
       "facts": [
         {
@@ -111783,8 +107134,7 @@
       "relatedIds": [
         "recipe/rainbow-cap-eel-skewers",
         "recipe/rainbow-cap-pacific-fanfish-ochazuke",
-        "recipe/rainbow-cap-triggerfish-fishcake",
-        "recipe/rainbow-cap-triggerfish-fishroll"
+        "recipe/rainbow-cap-triggerfish-fishcake"
       ],
       "facts": [
         {
@@ -111879,15 +107229,10 @@
         "recipe/steamed-wolf-eel",
         "recipe/three-colored-squid-roast",
         "recipe/caulerpa-racemosa-jellyfish",
-        "recipe/cuttle-fish-fried",
-        "recipe/ray-fin-grilled",
-        "recipe/redtoothed-triggerfish-grilled",
-        "recipe/special-anomalocaris-shell-meat-steamed",
         "recipe/special-clione-queen-tentacle-soup",
         "recipe/special-goblin-shark-belly-meat-grilled",
         "recipe/special-lusca-leg-blanched",
-        "recipe/special-wolffish-tail-meat-steamed",
-        "recipe/squid-grilled"
+        "recipe/special-wolffish-tail-meat-steamed"
       ],
       "facts": [
         {
@@ -111986,17 +107331,9 @@
         "recipe/grilled-eel-with-habanero",
         "recipe/rainbow-cap-eel-skewers",
         "recipe/soy-sauce-marinated-crab",
-        "recipe/atlantic-anglerfish-steamed",
-        "recipe/atlantic-mackerel-soba",
-        "recipe/coral-trout-sea-grapes-rice-bowl",
         "recipe/egg-tenshinhan",
         "recipe/gelidium-tokoroten",
-        "recipe/giant-trevally-pickled",
-        "recipe/sail-fish-seaweed-boiled",
-        "recipe/snub-nosed-spiny-eel-grilled",
-        "recipe/special-lusca-neck-meat-tataki",
-        "recipe/white-shrimp-ricebowl",
-        "recipe/yellowback-fusilier-boiled"
+        "recipe/special-lusca-neck-meat-tataki"
       ],
       "facts": [
         {
@@ -112162,10 +107499,7 @@
         "recipe/truffle-shark-sandwich",
         "recipe/boiled-asian-sheepshead-wrasse-and-truffle",
         "recipe/grilled-antarctic-octopus-and-truffle",
-        "recipe/truffle-antarctic-octopus-grilled",
-        "recipe/truffle-asian-sheepshead-steamed",
-        "recipe/truffle-blue-lobster-sliced",
-        "recipe/truffle-sea-urchin-sail-fish"
+        "recipe/truffle-asian-sheepshead-steamed"
       ],
       "facts": [
         {
@@ -112251,10 +107585,7 @@
         "recipe/moray-eel-curry",
         "recipe/humphead-parrotfish-curry",
         "recipe/roasted-capelin",
-        "recipe/godzilla-vs-ebirah-curry",
-        "recipe/capelin-turmeric-grilled",
-        "recipe/ebira-godzilla-curry",
-        "recipe/green-humphead-parrotfish-curry"
+        "recipe/godzilla-vs-ebirah-curry"
       ],
       "facts": [
         {
@@ -112339,7 +107670,6 @@
       "relatedIds": [
         "recipe/shark-karaage",
         "recipe/blacktip-reefshark-sushi",
-        "recipe/elephant-fish-fried",
         "fish/blacktip-reefshark"
       ],
       "facts": [
@@ -112409,8 +107739,7 @@
         "fish/marbled-electric-ray"
       ],
       "relatedIds": [
-        "fish/marbled-electric-ray",
-        "recipe/ray-fin-grilled"
+        "fish/marbled-electric-ray"
       ],
       "facts": [
         {
@@ -113403,10 +108732,7 @@
         "recipe/crystal-lobster-roll",
         "recipe/fried-habanero-fangtooth",
         "recipe/moonlight-bladderwrack-roll",
-        "recipe/pufferfish-dumpling-soup",
-        "recipe/fangtooth-fried",
-        "recipe/night-fish-bladderwrack-roll",
-        "recipe/porcupine-puffer-soup"
+        "recipe/pufferfish-dumpling-soup"
       ],
       "facts": [
         {
@@ -113540,9 +108866,6 @@
       "inferred": false,
       "fishIds": [],
       "relatedIds": [
-        "recipe/fangtooth-fried",
-        "recipe/red-norway-lobster-roasted",
-        "recipe/snub-nosed-spiny-eel-grilled",
         "recipe/hot-pepper-tuna"
       ],
       "facts": [
@@ -113775,7 +109098,6 @@
       "inferred": false,
       "fishIds": [],
       "relatedIds": [
-        "recipe/sail-fish-seaweed-boiled",
         "recipe/special-helicoprion-tail-grilled",
         "recipe/special-kronosaurus-tongue-steamed",
         "recipe/pikaia-ramen"
@@ -113837,14 +109159,7 @@
       "fishIds": [],
       "relatedIds": [
         "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
-        "recipe/atlantic-mackerel-scramble",
-        "recipe/dumbo-octopus-takoyaki",
-        "recipe/elephant-fish-fried",
-        "recipe/humboldt-squid-ink-pasta",
-        "recipe/red-lionfish-fried",
-        "recipe/shrimp-menbosha",
         "recipe/spiny-seahorse-udon",
-        "recipe/striped-catfish-pie",
         "recipe/blobfish-spring-roll",
         "recipe/comber-sandwich",
         "recipe/pikaia-ramen"
@@ -115451,8 +110766,7 @@
       "relatedIds": [
         "fish/copper-shark",
         "recipe/shark-karaage",
-        "recipe/copper-shark-sushi",
-        "recipe/elephant-fish-fried"
+        "recipe/copper-shark-sushi"
       ],
       "facts": [
         {
@@ -115696,8 +111010,7 @@
         "fish/green-humphead-parrotfish"
       ],
       "relatedIds": [
-        "fish/green-humphead-parrotfish",
-        "recipe/green-humphead-parrotfish-curry"
+        "fish/green-humphead-parrotfish"
       ],
       "facts": [
         {
@@ -115820,8 +111133,7 @@
       "relatedIds": [
         "fish/humboldt-squid",
         "recipe/humboldt-ink-pasta",
-        "recipe/humboldt-squid-sushi",
-        "recipe/humboldt-squid-ink-pasta"
+        "recipe/humboldt-squid-sushi"
       ],
       "facts": [
         {
@@ -116006,8 +111318,7 @@
       "relatedIds": [
         "fish/narwhal",
         "recipe/narwhal-miso-soup",
-        "recipe/narwhal-sushi",
-        "recipe/stargazer-miso-soup"
+        "recipe/narwhal-sushi"
       ],
       "facts": [
         {
@@ -116069,8 +111380,7 @@
       "relatedIds": [
         "fish/porbeagle-shark",
         "recipe/boiled-porbeagle-shark",
-        "recipe/porbeagle-shark-sushi",
-        "recipe/porbeagle-shark-steamed"
+        "recipe/porbeagle-shark-sushi"
       ],
       "facts": [
         {
@@ -116131,8 +111441,7 @@
       ],
       "relatedIds": [
         "fish/red-stingray",
-        "recipe/red-stingray",
-        "recipe/ray-fin-grilled"
+        "recipe/red-stingray"
       ],
       "facts": [
         {
@@ -116194,8 +111503,7 @@
       "relatedIds": [
         "fish/rhinochimaeridae",
         "recipe/crimson-fish-roll",
-        "recipe/rhinochimaeridae-sushi",
-        "recipe/red-fish-roll"
+        "recipe/rhinochimaeridae-sushi"
       ],
       "facts": [
         {
@@ -116258,9 +111566,7 @@
         "fish/sailfish",
         "recipe/boiled-sailfish-and-seaweed",
         "recipe/sailfish-sushi",
-        "recipe/truffle-sailfish-tartare",
-        "recipe/sail-fish-seaweed-boiled",
-        "recipe/truffle-sea-urchin-sail-fish"
+        "recipe/truffle-sailfish-tartare"
       ],
       "facts": [
         {
@@ -116738,8 +112044,7 @@
       ],
       "relatedIds": [
         "fish/zebra-shark",
-        "recipe/zebra-shark-sushi",
-        "recipe/zebra-shark"
+        "recipe/zebra-shark-sushi"
       ],
       "facts": [
         {
@@ -117097,8 +112402,6 @@
         "recipe/lusca-neck-tadaki",
         "recipe/big-eyed-scad-and-soybean-paste-roast",
         "recipe/rice-with-purple-sea-urchin-sushi",
-        "recipe/bigeye-scad-grilled",
-        "recipe/purple-sea-urchin-ricebowl",
         "recipe/special-lusca-neck-meat-tataki",
         "recipe/yellow-fin-tuna-poke"
       ],
@@ -117705,7 +113008,6 @@
       "relatedIds": [
         "fish/stingray",
         "recipe/dried-stingray",
-        "recipe/stingray-sashimi-cold-noodles",
         "recipe/stingray-sushi"
       ],
       "facts": [
@@ -117746,13 +113048,6 @@
             {
               "entityId": "recipe/dried-stingray",
               "nameId": "recipe/dried-stingray"
-            },
-            {
-              "text": ","
-            },
-            {
-              "entityId": "recipe/stingray-sashimi-cold-noodles",
-              "nameId": "recipe/stingray-sashimi-cold-noodles"
             }
           ]
         }
@@ -117950,8 +113245,7 @@
         "fish/moray-eel",
         "recipe/moray-eel-curry",
         "recipe/moray-eel-sushi",
-        "recipe/godzilla-vs-ebirah-curry",
-        "recipe/ebira-godzilla-curry"
+        "recipe/godzilla-vs-ebirah-curry"
       ],
       "facts": [],
       "stats": {},
@@ -118027,8 +113321,7 @@
         "fish/antarctic-octopus",
         "recipe/antarctic-octopus-carpaccio",
         "recipe/antarctic-octopus-sushi",
-        "recipe/grilled-antarctic-octopus-and-truffle",
-        "recipe/truffle-antarctic-octopus-grilled"
+        "recipe/grilled-antarctic-octopus-and-truffle"
       ],
       "facts": [],
       "stats": {},
@@ -118201,8 +113494,7 @@
         "fish/peacock-squid",
         "recipe/peacock-squid-ripieni",
         "recipe/peacock-squid-sushi",
-        "recipe/three-colored-squid-roast",
-        "recipe/squid-grilled"
+        "recipe/three-colored-squid-roast"
       ],
       "facts": [],
       "stats": {},
@@ -118317,8 +113609,7 @@
       "relatedIds": [
         "fish/barrel-jellyfish",
         "recipe/barrel-jellyfish-sushi",
-        "recipe/seasoned-jellyfish",
-        "recipe/jellyfish-salad"
+        "recipe/seasoned-jellyfish"
       ],
       "facts": [],
       "stats": {},
@@ -118337,8 +113628,7 @@
       "relatedIds": [
         "fish/blue-lobster",
         "recipe/blue-lobster-sushi",
-        "recipe/truffle-blue-lobster-tail-sushi",
-        "recipe/truffle-blue-lobster-sliced"
+        "recipe/truffle-blue-lobster-tail-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -118357,8 +113647,7 @@
       "relatedIds": [
         "fish/box-jellyfish",
         "recipe/box-jellyfish-sushi",
-        "recipe/cold-jellyfish-and-green-sea-urchin-salad",
-        "recipe/urchin-jellyfish-salad"
+        "recipe/cold-jellyfish-and-green-sea-urchin-salad"
       ],
       "facts": [],
       "stats": {},
@@ -118377,8 +113666,7 @@
       "relatedIds": [
         "fish/california-spiny-lobster",
         "recipe/california-spiny-lobster-sushi",
-        "recipe/ebirah-chasing-sashimi",
-        "recipe/ebira-chasing-sashimi"
+        "recipe/ebirah-chasing-sashimi"
       ],
       "facts": [],
       "stats": {},
@@ -118397,8 +113685,7 @@
       "relatedIds": [
         "fish/comb-jelly",
         "recipe/comb-jelly-sushi",
-        "recipe/deep-sea-kaiju-ramen",
-        "recipe/underwater-godzilla-ramen"
+        "recipe/deep-sea-kaiju-ramen"
       ],
       "facts": [],
       "stats": {},
@@ -118420,11 +113707,7 @@
         "recipe/boiled-and-deep-fried-white-shrimp",
         "recipe/deep-fried-eggplant-shrimp-meatballs",
         "recipe/mianbao-xia",
-        "recipe/special-fried-shrimp-sushi",
-        "recipe/whiteleg-shrimp",
-        "recipe/eggplant-shrimp-fried",
-        "recipe/shrimp-menbosha",
-        "recipe/whiteleg-shrimp-mayo"
+        "recipe/special-fried-shrimp-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -118443,8 +113726,7 @@
       "relatedIds": [
         "fish/cookiecutter-shark",
         "recipe/cookiecutter-shark-sushi",
-        "recipe/deep-fish-tempura",
-        "recipe/deep-sea-tempura"
+        "recipe/deep-fish-tempura"
       ],
       "facts": [],
       "stats": {},
@@ -118481,8 +113763,7 @@
       "relatedIds": [
         "fish/eastern-rock-lobster",
         "recipe/eastern-rock-lobster-sushi",
-        "recipe/steamed-eastern-rock-lobster-and-egg",
-        "recipe/eastern-rock-lobster-steamed-egg"
+        "recipe/steamed-eastern-rock-lobster-and-egg"
       ],
       "facts": [],
       "stats": {},
@@ -118501,8 +113782,7 @@
       "relatedIds": [
         "fish/european-lobster",
         "recipe/european-lobster-sushi",
-        "recipe/godzilla-vs-ebirah-curry",
-        "recipe/ebira-godzilla-curry"
+        "recipe/godzilla-vs-ebirah-curry"
       ],
       "facts": [],
       "stats": {},
@@ -118521,8 +113801,7 @@
       "relatedIds": [
         "fish/falcatus",
         "recipe/falcatus-sushi",
-        "recipe/falcatus-soybean-paste-soup",
-        "recipe/falcatus-miso-soup"
+        "recipe/falcatus-soybean-paste-soup"
       ],
       "facts": [],
       "stats": {},
@@ -118559,8 +113838,7 @@
       "relatedIds": [
         "fish/fried-egg-jellyfish",
         "recipe/fried-egg-jellyfish-sushi",
-        "recipe/seasoned-jellyfish",
-        "recipe/jellyfish-salad"
+        "recipe/seasoned-jellyfish"
       ],
       "facts": [],
       "stats": {},
@@ -118579,8 +113857,7 @@
       "relatedIds": [
         "fish/norway-lobster",
         "recipe/norway-lobster-sushi",
-        "recipe/stir-fried-habanero-lobster",
-        "recipe/red-norway-lobster-roasted"
+        "recipe/stir-fried-habanero-lobster"
       ],
       "facts": [],
       "stats": {},
@@ -118601,10 +113878,7 @@
         "recipe/raw-black-tiger-shrimp-sushi",
         "recipe/deep-fried-eggplant-shrimp-meatballs",
         "recipe/mianbao-xia",
-        "recipe/special-fried-shrimp-sushi",
-        "recipe/black-tiger-shrimp",
-        "recipe/eggplant-shrimp-fried",
-        "recipe/shrimp-menbosha"
+        "recipe/special-fried-shrimp-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -118623,8 +113897,7 @@
       "relatedIds": [
         "fish/waptia-fieldensis",
         "recipe/waptia-sushi",
-        "recipe/seasoned-waptia-fieldensis",
-        "recipe/waptia-fieldensis-seasoned"
+        "recipe/seasoned-waptia-fieldensis"
       ],
       "facts": [],
       "stats": {},
@@ -118644,9 +113917,7 @@
         "fish/white-shrimp",
         "recipe/white-shrimp-sushi",
         "recipe/rice-with-white-shrimp-meat",
-        "recipe/humboldt-ink-pasta",
-        "recipe/humboldt-squid-ink-pasta",
-        "recipe/white-shrimp-ricebowl"
+        "recipe/humboldt-ink-pasta"
       ],
       "facts": [],
       "stats": {},
@@ -118738,8 +114009,7 @@
       "relatedIds": [
         "fish/atlantic-anglerfish",
         "recipe/atlantic-anglerfish-sushi",
-        "recipe/steamed-hyalonema-angler-fish",
-        "recipe/atlantic-anglerfish-steamed"
+        "recipe/steamed-hyalonema-angler-fish"
       ],
       "facts": [],
       "stats": {},
@@ -118759,9 +114029,7 @@
         "fish/atlantic-mackerel",
         "recipe/atlantic-mackerel-sushi",
         "recipe/smoked-atlantic-mackerel-scramble",
-        "recipe/warm-atlantic-mackerel-soba",
-        "recipe/atlantic-mackerel-scramble",
-        "recipe/atlantic-mackerel-soba"
+        "recipe/warm-atlantic-mackerel-soba"
       ],
       "facts": [],
       "stats": {},
@@ -118799,9 +114067,7 @@
         "fish/barreleye",
         "recipe/barreleye-sushi",
         "recipe/deep-fish-tempura",
-        "recipe/ebirah-chasing-sashimi",
-        "recipe/deep-sea-tempura",
-        "recipe/ebira-chasing-sashimi"
+        "recipe/ebirah-chasing-sashimi"
       ],
       "facts": [],
       "stats": {},
@@ -118820,8 +114086,7 @@
       "relatedIds": [
         "fish/bigeye-scad",
         "recipe/bigeye-scad-sushi",
-        "recipe/big-eyed-scad-and-soybean-paste-roast",
-        "recipe/bigeye-scad-grilled"
+        "recipe/big-eyed-scad-and-soybean-paste-roast"
       ],
       "facts": [],
       "stats": {},
@@ -118839,7 +114104,6 @@
       ],
       "relatedIds": [
         "fish/bigeye-scad",
-        "recipe/bigeye-trevally-sushi",
         "recipe/trevally-sandwich"
       ],
       "facts": [],
@@ -118859,8 +114123,7 @@
       "relatedIds": [
         "fish/blackfin-barracuda",
         "recipe/blackfin-barracuda-sushi",
-        "recipe/moonlight-bladderwrack-roll",
-        "recipe/night-fish-bladderwrack-roll"
+        "recipe/moonlight-bladderwrack-roll"
       ],
       "facts": [],
       "stats": {},
@@ -118915,8 +114178,7 @@
       "relatedIds": [
         "fish/capelin",
         "recipe/capelin-sushi",
-        "recipe/roasted-capelin",
-        "recipe/capelin-turmeric-grilled"
+        "recipe/roasted-capelin"
       ],
       "facts": [],
       "stats": {},
@@ -118953,8 +114215,7 @@
       "relatedIds": [
         "fish/clearfin-lionfish",
         "recipe/clearfin-lionfish-sushi",
-        "recipe/moonlight-bladderwrack-roll",
-        "recipe/night-fish-bladderwrack-roll"
+        "recipe/moonlight-bladderwrack-roll"
       ],
       "facts": [],
       "stats": {},
@@ -118993,10 +114254,7 @@
         "recipe/cold-jellyfish-and-green-sea-urchin-salad",
         "recipe/chirashi-sushi",
         "recipe/deep-fried-sea-urchin",
-        "recipe/green-sea-urchin-and-cucumber-salad",
-        "recipe/urchin-cucumber-salad",
-        "recipe/urchin-jellyfish-salad",
-        "recipe/urchin-tempura-set"
+        "recipe/green-sea-urchin-and-cucumber-salad"
       ],
       "facts": [],
       "stats": {},
@@ -119016,9 +114274,7 @@
         "fish/coral-trout",
         "recipe/coral-trout-sushi",
         "recipe/trout-sea-grapes-ricebowl",
-        "recipe/tropical-fish-sushi-set",
-        "recipe/coral-trout-sea-grapes-rice-bowl",
-        "recipe/tropical-fish-sashimi"
+        "recipe/tropical-fish-sushi-set"
       ],
       "facts": [],
       "stats": {},
@@ -119056,8 +114312,7 @@
       "relatedIds": [
         "fish/red-bream",
         "recipe/crimson-fish-roll",
-        "recipe/red-bream-sushi",
-        "recipe/red-fish-roll"
+        "recipe/red-bream-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -119076,8 +114331,7 @@
       "relatedIds": [
         "fish/dumbo-octopus",
         "recipe/dumbo-octopus-sushi",
-        "recipe/dumbo-takoyaki",
-        "recipe/dumbo-octopus-takoyaki"
+        "recipe/dumbo-takoyaki"
       ],
       "facts": [],
       "stats": {},
@@ -119115,8 +114369,7 @@
       "relatedIds": [
         "fish/fangtooth",
         "recipe/fangtooth-sushi",
-        "recipe/fried-habanero-fangtooth",
-        "recipe/fangtooth-fried"
+        "recipe/fried-habanero-fangtooth"
       ],
       "facts": [],
       "stats": {},
@@ -119135,8 +114388,7 @@
       "relatedIds": [
         "fish/gelatinous-snailfish",
         "recipe/gelatinous-snailfish-sushi",
-        "recipe/fried-tomato-and-snailfish",
-        "recipe/snailfish-stir-fried"
+        "recipe/fried-tomato-and-snailfish"
       ],
       "facts": [],
       "stats": {},
@@ -119214,8 +114466,7 @@
       "relatedIds": [
         "fish/grey-triggerfish",
         "recipe/grey-triggerfish-sushi",
-        "recipe/rainbow-cap-triggerfish-fishcake",
-        "recipe/rainbow-cap-triggerfish-fishroll"
+        "recipe/rainbow-cap-triggerfish-fishcake"
       ],
       "facts": [],
       "stats": {},
@@ -119253,8 +114504,7 @@
       "relatedIds": [
         "fish/harlequin-hind",
         "recipe/harlequin-hind-sushi",
-        "recipe/tropical-fish-sushi-set",
-        "recipe/tropical-fish-sashimi"
+        "recipe/tropical-fish-sushi-set"
       ],
       "facts": [],
       "stats": {},
@@ -119330,8 +114580,7 @@
       "relatedIds": [
         "fish/longspine-squirrelfish",
         "recipe/longspine-squirrelfish-sushi",
-        "recipe/moonlight-bladderwrack-roll",
-        "recipe/night-fish-bladderwrack-roll"
+        "recipe/moonlight-bladderwrack-roll"
       ],
       "facts": [],
       "stats": {},
@@ -119388,8 +114637,7 @@
       "relatedIds": [
         "fish/mediterranean-parrotfish",
         "recipe/mediterranean-parrotfish-sushi",
-        "recipe/black-vinegar-braised-parrotfish",
-        "recipe/mediterranean-parrotfish-stewed"
+        "recipe/black-vinegar-braised-parrotfish"
       ],
       "facts": [],
       "stats": {},
@@ -119426,8 +114674,7 @@
       "relatedIds": [
         "fish/narrow-barred-spanish-mackerel",
         "recipe/narrow-barred-spanish-mackerel-sushi",
-        "recipe/narrow-barred-spanish-mackerel-arancini",
-        "recipe/spanish-mackerel-arancini"
+        "recipe/narrow-barred-spanish-mackerel-arancini"
       ],
       "facts": [],
       "stats": {},
@@ -119466,10 +114713,7 @@
         "recipe/purple-sea-urchin-sushi",
         "recipe/deep-fried-sea-urchin",
         "recipe/rice-with-purple-sea-urchin-sushi",
-        "recipe/truffle-sailfish-tartare",
-        "recipe/purple-sea-urchin-ricebowl",
-        "recipe/truffle-sea-urchin-sail-fish",
-        "recipe/urchin-tempura-set"
+        "recipe/truffle-sailfish-tartare"
       ],
       "facts": [],
       "stats": {},
@@ -119506,8 +114750,7 @@
       "relatedIds": [
         "fish/red-lionfish",
         "recipe/red-lionfish-sushi",
-        "recipe/deep-fried-red-lionfish",
-        "recipe/red-lionfish-fried"
+        "recipe/deep-fried-red-lionfish"
       ],
       "facts": [],
       "stats": {},
@@ -119526,8 +114769,7 @@
       "relatedIds": [
         "fish/redtoothed-triggerfish",
         "recipe/redtoothed-triggerfish-sushi",
-        "recipe/salt-grilled-redtoothed-triggerfish",
-        "recipe/redtoothed-triggerfish-grilled"
+        "recipe/salt-grilled-redtoothed-triggerfish"
       ],
       "facts": [],
       "stats": {},
@@ -119565,8 +114807,7 @@
       "relatedIds": [
         "fish/salmon-snailfish",
         "recipe/salmon-snailfish-sushi",
-        "recipe/fried-tomato-and-snailfish",
-        "recipe/snailfish-stir-fried"
+        "recipe/fried-tomato-and-snailfish"
       ],
       "facts": [],
       "stats": {},
@@ -119585,8 +114826,7 @@
       "relatedIds": [
         "fish/sea-toad",
         "recipe/sea-toad-and-cucumber-gunkan-sushi",
-        "recipe/sea-toad-sushi",
-        "recipe/sea-toad-cucumber"
+        "recipe/sea-toad-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -119625,8 +114865,7 @@
         "fish/snub-nosed-spiny-eel",
         "recipe/snub-nosed-spiny-eel-sushi",
         "recipe/grilled-eel-with-habanero",
-        "recipe/rainbow-cap-eel-skewers",
-        "recipe/snub-nosed-spiny-eel-grilled"
+        "recipe/rainbow-cap-eel-skewers"
       ],
       "facts": [],
       "stats": {},
@@ -119645,8 +114884,7 @@
       "relatedIds": [
         "fish/striped-catfish",
         "recipe/striped-catfish-sushi",
-        "recipe/plotosid-pie",
-        "recipe/striped-catfish-pie"
+        "recipe/plotosid-pie"
       ],
       "facts": [],
       "stats": {},
@@ -119683,8 +114921,7 @@
       "relatedIds": [
         "fish/titan-triggerfish",
         "recipe/titan-triggerfish-sushi",
-        "recipe/tropical-fish-sushi-set",
-        "recipe/tropical-fish-sashimi"
+        "recipe/tropical-fish-sushi-set"
       ],
       "facts": [],
       "stats": {},
@@ -119704,9 +114941,7 @@
         "fish/vampire-squid",
         "recipe/vampire-squid-sushi",
         "recipe/deep-fish-tempura",
-        "recipe/three-colored-squid-roast",
-        "recipe/deep-sea-tempura",
-        "recipe/squid-grilled"
+        "recipe/three-colored-squid-roast"
       ],
       "facts": [],
       "stats": {},
@@ -119726,8 +114961,7 @@
         "fish/white-trevally",
         "recipe/white-trevally-sushi",
         "recipe/trevally-nanbanzuke",
-        "recipe/white-trevally-kombu-ochazuke",
-        "recipe/giant-trevally-pickled"
+        "recipe/white-trevally-kombu-ochazuke"
       ],
       "facts": [],
       "stats": {},
@@ -119764,8 +114998,7 @@
       "relatedIds": [
         "fish/yellowback-fusilier",
         "recipe/yellowback-fusilier-sushi",
-        "recipe/boiled-yellowback-fusilier",
-        "recipe/yellowback-fusilier-boiled"
+        "recipe/boiled-yellowback-fusilier"
       ],
       "facts": [],
       "stats": {},
@@ -119803,9 +115036,7 @@
       "relatedIds": [
         "fish/longfin-batfish",
         "recipe/batfish-ricebowl",
-        "recipe/longfin-batfish-sushi",
-        "recipe/longfin-bat-fish",
-        "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl"
+        "recipe/longfin-batfish-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -119863,9 +115094,7 @@
         "recipe/chirashi-sushi",
         "recipe/fried-onion-cuttlefish",
         "recipe/three-colored-squid-roast",
-        "recipe/cuttlefish-sushi",
-        "recipe/cuttle-fish-fried",
-        "recipe/squid-grilled"
+        "recipe/cuttlefish-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -119942,8 +115171,7 @@
       "relatedIds": [
         "fish/clownfish",
         "recipe/roasted-tropical-fish-and-garlic",
-        "recipe/clown-fish",
-        "recipe/tropical-fish-grilled"
+        "recipe/clown-fish"
       ],
       "facts": [],
       "stats": {},
@@ -119962,8 +115190,7 @@
       "relatedIds": [
         "fish/pyramid-butterflyfish",
         "recipe/roasted-tropical-fish-and-garlic",
-        "recipe/pyramid-butterflyfish-sushi",
-        "recipe/tropical-fish-grilled"
+        "recipe/pyramid-butterflyfish-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -119982,8 +115209,7 @@
       "relatedIds": [
         "fish/blue-tang",
         "recipe/roasted-tropical-fish-and-garlic",
-        "recipe/blue-tang-sushi",
-        "recipe/tropical-fish-grilled"
+        "recipe/blue-tang-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -120021,9 +115247,7 @@
       "relatedIds": [
         "fish/longspine-porcupinefish",
         "recipe/seasoned-long-spine-porcupinefish-skin",
-        "recipe/pufferfish-dumpling-soup",
-        "recipe/longspine-porcupinefish-seasoned",
-        "recipe/porcupine-puffer-soup"
+        "recipe/pufferfish-dumpling-soup"
       ],
       "facts": [],
       "stats": {},
@@ -120506,7 +115730,6 @@
       ],
       "relatedIds": [
         "fish/lagoon-triggerfish",
-        "recipe/lagoon-triggerfish-sushi",
         "recipe/rainbow-cap-triggerfish-fishcake"
       ],
       "facts": [],
@@ -120761,7 +115984,6 @@
       "relatedIds": [
         "fish/horsehair-crab",
         "recipe/soy-sauce-marinated-crab",
-        "recipe/horsehair-crab",
         "recipe/horsehair-crab-sushi"
       ],
       "facts": [],
@@ -120962,8 +116184,7 @@
       ],
       "relatedIds": [
         "fish/antarctic-starry-skate",
-        "recipe/antarctic-starry-skate",
-        "recipe/ray-fin-grilled"
+        "recipe/antarctic-starry-skate"
       ],
       "facts": [],
       "stats": {},
@@ -121880,8 +117101,7 @@
         "fish/sprouting-eel"
       ],
       "relatedIds": [
-        "fish/sprouting-eel",
-        "recipe/dredge-sprouting-eel-crystal"
+        "fish/sprouting-eel"
       ],
       "facts": [],
       "stats": {},
@@ -122345,8 +117565,7 @@
       ],
       "relatedIds": [
         "fish/juvenile-circular-bat-fish",
-        "recipe/juvenile-circular-bat-fish-fry",
-        "recipe/longfin-bat-fish-juvenile-circular-bat-fish-rice-bowl"
+        "recipe/juvenile-circular-bat-fish-fry"
       ],
       "facts": [],
       "stats": {},
@@ -122887,8 +118106,7 @@
       ],
       "relatedIds": [
         "fish/reef-triggerfish",
-        "recipe/reef-triggerfish",
-        "recipe/rainbow-cap-triggerfish-fishroll"
+        "recipe/reef-triggerfish"
       ],
       "facts": [],
       "stats": {},
@@ -123111,8 +118329,7 @@
       ],
       "relatedIds": [
         "fish/warty-frogfish",
-        "recipe/warty-frogfish",
-        "recipe/red-fish-roll"
+        "recipe/warty-frogfish"
       ],
       "facts": [],
       "stats": {},
@@ -123180,14 +118397,10 @@
       ],
       "relatedIds": [
         "fish/wakame",
-        "recipe/atlantic-mackerel-soba",
         "recipe/egg-tamago",
-        "recipe/falcatus-miso-soup",
-        "recipe/rainbow-cap-triggerfish-fishroll",
         "recipe/special-helicoprion-tail-grilled",
         "recipe/special-hermit-crab-leg-roastered",
-        "recipe/special-kronosaurus-tongue-steamed",
-        "recipe/underwater-godzilla-ramen"
+        "recipe/special-kronosaurus-tongue-steamed"
       ],
       "facts": [],
       "stats": {},
@@ -123555,10 +118768,7 @@
       ],
       "relatedIds": [
         "fish/tangle",
-        "recipe/deep-sea-tempura",
-        "recipe/eastern-rock-lobster-steamed-egg",
         "recipe/egg-tamago",
-        "recipe/longspine-porcupinefish-seasoned",
         "recipe/red-mullet-tangle-roll",
         "recipe/special-clione-queen-tentacle-soup",
         "recipe/truffle-asian-sheepshead-steamed"
@@ -123579,10 +118789,7 @@
       ],
       "relatedIds": [
         "fish/umbellula",
-        "recipe/falcatus-miso-soup",
-        "recipe/special-phantom-jelly-fillet-jelly",
-        "recipe/stargazer-miso-soup",
-        "recipe/urchin-cucumber-salad"
+        "recipe/special-phantom-jelly-fillet-jelly"
       ],
       "facts": [],
       "stats": {},
@@ -123669,8 +118876,7 @@
         "fish/stellate-puffer"
       ],
       "relatedIds": [
-        "fish/stellate-puffer",
-        "recipe/porcupine-puffer-soup"
+        "fish/stellate-puffer"
       ],
       "facts": [],
       "stats": {},
@@ -123784,9 +118990,7 @@
       "sourceUrls": [],
       "inferred": true,
       "fishIds": [],
-      "relatedIds": [
-        "recipe/special-anomalocaris-shell-meat-steamed"
-      ],
+      "relatedIds": [],
       "facts": [],
       "stats": {},
       "facets": {}
