@@ -3,7 +3,7 @@
     "source": "https://davethediver.net/zh-hans/database/",
     "importedAt": "2026-10-11",
     "rawPageCount": 1312,
-    "aliasCount": 253,
+    "aliasCount": 257,
     "excluded": [
       "fish/aberrations",
       "fish/beluga-gyao",
@@ -357,7 +357,11 @@
     "recipe/trevally-sand": "recipe/trevally-sandwich",
     "recipe/truffle-frilled-shark-sand": "recipe/truffle-shark-sandwich",
     "recipe/white-trevally-tangle-ochazuke": "recipe/white-trevally-kombu-ochazuke",
-    "recipe/yellow-fin-tuna-stake": "recipe/yellowfin-tuna-steak"
+    "recipe/yellow-fin-tuna-stake": "recipe/yellowfin-tuna-steak",
+    "fish/australian-spotted-jellyfish": "fish/white-spotted-jellyfish",
+    "ingredient/australian-spotted-jellyfish": "ingredient/white-spotted-jellyfish",
+    "recipe/australian-spotted-jellyfish": "recipe/white-spotted-jellyfish-sushi",
+    "recipe/caulerpa-racemosa-jellyfish": "recipe/seagrapes-jellyfish-sushi"
   },
   "recipes": [
     {
@@ -7724,7 +7728,8 @@
       "nameId": "recipe/seagrapes-jellyfish-sushi",
       "en": "Seagrapes Jellyfish Sushi",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/seagrapes-jellyfish-sushi/"
+        "https://davethediver.net/zh-hans/recipe/seagrapes-jellyfish-sushi/",
+        "https://davethediver.net/zh-hans/recipe/caulerpa-racemosa-jellyfish/"
       ],
       "inferred": false,
       "relatedFish": [
@@ -7750,7 +7755,10 @@
         "baseTaste": 100,
         "maxTaste": 280,
         "baseServings": 1,
-        "maxServings": 1
+        "maxServings": 1,
+        "maxLevel": 10,
+        "ingredientCost": 20,
+        "estimatedProfit": 205
       },
       "facets": {},
       "acquisition-method": {
@@ -8796,7 +8804,8 @@
       "nameId": "recipe/white-spotted-jellyfish-sushi",
       "en": "White Spotted Jellyfish Sushi",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/white-spotted-jellyfish-sushi/"
+        "https://davethediver.net/zh-hans/recipe/white-spotted-jellyfish-sushi/",
+        "https://davethediver.net/zh-hans/recipe/australian-spotted-jellyfish/"
       ],
       "inferred": false,
       "relatedFish": [
@@ -8814,7 +8823,10 @@
         "baseTaste": 18,
         "maxTaste": 180,
         "baseServings": 1,
-        "maxServings": 1
+        "maxServings": 1,
+        "maxLevel": 10,
+        "ingredientCost": 6,
+        "estimatedProfit": 12
       },
       "facets": {},
       "acquisition-method": {
@@ -11961,38 +11973,6 @@
       "facts": []
     },
     {
-      "id": "recipe/australian-spotted-jellyfish",
-      "type": "recipe",
-      "nameId": "recipe/australian-spotted-jellyfish",
-      "en": "Australian Spotted Jellyfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/australian-spotted-jellyfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/australian-spotted-jellyfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/australian-spotted-jellyfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 18,
-        "maxPrice": null,
-        "baseTaste": 18,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 6,
-        "estimatedProfit": 12
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/black-caiman",
       "type": "recipe",
       "nameId": "recipe/black-caiman",
@@ -12286,46 +12266,6 @@
         "maxLevel": 10,
         "ingredientCost": 18,
         "estimatedProfit": 57
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/caulerpa-racemosa-jellyfish",
-      "type": "recipe",
-      "nameId": "recipe/caulerpa-racemosa-jellyfish",
-      "en": "Caulerpa Racemosa Jellyfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/caulerpa-racemosa-jellyfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/australian-spotted-jellyfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/sea-grape",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/australian-spotted-jellyfish",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/salt",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 225,
-        "maxPrice": null,
-        "baseTaste": 100,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 20,
-        "estimatedProfit": 205
       },
       "facets": {},
       "facts": []
@@ -26980,48 +26920,6 @@
       }
     },
     {
-      "id": "fish/australian-spotted-jellyfish",
-      "type": "fish",
-      "nameId": "fish/australian-spotted-jellyfish",
-      "en": "Australian Spotted Jellyfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/australian-spotted-jellyfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/australian-spotted-jellyfish"
-      ],
-      "relatedRecipes": [
-        "recipe/australian-spotted-jellyfish",
-        "recipe/caulerpa-racemosa-jellyfish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 2,
-        "weight": 1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 6,
-        "health": 36,
-        "damage": 5,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/82a8f0e0b78d"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "117"
-      }
-    },
-    {
       "id": "fish/baby-anomalocaris",
       "type": "fish",
       "nameId": "fish/baby-anomalocaris",
@@ -32198,7 +32096,8 @@
       "nameId": "fish/white-spotted-jellyfish",
       "en": "White Spotted Jellyfish",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/white-spotted-jellyfish/"
+        "https://davethediver.net/zh-hans/fish/white-spotted-jellyfish/",
+        "https://davethediver.net/zh-hans/fish/australian-spotted-jellyfish/"
       ],
       "inferred": false,
       "relatedIngredients": [
@@ -32220,14 +32119,22 @@
         "meat1": 1,
         "meat2": 2,
         "meat3": 3,
-        "sellPrice": null,
-        "length": 50
+        "sellPrice": 6,
+        "length": 50,
+        "health": 36,
+        "damage": 5,
+        "harvestCount": 0,
+        "captureRank": 0
       },
       "region": [
+        "region/82a8f0e0b78d",
         "region/limestone-cave"
       ],
       "facets": {
-        "time": "time/6fa7e15a01ab"
+        "time": "time/6fa7e15a01ab",
+        "size": "text/5b3ed24e0472",
+        "behavior": "text/ad14cad5a8ba",
+        "knockbackResistance": "text/b5141d3d19e9"
       },
       "fields": {
         "encyclopediaNumber": "0117",
@@ -34566,7 +34473,6 @@
         "recipe/seagrapes-special-sushi",
         "recipe/seahorse-salad",
         "recipe/trout-sea-grapes-ricebowl",
-        "recipe/caulerpa-racemosa-jellyfish",
         "recipe/egg-tenshinhan",
         "recipe/seahorse-sea-grapes-salad",
         "recipe/special-goblin-shark-belly-meat-grilled"
@@ -35022,7 +34928,6 @@
         "recipe/seagrapes-jellyfish-sushi",
         "recipe/steamed-wolf-eel",
         "recipe/three-colored-squid-roast",
-        "recipe/caulerpa-racemosa-jellyfish",
         "recipe/special-clione-queen-tentacle-soup",
         "recipe/special-goblin-shark-belly-meat-grilled",
         "recipe/special-lusca-leg-blanched",
@@ -40874,27 +40779,6 @@
       ],
       "relatedRecipes": [
         "recipe/asian-arowana"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/australian-spotted-jellyfish",
-      "type": "ingredient",
-      "nameId": "fish/australian-spotted-jellyfish",
-      "en": "Australian Spotted Jellyfish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/australian-spotted-jellyfish"
-      ],
-      "relatedFish": [
-        "fish/australian-spotted-jellyfish"
-      ],
-      "relatedRecipes": [
-        "recipe/australian-spotted-jellyfish",
-        "recipe/caulerpa-racemosa-jellyfish"
       ],
       "facts": [],
       "stats": {},
