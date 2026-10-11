@@ -1,4 +1,4 @@
-import type { Entity, FactValue, FishEntity } from "./catalog.ts";
+import type { Entity, FactValue } from "./catalog.ts";
 import { formatNumber } from "./utils/formatNumber.ts";
 
 export type DisplayFactValue = FactValue & {
@@ -8,10 +8,10 @@ export type DisplayFactValue = FactValue & {
   templateId?: string;
   parameters?: Record<string, string | number | { nameId: string }>;
   stat?: string;
-  computed?: "value-per-kilogram" | "base-total" | "max-total" | "recipe-count";
+  computed?: "value-per-kilogram" | "base-total" | "max-total";
 };
 export interface DisplayFact { labelId: string; values: DisplayFactValue[] }
-type FactContext = Pick<Entity, "stats"> & Partial<Pick<FishEntity, "relatedRecipes">>;
+type FactContext = Pick<Entity, "stats">;
 
 const statFields: Record<Entity["type"], [string, string, string?][]> = {
   recipe: [
@@ -106,7 +106,6 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
   if (entity.type === "fish" || entity.type === "ingredient") {
     const value: DisplayFactValue = { computed: "value-per-kilogram", unitId: "unit/gold", perUnitId: "unit/kilogram" };
     if (resolveFactNumber(value, entity) !== null) append("value-per-kilogram", [value]);
-    append("recipe-count", [{ computed: "recipe-count" }]);
   }
   if (entity.type === "staff") for (const computed of ["base-total", "max-total"] as const) {
     const value = { computed };
@@ -119,9 +118,6 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
 
 /** Calculations read the current entity stats, never a preformatted source value. */
 export function resolveFactNumber(value: DisplayFactValue, entity: FactContext): number | null {
-  if (value.computed === "recipe-count") {
-    return entity.relatedRecipes ? new Set(entity.relatedRecipes).size : null;
-  }
   if (value.computed === "base-total" || value.computed === "max-total") {
     const prefix = value.computed === "base-total" ? "base" : "max";
     const values = ["Cooking", "Serving", "Procurement", "Appeal"].map(stat => entity.stats[`${prefix}${stat}`]);

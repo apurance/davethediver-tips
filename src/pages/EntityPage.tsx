@@ -51,6 +51,12 @@ export function EntityPage({ type }: { type: EntityType }) {
     <Card title={type === "recipe" || type === "staff" ? "解锁与其他信息" : "游戏数据"} className="catalog-detail-card">
       {facts.length ? <Descriptions bordered column={1} size="small" items={facts.map((f, i) => ({ key: i, label: name(f.labelId), children: <FactContent values={f.values} entity={entity} /> }))} /> : <p className="muted">来源未提供其他独立属性数据。</p>}
     </Card>
+    {entity.type === "fish" && !!entity.drops?.length && <Card title={name("field/drops")} className="catalog-detail-card">
+      <div className="catalog-related">{entity.drops.map((drop, index) => {
+        const item = drop.entityId ? getEntity(drop.entityId) : undefined;
+        return <div key={index}>{drop.entityId ? <EntityLink id={drop.entityId} /> : drop.text}{item && <small className="catalog-en">{item.en}</small>}</div>;
+      })}</div>
+    </Card>}
     {getRelatedGroups(entity).map(group => {
       const entries = group.ids.map(getEntity).filter((e): e is Entity => !!e && e.type === group.type);
       return entries.length ? <Card key={group.type} title={group.type === "recipe" ? `可制作食谱 · ${entries.length}` : `关联${entityTypes[group.type]} · ${entries.length}`} className="catalog-detail-card">

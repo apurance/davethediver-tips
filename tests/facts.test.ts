@@ -38,6 +38,7 @@ test("derived fields exist only in the frontend and leave source data unchanged"
       for (const value of fact.values) assert.ok(!("computed" in value) && !("stat" in value), entity.id);
     }
     const display = getDisplayFacts(entity);
+    assert.ok(!display.some(fact => fact.labelId === "field/recipe-count"), entity.id);
     assert.equal(display.length, new Set(display.map(fact => fact.labelId)).size, entity.id);
     assert.equal(JSON.stringify(entity), source, entity.id);
     for (const fact of display) {
@@ -76,7 +77,7 @@ test("missing or invalid ratio inputs do not produce misleading zero or infinity
   assert.equal(formatFactValue({ stat: "sellPrice" }, { stats: {} }, translate), "未提供");
 });
 
-test("staff totals and recipe counts reflect edits without maintaining extra database fields", () => {
+test("staff totals reflect edits without maintaining extra database fields", () => {
   const billy = byId.get("staff/billy")!;
   const base = factValue(billy, "field/base-total");
   const max = factValue(billy, "field/max-total");
@@ -87,16 +88,6 @@ test("staff totals and recipe counts reflect edits without maintaining extra dat
   assert.ok(!getDisplayFacts({ ...billy, stats: { ...billy.stats, maxServing: null } }).some(fact => fact.labelId === "field/max-total"));
   const davina = byId.get("staff/davina")!;
   assert.equal(resolveFactNumber(factValue(davina, "field/base-total"), davina), 85);
-  const tomato = byId.get("ingredient/cherry-tomato")!;
-  assert.ok(tomato.type === "ingredient");
-  const count = factValue(tomato, "field/recipe-count");
-  assert.equal(resolveFactNumber(count, tomato), 9);
-  assert.equal(resolveFactNumber(count, { ...tomato, relatedRecipes: [...tomato.relatedRecipes, "recipe/tiger-shark-sushi"] }), 10);
-  assert.equal(resolveFactNumber(count, { ...tomato, relatedRecipes: [...tomato.relatedRecipes, tomato.relatedRecipes[0]] }), 9);
-  assert.equal(resolveFactNumber(count, { ...tomato, relatedRecipes: [] }), 0);
-  assert.equal(resolveFactNumber(count, { stats: {} }), null);
-  const photo = byId.get("fish/baby-humpback-whale")!;
-  assert.equal(resolveFactNumber(factValue(photo, "field/recipe-count"), photo), 0);
 });
 
 test("small weights, quantity templates and identifier leading zeroes remain readable", () => {

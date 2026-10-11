@@ -39,6 +39,7 @@ export interface IngredientEntity extends EntityBase {
 }
 export interface FishEntity extends EntityBase {
   type: "fish";
+  drops?: { text?: string; entityId?: string }[];
   relatedRecipes: string[];
   relatedIngredients: string[];
   region?: string[];

@@ -20655,15 +20655,12 @@
       "relatedRecipes": [
         "recipe/zebra-shark-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Zebra Shark Meat"
-            }
-          ]
-        },
+          "entityId": "ingredient/meat-zebra-shark"
+        }
+      ],
+      "facts": [
         {
           "labelId": "field/harvest-source",
           "values": [
@@ -20717,16 +20714,12 @@
         "recipe/antarctic-octopus-carpaccio",
         "recipe/grilled-antarctic-octopus-and-truffle"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Antarctic Octopus Venom Sack"
-            }
-          ]
+          "text": "Antarctic Octopus Venom Sack"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 7.5,
@@ -20770,16 +20763,12 @@
         "recipe/box-jellyfish-sushi",
         "recipe/cold-jellyfish-and-green-sea-urchin-salad"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Box Jellyfish Tentacle"
-            }
-          ]
+          "text": "Box Jellyfish Tentacle"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -20866,16 +20855,12 @@
         "recipe/comb-jelly-sushi",
         "recipe/deep-sea-kaiju-ramen"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Comb Jelly Electric Organ"
-            }
-          ]
+          "text": "Comb Jelly Electric Organ"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 7,
@@ -21007,16 +20992,15 @@
         "recipe/rhinochimaeridae-sushi",
         "recipe/crimson-fish-roll"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Rhinochimaeridae Meat, Rhinochimaeridae Poison Thorn"
-            }
-          ]
+          "entityId": "ingredient/meat-rhinochimaeridae"
+        },
+        {
+          "text": "Rhinochimaeridae Poison Thorn"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -21106,16 +21090,12 @@
         "recipe/three-colored-squid-roast",
         "recipe/vampire-squid-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Vampire Squid Tentacle"
-            }
-          ]
+          "text": "Vampire Squid Tentacle"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 6,
@@ -21822,16 +21802,12 @@
       "relatedRecipes": [
         "recipe/drepanaspis-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Drepanaspis Head Plate"
-            }
-          ]
+          "text": "Drepanaspis Head Plate"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8.5,
@@ -21874,16 +21850,15 @@
       "relatedRecipes": [
         "recipe/dunkleosteus-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Dunkleosteus Meat, Dunkleosteus Thoracic Shield"
-            }
-          ]
+          "entityId": "ingredient/meat-dunkleosteus"
+        },
+        {
+          "text": "Dunkleosteus Thoracic Shield"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 19.5,
@@ -22059,16 +22034,15 @@
         "recipe/frilled-shark-sushi",
         "recipe/truffle-shark-sandwich"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Frilled Shark Meat, Frilled Shark Teeth"
-            }
-          ]
+          "entityId": "ingredient/meat-frilled-shark"
+        },
+        {
+          "text": "Frilled Shark Teeth"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 8.5,
@@ -22113,20 +22087,15 @@
         "recipe/giant-trevally-sushi",
         "recipe/trevally-sandwich"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "entityId": "ingredient/giant-trevally-meat",
-              "nameId": "ingredient/giant-trevally-meat"
-            },
-            {
-              "text": ", Giant Trevally Fin"
-            }
-          ]
+          "entityId": "ingredient/giant-trevally-meat"
+        },
+        {
+          "text": "Giant Trevally Fin"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 5,
@@ -22258,16 +22227,12 @@
         "recipe/humboldt-squid-sushi",
         "recipe/humboldt-ink-pasta"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Humboldt Squid Meat"
-            }
-          ]
+          "entityId": "ingredient/meat-humboldt-squid"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 7.5,
@@ -22444,20 +22409,15 @@
         "recipe/marbled-electric-ray-sushi",
         "recipe/dried-stingray"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "entityId": "ingredient/marbled-electric-ray-meat",
-              "nameId": "ingredient/marbled-electric-ray-meat"
-            },
-            {
-              "text": ", Marbled Electric Ray Electroplax"
-            }
-          ]
+          "entityId": "ingredient/marbled-electric-ray-meat"
+        },
+        {
+          "text": "Marbled Electric Ray Electroplax"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3.5,
@@ -23027,16 +22987,12 @@
       "relatedRecipes": [
         "recipe/shortfin-mako-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Mako Meat"
-            }
-          ]
+          "entityId": "ingredient/mako-meat"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 9,
@@ -23212,16 +23168,15 @@
       "relatedRecipes": [
         "recipe/thresher-shark-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Thresher Shark Tail, Thresher Shark Meat"
-            }
-          ]
+          "text": "Thresher Shark Tail"
+        },
+        {
+          "entityId": "ingredient/meat-thresher-shark"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8.5,
@@ -23400,16 +23355,12 @@
       "relatedRecipes": [
         "recipe/xenacanthus-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Xenacanthus Meat"
-            }
-          ]
+          "entityId": "ingredient/meat-xenacanthus"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 5.5,
@@ -24483,16 +24434,15 @@
       "relatedRecipes": [
         "recipe/greenland-shark-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Greenland Shark Meat, Greenland Shark Spine"
-            }
-          ]
+          "entityId": "ingredient/meat-greenland-shark"
+        },
+        {
+          "text": "Greenland Shark Spine"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 20,
@@ -24930,16 +24880,12 @@
         "recipe/fried-onion-cuttlefish",
         "recipe/three-colored-squid-roast"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Cuttlefish Skin Fragment"
-            }
-          ]
+          "text": "Cuttlefish Skin Fragment"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 4,
@@ -24983,16 +24929,12 @@
       "relatedRecipes": [
         "recipe/devil-scorpionfish-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Devil Scorpion Fish Thorn"
-            }
-          ]
+          "text": "Devil Scorpion Fish Thorn"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 3,
@@ -25037,17 +24979,12 @@
         "recipe/blacktip-reefshark-sushi",
         "recipe/shark-karaage"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "entityId": "ingredient/blacktip-shark-meat",
-              "nameId": "ingredient/blacktip-shark-meat"
-            }
-          ]
+          "entityId": "ingredient/blacktip-shark-meat"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 2.5,
@@ -25144,16 +25081,18 @@
         "recipe/bluefin-tuna-ootoro-sushi",
         "recipe/hyalonema-tuna-sashimi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Bluefin Tuna Akami, Bluefin Tuna Chutoro, 24pxBluefin Tuna Ootoro"
-            }
-          ]
+          "text": "Bluefin Tuna Akami"
+        },
+        {
+          "text": "Bluefin Tuna Chutoro"
+        },
+        {
+          "text": "24pxBluefin Tuna Ootoro"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 8,
@@ -25461,16 +25400,15 @@
         "recipe/boiled-sailfish-and-seaweed",
         "recipe/truffle-sailfish-tartare"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Sailfish Meat, Sailfish Bill"
-            }
-          ]
+          "entityId": "ingredient/meat-sail-fish"
+        },
+        {
+          "text": "Sailfish Bill"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 9,
@@ -25566,16 +25504,18 @@
         "recipe/yellowfin-tuna-ootoro-sushi",
         "recipe/hyalonema-tuna-sashimi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Yellowfin Tuna Akami, Yellowfin Tuna Chutoro, 24pxYellowfin Tuna Ootoro"
-            }
-          ]
+          "text": "Yellowfin Tuna Akami"
+        },
+        {
+          "text": "Yellowfin Tuna Chutoro"
+        },
+        {
+          "text": "24pxYellowfin Tuna Ootoro"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 6,
@@ -25620,31 +25560,23 @@
         "recipe/whitetip-reefshark-sushi",
         "recipe/whole-roasted-shark-head"
       ],
+      "drops": [
+        {
+          "text": "Whitetip Reefshark Tooth"
+        },
+        {
+          "entityId": "ingredient/whitetip-reefshark-head"
+        },
+        {
+          "entityId": "ingredient/whitetip-reefshark-meat"
+        }
+      ],
       "facts": [
         {
           "labelId": "field/harvest-source",
           "values": [
             {
               "text": "fish"
-            }
-          ]
-        },
-        {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Whitetip Reefshark Tooth,"
-            },
-            {
-              "entityId": "ingredient/whitetip-reefshark-head",
-              "nameId": "ingredient/whitetip-reefshark-head"
-            },
-            {
-              "text": ","
-            },
-            {
-              "entityId": "ingredient/whitetip-reefshark-meat",
-              "nameId": "ingredient/whitetip-reefshark-meat"
             }
           ]
         }
@@ -25685,16 +25617,12 @@
         "recipe/barrel-jellyfish-sushi",
         "recipe/seasoned-jellyfish"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Barrel Jellyfish Tentacle"
-            }
-          ]
+          "text": "Barrel Jellyfish Tentacle"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1,
@@ -25731,16 +25659,12 @@
         "recipe/moray-eel-sushi",
         "recipe/moray-eel-curry"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Moray Eel Jawbone"
-            }
-          ]
+          "text": "Moray Eel Jawbone"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 9,
@@ -25820,16 +25744,12 @@
         "recipe/red-lionfish-sushi",
         "recipe/deep-fried-red-lionfish"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Red Lionfish Thorn"
-            }
-          ]
+          "text": "Red Lionfish Thorn"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.5,
@@ -25902,16 +25822,12 @@
       "relatedRecipes": [
         "recipe/bloodskin-shark-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Bloodskin Shark Tendon"
-            }
-          ]
+          "text": "Bloodskin Shark Tendon"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 11.5,
@@ -25992,16 +25908,12 @@
       "relatedRecipes": [
         "recipe/gazing-shark-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Gazing Shark Eyeball"
-            }
-          ]
+          "text": "Gazing Shark Eyeball"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 11,
@@ -26045,16 +25957,15 @@
         "recipe/megamouth-shark-sushi",
         "recipe/truffle-shark-sandwich"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Megamouth Shark Meat, Megamouth Shark Jawbone"
-            }
-          ]
+          "entityId": "ingredient/meat-megamouth-shark"
+        },
+        {
+          "text": "Megamouth Shark Jawbone"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 11.5,
@@ -26091,16 +26002,15 @@
         "recipe/boiled-porbeagle-shark",
         "recipe/porbeagle-shark-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Porbeagle Shark Meat, Porbeagle Shark Tooth"
-            }
-          ]
+          "entityId": "ingredient/meat-porbeagle-shark"
+        },
+        {
+          "text": "Porbeagle Shark Tooth"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 13.5,
@@ -26136,20 +26046,15 @@
       "relatedRecipes": [
         "recipe/tiger-shark-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "entityId": "ingredient/tiger-shark-meat",
-              "nameId": "ingredient/tiger-shark-meat"
-            },
-            {
-              "text": ", Tiger Shark Tooth"
-            }
-          ]
+          "entityId": "ingredient/tiger-shark-meat"
+        },
+        {
+          "text": "Tiger Shark Tooth"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 15,
@@ -26222,16 +26127,12 @@
       "relatedRecipes": [
         "recipe/translucent-sturgeon-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Translucent Sturgeon Backbone"
-            }
-          ]
+          "text": "Translucent Sturgeon Backbone"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8,
@@ -26958,16 +26859,12 @@
       "relatedRecipes": [
         "recipe/longnose-sawshark-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Longnose Sawshark Meat"
-            }
-          ]
+          "entityId": "ingredient/meat-long-nose-saw-shark"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 6.5,
@@ -32708,16 +32605,15 @@
       "relatedRecipes": [
         "recipe/smooth-hammerhead-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Hammerhead Meat, Hammerhead Shark Skull"
-            }
-          ]
+          "entityId": "ingredient/hammerhead-meat"
+        },
+        {
+          "text": "Hammerhead Shark Skull"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 13,
@@ -32837,16 +32733,12 @@
         "recipe/bluespotted-stargazer-sushi",
         "recipe/sweet-and-sour-stargazer"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Stargazer Tooth"
-            }
-          ]
+          "text": "Stargazer Tooth"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -32883,16 +32775,12 @@
         "recipe/marlin-sushi",
         "recipe/marlin-and-soybean-paste-roast"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Marlin Meat"
-            }
-          ]
+          "entityId": "ingredient/marlin-meat"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 7.5,
@@ -32972,16 +32860,12 @@
         "recipe/sheepshead-sushi",
         "recipe/boiled-asian-sheepshead-wrasse-and-truffle"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Sheepshead Meat"
-            }
-          ]
+          "entityId": "ingredient/sheepshead-meat"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1.8,
@@ -33019,16 +32903,12 @@
         "recipe/stellate-puffer-nicogori",
         "recipe/pufferfish-dumpling-soup"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Starry Puffer Poison Sack"
-            }
-          ]
+          "text": "Starry Puffer Poison Sack"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3,
@@ -33102,17 +32982,12 @@
         "recipe/stingray-sushi",
         "recipe/dried-stingray"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "entityId": "ingredient/stingray-meat",
-              "nameId": "ingredient/stingray-meat"
-            }
-          ]
+          "entityId": "ingredient/stingray-meat"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3,
@@ -33149,16 +33024,12 @@
         "recipe/white-spotted-jellyfish-sushi",
         "recipe/seagrapes-jellyfish-sushi"
       ],
-      "facts": [
+      "drops": [
         {
-          "labelId": "field/drops",
-          "values": [
-            {
-              "text": "Spotted Jellyfish Tentacle"
-            }
-          ]
+          "text": "Spotted Jellyfish Tentacle"
         }
       ],
+      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1,
