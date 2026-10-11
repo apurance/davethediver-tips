@@ -162,10 +162,38 @@ test("translated scalar facets restore field labels and resolve current translat
   assert.equal(JSON.stringify(edited), source);
 
   const recipe = byId.get("recipe/seadragon-onigiri")!;
-  const linkedSource = recipe.facts.find(fact => fact.labelId === "field/acquisition-method")!;
-  assert.equal(linkedSource.values[0].entityId, "fish/seadragon");
-  assert.deepEqual(getDisplayFacts(recipe).find(fact => fact.labelId === "field/acquisition-method"), linkedSource);
+  assert.ok(recipe.type === "recipe");
+  assert.deepEqual(recipe["acquisition-method"], { entityId: "fish/seadragon" });
+  assert.deepEqual(factValue(recipe, "field/acquisition-method"), { entityId: "fish/seadragon" });
   assert.equal(recipe.facets.acquisitionMethod, undefined);
+});
+
+test("acquisition methods use the top-level text or entity reference and display current values", () => {
+  for (const entity of all) {
+    assert.ok(!entity.facts.some(fact => fact.labelId === "field/acquisition-method"), entity.id);
+    assert.ok(!("acquisitionMethod" in entity.facets), entity.id);
+    assert.ok(!("acquisitionMethod" in entity.stats), entity.id);
+    if (entity.type !== "recipe" && entity.type !== "ingredient") continue;
+    const acquisition = entity["acquisition-method"];
+    if (!acquisition) continue;
+    const keys = Object.keys(acquisition);
+    assert.equal(keys.length, 1, entity.id);
+    assert.ok(keys[0] === "text" || keys[0] === "entityId", entity.id);
+    assert.equal(typeof (acquisition.text ?? acquisition.entityId), "string", entity.id);
+    const display = getDisplayFacts(entity).filter(fact => fact.labelId === "field/acquisition-method");
+    assert.deepEqual(display, [{ labelId: "field/acquisition-method", values: [acquisition] }], entity.id);
+  }
+  const recipe = byId.get("recipe/seadragon-onigiri")!;
+  assert.ok(recipe.type === "recipe");
+  const edited = { ...recipe, "acquisition-method": { text: "测试获取方式" } };
+  const source = JSON.stringify(edited);
+  assert.equal(formatFactValue(factValue(edited, "field/acquisition-method"), edited, translate), "测试获取方式");
+  assert.equal(JSON.stringify(edited), source);
+  assert.ok(!getDisplayFacts({ ...recipe, "acquisition-method": undefined }).some(fact => fact.labelId === "field/acquisition-method"));
+  const norimaki = byId.get("recipe/norimaki")!;
+  assert.equal(formatFactValue(factValue(norimaki, "field/acquisition-method"), norimaki, translate), "默认");
+  const kajime = byId.get("ingredient/kajime")!;
+  assert.equal(formatFactValue(factValue(kajime, "field/acquisition-method"), kajime, translate), "130");
 });
 
 test("corrected regions display from the top-level list without the obsolete numeric value", () => {

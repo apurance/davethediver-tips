@@ -397,15 +397,10 @@
         "maxLevel": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Cooksta Platinum Rank"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Platinum Rank"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -457,15 +452,10 @@
         "maxLevel": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Tuna Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Tuna Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -513,15 +503,10 @@
         "maxLevel": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -569,15 +554,10 @@
         "maxLevel": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Drae to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Drae to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -621,15 +601,10 @@
         "maxLevel": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Cooksta Silver Rank"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Silver Rank"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -673,17 +648,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/seadragon",
-              "entityId": "fish/seadragon"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/seadragon"
+      },
+      "facts": []
     },
     {
       "id": "recipe/vegetable-sushi",
@@ -721,16 +689,10 @@
         "estimatedProfit": 314
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Good Ol' Vegetable Sushi!"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Good Ol' Vegetable Sushi!"
+      },
+      "facts": []
     },
     {
       "id": "recipe/wrasse-curry",
@@ -775,15 +737,10 @@
         "maxLevel": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Jandi to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Jandi to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -831,16 +788,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Let Us Begin the Contest"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Let Us Begin the Contest"
+      },
+      "facts": []
     },
     {
       "id": "recipe/blobfish-spring-roll",
@@ -883,16 +834,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Chinese Cuisine Contest!"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Chinese Cuisine Contest!"
+      },
+      "facts": []
     },
     {
       "id": "recipe/comber-sandwich",
@@ -936,16 +881,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Whose Fried food is the Best?"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Whose Fried food is the Best?"
+      },
+      "facts": []
     },
     {
       "id": "recipe/eggplant-soba-oyaki",
@@ -986,16 +925,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Etsuko to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Etsuko to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/great-barracuda-canape",
@@ -1038,16 +971,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Diamond Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Diamond Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/hot-pepper-tuna",
@@ -1089,15 +1016,10 @@
         "maxLevel": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Spicy Pepper Seeds!"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Spicy Pepper Seeds!"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1146,15 +1068,10 @@
         "maxLevel": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1206,16 +1123,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Let Us Begin the Contest"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Let Us Begin the Contest"
+      },
+      "facts": []
     },
     {
       "id": "recipe/pelican-eel-jelly",
@@ -1255,16 +1166,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Whose Fried food is the Best?"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Whose Fried food is the Best?"
+      },
+      "facts": []
     },
     {
       "id": "recipe/pikaia-ramen",
@@ -1307,16 +1212,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Check the Control Room Entrance (last device)"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Check the Control Room Entrance (last device)"
+      },
+      "facts": []
     },
     {
       "id": "recipe/smallspotted-dart-kajime-soup",
@@ -1355,16 +1254,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Maki, Liu, Mitchell, or El Nino to Level 5"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Maki, Liu, Mitchell, or El Nino to Level 5"
+      },
+      "facts": []
     },
     {
       "id": "recipe/spear-squid-soba-futomaki",
@@ -1407,16 +1300,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Chitose to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Chitose to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/stellate-puffer-nicogori",
@@ -1457,16 +1344,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train specific Sushi Staff to Level 5"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train specific Sushi Staff to Level 5"
+      },
+      "facts": []
     },
     {
       "id": "recipe/tomato-egg-soup",
@@ -1503,16 +1384,10 @@
         "maxLevel": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Chinese Cuisine Contest!"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Chinese Cuisine Contest!"
+      },
+      "facts": []
     },
     {
       "id": "recipe/american-lobster-sushi",
@@ -1544,16 +1419,10 @@
         "estimatedProfit": 86
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/american-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/american-lobster",
-              "entityId": "fish/american-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1594,16 +1463,10 @@
         "estimatedProfit": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/barrel-jellyfish"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/barrel-jellyfish",
-              "entityId": "fish/barrel-jellyfish"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1644,16 +1507,10 @@
         "estimatedProfit": 94
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/blue-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/blue-lobster",
-              "entityId": "fish/blue-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1694,16 +1551,10 @@
         "estimatedProfit": 37
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/box-jellyfish"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/box-jellyfish",
-              "entityId": "fish/box-jellyfish"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1744,16 +1595,10 @@
         "estimatedProfit": 44
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/california-spiny-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/california-spiny-lobster",
-              "entityId": "fish/california-spiny-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1794,16 +1639,10 @@
         "estimatedProfit": 31
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/comb-jelly"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/comb-jelly",
-              "entityId": "fish/comb-jelly"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1843,16 +1682,10 @@
         "estimatedProfit": 24
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/whiteleg-shrimp"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/whiteleg-shrimp",
-              "entityId": "fish/whiteleg-shrimp"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1893,16 +1726,10 @@
         "estimatedProfit": 50
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/cookiecutter-shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/cookiecutter-shark",
-              "entityId": "fish/cookiecutter-shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1943,16 +1770,10 @@
         "estimatedProfit": 94
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/crystal-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/crystal-lobster",
-              "entityId": "fish/crystal-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -1993,16 +1814,10 @@
         "estimatedProfit": 90
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/dollocaris-ingens"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/dollocaris-ingens",
-              "entityId": "fish/dollocaris-ingens"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2043,16 +1858,10 @@
         "estimatedProfit": 94
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/eastern-rock-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/eastern-rock-lobster",
-              "entityId": "fish/eastern-rock-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2093,16 +1902,10 @@
         "estimatedProfit": 46
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/european-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/european-lobster",
-              "entityId": "fish/european-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2143,16 +1946,10 @@
         "estimatedProfit": 87
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/falcatus"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/falcatus",
-              "entityId": "fish/falcatus"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2193,16 +1990,10 @@
         "estimatedProfit": 44
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/fan-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/fan-lobster",
-              "entityId": "fish/fan-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2243,16 +2034,10 @@
         "estimatedProfit": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/fried-egg-jellyfish"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/fried-egg-jellyfish",
-              "entityId": "fish/fried-egg-jellyfish"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2293,16 +2078,10 @@
         "estimatedProfit": 50
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/norway-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/norway-lobster",
-              "entityId": "fish/norway-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2342,16 +2121,10 @@
         "estimatedProfit": 33
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/black-tiger-shrimp"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/black-tiger-shrimp",
-              "entityId": "fish/black-tiger-shrimp"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2390,15 +2163,10 @@
         "estimatedProfit": 300
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Cucumber Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Cucumber Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2440,16 +2208,10 @@
         "estimatedProfit": 110
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/tokummia-katalepsis"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/tokummia-katalepsis",
-              "entityId": "fish/tokummia-katalepsis"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2490,16 +2252,10 @@
         "estimatedProfit": 90
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/tropical-rock-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/tropical-rock-lobster",
-              "entityId": "fish/tropical-rock-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2540,16 +2296,10 @@
         "estimatedProfit": 69
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/waptia-fieldensis"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/waptia-fieldensis",
-              "entityId": "fish/waptia-fieldensis"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2590,16 +2340,10 @@
         "estimatedProfit": 36
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/white-shrimp"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/white-shrimp",
-              "entityId": "fish/white-shrimp"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -2640,17 +2384,10 @@
         "estimatedProfit": 90
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/alaska-pollock",
-              "entityId": "fish/alaska-pollock"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/alaska-pollock"
+      },
+      "facts": []
     },
     {
       "id": "recipe/allenypterus-sushi",
@@ -2682,17 +2419,10 @@
         "estimatedProfit": 83
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/allenypterus",
-              "entityId": "fish/allenypterus"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/allenypterus"
+      },
+      "facts": []
     },
     {
       "id": "recipe/antarctic-octopus-sushi",
@@ -2724,17 +2454,10 @@
         "estimatedProfit": 80
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/antarctic-octopus",
-              "entityId": "fish/antarctic-octopus"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/antarctic-octopus"
+      },
+      "facts": []
     },
     {
       "id": "recipe/arctic-cod-sushi",
@@ -2766,17 +2489,10 @@
         "estimatedProfit": 63
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/arctic-cod",
-              "entityId": "fish/arctic-cod"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/arctic-cod"
+      },
+      "facts": []
     },
     {
       "id": "recipe/arctic-telescope-fish-sushi",
@@ -2808,17 +2524,10 @@
         "estimatedProfit": 80
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/arctic-telescope-fish",
-              "entityId": "fish/arctic-telescope-fish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/arctic-telescope-fish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/atlantic-anglerfish-sushi",
@@ -2850,17 +2559,10 @@
         "estimatedProfit": 22
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/atlantic-anglerfish",
-              "entityId": "fish/atlantic-anglerfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/atlantic-anglerfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/atlantic-bonito-sushi",
@@ -2892,17 +2594,10 @@
         "estimatedProfit": 14
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/atlantic-bonito",
-              "entityId": "fish/atlantic-bonito"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/atlantic-bonito"
+      },
+      "facts": []
     },
     {
       "id": "recipe/atlantic-mackerel-sushi",
@@ -2934,17 +2629,10 @@
         "estimatedProfit": 14
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/atlantic-mackerel",
-              "entityId": "fish/atlantic-mackerel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/atlantic-mackerel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/b-and-w-snapper-sushi",
@@ -2976,17 +2664,10 @@
         "estimatedProfit": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/black-and-white-snapper",
-              "entityId": "fish/black-and-white-snapper"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/black-and-white-snapper"
+      },
+      "facts": []
     },
     {
       "id": "recipe/barreleye-sushi",
@@ -3018,17 +2699,10 @@
         "estimatedProfit": 35
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/barreleye",
-              "entityId": "fish/barreleye"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/barreleye"
+      },
+      "facts": []
     },
     {
       "id": "recipe/bigeye-scad-sushi",
@@ -3060,17 +2734,10 @@
         "estimatedProfit": 11
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/bigeye-scad",
-              "entityId": "fish/bigeye-scad"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/bigeye-scad"
+      },
+      "facts": []
     },
     {
       "id": "recipe/blackfin-barracuda-sushi",
@@ -3101,17 +2768,10 @@
         "estimatedProfit": 40
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/blackfin-barracuda",
-              "entityId": "fish/blackfin-barracuda"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/blackfin-barracuda"
+      },
+      "facts": []
     },
     {
       "id": "recipe/blackspot-seabream-sushi",
@@ -3143,17 +2803,10 @@
         "estimatedProfit": 3
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/blackspot-seabream",
-              "entityId": "fish/blackspot-seabream"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/blackspot-seabream"
+      },
+      "facts": []
     },
     {
       "id": "recipe/blobfish-sushi",
@@ -3185,17 +2838,10 @@
         "estimatedProfit": 80
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/blobfish",
-              "entityId": "fish/blobfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/blobfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/bluehead-tilefish-sushi",
@@ -3227,17 +2873,10 @@
         "estimatedProfit": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/bluehead-tilefish",
-              "entityId": "fish/bluehead-tilefish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/bluehead-tilefish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/boiled-and-deep-fried-white-shrimp",
@@ -3280,15 +2919,10 @@
         "flameCost": 8
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Raptor to Level 5"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Raptor to Level 5"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -3337,15 +2971,10 @@
         "flameCost": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Defeat Mantis Shrimp"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Mantis Shrimp"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -3392,15 +3021,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Raul to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Raul to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -3451,15 +3075,10 @@
         "flameCost": 5
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Marlin Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Marlin Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -3501,17 +3120,10 @@
         "estimatedProfit": 30
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/capelin",
-              "entityId": "fish/capelin"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/capelin"
+      },
+      "facts": []
     },
     {
       "id": "recipe/chambered-nautilus-sushi",
@@ -3543,17 +3155,10 @@
         "estimatedProfit": 23
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/chambered-nautilus",
-              "entityId": "fish/chambered-nautilus"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/chambered-nautilus"
+      },
+      "facts": []
     },
     {
       "id": "recipe/clearfin-lionfish-sushi",
@@ -3585,17 +3190,10 @@
         "estimatedProfit": 16
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/clearfin-lionfish",
-              "entityId": "fish/clearfin-lionfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/clearfin-lionfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/clione-sushi",
@@ -3627,17 +3225,10 @@
         "estimatedProfit": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/clione",
-              "entityId": "fish/clione"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/clione"
+      },
+      "facts": []
     },
     {
       "id": "recipe/cold-jellyfish-and-green-sea-urchin-salad",
@@ -3676,16 +3267,10 @@
         "flameCost": 9
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/green-sea-urchin"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/green-sea-urchin",
-              "entityId": "fish/green-sea-urchin"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -3726,17 +3311,10 @@
         "estimatedProfit": 12
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/coral-trout",
-              "entityId": "fish/coral-trout"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/coral-trout"
+      },
+      "facts": []
     },
     {
       "id": "recipe/crimson-fish-roll",
@@ -3776,15 +3354,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Billy to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Billy to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -3836,15 +3409,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Yusuke to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Yusuke to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -3885,17 +3453,10 @@
         "estimatedProfit": 42
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/dumbo-octopus",
-              "entityId": "fish/dumbo-octopus"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/dumbo-octopus"
+      },
+      "facts": []
     },
     {
       "id": "recipe/dusky-grouper-sushi",
@@ -3927,17 +3488,10 @@
         "estimatedProfit": 20
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/dusky-grouper",
-              "entityId": "fish/dusky-grouper"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/dusky-grouper"
+      },
+      "facts": []
     },
     {
       "id": "recipe/falcatus-soybean-paste-soup",
@@ -3979,15 +3533,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Shark Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Shark Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4028,17 +3577,10 @@
         "estimatedProfit": 30
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/fangtooth",
-              "entityId": "fish/fangtooth"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/fangtooth"
+      },
+      "facts": []
     },
     {
       "id": "recipe/gelatinous-snailfish-sushi",
@@ -4070,17 +3612,10 @@
         "estimatedProfit": 57
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/gelatinous-snailfish",
-              "entityId": "fish/gelatinous-snailfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/gelatinous-snailfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/goblin-shark-belly-roast",
@@ -4120,15 +3655,10 @@
         "flameCost": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Defeat Goblin Shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Goblin Shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4169,17 +3699,10 @@
         "estimatedProfit": 90
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/golden-king-crab",
-              "entityId": "fish/golden-king-crab"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/golden-king-crab"
+      },
+      "facts": []
     },
     {
       "id": "recipe/great-barracuda-sushi",
@@ -4211,17 +3734,10 @@
         "estimatedProfit": 14
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/great-barracuda",
-              "entityId": "fish/great-barracuda"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/great-barracuda"
+      },
+      "facts": []
     },
     {
       "id": "recipe/great-spider-crab-and-cucumber-sushi",
@@ -4255,15 +3771,10 @@
         "flameCost": 5
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Cucumber Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Cucumber Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4311,15 +3822,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Charlie to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Charlie to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4360,17 +3866,10 @@
         "estimatedProfit": 11
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/green-humphead-parrotfish",
-              "entityId": "fish/green-humphead-parrotfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/green-humphead-parrotfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/grey-triggerfish-sushi",
@@ -4402,17 +3901,10 @@
         "estimatedProfit": 11
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/grey-triggerfish",
-              "entityId": "fish/grey-triggerfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/grey-triggerfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/haddock-sushi",
@@ -4444,17 +3936,10 @@
         "estimatedProfit": 73
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/haddock",
-              "entityId": "fish/haddock"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/haddock"
+      },
+      "facts": []
     },
     {
       "id": "recipe/harlequin-hind-sushi",
@@ -4486,17 +3971,10 @@
         "estimatedProfit": 12
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/harlequin-hind",
-              "entityId": "fish/harlequin-hind"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/harlequin-hind"
+      },
+      "facts": []
     },
     {
       "id": "recipe/hawaiian-poke",
@@ -4538,15 +4016,10 @@
         "flameCost": 5
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Tuna Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Tuna Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4593,15 +4066,10 @@
         "flameCost": 12
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Cooksta Platinum Rank"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Platinum Rank"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4649,15 +4117,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Trapped in the Glacial Cave"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Trapped in the Glacial Cave"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4698,17 +4161,10 @@
         "estimatedProfit": 63
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/ice-fish",
-              "entityId": "fish/ice-fish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/ice-fish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/longspine-squirrelfish-sushi",
@@ -4740,17 +4196,10 @@
         "estimatedProfit": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/longspine-squirrelfish",
-              "entityId": "fish/longspine-squirrelfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/longspine-squirrelfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/lusca-neck-tadaki",
@@ -4790,15 +4239,10 @@
         "flameCost": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Defeat Lusca"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Lusca"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4839,17 +4283,10 @@
         "estimatedProfit": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/mackerel-scad",
-              "entityId": "fish/mackerel-scad"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/mackerel-scad"
+      },
+      "facts": []
     },
     {
       "id": "recipe/marlin-and-soybean-paste-roast",
@@ -4887,15 +4324,10 @@
         "flameCost": 5
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Marlin Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Marlin Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -4937,17 +4369,10 @@
         "estimatedProfit": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/mediterranean-parrotfish",
-              "entityId": "fish/mediterranean-parrotfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/mediterranean-parrotfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/megalograptus-sushi",
@@ -4979,17 +4404,10 @@
         "estimatedProfit": 94
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/megalograptus",
-              "entityId": "fish/megalograptus"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/megalograptus"
+      },
+      "facts": []
     },
     {
       "id": "recipe/mianbao-xia",
@@ -5032,15 +4450,10 @@
         "flameCost": 7
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Chinese Cuisine Contest!"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Chinese Cuisine Contest!"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -5081,17 +4494,10 @@
         "estimatedProfit": 33
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/moray-eel",
-              "entityId": "fish/moray-eel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/moray-eel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/narrow-barred-spanish-mackerel-sushi",
@@ -5123,17 +4529,10 @@
         "estimatedProfit": 20
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/narrow-barred-spanish-mackerel",
-              "entityId": "fish/narrow-barred-spanish-mackerel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/narrow-barred-spanish-mackerel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/ornate-wrasse-sushi",
@@ -5165,17 +4564,10 @@
         "estimatedProfit": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/ornate-wrasse",
-              "entityId": "fish/ornate-wrasse"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/ornate-wrasse"
+      },
+      "facts": []
     },
     {
       "id": "recipe/painted-comber-sushi",
@@ -5207,17 +4599,10 @@
         "estimatedProfit": 11
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/painted-comber",
-              "entityId": "fish/painted-comber"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/painted-comber"
+      },
+      "facts": []
     },
     {
       "id": "recipe/peacock-squid-sushi",
@@ -5249,17 +4634,10 @@
         "estimatedProfit": 39
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/peacock-squid",
-              "entityId": "fish/peacock-squid"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/peacock-squid"
+      },
+      "facts": []
     },
     {
       "id": "recipe/pelican-eel-sushi",
@@ -5291,17 +4669,10 @@
         "estimatedProfit": 120
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/pelican-eel",
-              "entityId": "fish/pelican-eel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/pelican-eel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/phantom-jellyfish-jelly",
@@ -5337,15 +4708,10 @@
         "flameCost": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Defeat Phantom Jellyfish"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Phantom Jellyfish"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -5386,17 +4752,10 @@
         "estimatedProfit": 77
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/pikaia",
-              "entityId": "fish/pikaia"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/pikaia"
+      },
+      "facts": []
     },
     {
       "id": "recipe/polar-eelpout-sushi",
@@ -5428,17 +4787,10 @@
         "estimatedProfit": 60
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/polar-eelpout",
-              "entityId": "fish/polar-eelpout"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/polar-eelpout"
+      },
+      "facts": []
     },
     {
       "id": "recipe/purple-sea-urchin-sushi",
@@ -5470,17 +4822,10 @@
         "estimatedProfit": 40
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/purple-sea-urchin",
-              "entityId": "fish/purple-sea-urchin"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/purple-sea-urchin"
+      },
+      "facts": []
     },
     {
       "id": "recipe/qingmendous-sushi",
@@ -5512,17 +4857,10 @@
         "estimatedProfit": 80
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/qingmendous",
-              "entityId": "fish/qingmendous"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/qingmendous"
+      },
+      "facts": []
     },
     {
       "id": "recipe/red-bream-sushi",
@@ -5554,17 +4892,10 @@
         "estimatedProfit": 23
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/red-bream",
-              "entityId": "fish/red-bream"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/red-bream"
+      },
+      "facts": []
     },
     {
       "id": "recipe/red-lionfish-sushi",
@@ -5596,17 +4927,10 @@
         "estimatedProfit": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/red-lionfish",
-              "entityId": "fish/red-lionfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/red-lionfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/redtoothed-triggerfish-sushi",
@@ -5638,17 +4962,10 @@
         "estimatedProfit": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/redtoothed-triggerfish",
-              "entityId": "fish/redtoothed-triggerfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/redtoothed-triggerfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/rice-with-white-shrimp-meat",
@@ -5690,15 +5007,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Kyoko to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Kyoko to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -5745,15 +5057,10 @@
         "flameCost": 12
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Drae to Level 10"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Drae to Level 10"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -5802,15 +5109,10 @@
         "flameCost": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Defeat Helicoprion"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Helicoprion"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -5851,17 +5153,10 @@
         "estimatedProfit": 32
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/sally-lightfoot-crab",
-              "entityId": "fish/sally-lightfoot-crab"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/sally-lightfoot-crab"
+      },
+      "facts": []
     },
     {
       "id": "recipe/salmon-snailfish-sushi",
@@ -5893,17 +5188,10 @@
         "estimatedProfit": 40
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/salmon-snailfish",
-              "entityId": "fish/salmon-snailfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/salmon-snailfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/sea-toad-and-cucumber-gunkan-sushi",
@@ -5937,15 +5225,10 @@
         "flameCost": 5
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Cucumber Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Cucumber Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -5987,17 +5270,10 @@
         "estimatedProfit": 37
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/sea-toad",
-              "entityId": "fish/sea-toad"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/sea-toad"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seasoned-jellyfish",
@@ -6040,15 +5316,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train James to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train James to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6099,15 +5370,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Cucumber Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Cucumber Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6159,15 +5425,10 @@
         "flameCost": 15
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Itsuki to Level 15"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Itsuki to Level 15"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6208,17 +5469,10 @@
         "estimatedProfit": 80
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/snow-crab",
-              "entityId": "fish/snow-crab"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/snow-crab"
+      },
+      "facts": []
     },
     {
       "id": "recipe/snub-nosed-spiny-eel-sushi",
@@ -6250,17 +5504,10 @@
         "estimatedProfit": 120
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/snub-nosed-spiny-eel",
-              "entityId": "fish/snub-nosed-spiny-eel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/snub-nosed-spiny-eel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/spear-squid-sushi",
@@ -6292,17 +5539,10 @@
         "estimatedProfit": 34
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/spear-squid",
-              "entityId": "fish/spear-squid"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/spear-squid"
+      },
+      "facts": []
     },
     {
       "id": "recipe/special-fried-shrimp-sushi",
@@ -6346,15 +5586,10 @@
         "flameCost": 8
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Train Drae to Level 5"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Drae to Level 5"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6401,15 +5636,10 @@
         "flameCost": 9
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6450,17 +5680,10 @@
         "estimatedProfit": 3
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/striped-catfish",
-              "entityId": "fish/striped-catfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/striped-catfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/threetooth-puffer-sushi",
@@ -6492,17 +5715,10 @@
         "estimatedProfit": 47
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/threetooth-puffer",
-              "entityId": "fish/threetooth-puffer"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/threetooth-puffer"
+      },
+      "facts": []
     },
     {
       "id": "recipe/titan-triggerfish-sushi",
@@ -6534,17 +5750,10 @@
         "estimatedProfit": 10
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/titan-triggerfish",
-              "entityId": "fish/titan-triggerfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/titan-triggerfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/trevally-sandwich",
@@ -6583,15 +5792,10 @@
         "flameCost": 5
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Cucumber Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Cucumber Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6633,17 +5837,10 @@
         "estimatedProfit": 74
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/vampire-squid",
-              "entityId": "fish/vampire-squid"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/vampire-squid"
+      },
+      "facts": []
     },
     {
       "id": "recipe/white-shark-omelet",
@@ -6675,15 +5872,10 @@
         "flameCost": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Defeat Klaus"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Klaus"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6724,17 +5916,10 @@
         "estimatedProfit": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/white-trevally",
-              "entityId": "fish/white-trevally"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/white-trevally"
+      },
+      "facts": []
     },
     {
       "id": "recipe/whole-roasted-shark-head",
@@ -6768,15 +5953,10 @@
         "flameCost": 3
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete A Scolding from Yoshie"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete A Scolding from Yoshie"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6817,15 +5997,10 @@
         "flameCost": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Defeat Yawie"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Yawie"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -6866,17 +6041,10 @@
         "estimatedProfit": 3
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/yellow-tang",
-              "entityId": "fish/yellow-tang"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/yellow-tang"
+      },
+      "facts": []
     },
     {
       "id": "recipe/yellowback-fusilier-sushi",
@@ -6908,17 +6076,10 @@
         "estimatedProfit": 5
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/yellowback-fusilier",
-              "entityId": "fish/yellowback-fusilier"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/yellowback-fusilier"
+      },
+      "facts": []
     },
     {
       "id": "recipe/yellowfin-tuna-steak",
@@ -6957,15 +6118,10 @@
         "flameCost": 5
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Tuna Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Tuna Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7006,16 +6162,10 @@
         "flameCost": 3
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Bronze Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Bronze Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/arctic-cod-risotto",
@@ -7058,16 +6208,10 @@
         "flameCost": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Let Us Begin the Contest"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Let Us Begin the Contest"
+      },
+      "facts": []
     },
     {
       "id": "recipe/batfish-ricebowl",
@@ -7110,16 +6254,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Mitchell to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Mitchell to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/big-eyed-scad-and-soybean-paste-roast",
@@ -7157,16 +6295,10 @@
         "flameCost": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Gold Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Gold Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/black-vinegar-braised-parrotfish",
@@ -7204,16 +6336,10 @@
         "flameCost": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Platinum Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Platinum Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/blacktip-reefshark-sushi",
@@ -7243,16 +6369,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/blacktip-reefshark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/blacktip-reefshark",
-              "entityId": "fish/blacktip-reefshark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7297,16 +6417,10 @@
         "flameCost": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Lusca"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Defeat Lusca"
+      },
+      "facts": []
     },
     {
       "id": "recipe/blood-belly-comb-jelly-sushi",
@@ -7335,16 +6449,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/blood-belly-comb-jellyfish"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/blood-belly-comb-jellyfish",
-              "entityId": "fish/blood-belly-comb-jellyfish"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7383,15 +6491,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Bluefin Tuna Akami"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Bluefin Tuna Akami"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7430,15 +6533,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Bluefin Tuna Chutoro"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Bluefin Tuna Chutoro"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7476,16 +6574,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "recipe/blue-fin-tuna-ootoro"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "recipe/blue-fin-tuna-ootoro",
-              "entityId": "recipe/blue-fin-tuna-ootoro"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7528,16 +6620,10 @@
         "flameCost": 3
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Bronze Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Bronze Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/chirashi-sushi",
@@ -7577,15 +6663,10 @@
         "maxServings": 2
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Inspirational Chirashi Sushi"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Inspirational Chirashi Sushi"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7634,16 +6715,10 @@
         "flameCost": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Clione Queen"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Defeat Clione Queen"
+      },
+      "facts": []
     },
     {
       "id": "recipe/copper-shark-sushi",
@@ -7673,15 +6748,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Copper Shark Meat"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Copper Shark Meat"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7733,15 +6803,10 @@
         "maxServings": 7
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Whose Fried food is the Best?"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Whose Fried food is the Best?"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7792,16 +6857,10 @@
         "flameCost": 12
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Cohh to Level 10"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Cohh to Level 10"
+      },
+      "facts": []
     },
     {
       "id": "recipe/deep-fried-sea-urchin",
@@ -7844,17 +6903,10 @@
         "flameCost": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/green-sea-urchin",
-              "entityId": "fish/green-sea-urchin"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/green-sea-urchin"
+      },
+      "facts": []
     },
     {
       "id": "recipe/deep-fried-vegetables",
@@ -7893,15 +6945,10 @@
         "maxServings": 3
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Cucumber Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Cucumber Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -7948,15 +6995,10 @@
         "maxServings": 6
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Go to Bancho Sushi"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Go to Bancho Sushi"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8009,16 +7051,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Carolina to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Carolina to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/dumbo-takoyaki",
@@ -8056,16 +7092,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Diamond Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Diamond Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/dunkleosteus-sushi",
@@ -8095,16 +7125,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/dunkleosteus"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/dunkleosteus",
-              "entityId": "fish/dunkleosteus"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8156,16 +7180,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train El Nino to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train El Nino to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/ebirah-chasing-sashimi",
@@ -8203,15 +7221,10 @@
         "maxServings": 9
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Go to Bancho Sushi"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Go to Bancho Sushi"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8262,16 +7275,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Raptor to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Raptor to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/fried-rice-with-sally-lightfoot-crab",
@@ -8314,16 +7321,10 @@
         "flameCost": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Chinese Cuisine Contest!"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Chinese Cuisine Contest!"
+      },
+      "facts": []
     },
     {
       "id": "recipe/fried-seahorses",
@@ -8376,16 +7377,10 @@
         "flameCost": 8
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Cohh to Level 5"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Cohh to Level 5"
+      },
+      "facts": []
     },
     {
       "id": "recipe/fried-tomato-and-snailfish",
@@ -8428,16 +7423,10 @@
         "flameCost": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Chinese Cuisine Contest!"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Chinese Cuisine Contest!"
+      },
+      "facts": []
     },
     {
       "id": "recipe/godzilla-vs-ebirah-curry",
@@ -8478,15 +7467,10 @@
         "maxServings": 9
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Go to Bancho Sushi"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Go to Bancho Sushi"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8532,15 +7516,10 @@
         "maxServings": 2
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8580,16 +7559,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/greenland-shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/greenland-shark",
-              "entityId": "fish/greenland-shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8641,16 +7614,10 @@
         "flameCost": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Let Us Begin the Contest"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Let Us Begin the Contest"
+      },
+      "facts": []
     },
     {
       "id": "recipe/humboldt-ink-pasta",
@@ -8692,15 +7659,10 @@
         "maxServings": 10
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Let Us Begin the Contest"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Let Us Begin the Contest"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8749,16 +7711,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Masayoshi to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Masayoshi to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/longnose-sawshark-sushi",
@@ -8788,16 +7744,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/long-nose-saw-shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/long-nose-saw-shark",
-              "entityId": "fish/long-nose-saw-shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8845,16 +7795,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Cohh to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Cohh to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/marlin-sushi",
@@ -8883,16 +7827,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/marlin"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/marlin",
-              "entityId": "fish/marlin"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8932,16 +7870,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/megamouth-shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/megamouth-shark",
-              "entityId": "fish/megamouth-shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -8992,16 +7924,10 @@
         "flameCost": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Let Us Begin the Contest"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Let Us Begin the Contest"
+      },
+      "facts": []
     },
     {
       "id": "recipe/narwhal-miso-soup",
@@ -9043,16 +7969,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Davina to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Davina to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/nasu-dengaku",
@@ -9093,16 +8013,10 @@
         "flameCost": 12
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Diamond Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Diamond Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/pickled-vegetables",
@@ -9141,15 +8055,10 @@
         "maxServings": 3
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Seasonal Event: Cucumber Party"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Seasonal Event: Cucumber Party"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -9201,16 +8110,10 @@
         "flameCost": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Whose Fried food is the Best?"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Whose Fried food is the Best?"
+      },
+      "facts": []
     },
     {
       "id": "recipe/porbeagle-shark-sushi",
@@ -9240,16 +8143,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/porbeagle-shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/porbeagle-shark",
-              "entityId": "fish/porbeagle-shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -9289,16 +8186,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/red-banded-lobster"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/red-banded-lobster",
-              "entityId": "fish/red-banded-lobster"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -9345,16 +8236,10 @@
         "flameCost": 12
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Diamond Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Diamond Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/rice-with-purple-sea-urchin-sushi",
@@ -9392,16 +8277,10 @@
         "flameCost": 12
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Raptor to Level 10"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Raptor to Level 10"
+      },
+      "facts": []
     },
     {
       "id": "recipe/roasted-tropical-fish-and-garlic",
@@ -9445,16 +8324,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Tohoku to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Tohoku to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/sailfish-sushi",
@@ -9484,16 +8357,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/sailfish"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/sailfish",
-              "entityId": "fish/sailfish"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -9537,16 +8404,10 @@
         "flameCost": 3
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Bronze Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Bronze Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seagrapes-jellyfish-sushi",
@@ -9583,15 +8444,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Complete Gourmet Vincent's Challenge"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Gourmet Vincent's Challenge"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -9633,16 +8489,10 @@
         "flameCost": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Gold Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Gold Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seahorse-salad",
@@ -9697,16 +8547,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Yone to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Yone to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seahorse-udon",
@@ -9757,16 +8601,10 @@
         "flameCost": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Platinum Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Platinum Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seasoned-kajime",
@@ -9798,16 +8636,10 @@
         "flameCost": 3
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Bronze Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Bronze Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seasoned-long-spine-porcupinefish-skin",
@@ -9845,16 +8677,10 @@
         "flameCost": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Otto's Gift?"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Otto's Gift?"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seaweed-rolled-omelet",
@@ -9890,16 +8716,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Pai to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Pai to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/shortfin-mako-sushi",
@@ -9929,16 +8749,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/shortfin-mako"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/shortfin-mako",
-              "entityId": "fish/shortfin-mako"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -9985,16 +8799,10 @@
         "flameCost": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Whose Fried food is the Best?"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Whose Fried food is the Best?"
+      },
+      "facts": []
     },
     {
       "id": "recipe/smooth-hammerhead-sushi",
@@ -10024,16 +8832,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/smooth-hammerhead"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/smooth-hammerhead",
-              "entityId": "fish/smooth-hammerhead"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -10080,16 +8882,10 @@
         "flameCost": 12
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Trapped in the Glacial Cave"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Trapped in the Glacial Cave"
+      },
+      "facts": []
     },
     {
       "id": "recipe/steamed-kronosaurus-tongue",
@@ -10129,16 +8925,10 @@
         "flameCost": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Kronosaurus"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Defeat Kronosaurus"
+      },
+      "facts": []
     },
     {
       "id": "recipe/steamed-wolf-eel",
@@ -10178,16 +8968,10 @@
         "flameCost": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Giant Wolf Eel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Defeat Giant Wolf Eel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/stellate-puffer-special-sushi",
@@ -10223,16 +9007,10 @@
         "flameCost": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Gold Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Gold Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/stir-fried-habanero-lobster",
@@ -10270,16 +9048,10 @@
         "flameCost": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Make Jango Warm!"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Make Jango Warm!"
+      },
+      "facts": []
     },
     {
       "id": "recipe/stir-fried-hermit-crab-and-seaweed",
@@ -10319,16 +9091,10 @@
         "flameCost": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Defeat Truck Hermit Crab"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Defeat Truck Hermit Crab"
+      },
+      "facts": []
     },
     {
       "id": "recipe/striped-red-mullet-tangle-roll",
@@ -10362,16 +9128,10 @@
         "flameCost": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Silver Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Silver Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/three-colored-squid-roast",
@@ -10415,16 +9175,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Liu to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Liu to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/thresher-shark-sushi",
@@ -10454,16 +9208,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/thresher-shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/thresher-shark",
-              "entityId": "fish/thresher-shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -10502,16 +9250,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/tiger-shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/tiger-shark",
-              "entityId": "fish/tiger-shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -10562,16 +9304,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Maki to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Maki to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/trout-sea-grapes-ricebowl",
@@ -10613,16 +9349,10 @@
         "flameCost": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Gold Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Gold Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/truffle-blue-lobster-tail-sushi",
@@ -10655,15 +9385,10 @@
         "maxServings": 2
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -10710,15 +9435,10 @@
         "maxServings": 2
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -10767,15 +9487,10 @@
         "maxServings": 2
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -10826,16 +9541,10 @@
         "flameCost": 15
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Train Hamako to Level 15"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Train Hamako to Level 15"
+      },
+      "facts": []
     },
     {
       "id": "recipe/white-spotted-jellyfish-sushi",
@@ -10864,16 +9573,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/white-spotted-jellyfish"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/white-spotted-jellyfish",
-              "entityId": "fish/white-spotted-jellyfish"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -10922,16 +9625,10 @@
         "flameCost": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Cooksta Silver Rank"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Cooksta Silver Rank"
+      },
+      "facts": []
     },
     {
       "id": "recipe/whitetip-reefshark-sushi",
@@ -10961,16 +9658,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/whitetip-reefshark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/whitetip-reefshark",
-              "entityId": "fish/whitetip-reefshark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -11009,15 +9700,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Yellowfin Tuna Akami"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Yellowfin Tuna Akami"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -11056,15 +9742,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Yellowfin Tuna Chutoro"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Yellowfin Tuna Chutoro"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -11103,15 +9784,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "text": "Yellowfin Tuna Ootoro"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Yellowfin Tuna Ootoro"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -11149,16 +9825,10 @@
         "maxServings": 1
       },
       "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/zebra-shark"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/zebra-shark",
-              "entityId": "fish/zebra-shark"
-            }
-          ]
-        },
         {
           "labelId": "field/event",
           "values": [
@@ -11196,17 +9866,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/aurora-jellyfish",
-              "entityId": "fish/aurora-jellyfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/aurora-jellyfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/barbed-eel-sushi",
@@ -11236,17 +9899,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/barbed-eel",
-              "entityId": "fish/barbed-eel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/barbed-eel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/bloodskin-shark-sushi",
@@ -11275,17 +9931,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/bloodskin-shark",
-              "entityId": "fish/bloodskin-shark"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/bloodskin-shark"
+      },
+      "facts": []
     },
     {
       "id": "recipe/blue-tang-sushi",
@@ -11315,17 +9964,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/blue-tang",
-              "entityId": "fish/blue-tang"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/blue-tang"
+      },
+      "facts": []
     },
     {
       "id": "recipe/bluespotted-stargazer-sushi",
@@ -11356,17 +9998,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/bluespotted-stargazer",
-              "entityId": "fish/bluespotted-stargazer"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/bluespotted-stargazer"
+      },
+      "facts": []
     },
     {
       "id": "recipe/boiled-asian-sheepshead-wrasse-and-truffle",
@@ -11403,16 +10038,10 @@
         "maxServings": 2
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Make Jango Warm!"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Make Jango Warm!"
+      },
+      "facts": []
     },
     {
       "id": "recipe/bony-wreckfish-sushi",
@@ -11441,17 +10070,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/bony-wreckfish",
-              "entityId": "fish/bony-wreckfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/bony-wreckfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/bursting-anglerfish-sushi",
@@ -11481,17 +10103,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/bursting-anglerfish",
-              "entityId": "fish/bursting-anglerfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/bursting-anglerfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/cardinalfish-sushi",
@@ -11520,17 +10135,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/cardinal-fish",
-              "entityId": "fish/cardinal-fish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/cardinal-fish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/cerebral-crab-sushi",
@@ -11559,17 +10167,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/cerebral-crab",
-              "entityId": "fish/cerebral-crab"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/cerebral-crab"
+      },
+      "facts": []
     },
     {
       "id": "recipe/clown-frogfish-sushi",
@@ -11598,17 +10199,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/clown-frogfish",
-              "entityId": "fish/clown-frogfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/clown-frogfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/concertina-barracuda-sushi",
@@ -11637,17 +10231,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/concertina-barracuda",
-              "entityId": "fish/concertina-barracuda"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/concertina-barracuda"
+      },
+      "facts": []
     },
     {
       "id": "recipe/cortex-decorator-sushi",
@@ -11676,17 +10263,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/cortex-decorator",
-              "entityId": "fish/cortex-decorator"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/cortex-decorator"
+      },
+      "facts": []
     },
     {
       "id": "recipe/cuttlefish-sushi",
@@ -11716,17 +10296,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/cuttlefish",
-              "entityId": "fish/cuttlefish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/cuttlefish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/devil-scorpionfish-sushi",
@@ -11756,17 +10329,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/devil-scorpionfish",
-              "entityId": "fish/devil-scorpionfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/devil-scorpionfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/drepanaspis-sushi",
@@ -11796,17 +10362,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/drepanaspis",
-              "entityId": "fish/drepanaspis"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/drepanaspis"
+      },
+      "facts": []
     },
     {
       "id": "recipe/emperor-angelfish-sushi",
@@ -11836,17 +10395,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/emperor-angelfish",
-              "entityId": "fish/emperor-angelfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/emperor-angelfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/entangled-crab-sushi",
@@ -11875,17 +10427,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/entangled-crab",
-              "entityId": "fish/entangled-crab"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/entangled-crab"
+      },
+      "facts": []
     },
     {
       "id": "recipe/enthralled-stonefish-sushi",
@@ -11914,17 +10459,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/enthralled-stonefish",
-              "entityId": "fish/enthralled-stonefish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/enthralled-stonefish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/fanged-cod-sushi",
@@ -11953,17 +10491,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/fanged-cod",
-              "entityId": "fish/fanged-cod"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/fanged-cod"
+      },
+      "facts": []
     },
     {
       "id": "recipe/flame-angelfish-sushi",
@@ -11993,17 +10524,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/flame-angelfish",
-              "entityId": "fish/flame-angelfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/flame-angelfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/fried-habanero-fangtooth",
@@ -12044,16 +10568,10 @@
         "maxServings": 7
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
+      "facts": []
     },
     {
       "id": "recipe/frilled-shark-sushi",
@@ -12083,16 +10601,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Frilled Shark Meat"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Frilled Shark Meat"
+      },
+      "facts": []
     },
     {
       "id": "recipe/gazing-shark-sushi",
@@ -12122,17 +10634,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/gazing-shark",
-              "entityId": "fish/gazing-shark"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/gazing-shark"
+      },
+      "facts": []
     },
     {
       "id": "recipe/gelatinous-stonefish-sushi",
@@ -12161,17 +10666,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/gelatinous-stonefish",
-              "entityId": "fish/gelatinous-stonefish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/gelatinous-stonefish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/giant-trevally-sushi",
@@ -12201,17 +10699,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/giant-trevally",
-              "entityId": "fish/giant-trevally"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/giant-trevally"
+      },
+      "facts": []
     },
     {
       "id": "recipe/gnashing-perch-sushi",
@@ -12240,17 +10731,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/gnashing-perch",
-              "entityId": "fish/gnashing-perch"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/gnashing-perch"
+      },
+      "facts": []
     },
     {
       "id": "recipe/grilled-antarctic-octopus-and-truffle",
@@ -12287,16 +10771,10 @@
         "maxServings": 2
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
+      "facts": []
     },
     {
       "id": "recipe/grilled-eel-with-habanero",
@@ -12337,16 +10815,10 @@
         "maxServings": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
+      "facts": []
     },
     {
       "id": "recipe/grotesque-mackerel-sushi",
@@ -12375,17 +10847,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/grotesque-mackerel",
-              "entityId": "fish/grotesque-mackerel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/grotesque-mackerel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/host-eel-sushi",
@@ -12414,17 +10879,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/host-eel",
-              "entityId": "fish/host-eel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/host-eel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/humboldt-squid-sushi",
@@ -12454,17 +10912,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/humboldt-squid",
-              "entityId": "fish/humboldt-squid"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/humboldt-squid"
+      },
+      "facts": []
     },
     {
       "id": "recipe/imperious-lobster-sushi",
@@ -12493,17 +10944,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/imperious-lobster",
-              "entityId": "fish/imperious-lobster"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/imperious-lobster"
+      },
+      "facts": []
     },
     {
       "id": "recipe/longfin-batfish-sushi",
@@ -12532,17 +10976,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/longfin-batfish",
-              "entityId": "fish/longfin-batfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/longfin-batfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/lumpfish-sushi",
@@ -12572,17 +11009,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/lumpfish",
-              "entityId": "fish/lumpfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/lumpfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/malignant-pincer-sushi",
@@ -12611,17 +11041,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/malignant-pincer",
-              "entityId": "fish/malignant-pincer"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/malignant-pincer"
+      },
+      "facts": []
     },
     {
       "id": "recipe/many-eyed-mackerel-sushi",
@@ -12651,17 +11074,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/many-eyed-mackerel",
-              "entityId": "fish/many-eyed-mackerel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/many-eyed-mackerel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/marbled-electric-ray-sushi",
@@ -12691,17 +11107,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/marbled-electric-ray",
-              "entityId": "fish/marbled-electric-ray"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/marbled-electric-ray"
+      },
+      "facts": []
     },
     {
       "id": "recipe/moonlight-bladderwrack-roll",
@@ -12744,16 +11153,10 @@
         "maxServings": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
+      "facts": []
     },
     {
       "id": "recipe/narwhal-sushi",
@@ -12783,17 +11186,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/narwhal",
-              "entityId": "fish/narwhal"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/narwhal"
+      },
+      "facts": []
     },
     {
       "id": "recipe/norimaki",
@@ -12814,8 +11210,9 @@
         "baseServings": 1,
         "maxServings": 1
       },
-      "facets": {
-        "acquisitionMethod": "text/844b8cc8dff7"
+      "facets": {},
+      "acquisition-method": {
+        "text": "默认"
       },
       "facts": []
     },
@@ -12846,17 +11243,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/orbicular-batfish",
-              "entityId": "fish/orbicular-batfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/orbicular-batfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/pacific-fanfish-sushi",
@@ -12886,17 +11276,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/pacific-fanfish",
-              "entityId": "fish/pacific-fanfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/pacific-fanfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/parhelion-jellyfish-sushi",
@@ -12926,17 +11309,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/parhelion-jellyfish",
-              "entityId": "fish/parhelion-jellyfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/parhelion-jellyfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/perished-loosejaw-sushi",
@@ -12965,17 +11341,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/perished-loosejaw",
-              "entityId": "fish/perished-loosejaw"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/perished-loosejaw"
+      },
+      "facts": []
     },
     {
       "id": "recipe/pufferfish-dumpling-soup",
@@ -13017,16 +11386,10 @@
         "maxServings": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
+      "facts": []
     },
     {
       "id": "recipe/pyramid-butterflyfish-sushi",
@@ -13056,17 +11419,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/pyramid-butterflyfish",
-              "entityId": "fish/pyramid-butterflyfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/pyramid-butterflyfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/radiant-squid-sushi",
@@ -13095,17 +11451,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/radiant-squid",
-              "entityId": "fish/radiant-squid"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/radiant-squid"
+      },
+      "facts": []
     },
     {
       "id": "recipe/rainbow-cap-eel-skewers",
@@ -13143,16 +11492,10 @@
         "maxServings": 2
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
+      "facts": []
     },
     {
       "id": "recipe/rainbow-cap-pacific-fanfish-ochazuke",
@@ -13195,16 +11538,10 @@
         "maxServings": 2
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
+      "facts": []
     },
     {
       "id": "recipe/rainbow-cap-triggerfish-fishcake",
@@ -13246,16 +11583,10 @@
         "maxServings": 2
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Fellow Alchemist and Magic Cauldron"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Fellow Alchemist and Magic Cauldron"
+      },
+      "facts": []
     },
     {
       "id": "recipe/rainbow-wrasse-sushi",
@@ -13284,17 +11615,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/rainbow-wrasse",
-              "entityId": "fish/rainbow-wrasse"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/rainbow-wrasse"
+      },
+      "facts": []
     },
     {
       "id": "recipe/rhinochimaeridae-sushi",
@@ -13324,17 +11648,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/rhinochimaeridae",
-              "entityId": "fish/rhinochimaeridae"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/rhinochimaeridae"
+      },
+      "facts": []
     },
     {
       "id": "recipe/salema-porgy-sushi",
@@ -13363,17 +11680,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/salema-porgy",
-              "entityId": "fish/salema-porgy"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/salema-porgy"
+      },
+      "facts": []
     },
     {
       "id": "recipe/sallow-sailfish-sushi",
@@ -13402,17 +11712,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/sallow-sailfish",
-              "entityId": "fish/sallow-sailfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/sallow-sailfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/savage-barracuda-sushi",
@@ -13441,17 +11744,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/savage-barracuda",
-              "entityId": "fish/savage-barracuda"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/savage-barracuda"
+      },
+      "facts": []
     },
     {
       "id": "recipe/scouring-bass-sushi",
@@ -13480,17 +11776,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/scouring-bass",
-              "entityId": "fish/scouring-bass"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/scouring-bass"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seahorse-skewers",
@@ -13532,17 +11821,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/long-snouted-seahorse",
-              "entityId": "fish/long-snouted-seahorse"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/long-snouted-seahorse"
+      },
+      "facts": []
     },
     {
       "id": "recipe/seizing-snailfish-sushi",
@@ -13571,17 +11853,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/seizing-snailfish",
-              "entityId": "fish/seizing-snailfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/seizing-snailfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/shattered-wreckfish-sushi",
@@ -13610,17 +11885,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/shattered-wreckfish",
-              "entityId": "fish/shattered-wreckfish"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/shattered-wreckfish"
+      },
+      "facts": []
     },
     {
       "id": "recipe/sheepshead-sushi",
@@ -13649,17 +11917,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/sheepshead",
-              "entityId": "fish/sheepshead"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/sheepshead"
+      },
+      "facts": []
     },
     {
       "id": "recipe/smallspotted-dart-sushi",
@@ -13689,17 +11950,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/small-spotted-dart",
-              "entityId": "fish/small-spotted-dart"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/small-spotted-dart"
+      },
+      "facts": []
     },
     {
       "id": "recipe/soy-sauce-marinated-crab",
@@ -13743,16 +11997,10 @@
         "maxServings": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Jango Secret Recipe"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Jango Secret Recipe"
+      },
+      "facts": []
     },
     {
       "id": "recipe/spider-crab-sushi",
@@ -13781,17 +12029,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/spider-crab",
-              "entityId": "fish/spider-crab"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/spider-crab"
+      },
+      "facts": []
     },
     {
       "id": "recipe/splintered-crab-sushi",
@@ -13820,17 +12061,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/splintered-crab",
-              "entityId": "fish/splintered-crab"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/splintered-crab"
+      },
+      "facts": []
     },
     {
       "id": "recipe/sprouting-eel-sushi",
@@ -13859,17 +12093,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/sprouting-eel",
-              "entityId": "fish/sprouting-eel"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/sprouting-eel"
+      },
+      "facts": []
     },
     {
       "id": "recipe/starry-skate-sushi",
@@ -13898,17 +12125,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/starry-skate",
-              "entityId": "fish/starry-skate"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/starry-skate"
+      },
+      "facts": []
     },
     {
       "id": "recipe/stingray-sushi",
@@ -13937,17 +12157,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/stingray",
-              "entityId": "fish/stingray"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/stingray"
+      },
+      "facts": []
     },
     {
       "id": "recipe/striped-red-mullet-sushi",
@@ -13976,17 +12189,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/striped-red-mullet",
-              "entityId": "fish/striped-red-mullet"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/striped-red-mullet"
+      },
+      "facts": []
     },
     {
       "id": "recipe/sweet-and-sour-stargazer",
@@ -14027,16 +12233,10 @@
         "maxServings": 6
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Chinese Cuisine Contest!"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Chinese Cuisine Contest!"
+      },
+      "facts": []
     },
     {
       "id": "recipe/three-headed-cod-sushi",
@@ -14067,17 +12267,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/three-headed-cod",
-              "entityId": "fish/three-headed-cod"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/three-headed-cod"
+      },
+      "facts": []
     },
     {
       "id": "recipe/translucent-sturgeon-sushi",
@@ -14106,17 +12299,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/translucent-sturgeon",
-              "entityId": "fish/translucent-sturgeon"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/translucent-sturgeon"
+      },
+      "facts": []
     },
     {
       "id": "recipe/tropical-fish-sushi-set",
@@ -14159,16 +12345,10 @@
         "maxServings": 9
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Complete Michael Bang's Inspiration"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Complete Michael Bang's Inspiration"
+      },
+      "facts": []
     },
     {
       "id": "recipe/tusked-grouper-sushi",
@@ -14197,17 +12377,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/tusked-grouper",
-              "entityId": "fish/tusked-grouper"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/tusked-grouper"
+      },
+      "facts": []
     },
     {
       "id": "recipe/voltaic-grouper-sushi",
@@ -14236,17 +12409,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/voltaic-grouper",
-              "entityId": "fish/voltaic-grouper"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/voltaic-grouper"
+      },
+      "facts": []
     },
     {
       "id": "recipe/withered-ray-sushi",
@@ -14275,17 +12441,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/withered-ray",
-              "entityId": "fish/withered-ray"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/withered-ray"
+      },
+      "facts": []
     },
     {
       "id": "recipe/xenacanthus-sushi",
@@ -14315,16 +12474,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "Xenacanthus Meat"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "text": "Xenacanthus Meat"
+      },
+      "facts": []
     },
     {
       "id": "recipe/young-anomalocaris-sushi",
@@ -14353,17 +12506,10 @@
         "maxServings": 1
       },
       "facets": {},
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/anomalocaris",
-              "entityId": "fish/anomalocaris"
-            }
-          ]
-        }
-      ]
+      "acquisition-method": {
+        "entityId": "fish/anomalocaris"
+      },
+      "facts": []
     },
     {
       "id": "recipe/gim",
@@ -37014,6 +35160,9 @@
         "recipe/seasoned-jellyfish",
         "recipe/seasoned-waptia-fieldensis"
       ],
+      "acquisition-method": {
+        "text": "冰川区"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 8,
@@ -37021,7 +35170,6 @@
         "rank": 2
       },
       "facets": {
-        "acquisitionMethod": "text/5b45cbb03cae",
         "gatheringSource": "text/43786205d026"
       }
     },
@@ -37265,12 +35413,14 @@
         "recipe/kajime-seasoned",
         "recipe/special-hermit-crab-leg-roastered"
       ],
+      "acquisition-method": {
+        "text": "130"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 7,
         "weight": 0.1,
-        "rank": 2,
-        "acquisitionMethod": 130
+        "rank": 2
       },
       "facets": {
         "gatheringSource": "text/43786205d026"
@@ -37383,16 +35533,10 @@
         "recipe/seahorse-sea-grapes-salad",
         "recipe/special-goblin-shark-belly-meat-grilled"
       ],
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "stalactite"
-            }
-          ]
-        }
-      ],
+      "acquisition-method": {
+        "text": "stalactite"
+      },
+      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -37445,15 +35589,10 @@
       "relatedRecipes": [
         "recipe/whitetip-reefshark-roast"
       ],
+      "acquisition-method": {
+        "text": "shallows"
+      },
       "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "shallows"
-            }
-          ]
-        },
         {
           "labelId": "field/gathering-source",
           "values": [
@@ -37490,6 +35629,9 @@
         "recipe/deep-fried-red-lionfish",
         "recipe/fried-rice-with-sally-lightfoot-crab"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 6,
@@ -37497,9 +35639,7 @@
         "rank": 1,
         "purchasePriceJango": 60
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/black-vinegar",
@@ -37530,6 +35670,9 @@
         "recipe/special-hermit-crab-leg-roastered",
         "recipe/special-wolffish-tail-meat-steamed"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 5,
@@ -37537,9 +35680,7 @@
         "rank": 1,
         "purchasePriceJango": 50
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/buckwheat",
@@ -37588,6 +35729,9 @@
         "recipe/great-spider-crab-curry",
         "recipe/spider-crab-curry"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 6,
@@ -37595,9 +35739,7 @@
         "rank": 1,
         "purchasePriceJango": 60
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/hyalonema",
@@ -37616,16 +35758,10 @@
         "recipe/steamed-hyalonema-angler-fish",
         "recipe/tuna-ootoro-sliced"
       ],
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "glacial seaweed"
-            }
-          ]
-        }
-      ],
+      "acquisition-method": {
+        "text": "glacial seaweed"
+      },
+      "facts": [],
       "stats": {
         "sellPrice": 65,
         "weight": 0.1,
@@ -37658,6 +35794,9 @@
         "recipe/special-lusca-neck-meat-tataki",
         "recipe/yellow-fin-tuna-poke"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 7,
@@ -37665,9 +35804,7 @@
         "rank": 1,
         "purchasePriceJango": 70
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/meat-giant-trevally",
@@ -37685,16 +35822,10 @@
         "fish/giant-trevally"
       ],
       "relatedRecipes": [],
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "medium"
-            }
-          ]
-        }
-      ],
+      "acquisition-method": {
+        "text": "medium"
+      },
+      "facts": [],
       "stats": {
         "sellPrice": 10,
         "weight": 5,
@@ -37730,6 +35861,9 @@
         "recipe/spiny-seahorse-udon",
         "recipe/striped-marlin-miso-grilled"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 8,
@@ -37737,9 +35871,7 @@
         "rank": 1,
         "purchasePriceJango": 80
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/olive-oil",
@@ -37786,6 +35918,9 @@
         "recipe/special-helicoprion-tail-grilled",
         "recipe/special-lusca-leg-blanched"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 6,
@@ -37793,9 +35928,7 @@
         "rank": 1,
         "purchasePriceJango": 60
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/rainbow-cap",
@@ -37814,16 +35947,10 @@
         "recipe/rainbow-cap-pacific-fanfish-ochazuke",
         "recipe/rainbow-cap-triggerfish-fishcake"
       ],
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "jango mushroomer"
-            }
-          ]
-        }
-      ],
+      "acquisition-method": {
+        "text": "jango mushroomer"
+      },
+      "facts": [],
       "stats": {
         "sellPrice": 147,
         "weight": 0.1,
@@ -37863,6 +35990,9 @@
         "recipe/special-lusca-leg-blanched",
         "recipe/special-wolffish-tail-meat-steamed"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 8,
@@ -37870,9 +36000,7 @@
         "rank": 1,
         "purchasePriceJango": 80
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/soy-sauce",
@@ -37907,6 +36035,9 @@
         "recipe/gelidium-tokoroten",
         "recipe/special-lusca-neck-meat-tataki"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 6,
@@ -37914,9 +36045,7 @@
         "rank": 1,
         "purchasePriceJango": 60
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/tiger-shark-meat",
@@ -37937,16 +36066,10 @@
       "relatedRecipes": [
         "recipe/tiger-shark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "medium"
-            }
-          ]
-        }
-      ],
+      "acquisition-method": {
+        "text": "medium"
+      },
+      "facts": [],
       "stats": {
         "sellPrice": 17,
         "weight": 15,
@@ -37974,16 +36097,10 @@
         "recipe/grilled-antarctic-octopus-and-truffle",
         "recipe/truffle-asian-sheepshead-steamed"
       ],
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "jango mushroomer"
-            }
-          ]
-        }
-      ],
+      "acquisition-method": {
+        "text": "jango mushroomer"
+      },
+      "facts": [],
       "stats": {
         "sellPrice": 130,
         "weight": 0.1,
@@ -38010,6 +36127,9 @@
         "recipe/roasted-capelin",
         "recipe/godzilla-vs-ebirah-curry"
       ],
+      "acquisition-method": {
+        "text": "陶罐／采集点"
+      },
       "facts": [],
       "stats": {
         "sellPrice": 5,
@@ -38017,9 +36137,7 @@
         "rank": 1,
         "purchasePriceJango": 50
       },
-      "facets": {
-        "acquisitionMethod": "text/10458e0eef4a"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/blacktip-shark-meat",
@@ -38039,17 +36157,10 @@
         "recipe/shark-karaage",
         "recipe/blacktip-reefshark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "nameId": "fish/blacktip-reefshark",
-              "entityId": "fish/blacktip-reefshark"
-            }
-          ]
-        }
-      ],
+      "acquisition-method": {
+        "entityId": "fish/blacktip-reefshark"
+      },
+      "facts": [],
       "stats": {
         "sellPrice": 20,
         "weight": 2.5
@@ -38072,16 +36183,10 @@
         "fish/marbled-electric-ray"
       ],
       "relatedRecipes": [],
-      "facts": [
-        {
-          "labelId": "field/acquisition-method",
-          "values": [
-            {
-              "text": "shallows"
-            }
-          ]
-        }
-      ],
+      "acquisition-method": {
+        "text": "shallows"
+      },
+      "facts": [],
       "stats": {
         "sellPrice": 30,
         "weight": 3.5,
@@ -40317,13 +38422,15 @@
       "relatedRecipes": [
         "recipe/yawie-steamed-meat"
       ],
+      "acquisition-method": {
+        "text": "与夜枝遗体互动"
+      },
       "facts": [],
       "stats": {},
       "facets": {
         "prerequisites": "text/8d172a80f749",
         "collectionTiming": "text/a814a2347a4d",
-        "location": "text/c9d9e5d0e38c",
-        "acquisitionMethod": "text/401fd4391071"
+        "location": "text/c9d9e5d0e38c"
       }
     },
     {

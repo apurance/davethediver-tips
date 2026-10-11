@@ -42,7 +42,7 @@ const additionalStatFields: Record<Entity["type"], [string, string][]> = {
   ],
   ingredient: [
     ["level", "rank"], ["purchase-price", "purchasePrice"],
-    ["acquisition-method", "acquisitionMethod"], ["region", "region"], ["daily-limit", "dailyLimit"],
+    ["region", "region"], ["daily-limit", "dailyLimit"],
   ],
   fish: [
     ["length", "length"], ["health", "health"], ["damage", "damage"],
@@ -78,6 +78,9 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
       labels.add(labelId);
     }
   };
+  if ((entity.type === "recipe" || entity.type === "ingredient") && entity["acquisition-method"]) {
+    append("acquisition-method", [entity["acquisition-method"]]);
+  }
   for (const [key, text] of Object.entries(entity.fields ?? {})) {
     append(key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`), [{ text }]);
   }
