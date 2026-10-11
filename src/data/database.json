@@ -33948,14 +33948,6 @@
       "relatedRecipes": [],
       "facts": [
         {
-          "labelId": "field/level",
-          "values": [
-            {
-              "text": "99|source=shallows"
-            }
-          ]
-        },
-        {
           "labelId": "field/active-period",
           "values": [
             {
@@ -37070,16 +37062,6 @@
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/phantom-jellyfish-jelly"
-      ],
-      "facts": [
-        {
-          "labelId": "field/region",
-          "values": [
-            {
-              "text": "glacial 2"
-            }
-          ]
-        }
       ],
       "stats": {
         "weight": 1,
