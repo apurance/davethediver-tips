@@ -17,6 +17,7 @@ export interface Entity {
   relatedIds: string[];
   facts: { labelId: string; values: FactValue[] }[];
   stats: Record<string, number | null>;
+  fields?: Record<string, string>;
   facets: Record<string, string | null>;
   ingredients?: { ingredientId: string; quantity: number | null }[];
   fishIds?: string[];

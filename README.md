@@ -79,6 +79,8 @@ location / {
 
 `database.json` 不保存“每公斤价值”、员工基础 / 满级属性总和、关联菜谱数量，也不保存 `computed`、`stat` 等显示描述。前端的 `getDisplayFacts()` 根据基础数据追加：每公斤价值 = `stats.sellPrice / stats.weight`（显示最多一位小数）；员工总和 = 对应四项属性之和；菜谱数量 = 当前去重后的关联菜谱数。基础数据不齐或重量非正时不追加相应计算字段，零售价和零菜谱数量正常显示。来源鱼类的“关联菜谱”字段仍保留，作为已核对的独立关联依据。
 
+无需翻译的字符串值放在可选的 `fields` 中，例如 `"fields": { "encyclopediaNumber": "0016", "marincaCardNumber": "16" }`；没有此类值的条目省略 `fields`。显示时将驼峰键转换为 `field/encyclopedia-number`、`field/marinca-card-number` 查询字段译名，值原样显示，保留前导零。两种编号尚未整体合并：忽略前导零后，腔棘鱼的图鉴编号 `0991` 与 Marinca 卡编号 `913` 仍不一致，现保留来源值。`stats` 继续只保存数值或缺失值 `null`。
+
 ## 维护数据快照
 
 后续不再从该网站抓取此类数据，直接维护 `src/data/` 中的 JSON。旧导入脚本保留为历史工具，未加入本次清理规则，重新运行会覆盖清理结果。应用运行时不抓取网站，也没有后端。

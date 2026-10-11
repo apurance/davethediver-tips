@@ -110,6 +110,37 @@ test("small weights, quantity templates and identifier leading zeroes remain rea
   assert.equal(formatFactValue(factValue(parrotfish, "field/encyclopedia-number"), parrotfish, translate), "0016");
 });
 
+test("encyclopedia fields translate their label and preserve the raw identifier", () => {
+  const parrotfish = byId.get("fish/mediterranean-parrotfish")!;
+  assert.equal(parrotfish.fields?.encyclopediaNumber, "0016");
+  assert.ok(!parrotfish.facts.some(fact => fact.labelId === "field/encyclopedia-number"));
+  const edited = { ...parrotfish, fields: { ...parrotfish.fields, encyclopediaNumber: "0000" } };
+  const source = JSON.stringify(edited);
+  const fact = getDisplayFacts(edited).find(fact => fact.labelId === "field/encyclopedia-number")!;
+  const customTranslate = (id: string) => id === "field/encyclopedia-number" ? "图鉴序号" : `翻译：${id}`;
+  assert.equal(customTranslate(fact.labelId), "图鉴序号");
+  assert.equal(formatFactValue(fact.values[0], edited, customTranslate), "0000");
+  assert.equal(JSON.stringify(edited), source);
+  assert.ok(!getDisplayFacts({ ...parrotfish, fields: undefined }).some(fact => fact.labelId === "field/encyclopedia-number"));
+});
+
+test("Marinca identifiers retain their original text and differing encyclopedia numbers", () => {
+  const coelacanth = byId.get("fish/coelacanth")!;
+  assert.equal(coelacanth.fields?.encyclopediaNumber, "0991");
+  assert.equal(coelacanth.fields?.marincaCardNumber, "913");
+  const customTranslate = (id: string) => id === "field/marinca-card-number" ? "卡片序号" : `翻译：${id}`;
+  const card = getDisplayFacts(coelacanth).find(fact => fact.labelId === "field/marinca-card-number")!;
+  assert.equal(customTranslate(card.labelId), "卡片序号");
+  assert.equal(formatFactValue(card.values[0], coelacanth, customTranslate), "913");
+  assert.equal(formatFactValue(factValue(coelacanth, "field/encyclopedia-number"), coelacanth, customTranslate), "0991");
+  const narwhal = byId.get("fish/narwhal")!;
+  assert.equal(narwhal.fields?.marincaCardNumber, "0315");
+  assert.equal(formatFactValue(factValue(narwhal, "field/marinca-card-number"), narwhal, customTranslate), "0315");
+  const spinySeahorse = byId.get("fish/spiny-seahorse")!;
+  assert.equal(spinySeahorse.fields?.encyclopediaNumber, "0614");
+  assert.equal(spinySeahorse.fields?.marincaCardNumber, undefined);
+});
+
 test("migrated numeric facts display current stats with inferred units and templates", () => {
   const fish = byId.get("fish/zebra-shark")!;
   assert.equal(fish.stats.length, 210);

@@ -17,6 +17,16 @@ test("every catalog identifier and translation reference resolves", () => {
   assert.equal(byId.size, all.length);
   for (const entity of all) {
     assert.ok(names[entity.nameId], entity.id);
+    for (const [key, value] of Object.entries(entity.fields ?? {})) {
+      assert.equal(typeof value, "string", `${entity.id}: ${key}`);
+      const labelId = `field/${key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`)}`;
+      assert.ok(names[labelId], `${entity.id}: ${labelId}`);
+      assert.ok(!entity.facts.some(fact => fact.labelId === labelId), `${entity.id}: duplicate field`);
+    }
+    for (const key of ["encyclopediaNumber", "marincaCardNumber"]) assert.ok(!(key in entity.stats), `${entity.id}: ${key}`);
+    for (const labelId of ["field/encyclopedia-number", "field/marinca-card-number"]) {
+      assert.ok(!entity.facts.some(fact => fact.labelId === labelId), `${entity.id}: ${labelId}`);
+    }
     for (const id of [...(entity.skillIds ?? []), ...Object.values(entity.facets).filter(Boolean)]) assert.ok(names[id!], `${entity.id}: ${id}`);
     for (const fact of entity.facts) {
       assert.match(fact.labelId, /^field\/[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/, entity.id);

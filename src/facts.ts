@@ -78,6 +78,9 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
       labels.add(labelId);
     }
   };
+  for (const [key, text] of Object.entries(entity.fields ?? {})) {
+    append(key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`), [{ text }]);
+  }
   for (const [field, stat] of [...statFields[entity.type], ...additionalStatFields[entity.type]]) {
     if (entity.stats[stat] != null) append(field, [{ stat }]);
   }
