@@ -35,6 +35,7 @@ pnpm test     # 使用 Node 内置 test runner 验证经营模型（Node 22.18+�
 - 桌面侧栏、移动目录抽屉与响应式卡片。表格在手机上可横向滚动。
 - React Router 路由：`/recipes` 食谱、`/ingredients` 食材、`/fish` 鱼类、`/staff` 员工。详情地址如 `/recipes/tiger-shark-sushi`、`/ingredients/tiger-shark-meat`、`/fish/tiger-shark`、`/staff/billy` 可直接打开、刷新和分享；来源网站的重复条目地址自动跳转到合并后的条目。
 - `/search?q=关键词` 同时检索数据库和攻略，阶段筛选仅影响攻略；`/bookmarks` 为攻略收藏。`/tools?recipe=tropical` 保留原有备货链接，旧 `/#recipes` 链接自动跳转。
+- `/maps` 深海 SVG 地图：A / B 两份方格地形，各有 01–03 三套道具与大鱼分布。可筛选九类标记、切换方格线和鱼名、放大地图，并下载含图例的独立 SVG。网址如 `/maps?type=B&layout=03` 可直接打开并在刷新后保留选择。
 
 ## 部署路由
 
@@ -117,6 +118,10 @@ fog coast、black cliff、jellyfish basin 分别译为“迷雾海岸”“黑�
 - `src/hooks/`：路由导航、搜索、收藏、本地保存与共享页面状态。
 - `src/calculations.ts`：经营与供给计算逻辑。
 - `src/styles.css`：布局、主题、手机与打印样式。
+- `src/pages/MapsPage.tsx`、`src/components/DeepSeaMap.tsx`：深海地图交互及 SVG 渲染。
+- `src/data/deep-sea-terrain.json`：两份共用地形，每份为 64 × 69 方格；`#` 为岩石、`.` 为水域、`p` 为原图紫色岩层。
+- `src/data/deep-sea-markers.json`：六套示意坐标（单位为方格），独立于地形。来源为 CleverLab / 甜菜；本地参考原图位于 `rawdata/`，已被 Git 忽略，不参与应用运行或构建。
+- `maps/`：六份独立 SVG；页面下载反映当前图层选择。地图数据直接维护 `src/data/deep-sea-*.json`；运行 `node scripts/export-deep-sea.mjs` 可根据当前 JSON 重新导出六张完整地图。
 - `.superdesign/overview.html`：已确认的设计参考，不是运行页面。
 
 页面不调用实时外部 API，不加载外部字体或图像。安装依赖后可在断网环境阅读，资料链接仍需联网。非官方项目，与 MINTROCKET 无关联。

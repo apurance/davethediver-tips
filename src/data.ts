@@ -23,6 +23,12 @@ export const sections = [
     desc: "根据目标切换武器，三星捕获与打 Boss 是两种任务。",
   },
   {
+    id: "maps",
+    title: "深海地图",
+    en: "BLUE HOLE DEPTHS",
+    desc: "切换两种深海地形与各自三套道具、大鱼分布。",
+  },
+  {
     id: "recipes",
     title: "菜谱与经营",
     en: "MENU ENGINEERING",

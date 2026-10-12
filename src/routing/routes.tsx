@@ -8,6 +8,7 @@ import { SectionPage } from "../pages/SectionPage";
 import { SearchPage } from "../pages/SearchPage";
 import { SourcesPage } from "../pages/SourcesPage";
 import { ToolsPage } from "../pages/ToolsPage";
+import { MapsPage } from "../pages/MapsPage";
 import { NotFoundPage } from "../pages/NotFoundPage";
 import { IngredientsPage } from "../pages/IngredientsPage";
 import { EntityPage } from "../pages/EntityPage";
@@ -29,13 +30,14 @@ export const routes: RouteObject[] = [
       { index: true, Component: OverviewRoute, handle: { section: "overview" } },
       { path: "overview", element: <Navigate to="/" replace /> },
       ...sections
-        .filter((section) => !["overview", "tools", "sources", "ingredients"].includes(section.id))
+        .filter((section) => !["overview", "tools", "sources", "ingredients", "maps"].includes(section.id))
         .map((section) => ({
           path: section.id,
           element: <SectionPage section={section.id} />,
           handle: { section: section.id },
         })),
       { path: "ingredients", Component: IngredientsPage, handle: { section: "ingredients" } },
+      { path: "maps", Component: MapsPage, handle: { section: "maps" } },
       { path: "fish", element: <IngredientsPage fish />, handle: { section: "ingredients" } },
       { path: "recipes/:slug", element: <EntityPage type="recipe" />, handle: { section: "recipes" } },
       { path: "ingredients/:slug", element: <EntityPage type="ingredient" />, handle: { section: "ingredients" } },

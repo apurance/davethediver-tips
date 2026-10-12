@@ -2,5 +2,12 @@ node_modules/
 dist/
 *.tsbuildinfo
 .superdesign/tmp/
+.superdesign/init/
+.superdesign/resume.json
 test-results/
 scripts/.source-cache/
+scripts/deep-sea-design.mjs
+scripts/design-context.mjs
+scripts/trace-deep-sea.py
+scripts/deep-sea-markers.py
+rawdata/
