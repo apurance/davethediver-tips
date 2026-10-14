@@ -102,6 +102,12 @@ fog coast、black cliff、jellyfish basin 分别译为“迷雾海岸”“黑�
 
 修改后运行 `pnpm test` 和 `pnpm build`，检查经营模型、字段显示和区域筛选。
 
+### 本地 Wiki 快照核对
+
+运行 `python scripts/audit-wiki-fish.py`，将 `rawdata/view-source_https___dave-the-diver.fandom.com_wiki_Fish.html` 与当前数据库比较，输出 `reports/wiki-fish-audit.md` 和同名 JSON。支持普通 HTML 和浏览器保存的“查看源代码”页面，仅使用 Python 标准库，不联网、不修改数据库。可用 `--source` 指定其他同结构快照，`--output` 指定报告路径前缀。
+
+报告区分数值差异、物种误合并、缺失菜谱、鱼类与菜谱双向关联、食材来源链路以及区域和掉落物的写法差异。JSON 保留来源文件哈希、Wiki 版本、原始表格行及证据行号。本页没有完整菜谱用料和经营属性，不能据此核实或补造这些数值。
+
 ## 修改内容
 
 - `src/data.ts`：攻略、资料、代表菜谱的显示适配与清单。
