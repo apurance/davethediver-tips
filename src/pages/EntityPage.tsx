@@ -1,6 +1,6 @@
 import { Alert, Breadcrumb, Card, Descriptions, Empty, Space, Table, Tag } from "antd";
-import { Link, Navigate, useParams } from "react-router";
-import { database, entityLists, entityPath, entityTypes, getEntity, getRelatedGroups, name } from "../catalog";
+import { Link, useParams } from "react-router";
+import { database, entityLists, entityTypes, getEntity, getRelatedGroups, name } from "../catalog";
 import type { Entity, EntityType } from "../catalog";
 import { formatFactValue, getDisplayFacts } from "../facts";
 import type { DisplayFactValue } from "../facts";
@@ -18,7 +18,6 @@ export function EntityPage({ type }: { type: EntityType }) {
   const requestedId = `${type}/${slug}`;
   const entity = getEntity(requestedId);
   if (!entity) return <><PageHeading title="条目未找到" description="该条目不存在，或链接中的名称有误。" /><Empty description="没有对应数据" /><Link to={entityLists[type]}>返回{entityTypes[type]}目录</Link></>;
-  if (requestedId !== entity.id) return <Navigate replace to={entityPath(entity)} />;
   const strategy = recipes.find(recipe => recipe.entityId === entity.id);
   const summarized = type === "recipe" ? ["base-price", "base-selling-price", "sell-price", "base-taste", "taste", "base-servings", "max-price", "max-taste", "max-servings", "highest-sell-price", "highest-taste"] : type === "staff" ? ["base-cooking", "base-serving", "base-procurement", "base-appeal", "max-cooking", "max-serving", "max-procurement", "max-appeal", "cooking", "serving", "procurement", "appeal", "hiring-cost", "wage", "manager-rank", "tier"] : [];
   const facts = getDisplayFacts(entity).filter(f => !summarized.some(field => f.labelId === `field/${field}`));

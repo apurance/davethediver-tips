@@ -53,17 +53,16 @@ export interface StaffEntity extends EntityBase {
 }
 export type Entity = RecipeEntity | IngredientEntity | FishEntity | StaffEntity;
 export const database = snapshot as unknown as {
-  metadata: { source: string; importedAt: string; rawPageCount: number; aliasCount: number };
-  aliases: Record<string, string>;
+  metadata: { source: string; importedAt: string; rawPageCount: number };
   recipes: RecipeEntity[]; ingredients: IngredientEntity[]; fish: FishEntity[]; staff: StaffEntity[];
 };
 const names: Record<string, string> = translations;
 export const catalog: Entity[] = [...database.recipes, ...database.ingredients, ...database.fish, ...database.staff];
 const byId = new Map(catalog.map(entity => [entity.id, entity]));
-export function getEntity(id: string) { return byId.get(database.aliases[id] ?? id); }
+export function getEntity(id: string) { return byId.get(id); }
 export function name(id: string) {
   const entity = getEntity(id);
-  const key = entity?.nameId ?? database.aliases[id] ?? id;
+  const key = entity?.nameId ?? id;
   return names[key] ?? entity?.en ?? id;
 }
 export function translateText(text: string) {
