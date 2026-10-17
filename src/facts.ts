@@ -69,7 +69,7 @@ const vendorStats = Object.fromEntries(["purchasePrice", "buyGold"].flatMap(pref
 
 /** Source facts contain independent information; presentation-only fields live here. */
 export function getDisplayFacts(entity: Entity): DisplayFact[] {
-  const facts: DisplayFact[] = [...entity.facts];
+  const facts: DisplayFact[] = [...(entity.facts ?? [])];
   const labels = new Set(facts.map(fact => fact.labelId));
   const append = (field: string, values: DisplayFactValue[]) => {
     const labelId = `field/${field}`;
