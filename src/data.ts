@@ -837,9 +837,9 @@ export const articles: Article[] = [
       `获得捕虫网后沿途抓${name("ingredient/seahorse")}，体积小，能顺路积累竞速候选。稀有或竞速优良个体先交给鲛人村游乐场，再考虑做料理。`,
       `${name("fish/ruby-seadragon")}在热泉区开采红宝石矿后可能出现。采完矿停留片刻观察，没出现不代表方法错，只是概率事件。`,
       "竞速选择游戏里速度、加速和其他显示属性更合适的个体，按赛道比较；稀有名称不等于必胜。",
-      `没有为它专门固定全天路线的必要，矿石同时服务武器升级与${name("fish/seadragon")}收集，收益更高。`,
+      `没有为它专门固定全天路线的必要，矿石同时服务武器升级与${name("ingredient/seadragon")}收集，收益更高。`,
     ],
-    tip: `不采用网上流传的固定刷新百分比；矿脉出现和${name("fish/seadragon")}生成都可能变化。`,
+    tip: `不采用网上流传的固定刷新百分比；矿脉出现和${name("ingredient/seadragon")}生成都可能变化。`,
     sources: ["ruby", "reference"],
   },
   {

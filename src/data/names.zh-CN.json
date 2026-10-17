@@ -312,7 +312,6 @@
   "fish/scouring-bass": "搜查鲈鱼",
   "fish/sea-goldie": "海金鱼",
   "fish/sea-toad": "海蟾蜍",
-  "fish/seadragon": "海龙",
   "fish/seahorses": "海马群",
   "fish/seizing-snailfish": "撕咬狮子鱼",
   "fish/shattered-wreckfish": "破碎多锯鲷",
@@ -489,7 +488,6 @@
   "ingredient/rice": "大米",
   "ingredient/salt": "盐",
   "ingredient/sea-grape": "海葡萄",
-  "ingredient/seadragon-ingredient": "海龙（食材）",
   "ingredient/seaweed": "海藻",
   "ingredient/sesame-seed": "芝麻",
   "ingredient/sheepshead-meat": "羊头鱼肉",
@@ -1172,5 +1170,6 @@
   "unit/kilogram": "kg",
   "unit/percent": "%",
   "unit/second": "秒",
-  "ingredient/seahorse": "海马"
+  "ingredient/seahorse": "海马",
+  "ingredient/seadragon": "海龙"
 }

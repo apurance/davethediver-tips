@@ -230,10 +230,9 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/seadragon",
+        "fish/weedy-seadragon",
         "fish/leafy-seadragon",
-        "fish/ruby-seadragon",
-        "fish/weedy-seadragon"
+        "fish/ruby-seadragon"
       ],
       "ingredients": [
         {
@@ -254,7 +253,7 @@
       },
       "facets": {},
       "acquisition-method": {
-        "entityId": "fish/seadragon"
+        "entityId": "ingredient/seadragon"
       },
       "facts": []
     },
@@ -27592,7 +27591,9 @@
         "https://davethediver.net/zh-hans/fish/ruby-seadragon/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seadragon"
+      ],
       "relatedRecipes": [
         "recipe/seadragon-onigiri"
       ],
@@ -28194,7 +28195,9 @@
         "https://davethediver.net/zh-hans/fish/leafy-seadragon/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seadragon"
+      ],
       "relatedRecipes": [
         "recipe/seadragon-onigiri"
       ],
@@ -28681,7 +28684,9 @@
         "https://davethediver.net/zh-hans/fish/weedy-seadragon/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seadragon"
+      ],
       "relatedRecipes": [
         "recipe/seadragon-onigiri"
       ],
@@ -29263,35 +29268,6 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": 8
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/seadragon",
-      "type": "fish",
-      "nameId": "fish/seadragon",
-      "en": "Seadragon",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/seadragon/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/seadragon"
-      ],
-      "relatedRecipes": [
-        "recipe/seadragon-onigiri"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 0.4,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 35
       },
       "region": [],
       "facets": {
@@ -32336,35 +32312,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/seadragon-ingredient",
-      "type": "ingredient",
-      "nameId": "ingredient/seadragon-ingredient",
-      "en": "Seadragon (ingredient)",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/seadragon-ingredient/"
-      ],
-      "inferred": false,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "Weedy Seadragon, Leafy Seadragon, Ruby Seadragon"
-            }
-          ]
-        }
-      ],
-      "stats": {
-        "sellPrice": 10,
-        "weight": 0.5,
-        "rank": 8
-      },
-      "facets": {}
-    },
-    {
       "id": "ingredient/sesame-seed",
       "type": "ingredient",
       "nameId": "ingredient/sesame-seed",
@@ -32771,21 +32718,40 @@
     {
       "id": "ingredient/seadragon",
       "type": "ingredient",
-      "nameId": "fish/seadragon",
+      "nameId": "ingredient/seadragon",
       "en": "Seadragon",
-      "sourceUrls": [],
-      "inferred": true,
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/ingredient/seadragon-ingredient/"
+      ],
+      "inferred": false,
       "fishIds": [
-        "fish/seadragon"
+        "fish/weedy-seadragon",
+        "fish/leafy-seadragon",
+        "fish/ruby-seadragon"
       ],
       "relatedFish": [
-        "fish/seadragon"
+        "fish/weedy-seadragon",
+        "fish/leafy-seadragon",
+        "fish/ruby-seadragon"
       ],
       "relatedRecipes": [
         "recipe/seadragon-onigiri"
       ],
-      "facts": [],
-      "stats": {},
+      "facts": [
+        {
+          "labelId": "field/harvest-source",
+          "values": [
+            {
+              "text": "Weedy Seadragon, Leafy Seadragon, Ruby Seadragon"
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "sellPrice": 10,
+        "weight": 0.5,
+        "rank": 8
+      },
       "facets": {}
     },
     {
