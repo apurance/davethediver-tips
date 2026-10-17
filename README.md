@@ -25,7 +25,7 @@ pnpm test     # 使用 Node 内置 test runner 验证经营模型（Node 22.18+�
 ## 内容与功能
 
 - 35 条攻略：推进、潜水、武器饰品、菜谱、员工分店、养殖农场、重点 Boss、活动、图鉴小游戏、DLC。
-- 本地数据库：472 条食谱、387 条食材、288 条鱼类和 33 条员工记录。中英文搜索、排序、分页、菜谱用途 / 鱼类区域 / 员工评级筛选；详情保留来源链接和缺失值。
+- 本地数据库：469 条食谱、384 条食材、287 条鱼类和 33 条员工记录。中英文搜索、排序、分页、菜谱用途 / 鱼类区域 / 员工评级筛选；详情保留来源链接和缺失值。
 - 食谱 → 食材 → 来源鱼类，以及食材 / 鱼类 → 食谱的双向跳转；配队建议可打开员工详情。
 - 7 道代表菜谱的已核对等级曲线、经营建议和备货计算；与数据库共用名称和关联条目。
 - 省操作 / 手动补芥末两套人员搭配。
@@ -81,6 +81,8 @@ location / {
 所有独立数值统一放在 `stats`，例如 `"length": 210`、`"health": 250`、`"dailyLimit": 1`、`"servingTime": 19`。数据不再逐项声明 `unitId`、`templateId` 或 `parameters`，前端根据统计键推断单位和显示模板；中文单位及模板仍集中在名称 JSON，例如 `unit/gold`、`unit/centimeter`、`template/daily-quantity`。不同商家的价格分别保存为 `purchasePriceOtto`、`purchasePriceJango` 等数值键；同价共用商家使用 `purchasePriceJangoAndMushroomer`。来源中的“购买金币”对应 `buyGoldOtto`、`buyGoldJango`，保留独立字段。员工的 `cooking` 等来源属性与 `maxCooking` 等满级属性也分别保存。`facts` 仅保留文本、名称和实体引用，`facets` 分类和 `skillIds` 技能由前端生成显示字段。图鉴编号等标识保留字符串，避免丢失前导零。
 
 `database.json` 不保存“每公斤价值”、员工基础 / 满级属性总和、关联菜谱数量，也不保存 `computed`、`stat` 等显示描述。前端的 `getDisplayFacts()` 根据基础数据追加：每公斤价值 = `stats.sellPrice / stats.weight`（显示最多一位小数）；员工总和 = 对应四项属性之和；菜谱数量 = 当前去重后的关联菜谱数。基础数据不齐或重量非正时不追加相应计算字段，零售价和零菜谱数量正常显示。来源鱼类的“关联菜谱”字段仍保留，作为已核对的独立关联依据。
+
+14 种有编号的海马共用 `ingredient/seahorse`，各物种保留独立图鉴与属性，食材的 `fishIds` / `relatedFish` 列出全部 14 种来源。炸海马、海马沙拉、海马烤串、海马乌冬面均使用该通用食材，四道菜谱与各海马、通用食材保持双向关联；不再使用泛称 `fish/seahorse` 或长吻海马专用食材占位。
 
 无需翻译的字符串值放在可选的 `fields` 中，例如 `"fields": { "encyclopediaNumber": "0016", "marincaCardNumber": "16" }`；没有此类值的条目省略 `fields`。显示时将驼峰键转换为 `field/encyclopedia-number`、`field/marinca-card-number` 查询字段译名，值原样显示，保留前导零。两种编号尚未整体合并：忽略前导零后，腔棘鱼的图鉴编号 `0991` 与 Marinca 卡编号 `913` 仍不一致，现保留来源值。`stats` 继续只保存数值或缺失值 `null`。
 

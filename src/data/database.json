@@ -6349,7 +6349,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/long-snouted-seahorse",
+        "fish/white-seahorse",
         "fish/big-belly-seahorse",
         "fish/crowned-seahorse",
         "fish/dwarf-seahorse",
@@ -6357,17 +6357,16 @@
         "fish/hedgehog-seahorse",
         "fish/jayakars-seahorse",
         "fish/lined-seahorse",
+        "fish/long-snouted-seahorse",
         "fish/pacific-seahorse",
-        "fish/spiny-seahorse",
         "fish/spotted-seahorse",
         "fish/tiger-tail-seahorse",
-        "fish/white-seahorse",
         "fish/zebra-seahorse",
-        "fish/seahorse"
+        "fish/spiny-seahorse"
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/long-snouted-seahorse",
+          "ingredientId": "ingredient/seahorse",
           "quantity": 3
         },
         {
@@ -7415,11 +7414,12 @@
       "nameId": "recipe/seahorse-salad",
       "en": "Seahorse Salad",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/seahorse-salad/"
+        "https://davethediver.net/zh-hans/recipe/seahorse-salad/",
+        "https://davethediver.net/zh-hans/recipe/seahorse-sea-grapes-salad/"
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/long-snouted-seahorse",
+        "fish/white-seahorse",
         "fish/big-belly-seahorse",
         "fish/crowned-seahorse",
         "fish/dwarf-seahorse",
@@ -7427,16 +7427,16 @@
         "fish/hedgehog-seahorse",
         "fish/jayakars-seahorse",
         "fish/lined-seahorse",
+        "fish/long-snouted-seahorse",
         "fish/pacific-seahorse",
-        "fish/spiny-seahorse",
         "fish/spotted-seahorse",
         "fish/tiger-tail-seahorse",
-        "fish/white-seahorse",
-        "fish/zebra-seahorse"
+        "fish/zebra-seahorse",
+        "fish/spiny-seahorse"
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/long-snouted-seahorse",
+          "ingredientId": "ingredient/seahorse",
           "quantity": 3
         },
         {
@@ -7473,11 +7473,12 @@
       "nameId": "recipe/seahorse-udon",
       "en": "Seahorse Udon",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/seahorse-udon/"
+        "https://davethediver.net/zh-hans/recipe/seahorse-udon/",
+        "https://davethediver.net/zh-hans/recipe/spiny-seahorse-udon/"
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/long-snouted-seahorse",
+        "fish/white-seahorse",
         "fish/big-belly-seahorse",
         "fish/crowned-seahorse",
         "fish/dwarf-seahorse",
@@ -7485,16 +7486,16 @@
         "fish/hedgehog-seahorse",
         "fish/jayakars-seahorse",
         "fish/lined-seahorse",
+        "fish/long-snouted-seahorse",
         "fish/pacific-seahorse",
-        "fish/spiny-seahorse",
         "fish/spotted-seahorse",
         "fish/tiger-tail-seahorse",
-        "fish/white-seahorse",
-        "fish/zebra-seahorse"
+        "fish/zebra-seahorse",
+        "fish/spiny-seahorse"
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/long-snouted-seahorse",
+          "ingredientId": "ingredient/seahorse",
           "quantity": 3
         },
         {
@@ -10600,11 +10601,12 @@
       "nameId": "recipe/seahorse-skewers",
       "en": "Seahorse Skewers",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/seahorse-skewers/"
+        "https://davethediver.net/zh-hans/recipe/seahorse-skewers/",
+        "https://davethediver.net/zh-hans/recipe/seahorse-roasted/"
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/long-snouted-seahorse",
+        "fish/white-seahorse",
         "fish/big-belly-seahorse",
         "fish/crowned-seahorse",
         "fish/dwarf-seahorse",
@@ -10612,16 +10614,16 @@
         "fish/hedgehog-seahorse",
         "fish/jayakars-seahorse",
         "fish/lined-seahorse",
+        "fish/long-snouted-seahorse",
         "fish/pacific-seahorse",
-        "fish/spiny-seahorse",
         "fish/spotted-seahorse",
         "fish/tiger-tail-seahorse",
-        "fish/white-seahorse",
-        "fish/zebra-seahorse"
+        "fish/zebra-seahorse",
+        "fish/spiny-seahorse"
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/long-snouted-seahorse",
+          "ingredientId": "ingredient/seahorse",
           "quantity": 1
         }
       ],
@@ -10635,7 +10637,7 @@
       },
       "facets": {},
       "acquisition-method": {
-        "entityId": "fish/long-snouted-seahorse"
+        "entityId": "ingredient/seahorse"
       },
       "facts": []
     },
@@ -13804,38 +13806,6 @@
       "facts": []
     },
     {
-      "id": "recipe/seahorse-roasted",
-      "type": "recipe",
-      "nameId": "recipe/seahorse-roasted",
-      "en": "Seahorse Roasted",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/seahorse-roasted/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/seahorse"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/seahorse",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 30,
-        "maxPrice": null,
-        "baseTaste": 22,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 2,
-        "estimatedProfit": 28
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/snakeskin-gourami",
       "type": "recipe",
       "nameId": "recipe/snakeskin-gourami",
@@ -16503,48 +16473,6 @@
       "facts": []
     },
     {
-      "id": "recipe/seahorse-sea-grapes-salad",
-      "type": "recipe",
-      "nameId": "recipe/seahorse-sea-grapes-salad",
-      "en": "Seahorse Sea Grapes Salad",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/seahorse-sea-grapes-salad/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/seahorse"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/seahorse",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/cherry-tomato",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/sea-grape",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 160,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/shell-mix-hot-pot",
       "type": "recipe",
       "nameId": "recipe/shell-mix-hot-pot",
@@ -16851,44 +16779,6 @@
         "baseServings": null,
         "maxServings": null,
         "maxLevel": 1
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/spiny-seahorse-udon",
-      "type": "recipe",
-      "nameId": "recipe/spiny-seahorse-udon",
-      "en": "Spiny Seahorse Udon",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/spiny-seahorse-udon/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/seahorse"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/seahorse",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/miso",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 375,
-        "maxPrice": null,
-        "baseTaste": 128,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
       },
       "facets": {},
       "facts": []
@@ -21481,7 +21371,9 @@
         "https://davethediver.net/zh-hans/fish/spiny-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -27524,47 +27416,6 @@
       }
     },
     {
-      "id": "fish/seahorse",
-      "type": "fish",
-      "nameId": "fish/seahorse",
-      "en": "Seahorse",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/seahorse/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/seahorse"
-      ],
-      "relatedRecipes": [
-        "recipe/fried-seahorses",
-        "recipe/seahorse-roasted",
-        "recipe/seahorse-sea-grapes-salad",
-        "recipe/spiny-seahorse-udon"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.4,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 2,
-        "health": 3,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 99
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      }
-    },
-    {
       "id": "fish/smooth-hammerhead",
       "type": "fish",
       "nameId": "fish/smooth-hammerhead",
@@ -28000,7 +27851,9 @@
         "https://davethediver.net/zh-hans/fish/big-belly-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28110,7 +27963,9 @@
         "https://davethediver.net/zh-hans/fish/crowned-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28147,7 +28002,9 @@
         "https://davethediver.net/zh-hans/fish/dwarf-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28184,7 +28041,9 @@
         "https://davethediver.net/zh-hans/fish/giraffe-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28221,7 +28080,9 @@
         "https://davethediver.net/zh-hans/fish/hedgehog-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28258,7 +28119,9 @@
         "https://davethediver.net/zh-hans/fish/jayakars-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28365,7 +28228,9 @@
         "https://davethediver.net/zh-hans/fish/lined-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28403,7 +28268,7 @@
       ],
       "inferred": false,
       "relatedIngredients": [
-        "ingredient/long-snouted-seahorse"
+        "ingredient/seahorse"
       ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
@@ -28478,7 +28343,9 @@
         "https://davethediver.net/zh-hans/fish/pacific-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28699,7 +28566,9 @@
         "https://davethediver.net/zh-hans/fish/spotted-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28773,7 +28642,9 @@
         "https://davethediver.net/zh-hans/fish/tiger-tail-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28844,7 +28715,9 @@
         "https://davethediver.net/zh-hans/fish/white-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -28881,7 +28754,9 @@
         "https://davethediver.net/zh-hans/fish/zebra-seahorse/"
       ],
       "inferred": false,
-      "relatedIngredients": [],
+      "relatedIngredients": [
+        "ingredient/seahorse"
+      ],
       "relatedRecipes": [
         "recipe/fried-seahorses",
         "recipe/seahorse-salad",
@@ -29751,8 +29626,7 @@
         "recipe/dusky-grouper-steak",
         "recipe/fried-tomato-and-snailfish",
         "recipe/haddock-acqua-pazza",
-        "recipe/seahorse-salad",
-        "recipe/seahorse-sea-grapes-salad"
+        "recipe/seahorse-salad"
       ],
       "facts": [],
       "stats": {
@@ -30044,7 +29918,6 @@
         "recipe/seahorse-salad",
         "recipe/trout-sea-grapes-ricebowl",
         "recipe/egg-tenshinhan",
-        "recipe/seahorse-sea-grapes-salad",
         "recipe/special-goblin-shark-belly-meat-grilled"
       ],
       "acquisition-method": {
@@ -30365,8 +30238,7 @@
         "recipe/narwhal-miso-soup",
         "recipe/nasu-dengaku",
         "recipe/seahorse-udon",
-        "recipe/special-mantis-shrimp-shell-meat-boiled",
-        "recipe/spiny-seahorse-udon"
+        "recipe/special-mantis-shrimp-shell-meat-boiled"
       ],
       "acquisition-method": {
         "text": "陶罐／采集点"
@@ -30419,7 +30291,6 @@
         "recipe/sweet-and-sour-stargazer",
         "recipe/vege-fried",
         "recipe/whitetip-reefshark-roast",
-        "recipe/seahorse-sea-grapes-salad",
         "recipe/special-goblin-shark-belly-meat-grilled",
         "recipe/special-lusca-leg-blanched"
       ],
@@ -31222,27 +31093,6 @@
       "stats": {
         "sellPrice": 2,
         "weight": 1
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/flour",
-      "type": "ingredient",
-      "nameId": "ingredient/flour",
-      "en": "Flour",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/flour/"
-      ],
-      "inferred": false,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/spiny-seahorse-udon"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 19,
-        "weight": 0.1
       },
       "facets": {}
     },
@@ -32719,27 +32569,6 @@
         "text/544dd3e67759"
       ],
       "facets": {}
-    },
-    {
-      "id": "ingredient/seahorse-ingredient",
-      "type": "ingredient",
-      "nameId": "ingredient/seahorse-ingredient",
-      "en": "Seahorse (ingredient)",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/seahorse-ingredient/"
-      ],
-      "inferred": false,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "sellPrice": 10,
-        "weight": 0.5
-      },
-      "facets": {
-        "acquisitionSource": "text/1bc9bdbab075"
-      }
     },
     {
       "id": "ingredient/stingray-meat",
@@ -34978,29 +34807,6 @@
       "relatedRecipes": [
         "recipe/dried-stingray",
         "recipe/starry-skate-sushi"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/long-snouted-seahorse",
-      "type": "ingredient",
-      "nameId": "fish/long-snouted-seahorse",
-      "en": "Long-Snouted Seahorse",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/long-snouted-seahorse"
-      ],
-      "relatedFish": [
-        "fish/long-snouted-seahorse"
-      ],
-      "relatedRecipes": [
-        "recipe/fried-seahorses",
-        "recipe/seahorse-salad",
-        "recipe/seahorse-udon",
-        "recipe/seahorse-skewers"
       ],
       "facts": [],
       "stats": {},
@@ -37578,24 +37384,58 @@
     {
       "id": "ingredient/seahorse",
       "type": "ingredient",
-      "nameId": "fish/seahorse",
+      "nameId": "ingredient/seahorse",
       "en": "Seahorse",
-      "sourceUrls": [],
-      "inferred": true,
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/ingredient/seahorse-ingredient/"
+      ],
+      "inferred": false,
       "fishIds": [
-        "fish/seahorse"
+        "fish/white-seahorse",
+        "fish/big-belly-seahorse",
+        "fish/crowned-seahorse",
+        "fish/dwarf-seahorse",
+        "fish/giraffe-seahorse",
+        "fish/hedgehog-seahorse",
+        "fish/jayakars-seahorse",
+        "fish/lined-seahorse",
+        "fish/long-snouted-seahorse",
+        "fish/pacific-seahorse",
+        "fish/spotted-seahorse",
+        "fish/tiger-tail-seahorse",
+        "fish/zebra-seahorse",
+        "fish/spiny-seahorse"
       ],
       "relatedFish": [
-        "fish/seahorse"
+        "fish/white-seahorse",
+        "fish/big-belly-seahorse",
+        "fish/crowned-seahorse",
+        "fish/dwarf-seahorse",
+        "fish/giraffe-seahorse",
+        "fish/hedgehog-seahorse",
+        "fish/jayakars-seahorse",
+        "fish/lined-seahorse",
+        "fish/long-snouted-seahorse",
+        "fish/pacific-seahorse",
+        "fish/spotted-seahorse",
+        "fish/tiger-tail-seahorse",
+        "fish/zebra-seahorse",
+        "fish/spiny-seahorse"
       ],
       "relatedRecipes": [
-        "recipe/seahorse-roasted",
-        "recipe/seahorse-sea-grapes-salad",
-        "recipe/spiny-seahorse-udon"
+        "recipe/fried-seahorses",
+        "recipe/seahorse-salad",
+        "recipe/seahorse-skewers",
+        "recipe/seahorse-udon"
       ],
       "facts": [],
-      "stats": {},
-      "facets": {}
+      "stats": {
+        "sellPrice": 10,
+        "weight": 0.5
+      },
+      "facets": {
+        "acquisitionSource": "text/1bc9bdbab075"
+      }
     },
     {
       "id": "ingredient/snakeskin-gourami",
