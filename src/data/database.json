@@ -29311,31 +29311,6 @@
       }
     },
     {
-      "id": "fish/fish-common",
-      "type": "fish",
-      "nameId": "fish/fish-common",
-      "en": "Fish Common",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/fish-common/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 0.2,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 1
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
       "id": "fish/humpback-whale",
       "type": "fish",
       "nameId": "fish/humpback-whale",
@@ -29386,35 +29361,6 @@
       "facets": {
         "time": null,
         "gender": "text/0ab4610b9257"
-      }
-    },
-    {
-      "id": "fish/seahorses",
-      "type": "fish",
-      "nameId": "fish/seahorses",
-      "en": "Seahorses",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/seahorses/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": null,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": null
-      },
-      "region": [],
-      "facets": {
-        "time": null,
-        "collectionUnlock": "text/7bc4a174a078",
-        "racingUnlock": "text/2d28e9895f35",
-        "ingredientResult": "text/71c88393332b",
-        "otherUses": "text/2b732a463e86"
       }
     },
     {
