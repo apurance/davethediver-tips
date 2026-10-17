@@ -45,6 +45,7 @@ const additionalStatFields: Record<Entity["type"], [string, string][]> = {
     ["region", "region"], ["daily-limit", "dailyLimit"],
   ],
   fish: [
+    ["marinca-card-number", "marincaCardNumber"],
     ["length", "length"], ["health", "health"], ["damage", "damage"],
     ["harvest-count", "harvestCount"], ["capture-rank", "captureRank"],
   ],
@@ -83,9 +84,6 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
   }
   if (entity.type === "recipe" && entity.event !== undefined) append("event", [{ text: entity.event }]);
   if (entity.type === "staff" && entity.occupation !== undefined) append("occupation", [{ text: entity.occupation }]);
-  for (const [key, text] of Object.entries(entity.fields ?? {})) {
-    append(key.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`), [{ text }]);
-  }
   for (const [field, stat] of [...statFields[entity.type], ...additionalStatFields[entity.type]]) {
     if (entity.stats[stat] != null) append(field, [{ stat }]);
   }
@@ -145,6 +143,7 @@ export function formatFactValue(value: DisplayFactValue, entity: FactContext, tr
   const numeric = value.number !== undefined || value.stat !== undefined || value.computed !== undefined;
   const number = numeric ? resolveFactNumber(value, entity) : null;
   if (numeric && number === null) return translate("label/not-provided");
+  if (value.stat === "marincaCardNumber" && number !== null) return String(number);
   // Keep source quantities precise; only the derived ratio is rounded for display.
   const formatted = number === null ? "" : formatNumber(number, value.computed === "value-per-kilogram" ? 1 : 10);
   const vendor = value.stat ? vendorStats[value.stat] : undefined;

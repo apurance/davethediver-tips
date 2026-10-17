@@ -17405,7 +17405,8 @@
         "health": 250,
         "damage": 53,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 508
       },
       "region": [
         "region/8c354854b261"
@@ -17415,10 +17416,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0508",
-        "marincaCardNumber": "508"
       }
     },
     {
@@ -17455,7 +17452,8 @@
         "health": 200,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 309
       },
       "region": [
         "region/glacial-area"
@@ -17465,10 +17463,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0309",
-        "marincaCardNumber": "309"
       }
     },
     {
@@ -17504,7 +17498,8 @@
         "health": 100,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 504
       },
       "region": [
         "region/8c354854b261"
@@ -17514,10 +17509,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0504",
-        "marincaCardNumber": "504"
       }
     },
     {
@@ -17547,7 +17538,8 @@
         "health": 10,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 210
       },
       "region": [
         "region/721eb9e71c69"
@@ -17557,10 +17549,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0210",
-        "marincaCardNumber": "210"
       }
     },
     {
@@ -17596,7 +17584,8 @@
         "health": 50,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 215
       },
       "region": [
         "region/721eb9e71c69"
@@ -17606,10 +17595,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0215",
-        "marincaCardNumber": "215"
       }
     },
     {
@@ -17640,7 +17625,8 @@
         "health": 120,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 316
       },
       "region": [
         "region/glacial-area"
@@ -17650,10 +17636,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0316",
-        "marincaCardNumber": "316"
       }
     },
     {
@@ -17684,7 +17666,8 @@
         "health": 110,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 313
       },
       "region": [
         "region/glacial-area"
@@ -17694,10 +17677,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0313",
-        "marincaCardNumber": "313"
       }
     },
     {
@@ -17736,7 +17715,8 @@
         "health": 125,
         "damage": 35,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 206
       },
       "region": [
         "region/721eb9e71c69"
@@ -17746,10 +17726,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0206",
-        "marincaCardNumber": "206"
       }
     },
     {
@@ -17780,7 +17756,8 @@
         "health": 1,
         "damage": 40,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 123
       },
       "region": [
         "region/42a2a7652438"
@@ -17790,10 +17767,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0123",
-        "marincaCardNumber": "123"
       }
     },
     {
@@ -17830,7 +17803,8 @@
         "health": 145,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 305
       },
       "region": [
         "region/22dcf4d19351"
@@ -17840,10 +17814,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0305",
-        "marincaCardNumber": "305"
       }
     },
     {
@@ -17876,7 +17846,8 @@
         "health": 10,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 509
       },
       "region": [
         "region/blue-hole-0-130-meters"
@@ -17886,10 +17857,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0509",
-        "marincaCardNumber": "509"
       }
     },
     {
@@ -17919,7 +17886,8 @@
         "health": 140,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 319
       },
       "region": [
         "region/glacial-area-dungeon-1"
@@ -17929,10 +17897,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0319",
-        "marincaCardNumber": "319"
       }
     },
     {
@@ -17962,7 +17926,8 @@
         "health": 140,
         "damage": 20,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 403
       },
       "region": [
         "region/hydrothermal-vents"
@@ -17972,10 +17937,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0403",
-        "marincaCardNumber": "403"
       }
     },
     {
@@ -18005,7 +17966,8 @@
         "health": 130,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 318
       },
       "region": [
         "region/glacial-area-dungeon-1"
@@ -18015,10 +17977,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0318",
-        "marincaCardNumber": "318"
       }
     },
     {
@@ -18049,7 +18007,8 @@
         "health": 60,
         "damage": 15,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 122
       },
       "region": [
         "region/limestone-cave"
@@ -18059,10 +18018,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0122",
-        "marincaCardNumber": "122"
       }
     },
     {
@@ -18094,7 +18049,8 @@
         "health": 54,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 115
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -18104,10 +18060,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0115",
-        "marincaCardNumber": "115"
       }
     },
     {
@@ -18140,7 +18092,8 @@
         "health": 18,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 104
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -18150,10 +18103,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0104",
-        "marincaCardNumber": "104"
       }
     },
     {
@@ -18183,7 +18132,8 @@
         "health": 8,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 18
       },
       "region": [
         "region/8c354854b261"
@@ -18193,10 +18143,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0018",
-        "marincaCardNumber": "18"
       }
     },
     {
@@ -18229,7 +18175,8 @@
         "health": 10,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 124
       },
       "region": [
         "region/42a2a7652438"
@@ -18239,10 +18186,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0124",
-        "marincaCardNumber": "124"
       }
     },
     {
@@ -18273,7 +18216,8 @@
         "health": 20,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 314
       },
       "region": [
         "region/glacial-area"
@@ -18283,10 +18227,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0314",
-        "marincaCardNumber": "314"
       }
     },
     {
@@ -18316,7 +18256,8 @@
         "health": 32,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 201
       },
       "region": [
         "region/721eb9e71c69"
@@ -18326,10 +18267,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0201",
-        "marincaCardNumber": "201"
       }
     },
     {
@@ -18360,7 +18297,8 @@
         "health": 25,
         "damage": 15,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 501
       },
       "region": [
         "region/8c354854b261"
@@ -18370,10 +18308,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0501",
-        "marincaCardNumber": "501"
       }
     },
     {
@@ -18404,7 +18338,8 @@
         "health": 3,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 2
       },
       "region": [
         "region/8c354854b261"
@@ -18414,10 +18349,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0002",
-        "marincaCardNumber": "2"
       }
     },
     {
@@ -18448,7 +18379,8 @@
         "health": 80,
         "damage": 35,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 209
       },
       "region": [
         "region/721eb9e71c69"
@@ -18458,10 +18390,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0209",
-        "marincaCardNumber": "209"
       }
     },
     {
@@ -18493,7 +18421,8 @@
         "health": 37,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 109
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -18503,10 +18432,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0109",
-        "marincaCardNumber": "109"
       }
     },
     {
@@ -18541,7 +18466,8 @@
         "health": 250,
         "damage": 70,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 406
       },
       "region": [
         "region/hydrothermal-vents"
@@ -18551,10 +18477,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0406",
-        "marincaCardNumber": "406"
       }
     },
     {
@@ -18592,7 +18514,8 @@
         "health": 355,
         "damage": 100,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 407
       },
       "region": [
         "region/hydrothermal-vents"
@@ -18602,10 +18525,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0407",
-        "marincaCardNumber": "407"
       }
     },
     {
@@ -18636,7 +18555,8 @@
         "health": 54,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 114
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -18646,10 +18566,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0114",
-        "marincaCardNumber": "114"
       }
     },
     {
@@ -18680,7 +18596,8 @@
         "health": 140,
         "damage": 35,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 405
       },
       "region": [
         "region/hydrothermal-vents"
@@ -18690,10 +18607,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0405",
-        "marincaCardNumber": "405"
       }
     },
     {
@@ -18724,7 +18637,8 @@
         "health": 80,
         "damage": 20,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 202
       },
       "region": [
         "region/721eb9e71c69"
@@ -18734,10 +18648,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0202",
-        "marincaCardNumber": "202"
       }
     },
     {
@@ -18776,7 +18686,8 @@
         "health": 180,
         "damage": 40,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 203
       },
       "region": [
         "region/721eb9e71c69"
@@ -18786,10 +18697,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0203",
-        "marincaCardNumber": "203"
       }
     },
     {
@@ -18829,7 +18736,8 @@
         "health": 163,
         "damage": 0,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 116
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -18839,10 +18747,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0116",
-        "marincaCardNumber": "116"
       }
     },
     {
@@ -18873,7 +18777,8 @@
         "health": 1,
         "damage": 40,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 322
       },
       "region": [
         "region/glacial-area"
@@ -18883,10 +18788,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0322",
-        "marincaCardNumber": "322"
       }
     },
     {
@@ -18917,7 +18818,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 107
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -18927,10 +18829,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0107",
-        "marincaCardNumber": "107"
       }
     },
     {
@@ -18966,7 +18864,8 @@
         "health": 220,
         "damage": 60,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 512
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -18976,10 +18875,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0512",
-        "marincaCardNumber": "512"
       }
     },
     {
@@ -19010,7 +18905,8 @@
         "health": 40,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 503
       },
       "region": [
         "region/8c354854b261"
@@ -19020,10 +18916,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0503",
-        "marincaCardNumber": "503"
       }
     },
     {
@@ -19054,7 +18946,8 @@
         "health": 12,
         "damage": 10,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 502
       },
       "region": [
         "region/8c354854b261"
@@ -19064,10 +18957,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0502",
-        "marincaCardNumber": "502"
       }
     },
     {
@@ -19098,7 +18987,8 @@
         "health": 18,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 106
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -19108,10 +18998,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0106",
-        "marincaCardNumber": "106"
       }
     },
     {
@@ -19151,7 +19037,8 @@
         "health": 150,
         "damage": 45,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 33
       },
       "region": [
         "region/8c354854b261"
@@ -19161,10 +19048,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0033",
-        "marincaCardNumber": "33"
       }
     },
     {
@@ -19195,7 +19078,8 @@
         "health": 9,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 16
       },
       "region": [
         "region/8c354854b261"
@@ -19205,10 +19089,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0016",
-        "marincaCardNumber": "16"
       }
     },
     {
@@ -19238,7 +19118,8 @@
         "health": 200,
         "damage": 40,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 408
       },
       "region": [
         "region/hydrothermal-vents"
@@ -19248,10 +19129,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0408",
-        "marincaCardNumber": "408"
       }
     },
     {
@@ -19282,7 +19159,8 @@
         "health": 54,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 120
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -19292,10 +19170,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0120",
-        "marincaCardNumber": "120"
       }
     },
     {
@@ -19326,7 +19200,8 @@
         "health": 6,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 14
       },
       "region": [
         "region/8c354854b261"
@@ -19336,10 +19211,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0014",
-        "marincaCardNumber": "14"
       }
     },
     {
@@ -19370,7 +19241,8 @@
         "health": 16,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 103
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -19380,10 +19252,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0103",
-        "marincaCardNumber": "103"
       }
     },
     {
@@ -19415,7 +19283,8 @@
         "health": 105,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 301
       },
       "region": [
         "region/22dcf4d19351"
@@ -19425,10 +19294,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0301",
-        "marincaCardNumber": "301"
       }
     },
     {
@@ -19459,7 +19324,8 @@
         "health": 140,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 402
       },
       "region": [
         "region/hydrothermal-vents"
@@ -19469,10 +19335,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0402",
-        "marincaCardNumber": "402"
       }
     },
     {
@@ -19502,7 +19364,8 @@
         "health": 140,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 404
       },
       "region": [
         "region/hydrothermal-vents"
@@ -19512,10 +19375,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0404",
-        "marincaCardNumber": "404"
       }
     },
     {
@@ -19546,7 +19405,8 @@
         "health": 100,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 217
       },
       "region": [
         "region/721eb9e71c69"
@@ -19556,10 +19416,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0217",
-        "marincaCardNumber": "217"
       }
     },
     {
@@ -19590,7 +19446,8 @@
         "health": 9,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 17
       },
       "region": [
         "region/8c354854b261"
@@ -19600,10 +19457,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0017",
-        "marincaCardNumber": "17"
       }
     },
     {
@@ -19634,7 +19487,8 @@
         "health": 100,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 212
       },
       "region": [
         "region/721eb9e71c69"
@@ -19644,10 +19498,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0212",
-        "marincaCardNumber": "212"
       }
     },
     {
@@ -19678,7 +19528,8 @@
         "health": 100,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 211
       },
       "region": [
         "region/721eb9e71c69"
@@ -19688,10 +19539,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0211",
-        "marincaCardNumber": "211"
       }
     },
     {
@@ -19726,7 +19573,8 @@
         "health": 230,
         "damage": 70,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 37
       },
       "region": [
         "region/8c354854b261"
@@ -19736,10 +19584,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0037",
-        "marincaCardNumber": "37"
       }
     },
     {
@@ -19771,7 +19615,8 @@
         "health": 170,
         "damage": 50,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 321
       },
       "region": [
         "region/glacial-area-dungeon-3"
@@ -19781,10 +19626,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0321",
-        "marincaCardNumber": "321"
       }
     },
     {
@@ -19815,7 +19656,8 @@
         "health": 35,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 511
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -19825,10 +19667,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0511",
-        "marincaCardNumber": "511"
       }
     },
     {
@@ -19859,7 +19697,8 @@
         "health": 15,
         "damage": 15,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 35
       },
       "region": [
         "region/8c354854b261"
@@ -19869,10 +19708,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0035",
-        "marincaCardNumber": "35"
       }
     },
     {
@@ -19910,7 +19745,8 @@
         "health": 220,
         "damage": 80,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 39
       },
       "region": [
         "region/8c354854b261"
@@ -19920,10 +19756,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0039",
-        "marincaCardNumber": "39"
       }
     },
     {
@@ -19954,7 +19786,8 @@
         "health": 10,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 401
       },
       "region": [
         "region/hydrothermal-vents"
@@ -19964,10 +19797,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0401",
-        "marincaCardNumber": "401"
       }
     },
     {
@@ -19999,7 +19828,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 112
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -20009,10 +19839,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0112",
-        "marincaCardNumber": "112"
       }
     },
     {
@@ -20046,7 +19872,8 @@
         "health": 10,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 34
       },
       "region": [
         "region/8c354854b261"
@@ -20056,10 +19883,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0034",
-        "marincaCardNumber": "34"
       }
     },
     {
@@ -20094,7 +19917,8 @@
         "health": 260,
         "damage": 90,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 409
       },
       "region": [
         "region/hydrothermal-vents"
@@ -20104,10 +19928,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0409",
-        "marincaCardNumber": "409"
       }
     },
     {
@@ -20138,7 +19958,8 @@
         "health": 6,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 13
       },
       "region": [
         "region/8c354854b261"
@@ -20148,10 +19969,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0013",
-        "marincaCardNumber": "13"
       }
     },
     {
@@ -20181,7 +19998,8 @@
         "length": 25,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 702
       },
       "region": [
         "region/8c354854b261"
@@ -20191,10 +20009,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0702",
-        "marincaCardNumber": "702"
       }
     },
     {
@@ -20224,7 +20038,8 @@
         "health": 42,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 111
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -20234,10 +20049,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0111",
-        "marincaCardNumber": "111"
       }
     },
     {
@@ -20267,7 +20078,8 @@
         "length": 30,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 703
       },
       "region": [
         "region/8c354854b261"
@@ -20277,10 +20089,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0703",
-        "marincaCardNumber": "703"
       }
     },
     {
@@ -20310,7 +20118,8 @@
         "length": 30,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 705
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -20320,10 +20129,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0705",
-        "marincaCardNumber": "705"
       }
     },
     {
@@ -20354,7 +20159,8 @@
         "health": 200,
         "damage": 50,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 507
       },
       "region": [
         "region/8c354854b261"
@@ -20364,10 +20170,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0507",
-        "marincaCardNumber": "507"
       }
     },
     {
@@ -20397,7 +20199,8 @@
         "length": 25,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 708
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -20407,10 +20210,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0708",
-        "marincaCardNumber": "708"
       }
     },
     {
@@ -20439,7 +20238,8 @@
         "length": 8,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 713
       },
       "region": [
         "region/hydrothermal-vents"
@@ -20449,10 +20249,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0713",
-        "marincaCardNumber": "713"
       }
     },
     {
@@ -20482,7 +20278,8 @@
         "length": 30,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 710
       },
       "region": [
         "region/721eb9e71c69"
@@ -20492,10 +20289,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0710",
-        "marincaCardNumber": "710"
       }
     },
     {
@@ -20525,7 +20318,8 @@
         "length": 23,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 704
       },
       "region": [
         "region/8c354854b261"
@@ -20535,10 +20329,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0704",
-        "marincaCardNumber": "704"
       }
     },
     {
@@ -20567,7 +20357,8 @@
         "length": 15,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 706
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -20577,10 +20368,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0706",
-        "marincaCardNumber": "706"
       }
     },
     {
@@ -20612,7 +20399,8 @@
         "health": 75,
         "damage": 0,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 19
       },
       "region": [
         "region/8c354854b261"
@@ -20622,10 +20410,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0019",
-        "marincaCardNumber": "19"
       }
     },
     {
@@ -20658,7 +20442,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 40
       },
       "region": [
         "region/8c354854b261"
@@ -20668,10 +20453,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0040",
-        "marincaCardNumber": "40"
       }
     },
     {
@@ -20701,7 +20482,8 @@
         "length": 12,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 712
       },
       "region": [
         "region/glacial-area"
@@ -20711,10 +20493,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0712",
-        "marincaCardNumber": "712"
       }
     },
     {
@@ -20744,7 +20522,8 @@
         "length": 15,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 709
       },
       "region": [
         "region/721eb9e71c69"
@@ -20754,10 +20533,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0709",
-        "marincaCardNumber": "709"
       }
     },
     {
@@ -20787,7 +20562,8 @@
         "length": 15,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 711
       },
       "region": [
         "region/glacial-area"
@@ -20797,10 +20573,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0711",
-        "marincaCardNumber": "711"
       }
     },
     {
@@ -20830,7 +20602,8 @@
         "length": 10,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 714
       },
       "region": [
         "region/hydrothermal-vents"
@@ -20840,10 +20613,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0714",
-        "marincaCardNumber": "714"
       }
     },
     {
@@ -20873,7 +20642,8 @@
         "length": 11,
         "health": 999,
         "damage": 0,
-        "harvestCount": 0
+        "harvestCount": 0,
+        "marincaCardNumber": 707
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -20883,10 +20653,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0707",
-        "marincaCardNumber": "707"
       }
     },
     {
@@ -20916,7 +20682,8 @@
         "health": 110,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 307
       },
       "region": [
         "region/glacial-area"
@@ -20926,9 +20693,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "307"
       }
     },
     {
@@ -20959,7 +20723,8 @@
         "health": 90,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 303
       },
       "region": [
         "region/22dcf4d19351"
@@ -20969,9 +20734,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "303"
       }
     },
     {
@@ -21001,7 +20763,8 @@
         "health": 185,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 304
       },
       "region": [
         "region/22dcf4d19351"
@@ -21011,9 +20774,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "304"
       }
     },
     {
@@ -21042,7 +20802,8 @@
         "health": 16,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 101
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -21052,9 +20813,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "101"
       }
     },
     {
@@ -21084,7 +20842,8 @@
         "health": 110,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 302
       },
       "region": [
         "region/22dcf4d19351"
@@ -21094,9 +20853,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "302"
       }
     },
     {
@@ -21126,7 +20882,8 @@
         "health": 80,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 308
       },
       "region": [
         "region/glacial-area"
@@ -21136,9 +20893,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "308"
       }
     },
     {
@@ -21175,7 +20929,8 @@
         "health": 350,
         "damage": 100,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 310
       },
       "region": [
         "region/glacial-area"
@@ -21185,9 +20940,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "310"
       }
     },
     {
@@ -21217,7 +20969,8 @@
         "health": 37,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 110
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -21227,9 +20980,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "110"
       }
     },
     {
@@ -21259,7 +21009,8 @@
         "health": 180,
         "damage": 40,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 306
       },
       "region": [
         "region/22dcf4d19351"
@@ -21269,9 +21020,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "306"
       }
     },
     {
@@ -21300,7 +21048,8 @@
         "health": 90,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 311
       },
       "region": [
         "region/glacial-area"
@@ -21310,9 +21059,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "311"
       }
     },
     {
@@ -21345,7 +21091,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 36
       },
       "region": [
         "region/8c354854b261"
@@ -21355,10 +21102,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0036",
-        "marincaCardNumber": "36"
       }
     },
     {
@@ -21391,7 +21134,8 @@
         "health": 16,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 614
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -21401,9 +21145,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0614"
       }
     },
     {
@@ -21432,7 +21173,8 @@
         "health": 100,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 214
       },
       "region": [
         "region/721eb9e71c69"
@@ -21442,9 +21184,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "214"
       }
     },
     {
@@ -21473,7 +21212,8 @@
         "health": 3,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 6
       },
       "region": [
         "region/8c354854b261"
@@ -21483,9 +21223,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "6"
       }
     },
     {
@@ -21526,7 +21263,8 @@
         "health": 3,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1
       },
       "region": [
         "region/8c354854b261"
@@ -21536,10 +21274,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0001",
-        "marincaCardNumber": "1"
       }
     },
     {
@@ -21578,7 +21312,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 113
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -21588,10 +21323,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0113",
-        "marincaCardNumber": "113"
       }
     },
     {
@@ -21627,7 +21358,8 @@
         "health": 50,
         "damage": 20,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 513
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -21637,10 +21369,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0513",
-        "marincaCardNumber": "513"
       }
     },
     {
@@ -21677,7 +21405,8 @@
         "health": 160,
         "damage": 40,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 506
       },
       "region": [
         "region/8c354854b261"
@@ -21687,10 +21416,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0506",
-        "marincaCardNumber": "506"
       }
     },
     {
@@ -21722,7 +21447,8 @@
         "health": 3,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 9
       },
       "region": [
         "region/8c354854b261"
@@ -21732,10 +21458,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0009",
-        "marincaCardNumber": "9"
       }
     },
     {
@@ -21785,7 +21507,8 @@
         "health": 180,
         "damage": 10,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 27
       },
       "region": [
         "region/8c354854b261"
@@ -21795,10 +21518,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0027",
-        "marincaCardNumber": "27"
       }
     },
     {
@@ -21824,7 +21543,8 @@
         "health": 150,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 913
       },
       "region": [
         "region/hydrothermal-vents"
@@ -21835,10 +21555,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0991",
-        "marincaCardNumber": "913"
       }
     },
     {
@@ -21869,7 +21585,8 @@
         "health": 11,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 31
       },
       "region": [
         "region/8c354854b261"
@@ -21879,10 +21596,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0031",
-        "marincaCardNumber": "31"
       }
     },
     {
@@ -21913,7 +21626,8 @@
         "health": 4,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 29
       },
       "region": [
         "region/8c354854b261"
@@ -21923,10 +21637,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0029",
-        "marincaCardNumber": "29"
       }
     },
     {
@@ -21958,7 +21668,8 @@
         "health": 8,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 15
       },
       "region": [
         "region/8c354854b261"
@@ -21968,10 +21679,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0015",
-        "marincaCardNumber": "15"
       }
     },
     {
@@ -22002,7 +21709,8 @@
         "health": 120,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 320
       },
       "region": [
         "region/glacial-area-dungeon-3"
@@ -22012,10 +21720,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0320",
-        "marincaCardNumber": "320"
       }
     },
     {
@@ -22047,7 +21751,8 @@
         "health": 3,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 5
       },
       "region": [
         "region/8c354854b261"
@@ -22057,10 +21762,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0005",
-        "marincaCardNumber": "5"
       }
     },
     {
@@ -22101,7 +21802,8 @@
         "health": 250,
         "damage": 60,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 126
       },
       "region": [
         "region/42a2a7652438"
@@ -22111,10 +21813,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0126",
-        "marincaCardNumber": "126"
       }
     },
     {
@@ -22146,7 +21844,8 @@
         "health": 4,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 12
       },
       "region": [
         "region/8c354854b261"
@@ -22156,10 +21855,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0012",
-        "marincaCardNumber": "12"
       }
     },
     {
@@ -22208,7 +21903,8 @@
         "health": 140,
         "damage": 10,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 28
       },
       "region": [
         "region/8c354854b261"
@@ -22218,10 +21914,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0028",
-        "marincaCardNumber": "28"
       }
     },
     {
@@ -22269,17 +21961,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": 8,
-        "length": 210
+        "length": 210,
+        "marincaCardNumber": 22
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
-      },
-      "fields": {
-        "encyclopediaNumber": "0022",
-        "marincaCardNumber": "0022"
       }
     },
     {
@@ -22311,17 +22000,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": 5,
-        "length": 80
+        "length": 80,
+        "marincaCardNumber": 20
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0020",
-        "marincaCardNumber": "0020"
       }
     },
     {
@@ -22353,17 +22039,14 @@
         "meat2": 5,
         "meat3": 7,
         "sellPrice": 17,
-        "length": 100
+        "length": 100,
+        "marincaCardNumber": 505
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/b77ea2b347b8"
-      },
-      "fields": {
-        "encyclopediaNumber": "0505",
-        "marincaCardNumber": "0505"
       }
     },
     {
@@ -22394,7 +22077,8 @@
         "health": 100,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 213
       },
       "region": [
         "region/721eb9e71c69"
@@ -22404,9 +22088,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "213"
       }
     },
     {
@@ -22438,17 +22119,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": 3,
-        "length": 38
+        "length": 38,
+        "marincaCardNumber": 25
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
-      },
-      "fields": {
-        "encyclopediaNumber": "0025",
-        "marincaCardNumber": "0025"
       }
     },
     {
@@ -22475,17 +22153,14 @@
         "meat2": 3,
         "meat3": 5,
         "sellPrice": 20,
-        "length": 140
+        "length": 140,
+        "marincaCardNumber": 510
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/b77ea2b347b8"
-      },
-      "fields": {
-        "encyclopediaNumber": "0510",
-        "marincaCardNumber": "0510"
       }
     },
     {
@@ -22520,7 +22195,8 @@
         "health": 340,
         "damage": 60,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 1109
       },
       "region": [
         "region/a7a86e92fda1"
@@ -22530,10 +22206,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1109",
-        "marincaCardNumber": "1109"
       }
     },
     {
@@ -22560,17 +22232,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": 5,
-        "length": 30
+        "length": 30,
+        "marincaCardNumber": 21
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0021",
-        "marincaCardNumber": "0021"
       }
     },
     {
@@ -22606,7 +22275,8 @@
         "health": 340,
         "damage": 60,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 1132
       },
       "region": [
         "region/565a3a911b9e"
@@ -22616,10 +22286,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1132",
-        "marincaCardNumber": "1132"
       }
     },
     {
@@ -22654,17 +22320,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": 31,
-        "length": 350
+        "length": 350,
+        "marincaCardNumber": 208
       },
       "region": [
         "region/721eb9e71c69"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0208",
-        "marincaCardNumber": "0208"
       }
     },
     {
@@ -22699,17 +22362,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": 55,
-        "length": 400
+        "length": 400,
+        "marincaCardNumber": 312
       },
       "region": [
         "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0312",
-        "marincaCardNumber": "0312"
       }
     },
     {
@@ -22743,17 +22403,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": 17,
-        "length": 650
+        "length": 650,
+        "marincaCardNumber": 118
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
-      },
-      "fields": {
-        "encyclopediaNumber": "0118",
-        "marincaCardNumber": "0118"
       }
     },
     {
@@ -22780,17 +22437,14 @@
         "meat2": 3,
         "meat3": 5,
         "sellPrice": 5,
-        "length": 70
+        "length": 70,
+        "marincaCardNumber": 26
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
-      },
-      "fields": {
-        "encyclopediaNumber": "0026",
-        "marincaCardNumber": "0026"
       }
     },
     {
@@ -22825,7 +22479,8 @@
         "health": 300,
         "damage": 75,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1120
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -22835,10 +22490,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1120",
-        "marincaCardNumber": "1120"
       }
     },
     {
@@ -22868,7 +22519,8 @@
         "health": 90,
         "damage": 15,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1124
       },
       "region": [
         "region/565a3a911b9e"
@@ -22878,10 +22530,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1124",
-        "marincaCardNumber": "1124"
       }
     },
     {
@@ -22912,7 +22560,8 @@
         "health": 135,
         "damage": 40,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1107
       },
       "region": [
         "region/a7a86e92fda1"
@@ -22922,10 +22571,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1107",
-        "marincaCardNumber": "1107"
       }
     },
     {
@@ -22955,7 +22600,8 @@
         "health": 230,
         "damage": 20,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1116
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -22965,10 +22611,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1116",
-        "marincaCardNumber": "1116"
       }
     },
     {
@@ -22999,7 +22641,8 @@
         "health": 170,
         "damage": 45,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1129
       },
       "region": [
         "region/565a3a911b9e"
@@ -23009,10 +22652,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1129",
-        "marincaCardNumber": "1129"
       }
     },
     {
@@ -23042,7 +22681,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1111
       },
       "region": [
         "region/a7a86e92fda1"
@@ -23052,10 +22692,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1111",
-        "marincaCardNumber": "1111"
       }
     },
     {
@@ -23085,7 +22721,8 @@
         "health": 160,
         "damage": 40,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1131
       },
       "region": [
         "region/565a3a911b9e"
@@ -23095,10 +22732,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1131",
-        "marincaCardNumber": "1131"
       }
     },
     {
@@ -23128,7 +22761,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1123
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -23138,10 +22772,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1123",
-        "marincaCardNumber": "1123"
       }
     },
     {
@@ -23171,7 +22801,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1134
       },
       "region": [
         "region/565a3a911b9e"
@@ -23181,10 +22812,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1134",
-        "marincaCardNumber": "1134"
       }
     },
     {
@@ -23214,7 +22841,8 @@
         "health": 115,
         "damage": 10,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1118
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -23224,10 +22852,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1118",
-        "marincaCardNumber": "1118"
       }
     },
     {
@@ -23257,7 +22881,8 @@
         "health": 85,
         "damage": 20,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1101
       },
       "region": [
         "region/a7a86e92fda1"
@@ -23267,10 +22892,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1101",
-        "marincaCardNumber": "1101"
       }
     },
     {
@@ -23300,7 +22921,8 @@
         "health": 110,
         "damage": 10,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1117
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -23310,10 +22932,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1117",
-        "marincaCardNumber": "1117"
       }
     },
     {
@@ -23343,7 +22961,8 @@
         "health": 90,
         "damage": 20,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1114
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -23353,10 +22972,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1114",
-        "marincaCardNumber": "1114"
       }
     },
     {
@@ -23383,16 +22998,14 @@
         "meat2": 3,
         "meat3": 5,
         "sellPrice": 6,
-        "length": 170
+        "length": 170,
+        "marincaCardNumber": 119
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
-      },
-      "fields": {
-        "marincaCardNumber": "0119"
       }
     },
     {
@@ -23422,7 +23035,8 @@
         "health": 80,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1103
       },
       "region": [
         "region/a7a86e92fda1"
@@ -23432,10 +23046,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1103",
-        "marincaCardNumber": "1103"
       }
     },
     {
@@ -23465,7 +23075,8 @@
         "health": 170,
         "damage": 55,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1108
       },
       "region": [
         "region/a7a86e92fda1"
@@ -23475,10 +23086,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1108",
-        "marincaCardNumber": "1108"
       }
     },
     {
@@ -23508,7 +23115,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1133
       },
       "region": [
         "region/565a3a911b9e"
@@ -23518,10 +23126,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1133",
-        "marincaCardNumber": "1133"
       }
     },
     {
@@ -23553,17 +23157,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": 12,
-        "length": 210
+        "length": 210,
+        "marincaCardNumber": 121
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
-      },
-      "fields": {
-        "encyclopediaNumber": "0121",
-        "marincaCardNumber": "0121"
       }
     },
     {
@@ -23593,7 +23194,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1112
       },
       "region": [
         "region/a7a86e92fda1"
@@ -23603,10 +23205,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1112",
-        "marincaCardNumber": "1112"
       }
     },
     {
@@ -23637,7 +23235,8 @@
         "health": 95,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1104
       },
       "region": [
         "region/a7a86e92fda1"
@@ -23647,10 +23246,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1104",
-        "marincaCardNumber": "1104"
       }
     },
     {
@@ -23681,7 +23276,8 @@
         "health": 90,
         "damage": 15,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1125
       },
       "region": [
         "region/565a3a911b9e"
@@ -23691,10 +23287,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1125",
-        "marincaCardNumber": "1125"
       }
     },
     {
@@ -23724,7 +23316,8 @@
         "health": 125,
         "damage": 25,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1128
       },
       "region": [
         "region/565a3a911b9e"
@@ -23734,10 +23327,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1128",
-        "marincaCardNumber": "1128"
       }
     },
     {
@@ -23767,7 +23356,8 @@
         "health": 105,
         "damage": 25,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1126
       },
       "region": [
         "region/565a3a911b9e"
@@ -23777,10 +23367,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1126",
-        "marincaCardNumber": "1126"
       }
     },
     {
@@ -23810,7 +23396,8 @@
         "health": 260,
         "damage": 45,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 1110
       },
       "region": [
         "region/a7a86e92fda1"
@@ -23820,10 +23407,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1110",
-        "marincaCardNumber": "1110"
       }
     },
     {
@@ -23853,7 +23436,8 @@
         "health": 135,
         "damage": 10,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1130
       },
       "region": [
         "region/565a3a911b9e"
@@ -23863,10 +23447,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1130",
-        "marincaCardNumber": "1130"
       }
     },
     {
@@ -23896,7 +23476,8 @@
         "health": 85,
         "damage": 20,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1113
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -23906,10 +23487,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1113",
-        "marincaCardNumber": "1113"
       }
     },
     {
@@ -23939,7 +23516,8 @@
         "health": 130,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1127
       },
       "region": [
         "region/565a3a911b9e"
@@ -23949,10 +23527,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1127",
-        "marincaCardNumber": "1127"
       }
     },
     {
@@ -23982,7 +23556,8 @@
         "health": 200,
         "damage": 10,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1115
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -23992,10 +23567,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1115",
-        "marincaCardNumber": "1115"
       }
     },
     {
@@ -24025,7 +23596,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1122
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -24035,10 +23607,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1122",
-        "marincaCardNumber": "1122"
       }
     },
     {
@@ -24070,7 +23638,8 @@
         "health": 170,
         "damage": 40,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1119
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -24080,10 +23649,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1119",
-        "marincaCardNumber": "1119"
       }
     },
     {
@@ -24113,7 +23678,8 @@
         "health": 105,
         "damage": 25,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 1102
       },
       "region": [
         "region/a7a86e92fda1"
@@ -24123,10 +23689,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1102",
-        "marincaCardNumber": "1102"
       }
     },
     {
@@ -24156,7 +23718,8 @@
         "health": 120,
         "damage": 35,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1105
       },
       "region": [
         "region/a7a86e92fda1"
@@ -24166,10 +23729,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1105",
-        "marincaCardNumber": "1105"
       }
     },
     {
@@ -24199,7 +23758,8 @@
         "health": 150,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 1106
       },
       "region": [
         "region/a7a86e92fda1"
@@ -24209,10 +23769,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1106",
-        "marincaCardNumber": "1106"
       }
     },
     {
@@ -24242,7 +23798,8 @@
         "health": 250,
         "damage": 70,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 1121
       },
       "region": [
         "region/d3b15f5fc5e0"
@@ -24252,10 +23809,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "1121",
-        "marincaCardNumber": "1121"
       }
     },
     {
@@ -24286,7 +23839,8 @@
         "health": 235,
         "damage": 0,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3206
       },
       "region": [
         "region/07c551962a8c"
@@ -24296,9 +23850,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3206"
       }
     },
     {
@@ -24327,7 +23878,8 @@
         "health": 52,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3008
       },
       "region": [
         "region/a1667dce2eba"
@@ -24337,9 +23889,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3008"
       }
     },
     {
@@ -24369,7 +23918,8 @@
         "health": 55,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3106
       },
       "region": [
         "region/3d6617b736c4"
@@ -24379,9 +23929,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3106"
       }
     },
     {
@@ -24410,7 +23957,8 @@
         "health": 96,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3113
       },
       "region": [
         "region/3d6617b736c4"
@@ -24420,9 +23968,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3113"
       }
     },
     {
@@ -24453,7 +23998,8 @@
         "health": 990,
         "damage": 63,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 3009
       },
       "region": [
         "region/a1667dce2eba"
@@ -24463,9 +24009,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3009"
       }
     },
     {
@@ -24495,7 +24038,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3016
       },
       "region": [
         "region/a1667dce2eba"
@@ -24505,9 +24049,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3016"
       }
     },
     {
@@ -24537,7 +24078,8 @@
         "health": 27,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3012
       },
       "region": [
         "region/a1667dce2eba"
@@ -24547,9 +24089,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3012"
       }
     },
     {
@@ -24578,7 +24117,8 @@
         "health": 27,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3007
       },
       "region": [
         "region/a1667dce2eba"
@@ -24588,9 +24128,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3007"
       }
     },
     {
@@ -24620,7 +24157,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3014
       },
       "region": [
         "region/a1667dce2eba"
@@ -24630,9 +24168,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3014"
       }
     },
     {
@@ -24662,7 +24197,8 @@
         "health": 115,
         "damage": 40,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3215
       },
       "region": [
         "region/07c551962a8c"
@@ -24672,9 +24208,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3215"
       }
     },
     {
@@ -24704,7 +24237,8 @@
         "health": 17,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3010
       },
       "region": [
         "region/a1667dce2eba"
@@ -24714,9 +24248,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3010"
       }
     },
     {
@@ -24746,7 +24277,8 @@
         "health": 223,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3118
       },
       "region": [
         "region/32aeb2b0139d"
@@ -24756,9 +24288,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3118"
       }
     },
     {
@@ -24787,7 +24316,8 @@
         "health": 56,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3003
       },
       "region": [
         "region/a1667dce2eba"
@@ -24797,9 +24327,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3003"
       }
     },
     {
@@ -24829,7 +24356,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3307
       },
       "region": [
         "region/07c551962a8c"
@@ -24839,9 +24367,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3307"
       }
     },
     {
@@ -24870,7 +24395,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3301
       },
       "region": [
         "region/a1667dce2eba"
@@ -24880,9 +24406,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3301"
       }
     },
     {
@@ -24912,7 +24435,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3304
       },
       "region": [
         "region/3d6617b736c4"
@@ -24922,9 +24446,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3304"
       }
     },
     {
@@ -24954,7 +24475,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3303
       },
       "region": [
         "region/a1667dce2eba"
@@ -24964,9 +24486,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3303"
       }
     },
     {
@@ -24995,7 +24514,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3306
       },
       "region": [
         "region/3d6617b736c4"
@@ -25005,9 +24525,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3306"
       }
     },
     {
@@ -25037,7 +24554,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3305
       },
       "region": [
         "region/3d6617b736c4"
@@ -25047,9 +24565,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3305"
       }
     },
     {
@@ -25078,7 +24593,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3302
       },
       "region": [
         "region/a1667dce2eba"
@@ -25088,9 +24604,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3302"
       }
     },
     {
@@ -25120,7 +24633,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3308
       },
       "region": [
         "region/07c551962a8c"
@@ -25130,9 +24644,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3308"
       }
     },
     {
@@ -25162,7 +24673,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3309
       },
       "region": [
         "region/07c551962a8c"
@@ -25172,9 +24684,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3309"
       }
     },
     {
@@ -25204,7 +24713,8 @@
         "health": 760,
         "damage": 53,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3201
       },
       "region": [
         "region/07c551962a8c"
@@ -25214,9 +24724,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3201"
       }
     },
     {
@@ -25245,7 +24752,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3406
       },
       "region": [
         "region/359ebf977a3a"
@@ -25255,9 +24763,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3406"
       }
     },
     {
@@ -25286,7 +24791,8 @@
         "health": 80,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3211
       },
       "region": [
         "region/07c551962a8c"
@@ -25296,9 +24802,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3211"
       }
     },
     {
@@ -25327,7 +24830,8 @@
         "health": 56,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3212
       },
       "region": [
         "region/07c551962a8c"
@@ -25337,9 +24841,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3212"
       }
     },
     {
@@ -25369,7 +24870,8 @@
         "health": 165,
         "damage": 46,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3117
       },
       "region": [
         "region/b1ea289d6e31"
@@ -25379,9 +24881,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3117"
       }
     },
     {
@@ -25410,7 +24909,8 @@
         "health": 70,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3213
       },
       "region": [
         "region/07c551962a8c"
@@ -25420,9 +24920,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3213"
       }
     },
     {
@@ -25452,7 +24949,8 @@
         "health": 850,
         "damage": 55,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 3101
       },
       "region": [
         "region/3d6617b736c4"
@@ -25462,9 +24960,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3101"
       }
     },
     {
@@ -25493,7 +24988,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3405
       },
       "region": [
         "region/359ebf977a3a"
@@ -25503,9 +24999,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3405"
       }
     },
     {
@@ -25536,7 +25029,8 @@
         "health": 104,
         "damage": 33,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3105
       },
       "region": [
         "region/3d6617b736c4"
@@ -25546,9 +25040,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3105"
       }
     },
     {
@@ -25578,7 +25069,8 @@
         "health": 361,
         "damage": 42,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3021
       },
       "region": [
         "region/a1667dce2eba"
@@ -25588,9 +25080,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3021"
       }
     },
     {
@@ -25620,7 +25109,8 @@
         "health": 87,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3112
       },
       "region": [
         "region/3d6617b736c4"
@@ -25630,9 +25120,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3112"
       }
     },
     {
@@ -25662,7 +25149,8 @@
         "health": 930,
         "damage": 50,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 3115
       },
       "region": [
         "region/3d6617b736c4"
@@ -25672,9 +25160,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3115"
       }
     },
     {
@@ -25703,7 +25188,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3015
       },
       "region": [
         "region/a1667dce2eba"
@@ -25713,9 +25199,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3015"
       }
     },
     {
@@ -25744,7 +25227,8 @@
         "health": 88,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3216
       },
       "region": [
         "region/07c551962a8c"
@@ -25754,9 +25238,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3216"
       }
     },
     {
@@ -25785,7 +25266,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3017
       },
       "region": [
         "region/a1667dce2eba"
@@ -25795,9 +25277,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3017"
       }
     },
     {
@@ -25826,7 +25305,8 @@
         "health": 85,
         "damage": 40,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3209
       },
       "region": [
         "region/07c551962a8c"
@@ -25836,9 +25316,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3209"
       }
     },
     {
@@ -25867,7 +25344,8 @@
         "health": 32,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3104
       },
       "region": [
         "region/3d6617b736c4"
@@ -25877,9 +25355,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3104"
       }
     },
     {
@@ -25910,7 +25385,8 @@
         "health": 80,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3111
       },
       "region": [
         "region/3d6617b736c4"
@@ -25920,9 +25396,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3111"
       }
     },
     {
@@ -25952,7 +25425,8 @@
         "health": 156,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3116
       },
       "region": [
         "region/3d6617b736c4"
@@ -25962,9 +25436,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3116"
       }
     },
     {
@@ -25994,7 +25465,8 @@
         "health": 37,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3001
       },
       "region": [
         "region/a1667dce2eba"
@@ -26004,9 +25476,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3001"
       }
     },
     {
@@ -26036,7 +25505,8 @@
         "health": 80,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3108
       },
       "region": [
         "region/3d6617b736c4"
@@ -26046,9 +25516,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3108"
       }
     },
     {
@@ -26078,7 +25545,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3006
       },
       "region": [
         "region/a1667dce2eba"
@@ -26088,9 +25556,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3006"
       }
     },
     {
@@ -26119,7 +25584,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3403
       },
       "region": [
         "region/79551b7d17a7"
@@ -26129,9 +25595,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3403"
       }
     },
     {
@@ -26160,7 +25623,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3410
       },
       "region": [
         "region/359ebf977a3a"
@@ -26170,9 +25634,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3410"
       }
     },
     {
@@ -26201,7 +25662,8 @@
         "health": 56,
         "damage": 38,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3018
       },
       "region": [
         "region/c35e35fc142f"
@@ -26211,9 +25673,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3018"
       }
     },
     {
@@ -26242,7 +25701,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3401
       },
       "region": [
         "region/79551b7d17a7"
@@ -26252,9 +25712,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3401"
       }
     },
     {
@@ -26284,7 +25741,8 @@
         "health": 44,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3109
       },
       "region": [
         "region/3d6617b736c4"
@@ -26294,9 +25752,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3109"
       }
     },
     {
@@ -26323,16 +25778,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": 46,
-        "length": 300
+        "length": 300,
+        "marincaCardNumber": 315
       },
       "region": [
         "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "marincaCardNumber": "0315"
       }
     },
     {
@@ -26362,7 +25815,8 @@
         "health": 258,
         "damage": 0,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3103
       },
       "region": [
         "region/3d6617b736c4"
@@ -26372,9 +25826,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3103"
       }
     },
     {
@@ -26404,7 +25855,8 @@
         "health": 1050,
         "damage": 54,
         "harvestCount": 2,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 3202
       },
       "region": [
         "region/07c551962a8c"
@@ -26414,9 +25866,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3202"
       }
     },
     {
@@ -26446,7 +25895,8 @@
         "health": 190,
         "damage": 43,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3214
       },
       "region": [
         "region/07c551962a8c"
@@ -26456,9 +25906,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3214"
       }
     },
     {
@@ -26487,7 +25934,8 @@
         "health": 110,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3204
       },
       "region": [
         "region/07c551962a8c"
@@ -26497,9 +25945,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3204"
       }
     },
     {
@@ -26529,7 +25974,8 @@
         "health": 455,
         "damage": 52,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3203
       },
       "region": [
         "region/07c551962a8c"
@@ -26539,9 +25985,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3203"
       }
     },
     {
@@ -26570,7 +26013,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3408
       },
       "region": [
         "region/359ebf977a3a"
@@ -26580,9 +26024,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3408"
       }
     },
     {
@@ -26612,7 +26053,8 @@
         "health": 27,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3013
       },
       "region": [
         "region/a1667dce2eba"
@@ -26622,9 +26064,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3013"
       }
     },
     {
@@ -26655,7 +26094,8 @@
         "health": 623,
         "damage": 42,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3110
       },
       "region": [
         "region/3d6617b736c4"
@@ -26665,9 +26105,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3110"
       }
     },
     {
@@ -26697,7 +26134,8 @@
         "health": 660,
         "damage": 47,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3019
       },
       "region": [
         "region/e5e3f5c9a576"
@@ -26707,9 +26145,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3019"
       }
     },
     {
@@ -26739,7 +26174,8 @@
         "health": 610,
         "damage": 56,
         "harvestCount": 2,
-        "captureRank": 10
+        "captureRank": 10,
+        "marincaCardNumber": 3114
       },
       "region": [
         "region/3d6617b736c4"
@@ -26749,9 +26185,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3114"
       }
     },
     {
@@ -26781,7 +26214,8 @@
         "health": 1,
         "damage": 0,
         "harvestCount": 1,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 3218
       },
       "region": [
         "region/07c551962a8c"
@@ -26791,9 +26225,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3218"
       }
     },
     {
@@ -26822,7 +26253,8 @@
         "health": 55,
         "damage": 43,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3208
       },
       "region": [
         "region/07c551962a8c"
@@ -26832,9 +26264,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3208"
       }
     },
     {
@@ -26864,7 +26293,8 @@
         "health": 46,
         "damage": 30,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3011
       },
       "region": [
         "region/a1667dce2eba"
@@ -26874,9 +26304,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3011"
       }
     },
     {
@@ -26906,7 +26333,8 @@
         "health": 24,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3005
       },
       "region": [
         "region/a1667dce2eba"
@@ -26916,9 +26344,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3005"
       }
     },
     {
@@ -26947,7 +26372,8 @@
         "health": 1,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 99
+        "captureRank": 99,
+        "marincaCardNumber": 3210
       },
       "region": [
         "region/07c551962a8c"
@@ -26957,9 +26383,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3210"
       }
     },
     {
@@ -26988,7 +26411,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3411
       },
       "region": [
         "region/359ebf977a3a"
@@ -26998,9 +26422,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3411"
       }
     },
     {
@@ -27030,7 +26451,8 @@
         "health": 95,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3217
       },
       "region": [
         "region/07c551962a8c"
@@ -27040,9 +26462,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3217"
       }
     },
     {
@@ -27071,7 +26490,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3404
       },
       "region": [
         "region/79551b7d17a7"
@@ -27081,9 +26501,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3404"
       }
     },
     {
@@ -27113,7 +26530,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3407
       },
       "region": [
         "region/359ebf977a3a"
@@ -27123,9 +26541,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3407"
       }
     },
     {
@@ -27155,7 +26570,8 @@
         "health": 110,
         "damage": 50,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3205
       },
       "region": [
         "region/07c551962a8c"
@@ -27165,9 +26581,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3205"
       }
     },
     {
@@ -27197,7 +26610,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3409
       },
       "region": [
         "region/359ebf977a3a"
@@ -27207,9 +26621,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3409"
       }
     },
     {
@@ -27238,7 +26649,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3412
       },
       "region": [
         "region/359ebf977a3a"
@@ -27248,9 +26660,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3412"
       }
     },
     {
@@ -27279,7 +26688,8 @@
         "health": 999,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3402
       },
       "region": [
         "region/79551b7d17a7"
@@ -27289,9 +26699,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3402"
       }
     },
     {
@@ -27321,7 +26728,8 @@
         "health": 47,
         "damage": 0,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3004
       },
       "region": [
         "region/a1667dce2eba"
@@ -27331,9 +26739,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3004"
       }
     },
     {
@@ -27363,7 +26768,8 @@
         "health": 43,
         "damage": 25,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3002
       },
       "region": [
         "region/a1667dce2eba"
@@ -27373,9 +26779,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3002"
       }
     },
     {
@@ -27401,17 +26804,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 30
+        "length": 30,
+        "marincaCardNumber": 715
       },
       "region": [
         "region/c7dc7765b88f"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0715",
-        "marincaCardNumber": "0715"
       }
     },
     {
@@ -27444,17 +26844,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": 47,
-        "length": 280
+        "length": 280,
+        "marincaCardNumber": 125
       },
       "region": [
         "region/42a2a7652438"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0125",
-        "marincaCardNumber": "0125"
       }
     },
     {
@@ -27483,7 +26880,8 @@
         "sellPrice": 17,
         "health": 111,
         "damage": 45,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 3207
       },
       "region": [
         "region/07c551962a8c"
@@ -27493,9 +26891,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3207"
       }
     },
     {
@@ -27527,17 +26922,14 @@
         "meat2": 3,
         "meat3": 5,
         "sellPrice": null,
-        "length": 70
+        "length": 70,
+        "marincaCardNumber": 204
       },
       "region": [
         "region/721eb9e71c69"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0204",
-        "marincaCardNumber": "0204"
       }
     },
     {
@@ -27569,17 +26961,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": null,
-        "length": 230
+        "length": 230,
+        "marincaCardNumber": 38
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0038",
-        "marincaCardNumber": "0038"
       }
     },
     {
@@ -27614,17 +27003,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 24
+        "length": 24,
+        "marincaCardNumber": 617
       },
       "region": [
         "region/hydrothermal-vents"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0617",
-        "marincaCardNumber": "0617"
       }
     },
     {
@@ -27656,17 +27042,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": null,
-        "length": 150
+        "length": 150,
+        "marincaCardNumber": 30
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0030",
-        "marincaCardNumber": "0030"
       }
     },
     {
@@ -27700,17 +27083,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": 15,
-        "length": 80
+        "length": 80,
+        "marincaCardNumber": 23
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
-      },
-      "fields": {
-        "encyclopediaNumber": "0023",
-        "marincaCardNumber": "0023"
       }
     },
     {
@@ -27737,17 +27117,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": 44,
-        "length": 120
+        "length": 120,
+        "marincaCardNumber": 317
       },
       "region": [
         "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0317",
-        "marincaCardNumber": "0317"
       }
     },
     {
@@ -27779,17 +27156,14 @@
         "meat2": 5,
         "meat3": 9,
         "sellPrice": null,
-        "length": 100
+        "length": 100,
+        "marincaCardNumber": 32
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0032",
-        "marincaCardNumber": "0032"
       }
     },
     {
@@ -27826,7 +27200,8 @@
         "health": 36,
         "damage": 5,
         "harvestCount": 0,
-        "captureRank": 0
+        "captureRank": 0,
+        "marincaCardNumber": 117
       },
       "region": [
         "region/82a8f0e0b78d",
@@ -27837,10 +27212,6 @@
         "size": "text/5b3ed24e0472",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0117",
-        "marincaCardNumber": "0117"
       }
     },
     {
@@ -27869,17 +27240,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 35
+        "length": 35,
+        "marincaCardNumber": 602
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0602",
-        "marincaCardNumber": "0602"
       }
     },
     {
@@ -27905,17 +27273,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 6
+        "length": 6,
+        "marincaCardNumber": 3
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0003",
-        "marincaCardNumber": "0003"
       }
     },
     {
@@ -27942,17 +27307,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 15
+        "length": 15,
+        "marincaCardNumber": 102
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0102",
-        "marincaCardNumber": "0102"
       }
     },
     {
@@ -27981,17 +27343,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 10
+        "length": 10,
+        "marincaCardNumber": 603
       },
       "region": [
         "region/721eb9e71c69"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0603",
-        "marincaCardNumber": "0603"
       }
     },
     {
@@ -28020,17 +27379,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 5
+        "length": 5,
+        "marincaCardNumber": 604
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0604",
-        "marincaCardNumber": "0604"
       }
     },
     {
@@ -28059,17 +27415,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 10
+        "length": 10,
+        "marincaCardNumber": 605
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0605",
-        "marincaCardNumber": "0605"
       }
     },
     {
@@ -28098,17 +27451,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 10
+        "length": 10,
+        "marincaCardNumber": 606
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0606",
-        "marincaCardNumber": "0606"
       }
     },
     {
@@ -28137,17 +27487,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 14
+        "length": 14,
+        "marincaCardNumber": 607
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0607",
-        "marincaCardNumber": "0607"
       }
     },
     {
@@ -28173,17 +27520,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 30
+        "length": 30,
+        "marincaCardNumber": 11
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0011",
-        "marincaCardNumber": "0011"
       }
     },
     {
@@ -28209,17 +27553,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 35
+        "length": 35,
+        "marincaCardNumber": 616
       },
       "region": [
         "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0616",
-        "marincaCardNumber": "0616"
       }
     },
     {
@@ -28248,17 +27589,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 17
+        "length": 17,
+        "marincaCardNumber": 608
       },
       "region": [
         "region/721eb9e71c69"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0608",
-        "marincaCardNumber": "0608"
       }
     },
     {
@@ -28287,17 +27625,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 21
+        "length": 21,
+        "marincaCardNumber": 609
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0609",
-        "marincaCardNumber": "0609"
       }
     },
     {
@@ -28324,17 +27659,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 6
+        "length": 6,
+        "marincaCardNumber": 8
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0008",
-        "marincaCardNumber": "0008"
       }
     },
     {
@@ -28363,17 +27695,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 19
+        "length": 19,
+        "marincaCardNumber": 610
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0610",
-        "marincaCardNumber": "0610"
       }
     },
     {
@@ -28400,17 +27729,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 20
+        "length": 20,
+        "marincaCardNumber": 10
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0010",
-        "marincaCardNumber": "0010"
       }
     },
     {
@@ -28436,17 +27762,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 6
+        "length": 6,
+        "marincaCardNumber": 701
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/b77ea2b347b8"
-      },
-      "fields": {
-        "encyclopediaNumber": "0701",
-        "marincaCardNumber": "0701"
       }
     },
     {
@@ -28472,17 +27795,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 30
+        "length": 30,
+        "marincaCardNumber": 7
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0007",
-        "marincaCardNumber": "0007"
       }
     },
     {
@@ -28508,17 +27828,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 20
+        "length": 20,
+        "marincaCardNumber": 4
       },
       "region": [
         "region/8c354854b261"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0004",
-        "marincaCardNumber": "0004"
       }
     },
     {
@@ -28547,17 +27864,14 @@
         "meat2": 3,
         "meat3": 5,
         "sellPrice": null,
-        "length": 200
+        "length": 200,
+        "marincaCardNumber": 207
       },
       "region": [
         "region/721eb9e71c69"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0207",
-        "marincaCardNumber": "0207"
       }
     },
     {
@@ -28586,17 +27900,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 30
+        "length": 30,
+        "marincaCardNumber": 611
       },
       "region": [
         "region/721eb9e71c69"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0611",
-        "marincaCardNumber": "0611"
       }
     },
     {
@@ -28623,17 +27934,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 30
+        "length": 30,
+        "marincaCardNumber": 105
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0105",
-        "marincaCardNumber": "0105"
       }
     },
     {
@@ -28662,17 +27970,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 18
+        "length": 18,
+        "marincaCardNumber": 612
       },
       "region": [
         "region/82a8f0e0b78d"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0612",
-        "marincaCardNumber": "0612"
       }
     },
     {
@@ -28698,17 +28003,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 43
+        "length": 43,
+        "marincaCardNumber": 615
       },
       "region": [
         "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0615",
-        "marincaCardNumber": "0615"
       }
     },
     {
@@ -28737,17 +28039,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 16
+        "length": 16,
+        "marincaCardNumber": 601
       },
       "region": [
         "region/721eb9e71c69"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0601",
-        "marincaCardNumber": "0601"
       }
     },
     {
@@ -28776,17 +28075,14 @@
         "meat2": 4,
         "meat3": 5,
         "sellPrice": null,
-        "length": 15
+        "length": 15,
+        "marincaCardNumber": 613
       },
       "region": [
         "region/limestone-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "encyclopediaNumber": "0613",
-        "marincaCardNumber": "0613"
       }
     },
     {
@@ -28812,16 +28108,14 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": null,
-        "length": 60
+        "length": 60,
+        "marincaCardNumber": 216
       },
       "region": [
         "region/721eb9e71c69"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "fields": {
-        "marincaCardNumber": "0216"
       }
     },
     {
@@ -28843,7 +28137,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 20
+        "length": 20,
+        "marincaCardNumber": 990
       },
       "region": [
         "region/hydrothermal-vents"
@@ -28851,10 +28146,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0990",
-        "marincaCardNumber": "0990"
       }
     },
     {
@@ -28876,7 +28167,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 550
+        "length": 550,
+        "marincaCardNumber": 901
       },
       "region": [
         "region/8c354854b261"
@@ -28884,10 +28176,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0901",
-        "marincaCardNumber": "0901"
       }
     },
     {
@@ -28909,7 +28197,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 3000
+        "length": 3000,
+        "marincaCardNumber": 982
       },
       "region": [
         "region/glacial-area"
@@ -28917,10 +28206,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0982",
-        "marincaCardNumber": "0982"
       }
     },
     {
@@ -28942,7 +28227,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 350
+        "length": 350,
+        "marincaCardNumber": 907
       },
       "region": [
         "region/8c354854b261"
@@ -28950,10 +28236,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0907",
-        "marincaCardNumber": "0907"
       }
     },
     {
@@ -28975,7 +28257,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 400
+        "length": 400,
+        "marincaCardNumber": 514
       },
       "region": [
         "region/8c354854b261"
@@ -28983,10 +28266,6 @@
       "facets": {
         "time": "time/b77ea2b347b8",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0514",
-        "marincaCardNumber": "0514"
       }
     },
     {
@@ -29008,7 +28287,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 1100
+        "length": 1100,
+        "marincaCardNumber": 219
       },
       "region": [
         "region/721eb9e71c69"
@@ -29016,10 +28296,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0219",
-        "marincaCardNumber": "0219"
       }
     },
     {
@@ -29041,7 +28317,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 350
+        "length": 350,
+        "marincaCardNumber": 218
       },
       "region": [
         "region/721eb9e71c69"
@@ -29049,10 +28326,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0218",
-        "marincaCardNumber": "0218"
       }
     },
     {
@@ -29074,7 +28347,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 450
+        "length": 450,
+        "marincaCardNumber": 902
       },
       "region": [
         "region/8c354854b261"
@@ -29082,10 +28356,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0902",
-        "marincaCardNumber": "0902"
       }
     },
     {
@@ -29107,7 +28377,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 40
+        "length": 40,
+        "marincaCardNumber": 515
       },
       "region": [
         "region/8c354854b261"
@@ -29115,10 +28386,6 @@
       "facets": {
         "time": "time/b77ea2b347b8",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0515",
-        "marincaCardNumber": "0515"
       }
     },
     {
@@ -29140,7 +28407,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 220
+        "length": 220,
+        "marincaCardNumber": 980
       },
       "region": [
         "region/glacial-area"
@@ -29148,10 +28416,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0980",
-        "marincaCardNumber": "0980"
       }
     },
     {
@@ -29173,7 +28437,8 @@
         "meat2": null,
         "meat3": null,
         "sellPrice": null,
-        "length": 50
+        "length": 50,
+        "marincaCardNumber": 981
       },
       "region": [
         "region/glacial-area-dungeon-1"
@@ -29181,9 +28446,6 @@
       "facets": {
         "time": "time/6fa7e15a01ab",
         "photoMode": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "0981"
       }
     },
     {

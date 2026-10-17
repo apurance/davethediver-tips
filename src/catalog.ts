@@ -19,7 +19,6 @@ interface EntityBase {
   inferred: boolean;
   facts: { labelId: string; values: FactValue[] }[];
   stats: Record<string, number | null>;
-  fields?: Record<string, string>;
   /** Translation IDs for scalar text attributes; null means unprovided. */
   facets: Record<string, string | null>;
 }
