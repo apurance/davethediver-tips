@@ -310,8 +310,7 @@
       "inferred": false,
       "relatedFish": [
         "fish/rainbow-wrasse",
-        "fish/ornate-wrasse",
-        "fish/mediterranean-rainbow-wrasse"
+        "fish/ornate-wrasse"
       ],
       "ingredients": [
         {
@@ -2171,41 +2170,6 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/blackfin-barracuda"
-      },
-      "facts": []
-    },
-    {
-      "id": "recipe/blackspot-seabream-sushi",
-      "type": "recipe",
-      "nameId": "recipe/blackspot-seabream-sushi",
-      "en": "Blackspot Seabream Sushi",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/blackspot-seabream-sushi/",
-        "https://davethediver.net/zh-hans/recipe/blackspot-seabream/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/blackspot-seabream"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/blackspot-seabream",
-          "quantity": 1
-        }
-      ],
-      "stats": {
-        "basePrice": 5,
-        "maxPrice": 18,
-        "baseTaste": 11,
-        "maxTaste": 110,
-        "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 2,
-        "estimatedProfit": 3
-      },
-      "facets": {},
-      "acquisition-method": {
-        "entityId": "fish/blackspot-seabream"
       },
       "facts": []
     },
@@ -7138,8 +7102,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/red-banded-lobster",
-        "fish/red-bbanded-lobster"
+        "fish/red-banded-lobster"
       ],
       "ingredients": [
         {
@@ -8827,8 +8790,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/bluespotted-stargazer",
-        "fish/stargazer"
+        "fish/bluespotted-stargazer"
       ],
       "ingredients": [
         {
@@ -11096,8 +11058,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/three-headed-cod",
-        "fish/dredge-three-headed-cod"
+        "fish/three-headed-cod"
       ],
       "ingredients": [
         {
@@ -11420,70 +11381,6 @@
       "facts": []
     },
     {
-      "id": "recipe/anomalocaris",
-      "type": "recipe",
-      "nameId": "recipe/anomalocaris",
-      "en": "Anomalocaris",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/anomalocaris/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/baby-anomalocaris"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/baby-anomalocaris",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 224,
-        "maxPrice": null,
-        "baseTaste": 125,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 75,
-        "estimatedProfit": 149
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/antarctic-starry-skate",
-      "type": "recipe",
-      "nameId": "recipe/antarctic-starry-skate",
-      "en": "Antarctic Starry Skate",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/antarctic-starry-skate/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/antarctic-starry-skate"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/antarctic-starry-skate",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 130,
-        "maxPrice": null,
-        "baseTaste": 36,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 44,
-        "estimatedProfit": 86
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/archerfish",
       "type": "recipe",
       "nameId": "recipe/archerfish",
@@ -11580,38 +11477,6 @@
       "facts": []
     },
     {
-      "id": "recipe/asian-sheepshead",
-      "type": "recipe",
-      "nameId": "recipe/asian-sheepshead",
-      "en": "Asian Sheepshead",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/asian-sheepshead/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/asian-sheepshead"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-asian-sheepshead",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 15,
-        "maxPrice": null,
-        "baseTaste": 24,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 10,
-        "estimatedProfit": 5
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/black-caiman",
       "type": "recipe",
       "nameId": "recipe/black-caiman",
@@ -11639,38 +11504,6 @@
         "maxLevel": 10,
         "ingredientCost": 15,
         "estimatedProfit": 45
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/bloodbelly-comb-jelly",
-      "type": "recipe",
-      "nameId": "recipe/bloodbelly-comb-jelly",
-      "en": "Bloodbelly Comb Jelly",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/bloodbelly-comb-jelly/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/bloodbelly-comb-jelly"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/bloodbelly-comb-jelly",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 50,
-        "maxPrice": null,
-        "baseTaste": 25,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 17,
-        "estimatedProfit": 33
       },
       "facets": {},
       "facts": []
@@ -11765,50 +11598,6 @@
         "maxLevel": 10,
         "ingredientCost": 4,
         "estimatedProfit": 4
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
-      "type": "recipe",
-      "nameId": "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
-      "en": "Blue Spotted Stargazer Sweet And Sour Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/blue-spotted-stargazer-sweet-and-sour-fish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/stargazer"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/stargazer",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/flour",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/egg",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 390,
-        "maxPrice": null,
-        "baseTaste": 125,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 58,
-        "estimatedProfit": 332
       },
       "facets": {},
       "facts": []
@@ -12469,870 +12258,6 @@
       "facts": []
     },
     {
-      "id": "recipe/dredge-aurora-jellyfish",
-      "type": "recipe",
-      "nameId": "recipe/dredge-aurora-jellyfish",
-      "en": "Dredge Aurora Jellyfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-aurora-jellyfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-aurora-jellyfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-aurora-jellyfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 345,
-        "maxPrice": null,
-        "baseTaste": 6,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 10,
-        "estimatedProfit": 335
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-bloodskin-shark",
-      "type": "recipe",
-      "nameId": "recipe/dredge-bloodskin-shark",
-      "en": "Dredge Bloodskin Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-bloodskin-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-bloodskin-shark"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-bloodskin-shark",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 1225,
-        "maxPrice": null,
-        "baseTaste": 4,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 220,
-        "estimatedProfit": 1005
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-bony-wreckfish",
-      "type": "recipe",
-      "nameId": "recipe/dredge-bony-wreckfish",
-      "en": "Dredge Bony Wreckfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-bony-wreckfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-bony-wreckfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-bony-wreckfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 620,
-        "maxPrice": null,
-        "baseTaste": 1,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 140,
-        "estimatedProfit": 480
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-cerebral-crab",
-      "type": "recipe",
-      "nameId": "recipe/dredge-cerebral-crab",
-      "en": "Dredge Cerebral Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-cerebral-crab/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-cerebral-crab"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-cerebral-crab",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 515,
-        "maxPrice": null,
-        "baseTaste": 2,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 15,
-        "estimatedProfit": 500
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-concertina-barracuda",
-      "type": "recipe",
-      "nameId": "recipe/dredge-concertina-barracuda",
-      "en": "Dredge Concertina Barracuda",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-concertina-barracuda/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-concertina-barracuda"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-concertina-barracuda",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 470,
-        "maxPrice": null,
-        "baseTaste": 1,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 90,
-        "estimatedProfit": 380
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-cortex-decorator",
-      "type": "recipe",
-      "nameId": "recipe/dredge-cortex-decorator",
-      "en": "Dredge Cortex Decorator",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-cortex-decorator/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-cortex-decorator"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-cortex-decorator",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 740,
-        "maxPrice": null,
-        "baseTaste": 2,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 60,
-        "estimatedProfit": 680
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-entangled-crab",
-      "type": "recipe",
-      "nameId": "recipe/dredge-entangled-crab",
-      "en": "Dredge Entangled Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-entangled-crab/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-entangled-crab"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-entangled-crab",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 510,
-        "maxPrice": null,
-        "baseTaste": 2,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 30,
-        "estimatedProfit": 480
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-enthralled-stonefish",
-      "type": "recipe",
-      "nameId": "recipe/dredge-enthralled-stonefish",
-      "en": "Dredge Enthralled Stonefish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-enthralled-stonefish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-enthralled-stonefish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-enthralled-stonefish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 465,
-        "maxPrice": null,
-        "baseTaste": 1,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 55,
-        "estimatedProfit": 410
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-fanged-cod",
-      "type": "recipe",
-      "nameId": "recipe/dredge-fanged-cod",
-      "en": "Dredge Fanged Cod",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-fanged-cod/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-fanged-cod"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-fanged-cod",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 380,
-        "maxPrice": null,
-        "baseTaste": 6,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 60,
-        "estimatedProfit": 320
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-gelatinous-stonefish",
-      "type": "recipe",
-      "nameId": "recipe/dredge-gelatinous-stonefish",
-      "en": "Dredge Gelatinous Stonefish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-gelatinous-stonefish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-gelatinous-stonefish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-gelatinous-stonefish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 385,
-        "maxPrice": null,
-        "baseTaste": 6,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 45,
-        "estimatedProfit": 340
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-gnashing-perch",
-      "type": "recipe",
-      "nameId": "recipe/dredge-gnashing-perch",
-      "en": "Dredge Gnashing Perch",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-gnashing-perch/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-gnashing-perch"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-gnashing-perch",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 420,
-        "maxPrice": null,
-        "baseTaste": 1,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 17,
-        "estimatedProfit": 403
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-grotesque-mackerel",
-      "type": "recipe",
-      "nameId": "recipe/dredge-grotesque-mackerel",
-      "en": "Dredge Grotesque Mackerel",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-grotesque-mackerel/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-grotesque-mackerel"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-grotesque-mackerel",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 383,
-        "maxPrice": null,
-        "baseTaste": 4,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 30,
-        "estimatedProfit": 353
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-host-eel",
-      "type": "recipe",
-      "nameId": "recipe/dredge-host-eel",
-      "en": "Dredge Host Eel",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-host-eel/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-host-eel"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-host-eel",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 610,
-        "maxPrice": null,
-        "baseTaste": 1,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 60,
-        "estimatedProfit": 550
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-imperious-lobster",
-      "type": "recipe",
-      "nameId": "recipe/dredge-imperious-lobster",
-      "en": "Dredge Imperious Lobster",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-imperious-lobster/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-imperious-lobster"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-imperious-lobster",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 945,
-        "maxPrice": null,
-        "baseTaste": 3,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 60,
-        "estimatedProfit": 885
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-malignant-pincer",
-      "type": "recipe",
-      "nameId": "recipe/dredge-malignant-pincer",
-      "en": "Dredge Malignant Pincer",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-malignant-pincer/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-malignant-pincer"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-malignant-pincer",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 880,
-        "maxPrice": null,
-        "baseTaste": 3,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 70,
-        "estimatedProfit": 810
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-perished-loosejaw",
-      "type": "recipe",
-      "nameId": "recipe/dredge-perished-loosejaw",
-      "en": "Dredge Perished Loosejaw",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-perished-loosejaw/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-perished-loosejaw"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-perished-loosejaw",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 395,
-        "maxPrice": null,
-        "baseTaste": 1,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 65,
-        "estimatedProfit": 330
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-radiant-squid",
-      "type": "recipe",
-      "nameId": "recipe/dredge-radiant-squid",
-      "en": "Dredge Radiant Squid",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-radiant-squid/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-radiant-squid"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-radiant-squid",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 365,
-        "maxPrice": null,
-        "baseTaste": 8,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 50,
-        "estimatedProfit": 315
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-sallow-sailfish",
-      "type": "recipe",
-      "nameId": "recipe/dredge-sallow-sailfish",
-      "en": "Dredge Sallow Sailfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-sallow-sailfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-sallow-sailfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-sallow-sailfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 1000,
-        "maxPrice": null,
-        "baseTaste": 5,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 350,
-        "estimatedProfit": 650
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-savage-barracuda",
-      "type": "recipe",
-      "nameId": "recipe/dredge-savage-barracuda",
-      "en": "Dredge Savage Barracuda",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-savage-barracuda/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-savage-barracuda"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-savage-barracuda",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 440,
-        "maxPrice": null,
-        "baseTaste": 1,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 80,
-        "estimatedProfit": 360
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-scouring-bass",
-      "type": "recipe",
-      "nameId": "recipe/dredge-scouring-bass",
-      "en": "Dredge Scouring Bass",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-scouring-bass/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-scouring-bass"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-scouring-bass",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 375,
-        "maxPrice": null,
-        "baseTaste": 1,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 35,
-        "estimatedProfit": 340
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-seizing-snailfish",
-      "type": "recipe",
-      "nameId": "recipe/dredge-seizing-snailfish",
-      "en": "Dredge Seizing Snailfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-seizing-snailfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-seizing-snailfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-seizing-snailfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 455,
-        "maxPrice": null,
-        "baseTaste": 3,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 90,
-        "estimatedProfit": 365
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-shattered-wreckfish",
-      "type": "recipe",
-      "nameId": "recipe/dredge-shattered-wreckfish",
-      "en": "Dredge Shattered Wreckfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-shattered-wreckfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-shattered-wreckfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-shattered-wreckfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 560,
-        "maxPrice": null,
-        "baseTaste": 2,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 120,
-        "estimatedProfit": 440
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-splintered-crab",
-      "type": "recipe",
-      "nameId": "recipe/dredge-splintered-crab",
-      "en": "Dredge Splintered Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-splintered-crab/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-splintered-crab"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-splintered-crab",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 405,
-        "maxPrice": null,
-        "baseTaste": 3,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 27,
-        "estimatedProfit": 378
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-translucent-sturgeon",
-      "type": "recipe",
-      "nameId": "recipe/dredge-translucent-sturgeon",
-      "en": "Dredge Translucent Sturgeon",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-translucent-sturgeon/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-translucent-sturgeon"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-translucent-sturgeon",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 1235,
-        "maxPrice": null,
-        "baseTaste": 3,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 300,
-        "estimatedProfit": 935
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-tusked-grouper",
-      "type": "recipe",
-      "nameId": "recipe/dredge-tusked-grouper",
-      "en": "Dredge Tusked Grouper",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-tusked-grouper/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-tusked-grouper"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-tusked-grouper",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 425,
-        "maxPrice": null,
-        "baseTaste": 2,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 85,
-        "estimatedProfit": 340
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-voltaic-grouper",
-      "type": "recipe",
-      "nameId": "recipe/dredge-voltaic-grouper",
-      "en": "Dredge Voltaic Grouper",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-voltaic-grouper/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-voltaic-grouper"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-voltaic-grouper",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 515,
-        "maxPrice": null,
-        "baseTaste": 7,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 100,
-        "estimatedProfit": 415
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/dredge-withered-ray",
-      "type": "recipe",
-      "nameId": "recipe/dredge-withered-ray",
-      "en": "Dredge Withered Ray",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/dredge-withered-ray/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dredge-withered-ray"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/dredge-withered-ray",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 995,
-        "maxPrice": null,
-        "baseTaste": 5,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1,
-        "ingredientCost": 120,
-        "estimatedProfit": 875
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/eagle-shark",
       "type": "recipe",
       "nameId": "recipe/eagle-shark",
@@ -13757,74 +12682,6 @@
       "facts": []
     },
     {
-      "id": "recipe/great-spider-crab",
-      "type": "recipe",
-      "nameId": "recipe/great-spider-crab",
-      "en": "Great Spider Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/great-spider-crab/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/great-spider-crab"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/great-spider-crab",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 50,
-        "maxPrice": null,
-        "baseTaste": 29,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 17,
-        "estimatedProfit": 33
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/great-spider-crab-cucumber",
-      "type": "recipe",
-      "nameId": "recipe/great-spider-crab-cucumber",
-      "en": "Great Spider Crab Cucumber",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/great-spider-crab-cucumber/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/great-spider-crab"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/great-spider-crab",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/cucumber",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 324,
-        "maxPrice": null,
-        "baseTaste": 160,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 37,
-        "estimatedProfit": 287
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/great-sturgeon",
       "type": "recipe",
       "nameId": "recipe/great-sturgeon",
@@ -14079,38 +12936,6 @@
       "facts": []
     },
     {
-      "id": "recipe/juvenile-circular-bat-fish-fry",
-      "type": "recipe",
-      "nameId": "recipe/juvenile-circular-bat-fish-fry",
-      "en": "Juvenile Circular Bat Fish Fry",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/juvenile-circular-bat-fish-fry/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/juvenile-circular-bat-fish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/juvenile-circular-bat-fish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 5,
-        "maxPrice": null,
-        "baseTaste": 11,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 2,
-        "estimatedProfit": 3
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/king-salmon",
       "type": "recipe",
       "nameId": "recipe/king-salmon",
@@ -14330,38 +13155,6 @@
         "maxLevel": 10,
         "ingredientCost": 5,
         "estimatedProfit": 8
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/mediterranean-rainbow-wrasse",
-      "type": "recipe",
-      "nameId": "recipe/mediterranean-rainbow-wrasse",
-      "en": "Mediterranean Rainbow Wrasse",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/mediterranean-rainbow-wrasse/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/mediterranean-rainbow-wrasse"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/mediterranean-rainbow-wrasse",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 6,
-        "maxPrice": null,
-        "baseTaste": 13,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 2,
-        "estimatedProfit": 4
       },
       "facets": {},
       "facts": []
@@ -14911,70 +13704,6 @@
       "facts": []
     },
     {
-      "id": "recipe/red-mullet",
-      "type": "recipe",
-      "nameId": "recipe/red-mullet",
-      "en": "Red Mullet",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/red-mullet/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/red-mullet"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/red-mullet",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 16,
-        "maxPrice": null,
-        "baseTaste": 14,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 5,
-        "estimatedProfit": 11
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/red-stingray",
-      "type": "recipe",
-      "nameId": "recipe/red-stingray",
-      "en": "Red Stingray",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/red-stingray/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/red-stingray"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-red-stingray",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 51,
-        "maxPrice": null,
-        "baseTaste": 26,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 17,
-        "estimatedProfit": 34
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/redeye-piranha",
       "type": "recipe",
       "nameId": "recipe/redeye-piranha",
@@ -15034,71 +13763,6 @@
         "maxLevel": 10,
         "ingredientCost": 16,
         "estimatedProfit": 49
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/reef-triggerfish",
-      "type": "recipe",
-      "nameId": "recipe/reef-triggerfish",
-      "en": "Reef Triggerfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/reef-triggerfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/reef-triggerfish",
-        "fish/lagoon-triggerfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/reef-triggerfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 7,
-        "maxPrice": null,
-        "baseTaste": 12,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 2,
-        "estimatedProfit": 5
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/ruby-cardinal-fish",
-      "type": "recipe",
-      "nameId": "recipe/ruby-cardinal-fish",
-      "en": "Ruby Cardinal Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/ruby-cardinal-fish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/ruby-cardinal-fish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/ruby-cardinal-fish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 3,
-        "maxPrice": null,
-        "baseTaste": 10,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 1,
-        "estimatedProfit": 2
       },
       "facets": {},
       "facts": []
@@ -15195,78 +13859,6 @@
         "maxLevel": 10,
         "ingredientCost": 5,
         "estimatedProfit": 9
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/spider-crab-curry",
-      "type": "recipe",
-      "nameId": "recipe/spider-crab-curry",
-      "en": "Spider Crab Curry",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/spider-crab-curry/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/great-spider-crab"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/great-spider-crab",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/special-egg",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/curry-block",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 155,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 113,
-        "estimatedProfit": 287
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/square-spot-anthias",
-      "type": "recipe",
-      "nameId": "recipe/square-spot-anthias",
-      "en": "Square Spot Anthias",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/square-spot-anthias/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/square-spot-anthias"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/square-spot-anthias",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 3,
-        "maxPrice": null,
-        "baseTaste": 13,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 1,
-        "estimatedProfit": 2
       },
       "facets": {},
       "facts": []
@@ -15575,38 +14167,6 @@
         "maxLevel": 10,
         "ingredientCost": 71,
         "estimatedProfit": 245
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/warty-frogfish",
-      "type": "recipe",
-      "nameId": "recipe/warty-frogfish",
-      "en": "Warty Frogfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/warty-frogfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/warty-frogfish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/warty-frogfish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 15,
-        "maxPrice": null,
-        "baseTaste": 15,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 5,
-        "estimatedProfit": 10
       },
       "facets": {},
       "facts": []
@@ -17844,41 +16404,6 @@
       "facts": []
     },
     {
-      "id": "recipe/red-mullet-tangle-roll",
-      "type": "recipe",
-      "nameId": "recipe/red-mullet-tangle-roll",
-      "en": "Red Mullet Tangle Roll",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/red-mullet-tangle-roll/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/red-mullet",
-        "fish/tangle"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/red-mullet",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/tangle",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 80,
-        "maxPrice": null,
-        "baseTaste": 90,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/sacabambaspis-sate",
       "type": "recipe",
       "nameId": "recipe/sacabambaspis-sate",
@@ -18577,44 +17102,6 @@
       "facts": []
     },
     {
-      "id": "recipe/spider-crab-ricebowl",
-      "type": "recipe",
-      "nameId": "recipe/spider-crab-ricebowl",
-      "en": "Spider Crab Ricebowl",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/spider-crab-ricebowl/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/great-spider-crab"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/great-spider-crab",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/bean",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 410,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/spiny-seahorse-udon",
       "type": "recipe",
       "nameId": "recipe/spiny-seahorse-udon",
@@ -18971,45 +17458,6 @@
         "baseServings": null,
         "maxServings": null,
         "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/truffle-asian-sheepshead-steamed",
-      "type": "recipe",
-      "nameId": "recipe/truffle-asian-sheepshead-steamed",
-      "en": "Truffle Asian Sheepshead Steamed",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/truffle-asian-sheepshead-steamed/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/tangle",
-        "fish/asian-sheepshead"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/meat-asian-sheepshead",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/tangle",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/truffle",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 755,
-        "maxPrice": null,
-        "baseTaste": 180,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 5
       },
       "facets": {},
       "facts": []
@@ -23396,49 +21844,6 @@
       }
     },
     {
-      "id": "fish/blackspot-seabream",
-      "type": "fish",
-      "nameId": "fish/blackspot-seabream",
-      "en": "Blackspot Seabream",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/blackspot-seabream/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blackspot-seabream"
-      ],
-      "relatedRecipes": [
-        "recipe/blackspot-seabream-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.4,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 2,
-        "length": 30,
-        "health": 3,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "encyclopediaNumber": "0007",
-        "marincaCardNumber": "7"
-      }
-    },
-    {
       "id": "fish/clownfish",
       "type": "fish",
       "nameId": "fish/clownfish",
@@ -24465,7 +22870,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 220,
         "length": 270,
         "health": 340,
         "damage": 60,
@@ -24770,7 +23175,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 300,
         "length": 210,
         "health": 300,
         "damage": 75,
@@ -24813,7 +23218,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 10,
         "length": 80,
         "health": 90,
         "damage": 15,
@@ -24900,7 +23305,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 140,
         "length": 120,
         "health": 230,
         "damage": 20,
@@ -24987,7 +23392,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 15,
         "length": 15,
         "health": 999,
         "damage": 0,
@@ -25030,7 +23435,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 90,
         "length": 90,
         "health": 160,
         "damage": 40,
@@ -25073,7 +23478,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 60,
         "length": 30,
         "health": 999,
         "damage": 0,
@@ -25116,7 +23521,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 30,
         "length": 20,
         "health": 999,
         "damage": 0,
@@ -25159,7 +23564,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 55,
         "length": 60,
         "health": 115,
         "damage": 10,
@@ -25202,7 +23607,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 60,
         "length": 90,
         "health": 85,
         "damage": 20,
@@ -25245,7 +23650,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 45,
         "length": 60,
         "health": 110,
         "damage": 10,
@@ -25288,7 +23693,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 17,
         "length": 30,
         "health": 90,
         "damage": 20,
@@ -25367,7 +23772,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 30,
         "length": 30,
         "health": 80,
         "damage": 30,
@@ -25410,7 +23815,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 60,
         "length": 100,
         "health": 170,
         "damage": 55,
@@ -25453,7 +23858,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 60,
         "length": 30,
         "health": 999,
         "damage": 0,
@@ -25538,7 +23943,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 70,
         "length": 25,
         "health": 999,
         "damage": 0,
@@ -25669,7 +24074,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 65,
         "length": 60,
         "health": 125,
         "damage": 25,
@@ -25712,7 +24117,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 50,
         "length": 30,
         "health": 105,
         "damage": 25,
@@ -25755,7 +24160,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 350,
         "length": 300,
         "health": 260,
         "damage": 45,
@@ -25798,7 +24203,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 80,
         "length": 90,
         "health": 135,
         "damage": 10,
@@ -25841,7 +24246,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 35,
         "length": 30,
         "health": 85,
         "damage": 20,
@@ -25884,7 +24289,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 90,
         "length": 30,
         "health": 130,
         "damage": 30,
@@ -25927,7 +24332,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 120,
         "length": 120,
         "health": 200,
         "damage": 10,
@@ -25970,7 +24375,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 27,
         "length": 30,
         "health": 999,
         "damage": 0,
@@ -26058,7 +24463,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 70,
         "length": 100,
         "health": 105,
         "damage": 25,
@@ -26101,7 +24506,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 85,
         "length": 65,
         "health": 120,
         "damage": 35,
@@ -26144,7 +24549,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 100,
         "length": 65,
         "health": 150,
         "damage": 30,
@@ -26187,7 +24592,7 @@
         "meat1": null,
         "meat2": null,
         "meat3": null,
-        "sellPrice": null,
+        "sellPrice": 120,
         "length": 150,
         "health": 250,
         "damage": 70,
@@ -26249,47 +24654,6 @@
       },
       "fields": {
         "marincaCardNumber": "3206"
-      }
-    },
-    {
-      "id": "fish/antarctic-starry-skate",
-      "type": "fish",
-      "nameId": "fish/antarctic-starry-skate",
-      "en": "Antarctic Starry Skate",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/antarctic-starry-skate/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/antarctic-starry-skate"
-      ],
-      "relatedRecipes": [
-        "recipe/antarctic-starry-skate"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 9,
-        "weight": 5.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 44,
-        "health": 200,
-        "damage": 60,
-        "harvestCount": 2,
-        "captureRank": 10
-      },
-      "region": [
-        "region/glacial-area"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "317"
       }
     },
     {
@@ -26417,47 +24781,6 @@
       }
     },
     {
-      "id": "fish/baby-anomalocaris",
-      "type": "fish",
-      "nameId": "fish/baby-anomalocaris",
-      "en": "Baby Anomalocaris",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/baby-anomalocaris/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/baby-anomalocaris"
-      ],
-      "relatedRecipes": [
-        "recipe/anomalocaris"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 9,
-        "weight": 4,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 75,
-        "health": 4,
-        "damage": 25,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/hydrothermal-vents"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "715"
-      }
-    },
-    {
       "id": "fish/black-caiman",
       "type": "fish",
       "nameId": "fish/black-caiman",
@@ -26498,47 +24821,6 @@
       },
       "fields": {
         "marincaCardNumber": "3009"
-      }
-    },
-    {
-      "id": "fish/bloodbelly-comb-jelly",
-      "type": "fish",
-      "nameId": "fish/bloodbelly-comb-jelly",
-      "en": "Bloodbelly Comb Jelly",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/bloodbelly-comb-jelly/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/bloodbelly-comb-jelly"
-      ],
-      "relatedRecipes": [
-        "recipe/bloodbelly-comb-jelly"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 7,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 17,
-        "health": 50,
-        "damage": 60,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/721eb9e71c69"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "216"
       }
     },
     {
@@ -27251,1152 +25533,6 @@
       }
     },
     {
-      "id": "fish/dredge-aurora-jellyfish",
-      "type": "fish",
-      "nameId": "fish/dredge-aurora-jellyfish",
-      "en": "Dredge Aurora Jellyfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-aurora-jellyfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-aurora-jellyfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-aurora-jellyfish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 5,
-        "weight": 5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 10,
-        "health": 90,
-        "damage": 15,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/565a3a911b9e"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1124"
-      }
-    },
-    {
-      "id": "fish/dredge-bloodskin-shark",
-      "type": "fish",
-      "nameId": "fish/dredge-bloodskin-shark",
-      "en": "Dredge Bloodskin Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-bloodskin-shark/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-bloodskin-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-bloodskin-shark"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 9,
-        "weight": 11.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 220,
-        "health": 340,
-        "damage": 60,
-        "harvestCount": 2,
-        "captureRank": 99
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1109"
-      }
-    },
-    {
-      "id": "fish/dredge-bony-wreckfish",
-      "type": "fish",
-      "nameId": "fish/dredge-bony-wreckfish",
-      "en": "Dredge Bony Wreckfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-bony-wreckfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-bony-wreckfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-bony-wreckfish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 7,
-        "weight": 8,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 140,
-        "health": 230,
-        "damage": 20,
-        "harvestCount": 2,
-        "captureRank": 10
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1116"
-      }
-    },
-    {
-      "id": "fish/dredge-cerebral-crab",
-      "type": "fish",
-      "nameId": "fish/dredge-cerebral-crab",
-      "en": "Dredge Cerebral Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-cerebral-crab/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-cerebral-crab"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-cerebral-crab"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 7,
-        "weight": 2,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 15,
-        "health": 999,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1111"
-      }
-    },
-    {
-      "id": "fish/dredge-concertina-barracuda",
-      "type": "fish",
-      "nameId": "fish/dredge-concertina-barracuda",
-      "en": "Dredge Concertina Barracuda",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-concertina-barracuda/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-concertina-barracuda"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-concertina-barracuda"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 8,
-        "weight": 6.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 90,
-        "health": 160,
-        "damage": 40,
-        "harvestCount": 0,
-        "captureRank": 10
-      },
-      "region": [
-        "region/565a3a911b9e"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1131"
-      }
-    },
-    {
-      "id": "fish/dredge-cortex-decorator",
-      "type": "fish",
-      "nameId": "fish/dredge-cortex-decorator",
-      "en": "Dredge Cortex Decorator",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-cortex-decorator/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-cortex-decorator"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-cortex-decorator"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 7,
-        "weight": 2.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 60,
-        "health": 999,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1123"
-      }
-    },
-    {
-      "id": "fish/dredge-entangled-crab",
-      "type": "fish",
-      "nameId": "fish/dredge-entangled-crab",
-      "en": "Dredge Entangled Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-entangled-crab/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-entangled-crab"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-entangled-crab"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 8,
-        "weight": 2.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 30,
-        "health": 999,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/565a3a911b9e"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1134"
-      }
-    },
-    {
-      "id": "fish/dredge-enthralled-stonefish",
-      "type": "fish",
-      "nameId": "fish/dredge-enthralled-stonefish",
-      "en": "Dredge Enthralled Stonefish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-enthralled-stonefish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-enthralled-stonefish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-enthralled-stonefish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 8,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 55,
-        "health": 115,
-        "damage": 10,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1118"
-      }
-    },
-    {
-      "id": "fish/dredge-fanged-cod",
-      "type": "fish",
-      "nameId": "fish/dredge-fanged-cod",
-      "en": "Dredge Fanged Cod",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-fanged-cod/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-fanged-cod"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-fanged-cod"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 5,
-        "weight": 3.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 60,
-        "health": 85,
-        "damage": 20,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1101"
-      }
-    },
-    {
-      "id": "fish/dredge-gelatinous-stonefish",
-      "type": "fish",
-      "nameId": "fish/dredge-gelatinous-stonefish",
-      "en": "Dredge Gelatinous Stonefish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-gelatinous-stonefish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-gelatinous-stonefish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-gelatinous-stonefish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 5,
-        "weight": 7.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 45,
-        "health": 110,
-        "damage": 10,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1117"
-      }
-    },
-    {
-      "id": "fish/dredge-gnashing-perch",
-      "type": "fish",
-      "nameId": "fish/dredge-gnashing-perch",
-      "en": "Dredge Gnashing Perch",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-gnashing-perch/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-gnashing-perch"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-gnashing-perch"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 4.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 17,
-        "health": 90,
-        "damage": 20,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1114"
-      }
-    },
-    {
-      "id": "fish/dredge-grotesque-mackerel",
-      "type": "fish",
-      "nameId": "fish/dredge-grotesque-mackerel",
-      "en": "Dredge Grotesque Mackerel",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-grotesque-mackerel/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-grotesque-mackerel"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-grotesque-mackerel"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 5,
-        "weight": 3,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 30,
-        "health": 80,
-        "damage": 30,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1103"
-      }
-    },
-    {
-      "id": "fish/dredge-host-eel",
-      "type": "fish",
-      "nameId": "fish/dredge-host-eel",
-      "en": "Dredge Host Eel",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-host-eel/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-host-eel"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-host-eel"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 8,
-        "weight": 5.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 60,
-        "health": 170,
-        "damage": 55,
-        "harvestCount": 0,
-        "captureRank": 10
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1108"
-      }
-    },
-    {
-      "id": "fish/dredge-imperious-lobster",
-      "type": "fish",
-      "nameId": "fish/dredge-imperious-lobster",
-      "en": "Dredge Imperious Lobster",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-imperious-lobster/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-imperious-lobster"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-imperious-lobster"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 9,
-        "weight": 3,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 60,
-        "health": 999,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/565a3a911b9e"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1133"
-      }
-    },
-    {
-      "id": "fish/dredge-malignant-pincer",
-      "type": "fish",
-      "nameId": "fish/dredge-malignant-pincer",
-      "en": "Dredge Malignant Pincer",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-malignant-pincer/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-malignant-pincer"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-malignant-pincer"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 8,
-        "weight": 2.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 70,
-        "health": 999,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1112"
-      }
-    },
-    {
-      "id": "fish/dredge-perished-loosejaw",
-      "type": "fish",
-      "nameId": "fish/dredge-perished-loosejaw",
-      "en": "Dredge Perished Loosejaw",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-perished-loosejaw/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-perished-loosejaw"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-perished-loosejaw"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 3,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 65,
-        "health": 125,
-        "damage": 25,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/565a3a911b9e"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1128"
-      }
-    },
-    {
-      "id": "fish/dredge-radiant-squid",
-      "type": "fish",
-      "nameId": "fish/dredge-radiant-squid",
-      "en": "Dredge Radiant Squid",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-radiant-squid/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-radiant-squid"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-radiant-squid"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 5,
-        "weight": 4.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 50,
-        "health": 105,
-        "damage": 25,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/565a3a911b9e"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1126"
-      }
-    },
-    {
-      "id": "fish/dredge-sallow-sailfish",
-      "type": "fish",
-      "nameId": "fish/dredge-sallow-sailfish",
-      "en": "Dredge Sallow Sailfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-sallow-sailfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-sallow-sailfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-sallow-sailfish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 9,
-        "weight": 9.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 350,
-        "health": 260,
-        "damage": 45,
-        "harvestCount": 2,
-        "captureRank": 99
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1110"
-      }
-    },
-    {
-      "id": "fish/dredge-savage-barracuda",
-      "type": "fish",
-      "nameId": "fish/dredge-savage-barracuda",
-      "en": "Dredge Savage Barracuda",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-savage-barracuda/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-savage-barracuda"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-savage-barracuda"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 7,
-        "weight": 7,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 80,
-        "health": 135,
-        "damage": 10,
-        "harvestCount": 0,
-        "captureRank": 10
-      },
-      "region": [
-        "region/565a3a911b9e"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1130"
-      }
-    },
-    {
-      "id": "fish/dredge-scouring-bass",
-      "type": "fish",
-      "nameId": "fish/dredge-scouring-bass",
-      "en": "Dredge Scouring Bass",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-scouring-bass/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-scouring-bass"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-scouring-bass"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 5,
-        "weight": 3.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 35,
-        "health": 85,
-        "damage": 20,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1113"
-      }
-    },
-    {
-      "id": "fish/dredge-seizing-snailfish",
-      "type": "fish",
-      "nameId": "fish/dredge-seizing-snailfish",
-      "en": "Dredge Seizing Snailfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-seizing-snailfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-seizing-snailfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-seizing-snailfish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 90,
-        "health": 130,
-        "damage": 30,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/565a3a911b9e"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1127"
-      }
-    },
-    {
-      "id": "fish/dredge-shattered-wreckfish",
-      "type": "fish",
-      "nameId": "fish/dredge-shattered-wreckfish",
-      "en": "Dredge Shattered Wreckfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-shattered-wreckfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-shattered-wreckfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-shattered-wreckfish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 6.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 120,
-        "health": 200,
-        "damage": 10,
-        "harvestCount": 2,
-        "captureRank": 10
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1115"
-      }
-    },
-    {
-      "id": "fish/dredge-splintered-crab",
-      "type": "fish",
-      "nameId": "fish/dredge-splintered-crab",
-      "en": "Dredge Splintered Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-splintered-crab/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-splintered-crab"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-splintered-crab"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 8,
-        "weight": 3.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 27,
-        "health": 999,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1122"
-      }
-    },
-    {
-      "id": "fish/dredge-three-headed-cod",
-      "type": "fish",
-      "nameId": "fish/dredge-three-headed-cod",
-      "en": "Dredge Three Headed Cod",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-three-headed-cod/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [
-        "recipe/three-headed-cod-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 6,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 70,
-        "health": 105,
-        "damage": 25,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1102"
-      }
-    },
-    {
-      "id": "fish/dredge-translucent-sturgeon",
-      "type": "fish",
-      "nameId": "fish/dredge-translucent-sturgeon",
-      "en": "Dredge Translucent Sturgeon",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-translucent-sturgeon/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-translucent-sturgeon"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-translucent-sturgeon"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 9,
-        "weight": 8,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 300,
-        "health": 300,
-        "damage": 75,
-        "harvestCount": 2,
-        "captureRank": 10
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1120"
-      }
-    },
-    {
-      "id": "fish/dredge-tusked-grouper",
-      "type": "fish",
-      "nameId": "fish/dredge-tusked-grouper",
-      "en": "Dredge Tusked Grouper",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-tusked-grouper/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-tusked-grouper"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-tusked-grouper"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 85,
-        "health": 120,
-        "damage": 35,
-        "harvestCount": 0,
-        "captureRank": 10
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1105"
-      }
-    },
-    {
-      "id": "fish/dredge-voltaic-grouper",
-      "type": "fish",
-      "nameId": "fish/dredge-voltaic-grouper",
-      "en": "Dredge Voltaic Grouper",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-voltaic-grouper/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-voltaic-grouper"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-voltaic-grouper"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 7,
-        "weight": 6,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 100,
-        "health": 150,
-        "damage": 30,
-        "harvestCount": 0,
-        "captureRank": 10
-      },
-      "region": [
-        "region/a7a86e92fda1"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1106"
-      }
-    },
-    {
-      "id": "fish/dredge-withered-ray",
-      "type": "fish",
-      "nameId": "fish/dredge-withered-ray",
-      "en": "Dredge Withered Ray",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dredge-withered-ray/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-withered-ray"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-withered-ray"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 9,
-        "weight": 8.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 120,
-        "health": 250,
-        "damage": 70,
-        "harvestCount": 2,
-        "captureRank": 99
-      },
-      "region": [
-        "region/d3b15f5fc5e0"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "1121"
-      }
-    },
-    {
       "id": "fish/eagle-shark",
       "type": "fish",
       "nameId": "fish/eagle-shark",
@@ -28855,50 +25991,6 @@
       }
     },
     {
-      "id": "fish/great-spider-crab",
-      "type": "fish",
-      "nameId": "fish/great-spider-crab",
-      "en": "Great Spider Crab",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/great-spider-crab/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/great-spider-crab"
-      ],
-      "relatedRecipes": [
-        "recipe/great-spider-crab",
-        "recipe/great-spider-crab-cucumber",
-        "recipe/spider-crab-curry",
-        "recipe/spider-crab-ricebowl"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 7.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 17,
-        "health": 1,
-        "damage": 30,
-        "harvestCount": 0,
-        "captureRank": 10
-      },
-      "region": [
-        "region/721eb9e71c69"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "207"
-      }
-    },
-    {
       "id": "fish/great-sturgeon",
       "type": "fish",
       "nameId": "fish/great-sturgeon",
@@ -29186,47 +26278,6 @@
       },
       "fields": {
         "marincaCardNumber": "3111"
-      }
-    },
-    {
-      "id": "fish/juvenile-circular-bat-fish",
-      "type": "fish",
-      "nameId": "fish/juvenile-circular-bat-fish",
-      "en": "Juvenile Circular Bat Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/juvenile-circular-bat-fish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/juvenile-circular-bat-fish"
-      ],
-      "relatedRecipes": [
-        "recipe/juvenile-circular-bat-fish-fry"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.3,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 2,
-        "health": 3,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "8"
       }
     },
     {
@@ -29518,48 +26569,6 @@
       },
       "fields": {
         "marincaCardNumber": "3018"
-      }
-    },
-    {
-      "id": "fish/mediterranean-rainbow-wrasse",
-      "type": "fish",
-      "nameId": "fish/mediterranean-rainbow-wrasse",
-      "en": "Mediterranean Rainbow Wrasse",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/mediterranean-rainbow-wrasse/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/mediterranean-rainbow-wrasse"
-      ],
-      "relatedRecipes": [
-        "recipe/mediterranean-rainbow-wrasse",
-        "recipe/wrasse-curry"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.6,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 2,
-        "health": 3,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "10"
       }
     },
     {
@@ -30309,48 +27318,6 @@
       }
     },
     {
-      "id": "fish/red-mullet",
-      "type": "fish",
-      "nameId": "fish/red-mullet",
-      "en": "Red Mullet",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/red-mullet/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/red-mullet"
-      ],
-      "relatedRecipes": [
-        "recipe/red-mullet",
-        "recipe/red-mullet-tangle-roll"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.7,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 5,
-        "health": 18,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/82a8f0e0b78d"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "105"
-      }
-    },
-    {
       "id": "fish/redtail-catfish",
       "type": "fish",
       "nameId": "fish/redtail-catfish",
@@ -30389,88 +27356,6 @@
       },
       "fields": {
         "marincaCardNumber": "3411"
-      }
-    },
-    {
-      "id": "fish/reef-triggerfish",
-      "type": "fish",
-      "nameId": "fish/reef-triggerfish",
-      "en": "Reef Triggerfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/reef-triggerfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/reef-triggerfish"
-      ],
-      "relatedRecipes": [
-        "recipe/reef-triggerfish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.7,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 2,
-        "health": 4,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "11"
-      }
-    },
-    {
-      "id": "fish/ruby-cardinal-fish",
-      "type": "fish",
-      "nameId": "fish/ruby-cardinal-fish",
-      "en": "Ruby Cardinal Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/ruby-cardinal-fish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/ruby-cardinal-fish"
-      ],
-      "relatedRecipes": [
-        "recipe/ruby-cardinal-fish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.2,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 1,
-        "health": 3,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "3"
       }
     },
     {
@@ -30554,89 +27439,6 @@
       },
       "fields": {
         "marincaCardNumber": "3404"
-      }
-    },
-    {
-      "id": "fish/square-spot-anthias",
-      "type": "fish",
-      "nameId": "fish/square-spot-anthias",
-      "en": "Square Spot Anthias",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/square-spot-anthias/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/square-spot-anthias"
-      ],
-      "relatedRecipes": [
-        "recipe/square-spot-anthias"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.3,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 1,
-        "health": 3,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "4"
-      }
-    },
-    {
-      "id": "fish/stargazer",
-      "type": "fish",
-      "nameId": "fish/stargazer",
-      "en": "Stargazer",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/stargazer/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/stargazer"
-      ],
-      "relatedRecipes": [
-        "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
-        "recipe/bluespotted-stargazer-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 18,
-        "health": 60,
-        "damage": 35,
-        "harvestCount": 0,
-        "captureRank": 10
-      },
-      "region": [
-        "region/721eb9e71c69"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/5b3ed24e0472",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "204"
       }
     },
     {
@@ -30932,47 +27734,6 @@
       }
     },
     {
-      "id": "fish/warty-frogfish",
-      "type": "fish",
-      "nameId": "fish/warty-frogfish",
-      "en": "Warty Frogfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/warty-frogfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/warty-frogfish"
-      ],
-      "relatedRecipes": [
-        "recipe/warty-frogfish"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 1,
-        "weight": 0.3,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 5,
-        "health": 16,
-        "damage": 0,
-        "harvestCount": 0,
-        "captureRank": 0
-      },
-      "region": [
-        "region/82a8f0e0b78d"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "102"
-      }
-    },
-    {
       "id": "fish/anomalocaris",
       "type": "fish",
       "nameId": "fish/anomalocaris",
@@ -31006,127 +27767,6 @@
       "fields": {
         "encyclopediaNumber": "0715",
         "marincaCardNumber": "0715"
-      }
-    },
-    {
-      "id": "fish/asian-sheepshead",
-      "type": "fish",
-      "nameId": "fish/asian-sheepshead",
-      "en": "Asian Sheepshead",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/asian-sheepshead/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-asian-sheepshead"
-      ],
-      "relatedRecipes": [
-        "recipe/asian-sheepshead",
-        "recipe/truffle-asian-sheepshead-steamed"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 5,
-        "weight": 1.8,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 10,
-        "health": 70,
-        "damage": 10,
-        "harvestCount": 2,
-        "captureRank": 10
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "30"
-      }
-    },
-    {
-      "id": "fish/red-bbanded-lobster",
-      "type": "fish",
-      "nameId": "fish/red-bbanded-lobster",
-      "en": "Red Bbanded Lobster",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/red-bbanded-lobster/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [
-        "recipe/red-banded-lobster-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 5,
-        "weight": 0.1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 25,
-        "health": 999,
-        "damage": 0,
-        "harvestCount": 0
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/b77ea2b347b8",
-        "size": "text/c8242d4e2db7",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "701"
-      }
-    },
-    {
-      "id": "fish/red-stingray",
-      "type": "fish",
-      "nameId": "fish/red-stingray",
-      "en": "Red Stingray",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/red-stingray/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-red-stingray"
-      ],
-      "relatedRecipes": [
-        "recipe/red-stingray"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": 6,
-        "weight": 3,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 17,
-        "health": 100,
-        "damage": 30,
-        "harvestCount": 2,
-        "captureRank": 10
-      },
-      "region": [
-        "region/8c354854b261"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab",
-        "size": "text/8bc868b54922",
-        "behavior": "text/ad14cad5a8ba",
-        "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "fields": {
-        "marincaCardNumber": "32"
       }
     },
     {
@@ -31905,8 +28545,7 @@
         "ingredient/lagoon-triggerfish"
       ],
       "relatedRecipes": [
-        "recipe/rainbow-cap-triggerfish-fishcake",
-        "recipe/reef-triggerfish"
+        "recipe/rainbow-cap-triggerfish-fishcake"
       ],
       "facts": [],
       "stats": {
@@ -33103,9 +29742,7 @@
       "relatedRecipes": [
         "recipe/egg-tamago",
         "recipe/rainbow-cap-pacific-fanfish-ochazuke",
-        "recipe/red-mullet-tangle-roll",
         "recipe/special-clione-queen-tentacle-soup",
-        "recipe/truffle-asian-sheepshead-steamed",
         "recipe/white-trevally-kombu-ochazuke"
       ],
       "facts": [],
@@ -33464,8 +30101,7 @@
         "recipe/wrasse-curry",
         "recipe/fried-tomato-and-snailfish",
         "recipe/plotosid-pie",
-        "recipe/rice-with-great-spider-crab-meat",
-        "recipe/spider-crab-ricebowl"
+        "recipe/rice-with-great-spider-crab-meat"
       ],
       "facts": [],
       "stats": {
@@ -33602,7 +30238,6 @@
         "recipe/deep-fried-vegetables",
         "recipe/green-sea-urchin-and-cucumber-salad",
         "recipe/pickled-vegetables",
-        "recipe/great-spider-crab-cucumber",
         "recipe/vege-fried",
         "recipe/vege-tsukemono"
       ],
@@ -33641,8 +30276,7 @@
         "recipe/narrow-barred-spanish-mackerel-arancini",
         "recipe/smoked-atlantic-mackerel-scramble",
         "recipe/pufferfish-dumpling-soup",
-        "recipe/sweet-and-sour-stargazer",
-        "recipe/blue-spotted-stargazer-sweet-and-sour-fish"
+        "recipe/sweet-and-sour-stargazer"
       ],
       "facts": [],
       "stats": {
@@ -33826,7 +30460,6 @@
         "recipe/rainbow-cap-pacific-fanfish-ochazuke",
         "recipe/tropical-fish-sushi-set",
         "recipe/egg-tenshinhan",
-        "recipe/spider-crab-ricebowl",
         "recipe/yellow-fin-tuna-poke"
       ],
       "facts": [],
@@ -33891,7 +30524,6 @@
       "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
-        "recipe/spider-crab-curry",
         "recipe/egg-tamago",
         "recipe/egg-tenshinhan",
         "recipe/special-klaus-fin-meat-ricebowl"
@@ -34058,8 +30690,7 @@
         "recipe/atlantic-bonito-curry",
         "recipe/ice-fish-curry",
         "recipe/wrasse-curry",
-        "recipe/great-spider-crab-curry",
-        "recipe/spider-crab-curry"
+        "recipe/great-spider-crab-curry"
       ],
       "acquisition-method": {
         "text": "陶罐／采集点"
@@ -34241,7 +30872,6 @@
         "recipe/trevally-nanbanzuke",
         "recipe/fried-habanero-fangtooth",
         "recipe/sweet-and-sour-stargazer",
-        "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
         "recipe/vege-fried",
         "recipe/whitetip-reefshark-roast",
         "recipe/seahorse-sea-grapes-salad",
@@ -34423,8 +31053,7 @@
         "recipe/truffle-sailfish-tartare",
         "recipe/truffle-shark-sandwich",
         "recipe/boiled-asian-sheepshead-wrasse-and-truffle",
-        "recipe/grilled-antarctic-octopus-and-truffle",
-        "recipe/truffle-asian-sheepshead-steamed"
+        "recipe/grilled-antarctic-octopus-and-truffle"
       ],
       "acquisition-method": {
         "text": "jango mushroomer"
@@ -35084,7 +31713,6 @@
       "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
-        "recipe/blue-spotted-stargazer-sweet-and-sour-fish",
         "recipe/spiny-seahorse-udon"
       ],
       "facts": [],
@@ -35755,32 +32383,6 @@
       }
     },
     {
-      "id": "ingredient/meat-asian-sheepshead",
-      "type": "ingredient",
-      "nameId": "ingredient/meat-asian-sheepshead",
-      "en": "meat Asian Sheepshead",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-asian-sheepshead/"
-      ],
-      "inferred": false,
-      "fishIds": [
-        "fish/asian-sheepshead"
-      ],
-      "relatedFish": [
-        "fish/asian-sheepshead"
-      ],
-      "relatedRecipes": [
-        "recipe/asian-sheepshead",
-        "recipe/truffle-asian-sheepshead-steamed"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 10,
-        "weight": 1.8
-      },
-      "facets": {}
-    },
-    {
       "id": "ingredient/meat-copper-shark",
       "type": "ingredient",
       "nameId": "ingredient/meat-copper-shark",
@@ -36056,31 +32658,6 @@
       "stats": {
         "sellPrice": 55,
         "weight": 13.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-red-stingray",
-      "type": "ingredient",
-      "nameId": "ingredient/meat-red-stingray",
-      "en": "meat Red Stingray",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-red-stingray/"
-      ],
-      "inferred": false,
-      "fishIds": [
-        "fish/red-stingray"
-      ],
-      "relatedFish": [
-        "fish/red-stingray"
-      ],
-      "relatedRecipes": [
-        "recipe/red-stingray"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 17,
-        "weight": 3
       },
       "facets": {}
     },
@@ -37802,26 +34379,6 @@
       "relatedRecipes": [
         "recipe/blackfin-barracuda-sushi",
         "recipe/moonlight-bladderwrack-roll"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/blackspot-seabream",
-      "type": "ingredient",
-      "nameId": "fish/blackspot-seabream",
-      "en": "Blackspot Seabream",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/blackspot-seabream"
-      ],
-      "relatedFish": [
-        "fish/blackspot-seabream"
-      ],
-      "relatedRecipes": [
-        "recipe/blackspot-seabream-sushi"
       ],
       "facts": [],
       "stats": {},
@@ -40049,46 +36606,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/baby-anomalocaris",
-      "type": "ingredient",
-      "nameId": "fish/baby-anomalocaris",
-      "en": "Baby Anomalocaris",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/baby-anomalocaris"
-      ],
-      "relatedFish": [
-        "fish/baby-anomalocaris"
-      ],
-      "relatedRecipes": [
-        "recipe/anomalocaris"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/antarctic-starry-skate",
-      "type": "ingredient",
-      "nameId": "fish/antarctic-starry-skate",
-      "en": "Antarctic Starry Skate",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/antarctic-starry-skate"
-      ],
-      "relatedFish": [
-        "fish/antarctic-starry-skate"
-      ],
-      "relatedRecipes": [
-        "recipe/antarctic-starry-skate"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/archerfish",
       "type": "ingredient",
       "nameId": "fish/archerfish",
@@ -40172,26 +36689,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/bloodbelly-comb-jelly",
-      "type": "ingredient",
-      "nameId": "fish/bloodbelly-comb-jelly",
-      "en": "Bloodbelly Comb Jelly",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/bloodbelly-comb-jelly"
-      ],
-      "relatedFish": [
-        "fish/bloodbelly-comb-jelly"
-      ],
-      "relatedRecipes": [
-        "recipe/bloodbelly-comb-jelly"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/blue-discus",
       "type": "ingredient",
       "nameId": "fish/blue-discus",
@@ -40228,26 +36725,6 @@
       "relatedRecipes": [
         "recipe/blue-gill",
         "recipe/blue-gill-steamed"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/stargazer",
-      "type": "ingredient",
-      "nameId": "fish/stargazer",
-      "en": "Stargazer",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/stargazer"
-      ],
-      "relatedFish": [
-        "fish/stargazer"
-      ],
-      "relatedRecipes": [
-        "recipe/blue-spotted-stargazer-sweet-and-sour-fish"
       ],
       "facts": [],
       "stats": {},
@@ -40606,466 +37083,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/dredge-aurora-jellyfish",
-      "type": "ingredient",
-      "nameId": "fish/dredge-aurora-jellyfish",
-      "en": "Dredge Aurora Jellyfish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-aurora-jellyfish"
-      ],
-      "relatedFish": [
-        "fish/dredge-aurora-jellyfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-aurora-jellyfish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-bloodskin-shark",
-      "type": "ingredient",
-      "nameId": "fish/dredge-bloodskin-shark",
-      "en": "Dredge Bloodskin Shark",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-bloodskin-shark"
-      ],
-      "relatedFish": [
-        "fish/dredge-bloodskin-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-bloodskin-shark"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-bony-wreckfish",
-      "type": "ingredient",
-      "nameId": "fish/dredge-bony-wreckfish",
-      "en": "Dredge Bony Wreckfish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-bony-wreckfish"
-      ],
-      "relatedFish": [
-        "fish/dredge-bony-wreckfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-bony-wreckfish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-cerebral-crab",
-      "type": "ingredient",
-      "nameId": "fish/dredge-cerebral-crab",
-      "en": "Dredge Cerebral Crab",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-cerebral-crab"
-      ],
-      "relatedFish": [
-        "fish/dredge-cerebral-crab"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-cerebral-crab"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-concertina-barracuda",
-      "type": "ingredient",
-      "nameId": "fish/dredge-concertina-barracuda",
-      "en": "Dredge Concertina Barracuda",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-concertina-barracuda"
-      ],
-      "relatedFish": [
-        "fish/dredge-concertina-barracuda"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-concertina-barracuda"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-cortex-decorator",
-      "type": "ingredient",
-      "nameId": "fish/dredge-cortex-decorator",
-      "en": "Dredge Cortex Decorator",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-cortex-decorator"
-      ],
-      "relatedFish": [
-        "fish/dredge-cortex-decorator"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-cortex-decorator"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-entangled-crab",
-      "type": "ingredient",
-      "nameId": "fish/dredge-entangled-crab",
-      "en": "Dredge Entangled Crab",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-entangled-crab"
-      ],
-      "relatedFish": [
-        "fish/dredge-entangled-crab"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-entangled-crab"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-enthralled-stonefish",
-      "type": "ingredient",
-      "nameId": "fish/dredge-enthralled-stonefish",
-      "en": "Dredge Enthralled Stonefish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-enthralled-stonefish"
-      ],
-      "relatedFish": [
-        "fish/dredge-enthralled-stonefish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-enthralled-stonefish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-fanged-cod",
-      "type": "ingredient",
-      "nameId": "fish/dredge-fanged-cod",
-      "en": "Dredge Fanged Cod",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-fanged-cod"
-      ],
-      "relatedFish": [
-        "fish/dredge-fanged-cod"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-fanged-cod"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-gelatinous-stonefish",
-      "type": "ingredient",
-      "nameId": "fish/dredge-gelatinous-stonefish",
-      "en": "Dredge Gelatinous Stonefish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-gelatinous-stonefish"
-      ],
-      "relatedFish": [
-        "fish/dredge-gelatinous-stonefish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-gelatinous-stonefish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-gnashing-perch",
-      "type": "ingredient",
-      "nameId": "fish/dredge-gnashing-perch",
-      "en": "Dredge Gnashing Perch",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-gnashing-perch"
-      ],
-      "relatedFish": [
-        "fish/dredge-gnashing-perch"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-gnashing-perch"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-grotesque-mackerel",
-      "type": "ingredient",
-      "nameId": "fish/dredge-grotesque-mackerel",
-      "en": "Dredge Grotesque Mackerel",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-grotesque-mackerel"
-      ],
-      "relatedFish": [
-        "fish/dredge-grotesque-mackerel"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-grotesque-mackerel"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-host-eel",
-      "type": "ingredient",
-      "nameId": "fish/dredge-host-eel",
-      "en": "Dredge Host Eel",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-host-eel"
-      ],
-      "relatedFish": [
-        "fish/dredge-host-eel"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-host-eel"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-imperious-lobster",
-      "type": "ingredient",
-      "nameId": "fish/dredge-imperious-lobster",
-      "en": "Dredge Imperious Lobster",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-imperious-lobster"
-      ],
-      "relatedFish": [
-        "fish/dredge-imperious-lobster"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-imperious-lobster"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-malignant-pincer",
-      "type": "ingredient",
-      "nameId": "fish/dredge-malignant-pincer",
-      "en": "Dredge Malignant Pincer",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-malignant-pincer"
-      ],
-      "relatedFish": [
-        "fish/dredge-malignant-pincer"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-malignant-pincer"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-perished-loosejaw",
-      "type": "ingredient",
-      "nameId": "fish/dredge-perished-loosejaw",
-      "en": "Dredge Perished Loosejaw",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-perished-loosejaw"
-      ],
-      "relatedFish": [
-        "fish/dredge-perished-loosejaw"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-perished-loosejaw"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-radiant-squid",
-      "type": "ingredient",
-      "nameId": "fish/dredge-radiant-squid",
-      "en": "Dredge Radiant Squid",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-radiant-squid"
-      ],
-      "relatedFish": [
-        "fish/dredge-radiant-squid"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-radiant-squid"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-sallow-sailfish",
-      "type": "ingredient",
-      "nameId": "fish/dredge-sallow-sailfish",
-      "en": "Dredge Sallow Sailfish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-sallow-sailfish"
-      ],
-      "relatedFish": [
-        "fish/dredge-sallow-sailfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-sallow-sailfish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-savage-barracuda",
-      "type": "ingredient",
-      "nameId": "fish/dredge-savage-barracuda",
-      "en": "Dredge Savage Barracuda",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-savage-barracuda"
-      ],
-      "relatedFish": [
-        "fish/dredge-savage-barracuda"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-savage-barracuda"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-scouring-bass",
-      "type": "ingredient",
-      "nameId": "fish/dredge-scouring-bass",
-      "en": "Dredge Scouring Bass",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-scouring-bass"
-      ],
-      "relatedFish": [
-        "fish/dredge-scouring-bass"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-scouring-bass"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-seizing-snailfish",
-      "type": "ingredient",
-      "nameId": "fish/dredge-seizing-snailfish",
-      "en": "Dredge Seizing Snailfish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-seizing-snailfish"
-      ],
-      "relatedFish": [
-        "fish/dredge-seizing-snailfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-seizing-snailfish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-shattered-wreckfish",
-      "type": "ingredient",
-      "nameId": "fish/dredge-shattered-wreckfish",
-      "en": "Dredge Shattered Wreckfish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-shattered-wreckfish"
-      ],
-      "relatedFish": [
-        "fish/dredge-shattered-wreckfish"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-shattered-wreckfish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-splintered-crab",
-      "type": "ingredient",
-      "nameId": "fish/dredge-splintered-crab",
-      "en": "Dredge Splintered Crab",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-splintered-crab"
-      ],
-      "relatedFish": [
-        "fish/dredge-splintered-crab"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-splintered-crab"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/dredge-sprouting-eel",
       "type": "ingredient",
       "nameId": "ingredient/dredge-sprouting-eel",
@@ -41079,86 +37096,6 @@
         "fish/sprouting-eel"
       ],
       "relatedRecipes": [],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-translucent-sturgeon",
-      "type": "ingredient",
-      "nameId": "fish/dredge-translucent-sturgeon",
-      "en": "Dredge Translucent Sturgeon",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-translucent-sturgeon"
-      ],
-      "relatedFish": [
-        "fish/dredge-translucent-sturgeon"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-translucent-sturgeon"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-tusked-grouper",
-      "type": "ingredient",
-      "nameId": "fish/dredge-tusked-grouper",
-      "en": "Dredge Tusked Grouper",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-tusked-grouper"
-      ],
-      "relatedFish": [
-        "fish/dredge-tusked-grouper"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-tusked-grouper"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-voltaic-grouper",
-      "type": "ingredient",
-      "nameId": "fish/dredge-voltaic-grouper",
-      "en": "Dredge Voltaic Grouper",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-voltaic-grouper"
-      ],
-      "relatedFish": [
-        "fish/dredge-voltaic-grouper"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-voltaic-grouper"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-withered-ray",
-      "type": "ingredient",
-      "nameId": "fish/dredge-withered-ray",
-      "en": "Dredge Withered Ray",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/dredge-withered-ray"
-      ],
-      "relatedFish": [
-        "fish/dredge-withered-ray"
-      ],
-      "relatedRecipes": [
-        "recipe/dredge-withered-ray"
-      ],
       "facts": [],
       "stats": {},
       "facets": {}
@@ -41412,29 +37349,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/great-spider-crab",
-      "type": "ingredient",
-      "nameId": "fish/great-spider-crab",
-      "en": "Great Spider Crab",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/great-spider-crab"
-      ],
-      "relatedFish": [
-        "fish/great-spider-crab"
-      ],
-      "relatedRecipes": [
-        "recipe/great-spider-crab",
-        "recipe/great-spider-crab-cucumber",
-        "recipe/spider-crab-curry",
-        "recipe/spider-crab-ricebowl"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/great-sturgeon",
       "type": "ingredient",
       "nameId": "fish/great-sturgeon",
@@ -41572,26 +37486,6 @@
         "recipe/indonesian-tiger-perch",
         "recipe/indonesian-tiger-perch-sate",
         "recipe/perch-mix-steamed"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/juvenile-circular-bat-fish",
-      "type": "ingredient",
-      "nameId": "fish/juvenile-circular-bat-fish",
-      "en": "Juvenile Circular Bat Fish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/juvenile-circular-bat-fish"
-      ],
-      "relatedFish": [
-        "fish/juvenile-circular-bat-fish"
-      ],
-      "relatedRecipes": [
-        "recipe/juvenile-circular-bat-fish-fry"
       ],
       "facts": [],
       "stats": {},
@@ -41736,26 +37630,6 @@
       ],
       "relatedRecipes": [
         "recipe/malayan-pike-head"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/mediterranean-rainbow-wrasse",
-      "type": "ingredient",
-      "nameId": "fish/mediterranean-rainbow-wrasse",
-      "en": "Mediterranean Rainbow Wrasse",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/mediterranean-rainbow-wrasse"
-      ],
-      "relatedFish": [
-        "fish/mediterranean-rainbow-wrasse"
-      ],
-      "relatedRecipes": [
-        "recipe/mediterranean-rainbow-wrasse"
       ],
       "facts": [],
       "stats": {},
@@ -42115,27 +37989,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/red-mullet",
-      "type": "ingredient",
-      "nameId": "fish/red-mullet",
-      "en": "Red Mullet",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/red-mullet"
-      ],
-      "relatedFish": [
-        "fish/red-mullet"
-      ],
-      "relatedRecipes": [
-        "recipe/red-mullet",
-        "recipe/red-mullet-tangle-roll"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/redeye-piranha",
       "type": "ingredient",
       "nameId": "fish/redeye-piranha",
@@ -42171,46 +38024,6 @@
       ],
       "relatedRecipes": [
         "recipe/redtail-catfish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/reef-triggerfish",
-      "type": "ingredient",
-      "nameId": "fish/reef-triggerfish",
-      "en": "Reef Triggerfish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/reef-triggerfish"
-      ],
-      "relatedFish": [
-        "fish/reef-triggerfish"
-      ],
-      "relatedRecipes": [
-        "recipe/reef-triggerfish"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/ruby-cardinal-fish",
-      "type": "ingredient",
-      "nameId": "fish/ruby-cardinal-fish",
-      "en": "Ruby Cardinal Fish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/ruby-cardinal-fish"
-      ],
-      "relatedFish": [
-        "fish/ruby-cardinal-fish"
-      ],
-      "relatedRecipes": [
-        "recipe/ruby-cardinal-fish"
       ],
       "facts": [],
       "stats": {},
@@ -42274,26 +38087,6 @@
       ],
       "relatedRecipes": [
         "recipe/snakeskin-gourami"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/square-spot-anthias",
-      "type": "ingredient",
-      "nameId": "fish/square-spot-anthias",
-      "en": "Square Spot Anthias",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/square-spot-anthias"
-      ],
-      "relatedFish": [
-        "fish/square-spot-anthias"
-      ],
-      "relatedRecipes": [
-        "recipe/square-spot-anthias"
       ],
       "facts": [],
       "stats": {},
@@ -42418,26 +38211,6 @@
       "relatedRecipes": [
         "recipe/tullimonstrum",
         "recipe/squid-mix-stir-fried"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/warty-frogfish",
-      "type": "ingredient",
-      "nameId": "fish/warty-frogfish",
-      "en": "Warty Frogfish",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/warty-frogfish"
-      ],
-      "relatedFish": [
-        "fish/warty-frogfish"
-      ],
-      "relatedRecipes": [
-        "recipe/warty-frogfish"
       ],
       "facts": [],
       "stats": {},
@@ -42906,9 +38679,7 @@
       ],
       "relatedRecipes": [
         "recipe/egg-tamago",
-        "recipe/red-mullet-tangle-roll",
-        "recipe/special-clione-queen-tentacle-soup",
-        "recipe/truffle-asian-sheepshead-steamed"
+        "recipe/special-clione-queen-tentacle-soup"
       ],
       "facts": [],
       "stats": {},
