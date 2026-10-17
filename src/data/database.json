@@ -3906,7 +3906,8 @@
       "nameId": "recipe/phantom-jellyfish-jelly",
       "en": "Phantom Jellyfish Jelly",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/phantom-jellyfish-jelly/"
+        "https://davethediver.net/zh-hans/recipe/phantom-jellyfish-jelly/",
+        "https://davethediver.net/zh-hans/recipe/special-phantom-jelly-fillet-jelly/"
       ],
       "inferred": false,
       "relatedFish": [],
@@ -4279,7 +4280,8 @@
       "nameId": "recipe/roasted-helicoprion-tail",
       "en": "Roasted Helicoprion Tail",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/roasted-helicoprion-tail/"
+        "https://davethediver.net/zh-hans/recipe/roasted-helicoprion-tail/",
+        "https://davethediver.net/zh-hans/recipe/special-helicoprion-tail-grilled/"
       ],
       "inferred": false,
       "relatedFish": [],
@@ -5741,7 +5743,8 @@
       "nameId": "recipe/clione-queen-soup",
       "en": "Clione Queen Soup",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/clione-queen-soup/"
+        "https://davethediver.net/zh-hans/recipe/clione-queen-soup/",
+        "https://davethediver.net/zh-hans/recipe/special-clione-queen-tentacle-soup/"
       ],
       "inferred": false,
       "relatedFish": [],
@@ -7600,7 +7603,8 @@
       "nameId": "recipe/seaweed-rolled-omelet",
       "en": "Seaweed Rolled Omelet",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/seaweed-rolled-omelet/"
+        "https://davethediver.net/zh-hans/recipe/seaweed-rolled-omelet/",
+        "https://davethediver.net/zh-hans/recipe/egg-tamago/"
       ],
       "inferred": false,
       "relatedFish": [],
@@ -7789,7 +7793,8 @@
       "nameId": "recipe/steamed-kronosaurus-tongue",
       "en": "Steamed Kronosaurus Tongue",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/steamed-kronosaurus-tongue/"
+        "https://davethediver.net/zh-hans/recipe/steamed-kronosaurus-tongue/",
+        "https://davethediver.net/zh-hans/recipe/special-kronosaurus-tongue-steamed/"
       ],
       "inferred": false,
       "relatedFish": [],
@@ -7954,7 +7959,8 @@
       "nameId": "recipe/stir-fried-hermit-crab-and-seaweed",
       "en": "Stir-Fried Hermit Crab and Seaweed",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/stir-fried-hermit-crab-and-seaweed/"
+        "https://davethediver.net/zh-hans/recipe/stir-fried-hermit-crab-and-seaweed/",
+        "https://davethediver.net/zh-hans/recipe/special-hermit-crab-leg-roastered/"
       ],
       "inferred": false,
       "relatedFish": [],
@@ -8448,8 +8454,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/white-trevally",
-        "fish/tangle"
+        "fish/white-trevally"
       ],
       "ingredients": [
         {
@@ -10317,8 +10322,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/pacific-fanfish",
-        "fish/tangle"
+        "fish/pacific-fanfish"
       ],
       "ingredients": [
         {
@@ -14604,9 +14608,7 @@
         "https://davethediver.net/zh-hans/recipe/black-caiman-grilled/"
       ],
       "inferred": false,
-      "relatedFish": [
-        "fish/special-black-caiman-tail"
-      ],
+      "relatedFish": [],
       "ingredients": [
         {
           "ingredientId": "ingredient/special-black-caiman-tail",
@@ -15331,45 +15333,6 @@
         "basePrice": 190,
         "maxPrice": null,
         "baseTaste": 76,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/egg-tamago",
-      "type": "recipe",
-      "nameId": "recipe/egg-tamago",
-      "en": "Egg Tamago",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/egg-tamago/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/wakame",
-        "fish/tangle"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-egg",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/wakame",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/tangle",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 165,
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
@@ -16633,10 +16596,7 @@
         "https://davethediver.net/zh-hans/recipe/snake-mix-spicy-soup/"
       ],
       "inferred": false,
-      "relatedFish": [
-        "fish/snake-meat",
-        "fish/viper-meat"
-      ],
+      "relatedFish": [],
       "ingredients": [
         {
           "ingredientId": "ingredient/snake-meat",
@@ -16663,48 +16623,6 @@
         "baseServings": null,
         "maxServings": null,
         "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/special-clione-queen-tentacle-soup",
-      "type": "recipe",
-      "nameId": "recipe/special-clione-queen-tentacle-soup",
-      "en": "Special Clione Queen Tentacle Soup",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/special-clione-queen-tentacle-soup/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/tangle"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-clione-queen-tentacle",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/tangle",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/miso",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/salt",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 550,
-        "maxPrice": null,
-        "baseTaste": 135,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1
       },
       "facets": {},
       "facts": []
@@ -16750,90 +16668,6 @@
       "facts": []
     },
     {
-      "id": "recipe/special-helicoprion-tail-grilled",
-      "type": "recipe",
-      "nameId": "recipe/special-helicoprion-tail-grilled",
-      "en": "Special Helicoprion Tail Grilled",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/special-helicoprion-tail-grilled/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/wakame"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-helicoprion-tail",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/wakame",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/durvillaea",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 710,
-        "maxPrice": null,
-        "baseTaste": 170,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/special-hermit-crab-leg-roastered",
-      "type": "recipe",
-      "nameId": "recipe/special-hermit-crab-leg-roastered",
-      "en": "Special Hermit Crab Leg Roastered",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/special-hermit-crab-leg-roastered/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/wakame"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-hermit-crab-leg",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/kajime",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/wakame",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/black-vinegar",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 550,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/special-klaus-fin-meat-ricebowl",
       "type": "recipe",
       "nameId": "recipe/special-klaus-fin-meat-ricebowl",
@@ -16857,48 +16691,6 @@
         "basePrice": 650,
         "maxPrice": null,
         "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/special-kronosaurus-tongue-steamed",
-      "type": "recipe",
-      "nameId": "recipe/special-kronosaurus-tongue-steamed",
-      "en": "Special Kronosaurus Tongue Steamed",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/special-kronosaurus-tongue-steamed/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/wakame"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-kronosaurus-tongue",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/wakame",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/agar",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/durvillaea",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 724,
-        "maxPrice": null,
-        "baseTaste": 180,
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
@@ -17015,44 +16807,6 @@
         "basePrice": 650,
         "maxPrice": null,
         "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/special-phantom-jelly-fillet-jelly",
-      "type": "recipe",
-      "nameId": "recipe/special-phantom-jelly-fillet-jelly",
-      "en": "Special Phantom Jelly Fillet Jelly",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/special-phantom-jelly-fillet-jelly/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/umbellula"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-phantom-jelly-fillet",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/agar",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/umbellula",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 700,
-        "maxPrice": null,
-        "baseTaste": 165,
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
@@ -29670,186 +29424,6 @@
       }
     },
     {
-      "id": "fish/snake-meat",
-      "type": "fish",
-      "nameId": "fish/snake-meat",
-      "en": "Snake Meat",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/snake-meat/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/snake-meat"
-      ],
-      "relatedRecipes": [
-        "recipe/snake-mix-spicy-soup"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 2
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/special-black-caiman-tail",
-      "type": "fish",
-      "nameId": "fish/special-black-caiman-tail",
-      "en": "Special Black Caiman Tail",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-black-caiman-tail/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/special-black-caiman-tail"
-      ],
-      "relatedRecipes": [
-        "recipe/black-caiman-grilled"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 12,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 17
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/tangle",
-      "type": "fish",
-      "nameId": "fish/tangle",
-      "en": "Tangle",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/tangle/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tangle"
-      ],
-      "relatedRecipes": [
-        "recipe/egg-tamago",
-        "recipe/rainbow-cap-pacific-fanfish-ochazuke",
-        "recipe/special-clione-queen-tentacle-soup",
-        "recipe/white-trevally-kombu-ochazuke"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 0.1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 6
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/umbellula",
-      "type": "fish",
-      "nameId": "fish/umbellula",
-      "en": "Umbellula",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/umbellula/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/umbellula"
-      ],
-      "relatedRecipes": [
-        "recipe/special-phantom-jelly-fillet-jelly"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 0.1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 9
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/viper-meat",
-      "type": "fish",
-      "nameId": "fish/viper-meat",
-      "en": "Viper Meat",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/viper-meat/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/viper-meat"
-      ],
-      "relatedRecipes": [
-        "recipe/snake-mix-spicy-soup"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 10
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/wakame",
-      "type": "fish",
-      "nameId": "fish/wakame",
-      "en": "Wakame",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/wakame/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [
-        "ingredient/wakame"
-      ],
-      "relatedRecipes": [
-        "recipe/egg-tamago",
-        "recipe/special-helicoprion-tail-grilled",
-        "recipe/special-hermit-crab-leg-roastered",
-        "recipe/special-kronosaurus-tongue-steamed"
-      ],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 0.1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 5
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
       "id": "fish/warrior-parrotfish",
       "type": "fish",
       "nameId": "fish/warrior-parrotfish",
@@ -29990,31 +29564,6 @@
         "racingUnlock": "text/2d28e9895f35",
         "ingredientResult": "text/71c88393332b",
         "otherUses": "text/2b732a463e86"
-      }
-    },
-    {
-      "id": "fish/sparrow-meat",
-      "type": "fish",
-      "nameId": "fish/sparrow-meat",
-      "en": "Sparrow Meat",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/sparrow-meat/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "rank": null,
-        "weight": 1,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 2
-      },
-      "region": [],
-      "facets": {
-        "time": null
       }
     },
     {
@@ -30378,8 +29927,7 @@
         "recipe/seasoned-kajime",
         "recipe/stir-fried-hermit-crab-and-seaweed",
         "recipe/grilled-antarctic-octopus-and-truffle",
-        "recipe/grilled-eel-with-habanero",
-        "recipe/special-hermit-crab-leg-roastered"
+        "recipe/grilled-eel-with-habanero"
       ],
       "acquisition-method": {
         "text": "130"
@@ -30524,7 +30072,6 @@
       "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
-        "recipe/egg-tamago",
         "recipe/egg-tenshinhan",
         "recipe/special-klaus-fin-meat-ricebowl"
       ],
@@ -30631,7 +30178,6 @@
         "recipe/steamed-wolf-eel",
         "recipe/stir-fried-hermit-crab-and-seaweed",
         "recipe/vege-tsukemono",
-        "recipe/special-hermit-crab-leg-roastered",
         "recipe/special-wolffish-tail-meat-steamed"
       ],
       "acquisition-method": {
@@ -30819,7 +30365,6 @@
         "recipe/narwhal-miso-soup",
         "recipe/nasu-dengaku",
         "recipe/seahorse-udon",
-        "recipe/special-clione-queen-tentacle-soup",
         "recipe/special-mantis-shrimp-shell-meat-boiled",
         "recipe/spiny-seahorse-udon"
       ],
@@ -30876,7 +30421,6 @@
         "recipe/whitetip-reefshark-roast",
         "recipe/seahorse-sea-grapes-salad",
         "recipe/special-goblin-shark-belly-meat-grilled",
-        "recipe/special-helicoprion-tail-grilled",
         "recipe/special-lusca-leg-blanched"
       ],
       "acquisition-method": {
@@ -30945,7 +30489,6 @@
         "recipe/seagrapes-jellyfish-sushi",
         "recipe/steamed-wolf-eel",
         "recipe/three-colored-squid-roast",
-        "recipe/special-clione-queen-tentacle-soup",
         "recipe/special-goblin-shark-belly-meat-grilled",
         "recipe/special-lusca-leg-blanched",
         "recipe/special-wolffish-tail-meat-steamed"
@@ -31172,9 +30715,7 @@
         "recipe/agar-tokoroten",
         "recipe/steamed-kronosaurus-tongue",
         "recipe/steamed-wolf-eel",
-        "recipe/special-kronosaurus-tongue-steamed",
         "recipe/special-mantis-shrimp-shell-meat-boiled",
-        "recipe/special-phantom-jelly-fillet-jelly",
         "recipe/special-wolffish-tail-meat-steamed"
       ],
       "facts": [
@@ -31242,7 +30783,8 @@
       "nameId": "ingredient/kelp",
       "en": "Kelp",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/kelp/"
+        "https://davethediver.net/zh-hans/ingredient/kelp/",
+        "https://davethediver.net/zh-hans/fish/tangle/"
       ],
       "inferred": false,
       "fishIds": [],
@@ -31319,7 +30861,8 @@
       "nameId": "ingredient/seaweed",
       "en": "Seaweed",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/seaweed/"
+        "https://davethediver.net/zh-hans/ingredient/seaweed/",
+        "https://davethediver.net/zh-hans/fish/wakame/"
       ],
       "inferred": false,
       "fishIds": [],
@@ -31358,7 +30901,8 @@
       "nameId": "ingredient/southern-bull-kelp",
       "en": "Southern Bull Kelp",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/southern-bull-kelp/"
+        "https://davethediver.net/zh-hans/ingredient/southern-bull-kelp/",
+        "https://davethediver.net/zh-hans/fish/durvillaea/"
       ],
       "inferred": false,
       "fishIds": [],
@@ -31547,7 +31091,8 @@
       "nameId": "ingredient/buckbean",
       "en": "Buckbean",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/buckbean/"
+        "https://davethediver.net/zh-hans/ingredient/buckbean/",
+        "https://davethediver.net/zh-hans/fish/umbellula/"
       ],
       "inferred": false,
       "fishIds": [],
@@ -31578,7 +31123,8 @@
       ],
       "stats": {
         "weight": 0.1,
-        "rank": 4
+        "rank": 4,
+        "sellPrice": 9
       },
       "facets": {}
     },
@@ -31676,28 +31222,6 @@
       "stats": {
         "sellPrice": 2,
         "weight": 1
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/durvillaea",
-      "type": "ingredient",
-      "nameId": "ingredient/durvillaea",
-      "en": "Durvillaea",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/durvillaea/"
-      ],
-      "inferred": false,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/special-helicoprion-tail-grilled",
-        "recipe/special-kronosaurus-tongue-steamed"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 8,
-        "weight": 0.1
       },
       "facets": {}
     },
@@ -38270,29 +37794,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/wakame",
-      "type": "ingredient",
-      "nameId": "fish/wakame",
-      "en": "Wakame",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/wakame"
-      ],
-      "relatedFish": [
-        "fish/wakame"
-      ],
-      "relatedRecipes": [
-        "recipe/egg-tamago",
-        "recipe/special-helicoprion-tail-grilled",
-        "recipe/special-hermit-crab-leg-roastered",
-        "recipe/special-kronosaurus-tongue-steamed"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/bamboo-shoot",
       "type": "ingredient",
       "nameId": "ingredient/bamboo-shoot",
@@ -38467,16 +37968,12 @@
     {
       "id": "ingredient/special-black-caiman-tail",
       "type": "ingredient",
-      "nameId": "fish/special-black-caiman-tail",
+      "nameId": "ingredient/special-black-caiman-tail",
       "en": "Special Black Caiman Tail",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/special-black-caiman-tail"
-      ],
-      "relatedFish": [
-        "fish/special-black-caiman-tail"
-      ],
+      "fishIds": [],
+      "relatedFish": [],
       "relatedRecipes": [
         "recipe/black-caiman-grilled"
       ],
@@ -38665,47 +38162,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/tangle",
-      "type": "ingredient",
-      "nameId": "fish/tangle",
-      "en": "Tangle",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/tangle"
-      ],
-      "relatedFish": [
-        "fish/tangle"
-      ],
-      "relatedRecipes": [
-        "recipe/egg-tamago",
-        "recipe/special-clione-queen-tentacle-soup"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/umbellula",
-      "type": "ingredient",
-      "nameId": "fish/umbellula",
-      "en": "Umbellula",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [
-        "fish/umbellula"
-      ],
-      "relatedFish": [
-        "fish/umbellula"
-      ],
-      "relatedRecipes": [
-        "recipe/special-phantom-jelly-fillet-jelly"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/special-giant-snakehead",
       "type": "ingredient",
       "nameId": "ingredient/special-giant-snakehead",
@@ -38828,16 +38284,12 @@
     {
       "id": "ingredient/snake-meat",
       "type": "ingredient",
-      "nameId": "fish/snake-meat",
+      "nameId": "ingredient/snake-meat",
       "en": "Snake Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/snake-meat"
-      ],
-      "relatedFish": [
-        "fish/snake-meat"
-      ],
+      "fishIds": [],
+      "relatedFish": [],
       "relatedRecipes": [
         "recipe/snake-mix-spicy-soup"
       ],
@@ -38848,16 +38300,12 @@
     {
       "id": "ingredient/viper-meat",
       "type": "ingredient",
-      "nameId": "fish/viper-meat",
+      "nameId": "ingredient/viper-meat",
       "en": "Viper Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/viper-meat"
-      ],
-      "relatedFish": [
-        "fish/viper-meat"
-      ],
+      "fishIds": [],
+      "relatedFish": [],
       "relatedRecipes": [
         "recipe/snake-mix-spicy-soup"
       ],
@@ -38880,22 +38328,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/special-clione-queen-tentacle",
-      "type": "ingredient",
-      "nameId": "ingredient/special-clione-queen-tentacle",
-      "en": "Special Clione Queen Tentacle",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/special-clione-queen-tentacle-soup"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/special-goblin-shark-belly-meat",
       "type": "ingredient",
       "nameId": "ingredient/special-goblin-shark-belly-meat",
@@ -38912,38 +38344,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/special-helicoprion-tail",
-      "type": "ingredient",
-      "nameId": "ingredient/special-helicoprion-tail",
-      "en": "Special Helicoprion Tail",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/special-helicoprion-tail-grilled"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-hermit-crab-leg",
-      "type": "ingredient",
-      "nameId": "ingredient/special-hermit-crab-leg",
-      "en": "Special Hermit Crab Leg",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/special-hermit-crab-leg-roastered"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/special-klaus-fin-meat",
       "type": "ingredient",
       "nameId": "ingredient/special-klaus-fin-meat",
@@ -38954,22 +38354,6 @@
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-klaus-fin-meat-ricebowl"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-kronosaurus-tongue",
-      "type": "ingredient",
-      "nameId": "ingredient/special-kronosaurus-tongue",
-      "en": "Special Kronosaurus Tongue",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/special-kronosaurus-tongue-steamed"
       ],
       "facts": [],
       "stats": {},
@@ -39018,22 +38402,6 @@
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-mantis-shrimp-shell-meat-boiled"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-phantom-jelly-fillet",
-      "type": "ingredient",
-      "nameId": "ingredient/special-phantom-jelly-fillet",
-      "en": "Special Phantom Jelly Fillet",
-      "sourceUrls": [],
-      "inferred": true,
-      "fishIds": [],
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/special-phantom-jelly-fillet-jelly"
       ],
       "facts": [],
       "stats": {},
