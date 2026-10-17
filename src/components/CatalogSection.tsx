@@ -44,7 +44,7 @@ export function CatalogSection({ type }: { type: EntityType }) {
       { title: "鱼肉 · 1 / 2 / 3 星", key: "meat", render: (_: unknown, e: Entity) => [1, 2, 3].map(i => statText(e.stats[`meat${i}`])).join(" / ") },
       { title: "关联菜谱", key: "recipes", render: (_: unknown, e: Entity) => e.type === "fish" ? `${e.relatedRecipes.length} 道` : "" },
     ] : [
-      { title: "来源鱼类", key: "fish", width: 260, render: (_: unknown, e: Entity) => e.type === "ingredient" && e.fishIds.length ? <Space wrap>{e.fishIds.map(id => <EntityLink key={id} id={id} />)}</Space> : "农场、派遣或其他来源" },
+      { title: "来源鱼类", key: "fish", width: 260, render: (_: unknown, e: Entity) => e.type === "ingredient" && e.relatedFish.length ? <Space wrap>{e.relatedFish.map(id => <EntityLink key={id} id={id} />)}</Space> : "农场、派遣或其他来源" },
       { title: "可制作菜谱", key: "recipes", render: (_: unknown, e: Entity) => e.type === "ingredient" ? `${e.relatedRecipes.length} 道` : "" },
     ]),
   ];

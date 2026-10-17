@@ -82,7 +82,7 @@ location / {
 
 `database.json` 不保存“每公斤价值”、员工基础 / 满级属性总和、关联菜谱数量，也不保存 `computed`、`stat` 等显示描述。前端的 `getDisplayFacts()` 根据基础数据追加：每公斤价值 = `stats.sellPrice / stats.weight`（显示最多一位小数）；员工总和 = 对应四项属性之和；菜谱数量 = 当前去重后的关联菜谱数。基础数据不齐或重量非正时不追加相应计算字段，零售价和零菜谱数量正常显示。来源鱼类的“关联菜谱”字段仍保留，作为已核对的独立关联依据。
 
-14 种有编号的海马共用 `ingredient/seahorse`，各物种保留独立图鉴与属性，食材的 `fishIds` / `relatedFish` 列出全部 14 种来源。炸海马、海马沙拉、海马烤串、海马乌冬面均使用该通用食材，四道菜谱与各海马、通用食材保持双向关联；不再使用泛称 `fish/seahorse` 或长吻海马专用食材占位。
+14 种有编号的海马共用 `ingredient/seahorse`，各物种保留独立图鉴与属性，食材的 `relatedFish` 列出全部 14 种来源。炸海马、海马沙拉、海马烤串、海马乌冬面均使用该通用食材，四道菜谱与各海马、通用食材保持双向关联；不再使用泛称 `fish/seahorse` 或长吻海马专用食材占位。
 
 杂草海龙、叶海龙、红宝石海龙共用 `ingredient/seadragon`，三种来源与海龙饭团保持双向关联；通用食材保留独立食材记录的售价、重量和等级，不再使用泛称 `fish/seadragon` 或重复的 `ingredient/seadragon-ingredient`。
 

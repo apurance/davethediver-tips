@@ -28702,7 +28702,6 @@
         "https://davethediver.net/zh-hans/ingredient/bean/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/ice-fish-curry",
@@ -28733,7 +28732,6 @@
         "https://davethediver.net/zh-hans/ingredient/black-coral/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/roasted-capelin",
@@ -28763,7 +28761,6 @@
         "https://davethediver.net/zh-hans/ingredient/carrot/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/atlantic-bonito-curry",
@@ -28800,7 +28797,6 @@
         "https://davethediver.net/zh-hans/ingredient/cherry-tomato/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/great-barracuda-canape",
@@ -28834,7 +28830,6 @@
         "https://davethediver.net/zh-hans/ingredient/cucumber/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/skewered-cucumber",
@@ -28869,7 +28864,6 @@
         "https://davethediver.net/zh-hans/ingredient/egg/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bluefin-tuna-rice-bowl",
@@ -28907,7 +28901,6 @@
         "https://davethediver.net/zh-hans/ingredient/eggplant/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/vegetable-sushi",
@@ -28941,7 +28934,6 @@
         "https://davethediver.net/zh-hans/ingredient/garlic/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/peacock-squid-ripieni",
@@ -28975,7 +28967,6 @@
         "https://davethediver.net/zh-hans/ingredient/kajime/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/smallspotted-dart-kajime-soup",
@@ -29010,7 +29001,6 @@
         "https://davethediver.net/zh-hans/ingredient/onion/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/antarctic-octopus-carpaccio",
@@ -29044,7 +29034,6 @@
         "https://davethediver.net/zh-hans/ingredient/rice/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bluefin-tuna-rice-bowl",
@@ -29089,7 +29078,6 @@
         "https://davethediver.net/zh-hans/ingredient/sea-grape/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/hot-pepper-tuna",
@@ -29126,7 +29114,6 @@
         "https://davethediver.net/zh-hans/fish/special-egg/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/egg-tenshinhan",
@@ -29153,7 +29140,6 @@
         "https://davethediver.net/zh-hans/fish/special-whitetip-reefshark-head/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/whitetip-reefshark-roast"
@@ -29189,7 +29175,6 @@
         "https://davethediver.net/zh-hans/ingredient/black-pepper/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/peacock-squid-ripieni",
@@ -29220,7 +29205,6 @@
         "https://davethediver.net/zh-hans/ingredient/black-vinegar/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/pelican-eel-jelly",
@@ -29259,7 +29243,6 @@
         "https://davethediver.net/zh-hans/ingredient/buckwheat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/eggplant-soba-oyaki",
@@ -29287,7 +29270,6 @@
         "https://davethediver.net/zh-hans/ingredient/curry-block/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/atlantic-bonito-curry",
@@ -29317,7 +29299,6 @@
         "https://davethediver.net/zh-hans/ingredient/hyalonema/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/hyalonema-tuna-sashimi",
@@ -29347,7 +29328,6 @@
         "https://davethediver.net/zh-hans/ingredient/mayonnaise/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/blobfish-spring-roll",
@@ -29381,9 +29361,6 @@
         "https://davethediver.net/zh-hans/fish/meat-giant-trevally/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/giant-trevally"
-      ],
       "relatedFish": [
         "fish/giant-trevally"
       ],
@@ -29409,7 +29386,6 @@
         "https://davethediver.net/zh-hans/ingredient/miso/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/eggplant-soba-oyaki",
@@ -29446,7 +29422,6 @@
         "https://davethediver.net/zh-hans/ingredient/olive-oil/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/antarctic-octopus-carpaccio",
@@ -29500,7 +29475,6 @@
         "https://davethediver.net/zh-hans/ingredient/rainbow-cap/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/rainbow-cap-eel-skewers",
@@ -29530,7 +29504,6 @@
         "https://davethediver.net/zh-hans/ingredient/salt/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/goblin-shark-belly-roast",
@@ -29570,7 +29543,6 @@
         "https://davethediver.net/zh-hans/ingredient/soy-sauce/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/smallspotted-dart-kajime-soup",
@@ -29614,9 +29586,6 @@
         "https://davethediver.net/zh-hans/ingredient/tiger-shark-meat/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/tiger-shark"
-      ],
       "relatedFish": [
         "fish/tiger-shark"
       ],
@@ -29644,7 +29613,6 @@
         "https://davethediver.net/zh-hans/ingredient/truffle/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/truffle-blue-lobster-tail-sushi",
@@ -29675,7 +29643,6 @@
         "https://davethediver.net/zh-hans/ingredient/turmeric/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/moray-eel-curry",
@@ -29705,7 +29672,6 @@
         "https://davethediver.net/zh-hans/ingredient/blacktip-shark-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [
         "fish/blacktip-reefshark"
       ],
@@ -29732,9 +29698,6 @@
         "https://davethediver.net/zh-hans/fish/meat-marbled-electric-ray/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/marbled-electric-ray"
-      ],
       "relatedFish": [
         "fish/marbled-electric-ray"
       ],
@@ -29760,7 +29723,6 @@
         "https://davethediver.net/zh-hans/fish/gelidium/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/pelican-eel-jelly",
@@ -29802,7 +29764,6 @@
         "https://davethediver.net/zh-hans/ingredient/grade-a-egg/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/pikaia-ramen",
@@ -29842,7 +29803,6 @@
         "https://davethediver.net/zh-hans/fish/tangle/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/steamed-eastern-rock-lobster-and-egg",
@@ -29884,7 +29844,6 @@
         "https://davethediver.net/zh-hans/ingredient/klauss-fin/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/white-shark-omelet"
@@ -29920,7 +29879,6 @@
         "https://davethediver.net/zh-hans/fish/wakame/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/falcatus-soybean-paste-soup",
@@ -29960,7 +29918,6 @@
         "https://davethediver.net/zh-hans/fish/durvillaea/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/pikaia-ramen",
@@ -30001,7 +29958,6 @@
         "https://davethediver.net/zh-hans/ingredient/wheat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/blobfish-spring-roll",
@@ -30046,9 +30002,6 @@
         "https://davethediver.net/zh-hans/ingredient/whitetip-reefshark-head/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/whitetip-reefshark"
-      ],
       "relatedFish": [
         "fish/whitetip-reefshark"
       ],
@@ -30085,9 +30038,6 @@
         "https://davethediver.net/zh-hans/ingredient/whitetip-reefshark-meat/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/whitetip-reefshark"
-      ],
       "relatedFish": [
         "fish/whitetip-reefshark"
       ],
@@ -30125,7 +30075,6 @@
         "https://davethediver.net/zh-hans/ingredient/bladderwrack/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/crystal-lobster-roll",
@@ -30150,7 +30099,6 @@
         "https://davethediver.net/zh-hans/fish/umbellula/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/falcatus-soybean-paste-soup",
@@ -30192,7 +30140,6 @@
         "https://davethediver.net/zh-hans/fish/chili-pepper/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [],
@@ -30211,7 +30158,6 @@
         "https://davethediver.net/zh-hans/ingredient/clione-queen-tentacle/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/clione-queen-soup"
@@ -30237,7 +30183,6 @@
         "https://davethediver.net/zh-hans/ingredient/common-cat-food/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [
@@ -30268,7 +30213,6 @@
         "https://davethediver.net/zh-hans/fish/duck-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/water-cashewnut-duck-grilled"
@@ -30289,7 +30233,6 @@
         "https://davethediver.net/zh-hans/fish/frog-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/hindleg-mix-fried"
@@ -30310,9 +30253,6 @@
         "https://davethediver.net/zh-hans/ingredient/giant-trevally-meat/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/giant-trevally"
-      ],
       "relatedFish": [
         "fish/giant-trevally"
       ],
@@ -30340,7 +30280,6 @@
         "https://davethediver.net/zh-hans/ingredient/goblin-sharks-fatty-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/goblin-shark-belly-roast"
@@ -30366,7 +30305,6 @@
         "https://davethediver.net/zh-hans/ingredient/habanero/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/hot-pepper-tuna",
@@ -30401,7 +30339,6 @@
         "https://davethediver.net/zh-hans/ingredient/helicoprion-tail/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/roasted-helicoprion-tail"
@@ -30433,7 +30370,6 @@
         "https://davethediver.net/zh-hans/ingredient/high-quality-cat-food/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [
@@ -30464,7 +30400,6 @@
         "https://davethediver.net/zh-hans/ingredient/kronosaurus-tongue/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/steamed-kronosaurus-tongue"
@@ -30496,7 +30431,6 @@
         "https://davethediver.net/zh-hans/fish/lake-weeds-water-chestnut/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/blue-gill-steamed",
@@ -30520,7 +30454,6 @@
         "https://davethediver.net/zh-hans/fish/lizard-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/hindleg-mix-fried"
@@ -30541,7 +30474,6 @@
         "https://davethediver.net/zh-hans/fish/loot-birds-eye-chili/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/crayfish-lemongrass-steamed",
@@ -30572,7 +30504,6 @@
         "https://davethediver.net/zh-hans/fish/loot-capirlime-leaf/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bird-mix-seasoned",
@@ -30600,7 +30531,6 @@
         "https://davethediver.net/zh-hans/fish/loot-cilantro/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bananablossom-salad",
@@ -30631,7 +30561,6 @@
         "https://davethediver.net/zh-hans/fish/loot-coconut-milk/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/alligator-gar-durian-head-curry",
@@ -30663,7 +30592,6 @@
         "https://davethediver.net/zh-hans/fish/loot-fish-sauce/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-basilosaurus-hot-pot",
@@ -30698,7 +30626,6 @@
         "https://davethediver.net/zh-hans/fish/loot-lemongrass/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/crayfish-lemongrass-steamed",
@@ -30732,7 +30659,6 @@
         "https://davethediver.net/zh-hans/fish/loot-palm-sugar/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/giant-fresh-water-stingray-barbecued",
@@ -30762,7 +30688,6 @@
         "https://davethediver.net/zh-hans/fish/loot-sambal-sauce/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/giant-fresh-water-stingray-barbecued",
@@ -30793,7 +30718,6 @@
         "https://davethediver.net/zh-hans/fish/loot-shallot/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bird-mix-seasoned",
@@ -30821,7 +30745,6 @@
         "https://davethediver.net/zh-hans/fish/loot-tamarind/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/black-caiman-red-pineapple-stir-fried",
@@ -30850,7 +30773,6 @@
         "https://davethediver.net/zh-hans/fish/loot-wiwaxia-01/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/wiwaxia"
@@ -30871,7 +30793,6 @@
         "https://davethediver.net/zh-hans/ingredient/lusca-neck-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/lusca-neck-tadaki"
@@ -30897,7 +30818,6 @@
         "https://davethediver.net/zh-hans/ingredient/lusca-tentacle/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/blanched-lusca-tentacle"
@@ -30923,7 +30843,6 @@
         "https://davethediver.net/zh-hans/ingredient/mantis-shrimp-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boiled-mantis-shrimp-with-soy-paste"
@@ -30949,9 +30868,6 @@
         "https://davethediver.net/zh-hans/fish/meat-copper-shark/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/copper-shark"
-      ],
       "relatedFish": [
         "fish/copper-shark"
       ],
@@ -30975,9 +30891,6 @@
         "https://davethediver.net/zh-hans/fish/meat-drepanaspis/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/drepanaspis"
-      ],
       "relatedFish": [
         "fish/drepanaspis"
       ],
@@ -31000,9 +30913,6 @@
         "https://davethediver.net/zh-hans/fish/meat-dunkleosteus/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/dunkleosteus"
-      ],
       "relatedFish": [
         "fish/dunkleosteus"
       ],
@@ -31025,9 +30935,6 @@
         "https://davethediver.net/zh-hans/fish/meat-frilled-shark/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/frilled-shark"
-      ],
       "relatedFish": [
         "fish/frilled-shark"
       ],
@@ -31051,9 +30958,6 @@
         "https://davethediver.net/zh-hans/fish/meat-green-humphead-parrotfish/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/green-humphead-parrotfish"
-      ],
       "relatedFish": [
         "fish/green-humphead-parrotfish"
       ],
@@ -31074,9 +30978,6 @@
         "https://davethediver.net/zh-hans/fish/meat-greenland-shark/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/greenland-shark"
-      ],
       "relatedFish": [
         "fish/greenland-shark"
       ],
@@ -31099,9 +31000,6 @@
         "https://davethediver.net/zh-hans/fish/meat-humboldt-squid/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/humboldt-squid"
-      ],
       "relatedFish": [
         "fish/humboldt-squid"
       ],
@@ -31125,9 +31023,6 @@
         "https://davethediver.net/zh-hans/fish/meat-long-nose-saw-shark/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/long-nose-saw-shark"
-      ],
       "relatedFish": [
         "fish/long-nose-saw-shark"
       ],
@@ -31150,9 +31045,6 @@
         "https://davethediver.net/zh-hans/fish/meat-megamouth-shark/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/megamouth-shark"
-      ],
       "relatedFish": [
         "fish/megamouth-shark"
       ],
@@ -31176,9 +31068,6 @@
         "https://davethediver.net/zh-hans/fish/meat-narwhal/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/narwhal"
-      ],
       "relatedFish": [
         "fish/narwhal"
       ],
@@ -31202,9 +31091,6 @@
         "https://davethediver.net/zh-hans/fish/meat-porbeagle-shark/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/porbeagle-shark"
-      ],
       "relatedFish": [
         "fish/porbeagle-shark"
       ],
@@ -31228,9 +31114,6 @@
         "https://davethediver.net/zh-hans/fish/meat-rhinochimaeridae/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/rhinochimaeridae"
-      ],
       "relatedFish": [
         "fish/rhinochimaeridae"
       ],
@@ -31254,9 +31137,6 @@
         "https://davethediver.net/zh-hans/fish/meat-sail-fish/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/sailfish"
-      ],
       "relatedFish": [
         "fish/sailfish"
       ],
@@ -31281,9 +31161,6 @@
         "https://davethediver.net/zh-hans/fish/meat-shortfin-mako/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/shortfin-mako"
-      ],
       "relatedFish": [
         "fish/shortfin-mako"
       ],
@@ -31304,7 +31181,6 @@
         "https://davethediver.net/zh-hans/fish/meat-smooth-hammershark/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [],
@@ -31323,9 +31199,6 @@
         "https://davethediver.net/zh-hans/fish/meat-sword-fish/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/sword-fish"
-      ],
       "relatedFish": [
         "fish/sword-fish"
       ],
@@ -31348,9 +31221,6 @@
         "https://davethediver.net/zh-hans/fish/meat-thresher-shark/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/thresher-shark"
-      ],
       "relatedFish": [
         "fish/thresher-shark"
       ],
@@ -31373,7 +31243,6 @@
         "https://davethediver.net/zh-hans/fish/meat-whitetip-reefshark-head/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [],
@@ -31392,9 +31261,6 @@
         "https://davethediver.net/zh-hans/fish/meat-xenacanthus/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/xenacanthus"
-      ],
       "relatedFish": [
         "fish/xenacanthus"
       ],
@@ -31417,9 +31283,6 @@
         "https://davethediver.net/zh-hans/fish/meat-zebra-shark/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/zebra-shark"
-      ],
       "relatedFish": [
         "fish/zebra-shark"
       ],
@@ -31442,7 +31305,6 @@
         "https://davethediver.net/zh-hans/ingredient/phantom-jellyfish-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/phantom-jellyfish-jelly"
@@ -31465,7 +31327,6 @@
         "https://davethediver.net/zh-hans/fish/pheasant-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bird-mix-seasoned"
@@ -31486,7 +31347,6 @@
         "https://davethediver.net/zh-hans/fish/quail-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bird-mix-seasoned"
@@ -31507,7 +31367,6 @@
         "https://davethediver.net/zh-hans/fish/raw-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/tangsuyuk-fried"
@@ -31529,7 +31388,6 @@
         "https://davethediver.net/zh-hans/ingredient/sesame-seed/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bluefin-tuna-rice-bowl",
@@ -31558,7 +31416,6 @@
         "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-akami/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [],
@@ -31577,7 +31434,6 @@
         "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-chutoro/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [],
@@ -31596,7 +31452,6 @@
         "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-ootoro/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/blue-fin-tuna-ootoro",
@@ -31618,7 +31473,6 @@
         "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-akami/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/yellow-fin-tuna-poke"
@@ -31639,7 +31493,6 @@
         "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-chutoro/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [],
@@ -31658,7 +31511,6 @@
         "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-ootoro/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/tuna-ootoro-sliced"
@@ -31679,7 +31531,6 @@
         "https://davethediver.net/zh-hans/ingredient/truck-hermit-crab-legs/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/stir-fried-hermit-crab-and-seaweed"
@@ -31705,9 +31556,6 @@
         "https://davethediver.net/zh-hans/ingredient/marbled-electric-ray-meat/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/marbled-electric-ray"
-      ],
       "relatedFish": [
         "fish/marbled-electric-ray"
       ],
@@ -31734,9 +31582,6 @@
         "https://davethediver.net/zh-hans/ingredient/stingray-meat/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/stingray"
-      ],
       "relatedFish": [
         "fish/stingray"
       ],
@@ -31763,7 +31608,6 @@
         "https://davethediver.net/zh-hans/ingredient/wolf-eel-tail-meat/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/steamed-wolf-eel"
@@ -31801,7 +31645,6 @@
         "https://davethediver.net/zh-hans/ingredient/yawies-inner-flesh/"
       ],
       "inferred": false,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/yawie-steamed-meat"
@@ -31824,9 +31667,6 @@
       "en": "Atlantic Bonito",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/atlantic-bonito"
-      ],
       "relatedFish": [
         "fish/atlantic-bonito"
       ],
@@ -31845,9 +31685,6 @@
       "en": "Bluefin Tuna Akami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bluefin-tuna"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -31866,9 +31703,6 @@
       "en": "Crystal Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crystal-lobster"
-      ],
       "relatedFish": [
         "fish/crystal-lobster"
       ],
@@ -31887,9 +31721,6 @@
       "en": "Ice Fish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/ice-fish"
-      ],
       "relatedFish": [
         "fish/ice-fish"
       ],
@@ -31908,9 +31739,6 @@
       "en": "Moray Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/moray-eel"
-      ],
       "relatedFish": [
         "fish/moray-eel"
       ],
@@ -31932,11 +31760,6 @@
         "https://davethediver.net/zh-hans/ingredient/seadragon-ingredient/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/weedy-seadragon",
-        "fish/leafy-seadragon",
-        "fish/ruby-seadragon"
-      ],
       "relatedFish": [
         "fish/weedy-seadragon",
         "fish/leafy-seadragon",
@@ -31969,9 +31792,6 @@
       "en": "Rainbow Wrasse",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/rainbow-wrasse"
-      ],
       "relatedFish": [
         "fish/rainbow-wrasse"
       ],
@@ -31990,9 +31810,6 @@
       "en": "Ornate Wrasse",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/ornate-wrasse"
-      ],
       "relatedFish": [
         "fish/ornate-wrasse"
       ],
@@ -32011,9 +31828,6 @@
       "en": "Antarctic Octopus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/antarctic-octopus"
-      ],
       "relatedFish": [
         "fish/antarctic-octopus"
       ],
@@ -32033,9 +31847,6 @@
       "en": "Blobfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/blobfish"
-      ],
       "relatedFish": [
         "fish/blobfish"
       ],
@@ -32054,9 +31865,6 @@
       "en": "Comber",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/comber"
-      ],
       "relatedFish": [
         "fish/comber"
       ],
@@ -32075,9 +31883,6 @@
       "en": "Painted Comber",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/painted-comber"
-      ],
       "relatedFish": [
         "fish/painted-comber"
       ],
@@ -32096,9 +31901,6 @@
       "en": "Great Barracuda",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/great-barracuda"
-      ],
       "relatedFish": [
         "fish/great-barracuda"
       ],
@@ -32117,9 +31919,6 @@
       "en": "Bluefin Tuna Chutoro",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bluefin-tuna"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -32139,9 +31938,6 @@
       "en": "American Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/american-lobster"
-      ],
       "relatedFish": [
         "fish/american-lobster"
       ],
@@ -32160,9 +31956,6 @@
       "en": "Tropical Rock Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/tropical-rock-lobster"
-      ],
       "relatedFish": [
         "fish/tropical-rock-lobster"
       ],
@@ -32181,9 +31974,6 @@
       "en": "Tokummia Katalepsis",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/tokummia-katalepsis"
-      ],
       "relatedFish": [
         "fish/tokummia-katalepsis"
       ],
@@ -32202,9 +31992,6 @@
       "en": "Peacock Squid",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/peacock-squid"
-      ],
       "relatedFish": [
         "fish/peacock-squid"
       ],
@@ -32224,9 +32011,6 @@
       "en": "Pelican Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/pelican-eel"
-      ],
       "relatedFish": [
         "fish/pelican-eel"
       ],
@@ -32245,9 +32029,6 @@
       "en": "Pikaia",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/pikaia"
-      ],
       "relatedFish": [
         "fish/pikaia"
       ],
@@ -32266,9 +32047,6 @@
       "en": "Small Spotted Dart",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/small-spotted-dart"
-      ],
       "relatedFish": [
         "fish/small-spotted-dart"
       ],
@@ -32287,9 +32065,6 @@
       "en": "Spear Squid",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/spear-squid"
-      ],
       "relatedFish": [
         "fish/spear-squid"
       ],
@@ -32308,9 +32083,6 @@
       "en": "Starry Puffer",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/starry-puffer"
-      ],
       "relatedFish": [
         "fish/starry-puffer"
       ],
@@ -32330,9 +32102,6 @@
       "en": "Barrel Jellyfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/barrel-jellyfish"
-      ],
       "relatedFish": [
         "fish/barrel-jellyfish"
       ],
@@ -32351,9 +32120,6 @@
       "en": "Blue Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/blue-lobster"
-      ],
       "relatedFish": [
         "fish/blue-lobster"
       ],
@@ -32372,9 +32138,6 @@
       "en": "Box Jellyfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/box-jellyfish"
-      ],
       "relatedFish": [
         "fish/box-jellyfish"
       ],
@@ -32393,9 +32156,6 @@
       "en": "California Spiny Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/california-spiny-lobster"
-      ],
       "relatedFish": [
         "fish/california-spiny-lobster"
       ],
@@ -32414,9 +32174,6 @@
       "en": "Comb Jelly",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/comb-jelly"
-      ],
       "relatedFish": [
         "fish/comb-jelly"
       ],
@@ -32435,9 +32192,6 @@
       "en": "Whiteleg Shrimp",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/whiteleg-shrimp"
-      ],
       "relatedFish": [
         "fish/whiteleg-shrimp"
       ],
@@ -32459,9 +32213,6 @@
       "en": "Cookiecutter Shark",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/cookiecutter-shark"
-      ],
       "relatedFish": [
         "fish/cookiecutter-shark"
       ],
@@ -32480,9 +32231,6 @@
       "en": "Dollocaris Ingens",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/dollocaris-ingens"
-      ],
       "relatedFish": [
         "fish/dollocaris-ingens"
       ],
@@ -32500,9 +32248,6 @@
       "en": "Eastern Rock Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/eastern-rock-lobster"
-      ],
       "relatedFish": [
         "fish/eastern-rock-lobster"
       ],
@@ -32521,9 +32266,6 @@
       "en": "European Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/european-lobster"
-      ],
       "relatedFish": [
         "fish/european-lobster"
       ],
@@ -32542,9 +32284,6 @@
       "en": "Falcatus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/falcatus"
-      ],
       "relatedFish": [
         "fish/falcatus"
       ],
@@ -32563,9 +32302,6 @@
       "en": "Fan Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/fan-lobster"
-      ],
       "relatedFish": [
         "fish/fan-lobster"
       ],
@@ -32583,9 +32319,6 @@
       "en": "Fried Egg Jellyfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/fried-egg-jellyfish"
-      ],
       "relatedFish": [
         "fish/fried-egg-jellyfish"
       ],
@@ -32604,9 +32337,6 @@
       "en": "Norway Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/norway-lobster"
-      ],
       "relatedFish": [
         "fish/norway-lobster"
       ],
@@ -32625,9 +32355,6 @@
       "en": "Black Tiger Shrimp",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/black-tiger-shrimp"
-      ],
       "relatedFish": [
         "fish/black-tiger-shrimp"
       ],
@@ -32648,9 +32375,6 @@
       "en": "Waptia Fieldensis",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/waptia-fieldensis"
-      ],
       "relatedFish": [
         "fish/waptia-fieldensis"
       ],
@@ -32669,9 +32393,6 @@
       "en": "White Shrimp",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/white-shrimp"
-      ],
       "relatedFish": [
         "fish/white-shrimp"
       ],
@@ -32691,9 +32412,6 @@
       "en": "Alaska Pollock",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/alaska-pollock"
-      ],
       "relatedFish": [
         "fish/alaska-pollock"
       ],
@@ -32711,9 +32429,6 @@
       "en": "Allenypterus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/allenypterus"
-      ],
       "relatedFish": [
         "fish/allenypterus"
       ],
@@ -32731,9 +32446,6 @@
       "en": "Arctic Cod",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/arctic-cod"
-      ],
       "relatedFish": [
         "fish/arctic-cod"
       ],
@@ -32752,9 +32464,6 @@
       "en": "Arctic Telescope Fish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/arctic-telescope-fish"
-      ],
       "relatedFish": [
         "fish/arctic-telescope-fish"
       ],
@@ -32772,9 +32481,6 @@
       "en": "Atlantic Anglerfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/atlantic-anglerfish"
-      ],
       "relatedFish": [
         "fish/atlantic-anglerfish"
       ],
@@ -32793,9 +32499,6 @@
       "en": "Atlantic Mackerel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/atlantic-mackerel"
-      ],
       "relatedFish": [
         "fish/atlantic-mackerel"
       ],
@@ -32815,9 +32518,6 @@
       "en": "Black and White Snapper",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/black-and-white-snapper"
-      ],
       "relatedFish": [
         "fish/black-and-white-snapper"
       ],
@@ -32835,9 +32535,6 @@
       "en": "Barreleye",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/barreleye"
-      ],
       "relatedFish": [
         "fish/barreleye"
       ],
@@ -32857,9 +32554,6 @@
       "en": "Bigeye Scad",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bigeye-scad"
-      ],
       "relatedFish": [
         "fish/bigeye-scad"
       ],
@@ -32878,9 +32572,6 @@
       "en": "Bigeye Trevally",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bigeye-scad"
-      ],
       "relatedFish": [
         "fish/bigeye-scad"
       ],
@@ -32898,9 +32589,6 @@
       "en": "Blackfin Barracuda",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/blackfin-barracuda"
-      ],
       "relatedFish": [
         "fish/blackfin-barracuda"
       ],
@@ -32919,9 +32607,6 @@
       "en": "Bluehead Tilefish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bluehead-tilefish"
-      ],
       "relatedFish": [
         "fish/bluehead-tilefish"
       ],
@@ -32939,9 +32624,6 @@
       "en": "Capelin",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/capelin"
-      ],
       "relatedFish": [
         "fish/capelin"
       ],
@@ -32960,9 +32642,6 @@
       "en": "Chambered Nautilus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/chambered-nautilus"
-      ],
       "relatedFish": [
         "fish/chambered-nautilus"
       ],
@@ -32980,9 +32659,6 @@
       "en": "Clearfin Lionfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/clearfin-lionfish"
-      ],
       "relatedFish": [
         "fish/clearfin-lionfish"
       ],
@@ -33001,9 +32677,6 @@
       "en": "Clione",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/clione"
-      ],
       "relatedFish": [
         "fish/clione"
       ],
@@ -33021,9 +32694,6 @@
       "en": "Green Sea Urchin",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/green-sea-urchin"
-      ],
       "relatedFish": [
         "fish/green-sea-urchin"
       ],
@@ -33044,9 +32714,6 @@
       "en": "Coral Trout",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/coral-trout"
-      ],
       "relatedFish": [
         "fish/coral-trout"
       ],
@@ -33066,9 +32733,6 @@
       "en": "Clown Frogfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/clown-frogfish"
-      ],
       "relatedFish": [
         "fish/clown-frogfish"
       ],
@@ -33087,9 +32751,6 @@
       "en": "Red Bream",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/red-bream"
-      ],
       "relatedFish": [
         "fish/red-bream"
       ],
@@ -33108,9 +32769,6 @@
       "en": "Dumbo Octopus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/dumbo-octopus"
-      ],
       "relatedFish": [
         "fish/dumbo-octopus"
       ],
@@ -33129,9 +32787,6 @@
       "en": "Dusky Grouper",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/dusky-grouper"
-      ],
       "relatedFish": [
         "fish/dusky-grouper"
       ],
@@ -33150,9 +32805,6 @@
       "en": "Fangtooth",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/fangtooth"
-      ],
       "relatedFish": [
         "fish/fangtooth"
       ],
@@ -33171,9 +32823,6 @@
       "en": "Gelatinous Snailfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/gelatinous-snailfish"
-      ],
       "relatedFish": [
         "fish/gelatinous-snailfish"
       ],
@@ -33192,9 +32841,6 @@
       "en": "Golden King Crab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/golden-king-crab"
-      ],
       "relatedFish": [
         "fish/golden-king-crab"
       ],
@@ -33213,9 +32859,6 @@
       "en": "Spider Crab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/spider-crab"
-      ],
       "relatedFish": [
         "fish/spider-crab"
       ],
@@ -33236,9 +32879,6 @@
       "en": "Green Humphead Parrotfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/green-humphead-parrotfish"
-      ],
       "relatedFish": [
         "fish/green-humphead-parrotfish"
       ],
@@ -33257,9 +32897,6 @@
       "en": "Grey Triggerfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/grey-triggerfish"
-      ],
       "relatedFish": [
         "fish/grey-triggerfish"
       ],
@@ -33278,9 +32915,6 @@
       "en": "Haddock",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/haddock"
-      ],
       "relatedFish": [
         "fish/haddock"
       ],
@@ -33299,9 +32933,6 @@
       "en": "Harlequin Hind",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/harlequin-hind"
-      ],
       "relatedFish": [
         "fish/harlequin-hind"
       ],
@@ -33320,9 +32951,6 @@
       "en": "Yellowfin Tuna Akami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/yellowfin-tuna"
-      ],
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -33341,9 +32969,6 @@
       "en": "Bluefin Tuna Ootoro",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bluefin-tuna"
-      ],
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -33362,9 +32987,6 @@
       "en": "Yellowfin Tuna Ootoro",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/yellowfin-tuna"
-      ],
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -33383,9 +33005,6 @@
       "en": "Longspine Squirrelfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/longspine-squirrelfish"
-      ],
       "relatedFish": [
         "fish/longspine-squirrelfish"
       ],
@@ -33404,9 +33023,6 @@
       "en": "Mackerel Scad",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/mackerel-scad"
-      ],
       "relatedFish": [
         "fish/mackerel-scad"
       ],
@@ -33425,9 +33041,6 @@
       "en": "Marlin Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/marlin"
-      ],
       "relatedFish": [
         "fish/marlin"
       ],
@@ -33446,9 +33059,6 @@
       "en": "Mediterranean Parrotfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/mediterranean-parrotfish"
-      ],
       "relatedFish": [
         "fish/mediterranean-parrotfish"
       ],
@@ -33467,9 +33077,6 @@
       "en": "Megalograptus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/megalograptus"
-      ],
       "relatedFish": [
         "fish/megalograptus"
       ],
@@ -33487,9 +33094,6 @@
       "en": "Narrow-Barred Spanish Mackerel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/narrow-barred-spanish-mackerel"
-      ],
       "relatedFish": [
         "fish/narrow-barred-spanish-mackerel"
       ],
@@ -33508,9 +33112,6 @@
       "en": "Polar Eelpout",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/polar-eelpout"
-      ],
       "relatedFish": [
         "fish/polar-eelpout"
       ],
@@ -33528,9 +33129,6 @@
       "en": "Purple Sea Urchin",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/purple-sea-urchin"
-      ],
       "relatedFish": [
         "fish/purple-sea-urchin"
       ],
@@ -33551,9 +33149,6 @@
       "en": "Qingmendous",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/qingmendous"
-      ],
       "relatedFish": [
         "fish/qingmendous"
       ],
@@ -33571,9 +33166,6 @@
       "en": "Red Lionfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/red-lionfish"
-      ],
       "relatedFish": [
         "fish/red-lionfish"
       ],
@@ -33592,9 +33184,6 @@
       "en": "Redtoothed Triggerfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/redtoothed-triggerfish"
-      ],
       "relatedFish": [
         "fish/redtoothed-triggerfish"
       ],
@@ -33613,9 +33202,6 @@
       "en": "Sally Lightfoot Crab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/sally-lightfoot-crab"
-      ],
       "relatedFish": [
         "fish/sally-lightfoot-crab"
       ],
@@ -33634,9 +33220,6 @@
       "en": "Salmon Snailfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/salmon-snailfish"
-      ],
       "relatedFish": [
         "fish/salmon-snailfish"
       ],
@@ -33655,9 +33238,6 @@
       "en": "Sea Toad",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/sea-toad"
-      ],
       "relatedFish": [
         "fish/sea-toad"
       ],
@@ -33676,9 +33256,6 @@
       "en": "Snow Crab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/snow-crab"
-      ],
       "relatedFish": [
         "fish/snow-crab"
       ],
@@ -33697,9 +33274,6 @@
       "en": "Snub-nosed Spiny Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/snub-nosed-spiny-eel"
-      ],
       "relatedFish": [
         "fish/snub-nosed-spiny-eel"
       ],
@@ -33719,9 +33293,6 @@
       "en": "Striped Catfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/striped-catfish"
-      ],
       "relatedFish": [
         "fish/striped-catfish"
       ],
@@ -33740,9 +33311,6 @@
       "en": "Threetooth Puffer",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/threetooth-puffer"
-      ],
       "relatedFish": [
         "fish/threetooth-puffer"
       ],
@@ -33760,9 +33328,6 @@
       "en": "Titan Triggerfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/titan-triggerfish"
-      ],
       "relatedFish": [
         "fish/titan-triggerfish"
       ],
@@ -33781,9 +33346,6 @@
       "en": "Vampire Squid",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/vampire-squid"
-      ],
       "relatedFish": [
         "fish/vampire-squid"
       ],
@@ -33803,9 +33365,6 @@
       "en": "White Trevally",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/white-trevally"
-      ],
       "relatedFish": [
         "fish/white-trevally"
       ],
@@ -33825,9 +33384,6 @@
       "en": "Yellow Tang",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/yellow-tang"
-      ],
       "relatedFish": [
         "fish/yellow-tang"
       ],
@@ -33845,9 +33401,6 @@
       "en": "Yellowback Fusilier",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/yellowback-fusilier"
-      ],
       "relatedFish": [
         "fish/yellowback-fusilier"
       ],
@@ -33866,9 +33419,6 @@
       "en": "Yellowfin Tuna Chutoro",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/yellowfin-tuna"
-      ],
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -33887,9 +33437,6 @@
       "en": "Longfin Batfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/longfin-batfish"
-      ],
       "relatedFish": [
         "fish/longfin-batfish"
       ],
@@ -33908,9 +33455,6 @@
       "en": "Orbicular Batfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/orbicular-batfish"
-      ],
       "relatedFish": [
         "fish/orbicular-batfish"
       ],
@@ -33929,9 +33473,6 @@
       "en": "Blood-belly Comb Jellyfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/blood-belly-comb-jellyfish"
-      ],
       "relatedFish": [
         "fish/blood-belly-comb-jellyfish"
       ],
@@ -33949,9 +33490,6 @@
       "en": "Cuttlefish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/cuttlefish"
-      ],
       "relatedFish": [
         "fish/cuttlefish"
       ],
@@ -33972,9 +33510,6 @@
       "en": "Starry Skate",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/starry-skate"
-      ],
       "relatedFish": [
         "fish/starry-skate"
       ],
@@ -33993,9 +33528,6 @@
       "en": "Red-banded Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/red-banded-lobster"
-      ],
       "relatedFish": [
         "fish/red-banded-lobster"
       ],
@@ -34013,9 +33545,6 @@
       "en": "Clownfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/clownfish"
-      ],
       "relatedFish": [
         "fish/clownfish"
       ],
@@ -34034,9 +33563,6 @@
       "en": "Pyramid Butterflyfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/pyramid-butterflyfish"
-      ],
       "relatedFish": [
         "fish/pyramid-butterflyfish"
       ],
@@ -34055,9 +33581,6 @@
       "en": "Blue Tang",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/blue-tang"
-      ],
       "relatedFish": [
         "fish/blue-tang"
       ],
@@ -34076,9 +33599,6 @@
       "en": "White Spotted Jellyfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/white-spotted-jellyfish"
-      ],
       "relatedFish": [
         "fish/white-spotted-jellyfish"
       ],
@@ -34097,9 +33617,6 @@
       "en": "Longspine Porcupinefish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/longspine-porcupinefish"
-      ],
       "relatedFish": [
         "fish/longspine-porcupinefish"
       ],
@@ -34118,7 +33635,6 @@
       "en": "Mako Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/shortfin-mako-sushi"
@@ -34134,7 +33650,6 @@
       "en": "Hammerhead Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/smooth-hammerhead-sushi"
@@ -34150,9 +33665,6 @@
       "en": "Striped Red Mullet",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/striped-red-mullet"
-      ],
       "relatedFish": [
         "fish/striped-red-mullet"
       ],
@@ -34171,9 +33683,6 @@
       "en": "Aurora Jellyfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/aurora-jellyfish"
-      ],
       "relatedFish": [
         "fish/aurora-jellyfish"
       ],
@@ -34191,9 +33700,6 @@
       "en": "Barbed Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/barbed-eel"
-      ],
       "relatedFish": [
         "fish/barbed-eel"
       ],
@@ -34211,9 +33717,6 @@
       "en": "Bloodskin Shark",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bloodskin-shark"
-      ],
       "relatedFish": [
         "fish/bloodskin-shark"
       ],
@@ -34231,9 +33734,6 @@
       "en": "Bluespotted Stargazer",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bluespotted-stargazer"
-      ],
       "relatedFish": [
         "fish/bluespotted-stargazer"
       ],
@@ -34252,9 +33752,6 @@
       "en": "Sheepshead Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/sheepshead"
-      ],
       "relatedFish": [
         "fish/sheepshead"
       ],
@@ -34273,9 +33770,6 @@
       "en": "Bony Wreckfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bony-wreckfish"
-      ],
       "relatedFish": [
         "fish/bony-wreckfish"
       ],
@@ -34293,9 +33787,6 @@
       "en": "Bursting Anglerfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bursting-anglerfish"
-      ],
       "relatedFish": [
         "fish/bursting-anglerfish"
       ],
@@ -34313,9 +33804,6 @@
       "en": "Cardinal Fish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/cardinal-fish"
-      ],
       "relatedFish": [
         "fish/cardinal-fish"
       ],
@@ -34333,9 +33821,6 @@
       "en": "Cerebral Crab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/cerebral-crab"
-      ],
       "relatedFish": [
         "fish/cerebral-crab"
       ],
@@ -34353,9 +33838,6 @@
       "en": "Concertina Barracuda",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/concertina-barracuda"
-      ],
       "relatedFish": [
         "fish/concertina-barracuda"
       ],
@@ -34373,9 +33855,6 @@
       "en": "Cortex Decorator",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/cortex-decorator"
-      ],
       "relatedFish": [
         "fish/cortex-decorator"
       ],
@@ -34393,9 +33872,6 @@
       "en": "Devil Scorpionfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/devil-scorpionfish"
-      ],
       "relatedFish": [
         "fish/devil-scorpionfish"
       ],
@@ -34413,9 +33889,6 @@
       "en": "Emperor Angelfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/emperor-angelfish"
-      ],
       "relatedFish": [
         "fish/emperor-angelfish"
       ],
@@ -34433,9 +33906,6 @@
       "en": "Entangled Crab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/entangled-crab"
-      ],
       "relatedFish": [
         "fish/entangled-crab"
       ],
@@ -34453,9 +33923,6 @@
       "en": "Enthralled Stonefish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/enthralled-stonefish"
-      ],
       "relatedFish": [
         "fish/enthralled-stonefish"
       ],
@@ -34473,9 +33940,6 @@
       "en": "Fanged Cod",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/fanged-cod"
-      ],
       "relatedFish": [
         "fish/fanged-cod"
       ],
@@ -34493,9 +33957,6 @@
       "en": "Flame Angelfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/flame-angelfish"
-      ],
       "relatedFish": [
         "fish/flame-angelfish"
       ],
@@ -34513,9 +33974,6 @@
       "en": "Gazing Shark",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/gazing-shark"
-      ],
       "relatedFish": [
         "fish/gazing-shark"
       ],
@@ -34533,9 +33991,6 @@
       "en": "Gelatinous Stonefish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/gelatinous-stonefish"
-      ],
       "relatedFish": [
         "fish/gelatinous-stonefish"
       ],
@@ -34553,9 +34008,6 @@
       "en": "Gnashing Perch",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/gnashing-perch"
-      ],
       "relatedFish": [
         "fish/gnashing-perch"
       ],
@@ -34573,9 +34025,6 @@
       "en": "Grotesque Mackerel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/grotesque-mackerel"
-      ],
       "relatedFish": [
         "fish/grotesque-mackerel"
       ],
@@ -34593,9 +34042,6 @@
       "en": "Host Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/host-eel"
-      ],
       "relatedFish": [
         "fish/host-eel"
       ],
@@ -34613,9 +34059,6 @@
       "en": "Imperious Lobster",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/imperious-lobster"
-      ],
       "relatedFish": [
         "fish/imperious-lobster"
       ],
@@ -34633,9 +34076,6 @@
       "en": "Lagoon Triggerfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/lagoon-triggerfish"
-      ],
       "relatedFish": [
         "fish/lagoon-triggerfish"
       ],
@@ -34653,9 +34093,6 @@
       "en": "Lumpfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/lumpfish"
-      ],
       "relatedFish": [
         "fish/lumpfish"
       ],
@@ -34673,9 +34110,6 @@
       "en": "Malignant Pincer",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/malignant-pincer"
-      ],
       "relatedFish": [
         "fish/malignant-pincer"
       ],
@@ -34693,9 +34127,6 @@
       "en": "Many Eyed Mackerel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/many-eyed-mackerel"
-      ],
       "relatedFish": [
         "fish/many-eyed-mackerel"
       ],
@@ -34713,9 +34144,6 @@
       "en": "Pacific Fanfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/pacific-fanfish"
-      ],
       "relatedFish": [
         "fish/pacific-fanfish"
       ],
@@ -34734,9 +34162,6 @@
       "en": "Parhelion Jellyfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/parhelion-jellyfish"
-      ],
       "relatedFish": [
         "fish/parhelion-jellyfish"
       ],
@@ -34754,9 +34179,6 @@
       "en": "Perished Loosejaw",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/perished-loosejaw"
-      ],
       "relatedFish": [
         "fish/perished-loosejaw"
       ],
@@ -34774,9 +34196,6 @@
       "en": "Radiant Squid",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/radiant-squid"
-      ],
       "relatedFish": [
         "fish/radiant-squid"
       ],
@@ -34794,9 +34213,6 @@
       "en": "Salema Porgy",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/salema-porgy"
-      ],
       "relatedFish": [
         "fish/salema-porgy"
       ],
@@ -34814,9 +34230,6 @@
       "en": "Sallow Sailfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/sallow-sailfish"
-      ],
       "relatedFish": [
         "fish/sallow-sailfish"
       ],
@@ -34834,9 +34247,6 @@
       "en": "Savage Barracuda",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/savage-barracuda"
-      ],
       "relatedFish": [
         "fish/savage-barracuda"
       ],
@@ -34854,9 +34264,6 @@
       "en": "Scouring Bass",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/scouring-bass"
-      ],
       "relatedFish": [
         "fish/scouring-bass"
       ],
@@ -34874,9 +34281,6 @@
       "en": "Seizing Snailfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/seizing-snailfish"
-      ],
       "relatedFish": [
         "fish/seizing-snailfish"
       ],
@@ -34894,9 +34298,6 @@
       "en": "Shattered Wreckfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/shattered-wreckfish"
-      ],
       "relatedFish": [
         "fish/shattered-wreckfish"
       ],
@@ -34914,9 +34315,6 @@
       "en": "Horsehair Crab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/horsehair-crab"
-      ],
       "relatedFish": [
         "fish/horsehair-crab"
       ],
@@ -34935,9 +34333,6 @@
       "en": "Splintered Crab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/splintered-crab"
-      ],
       "relatedFish": [
         "fish/splintered-crab"
       ],
@@ -34955,9 +34350,6 @@
       "en": "Sprouting Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/sprouting-eel"
-      ],
       "relatedFish": [
         "fish/sprouting-eel"
       ],
@@ -34975,9 +34367,6 @@
       "en": "Three-Headed Cod",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/three-headed-cod"
-      ],
       "relatedFish": [
         "fish/three-headed-cod"
       ],
@@ -34995,9 +34384,6 @@
       "en": "Translucent Sturgeon",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/translucent-sturgeon"
-      ],
       "relatedFish": [
         "fish/translucent-sturgeon"
       ],
@@ -35015,9 +34401,6 @@
       "en": "Tusked Grouper",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/tusked-grouper"
-      ],
       "relatedFish": [
         "fish/tusked-grouper"
       ],
@@ -35035,9 +34418,6 @@
       "en": "Voltaic Grouper",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/voltaic-grouper"
-      ],
       "relatedFish": [
         "fish/voltaic-grouper"
       ],
@@ -35055,9 +34435,6 @@
       "en": "Withered Ray",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/withered-ray"
-      ],
       "relatedFish": [
         "fish/withered-ray"
       ],
@@ -35075,9 +34452,6 @@
       "en": "Anomalocaris",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/anomalocaris"
-      ],
       "relatedFish": [
         "fish/anomalocaris"
       ],
@@ -35095,9 +34469,6 @@
       "en": "Ammonite",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/ammonite"
-      ],
       "relatedFish": [
         "fish/ammonite"
       ],
@@ -35117,9 +34488,6 @@
       "en": "Archerfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/archerfish"
-      ],
       "relatedFish": [
         "fish/archerfish"
       ],
@@ -35137,9 +34505,6 @@
       "en": "Armored Catfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/armored-catfish"
-      ],
       "relatedFish": [
         "fish/armored-catfish"
       ],
@@ -35158,9 +34523,6 @@
       "en": "Asian Arowana",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/asian-arowana"
-      ],
       "relatedFish": [
         "fish/asian-arowana"
       ],
@@ -35178,9 +34540,6 @@
       "en": "Black Caiman",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/black-caiman"
-      ],
       "relatedFish": [
         "fish/black-caiman"
       ],
@@ -35200,9 +34559,6 @@
       "en": "Blue Discus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/blue-discus"
-      ],
       "relatedFish": [
         "fish/blue-discus"
       ],
@@ -35221,9 +34577,6 @@
       "en": "Blue Gill",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/blue-gill"
-      ],
       "relatedFish": [
         "fish/blue-gill"
       ],
@@ -35242,9 +34595,6 @@
       "en": "Bluegray Mbuna",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/bluegray-mbuna"
-      ],
       "relatedFish": [
         "fish/bluegray-mbuna"
       ],
@@ -35262,9 +34612,6 @@
       "en": "Brown Discus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/brown-discus"
-      ],
       "relatedFish": [
         "fish/brown-discus"
       ],
@@ -35283,9 +34630,6 @@
       "en": "Burgessomedusa",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/burgessomedusa"
-      ],
       "relatedFish": [
         "fish/burgessomedusa"
       ],
@@ -35304,9 +34648,6 @@
       "en": "Striped Snakehead",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/striped-snakehead"
-      ],
       "relatedFish": [
         "fish/striped-snakehead"
       ],
@@ -35325,9 +34666,6 @@
       "en": "Chocolate Gourami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/chocolate-gourami"
-      ],
       "relatedFish": [
         "fish/chocolate-gourami"
       ],
@@ -35346,9 +34684,6 @@
       "en": "Walking Catfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/walking-catfish"
-      ],
       "relatedFish": [
         "fish/walking-catfish"
       ],
@@ -35367,9 +34702,6 @@
       "en": "Clown Featherback",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/clown-featherback"
-      ],
       "relatedFish": [
         "fish/clown-featherback"
       ],
@@ -35388,9 +34720,6 @@
       "en": "Clown Loach",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/clown-loach"
-      ],
       "relatedFish": [
         "fish/clown-loach"
       ],
@@ -35408,9 +34737,6 @@
       "en": "Crab Trap Ciurcopterus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-ciurcopterus"
-      ],
       "relatedFish": [
         "fish/crab-trap-ciurcopterus"
       ],
@@ -35429,9 +34755,6 @@
       "en": "Crab Trap Common Yabby",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-common-yabby"
-      ],
       "relatedFish": [
         "fish/crab-trap-common-yabby"
       ],
@@ -35449,9 +34772,6 @@
       "en": "Crab Trap Murray Crayfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-murray-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-murray-crayfish"
       ],
@@ -35470,9 +34790,6 @@
       "en": "Crab Trap Red Swamp Crayfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-red-swamp-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-red-swamp-crayfish"
       ],
@@ -35491,9 +34808,6 @@
       "en": "Crab Trap Signal Crayfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-signal-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-signal-crayfish"
       ],
@@ -35511,9 +34825,6 @@
       "en": "Crab Trap Smooth Marron",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-smooth-marron"
-      ],
       "relatedFish": [
         "fish/crab-trap-smooth-marron"
       ],
@@ -35532,9 +34843,6 @@
       "en": "Crab Trap Tricolor Crayfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-tricolor-crayfish"
-      ],
       "relatedFish": [
         "fish/crab-trap-tricolor-crayfish"
       ],
@@ -35552,9 +34860,6 @@
       "en": "Crab Trap Tumidocarcinus Giganteus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-tumidocarcinus-giganteus"
-      ],
       "relatedFish": [
         "fish/crab-trap-tumidocarcinus-giganteus"
       ],
@@ -35573,9 +34878,6 @@
       "en": "Crab Trap Tuzoia",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/crab-trap-tuzoia"
-      ],
       "relatedFish": [
         "fish/crab-trap-tuzoia"
       ],
@@ -35594,9 +34896,6 @@
       "en": "Dredge Sprouting Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/sprouting-eel"
-      ],
       "relatedFish": [
         "fish/sprouting-eel"
       ],
@@ -35612,9 +34911,6 @@
       "en": "Eagle Shark",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/eagle-shark"
-      ],
       "relatedFish": [
         "fish/eagle-shark"
       ],
@@ -35633,9 +34929,6 @@
       "en": "Electric Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/electric-eel"
-      ],
       "relatedFish": [
         "fish/electric-eel"
       ],
@@ -35655,9 +34948,6 @@
       "en": "Emperor Snakehead",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/emperor-snakehead"
-      ],
       "relatedFish": [
         "fish/emperor-snakehead"
       ],
@@ -35675,9 +34965,6 @@
       "en": "Eomesodon",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/eomesodon"
-      ],
       "relatedFish": [
         "fish/eomesodon"
       ],
@@ -35695,9 +34982,6 @@
       "en": "Exellia",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/exellia"
-      ],
       "relatedFish": [
         "fish/exellia"
       ],
@@ -35715,9 +34999,6 @@
       "en": "Fire Eel",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/fire-eel"
-      ],
       "relatedFish": [
         "fish/fire-eel"
       ],
@@ -35736,9 +35017,6 @@
       "en": "Foreyia",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/foreyia"
-      ],
       "relatedFish": [
         "fish/foreyia"
       ],
@@ -35756,9 +35034,6 @@
       "en": "Giant Fresh Water Stingray",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/giant-fresh-water-stingray"
-      ],
       "relatedFish": [
         "fish/giant-fresh-water-stingray"
       ],
@@ -35777,9 +35052,6 @@
       "en": "Giant Gourami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/giant-gourami"
-      ],
       "relatedFish": [
         "fish/giant-gourami"
       ],
@@ -35797,9 +35069,6 @@
       "en": "Giant Snakehead",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/giant-snakehead"
-      ],
       "relatedFish": [
         "fish/giant-snakehead"
       ],
@@ -35818,9 +35087,6 @@
       "en": "Goliath Tigerfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/goliath-tigerfish"
-      ],
       "relatedFish": [
         "fish/goliath-tigerfish"
       ],
@@ -35839,9 +35105,6 @@
       "en": "Grass Carp",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/grass-carp"
-      ],
       "relatedFish": [
         "fish/grass-carp"
       ],
@@ -35860,9 +35123,6 @@
       "en": "Great Sturgeon",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/great-sturgeon"
-      ],
       "relatedFish": [
         "fish/great-sturgeon"
       ],
@@ -35881,9 +35141,6 @@
       "en": "Green Discus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/green-discus"
-      ],
       "relatedFish": [
         "fish/green-discus"
       ],
@@ -35901,9 +35158,6 @@
       "en": "Gyrodus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/gyrodus"
-      ],
       "relatedFish": [
         "fish/gyrodus"
       ],
@@ -35921,9 +35175,6 @@
       "en": "Heckel Discus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/heckel-discus"
-      ],
       "relatedFish": [
         "fish/heckel-discus"
       ],
@@ -35941,9 +35192,6 @@
       "en": "Hensodon",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/hensodon"
-      ],
       "relatedFish": [
         "fish/hensodon"
       ],
@@ -35961,9 +35209,6 @@
       "en": "Horse Face Loach",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/horse-face-loach"
-      ],
       "relatedFish": [
         "fish/horse-face-loach"
       ],
@@ -35981,9 +35226,6 @@
       "en": "Indonesian Tiger Perch",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/indonesian-tiger-perch"
-      ],
       "relatedFish": [
         "fish/indonesian-tiger-perch"
       ],
@@ -36003,9 +35245,6 @@
       "en": "King Salmon",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/king-salmon"
-      ],
       "relatedFish": [
         "fish/king-salmon"
       ],
@@ -36024,9 +35263,6 @@
       "en": "Kissing Gourami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/kissing-gourami"
-      ],
       "relatedFish": [
         "fish/kissing-gourami"
       ],
@@ -36045,9 +35281,6 @@
       "en": "Large Mouth Bass",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/large-mouth-bass"
-      ],
       "relatedFish": [
         "fish/large-mouth-bass"
       ],
@@ -36066,9 +35299,6 @@
       "en": "Lemon Yellow Lab",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/lemon-yellow-lab"
-      ],
       "relatedFish": [
         "fish/lemon-yellow-lab"
       ],
@@ -36087,9 +35317,6 @@
       "en": "Malayan Leaffish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/malayan-leaffish"
-      ],
       "relatedFish": [
         "fish/malayan-leaffish"
       ],
@@ -36107,9 +35334,6 @@
       "en": "Malayan Mahseer",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/malayan-mahseer"
-      ],
       "relatedFish": [
         "fish/malayan-mahseer"
       ],
@@ -36127,9 +35351,6 @@
       "en": "Malayan Pikehead",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/malayan-pikehead"
-      ],
       "relatedFish": [
         "fish/malayan-pikehead"
       ],
@@ -36147,9 +35368,6 @@
       "en": "Moonlight Gourami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/moonlight-gourami"
-      ],
       "relatedFish": [
         "fish/moonlight-gourami"
       ],
@@ -36167,9 +35385,6 @@
       "en": "Mud Carp",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/mud-carp"
-      ],
       "relatedFish": [
         "fish/mud-carp"
       ],
@@ -36188,9 +35403,6 @@
       "en": "Nile Perch",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/nile-perch"
-      ],
       "relatedFish": [
         "fish/nile-perch"
       ],
@@ -36209,9 +35421,6 @@
       "en": "Ophthalmosaurus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/ophthalmosaurus"
-      ],
       "relatedFish": [
         "fish/ophthalmosaurus"
       ],
@@ -36230,9 +35439,6 @@
       "en": "Orthoceras",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/orthoceras"
-      ],
       "relatedFish": [
         "fish/orthoceras"
       ],
@@ -36251,9 +35457,6 @@
       "en": "Paradoxides",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/paradoxides"
-      ],
       "relatedFish": [
         "fish/paradoxides"
       ],
@@ -36271,9 +35474,6 @@
       "en": "Parameteroraspis",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/parameteroraspis"
-      ],
       "relatedFish": [
         "fish/parameteroraspis"
       ],
@@ -36292,9 +35492,6 @@
       "en": "Peacock Bass",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/peacock-bass"
-      ],
       "relatedFish": [
         "fish/peacock-bass"
       ],
@@ -36312,9 +35509,6 @@
       "en": "Pearl Gourami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/pearl-gourami"
-      ],
       "relatedFish": [
         "fish/pearl-gourami"
       ],
@@ -36333,9 +35527,6 @@
       "en": "Piraiba Catfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/piraiba-catfish"
-      ],
       "relatedFish": [
         "fish/piraiba-catfish"
       ],
@@ -36355,9 +35546,6 @@
       "en": "Pirarucu",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/pirarucu"
-      ],
       "relatedFish": [
         "fish/pirarucu"
       ],
@@ -36376,9 +35564,6 @@
       "en": "Platinum Alligator Gar",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/platinum-alligator-gar"
-      ],
       "relatedFish": [
         "fish/platinum-alligator-gar"
       ],
@@ -36397,9 +35582,6 @@
       "en": "Platyceramus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/platyceramus"
-      ],
       "relatedFish": [
         "fish/platyceramus"
       ],
@@ -36418,9 +35600,6 @@
       "en": "Promissum",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/promissum"
-      ],
       "relatedFish": [
         "fish/promissum"
       ],
@@ -36438,9 +35617,6 @@
       "en": "Red Bellied Piranha",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/red-bellied-piranha"
-      ],
       "relatedFish": [
         "fish/red-bellied-piranha"
       ],
@@ -36459,9 +35635,6 @@
       "en": "Red Discus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/red-discus"
-      ],
       "relatedFish": [
         "fish/red-discus"
       ],
@@ -36480,9 +35653,6 @@
       "en": "Red Feather Starfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/red-feather-starfish"
-      ],
       "relatedFish": [
         "fish/red-feather-starfish"
       ],
@@ -36500,9 +35670,6 @@
       "en": "Redeye Piranha",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/redeye-piranha"
-      ],
       "relatedFish": [
         "fish/redeye-piranha"
       ],
@@ -36521,9 +35688,6 @@
       "en": "Redtail Catfish",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/redtail-catfish"
-      ],
       "relatedFish": [
         "fish/redtail-catfish"
       ],
@@ -36541,9 +35705,6 @@
       "en": "Sacabambaspis",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/sacabambaspis"
-      ],
       "relatedFish": [
         "fish/sacabambaspis"
       ],
@@ -36564,22 +35725,6 @@
         "https://davethediver.net/zh-hans/ingredient/seahorse-ingredient/"
       ],
       "inferred": false,
-      "fishIds": [
-        "fish/white-seahorse",
-        "fish/big-belly-seahorse",
-        "fish/crowned-seahorse",
-        "fish/dwarf-seahorse",
-        "fish/giraffe-seahorse",
-        "fish/hedgehog-seahorse",
-        "fish/jayakars-seahorse",
-        "fish/lined-seahorse",
-        "fish/long-snouted-seahorse",
-        "fish/pacific-seahorse",
-        "fish/spotted-seahorse",
-        "fish/tiger-tail-seahorse",
-        "fish/zebra-seahorse",
-        "fish/spiny-seahorse"
-      ],
       "relatedFish": [
         "fish/white-seahorse",
         "fish/big-belly-seahorse",
@@ -36618,9 +35763,6 @@
       "en": "Snakeskin Gourami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/snakeskin-gourami"
-      ],
       "relatedFish": [
         "fish/snakeskin-gourami"
       ],
@@ -36638,9 +35780,6 @@
       "en": "Stylonurus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/stylonurus"
-      ],
       "relatedFish": [
         "fish/stylonurus"
       ],
@@ -36659,9 +35798,6 @@
       "en": "Tambaqui",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/tambaqui"
-      ],
       "relatedFish": [
         "fish/tambaqui"
       ],
@@ -36680,9 +35816,6 @@
       "en": "Tapah",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/tapah"
-      ],
       "relatedFish": [
         "fish/tapah"
       ],
@@ -36700,9 +35833,6 @@
       "en": "Three Spot Gourami",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/three-spot-gourami"
-      ],
       "relatedFish": [
         "fish/three-spot-gourami"
       ],
@@ -36720,9 +35850,6 @@
       "en": "Tilapia",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/tilapia"
-      ],
       "relatedFish": [
         "fish/tilapia"
       ],
@@ -36741,9 +35868,6 @@
       "en": "Tullimonstrum",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/tullimonstrum"
-      ],
       "relatedFish": [
         "fish/tullimonstrum"
       ],
@@ -36762,7 +35886,6 @@
       "en": "Durian",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/alligator-gar-durian-head-curry"
@@ -36778,7 +35901,6 @@
       "en": "Water Spinach",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/ammonite-salad",
@@ -36796,7 +35918,6 @@
       "en": "Jungle Egg",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/ammonite-salad",
@@ -36815,7 +35936,6 @@
       "en": "Bamboo Shoot",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bamboo-shoot-soup",
@@ -36836,7 +35956,6 @@
       "en": "King Trumpet Mushroom",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bamboo-shoot-soup",
@@ -36853,7 +35972,6 @@
       "en": "Banana",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/banana-dragon-fruit-pudding",
@@ -36872,7 +35990,6 @@
       "en": "Dragon Fruit",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/banana-dragon-fruit-pudding",
@@ -36889,7 +36006,6 @@
       "en": "Mangosteen",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/banana-halo-halo",
@@ -36906,7 +36022,6 @@
       "en": "Pineapple",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/banana-halo-halo",
@@ -36924,7 +36039,6 @@
       "en": "Calamansi",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bananablossom-salad",
@@ -36949,7 +36063,6 @@
       "en": "Banana Blossom",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/bananablossom-salad",
@@ -36969,7 +36082,6 @@
       "en": "Gim",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/battle-dish-carbonara",
@@ -36987,7 +36099,6 @@
       "en": "Special Black Caiman Tail",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/black-caiman-grilled"
@@ -37003,7 +36114,6 @@
       "en": "Pineapple Colored",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/black-caiman-red-pineapple-stir-fried",
@@ -37020,7 +36130,6 @@
       "en": "Basilosaurus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-basilosaurus-hot-pot"
@@ -37036,7 +36145,6 @@
       "en": "Special Fringehead",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-fringehead-herb-roast"
@@ -37052,7 +36160,6 @@
       "en": "Fiddlehead Fern",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-fringehead-herb-roast",
@@ -37070,7 +36177,6 @@
       "en": "Special Mud Skipper",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-giant-mudskipper-cheek-steamed"
@@ -37086,7 +36192,6 @@
       "en": "Boss Snapper Turtle",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-snapping-turtle-seafood-soup"
@@ -37102,7 +36207,6 @@
       "en": "Stethacanthus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-stethacanthus-shark-fin-soup"
@@ -37118,7 +36222,6 @@
       "en": "Boss Sulong",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-surong-foreleg-seasoned"
@@ -37134,7 +36237,6 @@
       "en": "Boss Xiphactinus",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/boss-xiphactinus-spicy-soup"
@@ -37150,7 +36252,6 @@
       "en": "Honeydew Melon Colored",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/burgessomedusa-pink-honeydew-jelly"
@@ -37166,7 +36267,6 @@
       "en": "Taro",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/clown-featherback-taro-fried",
@@ -37183,7 +36283,6 @@
       "en": "Special Giant Snakehead",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/giant-snakehead-fin-soup"
@@ -37199,7 +36298,6 @@
       "en": "Cassava",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/ophthalmosaurus-grilled",
@@ -37218,7 +36316,6 @@
       "en": "Durian Colored",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/pink-durian-pudding"
@@ -37234,7 +36331,6 @@
       "en": "Watermelon Colored",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/premium-fruit-salad"
@@ -37250,7 +36346,6 @@
       "en": "Dragon Fruit Colored",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/premium-fruit-salad"
@@ -37266,7 +36361,6 @@
       "en": "Watermelon",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/salmon-watermelon-salad",
@@ -37283,9 +36377,6 @@
       "en": "Sea Goldie",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [
-        "fish/sea-goldie"
-      ],
       "relatedFish": [
         "fish/sea-goldie"
       ],
@@ -37303,7 +36394,6 @@
       "en": "Snake Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/snake-mix-spicy-soup"
@@ -37319,7 +36409,6 @@
       "en": "Viper Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/snake-mix-spicy-soup"
@@ -37335,7 +36424,6 @@
       "en": "Special Anomalocaris Shell Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [],
       "facts": [],
@@ -37349,7 +36437,6 @@
       "en": "Special Goblin Shark Belly Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-goblin-shark-belly-meat-grilled"
@@ -37365,7 +36452,6 @@
       "en": "Special Klaus Fin Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-klaus-fin-meat-ricebowl"
@@ -37381,7 +36467,6 @@
       "en": "Special Lusca Leg",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-lusca-leg-blanched"
@@ -37397,7 +36482,6 @@
       "en": "Special Lusca Neck Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-lusca-neck-meat-tataki"
@@ -37413,7 +36497,6 @@
       "en": "Special Mantis Shrimp Shell Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-mantis-shrimp-shell-meat-boiled"
@@ -37429,7 +36512,6 @@
       "en": "Special Wolffish Tail Meat",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-wolffish-tail-meat-steamed"
@@ -37445,7 +36527,6 @@
       "en": "Starfruit",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/squid-mix-stir-fried"
@@ -37461,7 +36542,6 @@
       "en": "Honeydew Melon",
       "sourceUrls": [],
       "inferred": true,
-      "fishIds": [],
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/stylonurus-honeydew-salad",

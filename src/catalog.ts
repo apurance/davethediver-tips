@@ -34,7 +34,6 @@ export interface IngredientEntity extends EntityBase {
   "acquisition-method"?: AcquisitionMethod;
   relatedRecipes: string[];
   relatedFish: string[];
-  fishIds: string[];
   region?: string[];
 }
 export interface FishEntity extends EntityBase {
