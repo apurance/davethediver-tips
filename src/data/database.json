@@ -27445,16 +27445,7 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [
-        {
-          "labelId": "field/distribution",
-          "values": [
-            {
-              "text": "depths"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "rank": null,
         "weight": null,
@@ -29731,24 +29722,7 @@
       "relatedRecipes": [
         "recipe/steamed-wolf-eel"
       ],
-      "facts": [
-        {
-          "labelId": "field/distribution",
-          "values": [
-            {
-              "text": "depths"
-            }
-          ]
-        },
-        {
-          "labelId": "field/active-period",
-          "values": [
-            {
-              "text": "day"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
