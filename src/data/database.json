@@ -2318,7 +2318,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-porbeagle-shark",
+          "ingredientId": "fish/porbeagle-shark",
           "quantity": 3
         },
         {
@@ -2359,7 +2359,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-sail-fish",
+          "ingredientId": "fish/sailfish",
           "quantity": 3
         },
         {
@@ -2626,7 +2626,7 @@
           "quantity": 3
         },
         {
-          "ingredientId": "ingredient/meat-rhinochimaeridae",
+          "ingredientId": "fish/rhinochimaeridae",
           "quantity": 3
         }
       ],
@@ -3484,7 +3484,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/marlin-meat",
+          "ingredientId": "fish/marlin",
           "quantity": 3
         },
         {
@@ -4482,11 +4482,11 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/blacktip-shark-meat",
+          "ingredientId": "fish/blacktip-reefshark",
           "quantity": 3
         },
         {
-          "ingredientId": "ingredient/meat-copper-shark",
+          "ingredientId": "fish/copper-shark",
           "quantity": 3
         },
         {
@@ -4821,7 +4821,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/giant-trevally-meat",
+          "ingredientId": "fish/giant-trevally",
           "quantity": 5
         },
         {
@@ -5354,7 +5354,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/blacktip-shark-meat",
+          "ingredientId": "fish/blacktip-reefshark",
           "quantity": 1
         }
       ],
@@ -5677,7 +5677,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-copper-shark",
+          "ingredientId": "fish/copper-shark",
           "quantity": 1
         }
       ],
@@ -5932,11 +5932,11 @@
           "quantity": 3
         },
         {
-          "ingredientId": "ingredient/stingray-meat",
+          "ingredientId": "fish/stingray",
           "quantity": 3
         },
         {
-          "ingredientId": "ingredient/marbled-electric-ray-meat",
+          "ingredientId": "fish/marbled-electric-ray",
           "quantity": 3
         },
         {
@@ -6013,7 +6013,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-dunkleosteus",
+          "ingredientId": "fish/dunkleosteus",
           "quantity": 1
         }
       ],
@@ -6405,7 +6405,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-greenland-shark",
+          "ingredientId": "fish/greenland-shark",
           "quantity": 1
         }
       ],
@@ -6483,7 +6483,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-humboldt-squid",
+          "ingredientId": "fish/humboldt-squid",
           "quantity": 1
         },
         {
@@ -6570,7 +6570,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-long-nose-saw-shark",
+          "ingredientId": "fish/long-nose-saw-shark",
           "quantity": 1
         }
       ],
@@ -6643,7 +6643,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/marlin-meat",
+          "ingredientId": "fish/marlin",
           "quantity": 1
         }
       ],
@@ -6676,7 +6676,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-megamouth-shark",
+          "ingredientId": "fish/megamouth-shark",
           "quantity": 1
         }
       ],
@@ -6752,7 +6752,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-narwhal",
+          "ingredientId": "fish/narwhal",
           "quantity": 3
         },
         {
@@ -6926,7 +6926,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-porbeagle-shark",
+          "ingredientId": "fish/porbeagle-shark",
           "quantity": 1
         }
       ],
@@ -7118,7 +7118,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-sail-fish",
+          "ingredientId": "fish/sailfish",
           "quantity": 1
         }
       ],
@@ -7924,7 +7924,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-thresher-shark",
+          "ingredientId": "fish/thresher-shark",
           "quantity": 1
         }
       ],
@@ -7957,7 +7957,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/tiger-shark-meat",
+          "ingredientId": "fish/tiger-shark",
           "quantity": 1
         }
       ],
@@ -8114,7 +8114,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-sail-fish",
+          "ingredientId": "fish/sailfish",
           "quantity": 3
         },
         {
@@ -8156,11 +8156,11 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-frilled-shark",
+          "ingredientId": "fish/frilled-shark",
           "quantity": 3
         },
         {
-          "ingredientId": "ingredient/meat-megamouth-shark",
+          "ingredientId": "fish/megamouth-shark",
           "quantity": 3
         },
         {
@@ -8449,7 +8449,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-zebra-shark",
+          "ingredientId": "fish/zebra-shark",
           "quantity": 1
         }
       ],
@@ -8639,7 +8639,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/sheepshead-meat",
+          "ingredientId": "fish/sheepshead",
           "quantity": 3
         },
         {
@@ -8961,7 +8961,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-drepanaspis",
+          "ingredientId": "fish/drepanaspis",
           "quantity": 1
         }
       ],
@@ -9193,7 +9193,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-frilled-shark",
+          "ingredientId": "fish/frilled-shark",
           "quantity": 1
         }
       ],
@@ -9288,7 +9288,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/giant-trevally-meat",
+          "ingredientId": "fish/giant-trevally",
           "quantity": 1
         }
       ],
@@ -9495,7 +9495,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-humboldt-squid",
+          "ingredientId": "fish/humboldt-squid",
           "quantity": 1
         }
       ],
@@ -9684,7 +9684,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/marbled-electric-ray-meat",
+          "ingredientId": "fish/marbled-electric-ray",
           "quantity": 1
         }
       ],
@@ -9761,7 +9761,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-narwhal",
+          "ingredientId": "fish/narwhal",
           "quantity": 1
         }
       ],
@@ -10209,7 +10209,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-rhinochimaeridae",
+          "ingredientId": "fish/rhinochimaeridae",
           "quantity": 1
         }
       ],
@@ -10471,7 +10471,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/sheepshead-meat",
+          "ingredientId": "fish/sheepshead",
           "quantity": 1
         }
       ],
@@ -10704,7 +10704,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/stingray-meat",
+          "ingredientId": "fish/stingray",
           "quantity": 1
         }
       ],
@@ -11011,7 +11011,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-xenacanthus",
+          "ingredientId": "fish/xenacanthus",
           "quantity": 1
         }
       ],
@@ -13538,7 +13538,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/meat-sword-fish",
+          "ingredientId": "fish/sword-fish",
           "quantity": null
         }
       ],
@@ -16934,20 +16934,15 @@
       "type": "fish",
       "en": "Zebra Shark",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/zebra-shark/"
+        "https://davethediver.net/zh-hans/fish/zebra-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-zebra-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-zebra-shark"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/zebra-shark-sushi"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/meat-zebra-shark"
-        }
-      ],
+      "drops": [],
       "facts": [
         {
           "labelId": "field/harvest-source",
@@ -17230,20 +17225,16 @@
       "type": "fish",
       "en": "Rhinochimaeridae",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/rhinochimaeridae/"
+        "https://davethediver.net/zh-hans/fish/rhinochimaeridae/",
+        "https://davethediver.net/zh-hans/fish/meat-rhinochimaeridae/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-rhinochimaeridae"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/rhinochimaeridae-sushi",
         "recipe/crimson-fish-roll"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/meat-rhinochimaeridae"
-        },
         {
           "text": "Rhinochimaeridae Poison Thorn"
         }
@@ -17967,12 +17958,11 @@
       "type": "fish",
       "en": "Drepanaspis",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/drepanaspis/"
+        "https://davethediver.net/zh-hans/fish/drepanaspis/",
+        "https://davethediver.net/zh-hans/fish/meat-drepanaspis/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-drepanaspis"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/drepanaspis-sushi"
       ],
@@ -18011,19 +18001,15 @@
       "type": "fish",
       "en": "Dunkleosteus",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/dunkleosteus/"
+        "https://davethediver.net/zh-hans/fish/dunkleosteus/",
+        "https://davethediver.net/zh-hans/fish/meat-dunkleosteus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-dunkleosteus"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/dunkleosteus-sushi"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/meat-dunkleosteus"
-        },
         {
           "text": "Dunkleosteus Thoracic Shield"
         }
@@ -18172,20 +18158,16 @@
       "type": "fish",
       "en": "Frilled Shark",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/frilled-shark/"
+        "https://davethediver.net/zh-hans/fish/frilled-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-frilled-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-frilled-shark"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/frilled-shark-sushi",
         "recipe/truffle-shark-sandwich"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/meat-frilled-shark"
-        },
         {
           "text": "Frilled Shark Teeth"
         }
@@ -18220,21 +18202,17 @@
       "type": "fish",
       "en": "Giant Trevally",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/giant-trevally/"
+        "https://davethediver.net/zh-hans/fish/giant-trevally/",
+        "https://davethediver.net/zh-hans/fish/meat-giant-trevally/",
+        "https://davethediver.net/zh-hans/ingredient/giant-trevally-meat/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/giant-trevally-meat",
-        "ingredient/meat-giant-trevally"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/giant-trevally-sushi",
         "recipe/trevally-sandwich"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/giant-trevally-meat"
-        },
         {
           "text": "Giant Trevally Fin"
         }
@@ -18345,21 +18323,16 @@
       "type": "fish",
       "en": "Humboldt Squid",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/humboldt-squid/"
+        "https://davethediver.net/zh-hans/fish/humboldt-squid/",
+        "https://davethediver.net/zh-hans/fish/meat-humboldt-squid/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-humboldt-squid"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/humboldt-squid-sushi",
         "recipe/humboldt-ink-pasta"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/meat-humboldt-squid"
-        }
-      ],
+      "drops": [],
       "facts": [],
       "stats": {
         "rank": 8,
@@ -18504,21 +18477,17 @@
       "type": "fish",
       "en": "Marbled Electric Ray",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/marbled-electric-ray/"
+        "https://davethediver.net/zh-hans/fish/marbled-electric-ray/",
+        "https://davethediver.net/zh-hans/fish/meat-marbled-electric-ray/",
+        "https://davethediver.net/zh-hans/ingredient/marbled-electric-ray-meat/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/marbled-electric-ray-meat",
-        "ingredient/meat-marbled-electric-ray"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/marbled-electric-ray-sushi",
         "recipe/dried-stingray"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/marbled-electric-ray-meat"
-        },
         {
           "text": "Marbled Electric Ray Electroplax"
         }
@@ -19008,12 +18977,11 @@
       "type": "fish",
       "en": "Shortfin Mako",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/shortfin-mako/"
+        "https://davethediver.net/zh-hans/fish/shortfin-mako/",
+        "https://davethediver.net/zh-hans/fish/meat-shortfin-mako/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-shortfin-mako"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/shortfin-mako-sushi"
       ],
@@ -19167,21 +19135,17 @@
       "type": "fish",
       "en": "Thresher Shark",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/thresher-shark/"
+        "https://davethediver.net/zh-hans/fish/thresher-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-thresher-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-thresher-shark"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/thresher-shark-sushi"
       ],
       "drops": [
         {
           "text": "Thresher Shark Tail"
-        },
-        {
-          "entityId": "ingredient/meat-thresher-shark"
         }
       ],
       "facts": [],
@@ -19332,20 +19296,15 @@
       "type": "fish",
       "en": "Xenacanthus",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/xenacanthus/"
+        "https://davethediver.net/zh-hans/fish/xenacanthus/",
+        "https://davethediver.net/zh-hans/fish/meat-xenacanthus/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-xenacanthus"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/xenacanthus-sushi"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/meat-xenacanthus"
-        }
-      ],
+      "drops": [],
       "facts": [],
       "stats": {
         "rank": 9,
@@ -19562,12 +19521,11 @@
       "type": "fish",
       "en": "Copper Shark",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/copper-shark/"
+        "https://davethediver.net/zh-hans/fish/copper-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-copper-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-copper-shark"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/copper-shark-sushi",
         "recipe/shark-karaage"
@@ -19785,12 +19743,11 @@
       "type": "fish",
       "en": "Green Humphead Parrotfish",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/green-humphead-parrotfish/"
+        "https://davethediver.net/zh-hans/fish/green-humphead-parrotfish/",
+        "https://davethediver.net/zh-hans/fish/meat-green-humphead-parrotfish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-green-humphead-parrotfish"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/green-humphead-parrotfish-sushi",
         "recipe/humphead-parrotfish-curry"
@@ -20272,19 +20229,15 @@
       "type": "fish",
       "en": "Greenland Shark",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/greenland-shark/"
+        "https://davethediver.net/zh-hans/fish/greenland-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-greenland-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-greenland-shark"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/greenland-shark-sushi"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/meat-greenland-shark"
-        },
         {
           "text": "Greenland Shark Spine"
         }
@@ -20720,21 +20673,17 @@
       "en": "Blacktip Reefshark",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/blacktip-reefshark/",
-        "https://davethediver.net/zh-hans/fish/blacktip-reef-shark/"
+        "https://davethediver.net/zh-hans/fish/blacktip-reef-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-blacktip-shark/",
+        "https://davethediver.net/zh-hans/ingredient/blacktip-shark-meat/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/blacktip-shark-meat"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/blacktip-reefshark-sushi",
         "recipe/shark-karaage"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/blacktip-shark-meat"
-        }
-      ],
+      "drops": [],
       "facts": [],
       "stats": {
         "rank": 6,
@@ -20742,7 +20691,7 @@
         "meat1": 3,
         "meat2": 5,
         "meat3": 9,
-        "sellPrice": null,
+        "sellPrice": 20,
         "length": 150,
         "health": 160,
         "damage": 40,
@@ -21092,21 +21041,17 @@
       "en": "Sailfish",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/sailfish/",
-        "https://davethediver.net/zh-hans/fish/sail-fish/"
+        "https://davethediver.net/zh-hans/fish/sail-fish/",
+        "https://davethediver.net/zh-hans/fish/meat-sail-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-sail-fish"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/sailfish-sushi",
         "recipe/boiled-sailfish-and-seaweed",
         "recipe/truffle-sailfish-tartare"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/meat-sail-fish"
-        },
         {
           "text": "Sailfish Bill"
         }
@@ -21118,7 +21063,7 @@
         "meat1": 3,
         "meat2": 5,
         "meat3": 9,
-        "sellPrice": null,
+        "sellPrice": 65,
         "length": 285,
         "health": 250,
         "damage": 60,
@@ -21586,20 +21531,16 @@
       "type": "fish",
       "en": "Megamouth Shark",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/megamouth-shark/"
+        "https://davethediver.net/zh-hans/fish/megamouth-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-megamouth-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-megamouth-shark"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/megamouth-shark-sushi",
         "recipe/truffle-shark-sandwich"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/meat-megamouth-shark"
-        },
         {
           "text": "Megamouth Shark Jawbone"
         }
@@ -21627,20 +21568,16 @@
       "type": "fish",
       "en": "Porbeagle Shark",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/porbeagle-shark/"
+        "https://davethediver.net/zh-hans/fish/porbeagle-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-porbeagle-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-porbeagle-shark"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/boiled-porbeagle-shark",
         "recipe/porbeagle-shark-sushi"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/meat-porbeagle-shark"
-        },
         {
           "text": "Porbeagle Shark Tooth"
         }
@@ -21668,19 +21605,16 @@
       "type": "fish",
       "en": "Tiger Shark",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/tiger-shark/"
+        "https://davethediver.net/zh-hans/fish/tiger-shark/",
+        "https://davethediver.net/zh-hans/fish/meat-tiger-shark/",
+        "https://davethediver.net/zh-hans/ingredient/tiger-shark-meat/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/tiger-shark-meat"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/tiger-shark-sushi"
       ],
       "drops": [
-        {
-          "entityId": "ingredient/tiger-shark-meat"
-        },
         {
           "text": "Tiger Shark Tooth"
         }
@@ -22370,20 +22304,15 @@
       "en": "Long Nose Saw Shark",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/long-nose-saw-shark/",
-        "https://davethediver.net/zh-hans/fish/longnose-sawshark/"
+        "https://davethediver.net/zh-hans/fish/longnose-sawshark/",
+        "https://davethediver.net/zh-hans/fish/meat-long-nose-saw-shark/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-long-nose-saw-shark"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/longnose-sawshark-sushi"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/meat-long-nose-saw-shark"
-        }
-      ],
+      "drops": [],
       "facts": [],
       "stats": {
         "rank": 6,
@@ -22820,9 +22749,7 @@
         "https://davethediver.net/zh-hans/fish/dredge-sprouting-eel/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/dredge-sprouting-eel"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/sprouting-eel-sushi"
       ],
@@ -24800,12 +24727,11 @@
       "type": "fish",
       "en": "Narwhal",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/narwhal/"
+        "https://davethediver.net/zh-hans/fish/narwhal/",
+        "https://davethediver.net/zh-hans/fish/meat-narwhal/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-narwhal"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/narwhal-sushi",
         "recipe/narwhal-miso-soup"
@@ -25895,18 +25821,12 @@
         "https://davethediver.net/zh-hans/fish/marlin/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/marlin-meat"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/marlin-sushi",
         "recipe/marlin-and-soybean-paste-roast"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/marlin-meat"
-        }
-      ],
+      "drops": [],
       "facts": [],
       "stats": {
         "rank": 8,
@@ -25974,18 +25894,12 @@
         "https://davethediver.net/zh-hans/fish/sheepshead/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/sheepshead-meat"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/sheepshead-sushi",
         "recipe/boiled-asian-sheepshead-wrasse-and-truffle"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/sheepshead-meat"
-        }
-      ],
+      "drops": [],
       "facts": [],
       "stats": {
         "rank": 5,
@@ -26078,21 +25992,16 @@
       "type": "fish",
       "en": "Stingray",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/stingray/"
+        "https://davethediver.net/zh-hans/fish/stingray/",
+        "https://davethediver.net/zh-hans/ingredient/stingray-meat/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/stingray-meat"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/stingray-sushi",
         "recipe/dried-stingray"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/stingray-meat"
-        }
-      ],
+      "drops": [],
       "facts": [],
       "stats": {
         "rank": 6,
@@ -27504,12 +27413,11 @@
       "type": "fish",
       "en": "Sword Fish",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/sword-fish/"
+        "https://davethediver.net/zh-hans/fish/sword-fish/",
+        "https://davethediver.net/zh-hans/fish/meat-sword-fish/"
       ],
       "inferred": false,
-      "relatedIngredients": [
-        "ingredient/meat-sword-fish"
-      ],
+      "relatedIngredients": [],
       "relatedRecipes": [
         "recipe/sword-fish"
       ],
@@ -28205,29 +28113,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/meat-giant-trevally",
-      "type": "ingredient",
-      "en": "meat Giant Trevally",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-giant-trevally/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/giant-trevally"
-      ],
-      "relatedRecipes": [],
-      "acquisition-method": {
-        "text": "medium"
-      },
-      "facts": [],
-      "stats": {
-        "sellPrice": 10,
-        "weight": 5,
-        "rank": 4
-      },
-      "facets": {}
-    },
-    {
       "id": "ingredient/miso",
       "type": "ingredient",
       "en": "Miso",
@@ -28423,32 +28308,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/tiger-shark-meat",
-      "type": "ingredient",
-      "en": "meat Tiger Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-tiger-shark/",
-        "https://davethediver.net/zh-hans/ingredient/tiger-shark-meat/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/tiger-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/tiger-shark-sushi"
-      ],
-      "acquisition-method": {
-        "text": "medium"
-      },
-      "facts": [],
-      "stats": {
-        "sellPrice": 17,
-        "weight": 15,
-        "rank": 6
-      },
-      "facets": {}
-    },
-    {
       "id": "ingredient/truffle",
       "type": "ingredient",
       "en": "Truffle",
@@ -28502,55 +28361,6 @@
         "weight": 0.1,
         "rank": 1,
         "purchasePriceJango": 50
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/blacktip-shark-meat",
-      "type": "ingredient",
-      "en": "meat Blacktip Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-blacktip-shark/",
-        "https://davethediver.net/zh-hans/ingredient/blacktip-shark-meat/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/blacktip-reefshark"
-      ],
-      "relatedRecipes": [
-        "recipe/shark-karaage",
-        "recipe/blacktip-reefshark-sushi"
-      ],
-      "acquisition-method": {
-        "entityId": "fish/blacktip-reefshark"
-      },
-      "facts": [],
-      "stats": {
-        "sellPrice": 20,
-        "weight": 2.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-marbled-electric-ray",
-      "type": "ingredient",
-      "en": "meat Marbled Electric Ray",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-marbled-electric-ray/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/marbled-electric-ray"
-      ],
-      "relatedRecipes": [],
-      "acquisition-method": {
-        "text": "shallows"
-      },
-      "facts": [],
-      "stats": {
-        "sellPrice": 30,
-        "weight": 3.5,
-        "rank": 6
       },
       "facets": {}
     },
@@ -29067,32 +28877,6 @@
         "sellPrice": 5,
         "weight": 1
       },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/giant-trevally-meat",
-      "type": "ingredient",
-      "en": "Giant Trevally Meat",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/giant-trevally-meat/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/giant-trevally"
-      ],
-      "relatedRecipes": [
-        "recipe/trevally-sandwich",
-        "recipe/giant-trevally-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 10,
-        "weight": 5,
-        "rank": 4
-      },
-      "region": [
-        "text/ef809f2febc3"
-      ],
       "facets": {}
     },
     {
@@ -29663,305 +29447,6 @@
       }
     },
     {
-      "id": "ingredient/meat-copper-shark",
-      "type": "ingredient",
-      "en": "meat Copper Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-copper-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/copper-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/shark-karaage",
-        "recipe/copper-shark-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 22,
-        "weight": 4
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-drepanaspis",
-      "type": "ingredient",
-      "en": "meat Drepanaspis",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-drepanaspis/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/drepanaspis"
-      ],
-      "relatedRecipes": [
-        "recipe/drepanaspis-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 50,
-        "weight": 8.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-dunkleosteus",
-      "type": "ingredient",
-      "en": "meat Dunkleosteus",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-dunkleosteus/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/dunkleosteus"
-      ],
-      "relatedRecipes": [
-        "recipe/dunkleosteus-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 70,
-        "weight": 19.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-frilled-shark",
-      "type": "ingredient",
-      "en": "meat Frilled Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-frilled-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/frilled-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/truffle-shark-sandwich",
-        "recipe/frilled-shark-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 28,
-        "weight": 8.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-green-humphead-parrotfish",
-      "type": "ingredient",
-      "en": "meat Green Humphead Parrotfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-green-humphead-parrotfish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/green-humphead-parrotfish"
-      ],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "sellPrice": 5,
-        "weight": 1.8
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-greenland-shark",
-      "type": "ingredient",
-      "en": "meat Greenland Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-greenland-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/greenland-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/greenland-shark-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 62,
-        "weight": 20
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-humboldt-squid",
-      "type": "ingredient",
-      "en": "meat Humboldt Squid",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-humboldt-squid/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/humboldt-squid"
-      ],
-      "relatedRecipes": [
-        "recipe/humboldt-ink-pasta",
-        "recipe/humboldt-squid-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 48,
-        "weight": 7.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-long-nose-saw-shark",
-      "type": "ingredient",
-      "en": "meat Long Nose Saw Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-long-nose-saw-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/long-nose-saw-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/longnose-sawshark-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 12,
-        "weight": 6.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-megamouth-shark",
-      "type": "ingredient",
-      "en": "meat Megamouth Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-megamouth-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/megamouth-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/megamouth-shark-sushi",
-        "recipe/truffle-shark-sandwich"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 31,
-        "weight": 11.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-narwhal",
-      "type": "ingredient",
-      "en": "meat Narwhal",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-narwhal/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/narwhal"
-      ],
-      "relatedRecipes": [
-        "recipe/narwhal-miso-soup",
-        "recipe/narwhal-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 46,
-        "weight": 9.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-porbeagle-shark",
-      "type": "ingredient",
-      "en": "meat Porbeagle Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-porbeagle-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/porbeagle-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/boiled-porbeagle-shark",
-        "recipe/porbeagle-shark-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 55,
-        "weight": 13.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-rhinochimaeridae",
-      "type": "ingredient",
-      "en": "meat Rhinochimaeridae",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-rhinochimaeridae/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/rhinochimaeridae"
-      ],
-      "relatedRecipes": [
-        "recipe/crimson-fish-roll",
-        "recipe/rhinochimaeridae-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 30,
-        "weight": 5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-sail-fish",
-      "type": "ingredient",
-      "en": "meat Sail Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-sail-fish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/sailfish"
-      ],
-      "relatedRecipes": [
-        "recipe/boiled-sailfish-and-seaweed",
-        "recipe/sailfish-sushi",
-        "recipe/truffle-sailfish-tartare"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 65,
-        "weight": 9
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-shortfin-mako",
-      "type": "ingredient",
-      "en": "meat Shortfin Mako",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-shortfin-mako/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/shortfin-mako"
-      ],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "sellPrice": 43,
-        "weight": 9
-      },
-      "facets": {}
-    },
-    {
       "id": "ingredient/meat-smooth-hammershark",
       "type": "ingredient",
       "en": "meat Smooth Hammershark",
@@ -29979,48 +29464,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/meat-sword-fish",
-      "type": "ingredient",
-      "en": "meat Sword Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-sword-fish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/sword-fish"
-      ],
-      "relatedRecipes": [
-        "recipe/sword-fish"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 38,
-        "weight": 7.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-thresher-shark",
-      "type": "ingredient",
-      "en": "meat Thresher Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-thresher-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/thresher-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/thresher-shark-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 53,
-        "weight": 8.5
-      },
-      "facets": {}
-    },
-    {
       "id": "ingredient/meat-whitetip-reefshark-head",
       "type": "ingredient",
       "en": "meat Whitetip Reefshark Head",
@@ -30034,48 +29477,6 @@
       "stats": {
         "sellPrice": 8,
         "weight": 2.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-xenacanthus",
-      "type": "ingredient",
-      "en": "meat Xenacanthus",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-xenacanthus/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/xenacanthus"
-      ],
-      "relatedRecipes": [
-        "recipe/xenacanthus-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 53,
-        "weight": 5.5
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/meat-zebra-shark",
-      "type": "ingredient",
-      "en": "meat Zebra Shark",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-zebra-shark/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/zebra-shark"
-      ],
-      "relatedRecipes": [
-        "recipe/zebra-shark-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 42,
-        "weight": 10.5
       },
       "facets": {}
     },
@@ -30319,56 +29720,6 @@
       }
     },
     {
-      "id": "ingredient/marbled-electric-ray-meat",
-      "type": "ingredient",
-      "en": "Marbled Electric Ray Meat",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/marbled-electric-ray-meat/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/marbled-electric-ray"
-      ],
-      "relatedRecipes": [
-        "recipe/dried-stingray",
-        "recipe/marbled-electric-ray-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "weight": 3.5,
-        "rank": 6
-      },
-      "region": [
-        "text/544dd3e67759"
-      ],
-      "facets": {}
-    },
-    {
-      "id": "ingredient/stingray-meat",
-      "type": "ingredient",
-      "en": "Stingray Meat",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/stingray-meat/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/stingray"
-      ],
-      "relatedRecipes": [
-        "recipe/dried-stingray",
-        "recipe/stingray-sushi"
-      ],
-      "facts": [],
-      "stats": {
-        "weight": 3,
-        "rank": 6
-      },
-      "region": [
-        "text/544dd3e67759"
-      ],
-      "facets": {}
-    },
-    {
       "id": "ingredient/wolf-eel-tail-meat",
       "type": "ingredient",
       "en": "Wolf Eel Tail Meat",
@@ -30547,23 +29898,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/marlin-meat",
-      "type": "ingredient",
-      "en": "Marlin Meat",
-      "sourceUrls": [],
-      "inferred": true,
-      "relatedFish": [
-        "fish/marlin"
-      ],
-      "relatedRecipes": [
-        "recipe/marlin-and-soybean-paste-roast",
-        "recipe/marlin-sushi"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
       "id": "ingredient/yellowfin-tuna-chutoro",
       "type": "ingredient",
       "en": "Yellowfin Tuna Chutoro",
@@ -30604,37 +29938,6 @@
       "relatedRecipes": [
         "recipe/smooth-hammerhead-sushi"
       ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/sheepshead-meat",
-      "type": "ingredient",
-      "en": "Sheepshead Meat",
-      "sourceUrls": [],
-      "inferred": true,
-      "relatedFish": [
-        "fish/sheepshead"
-      ],
-      "relatedRecipes": [
-        "recipe/boiled-asian-sheepshead-wrasse-and-truffle",
-        "recipe/sheepshead-sushi"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/dredge-sprouting-eel",
-      "type": "ingredient",
-      "en": "Dredge Sprouting Eel",
-      "sourceUrls": [],
-      "inferred": true,
-      "relatedFish": [
-        "fish/sprouting-eel"
-      ],
-      "relatedRecipes": [],
       "facts": [],
       "stats": {},
       "facets": {}

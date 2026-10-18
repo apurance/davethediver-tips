@@ -68,7 +68,7 @@ location / {
 ```json
 {
   "recipe/tiger-shark-sushi": "虎鲨寿司",
-  "ingredient/tiger-shark-meat": "虎鲨肉",
+  "ingredient/bluefin-tuna-akami": "蓝鳍金枪鱼赤身",
   "fish/tiger-shark": "虎鲨",
   "staff/billy": "比利"
 }
