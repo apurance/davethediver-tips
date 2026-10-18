@@ -2139,6 +2139,40 @@
       "facts": []
     },
     {
+      "id": "recipe/bigeye-trevally-sushi",
+      "type": "recipe",
+      "nameId": "recipe/bigeye-trevally-sushi",
+      "en": "Bigeye Trevally Sushi",
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/recipe/bigeye-trevally-sushi/"
+      ],
+      "inferred": false,
+      "relatedFish": [
+        "fish/bigeye-trevally"
+      ],
+      "ingredients": [
+        {
+          "ingredientId": "ingredient/bigeye-trevally",
+          "quantity": 1
+        }
+      ],
+      "stats": {
+        "basePrice": 19,
+        "maxPrice": 70,
+        "baseTaste": 17,
+        "maxTaste": 170,
+        "baseServings": 1,
+        "maxServings": 1,
+        "ingredientCost": 6,
+        "estimatedProfit": 13
+      },
+      "facets": {},
+      "acquisition-method": {
+        "entityId": "fish/bigeye-trevally"
+      },
+      "facts": []
+    },
+    {
       "id": "recipe/blackfin-barracuda-sushi",
       "type": "recipe",
       "nameId": "recipe/blackfin-barracuda-sushi",
@@ -2252,8 +2286,7 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/whiteleg-shrimp",
-        "fish/white-shrimp"
+        "fish/whiteleg-shrimp"
       ],
       "ingredients": [
         {
@@ -4912,7 +4945,8 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/giant-trevally"
+        "fish/giant-trevally",
+        "fish/bigeye-trevally"
       ],
       "ingredients": [
         {
@@ -6448,7 +6482,8 @@
       ],
       "inferred": false,
       "relatedFish": [
-        "fish/european-lobster"
+        "fish/european-lobster",
+        "fish/moray-eel"
       ],
       "ingredients": [
         {
@@ -17829,7 +17864,6 @@
         "ingredient/white-shrimp"
       ],
       "relatedRecipes": [
-        "recipe/boiled-and-deep-fried-white-shrimp",
         "recipe/humboldt-ink-pasta",
         "recipe/rice-with-white-shrimp-meat",
         "recipe/white-shrimp-sushi"
@@ -18068,13 +18102,11 @@
       "nameId": "fish/bigeye-scad",
       "en": "Bigeye Scad",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/bigeye-scad/",
-        "https://davethediver.net/zh-hans/fish/bigeye-trevally/"
+        "https://davethediver.net/zh-hans/fish/bigeye-scad/"
       ],
       "inferred": false,
       "relatedIngredients": [
-        "ingredient/bigeye-scad",
-        "ingredient/bigeye-trevally"
+        "ingredient/bigeye-scad"
       ],
       "relatedRecipes": [
         "recipe/bigeye-scad-sushi",
@@ -18094,6 +18126,46 @@
         "harvestCount": 0,
         "captureRank": 0,
         "marincaCardNumber": 104
+      },
+      "region": [
+        "region/82a8f0e0b78d"
+      ],
+      "facets": {
+        "time": "time/6fa7e15a01ab",
+        "size": "text/5b3ed24e0472",
+        "behavior": "text/ad14cad5a8ba",
+        "knockbackResistance": "text/b5141d3d19e9"
+      }
+    },
+    {
+      "id": "fish/bigeye-trevally",
+      "type": "fish",
+      "nameId": "fish/bigeye-trevally",
+      "en": "Bigeye Trevally",
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/fish/bigeye-trevally/"
+      ],
+      "inferred": false,
+      "relatedIngredients": [
+        "ingredient/bigeye-trevally"
+      ],
+      "relatedRecipes": [
+        "recipe/bigeye-trevally-sushi",
+        "recipe/trevally-sandwich"
+      ],
+      "facts": [],
+      "stats": {
+        "rank": 2,
+        "weight": 3,
+        "meat1": 1,
+        "meat2": 3,
+        "meat3": 5,
+        "sellPrice": 6,
+        "health": 32,
+        "damage": 0,
+        "harvestCount": 0,
+        "captureRank": 0,
+        "marincaCardNumber": 108
       },
       "region": [
         "region/82a8f0e0b78d"
@@ -22024,7 +22096,8 @@
       ],
       "relatedRecipes": [
         "recipe/moray-eel-sushi",
-        "recipe/moray-eel-curry"
+        "recipe/moray-eel-curry",
+        "recipe/godzilla-vs-ebirah-curry"
       ],
       "drops": [
         {
@@ -32568,15 +32641,16 @@
     {
       "id": "ingredient/bigeye-trevally",
       "type": "ingredient",
-      "nameId": "ingredient/bigeye-trevally",
+      "nameId": "fish/bigeye-trevally",
       "en": "Bigeye Trevally",
       "sourceUrls": [],
       "inferred": true,
       "relatedFish": [
-        "fish/bigeye-scad"
+        "fish/bigeye-trevally"
       ],
       "relatedRecipes": [
-        "recipe/trevally-sandwich"
+        "recipe/trevally-sandwich",
+        "recipe/bigeye-trevally-sushi"
       ],
       "facts": [],
       "stats": {},
