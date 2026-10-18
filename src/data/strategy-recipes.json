@@ -37,7 +37,7 @@
     "entityId": "recipe/stellate-puffer-nicogori",
     "ingredients": [
       [
-        "ingredient/starry-puffer",
+        "fish/starry-puffer",
         3
       ],
       [
@@ -92,7 +92,7 @@
         1
       ],
       [
-        "ingredient/white-spotted-jellyfish",
+        "fish/white-spotted-jellyfish",
         1
       ],
       [
@@ -139,15 +139,15 @@
     "entityId": "recipe/tropical-fish-sushi-set",
     "ingredients": [
       [
-        "ingredient/titan-triggerfish",
+        "fish/titan-triggerfish",
         3
       ],
       [
-        "ingredient/harlequin-hind",
+        "fish/harlequin-hind",
         3
       ],
       [
-        "ingredient/coral-trout",
+        "fish/coral-trout",
         3
       ],
       [
@@ -194,11 +194,11 @@
     "entityId": "recipe/crimson-fish-roll",
     "ingredients": [
       [
-        "ingredient/clown-frogfish",
+        "fish/clown-frogfish",
         3
       ],
       [
-        "ingredient/red-bream",
+        "fish/red-bream",
         3
       ],
       [
@@ -331,15 +331,15 @@
     "entityId": "recipe/lobster-platter",
     "ingredients": [
       [
-        "ingredient/american-lobster",
+        "fish/american-lobster",
         2
       ],
       [
-        "ingredient/tropical-rock-lobster",
+        "fish/tropical-rock-lobster",
         2
       ],
       [
-        "ingredient/tokummia-katalepsis",
+        "fish/tokummia-katalepsis",
         2
       ]
     ]
