@@ -13,7 +13,6 @@ export interface AcquisitionMethod {
 }
 interface EntityBase {
   id: string;
-  nameId: string;
   en: string;
   sourceUrls: string[];
   inferred: boolean;
@@ -61,8 +60,7 @@ const byId = new Map(catalog.map(entity => [entity.id, entity]));
 export function getEntity(id: string) { return byId.get(id); }
 export function name(id: string) {
   const entity = getEntity(id);
-  const key = entity?.nameId ?? id;
-  return names[key] ?? entity?.en ?? id;
+  return names[id] ?? entity?.en ?? id;
 }
 export function translateText(text: string) {
   return text.replace(/\{\{([^{}]+)\}\}/g, (_, id: string) => name(id));
