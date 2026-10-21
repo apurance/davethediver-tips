@@ -1,0 +1,4 @@
+# Keep version mismatches visible instead of downloading another pnpm before dev.
+pmOnFail: error
+# Install explicitly; running a script should not trigger a nested pnpm install.
+verifyDepsBeforeRun: false

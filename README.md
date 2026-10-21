@@ -4,7 +4,7 @@
 
 ## 运行
 
-需要 Node.js 22.12+（推荐 24）和 pnpm。
+需要 Node.js 22.13+（推荐 24）和 pnpm 11.13.1。
 
 ```powershell
 cd D:\source\daifu
@@ -13,6 +13,21 @@ pnpm dev
 ```
 
 打开 http://127.0.0.1:5173/ 。首次交付时依赖已经安装。
+
+局域网访问使用 `pnpm run dev --host`，末尾不需要再加 `--`。在原终端按 Ctrl+C 停止，等待命令提示符返回后再重新启动。
+
+`pnpm-workspace.yaml` 禁止自动切换 pnpm 版本，并关闭运行脚本前的自动安装。否则，pnpm 版本不匹配或依赖检查设置变化时，`pnpm dev` 可能先联网下载 pnpm 或执行 `pnpm install`，表现为 Vite 启动前长时间没有输出。安装、更新依赖后显式运行 `pnpm install`；pnpm 版本不匹配时会立即提示错误。
+
+开发端口固定为 5173，已被占用时会直接报错。若 Ctrl+C 后仍提示占用，在 PowerShell 中查看监听进程：
+
+```powershell
+Get-NetTCPConnection -LocalPort 5173 -State Listen | ForEach-Object {
+  Get-CimInstance Win32_Process -Filter "ProcessId=$($_.OwningProcess)" |
+    Select-Object ProcessId, ParentProcessId, CommandLine
+}
+```
+
+确认命令行指向本项目的 `node_modules` 下的 `vite` 后，使用 `Stop-Process -Id <上面查到的 ProcessId>` 终止该残留进程，再启动开发服务器。
 
 ```powershell
 pnpm build    # TypeScript 检查并构建到 dist
