@@ -63,7 +63,7 @@ pnpm test     # 使用 Node 内置 test runner 验证经营模型（Node 22.18+�
 - `src/pages/MapsPage.tsx`、`src/components/DeepSeaMap.tsx`：深海地图交互及 SVG 渲染。
 - `src/data/deep-sea-terrain.json`：两份共用地形，每份为 64 × 69 方格；`#` 为岩石、`.` 为水域、`p` 为原图紫色岩层。
 - `src/data/deep-sea-markers.json`：六套示意坐标（单位为方格），独立于地形。来源为 CleverLab / 甜菜；本地参考原图位于 `rawdata/`，已被 Git 忽略，不参与应用运行或构建。
-- `maps/`：六份独立 SVG；页面下载反映当前图层选择。地图数据直接维护 `src/data/deep-sea-*.json`；运行 `node scripts/export-deep-sea.mjs` 可根据当前 JSON 重新导出六张完整地图。
+- `maps/`：九份独立 SVG；页面下载反映当前图层选择。地图数据直接维护 `src/data/deep-sea-*.json` 和 `src/data/glacial-*.json`；运行 `node scripts/export-deep-sea.mjs` 可重新导出九张完整地图，追加参数 `C` 可仅导出冰河＋热泉三张。`python -B scripts/trace-glacial.py` 使用 Pillow 和本地 `rawdata/` 第 14–16 张参考图重建冰河共用地形与手工核对的标记坐标；普通构建无需 Pillow 或参考图。
 - `.superdesign/overview.html`：已确认的设计参考，不是运行页面。
 
 ## 部署

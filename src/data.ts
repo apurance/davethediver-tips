@@ -26,7 +26,7 @@ export const sections = [
     id: "maps",
     title: "深海地图",
     en: "BLUE HOLE DEPTHS",
-    desc: "切换两种深海地形与各自三套道具、大鱼分布。",
+    desc: "查看蓝洞深海、冰河与热泉地图，切换物资和鱼类分布。",
   },
   {
     id: "recipes",

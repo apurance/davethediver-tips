@@ -1,0 +1,991 @@
+{
+  "C01": [
+    {
+      "id": "C01-oxygen-1",
+      "kind": "oxygen",
+      "x": 55.03,
+      "y": 15.44
+    },
+    {
+      "id": "C01-oxygen-2",
+      "kind": "oxygen",
+      "x": 26.04,
+      "y": 24.5
+    },
+    {
+      "id": "C01-oxygen-3",
+      "kind": "oxygen",
+      "x": 13.76,
+      "y": 26.44
+    },
+    {
+      "id": "C01-oxygen-4",
+      "kind": "oxygen",
+      "x": 59.13,
+      "y": 26.44
+    },
+    {
+      "id": "C01-oxygen-5",
+      "kind": "oxygen",
+      "x": 5.7,
+      "y": 39.53
+    },
+    {
+      "id": "C01-oxygen-6",
+      "kind": "oxygen",
+      "x": 56.04,
+      "y": 44.56
+    },
+    {
+      "id": "C01-oxygen-7",
+      "kind": "oxygen",
+      "x": 5.7,
+      "y": 51.41
+    },
+    {
+      "id": "C01-teleport-1",
+      "kind": "teleport",
+      "x": 3.02,
+      "y": 32.48
+    },
+    {
+      "id": "C01-teleport-2",
+      "kind": "teleport",
+      "x": 56.38,
+      "y": 31.48
+    },
+    {
+      "id": "C01-teleport-3",
+      "kind": "teleport",
+      "x": 17.79,
+      "y": 51.41
+    },
+    {
+      "id": "C01-teleport-4",
+      "kind": "teleport",
+      "x": 46.31,
+      "y": 55.44
+    },
+    {
+      "id": "C01-supply-1",
+      "kind": "supply",
+      "x": 48.05,
+      "y": 16.78
+    },
+    {
+      "id": "C01-supply-2",
+      "kind": "supply",
+      "x": 14.09,
+      "y": 21.68
+    },
+    {
+      "id": "C01-supply-3",
+      "kind": "supply",
+      "x": 3.49,
+      "y": 27.58
+    },
+    {
+      "id": "C01-supply-4",
+      "kind": "supply",
+      "x": 57.58,
+      "y": 26.58
+    },
+    {
+      "id": "C01-supply-5",
+      "kind": "supply",
+      "x": 60.13,
+      "y": 38.66
+    },
+    {
+      "id": "C01-supply-6",
+      "kind": "supply",
+      "x": 55.84,
+      "y": 48.59
+    },
+    {
+      "id": "C01-supply-7",
+      "kind": "supply",
+      "x": 10.54,
+      "y": 51.68
+    },
+    {
+      "id": "C01-supply-8",
+      "kind": "supply",
+      "x": 21.01,
+      "y": 56.71
+    },
+    {
+      "id": "C01-weapon-1",
+      "kind": "weapon",
+      "x": 15.77,
+      "y": 13.62
+    },
+    {
+      "id": "C01-weapon-2",
+      "kind": "weapon",
+      "x": 53.56,
+      "y": 15.77
+    },
+    {
+      "id": "C01-weapon-3",
+      "kind": "weapon",
+      "x": 27.38,
+      "y": 24.63
+    },
+    {
+      "id": "C01-weapon-4",
+      "kind": "weapon",
+      "x": 51.01,
+      "y": 29.66
+    },
+    {
+      "id": "C01-weapon-5",
+      "kind": "weapon",
+      "x": 3.76,
+      "y": 38.59
+    },
+    {
+      "id": "C01-weapon-6",
+      "kind": "weapon",
+      "x": 56.78,
+      "y": 38.59
+    },
+    {
+      "id": "C01-weapon-7",
+      "kind": "weapon",
+      "x": 15.91,
+      "y": 50.67
+    },
+    {
+      "id": "C01-weapon-8",
+      "kind": "weapon",
+      "x": 48.32,
+      "y": 53.62
+    },
+    {
+      "id": "C01-ammo-1",
+      "kind": "ammo",
+      "x": 23.49,
+      "y": 15.7
+    },
+    {
+      "id": "C01-ammo-2",
+      "kind": "ammo",
+      "x": 46.11,
+      "y": 17.79
+    },
+    {
+      "id": "C01-ammo-3",
+      "kind": "ammo",
+      "x": 23.09,
+      "y": 22.62
+    },
+    {
+      "id": "C01-ammo-4",
+      "kind": "ammo",
+      "x": 6.85,
+      "y": 24.63
+    },
+    {
+      "id": "C01-ammo-5",
+      "kind": "ammo",
+      "x": 39.26,
+      "y": 29.66
+    },
+    {
+      "id": "C01-ammo-6",
+      "kind": "ammo",
+      "x": 12.28,
+      "y": 30.6
+    },
+    {
+      "id": "C01-ammo-7",
+      "kind": "ammo",
+      "x": 8.99,
+      "y": 40.6
+    },
+    {
+      "id": "C01-ammo-8",
+      "kind": "ammo",
+      "x": 54.03,
+      "y": 44.63
+    },
+    {
+      "id": "C01-ammo-9",
+      "kind": "ammo",
+      "x": 6.71,
+      "y": 54.63
+    },
+    {
+      "id": "C01-ammo-10",
+      "kind": "ammo",
+      "x": 24.63,
+      "y": 58.59
+    },
+    {
+      "id": "C01-topaz-1",
+      "kind": "topaz",
+      "x": 19.13,
+      "y": 14.5
+    },
+    {
+      "id": "C01-topaz-2",
+      "kind": "topaz",
+      "x": 53.62,
+      "y": 32.48
+    },
+    {
+      "id": "C01-aquamarine-1",
+      "kind": "aquamarine",
+      "x": 11.54,
+      "y": 33.49
+    },
+    {
+      "id": "C01-uraninite-1",
+      "kind": "uraninite",
+      "x": 56.31,
+      "y": 58.39
+    },
+    {
+      "id": "C01-fish-1",
+      "kind": "fish",
+      "x": 37.25,
+      "y": 28.46,
+      "label": "南极章鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C01-fish-2",
+      "kind": "fish",
+      "x": 18.12,
+      "y": 32.89,
+      "label": "南极章鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C01-fish-3",
+      "kind": "fish",
+      "x": 17.79,
+      "y": 17.72,
+      "label": "金色帝王蟹",
+      "scale": 0.4
+    },
+    {
+      "id": "C01-fish-4",
+      "kind": "fish",
+      "x": 48.46,
+      "y": 29.87,
+      "label": "金色帝王蟹",
+      "scale": 0.4
+    },
+    {
+      "id": "C01-fish-5",
+      "kind": "fish",
+      "x": 58.59,
+      "y": 39.93,
+      "label": "未标名鳐鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C01-fish-6",
+      "kind": "fish",
+      "x": 32.68,
+      "y": 14.09,
+      "label": "独角鲸"
+    },
+    {
+      "id": "C01-fish-7",
+      "kind": "fish",
+      "x": 42.75,
+      "y": 24.56,
+      "label": "鼠鲨"
+    },
+    {
+      "id": "C01-fish-8",
+      "kind": "fish",
+      "x": 42.68,
+      "y": 37.85,
+      "label": "格陵兰鲨"
+    },
+    {
+      "id": "C01-fish-9",
+      "kind": "fish",
+      "x": 22.95,
+      "y": 44.77,
+      "label": "异刺鲨"
+    },
+    {
+      "id": "C01-fish-10",
+      "kind": "fish",
+      "x": 32.55,
+      "y": 49.93,
+      "label": "邓氏鱼"
+    },
+    {
+      "id": "C01-fish-11",
+      "kind": "fish",
+      "x": 11.68,
+      "y": 47.85,
+      "label": "未标名鱼类",
+      "scale": 0.45
+    }
+  ],
+  "C02": [
+    {
+      "id": "C02-oxygen-1",
+      "kind": "oxygen",
+      "x": 54.9,
+      "y": 15.44
+    },
+    {
+      "id": "C02-oxygen-2",
+      "kind": "oxygen",
+      "x": 26.58,
+      "y": 24.5
+    },
+    {
+      "id": "C02-oxygen-3",
+      "kind": "oxygen",
+      "x": 13.62,
+      "y": 26.44
+    },
+    {
+      "id": "C02-oxygen-4",
+      "kind": "oxygen",
+      "x": 58.99,
+      "y": 26.44
+    },
+    {
+      "id": "C02-oxygen-5",
+      "kind": "oxygen",
+      "x": 5.64,
+      "y": 39.53
+    },
+    {
+      "id": "C02-oxygen-6",
+      "kind": "oxygen",
+      "x": 55.97,
+      "y": 44.5
+    },
+    {
+      "id": "C02-oxygen-7",
+      "kind": "oxygen",
+      "x": 5.64,
+      "y": 51.41
+    },
+    {
+      "id": "C02-teleport-1",
+      "kind": "teleport",
+      "x": 2.89,
+      "y": 32.48
+    },
+    {
+      "id": "C02-teleport-2",
+      "kind": "teleport",
+      "x": 56.38,
+      "y": 31.48
+    },
+    {
+      "id": "C02-teleport-3",
+      "kind": "teleport",
+      "x": 17.72,
+      "y": 51.41
+    },
+    {
+      "id": "C02-teleport-4",
+      "kind": "teleport",
+      "x": 46.24,
+      "y": 55.44
+    },
+    {
+      "id": "C02-supply-1",
+      "kind": "supply",
+      "x": 16.98,
+      "y": 18.66
+    },
+    {
+      "id": "C02-supply-2",
+      "kind": "supply",
+      "x": 26.71,
+      "y": 20.67
+    },
+    {
+      "id": "C02-supply-3",
+      "kind": "supply",
+      "x": 50.6,
+      "y": 29.66
+    },
+    {
+      "id": "C02-supply-4",
+      "kind": "supply",
+      "x": 3.69,
+      "y": 38.66
+    },
+    {
+      "id": "C02-supply-5",
+      "kind": "supply",
+      "x": 56.85,
+      "y": 38.66
+    },
+    {
+      "id": "C02-supply-6",
+      "kind": "supply",
+      "x": 14.63,
+      "y": 49.66
+    },
+    {
+      "id": "C02-supply-7",
+      "kind": "supply",
+      "x": 55.77,
+      "y": 52.62
+    },
+    {
+      "id": "C02-supply-8",
+      "kind": "supply",
+      "x": 43.36,
+      "y": 56.64
+    },
+    {
+      "id": "C02-weapon-1",
+      "kind": "weapon",
+      "x": 9.46,
+      "y": 12.68
+    },
+    {
+      "id": "C02-weapon-2",
+      "kind": "weapon",
+      "x": 42.55,
+      "y": 29.66
+    },
+    {
+      "id": "C02-weapon-3",
+      "kind": "weapon",
+      "x": 7.32,
+      "y": 32.62
+    },
+    {
+      "id": "C02-weapon-4",
+      "kind": "weapon",
+      "x": 20.0,
+      "y": 33.62
+    },
+    {
+      "id": "C02-weapon-5",
+      "kind": "weapon",
+      "x": 54.03,
+      "y": 44.56
+    },
+    {
+      "id": "C02-weapon-6",
+      "kind": "weapon",
+      "x": 10.4,
+      "y": 51.61
+    },
+    {
+      "id": "C02-weapon-7",
+      "kind": "weapon",
+      "x": 22.82,
+      "y": 57.58
+    },
+    {
+      "id": "C02-weapon-8",
+      "kind": "weapon",
+      "x": 56.24,
+      "y": 58.59
+    },
+    {
+      "id": "C02-ammo-1",
+      "kind": "ammo",
+      "x": 16.51,
+      "y": 13.69
+    },
+    {
+      "id": "C02-ammo-2",
+      "kind": "ammo",
+      "x": 20.2,
+      "y": 21.68
+    },
+    {
+      "id": "C02-ammo-3",
+      "kind": "ammo",
+      "x": 6.71,
+      "y": 24.7
+    },
+    {
+      "id": "C02-ammo-4",
+      "kind": "ammo",
+      "x": 57.38,
+      "y": 26.64
+    },
+    {
+      "id": "C02-ammo-5",
+      "kind": "ammo",
+      "x": 14.16,
+      "y": 31.61
+    },
+    {
+      "id": "C02-ammo-6",
+      "kind": "ammo",
+      "x": 55.64,
+      "y": 48.59
+    },
+    {
+      "id": "C02-ammo-7",
+      "kind": "ammo",
+      "x": 16.11,
+      "y": 50.6
+    },
+    {
+      "id": "C02-ammo-8",
+      "kind": "ammo",
+      "x": 6.64,
+      "y": 54.63
+    },
+    {
+      "id": "C02-ammo-9",
+      "kind": "ammo",
+      "x": 48.05,
+      "y": 53.62
+    },
+    {
+      "id": "C02-ammo-10",
+      "kind": "ammo",
+      "x": 13.76,
+      "y": 57.65
+    },
+    {
+      "id": "C02-topaz-1",
+      "kind": "topaz",
+      "x": 51.21,
+      "y": 16.51
+    },
+    {
+      "id": "C02-topaz-2",
+      "kind": "topaz",
+      "x": 22.75,
+      "y": 22.55
+    },
+    {
+      "id": "C02-aquamarine-1",
+      "kind": "aquamarine",
+      "x": 4.77,
+      "y": 28.52
+    },
+    {
+      "id": "C02-ruby-1",
+      "kind": "ruby",
+      "x": 16.11,
+      "y": 57.45
+    },
+    {
+      "id": "C02-fish-1",
+      "kind": "fish",
+      "x": 17.25,
+      "y": 11.68,
+      "label": "南极章鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C02-fish-2",
+      "kind": "fish",
+      "x": 10.87,
+      "y": 32.82,
+      "label": "金色帝王蟹",
+      "scale": 0.4
+    },
+    {
+      "id": "C02-fish-3",
+      "kind": "fish",
+      "x": 5.57,
+      "y": 40.94,
+      "label": "未标名鳐鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C02-fish-4",
+      "kind": "fish",
+      "x": 32.68,
+      "y": 14.09,
+      "label": "独角鲸"
+    },
+    {
+      "id": "C02-fish-5",
+      "kind": "fish",
+      "x": 42.75,
+      "y": 24.56,
+      "label": "鼠鲨"
+    },
+    {
+      "id": "C02-fish-6",
+      "kind": "fish",
+      "x": 42.68,
+      "y": 37.85,
+      "label": "格陵兰鲨"
+    },
+    {
+      "id": "C02-fish-7",
+      "kind": "fish",
+      "x": 22.95,
+      "y": 44.77,
+      "label": "异刺鲨"
+    },
+    {
+      "id": "C02-fish-8",
+      "kind": "fish",
+      "x": 32.55,
+      "y": 49.93,
+      "label": "邓氏鱼"
+    },
+    {
+      "id": "C02-fish-9",
+      "kind": "fish",
+      "x": 11.68,
+      "y": 47.85,
+      "label": "未标名鱼类",
+      "scale": 0.45
+    }
+  ],
+  "C03": [
+    {
+      "id": "C03-oxygen-1",
+      "kind": "oxygen",
+      "x": 54.9,
+      "y": 15.44
+    },
+    {
+      "id": "C03-oxygen-2",
+      "kind": "oxygen",
+      "x": 25.64,
+      "y": 24.5
+    },
+    {
+      "id": "C03-oxygen-3",
+      "kind": "oxygen",
+      "x": 13.62,
+      "y": 26.44
+    },
+    {
+      "id": "C03-oxygen-4",
+      "kind": "oxygen",
+      "x": 58.93,
+      "y": 26.44
+    },
+    {
+      "id": "C03-oxygen-5",
+      "kind": "oxygen",
+      "x": 4.9,
+      "y": 39.53
+    },
+    {
+      "id": "C03-oxygen-6",
+      "kind": "oxygen",
+      "x": 55.97,
+      "y": 44.5
+    },
+    {
+      "id": "C03-oxygen-7",
+      "kind": "oxygen",
+      "x": 5.64,
+      "y": 51.41
+    },
+    {
+      "id": "C03-teleport-1",
+      "kind": "teleport",
+      "x": 2.89,
+      "y": 32.48
+    },
+    {
+      "id": "C03-teleport-2",
+      "kind": "teleport",
+      "x": 56.38,
+      "y": 31.34
+    },
+    {
+      "id": "C03-teleport-3",
+      "kind": "teleport",
+      "x": 17.72,
+      "y": 51.41
+    },
+    {
+      "id": "C03-teleport-4",
+      "kind": "teleport",
+      "x": 46.24,
+      "y": 55.44
+    },
+    {
+      "id": "C03-supply-1",
+      "kind": "supply",
+      "x": 13.15,
+      "y": 16.64
+    },
+    {
+      "id": "C03-supply-2",
+      "kind": "supply",
+      "x": 50.87,
+      "y": 16.64
+    },
+    {
+      "id": "C03-supply-3",
+      "kind": "supply",
+      "x": 26.64,
+      "y": 24.63
+    },
+    {
+      "id": "C03-supply-4",
+      "kind": "supply",
+      "x": 5.3,
+      "y": 28.66
+    },
+    {
+      "id": "C03-supply-5",
+      "kind": "supply",
+      "x": 8.52,
+      "y": 40.6
+    },
+    {
+      "id": "C03-supply-6",
+      "kind": "supply",
+      "x": 54.03,
+      "y": 44.56
+    },
+    {
+      "id": "C03-supply-7",
+      "kind": "supply",
+      "x": 55.77,
+      "y": 48.59
+    },
+    {
+      "id": "C03-supply-8",
+      "kind": "supply",
+      "x": 15.23,
+      "y": 57.65
+    },
+    {
+      "id": "C03-weapon-1",
+      "kind": "weapon",
+      "x": 27.99,
+      "y": 4.63
+    },
+    {
+      "id": "C03-weapon-2",
+      "kind": "weapon",
+      "x": 24.7,
+      "y": 16.64
+    },
+    {
+      "id": "C03-weapon-3",
+      "kind": "weapon",
+      "x": 17.11,
+      "y": 18.72
+    },
+    {
+      "id": "C03-weapon-4",
+      "kind": "weapon",
+      "x": 45.97,
+      "y": 17.65
+    },
+    {
+      "id": "C03-weapon-5",
+      "kind": "weapon",
+      "x": 51.14,
+      "y": 29.66
+    },
+    {
+      "id": "C03-weapon-6",
+      "kind": "weapon",
+      "x": 9.87,
+      "y": 34.7
+    },
+    {
+      "id": "C03-weapon-7",
+      "kind": "weapon",
+      "x": 51.41,
+      "y": 46.71
+    },
+    {
+      "id": "C03-weapon-8",
+      "kind": "weapon",
+      "x": 7.72,
+      "y": 56.64
+    },
+    {
+      "id": "C03-ammo-1",
+      "kind": "ammo",
+      "x": 10.6,
+      "y": 13.69
+    },
+    {
+      "id": "C03-ammo-2",
+      "kind": "ammo",
+      "x": 15.1,
+      "y": 21.68
+    },
+    {
+      "id": "C03-ammo-3",
+      "kind": "ammo",
+      "x": 6.71,
+      "y": 24.7
+    },
+    {
+      "id": "C03-ammo-4",
+      "kind": "ammo",
+      "x": 27.79,
+      "y": 24.7
+    },
+    {
+      "id": "C03-ammo-5",
+      "kind": "ammo",
+      "x": 10.47,
+      "y": 26.64
+    },
+    {
+      "id": "C03-ammo-6",
+      "kind": "ammo",
+      "x": 3.89,
+      "y": 32.55
+    },
+    {
+      "id": "C03-ammo-7",
+      "kind": "ammo",
+      "x": 53.89,
+      "y": 32.62
+    },
+    {
+      "id": "C03-ammo-8",
+      "kind": "ammo",
+      "x": 8.99,
+      "y": 46.71
+    },
+    {
+      "id": "C03-ammo-9",
+      "kind": "ammo",
+      "x": 4.63,
+      "y": 51.61
+    },
+    {
+      "id": "C03-ammo-10",
+      "kind": "ammo",
+      "x": 43.36,
+      "y": 56.64
+    },
+    {
+      "id": "C03-ammo-11",
+      "kind": "ammo",
+      "x": 25.7,
+      "y": 59.6
+    },
+    {
+      "id": "C03-topaz-1",
+      "kind": "topaz",
+      "x": 41.81,
+      "y": 29.53
+    },
+    {
+      "id": "C03-topaz-2",
+      "kind": "topaz",
+      "x": 6.17,
+      "y": 39.53
+    },
+    {
+      "id": "C03-aquamarine-1",
+      "kind": "aquamarine",
+      "x": 22.82,
+      "y": 22.55
+    },
+    {
+      "id": "C03-uraninite-1",
+      "kind": "uraninite",
+      "x": 48.79,
+      "y": 53.49
+    },
+    {
+      "id": "C03-ruby-1",
+      "kind": "ruby",
+      "x": 20.87,
+      "y": 56.51
+    },
+    {
+      "id": "C03-fish-1",
+      "kind": "fish",
+      "x": 13.89,
+      "y": 14.43,
+      "label": "南极章鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C03-fish-2",
+      "kind": "fish",
+      "x": 54.09,
+      "y": 28.05,
+      "label": "南极章鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C03-fish-3",
+      "kind": "fish",
+      "x": 8.52,
+      "y": 31.41,
+      "label": "南极章鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C03-fish-4",
+      "kind": "fish",
+      "x": 19.26,
+      "y": 13.89,
+      "label": "金色帝王蟹",
+      "scale": 0.4
+    },
+    {
+      "id": "C03-fish-5",
+      "kind": "fish",
+      "x": 43.42,
+      "y": 30.87,
+      "label": "未标名鳐鱼",
+      "scale": 0.4
+    },
+    {
+      "id": "C03-fish-6",
+      "kind": "fish",
+      "x": 32.68,
+      "y": 14.09,
+      "label": "独角鲸"
+    },
+    {
+      "id": "C03-fish-7",
+      "kind": "fish",
+      "x": 42.75,
+      "y": 24.56,
+      "label": "鼠鲨"
+    },
+    {
+      "id": "C03-fish-8",
+      "kind": "fish",
+      "x": 42.68,
+      "y": 37.85,
+      "label": "格陵兰鲨"
+    },
+    {
+      "id": "C03-fish-9",
+      "kind": "fish",
+      "x": 22.95,
+      "y": 44.77,
+      "label": "异刺鲨"
+    },
+    {
+      "id": "C03-fish-10",
+      "kind": "fish",
+      "x": 32.55,
+      "y": 49.93,
+      "label": "邓氏鱼"
+    },
+    {
+      "id": "C03-fish-11",
+      "kind": "fish",
+      "x": 11.68,
+      "y": 47.85,
+      "label": "未标名鱼类",
+      "scale": 0.45
+    }
+  ]
+}

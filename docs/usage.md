@@ -17,7 +17,7 @@
 - 桌面侧栏、移动目录抽屉与响应式卡片。表格在手机上可横向滚动。
 - React Router 路由：`/recipes` 食谱、`/ingredients` 食材、`/fish` 鱼类、`/staff` 员工。详情地址如 `/recipes/tiger-shark-sushi`、`/ingredients/tiger-shark-meat`、`/fish/tiger-shark`、`/staff/billy` 可直接打开、刷新和分享。详情链接使用当前条目的正式 ID。
 - `/search?q=关键词` 同时检索数据库和攻略，阶段筛选仅影响攻略；`/bookmarks` 为攻略收藏。`/tools?recipe=tropical` 保留原有备货链接，旧 `/#recipes` 链接自动跳转。
-- `/maps` 深海 SVG 地图：A / B 两份方格地形，各有 01–03 三套道具与大鱼分布。可筛选九类标记、切换方格线和鱼名、放大地图，并下载含图例的独立 SVG。网址如 `/maps?type=B&layout=03` 可直接打开并在刷新后保留选择。
+- `/maps` SVG 地图：蓝洞深海 A / B 两份方格地形各有 01–03 三套分布；冰河＋热泉（450–570 米）共用 C 地形，也有 01–03 三套分布。可按区域筛选物资、矿石和鱼类，切换方格线和鱼名、放大地图，并下载含图例的独立 SVG。网址如 `/maps?type=B&layout=03` 或 `/maps?type=C&layout=02` 可直接打开并在刷新后保留选择。
 
 ## 本地保存与联网
 
