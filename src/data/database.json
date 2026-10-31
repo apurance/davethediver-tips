@@ -4957,7 +4957,8 @@
       "type": "recipe",
       "en": "Whole-Roasted Shark Head",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/whole-roasted-shark-head/"
+        "https://davethediver.net/zh-hans/recipe/whole-roasted-shark-head/",
+        "https://davethediver.net/zh-hans/recipe/whitetip-reefshark-roast/"
       ],
       "inferred": false,
       "relatedFish": [
@@ -4980,7 +4981,10 @@
         "maxTaste": 295,
         "baseServings": 5,
         "maxServings": 7,
-        "flameCost": 3
+        "flameCost": 3,
+        "maxLevel": 10,
+        "ingredientCost": 46,
+        "estimatedProfit": 29
       },
       "facets": {},
       "acquisition-method": {
@@ -5535,9 +5539,6 @@
         "maxServings": 1
       },
       "facets": {},
-      "acquisition-method": {
-        "entityId": "recipe/blue-fin-tuna-ootoro"
-      },
       "event": "tuna",
       "facts": []
     },
@@ -11275,35 +11276,6 @@
       "facts": []
     },
     {
-      "id": "recipe/blue-fin-tuna-ootoro",
-      "type": "recipe",
-      "en": "Blue Fin Tuna Ootoro",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/blue-fin-tuna-ootoro/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-blue-fin-tuna-ootoro",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 135,
-        "maxPrice": null,
-        "baseTaste": 105,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 45,
-        "estimatedProfit": 90
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/blue-gill",
       "type": "recipe",
       "en": "Blue Gill",
@@ -13794,39 +13766,6 @@
       "facts": []
     },
     {
-      "id": "recipe/whitetip-reefshark-roast",
-      "type": "recipe",
-      "en": "Whitetip Reefshark Roast",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/whitetip-reefshark-roast/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-whitetip-reefshark-head",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 75,
-        "maxPrice": null,
-        "baseTaste": 70,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 46,
-        "estimatedProfit": 29
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/wiwaxia",
       "type": "recipe",
       "en": "Wiwaxia",
@@ -14920,45 +14859,6 @@
         "basePrice": 190,
         "maxPrice": null,
         "baseTaste": 76,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/egg-tenshinhan",
-      "type": "recipe",
-      "en": "Egg Tenshinhan",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/egg-tenshinhan/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-egg",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/sea-grape",
-          "quantity": 2
-        },
-        {
-          "ingredientId": "ingredient/soy-sauce",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 400,
-        "maxPrice": null,
-        "baseTaste": 170,
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
@@ -16180,37 +16080,6 @@
       "facts": []
     },
     {
-      "id": "recipe/special-klaus-fin-meat-ricebowl",
-      "type": "recipe",
-      "en": "Special Klaus Fin Meat Ricebowl",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/special-klaus-fin-meat-ricebowl/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-klaus-fin-meat",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/special-egg",
-          "quantity": 3
-        }
-      ],
-      "stats": {
-        "basePrice": 650,
-        "maxPrice": null,
-        "baseTaste": 150,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 1
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/special-lusca-leg-blanched",
       "type": "recipe",
       "en": "Special Lusca Leg Blanched",
@@ -16715,41 +16584,6 @@
       "facts": []
     },
     {
-      "id": "recipe/tuna-ootoro-sliced",
-      "type": "recipe",
-      "en": "Tuna Ootoro Sliced",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/tuna-ootoro-sliced/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-blue-fin-tuna-ootoro",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/special-yellow-fin-tuna-ootoro",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/hyalonema",
-          "quantity": 2
-        }
-      ],
-      "stats": {
-        "basePrice": 765,
-        "maxPrice": null,
-        "baseTaste": 185,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 5
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
       "id": "recipe/tuzoia-soup",
       "type": "recipe",
       "en": "Tuzoia Soup",
@@ -16858,45 +16692,6 @@
         "basePrice": 65,
         "maxPrice": null,
         "baseTaste": 29,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
-      },
-      "facets": {},
-      "facts": []
-    },
-    {
-      "id": "recipe/yellow-fin-tuna-poke",
-      "type": "recipe",
-      "en": "Yellow Fin Tuna Poke",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/yellow-fin-tuna-poke/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/special-yellow-fin-tuna-akami",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/rice",
-          "quantity": 3
-        },
-        {
-          "ingredientId": "ingredient/mayonnaise",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/sesame-seed",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 265,
-        "maxPrice": null,
-        "baseTaste": 123,
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
@@ -27813,9 +27608,7 @@
         "recipe/stellate-puffer-special-sushi",
         "recipe/trout-sea-grapes-ricebowl",
         "recipe/rainbow-cap-pacific-fanfish-ochazuke",
-        "recipe/tropical-fish-sushi-set",
-        "recipe/egg-tenshinhan",
-        "recipe/yellow-fin-tuna-poke"
+        "recipe/tropical-fish-sushi-set"
       ],
       "facts": [],
       "stats": {
@@ -27848,7 +27641,6 @@
         "recipe/seagrapes-special-sushi",
         "recipe/seahorse-salad",
         "recipe/trout-sea-grapes-ricebowl",
-        "recipe/egg-tenshinhan",
         "recipe/special-goblin-shark-belly-meat-grilled"
       ],
       "acquisition-method": {
@@ -27863,64 +27655,6 @@
       "facets": {
         "gatheringSource": "text/43786205d026"
       }
-    },
-    {
-      "id": "ingredient/special-egg",
-      "type": "ingredient",
-      "en": "Special Egg",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-egg/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/egg-tenshinhan",
-        "recipe/special-klaus-fin-meat-ricebowl"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 90,
-        "weight": 0.1,
-        "rank": 4,
-        "purchasePriceOtto": 75,
-        "purchasePriceJango": 63
-      },
-      "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
-      }
-    },
-    {
-      "id": "ingredient/special-whitetip-reefshark-head",
-      "type": "ingredient",
-      "en": "Special Whitetip Reefshark Head",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-whitetip-reefshark-head/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/whitetip-reefshark-roast"
-      ],
-      "acquisition-method": {
-        "text": "shallows"
-      },
-      "facts": [
-        {
-          "labelId": "field/gathering-source",
-          "values": [
-            {
-              "nameId": "fish/whitetip-reefshark",
-              "entityId": "fish/whitetip-reefshark"
-            }
-          ]
-        }
-      ],
-      "stats": {
-        "sellPrice": 40,
-        "weight": 2.5,
-        "rank": 4
-      },
-      "facets": {}
     },
     {
       "id": "ingredient/black-pepper",
@@ -28054,8 +27788,7 @@
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/hyalonema-tuna-sashimi",
-        "recipe/steamed-hyalonema-angler-fish",
-        "recipe/tuna-ootoro-sliced"
+        "recipe/steamed-hyalonema-angler-fish"
       ],
       "acquisition-method": {
         "text": "glacial seaweed"
@@ -28088,8 +27821,7 @@
         "recipe/lusca-neck-tadaki",
         "recipe/dumbo-takoyaki",
         "recipe/mackerel-scad-hotdog",
-        "recipe/special-lusca-neck-meat-tataki",
-        "recipe/yellow-fin-tuna-poke"
+        "recipe/special-lusca-neck-meat-tataki"
       ],
       "acquisition-method": {
         "text": "陶罐／采集点"
@@ -28174,7 +27906,6 @@
         "recipe/fried-habanero-fangtooth",
         "recipe/sweet-and-sour-stargazer",
         "recipe/vege-fried",
-        "recipe/whitetip-reefshark-roast",
         "recipe/special-goblin-shark-belly-meat-grilled",
         "recipe/special-lusca-leg-blanched"
       ],
@@ -28283,7 +28014,6 @@
         "recipe/grilled-eel-with-habanero",
         "recipe/rainbow-cap-eel-skewers",
         "recipe/soy-sauce-marinated-crab",
-        "recipe/egg-tenshinhan",
         "recipe/special-lusca-neck-meat-tataki"
       ],
       "acquisition-method": {
@@ -28633,7 +28363,8 @@
       "type": "ingredient",
       "en": "Whitetip Reefshark Head",
       "sourceUrls": [
-        "https://davethediver.net/zh-hans/ingredient/whitetip-reefshark-head/"
+        "https://davethediver.net/zh-hans/ingredient/whitetip-reefshark-head/",
+        "https://davethediver.net/zh-hans/fish/special-whitetip-reefshark-head/"
       ],
       "inferred": false,
       "relatedFish": [
@@ -29455,23 +29186,6 @@
       "facets": {}
     },
     {
-      "id": "ingredient/meat-whitetip-reefshark-head",
-      "type": "ingredient",
-      "en": "meat Whitetip Reefshark Head",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/meat-whitetip-reefshark-head/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "sellPrice": 8,
-        "weight": 2.5
-      },
-      "facets": {}
-    },
-    {
       "id": "ingredient/phantom-jellyfish-meat",
       "type": "ingredient",
       "en": "Phantom Jellyfish Meat",
@@ -29567,122 +29281,12 @@
         "recipe/lusca-neck-tadaki",
         "recipe/big-eyed-scad-and-soybean-paste-roast",
         "recipe/rice-with-purple-sea-urchin-sushi",
-        "recipe/special-lusca-neck-meat-tataki",
-        "recipe/yellow-fin-tuna-poke"
+        "recipe/special-lusca-neck-meat-tataki"
       ],
       "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-blue-fin-tuna-akami",
-      "type": "ingredient",
-      "en": "Special Blue Fin Tuna Akami",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-akami/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "sellPrice": 27,
-        "weight": 8
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-blue-fin-tuna-chutoro",
-      "type": "ingredient",
-      "en": "Special Blue Fin Tuna Chutoro",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-chutoro/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "sellPrice": 32,
-        "weight": 8
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-blue-fin-tuna-ootoro",
-      "type": "ingredient",
-      "en": "Special Blue Fin Tuna Ootoro",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-ootoro/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/blue-fin-tuna-ootoro",
-        "recipe/tuna-ootoro-sliced"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 45,
-        "weight": 8
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-yellow-fin-tuna-akami",
-      "type": "ingredient",
-      "en": "Special Yellow Fin Tuna Akami",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-akami/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/yellow-fin-tuna-poke"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 24,
-        "weight": 6
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-yellow-fin-tuna-chutoro",
-      "type": "ingredient",
-      "en": "Special Yellow Fin Tuna Chutoro",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-chutoro/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "sellPrice": 30,
-        "weight": 6
-      },
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-yellow-fin-tuna-ootoro",
-      "type": "ingredient",
-      "en": "Special Yellow Fin Tuna Ootoro",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-ootoro/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/tuna-ootoro-sliced"
-      ],
-      "facts": [],
-      "stats": {
-        "sellPrice": 42,
-        "weight": 6
       },
       "facets": {}
     },
@@ -29756,8 +29360,10 @@
       "id": "ingredient/bluefin-tuna-akami",
       "type": "ingredient",
       "en": "Bluefin Tuna Akami",
-      "sourceUrls": [],
-      "inferred": true,
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-akami/"
+      ],
+      "inferred": false,
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -29766,7 +29372,10 @@
         "recipe/bluefin-tuna-akami-sushi"
       ],
       "facts": [],
-      "stats": {},
+      "stats": {
+        "sellPrice": 27,
+        "weight": 8
+      },
       "facets": {}
     },
     {
@@ -29806,8 +29415,10 @@
       "id": "ingredient/bluefin-tuna-chutoro",
       "type": "ingredient",
       "en": "Bluefin Tuna Chutoro",
-      "sourceUrls": [],
-      "inferred": true,
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-chutoro/"
+      ],
+      "inferred": false,
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -29817,15 +29428,20 @@
         "recipe/chirashi-sushi"
       ],
       "facts": [],
-      "stats": {},
+      "stats": {
+        "sellPrice": 32,
+        "weight": 8
+      },
       "facets": {}
     },
     {
       "id": "ingredient/yellowfin-tuna-akami",
       "type": "ingredient",
       "en": "Yellowfin Tuna Akami",
-      "sourceUrls": [],
-      "inferred": true,
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-akami/"
+      ],
+      "inferred": false,
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -29834,15 +29450,20 @@
         "recipe/yellowfin-tuna-akami-sushi"
       ],
       "facts": [],
-      "stats": {},
+      "stats": {
+        "sellPrice": 24,
+        "weight": 6
+      },
       "facets": {}
     },
     {
       "id": "ingredient/bluefin-tuna-ootoro",
       "type": "ingredient",
       "en": "Bluefin Tuna Ootoro",
-      "sourceUrls": [],
-      "inferred": true,
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/fish/special-blue-fin-tuna-ootoro/"
+      ],
+      "inferred": false,
       "relatedFish": [
         "fish/bluefin-tuna"
       ],
@@ -29851,15 +29472,20 @@
         "recipe/bluefin-tuna-ootoro-sushi"
       ],
       "facts": [],
-      "stats": {},
+      "stats": {
+        "sellPrice": 45,
+        "weight": 8
+      },
       "facets": {}
     },
     {
       "id": "ingredient/yellowfin-tuna-ootoro",
       "type": "ingredient",
       "en": "Yellowfin Tuna Ootoro",
-      "sourceUrls": [],
-      "inferred": true,
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-ootoro/"
+      ],
+      "inferred": false,
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -29868,15 +29494,20 @@
         "recipe/yellowfin-tuna-ootoro-sushi"
       ],
       "facts": [],
-      "stats": {},
+      "stats": {
+        "sellPrice": 42,
+        "weight": 6
+      },
       "facets": {}
     },
     {
       "id": "ingredient/yellowfin-tuna-chutoro",
       "type": "ingredient",
       "en": "Yellowfin Tuna Chutoro",
-      "sourceUrls": [],
-      "inferred": true,
+      "sourceUrls": [
+        "https://davethediver.net/zh-hans/fish/special-yellow-fin-tuna-chutoro/"
+      ],
+      "inferred": false,
       "relatedFish": [
         "fish/yellowfin-tuna"
       ],
@@ -29885,7 +29516,10 @@
         "recipe/yellowfin-tuna-chutoro-sushi"
       ],
       "facts": [],
-      "stats": {},
+      "stats": {
+        "sellPrice": 30,
+        "weight": 6
+      },
       "facets": {}
     },
     {
@@ -30465,20 +30099,6 @@
       "relatedFish": [],
       "relatedRecipes": [
         "recipe/special-goblin-shark-belly-meat-grilled"
-      ],
-      "facts": [],
-      "stats": {},
-      "facets": {}
-    },
-    {
-      "id": "ingredient/special-klaus-fin-meat",
-      "type": "ingredient",
-      "en": "Special Klaus Fin Meat",
-      "sourceUrls": [],
-      "inferred": true,
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/special-klaus-fin-meat-ricebowl"
       ],
       "facts": [],
       "stats": {},
