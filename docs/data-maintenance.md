@@ -25,7 +25,7 @@
 
 ## 数值与派生属性
 
-所有独立数值统一放在 `stats`，例如 `"length": 210`、`"health": 250`、`"dailyLimit": 1`、`"servingTime": 19`。数据不再逐项声明 `unitId`、`templateId` 或 `parameters`，前端根据统计键推断单位和显示模板；中文单位及模板仍集中在名称 JSON，例如 `unit/gold`、`unit/centimeter`、`template/daily-quantity`。不同商家的价格分别保存为 `purchasePriceOtto`、`purchasePriceJango` 等数值键；同价共用商家使用 `purchasePriceJangoAndMushroomer`。来源中的“购买金币”对应 `buyGoldOtto`、`buyGoldJango`，保留独立字段。员工的 `cooking` 等来源属性与 `maxCooking` 等满级属性也分别保存。`facts` 仅保留文本、名称和实体引用，`facets` 分类和 `skillIds` 技能由前端生成显示字段。Marinca 卡编号统一保存为 `stats.marincaCardNumber` 数值，忽略前导零。
+所有独立数值统一放在 `stats`，例如 `"length": 210`、`"health": 250`、`"dailyLimit": 1`、`"servingTime": 19`。数据不再逐项声明 `unitId`、`templateId` 或 `parameters`，前端根据统计键推断单位和显示模板；中文单位及模板仍集中在名称 JSON，例如 `unit/gold`、`unit/centimeter`、`template/daily-quantity`。不同商家的价格分别保存为 `purchasePriceOtto`、`purchasePriceJango` 等数值键；同价共用商家使用 `purchasePriceJangoAndMushroomer`。来源中的“购买金币”对应 `buyGoldOtto`、`buyGoldJango`，保留独立字段。员工的 `cooking` 等来源属性与 `maxCooking` 等满级属性也分别保存。数据快照不再保存 `facts`；详情显示字段由前端根据独立属性、`stats` 和 `facets` 生成。Marinca 卡编号统一保存为 `stats.marincaCardNumber` 数值，忽略前导零。
 
 `database.json` 不保存“每公斤价值”、员工基础 / 满级属性总和、关联菜谱数量，也不保存 `computed`、`stat` 等显示描述。前端的 `getDisplayFacts()` 根据基础数据追加：每公斤价值 = `stats.sellPrice / stats.weight`（显示最多一位小数）；员工总和 = 对应四项属性之和；菜谱数量 = 当前去重后的关联菜谱数。基础数据不齐或重量非正时不追加相应计算字段，零售价和零菜谱数量正常显示。来源鱼类的“关联菜谱”字段仍保留，作为已核对的独立关联依据。
 
@@ -39,7 +39,10 @@
 
 ## 文本属性
 
-需要翻译的单个文本属性统一放在 `facets`，值直接保存译名 ID，例如 `"gatheringSource": "text/660af5fdf8cd"`、`"knockbackResistance": "text/b5141d3d19e9"`。字段键按驼峰形式还原为 `field/gathering-source` 等译名键；已有的 `time` 仍对应 `field/active-time`。字段名和值均通过名称表显示，`null` 表示来源未提供。带 `entityId` 的链接及多值混合内容继续保留在 `facts`，以保留跳转目标和原有顺序。
+鱼类和食材的采集来源独立存储在顶层 `harvest-source`，值为 `{ "text": "gumo" }` 或包含 `nameId` / `entityId` 的对象，保留原有译名及实体链接。详情由前端生成 `field/harvest-source` 显示项。
+
+
+需要翻译的单个文本属性统一放在 `facets`，值直接保存译名 ID，例如 `"gatheringSource": "text/660af5fdf8cd"`、`"knockbackResistance": "text/b5141d3d19e9"`。字段键按驼峰形式还原为 `field/gathering-source` 等译名键；已有的 `time` 仍对应 `field/active-time`。字段名和值均通过名称表显示，`null` 表示来源未提供。带 `entityId` 的链接及多值内容保存在对应的独立属性中，例如 `harvest-source`、`acquisition-method` 和 `drops`，以保留跳转目标和原有顺序。所有条目的空 `facts` 已移除，详情统一由 `getDisplayFacts()` 生成。
 
 ## 区域列表与名称归一
 

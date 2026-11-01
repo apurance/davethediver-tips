@@ -68,10 +68,10 @@ const vendors: [string, string][] = [
 const vendorStats = Object.fromEntries(["purchasePrice", "buyGold"].flatMap(prefix =>
   vendors.map(([suffix, vendor]) => [`${prefix}${suffix}`, vendor])));
 
-/** Source facts contain independent information; presentation-only fields live here. */
+/** Generate display facts from entity fields; no facts are stored in the snapshot. */
 export function getDisplayFacts(entity: Entity): DisplayFact[] {
-  const facts: DisplayFact[] = [...(entity.facts ?? [])];
-  const labels = new Set(facts.map(fact => fact.labelId));
+  const facts: DisplayFact[] = [];
+  const labels = new Set<string>();
   const append = (field: string, values: DisplayFactValue[]) => {
     const labelId = `field/${field}`;
     if (!labels.has(labelId)) {
@@ -81,6 +81,9 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
   };
   if ((entity.type === "recipe" || entity.type === "ingredient") && entity["acquisition-method"]) {
     append("acquisition-method", [entity["acquisition-method"]]);
+  }
+  if ((entity.type === "fish" || entity.type === "ingredient") && entity["harvest-source"]) {
+    append("harvest-source", [entity["harvest-source"]]);
   }
   if (entity.type === "recipe" && entity.event !== undefined) append("event", [{ text: entity.event }]);
   if (entity.type === "staff" && entity.occupation !== undefined) append("occupation", [{ text: entity.occupation }]);

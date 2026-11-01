@@ -44,8 +44,7 @@
       "acquisition-method": {
         "text": "Cooksta Platinum Rank"
       },
-      "event": "curry",
-      "facts": []
+      "event": "curry"
     },
     {
       "id": "recipe/bluefin-tuna-rice-bowl",
@@ -90,8 +89,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/crystal-lobster-roll",
@@ -132,8 +130,7 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/ice-fish-curry",
@@ -174,8 +171,7 @@
       "acquisition-method": {
         "text": "Train Drae to Level 15"
       },
-      "event": "curry",
-      "facts": []
+      "event": "curry"
     },
     {
       "id": "recipe/moray-eel-curry",
@@ -212,8 +208,7 @@
       "acquisition-method": {
         "text": "Cooksta Silver Rank"
       },
-      "event": "curry",
-      "facts": []
+      "event": "curry"
     },
     {
       "id": "recipe/seadragon-onigiri",
@@ -248,8 +243,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "ingredient/seadragon"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/vegetable-sushi",
@@ -288,8 +282,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Good Ol' Vegetable Sushi!"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/wrasse-curry",
@@ -335,8 +328,7 @@
       "acquisition-method": {
         "text": "Train Jandi to Level 15"
       },
-      "event": "curry",
-      "facts": []
+      "event": "curry"
     },
     {
       "id": "recipe/antarctic-octopus-carpaccio",
@@ -376,8 +368,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Let Us Begin the Contest"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/blobfish-spring-roll",
@@ -421,8 +412,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/comber-sandwich",
@@ -467,8 +457,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Whose Fried food is the Best?"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/eggplant-soba-oyaki",
@@ -510,8 +499,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Etsuko to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/great-barracuda-canape",
@@ -555,8 +543,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Diamond Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/hot-pepper-tuna",
@@ -600,8 +587,7 @@
       "acquisition-method": {
         "text": "Complete Spicy Pepper Seeds!"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/lobster-platter",
@@ -643,8 +629,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/peacock-squid-ripieni",
@@ -688,8 +673,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Let Us Begin the Contest"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/pelican-eel-jelly",
@@ -729,8 +713,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Whose Fried food is the Best?"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/pikaia-ramen",
@@ -774,8 +757,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Check the Control Room Entrance (last device)"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/smallspotted-dart-kajime-soup",
@@ -815,8 +797,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Maki, Liu, Mitchell, or El Nino to Level 5"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/spear-squid-soba-futomaki",
@@ -860,8 +841,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Chitose to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/stellate-puffer-nicogori",
@@ -901,8 +881,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train specific Sushi Staff to Level 5"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/tomato-egg-soup",
@@ -940,8 +919,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/american-lobster-sushi",
@@ -975,8 +953,7 @@
       "acquisition-method": {
         "entityId": "fish/american-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/barrel-jellyfish-sushi",
@@ -1010,8 +987,7 @@
       "acquisition-method": {
         "entityId": "fish/barrel-jellyfish"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/blue-lobster-sushi",
@@ -1045,8 +1021,7 @@
       "acquisition-method": {
         "entityId": "fish/blue-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/box-jellyfish-sushi",
@@ -1080,8 +1055,7 @@
       "acquisition-method": {
         "entityId": "fish/box-jellyfish"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/california-spiny-lobster-sushi",
@@ -1115,8 +1089,7 @@
       "acquisition-method": {
         "entityId": "fish/california-spiny-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/comb-jelly-sushi",
@@ -1150,8 +1123,7 @@
       "acquisition-method": {
         "entityId": "fish/comb-jelly"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/cooked-whiteleg-shrimp-sushi",
@@ -1184,8 +1156,7 @@
       "acquisition-method": {
         "entityId": "fish/whiteleg-shrimp"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/cookiecutter-shark-sushi",
@@ -1219,8 +1190,7 @@
       "acquisition-method": {
         "entityId": "fish/cookiecutter-shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/crystal-lobster-sushi",
@@ -1254,8 +1224,7 @@
       "acquisition-method": {
         "entityId": "fish/crystal-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/dollocaris-ingens-sushi",
@@ -1289,8 +1258,7 @@
       "acquisition-method": {
         "entityId": "fish/dollocaris-ingens"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/eastern-rock-lobster-sushi",
@@ -1324,8 +1292,7 @@
       "acquisition-method": {
         "entityId": "fish/eastern-rock-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/european-lobster-sushi",
@@ -1359,8 +1326,7 @@
       "acquisition-method": {
         "entityId": "fish/european-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/falcatus-sushi",
@@ -1394,8 +1360,7 @@
       "acquisition-method": {
         "entityId": "fish/falcatus"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/fan-lobster-sushi",
@@ -1429,8 +1394,7 @@
       "acquisition-method": {
         "entityId": "fish/fan-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/fried-egg-jellyfish-sushi",
@@ -1464,8 +1428,7 @@
       "acquisition-method": {
         "entityId": "fish/fried-egg-jellyfish"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/norway-lobster-sushi",
@@ -1499,8 +1462,7 @@
       "acquisition-method": {
         "entityId": "fish/norway-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/raw-black-tiger-shrimp-sushi",
@@ -1533,8 +1495,7 @@
       "acquisition-method": {
         "entityId": "fish/black-tiger-shrimp"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/skewered-cucumber",
@@ -1566,8 +1527,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber",
-      "facts": []
+      "event": "cucumber"
     },
     {
       "id": "recipe/tokummia-katalepsis-sushi",
@@ -1601,8 +1561,7 @@
       "acquisition-method": {
         "entityId": "fish/tokummia-katalepsis"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/tropical-rock-lobster-sushi",
@@ -1636,8 +1595,7 @@
       "acquisition-method": {
         "entityId": "fish/tropical-rock-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/waptia-sushi",
@@ -1671,8 +1629,7 @@
       "acquisition-method": {
         "entityId": "fish/waptia-fieldensis"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/white-shrimp-sushi",
@@ -1706,8 +1663,7 @@
       "acquisition-method": {
         "entityId": "fish/white-shrimp"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/alaska-pollock-sushi",
@@ -1740,8 +1696,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/alaska-pollock"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/allenypterus-sushi",
@@ -1774,8 +1729,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/allenypterus"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/antarctic-octopus-sushi",
@@ -1808,8 +1762,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/antarctic-octopus"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/arctic-cod-sushi",
@@ -1842,8 +1795,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/arctic-cod"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/arctic-telescope-fish-sushi",
@@ -1876,8 +1828,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/arctic-telescope-fish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/atlantic-anglerfish-sushi",
@@ -1910,8 +1861,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/atlantic-anglerfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/atlantic-bonito-sushi",
@@ -1944,8 +1894,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/atlantic-bonito"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/atlantic-mackerel-sushi",
@@ -1978,8 +1927,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/atlantic-mackerel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/b-and-w-snapper-sushi",
@@ -2012,8 +1960,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/black-and-white-snapper"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/barreleye-sushi",
@@ -2046,8 +1993,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/barreleye"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/bigeye-scad-sushi",
@@ -2080,8 +2026,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/bigeye-scad"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/bigeye-trevally-sushi",
@@ -2113,8 +2058,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/bigeye-trevally"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/blackfin-barracuda-sushi",
@@ -2146,8 +2090,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/blackfin-barracuda"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/blobfish-sushi",
@@ -2180,8 +2123,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/blobfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/bluehead-tilefish-sushi",
@@ -2214,8 +2156,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/bluehead-tilefish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/boiled-and-deep-fried-white-shrimp",
@@ -2259,8 +2200,7 @@
       "acquisition-method": {
         "text": "Train Raptor to Level 5"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/boiled-mantis-shrimp-with-soy-paste",
@@ -2302,8 +2242,7 @@
       "acquisition-method": {
         "text": "Defeat Mantis Shrimp"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/boiled-porbeagle-shark",
@@ -2343,8 +2282,7 @@
       "acquisition-method": {
         "text": "Train Raul to Level 15"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/boiled-sailfish-and-seaweed",
@@ -2388,8 +2326,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Marlin Party"
       },
-      "event": "marlin",
-      "facts": []
+      "event": "marlin"
     },
     {
       "id": "recipe/capelin-sushi",
@@ -2422,8 +2359,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/capelin"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/chambered-nautilus-sushi",
@@ -2456,8 +2392,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/chambered-nautilus"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/clearfin-lionfish-sushi",
@@ -2490,8 +2425,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/clearfin-lionfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/clione-sushi",
@@ -2524,8 +2458,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/clione"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/cold-jellyfish-and-green-sea-urchin-salad",
@@ -2566,8 +2499,7 @@
       "acquisition-method": {
         "entityId": "fish/green-sea-urchin"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/coral-trout-sushi",
@@ -2600,8 +2532,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/coral-trout"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/crimson-fish-roll",
@@ -2643,8 +2574,7 @@
       "acquisition-method": {
         "text": "Train Billy to Level 15"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/deep-fried-eggplant-shrimp-meatballs",
@@ -2689,8 +2619,7 @@
       "acquisition-method": {
         "text": "Train Yusuke to Level 15"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/dumbo-octopus-sushi",
@@ -2723,8 +2652,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/dumbo-octopus"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/dusky-grouper-sushi",
@@ -2757,8 +2685,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/dusky-grouper"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/falcatus-soybean-paste-soup",
@@ -2802,8 +2729,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Shark Party"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/fangtooth-sushi",
@@ -2836,8 +2762,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/fangtooth"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/gelatinous-snailfish-sushi",
@@ -2870,8 +2795,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/gelatinous-snailfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/goblin-shark-belly-roast",
@@ -2913,8 +2837,7 @@
       "acquisition-method": {
         "text": "Defeat Goblin Shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/golden-king-crab-sushi",
@@ -2947,8 +2870,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/golden-king-crab"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/great-barracuda-sushi",
@@ -2981,8 +2903,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/great-barracuda"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/great-spider-crab-and-cucumber-sushi",
@@ -3018,8 +2939,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber",
-      "facts": []
+      "event": "cucumber"
     },
     {
       "id": "recipe/great-spider-crab-curry",
@@ -3059,8 +2979,7 @@
       "acquisition-method": {
         "text": "Train Charlie to Level 15"
       },
-      "event": "curry",
-      "facts": []
+      "event": "curry"
     },
     {
       "id": "recipe/green-humphead-parrotfish-sushi",
@@ -3093,8 +3012,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/green-humphead-parrotfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/grey-triggerfish-sushi",
@@ -3127,8 +3045,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/grey-triggerfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/haddock-sushi",
@@ -3161,8 +3078,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/haddock"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/harlequin-hind-sushi",
@@ -3195,8 +3111,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/harlequin-hind"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/hawaiian-poke",
@@ -3240,8 +3155,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/humphead-parrotfish-curry",
@@ -3281,8 +3195,7 @@
       "acquisition-method": {
         "text": "Cooksta Platinum Rank"
       },
-      "event": "curry",
-      "facts": []
+      "event": "curry"
     },
     {
       "id": "recipe/hyalonema-tuna-sashimi",
@@ -3323,8 +3236,7 @@
       "acquisition-method": {
         "text": "Complete Trapped in the Glacial Cave"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/ice-fish-sushi",
@@ -3357,8 +3269,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/ice-fish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/longspine-squirrelfish-sushi",
@@ -3391,8 +3302,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/longspine-squirrelfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/lusca-neck-tadaki",
@@ -3434,8 +3344,7 @@
       "acquisition-method": {
         "text": "Defeat Lusca"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/mackerel-scad-sushi",
@@ -3468,8 +3377,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/mackerel-scad"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/marlin-and-soybean-paste-roast",
@@ -3509,8 +3417,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Marlin Party"
       },
-      "event": "marlin",
-      "facts": []
+      "event": "marlin"
     },
     {
       "id": "recipe/mediterranean-parrotfish-sushi",
@@ -3543,8 +3450,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/mediterranean-parrotfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/megalograptus-sushi",
@@ -3577,8 +3483,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/megalograptus"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/mianbao-xia",
@@ -3623,8 +3528,7 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/moray-eel-sushi",
@@ -3657,8 +3561,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/moray-eel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/narrow-barred-spanish-mackerel-sushi",
@@ -3691,8 +3594,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/narrow-barred-spanish-mackerel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/ornate-wrasse-sushi",
@@ -3725,8 +3627,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/ornate-wrasse"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/painted-comber-sushi",
@@ -3759,8 +3660,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/painted-comber"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/peacock-squid-sushi",
@@ -3793,8 +3693,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/peacock-squid"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/pelican-eel-sushi",
@@ -3827,8 +3726,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/pelican-eel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/phantom-jellyfish-jelly",
@@ -3867,8 +3765,7 @@
       "acquisition-method": {
         "text": "Defeat Phantom Jellyfish"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/pikaia-sushi",
@@ -3901,8 +3798,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/pikaia"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/polar-eelpout-sushi",
@@ -3935,8 +3831,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/polar-eelpout"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/purple-sea-urchin-sushi",
@@ -3969,8 +3864,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/purple-sea-urchin"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/qingmendous-sushi",
@@ -4003,8 +3897,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/qingmendous"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/red-bream-sushi",
@@ -4037,8 +3930,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/red-bream"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/red-lionfish-sushi",
@@ -4071,8 +3963,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/red-lionfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/redtoothed-triggerfish-sushi",
@@ -4105,8 +3996,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/redtoothed-triggerfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/rice-with-white-shrimp-meat",
@@ -4150,8 +4040,7 @@
       "acquisition-method": {
         "text": "Train Kyoko to Level 15"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/roasted-capelin",
@@ -4191,8 +4080,7 @@
       "acquisition-method": {
         "text": "Train Drae to Level 10"
       },
-      "event": "curry",
-      "facts": []
+      "event": "curry"
     },
     {
       "id": "recipe/roasted-helicoprion-tail",
@@ -4235,8 +4123,7 @@
       "acquisition-method": {
         "text": "Defeat Helicoprion"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/sally-lightfoot-crab-sushi",
@@ -4269,8 +4156,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/sally-lightfoot-crab"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/salmon-snailfish-sushi",
@@ -4303,8 +4189,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/salmon-snailfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/sea-toad-and-cucumber-gunkan-sushi",
@@ -4340,8 +4225,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber",
-      "facts": []
+      "event": "cucumber"
     },
     {
       "id": "recipe/sea-toad-sushi",
@@ -4374,8 +4258,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/sea-toad"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seasoned-jellyfish",
@@ -4420,8 +4303,7 @@
       "acquisition-method": {
         "text": "Train James to Level 15"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/seasoned-waptia-fieldensis",
@@ -4465,8 +4347,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber shrimp",
-      "facts": []
+      "event": "cucumber shrimp"
     },
     {
       "id": "recipe/shark-karaage",
@@ -4511,8 +4392,7 @@
       "acquisition-method": {
         "text": "Train Itsuki to Level 15"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/snow-crab-sushi",
@@ -4545,8 +4425,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/snow-crab"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/snub-nosed-spiny-eel-sushi",
@@ -4579,8 +4458,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/snub-nosed-spiny-eel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/spear-squid-sushi",
@@ -4613,8 +4491,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/spear-squid"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/special-fried-shrimp-sushi",
@@ -4660,8 +4537,7 @@
       "acquisition-method": {
         "text": "Train Drae to Level 5"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/steamed-eastern-rock-lobster-and-egg",
@@ -4701,8 +4577,7 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/striped-catfish-sushi",
@@ -4735,8 +4610,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/striped-catfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/threetooth-puffer-sushi",
@@ -4769,8 +4643,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/threetooth-puffer"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/titan-triggerfish-sushi",
@@ -4803,8 +4676,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/titan-triggerfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/trevally-sandwich",
@@ -4846,8 +4718,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber",
-      "facts": []
+      "event": "cucumber"
     },
     {
       "id": "recipe/vampire-squid-sushi",
@@ -4880,8 +4751,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/vampire-squid"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/white-shark-omelet",
@@ -4915,8 +4785,7 @@
       "acquisition-method": {
         "text": "Defeat Klaus"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/white-trevally-sushi",
@@ -4949,8 +4818,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/white-trevally"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/whole-roasted-shark-head",
@@ -4990,8 +4858,7 @@
       "acquisition-method": {
         "text": "Complete A Scolding from Yoshie"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/yawie-steamed-meat",
@@ -5025,8 +4892,7 @@
       "acquisition-method": {
         "text": "Defeat Yawie"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/yellow-tang-sushi",
@@ -5059,8 +4925,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/yellow-tang"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/yellowback-fusilier-sushi",
@@ -5093,8 +4958,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/yellowback-fusilier"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/yellowfin-tuna-steak",
@@ -5135,8 +4999,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/agar-tokoroten",
@@ -5171,8 +5034,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Bronze Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/arctic-cod-risotto",
@@ -5216,8 +5078,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Let Us Begin the Contest"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/batfish-ricebowl",
@@ -5261,8 +5122,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Mitchell to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/big-eyed-scad-and-soybean-paste-roast",
@@ -5301,8 +5161,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Gold Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/black-vinegar-braised-parrotfish",
@@ -5341,8 +5200,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Platinum Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/blacktip-reefshark-sushi",
@@ -5374,8 +5232,7 @@
       "acquisition-method": {
         "entityId": "fish/blacktip-reefshark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/blanched-lusca-tentacle",
@@ -5412,8 +5269,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Defeat Lusca"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/blood-belly-comb-jelly-sushi",
@@ -5444,8 +5300,7 @@
       "acquisition-method": {
         "entityId": "fish/blood-belly-comb-jellyfish"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/bluefin-tuna-akami-sushi",
@@ -5477,8 +5332,7 @@
       "acquisition-method": {
         "text": "Bluefin Tuna Akami"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/bluefin-tuna-chutoro-sushi",
@@ -5510,8 +5364,7 @@
       "acquisition-method": {
         "text": "Bluefin Tuna Chutoro"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/bluefin-tuna-ootoro-sushi",
@@ -5539,8 +5392,7 @@
         "maxServings": 1
       },
       "facets": {},
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/boiled-yellowback-fusilier",
@@ -5575,8 +5427,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Bronze Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/chirashi-sushi",
@@ -5618,8 +5469,7 @@
       "acquisition-method": {
         "text": "Complete Inspirational Chirashi Sushi"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/clione-queen-soup",
@@ -5661,8 +5511,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Defeat Clione Queen"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/copper-shark-sushi",
@@ -5694,8 +5543,7 @@
       "acquisition-method": {
         "text": "Copper Shark Meat"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/deep-fish-tempura",
@@ -5740,8 +5588,7 @@
       "acquisition-method": {
         "text": "Complete Whose Fried food is the Best?"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/deep-fried-red-lionfish",
@@ -5784,8 +5631,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Cohh to Level 10"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/deep-fried-sea-urchin",
@@ -5829,8 +5675,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/green-sea-urchin"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/deep-fried-vegetables",
@@ -5871,8 +5716,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber",
-      "facts": []
+      "event": "cucumber"
     },
     {
       "id": "recipe/deep-sea-kaiju-ramen",
@@ -5911,8 +5755,7 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/dried-stingray",
@@ -5957,8 +5800,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Carolina to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/dumbo-takoyaki",
@@ -5997,8 +5839,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Diamond Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/dunkleosteus-sushi",
@@ -6030,8 +5871,7 @@
       "acquisition-method": {
         "entityId": "fish/dunkleosteus"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/dusky-grouper-steak",
@@ -6075,8 +5915,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train El Nino to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/ebirah-chasing-sashimi",
@@ -6116,8 +5955,7 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/fried-onion-cuttlefish",
@@ -6160,8 +5998,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Raptor to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/fried-rice-with-sally-lightfoot-crab",
@@ -6205,8 +6042,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/fried-seahorses",
@@ -6259,8 +6095,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Cohh to Level 5"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/fried-tomato-and-snailfish",
@@ -6304,8 +6139,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/godzilla-vs-ebirah-curry",
@@ -6349,8 +6183,7 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "event": "curry lobster",
-      "facts": []
+      "event": "curry lobster"
     },
     {
       "id": "recipe/green-sea-urchin-and-cucumber-salad",
@@ -6389,8 +6222,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "cucumber",
-      "facts": []
+      "event": "cucumber"
     },
     {
       "id": "recipe/greenland-shark-sushi",
@@ -6422,8 +6254,7 @@
       "acquisition-method": {
         "entityId": "fish/greenland-shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/haddock-acqua-pazza",
@@ -6467,8 +6298,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Let Us Begin the Contest"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/humboldt-ink-pasta",
@@ -6512,8 +6342,7 @@
       "acquisition-method": {
         "text": "Complete Let Us Begin the Contest"
       },
-      "event": "shrimp",
-      "facts": []
+      "event": "shrimp"
     },
     {
       "id": "recipe/latok-omelet",
@@ -6554,8 +6383,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Masayoshi to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/longnose-sawshark-sushi",
@@ -6587,8 +6415,7 @@
       "acquisition-method": {
         "entityId": "fish/long-nose-saw-shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/mackerel-scad-hotdog",
@@ -6628,8 +6455,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Cohh to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/marlin-sushi",
@@ -6660,8 +6486,7 @@
       "acquisition-method": {
         "entityId": "fish/marlin"
       },
-      "event": "marlin",
-      "facts": []
+      "event": "marlin"
     },
     {
       "id": "recipe/megamouth-shark-sushi",
@@ -6693,8 +6518,7 @@
       "acquisition-method": {
         "entityId": "fish/megamouth-shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/narrow-barred-spanish-mackerel-arancini",
@@ -6737,8 +6561,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Let Us Begin the Contest"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/narwhal-miso-soup",
@@ -6781,8 +6604,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Davina to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/nasu-dengaku",
@@ -6824,8 +6646,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Diamond Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/pickled-vegetables",
@@ -6866,8 +6687,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber",
-      "facts": []
+      "event": "cucumber"
     },
     {
       "id": "recipe/plotosid-pie",
@@ -6910,8 +6730,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Whose Fried food is the Best?"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/porbeagle-shark-sushi",
@@ -6943,8 +6762,7 @@
       "acquisition-method": {
         "entityId": "fish/porbeagle-shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/red-banded-lobster-sushi",
@@ -6976,8 +6794,7 @@
       "acquisition-method": {
         "entityId": "fish/red-banded-lobster"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/rice-with-great-spider-crab-meat",
@@ -7016,8 +6833,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Diamond Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/rice-with-purple-sea-urchin-sushi",
@@ -7056,8 +6872,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Raptor to Level 10"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/roasted-tropical-fish-and-garlic",
@@ -7102,8 +6917,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Tohoku to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/sailfish-sushi",
@@ -7135,8 +6949,7 @@
       "acquisition-method": {
         "entityId": "fish/sailfish"
       },
-      "event": "marlin",
-      "facts": []
+      "event": "marlin"
     },
     {
       "id": "recipe/salt-grilled-redtoothed-triggerfish",
@@ -7171,8 +6984,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Bronze Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seagrapes-jellyfish-sushi",
@@ -7215,8 +7027,7 @@
       "acquisition-method": {
         "text": "Complete Gourmet Vincent's Challenge"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/seagrapes-special-sushi",
@@ -7250,8 +7061,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Gold Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seahorse-salad",
@@ -7308,8 +7118,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Yone to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seahorse-udon",
@@ -7362,8 +7171,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Platinum Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seasoned-kajime",
@@ -7396,8 +7204,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Bronze Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seasoned-long-spine-porcupinefish-skin",
@@ -7436,8 +7243,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Otto's Gift?"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seaweed-rolled-omelet",
@@ -7475,8 +7281,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Pai to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/shortfin-mako-sushi",
@@ -7508,8 +7313,7 @@
       "acquisition-method": {
         "entityId": "fish/shortfin-mako"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/smoked-atlantic-mackerel-scramble",
@@ -7548,8 +7352,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Whose Fried food is the Best?"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/smooth-hammerhead-sushi",
@@ -7581,8 +7384,7 @@
       "acquisition-method": {
         "entityId": "fish/smooth-hammerhead"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/steamed-hyalonema-angler-fish",
@@ -7621,8 +7423,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Trapped in the Glacial Cave"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/steamed-kronosaurus-tongue",
@@ -7664,8 +7465,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Defeat Kronosaurus"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/steamed-wolf-eel",
@@ -7706,8 +7506,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Defeat Giant Wolf Eel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/stellate-puffer-special-sushi",
@@ -7743,8 +7542,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Gold Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/stir-fried-habanero-lobster",
@@ -7783,8 +7581,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Make Jango Warm!"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/stir-fried-hermit-crab-and-seaweed",
@@ -7826,8 +7623,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Defeat Truck Hermit Crab"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/striped-red-mullet-tangle-roll",
@@ -7862,8 +7658,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Silver Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/three-colored-squid-roast",
@@ -7908,8 +7703,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Liu to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/thresher-shark-sushi",
@@ -7941,8 +7735,7 @@
       "acquisition-method": {
         "entityId": "fish/thresher-shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/tiger-shark-sushi",
@@ -7974,8 +7767,7 @@
       "acquisition-method": {
         "entityId": "fish/tiger-shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/trevally-nanbanzuke",
@@ -8018,8 +7810,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Maki to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/trout-sea-grapes-ricebowl",
@@ -8062,8 +7853,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Gold Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/truffle-blue-lobster-tail-sushi",
@@ -8098,8 +7888,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "lobster",
-      "facts": []
+      "event": "lobster"
     },
     {
       "id": "recipe/truffle-sailfish-tartare",
@@ -8139,8 +7928,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "marlin",
-      "facts": []
+      "event": "marlin"
     },
     {
       "id": "recipe/truffle-shark-sandwich",
@@ -8181,8 +7969,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/warm-atlantic-mackerel-soba",
@@ -8225,8 +8012,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Train Hamako to Level 15"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/white-spotted-jellyfish-sushi",
@@ -8261,8 +8047,7 @@
       "acquisition-method": {
         "entityId": "fish/white-spotted-jellyfish"
       },
-      "event": "jellyfish",
-      "facts": []
+      "event": "jellyfish"
     },
     {
       "id": "recipe/white-trevally-kombu-ochazuke",
@@ -8302,8 +8087,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Cooksta Silver Rank"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/whitetip-reefshark-sushi",
@@ -8335,8 +8119,7 @@
       "acquisition-method": {
         "entityId": "fish/whitetip-reefshark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/yellowfin-tuna-akami-sushi",
@@ -8368,8 +8151,7 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Akami"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/yellowfin-tuna-chutoro-sushi",
@@ -8401,8 +8183,7 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Chutoro"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/yellowfin-tuna-ootoro-sushi",
@@ -8434,8 +8215,7 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Ootoro"
       },
-      "event": "tuna",
-      "facts": []
+      "event": "tuna"
     },
     {
       "id": "recipe/zebra-shark-sushi",
@@ -8466,8 +8246,7 @@
       "acquisition-method": {
         "entityId": "fish/zebra-shark"
       },
-      "event": "shark",
-      "facts": []
+      "event": "shark"
     },
     {
       "id": "recipe/aurora-jellyfish-sushi",
@@ -8497,8 +8276,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/aurora-jellyfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/barbed-eel-sushi",
@@ -8529,8 +8307,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/barbed-eel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/bloodskin-shark-sushi",
@@ -8560,8 +8337,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/bloodskin-shark"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/blue-tang-sushi",
@@ -8592,8 +8368,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/blue-tang"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/bluespotted-stargazer-sushi",
@@ -8624,8 +8399,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/bluespotted-stargazer"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/boiled-asian-sheepshead-wrasse-and-truffle",
@@ -8663,8 +8437,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Make Jango Warm!"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/bony-wreckfish-sushi",
@@ -8694,8 +8467,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/bony-wreckfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/bursting-anglerfish-sushi",
@@ -8726,8 +8498,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/bursting-anglerfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/cardinalfish-sushi",
@@ -8757,8 +8528,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/cardinal-fish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/cerebral-crab-sushi",
@@ -8788,8 +8558,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/cerebral-crab"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/clown-frogfish-sushi",
@@ -8819,8 +8588,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/clown-frogfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/concertina-barracuda-sushi",
@@ -8850,8 +8618,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/concertina-barracuda"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/cortex-decorator-sushi",
@@ -8881,8 +8648,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/cortex-decorator"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/cuttlefish-sushi",
@@ -8913,8 +8679,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/cuttlefish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/devil-scorpionfish-sushi",
@@ -8945,8 +8710,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/devil-scorpionfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/drepanaspis-sushi",
@@ -8977,8 +8741,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/drepanaspis"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/emperor-angelfish-sushi",
@@ -9009,8 +8772,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/emperor-angelfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/entangled-crab-sushi",
@@ -9040,8 +8802,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/entangled-crab"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/enthralled-stonefish-sushi",
@@ -9071,8 +8832,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/enthralled-stonefish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/fanged-cod-sushi",
@@ -9102,8 +8862,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/fanged-cod"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/flame-angelfish-sushi",
@@ -9134,8 +8893,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/flame-angelfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/fried-habanero-fangtooth",
@@ -9177,8 +8935,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Jango Secret Recipe"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/frilled-shark-sushi",
@@ -9209,8 +8966,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Frilled Shark Meat"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/gazing-shark-sushi",
@@ -9241,8 +8997,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/gazing-shark"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/gelatinous-stonefish-sushi",
@@ -9272,8 +9027,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/gelatinous-stonefish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/giant-trevally-sushi",
@@ -9304,8 +9058,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/giant-trevally"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/gnashing-perch-sushi",
@@ -9335,8 +9088,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/gnashing-perch"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/grilled-antarctic-octopus-and-truffle",
@@ -9374,8 +9126,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Jango Secret Recipe"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/grilled-eel-with-habanero",
@@ -9417,8 +9168,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Jango Secret Recipe"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/grotesque-mackerel-sushi",
@@ -9448,8 +9198,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/grotesque-mackerel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/host-eel-sushi",
@@ -9479,8 +9228,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/host-eel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/humboldt-squid-sushi",
@@ -9511,8 +9259,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/humboldt-squid"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/imperious-lobster-sushi",
@@ -9542,8 +9289,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/imperious-lobster"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/longfin-batfish-sushi",
@@ -9573,8 +9319,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/longfin-batfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/lumpfish-sushi",
@@ -9605,8 +9350,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/lumpfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/malignant-pincer-sushi",
@@ -9636,8 +9380,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/malignant-pincer"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/many-eyed-mackerel-sushi",
@@ -9668,8 +9411,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/many-eyed-mackerel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/marbled-electric-ray-sushi",
@@ -9700,8 +9442,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/marbled-electric-ray"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/moonlight-bladderwrack-roll",
@@ -9745,8 +9486,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Jango Secret Recipe"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/narwhal-sushi",
@@ -9777,8 +9517,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/narwhal"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/norimaki",
@@ -9801,8 +9540,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "默认"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/orbicular-batfish-fry",
@@ -9832,8 +9570,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/orbicular-batfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/pacific-fanfish-sushi",
@@ -9864,8 +9601,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/pacific-fanfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/parhelion-jellyfish-sushi",
@@ -9896,8 +9632,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/parhelion-jellyfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/perished-loosejaw-sushi",
@@ -9927,8 +9662,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/perished-loosejaw"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/pufferfish-dumpling-soup",
@@ -9971,8 +9705,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Jango Secret Recipe"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/pyramid-butterflyfish-sushi",
@@ -10003,8 +9736,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/pyramid-butterflyfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/radiant-squid-sushi",
@@ -10034,8 +9766,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/radiant-squid"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/rainbow-cap-eel-skewers",
@@ -10074,8 +9805,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Jango Secret Recipe"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/rainbow-cap-pacific-fanfish-ochazuke",
@@ -10118,8 +9848,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Jango Secret Recipe"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/rainbow-cap-triggerfish-fishcake",
@@ -10162,8 +9891,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Fellow Alchemist and Magic Cauldron"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/rainbow-wrasse-sushi",
@@ -10193,8 +9921,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/rainbow-wrasse"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/rhinochimaeridae-sushi",
@@ -10225,8 +9952,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/rhinochimaeridae"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/salema-porgy-sushi",
@@ -10256,8 +9982,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/salema-porgy"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/sallow-sailfish-sushi",
@@ -10287,8 +10012,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/sallow-sailfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/savage-barracuda-sushi",
@@ -10318,8 +10042,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/savage-barracuda"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/scouring-bass-sushi",
@@ -10349,8 +10072,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/scouring-bass"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seahorse-skewers",
@@ -10394,8 +10116,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "ingredient/seahorse"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/seizing-snailfish-sushi",
@@ -10425,8 +10146,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/seizing-snailfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/shattered-wreckfish-sushi",
@@ -10456,8 +10176,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/shattered-wreckfish"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/sheepshead-sushi",
@@ -10487,8 +10206,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/sheepshead"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/smallspotted-dart-sushi",
@@ -10519,8 +10237,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/small-spotted-dart"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/soy-sauce-marinated-crab",
@@ -10565,8 +10282,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Jango Secret Recipe"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/spider-crab-sushi",
@@ -10596,8 +10312,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/spider-crab"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/splintered-crab-sushi",
@@ -10627,8 +10342,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/splintered-crab"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/sprouting-eel-sushi",
@@ -10658,8 +10372,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/sprouting-eel"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/starry-skate-sushi",
@@ -10689,8 +10402,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/starry-skate"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/stingray-sushi",
@@ -10720,8 +10432,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/stingray"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/striped-red-mullet-sushi",
@@ -10751,8 +10462,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/striped-red-mullet"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/sweet-and-sour-stargazer",
@@ -10794,8 +10504,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/three-headed-cod-sushi",
@@ -10826,8 +10535,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/three-headed-cod"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/translucent-sturgeon-sushi",
@@ -10857,8 +10565,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/translucent-sturgeon"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/tropical-fish-sushi-set",
@@ -10902,8 +10609,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Complete Michael Bang's Inspiration"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/tusked-grouper-sushi",
@@ -10933,8 +10639,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/tusked-grouper"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/voltaic-grouper-sushi",
@@ -10964,8 +10669,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/voltaic-grouper"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/withered-ray-sushi",
@@ -10995,8 +10699,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/withered-ray"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/xenacanthus-sushi",
@@ -11027,8 +10730,7 @@
       "facets": {},
       "acquisition-method": {
         "text": "Xenacanthus Meat"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/young-anomalocaris-sushi",
@@ -11058,8 +10760,7 @@
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/anomalocaris"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/gim",
@@ -11086,8 +10787,7 @@
       },
       "facets": {
         "unlockRequirements": "text/426bf9db215a"
-      },
-      "facts": []
+      }
     },
     {
       "id": "recipe/ammonite",
@@ -11117,8 +10817,7 @@
         "ingredientCost": 17,
         "estimatedProfit": 55
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/archerfish",
@@ -11148,8 +10847,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 7
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/armored-catfish",
@@ -11179,8 +10877,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 8
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/asian-arowana",
@@ -11210,8 +10907,7 @@
         "ingredientCost": 11,
         "estimatedProfit": 31
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/black-caiman",
@@ -11241,8 +10937,7 @@
         "ingredientCost": 15,
         "estimatedProfit": 45
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/blue-discus",
@@ -11272,8 +10967,7 @@
         "ingredientCost": 3,
         "estimatedProfit": 2
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/blue-gill",
@@ -11303,8 +10997,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 4
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/bluegray-mbuna",
@@ -11334,8 +11027,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 6
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/brown-discus",
@@ -11365,8 +11057,7 @@
         "ingredientCost": 3,
         "estimatedProfit": 2
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/burgessomedusa",
@@ -11396,8 +11087,7 @@
         "ingredientCost": 18,
         "estimatedProfit": 57
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/channa-striata",
@@ -11427,8 +11117,7 @@
         "ingredientCost": 10,
         "estimatedProfit": 26
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/chocolate-gourami",
@@ -11458,8 +11147,7 @@
         "ingredientCost": 3,
         "estimatedProfit": 3
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/clarias",
@@ -11489,8 +11177,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 6
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/clown-feather-back",
@@ -11520,8 +11207,7 @@
         "ingredientCost": 13,
         "estimatedProfit": 37
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/clown-fish",
@@ -11552,8 +11238,7 @@
         "ingredientCost": 1,
         "estimatedProfit": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/clown-loach",
@@ -11583,8 +11268,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 7
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/comber",
@@ -11615,8 +11299,7 @@
         "ingredientCost": 1,
         "estimatedProfit": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-ciurcopterus",
@@ -11646,8 +11329,7 @@
         "ingredientCost": 20,
         "estimatedProfit": 65
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-common-yabby",
@@ -11677,8 +11359,7 @@
         "ingredientCost": 8,
         "estimatedProfit": 19
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-murray-crayfish",
@@ -11708,8 +11389,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 41
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-red-swamp-crayfish",
@@ -11739,8 +11419,7 @@
         "ingredientCost": 5,
         "estimatedProfit": 8
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-signal-crayfish",
@@ -11770,8 +11449,7 @@
         "ingredientCost": 10,
         "estimatedProfit": 30
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-smooth-marron",
@@ -11801,8 +11479,7 @@
         "ingredientCost": 11,
         "estimatedProfit": 31
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-tricolor-crayfish",
@@ -11832,8 +11509,7 @@
         "ingredientCost": 5,
         "estimatedProfit": 8
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-tumidocarcinus-giganteus",
@@ -11863,8 +11539,7 @@
         "ingredientCost": 16,
         "estimatedProfit": 49
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crab-trap-tuzoia",
@@ -11894,8 +11569,7 @@
         "ingredientCost": 12,
         "estimatedProfit": 34
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crayfish-lemongrass-steamed",
@@ -11938,8 +11612,7 @@
         "ingredientCost": 31,
         "estimatedProfit": 59
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/eagle-shark",
@@ -11969,8 +11642,7 @@
         "ingredientCost": 19,
         "estimatedProfit": 61
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/electric-eel",
@@ -12000,8 +11672,7 @@
         "ingredientCost": 12,
         "estimatedProfit": 33
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/emperor-snakehead",
@@ -12031,8 +11702,7 @@
         "ingredientCost": 10,
         "estimatedProfit": 26
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/eomesodon",
@@ -12062,8 +11732,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 41
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/exellia",
@@ -12093,8 +11762,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 41
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/fire-eel",
@@ -12124,8 +11792,7 @@
         "ingredientCost": 10,
         "estimatedProfit": 30
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/foreyia",
@@ -12155,8 +11822,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 42
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/giant-fresh-water-stingray",
@@ -12186,8 +11852,7 @@
         "ingredientCost": 17,
         "estimatedProfit": 55
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/giant-fresh-water-stingray-barbecued",
@@ -12225,8 +11890,7 @@
         "ingredientCost": 26,
         "estimatedProfit": 89
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/giant-gourami",
@@ -12256,8 +11920,7 @@
         "ingredientCost": 9,
         "estimatedProfit": 26
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/giant-snakehead",
@@ -12287,8 +11950,7 @@
         "ingredientCost": 9,
         "estimatedProfit": 26
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/goliath-tigerfish",
@@ -12318,8 +11980,7 @@
         "ingredientCost": 13,
         "estimatedProfit": 38
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/grass-carp",
@@ -12349,8 +12010,7 @@
         "ingredientCost": 9,
         "estimatedProfit": 22
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/great-sturgeon",
@@ -12380,8 +12040,7 @@
         "ingredientCost": 17,
         "estimatedProfit": 53
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/green-discus",
@@ -12411,8 +12070,7 @@
         "ingredientCost": 3,
         "estimatedProfit": 2
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/gyrodus",
@@ -12442,8 +12100,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 42
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/heckel-discus",
@@ -12473,8 +12130,7 @@
         "ingredientCost": 3,
         "estimatedProfit": 3
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/hensodon",
@@ -12504,8 +12160,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 42
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/horse-face-loach",
@@ -12535,8 +12190,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 7
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/horsehair-crab-sushi",
@@ -12564,8 +12218,7 @@
         "maxServings": null,
         "platesPerServing": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/indonesian-tiger-perch",
@@ -12595,8 +12248,7 @@
         "ingredientCost": 7,
         "estimatedProfit": 18
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/king-salmon",
@@ -12626,8 +12278,7 @@
         "ingredientCost": 10,
         "estimatedProfit": 30
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/kissing-gourami",
@@ -12657,8 +12308,7 @@
         "ingredientCost": 3,
         "estimatedProfit": 4
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/large-mouth-bass",
@@ -12688,8 +12338,7 @@
         "ingredientCost": 5,
         "estimatedProfit": 9
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/lemon-yellow-lab",
@@ -12719,8 +12368,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 6
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/malayan-leaffish",
@@ -12750,8 +12398,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 5
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/malayan-mahseer",
@@ -12781,8 +12428,7 @@
         "ingredientCost": 13,
         "estimatedProfit": 37
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/malayan-pike-head",
@@ -12812,8 +12458,7 @@
         "ingredientCost": 5,
         "estimatedProfit": 8
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/moonlight-gourami",
@@ -12843,8 +12488,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 4
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/mud-carp",
@@ -12874,8 +12518,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 8
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/nile-perch",
@@ -12905,8 +12548,7 @@
         "ingredientCost": 11,
         "estimatedProfit": 30
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/ophthalmosaurus",
@@ -12936,8 +12578,7 @@
         "ingredientCost": 20,
         "estimatedProfit": 65
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/orthoceras",
@@ -12967,8 +12608,7 @@
         "ingredientCost": 19,
         "estimatedProfit": 59
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/paradoxides",
@@ -12998,8 +12638,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 44
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/parameteroraspis",
@@ -13029,8 +12668,7 @@
         "ingredientCost": 19,
         "estimatedProfit": 59
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/peacock-bass",
@@ -13060,8 +12698,7 @@
         "ingredientCost": 12,
         "estimatedProfit": 35
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/pearl-gourami",
@@ -13091,8 +12728,7 @@
         "ingredientCost": 3,
         "estimatedProfit": 4
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/piraiba-catfish",
@@ -13122,8 +12758,7 @@
         "ingredientCost": 12,
         "estimatedProfit": 33
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/pirarucu",
@@ -13153,8 +12788,7 @@
         "ingredientCost": 11,
         "estimatedProfit": 30
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/platinum-alligator-gar",
@@ -13184,8 +12818,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 44
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/platyceramus",
@@ -13215,8 +12848,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 43
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/promissum",
@@ -13246,8 +12878,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 42
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/red-bellied-piranha",
@@ -13277,8 +12908,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 7
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/red-discus",
@@ -13308,8 +12938,7 @@
         "ingredientCost": 3,
         "estimatedProfit": 2
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/red-feather-starfish",
@@ -13339,8 +12968,7 @@
         "ingredientCost": 12,
         "estimatedProfit": 36
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/redeye-piranha",
@@ -13370,8 +12998,7 @@
         "ingredientCost": 8,
         "estimatedProfit": 21
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/redtail-catfish",
@@ -13401,8 +13028,7 @@
         "ingredientCost": 16,
         "estimatedProfit": 49
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/sacabambaspis",
@@ -13432,8 +13058,7 @@
         "ingredientCost": 14,
         "estimatedProfit": 43
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/snakeskin-gourami",
@@ -13463,8 +13088,7 @@
         "ingredientCost": 5,
         "estimatedProfit": 9
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/stylonurus",
@@ -13494,8 +13118,7 @@
         "ingredientCost": 18,
         "estimatedProfit": 57
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/sword-fish",
@@ -13525,8 +13148,7 @@
         "ingredientCost": 38,
         "estimatedProfit": 50
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tambaqui",
@@ -13556,8 +13178,7 @@
         "ingredientCost": 12,
         "estimatedProfit": 35
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tapah",
@@ -13587,8 +13208,7 @@
         "ingredientCost": 16,
         "estimatedProfit": 49
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/three-spot-gourami",
@@ -13618,8 +13238,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 5
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tilapia",
@@ -13649,8 +13268,7 @@
         "ingredientCost": 4,
         "estimatedProfit": 4
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tullimonstrum",
@@ -13680,8 +13298,7 @@
         "ingredientCost": 17,
         "estimatedProfit": 55
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/vege-fried",
@@ -13721,8 +13338,7 @@
         "ingredientCost": 71,
         "estimatedProfit": 241
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/vege-tsukemono",
@@ -13762,8 +13378,7 @@
         "ingredientCost": 71,
         "estimatedProfit": 245
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/wiwaxia",
@@ -13791,8 +13406,7 @@
         "ingredientCost": 13,
         "estimatedProfit": 40
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/alligator-gar-durian-head-curry",
@@ -13832,8 +13446,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/ammonite-salad",
@@ -13873,8 +13486,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/bamboo-shoot-soup",
@@ -13908,8 +13520,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/banana-dragon-fruit-pudding",
@@ -13947,8 +13558,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/banana-halo-halo",
@@ -13986,8 +13596,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/bananablossom-salad",
@@ -14021,8 +13630,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/battle-dish-carbonara",
@@ -14048,8 +13656,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/battle-dish-dimsum",
@@ -14075,8 +13682,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/battle-dish-fish-and-chips",
@@ -14102,8 +13708,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/bird-mix-seasoned",
@@ -14141,8 +13746,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/black-caiman-grilled",
@@ -14176,8 +13780,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/black-caiman-red-pineapple-stir-fried",
@@ -14217,8 +13820,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/black-caiman-taco",
@@ -14254,8 +13856,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/blackfin-barracuda",
@@ -14276,8 +13877,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/blue-gill-steamed",
@@ -14313,8 +13913,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/boss-basilosaurus-hot-pot",
@@ -14352,8 +13951,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/boss-fringehead-herb-roast",
@@ -14391,8 +13989,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/boss-giant-mudskipper-cheek-steamed",
@@ -14430,8 +14027,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/boss-snapping-turtle-seafood-soup",
@@ -14469,8 +14065,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/boss-stethacanthus-shark-fin-soup",
@@ -14508,8 +14103,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/boss-surong-foreleg-seasoned",
@@ -14547,8 +14141,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/boss-xiphactinus-spicy-soup",
@@ -14586,8 +14179,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/burgessomedusa-pink-honeydew-jelly",
@@ -14627,8 +14219,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/catfish-mix-fried",
@@ -14669,8 +14260,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/ciurcopterus-boiled-stir-fried",
@@ -14706,8 +14296,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/clown-featherback-taro-fried",
@@ -14747,8 +14336,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/crayfish-sambal-stir-fried",
@@ -14784,8 +14372,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/dragon-fruit-salad",
@@ -14823,8 +14410,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/eagle-shark-stew",
@@ -14864,8 +14450,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/electric-eel-pineapple-stir-fried",
@@ -14905,8 +14490,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/fiddlehead-fern-boiled",
@@ -14936,8 +14520,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/giant-mottled-eel-sliced",
@@ -14978,8 +14561,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/giant-snakehead-fin-soup",
@@ -15019,8 +14601,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/giant-snakehead-soup",
@@ -15060,8 +14641,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/goliath-tigerfish-salad",
@@ -15101,8 +14681,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/gourami-fried",
@@ -15144,8 +14723,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/grass-carp-bamboo-shoot-steamed",
@@ -15181,8 +14759,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/great-sturgeon-steak",
@@ -15222,8 +14799,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/hindleg-mix-fried",
@@ -15261,8 +14837,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/indonesian-tiger-perch-sate",
@@ -15298,8 +14873,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/jungle-egg-omelet",
@@ -15329,8 +14903,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/king-trumpet-mushroom-pepper-stir-fried",
@@ -15368,8 +14941,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/large-mouth-bass-boiled",
@@ -15405,8 +14977,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/lemon-yellow-lab-banana-fried",
@@ -15442,8 +15013,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/mangosteen-coconut-dessert",
@@ -15473,8 +15043,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/mudcarp-banana-leaf-grilled",
@@ -15510,8 +15079,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/ophthalmosaurus-grilled",
@@ -15551,8 +15119,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/parameteroraspis-tom-yum",
@@ -15592,8 +15159,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/perch-mix-steamed",
@@ -15634,8 +15200,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/pink-durian-pudding",
@@ -15669,8 +15234,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/piraiba-catfish-tamarind-soup",
@@ -15706,8 +15270,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/piranha-head-soup",
@@ -15748,8 +15311,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/pirarucu-banana-lasagna",
@@ -15785,8 +15347,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/premium-fruit-salad",
@@ -15824,8 +15385,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/sacabambaspis-sate",
@@ -15865,8 +15425,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/salmon-watermelon-salad",
@@ -15906,8 +15465,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/sarcastic-fringehead",
@@ -15928,8 +15486,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/sea-goldie-sushi",
@@ -15956,8 +15513,7 @@
         "baseServings": 1,
         "maxServings": null
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/shell-mix-hot-pot",
@@ -15998,8 +15554,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/snake-mix-spicy-soup",
@@ -16037,8 +15592,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/special-goblin-shark-belly-meat-grilled",
@@ -16076,8 +15630,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/special-lusca-leg-blanched",
@@ -16111,8 +15664,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/special-lusca-neck-meat-tataki",
@@ -16150,8 +15702,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/special-mantis-shrimp-shell-meat-boiled",
@@ -16189,8 +15740,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/special-wolffish-tail-meat-steamed",
@@ -16228,8 +15778,7 @@
         "maxServings": null,
         "maxLevel": 1
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/squid-mix-stir-fried",
@@ -16270,8 +15819,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/striped-snakehead-fried",
@@ -16307,8 +15855,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/stylonurus-honeydew-salad",
@@ -16348,8 +15895,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tambaqui-grilled",
@@ -16385,8 +15931,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tangsuyuk-fried",
@@ -16424,8 +15969,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tilapia-calamansi-steamed",
@@ -16461,8 +16005,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tropical-fish-steamed",
@@ -16504,8 +16047,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tropical-fruit-salad",
@@ -16543,8 +16085,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tumidocarcinus-tamarind-stir-fried",
@@ -16580,8 +16121,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/tuzoia-soup",
@@ -16621,8 +16161,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/walking-catfish-tom-yum",
@@ -16658,8 +16197,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/water-cashewnut-duck-grilled",
@@ -16697,8 +16235,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     },
     {
       "id": "recipe/default",
@@ -16719,8 +16256,7 @@
         "maxServings": null,
         "maxLevel": 10
       },
-      "facets": {},
-      "facts": []
+      "facets": {}
     }
   ],
   "fish": [
@@ -16738,16 +16274,6 @@
         "recipe/zebra-shark-sushi"
       ],
       "drops": [],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "fish"
-            }
-          ]
-        }
-      ],
       "stats": {
         "rank": 8,
         "weight": 10.5,
@@ -16770,6 +16296,9 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
+      },
+      "harvest-source": {
+        "text": "fish"
       }
     },
     {
@@ -16791,7 +16320,6 @@
           "text": "Antarctic Octopus Venom Sack"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 7.5,
@@ -16834,7 +16362,6 @@
           "text": "Box Jellyfish Tentacle"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -16871,7 +16398,6 @@
       "relatedRecipes": [
         "recipe/clione-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.1,
@@ -16914,7 +16440,6 @@
           "text": "Comb Jelly Electric Organ"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 7,
@@ -16952,7 +16477,6 @@
         "recipe/haddock-sushi",
         "recipe/haddock-acqua-pazza"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 6,
@@ -16990,7 +16514,6 @@
         "recipe/ice-fish-sushi",
         "recipe/ice-fish-curry"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 5.5,
@@ -17034,7 +16557,6 @@
           "text": "Rhinochimaeridae Poison Thorn"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -17072,7 +16594,6 @@
         "recipe/fried-rice-with-sally-lightfoot-crab",
         "recipe/sally-lightfoot-crab-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 4,
@@ -17116,7 +16637,6 @@
           "text": "Vampire Squid Tentacle"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 6,
@@ -17155,7 +16675,6 @@
         "recipe/rice-with-white-shrimp-meat",
         "recipe/white-shrimp-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 0.1,
@@ -17193,7 +16712,6 @@
       "relatedRecipes": [
         "recipe/alaska-pollock-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 7,
@@ -17230,7 +16748,6 @@
       "relatedRecipes": [
         "recipe/allenypterus-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 4,
@@ -17267,7 +16784,6 @@
       "relatedRecipes": [
         "recipe/arctic-telescope-fish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 3,
@@ -17305,7 +16821,6 @@
         "recipe/atlantic-anglerfish-sushi",
         "recipe/steamed-hyalonema-angler-fish"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 5.5,
@@ -17344,7 +16859,6 @@
         "recipe/smoked-atlantic-mackerel-scramble",
         "recipe/warm-atlantic-mackerel-soba"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3.5,
@@ -17382,7 +16896,6 @@
         "recipe/bigeye-scad-sushi",
         "recipe/big-eyed-scad-and-soybean-paste-roast"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.6,
@@ -17420,7 +16933,6 @@
         "recipe/bigeye-trevally-sushi",
         "recipe/trevally-sandwich"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 3,
@@ -17456,7 +16968,6 @@
       "relatedRecipes": [
         "recipe/b-and-w-snapper-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 1,
@@ -17496,7 +17007,6 @@
         "recipe/raw-black-tiger-shrimp-sushi",
         "recipe/special-fried-shrimp-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.1,
@@ -17534,7 +17044,6 @@
         "recipe/capelin-sushi",
         "recipe/roasted-capelin"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 0.5,
@@ -17571,7 +17080,6 @@
       "relatedRecipes": [
         "recipe/chambered-nautilus-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1,
@@ -17609,7 +17117,6 @@
         "recipe/clearfin-lionfish-sushi",
         "recipe/moonlight-bladderwrack-roll"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.7,
@@ -17647,7 +17154,6 @@
         "recipe/comber",
         "recipe/comber-sandwich"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.2,
@@ -17685,7 +17191,6 @@
         "recipe/cookiecutter-shark-sushi",
         "recipe/deep-fish-tempura"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -17724,7 +17229,6 @@
         "recipe/tropical-fish-sushi-set",
         "recipe/trout-sea-grapes-ricebowl"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 3,
@@ -17767,7 +17271,6 @@
           "text": "Drepanaspis Head Plate"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8.5,
@@ -17810,7 +17313,6 @@
           "text": "Dunkleosteus Thoracic Shield"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 19.5,
@@ -17848,7 +17350,6 @@
         "recipe/dusky-grouper-steak",
         "recipe/dusky-grouper-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 9,
@@ -17886,7 +17387,6 @@
         "recipe/falcatus-sushi",
         "recipe/falcatus-soybean-paste-soup"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 6,
@@ -17924,7 +17424,6 @@
         "recipe/fangtooth-sushi",
         "recipe/fried-habanero-fangtooth"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3,
@@ -17968,7 +17467,6 @@
           "text": "Frilled Shark Teeth"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 8.5,
@@ -18013,7 +17511,6 @@
           "text": "Giant Trevally Fin"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 5,
@@ -18051,7 +17548,6 @@
         "recipe/golden-king-crab-sushi",
         "recipe/soy-sauce-marinated-crab"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 8,
@@ -18089,7 +17585,6 @@
         "recipe/harlequin-hind-sushi",
         "recipe/tropical-fish-sushi-set"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.1,
@@ -18129,7 +17624,6 @@
         "recipe/humboldt-ink-pasta"
       ],
       "drops": [],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 7.5,
@@ -18167,7 +17661,6 @@
         "recipe/pufferfish-dumpling-soup",
         "recipe/seasoned-long-spine-porcupinefish-skin"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3.5,
@@ -18205,7 +17698,6 @@
         "recipe/longspine-squirrelfish-sushi",
         "recipe/moonlight-bladderwrack-roll"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.4,
@@ -18243,7 +17735,6 @@
         "recipe/mackerel-scad-sushi",
         "recipe/mackerel-scad-hotdog"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -18288,7 +17779,6 @@
           "text": "Marbled Electric Ray Electroplax"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3.5,
@@ -18326,7 +17816,6 @@
         "recipe/black-vinegar-braised-parrotfish",
         "recipe/mediterranean-parrotfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 2,
@@ -18363,7 +17852,6 @@
       "relatedRecipes": [
         "recipe/megalograptus-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8,
@@ -18401,7 +17889,6 @@
         "recipe/narrow-barred-spanish-mackerel-arancini",
         "recipe/narrow-barred-spanish-mackerel-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 9,
@@ -18439,7 +17926,6 @@
         "recipe/ornate-wrasse-sushi",
         "recipe/wrasse-curry"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.5,
@@ -18477,7 +17963,6 @@
         "recipe/comber-sandwich",
         "recipe/painted-comber-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.4,
@@ -18516,7 +18001,6 @@
         "recipe/peacock-squid-ripieni",
         "recipe/three-colored-squid-roast"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 3.5,
@@ -18554,7 +18038,6 @@
         "recipe/pikaia-sushi",
         "recipe/pikaia-ramen"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 4.5,
@@ -18591,7 +18074,6 @@
       "relatedRecipes": [
         "recipe/qingmendous-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 6,
@@ -18629,7 +18111,6 @@
         "recipe/red-bream-sushi",
         "recipe/crimson-fish-roll"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3,
@@ -18667,7 +18148,6 @@
         "recipe/redtoothed-triggerfish-sushi",
         "recipe/salt-grilled-redtoothed-triggerfish"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 1,
@@ -18705,7 +18185,6 @@
         "recipe/fried-tomato-and-snailfish",
         "recipe/salmon-snailfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -18743,7 +18222,6 @@
         "recipe/sea-toad-and-cucumber-gunkan-sushi",
         "recipe/sea-toad-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -18786,7 +18264,6 @@
           "entityId": "ingredient/mako-meat"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 9,
@@ -18825,7 +18302,6 @@
         "recipe/rainbow-cap-eel-skewers",
         "recipe/snub-nosed-spiny-eel-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 6.5,
@@ -18863,7 +18339,6 @@
         "recipe/spear-squid-sushi",
         "recipe/spear-squid-soba-futomaki"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 4.6,
@@ -18901,7 +18376,6 @@
         "recipe/plotosid-pie",
         "recipe/striped-catfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.3,
@@ -18944,7 +18418,6 @@
           "text": "Thresher Shark Tail"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8.5,
@@ -18982,7 +18455,6 @@
         "recipe/seasoned-waptia-fieldensis",
         "recipe/waptia-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 0.4,
@@ -19021,7 +18493,6 @@
         "recipe/white-trevally-sushi",
         "recipe/white-trevally-kombu-ochazuke"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 6,
@@ -19062,7 +18533,6 @@
         "recipe/mianbao-xia",
         "recipe/deep-fried-eggplant-shrimp-meatballs"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.1,
@@ -19101,7 +18571,6 @@
         "recipe/xenacanthus-sushi"
       ],
       "drops": [],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 5.5,
@@ -19139,7 +18608,6 @@
         "recipe/yellowback-fusilier-sushi",
         "recipe/boiled-yellowback-fusilier"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -19177,7 +18645,6 @@
         "recipe/american-lobster-sushi",
         "recipe/lobster-platter"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 1,
@@ -19214,7 +18681,6 @@
         "recipe/atlantic-bonito-curry",
         "recipe/atlantic-bonito-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 4,
@@ -19251,7 +18717,6 @@
         "recipe/blue-lobster-sushi",
         "recipe/truffle-blue-lobster-tail-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 1,
@@ -19288,7 +18753,6 @@
         "recipe/california-spiny-lobster-sushi",
         "recipe/ebirah-chasing-sashimi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1.5,
@@ -19326,7 +18790,6 @@
         "recipe/copper-shark-sushi",
         "recipe/shark-karaage"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4,
@@ -19364,7 +18827,6 @@
         "recipe/crystal-lobster-roll",
         "recipe/crystal-lobster-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 1.5,
@@ -19400,7 +18862,6 @@
       "relatedRecipes": [
         "recipe/dollocaris-ingens-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 1.5,
@@ -19437,7 +18898,6 @@
         "recipe/eastern-rock-lobster-sushi",
         "recipe/steamed-eastern-rock-lobster-and-egg"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 2.5,
@@ -19474,7 +18934,6 @@
         "recipe/european-lobster-sushi",
         "recipe/godzilla-vs-ebirah-curry"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1,
@@ -19510,7 +18969,6 @@
       "relatedRecipes": [
         "recipe/fan-lobster-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.2,
@@ -19548,7 +19006,6 @@
         "recipe/green-humphead-parrotfish-sushi",
         "recipe/humphead-parrotfish-curry"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 1.8,
@@ -19588,7 +19045,6 @@
         "recipe/deep-fried-sea-urchin",
         "recipe/green-sea-urchin-and-cucumber-salad"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1,
@@ -19626,7 +19082,6 @@
         "recipe/horsehair-crab-sushi",
         "recipe/soy-sauce-marinated-crab"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 1.5,
@@ -19663,7 +19118,6 @@
         "recipe/norway-lobster-sushi",
         "recipe/stir-fried-habanero-lobster"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.2,
@@ -19700,7 +19154,6 @@
         "recipe/snow-crab-sushi",
         "recipe/soy-sauce-marinated-crab"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 2,
@@ -19737,7 +19190,6 @@
         "recipe/tokummia-katalepsis-sushi",
         "recipe/lobster-platter"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 2,
@@ -19774,7 +19226,6 @@
         "recipe/tropical-rock-lobster-sushi",
         "recipe/lobster-platter"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 1.2,
@@ -19811,7 +19262,6 @@
         "recipe/arctic-cod-sushi",
         "recipe/arctic-cod-risotto"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 5,
@@ -19849,7 +19299,6 @@
         "recipe/deep-fish-tempura",
         "recipe/ebirah-chasing-sashimi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 3,
@@ -19886,7 +19335,6 @@
         "recipe/blobfish-sushi",
         "recipe/blobfish-spring-roll"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 7.5,
@@ -19922,7 +19370,6 @@
       "relatedRecipes": [
         "recipe/bluehead-tilefish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.2,
@@ -19959,7 +19406,6 @@
         "recipe/dumbo-octopus-sushi",
         "recipe/dumbo-takoyaki"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 4,
@@ -19996,7 +19442,6 @@
         "recipe/gelatinous-snailfish-sushi",
         "recipe/fried-tomato-and-snailfish"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 2,
@@ -20038,7 +19483,6 @@
           "text": "Greenland Shark Spine"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 20,
@@ -20075,7 +19519,6 @@
         "recipe/grey-triggerfish-sushi",
         "recipe/rainbow-cap-triggerfish-fishcake"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 3.5,
@@ -20112,7 +19555,6 @@
         "recipe/pelican-eel-sushi",
         "recipe/pelican-eel-jelly"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8,
@@ -20148,7 +19590,6 @@
       "relatedRecipes": [
         "recipe/polar-eelpout-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 3,
@@ -20187,7 +19628,6 @@
         "recipe/truffle-sailfish-tartare",
         "recipe/deep-fried-sea-urchin"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1,
@@ -20229,7 +19669,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 0.5,
@@ -20266,7 +19705,6 @@
       "relatedRecipes": [
         "recipe/threetooth-puffer-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -20302,7 +19740,6 @@
       "relatedRecipes": [
         "recipe/yellow-tang-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.4,
@@ -20340,16 +19777,6 @@
         "recipe/clown-fish",
         "recipe/roasted-tropical-fish-and-garlic"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "fish"
-            }
-          ]
-        }
-      ],
       "stats": {
         "rank": 1,
         "weight": 0.2,
@@ -20372,6 +19799,9 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
+      },
+      "harvest-source": {
+        "text": "fish"
       }
     },
     {
@@ -20395,7 +19825,6 @@
           "text": "Cuttlefish Skin Fragment"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 4,
@@ -20438,7 +19867,6 @@
           "text": "Devil Scorpion Fish Thorn"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 3,
@@ -20480,7 +19908,6 @@
         "recipe/shark-karaage"
       ],
       "drops": [],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 2.5,
@@ -20519,7 +19946,6 @@
         "recipe/blue-tang-sushi",
         "recipe/roasted-tropical-fish-and-garlic"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.5,
@@ -20578,7 +20004,6 @@
           "text": "Bluefin Tuna Ootoro"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 8,
@@ -20613,7 +20038,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": 20,
@@ -20652,7 +20076,6 @@
       "relatedRecipes": [
         "recipe/emperor-angelfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.4,
@@ -20690,7 +20113,6 @@
       "relatedRecipes": [
         "recipe/flame-angelfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.2,
@@ -20729,7 +20151,6 @@
         "recipe/batfish-ricebowl",
         "recipe/longfin-batfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -20767,7 +20188,6 @@
       "relatedRecipes": [
         "recipe/lumpfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 5,
@@ -20806,7 +20226,6 @@
         "recipe/pyramid-butterflyfish-sushi",
         "recipe/roasted-tropical-fish-and-garlic"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.4,
@@ -20852,7 +20271,6 @@
           "text": "Sailfish Bill"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 9,
@@ -20891,7 +20309,6 @@
         "recipe/smallspotted-dart-kajime-soup",
         "recipe/smallspotted-dart-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -20949,7 +20366,6 @@
           "text": "Yellowfin Tuna Ootoro"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 6,
@@ -21001,16 +20417,6 @@
           "entityId": "ingredient/whitetip-reefshark-meat"
         }
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "fish"
-            }
-          ]
-        }
-      ],
       "stats": {
         "rank": 4,
         "weight": 2.5,
@@ -21026,6 +20432,9 @@
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
+      },
+      "harvest-source": {
+        "text": "fish"
       }
     },
     {
@@ -21046,7 +20455,6 @@
           "text": "Barrel Jellyfish Tentacle"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1,
@@ -21083,7 +20491,6 @@
           "text": "Moray Eel Jawbone"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 9,
@@ -21115,7 +20522,6 @@
         "recipe/pacific-fanfish-sushi",
         "recipe/rainbow-cap-pacific-fanfish-ochazuke"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -21157,7 +20563,6 @@
           "text": "Red Lionfish Thorn"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.5,
@@ -21188,7 +20593,6 @@
         "recipe/moonlight-bladderwrack-roll",
         "recipe/blackfin-barracuda-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5.5,
@@ -21223,7 +20627,6 @@
           "text": "Bloodskin Shark Tendon"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 11.5,
@@ -21261,7 +20664,6 @@
         "recipe/fried-egg-jellyfish-sushi",
         "recipe/seasoned-jellyfish"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1,
@@ -21297,7 +20699,6 @@
           "text": "Gazing Shark Eyeball"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 11,
@@ -21341,7 +20742,6 @@
           "text": "Megamouth Shark Jawbone"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 11.5,
@@ -21378,7 +20778,6 @@
           "text": "Porbeagle Shark Tooth"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 13.5,
@@ -21415,7 +20814,6 @@
           "text": "Tiger Shark Tooth"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 15,
@@ -21446,7 +20844,6 @@
         "recipe/titan-triggerfish-sushi",
         "recipe/tropical-fish-sushi-set"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 3.8,
@@ -21481,7 +20878,6 @@
           "text": "Translucent Sturgeon Backbone"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8,
@@ -21518,7 +20914,6 @@
       "relatedRecipes": [
         "recipe/aurora-jellyfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -21556,7 +20951,6 @@
       "relatedRecipes": [
         "recipe/barbed-eel-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 6,
@@ -21593,7 +20987,6 @@
       "relatedRecipes": [
         "recipe/bony-wreckfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 8,
@@ -21631,7 +21024,6 @@
       "relatedRecipes": [
         "recipe/bursting-anglerfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 6,
@@ -21668,7 +21060,6 @@
       "relatedRecipes": [
         "recipe/cerebral-crab-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 2,
@@ -21705,7 +21096,6 @@
       "relatedRecipes": [
         "recipe/concertina-barracuda-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 6.5,
@@ -21742,7 +21132,6 @@
       "relatedRecipes": [
         "recipe/cortex-decorator-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 2.5,
@@ -21779,7 +21168,6 @@
       "relatedRecipes": [
         "recipe/entangled-crab-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 2.5,
@@ -21816,7 +21204,6 @@
       "relatedRecipes": [
         "recipe/enthralled-stonefish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 8,
@@ -21853,7 +21240,6 @@
       "relatedRecipes": [
         "recipe/fanged-cod-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3.5,
@@ -21890,7 +21276,6 @@
       "relatedRecipes": [
         "recipe/gelatinous-stonefish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 7.5,
@@ -21927,7 +21312,6 @@
       "relatedRecipes": [
         "recipe/gnashing-perch-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4.5,
@@ -21965,7 +21349,6 @@
         "recipe/great-barracuda-canape",
         "recipe/great-barracuda-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 7,
@@ -21995,7 +21378,6 @@
       "relatedRecipes": [
         "recipe/grotesque-mackerel-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3,
@@ -22032,7 +21414,6 @@
       "relatedRecipes": [
         "recipe/host-eel-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 5.5,
@@ -22069,7 +21450,6 @@
       "relatedRecipes": [
         "recipe/imperious-lobster-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 3,
@@ -22109,7 +21489,6 @@
         "recipe/longnose-sawshark-sushi"
       ],
       "drops": [],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 6.5,
@@ -22139,7 +21518,6 @@
       "relatedRecipes": [
         "recipe/malignant-pincer-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 2.5,
@@ -22177,7 +21555,6 @@
       "relatedRecipes": [
         "recipe/many-eyed-mackerel-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 2.5,
@@ -22215,7 +21592,6 @@
       "relatedRecipes": [
         "recipe/parhelion-jellyfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -22252,7 +21628,6 @@
       "relatedRecipes": [
         "recipe/perished-loosejaw-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3,
@@ -22289,7 +21664,6 @@
       "relatedRecipes": [
         "recipe/radiant-squid-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 4.5,
@@ -22326,7 +21700,6 @@
       "relatedRecipes": [
         "recipe/sallow-sailfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 9.5,
@@ -22363,7 +21736,6 @@
       "relatedRecipes": [
         "recipe/savage-barracuda-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 7,
@@ -22400,7 +21772,6 @@
       "relatedRecipes": [
         "recipe/scouring-bass-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3.5,
@@ -22437,7 +21808,6 @@
       "relatedRecipes": [
         "recipe/seizing-snailfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -22474,7 +21844,6 @@
       "relatedRecipes": [
         "recipe/shattered-wreckfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 6.5,
@@ -22511,7 +21880,6 @@
       "relatedRecipes": [
         "recipe/splintered-crab-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 3.5,
@@ -22549,7 +21917,6 @@
       "relatedRecipes": [
         "recipe/sprouting-eel-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 7,
@@ -22586,7 +21953,6 @@
       "relatedRecipes": [
         "recipe/three-headed-cod-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 6,
@@ -22623,7 +21989,6 @@
       "relatedRecipes": [
         "recipe/tusked-grouper-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -22660,7 +22025,6 @@
       "relatedRecipes": [
         "recipe/voltaic-grouper-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 6,
@@ -22697,7 +22061,6 @@
       "relatedRecipes": [
         "recipe/withered-ray-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 8.5,
@@ -22736,7 +22099,6 @@
         "recipe/ammonite-salad",
         "recipe/shell-mix-hot-pot"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 9.2,
@@ -22772,7 +22134,6 @@
       "relatedRecipes": [
         "recipe/archerfish"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 2.2,
@@ -22809,7 +22170,6 @@
         "recipe/armored-catfish",
         "recipe/catfish-mix-fried"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 2.9,
@@ -22845,7 +22205,6 @@
       "relatedRecipes": [
         "recipe/asian-arowana"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 7.2,
@@ -22883,7 +22242,6 @@
         "recipe/black-caiman-red-pineapple-stir-fried",
         "recipe/black-caiman-taco"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 22.4,
@@ -22920,7 +22278,6 @@
         "recipe/blue-discus",
         "recipe/tropical-fish-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -22957,7 +22314,6 @@
         "recipe/blue-gill",
         "recipe/blue-gill-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.6,
@@ -22993,7 +22349,6 @@
       "relatedRecipes": [
         "recipe/bluegray-mbuna"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.8,
@@ -23030,7 +22385,6 @@
         "recipe/brown-discus",
         "recipe/tropical-fish-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.7,
@@ -23067,7 +22421,6 @@
         "recipe/burgessomedusa",
         "recipe/burgessomedusa-pink-honeydew-jelly"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4.8,
@@ -23104,7 +22457,6 @@
         "recipe/chocolate-gourami",
         "recipe/gourami-fried"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.5,
@@ -23141,7 +22493,6 @@
         "recipe/clown-feather-back",
         "recipe/clown-featherback-taro-fried"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 8.8,
@@ -23177,7 +22528,6 @@
       "relatedRecipes": [
         "recipe/clown-loach"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 1.6,
@@ -23214,7 +22564,6 @@
         "recipe/ciurcopterus-boiled-stir-fried",
         "recipe/crab-trap-ciurcopterus"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 3.5,
@@ -23250,7 +22599,6 @@
       "relatedRecipes": [
         "recipe/crab-trap-common-yabby"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.8,
@@ -23287,7 +22635,6 @@
         "recipe/crab-trap-murray-crayfish",
         "recipe/crayfish-lemongrass-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3.3,
@@ -23324,7 +22671,6 @@
         "recipe/crab-trap-red-swamp-crayfish",
         "recipe/crayfish-sambal-stir-fried"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.9,
@@ -23360,7 +22706,6 @@
       "relatedRecipes": [
         "recipe/crab-trap-signal-crayfish"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.4,
@@ -23397,7 +22742,6 @@
         "recipe/crab-trap-smooth-marron",
         "recipe/crayfish-lemongrass-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 2.9,
@@ -23433,7 +22777,6 @@
       "relatedRecipes": [
         "recipe/crab-trap-tricolor-crayfish"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 1.6,
@@ -23470,7 +22813,6 @@
         "recipe/crab-trap-tumidocarcinus-giganteus",
         "recipe/tumidocarcinus-tamarind-stir-fried"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 2.3,
@@ -23507,7 +22849,6 @@
         "recipe/crab-trap-tuzoia",
         "recipe/tuzoia-soup"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 1.9,
@@ -23544,7 +22885,6 @@
         "recipe/eagle-shark",
         "recipe/eagle-shark-stew"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 15.8,
@@ -23580,7 +22920,6 @@
       "relatedRecipes": [
         "recipe/emperor-snakehead"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.2,
@@ -23616,7 +22955,6 @@
       "relatedRecipes": [
         "recipe/eomesodon"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.2,
@@ -23652,7 +22990,6 @@
       "relatedRecipes": [
         "recipe/exellia"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.6,
@@ -23689,7 +23026,6 @@
         "recipe/fire-eel",
         "recipe/giant-mottled-eel-sliced"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5.8,
@@ -23725,7 +23061,6 @@
       "relatedRecipes": [
         "recipe/foreyia"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.8,
@@ -23762,7 +23097,6 @@
         "recipe/giant-fresh-water-stingray",
         "recipe/giant-fresh-water-stingray-barbecued"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 19.8,
@@ -23798,7 +23132,6 @@
       "relatedRecipes": [
         "recipe/giant-gourami"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.5,
@@ -23836,7 +23169,6 @@
         "recipe/giant-snakehead-fin-soup",
         "recipe/giant-snakehead-soup"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 8.5,
@@ -23873,7 +23205,6 @@
         "recipe/goliath-tigerfish",
         "recipe/goliath-tigerfish-salad"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 12.7,
@@ -23910,7 +23241,6 @@
         "recipe/grass-carp",
         "recipe/grass-carp-bamboo-shoot-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 7.5,
@@ -23947,7 +23277,6 @@
         "recipe/great-sturgeon",
         "recipe/great-sturgeon-steak"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 21.5,
@@ -23983,7 +23312,6 @@
       "relatedRecipes": [
         "recipe/green-discus"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -24019,7 +23347,6 @@
       "relatedRecipes": [
         "recipe/gyrodus"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.2,
@@ -24055,7 +23382,6 @@
       "relatedRecipes": [
         "recipe/heckel-discus"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.9,
@@ -24091,7 +23417,6 @@
       "relatedRecipes": [
         "recipe/hensodon"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 2.8,
@@ -24127,7 +23452,6 @@
       "relatedRecipes": [
         "recipe/horse-face-loach"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.9,
@@ -24165,7 +23489,6 @@
         "recipe/indonesian-tiger-perch-sate",
         "recipe/perch-mix-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3.9,
@@ -24202,7 +23525,6 @@
         "recipe/king-salmon",
         "recipe/salmon-watermelon-salad"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 8.1,
@@ -24239,7 +23561,6 @@
         "recipe/gourami-fried",
         "recipe/kissing-gourami"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.2,
@@ -24276,7 +23597,6 @@
         "recipe/large-mouth-bass",
         "recipe/large-mouth-bass-boiled"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3.8,
@@ -24313,7 +23633,6 @@
         "recipe/lemon-yellow-lab",
         "recipe/lemon-yellow-lab-banana-fried"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.6,
@@ -24349,7 +23668,6 @@
       "relatedRecipes": [
         "recipe/malayan-leaffish"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.1,
@@ -24385,7 +23703,6 @@
       "relatedRecipes": [
         "recipe/malayan-mahseer"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3.5,
@@ -24421,7 +23738,6 @@
       "relatedRecipes": [
         "recipe/malayan-pike-head"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 1.1,
@@ -24457,7 +23773,6 @@
       "relatedRecipes": [
         "recipe/moonlight-gourami"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.7,
@@ -24494,7 +23809,6 @@
         "recipe/mud-carp",
         "recipe/mudcarp-banana-leaf-grilled"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3.6,
@@ -24532,7 +23846,6 @@
         "recipe/narwhal-sushi",
         "recipe/narwhal-miso-soup"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 9.5,
@@ -24563,7 +23876,6 @@
         "recipe/nile-perch",
         "recipe/perch-mix-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 11.2,
@@ -24600,7 +23912,6 @@
         "recipe/ophthalmosaurus",
         "recipe/ophthalmosaurus-grilled"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 21.7,
@@ -24637,7 +23948,6 @@
         "recipe/orthoceras",
         "recipe/squid-mix-stir-fried"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 9.4,
@@ -24673,7 +23983,6 @@
       "relatedRecipes": [
         "recipe/paradoxides"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 6.2,
@@ -24710,7 +24019,6 @@
         "recipe/parameteroraspis",
         "recipe/parameteroraspis-tom-yum"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 9.6,
@@ -24746,7 +24054,6 @@
       "relatedRecipes": [
         "recipe/peacock-bass"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 2.7,
@@ -24783,7 +24090,6 @@
         "recipe/gourami-fried",
         "recipe/pearl-gourami"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 0.7,
@@ -24821,7 +24127,6 @@
         "recipe/piraiba-catfish",
         "recipe/piraiba-catfish-tamarind-soup"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 14.6,
@@ -24858,7 +24163,6 @@
         "recipe/pirarucu",
         "recipe/pirarucu-banana-lasagna"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 15.8,
@@ -24895,7 +24199,6 @@
         "recipe/alligator-gar-durian-head-curry",
         "recipe/platinum-alligator-gar"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 12.3,
@@ -24932,7 +24235,6 @@
         "recipe/platyceramus",
         "recipe/shell-mix-hot-pot"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 5,
@@ -24968,7 +24270,6 @@
       "relatedRecipes": [
         "recipe/promissum"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 1.5,
@@ -25005,7 +24306,6 @@
         "recipe/piranha-head-soup",
         "recipe/red-bellied-piranha"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 2.6,
@@ -25042,7 +24342,6 @@
         "recipe/red-discus",
         "recipe/tropical-fish-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.8,
@@ -25078,7 +24377,6 @@
       "relatedRecipes": [
         "recipe/red-feather-starfish"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1.3,
@@ -25114,7 +24412,6 @@
       "relatedRecipes": [
         "recipe/redtail-catfish"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4,
@@ -25151,7 +24448,6 @@
         "recipe/sacabambaspis",
         "recipe/sacabambaspis-sate"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 2.6,
@@ -25187,7 +24483,6 @@
       "relatedRecipes": [
         "recipe/snakeskin-gourami"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1.3,
@@ -25224,7 +24519,6 @@
         "recipe/channa-striata",
         "recipe/striped-snakehead-fried"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 2.5,
@@ -25261,7 +24555,6 @@
         "recipe/stylonurus",
         "recipe/stylonurus-honeydew-salad"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 7.9,
@@ -25298,7 +24591,6 @@
         "recipe/tambaqui",
         "recipe/tambaqui-grilled"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3.3,
@@ -25334,7 +24626,6 @@
       "relatedRecipes": [
         "recipe/tapah"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 4.3,
@@ -25370,7 +24661,6 @@
       "relatedRecipes": [
         "recipe/three-spot-gourami"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.9,
@@ -25407,7 +24697,6 @@
         "recipe/tilapia",
         "recipe/tilapia-calamansi-steamed"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 3.5,
@@ -25444,7 +24733,6 @@
         "recipe/clarias",
         "recipe/walking-catfish-tom-yum"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 2.3,
@@ -25480,7 +24768,6 @@
       "relatedRecipes": [
         "recipe/young-anomalocaris-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 4,
@@ -25519,7 +24806,6 @@
           "text": "Hammerhead Shark Skull"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 13,
@@ -25550,7 +24836,6 @@
         "recipe/squid-mix-stir-fried",
         "recipe/tullimonstrum"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 3.8,
@@ -25591,7 +24876,6 @@
           "text": "Stargazer Tooth"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 5,
@@ -25623,7 +24907,6 @@
         "recipe/marlin-and-soybean-paste-roast"
       ],
       "drops": [],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 7.5,
@@ -25655,16 +24938,6 @@
       "relatedRecipes": [
         "recipe/seadragon-onigiri"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "Ruby Deposit"
-            }
-          ]
-        }
-      ],
       "stats": {
         "rank": 9,
         "weight": 0.5,
@@ -25680,6 +24953,9 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
+      },
+      "harvest-source": {
+        "text": "Ruby Deposit"
       }
     },
     {
@@ -25696,7 +24972,6 @@
         "recipe/boiled-asian-sheepshead-wrasse-and-truffle"
       ],
       "drops": [],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 1.8,
@@ -25734,7 +25009,6 @@
           "text": "Starry Puffer Poison Sack"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 3,
@@ -25765,7 +25039,6 @@
         "recipe/starry-skate-sushi",
         "recipe/dried-stingray"
       ],
-      "facts": [],
       "stats": {
         "rank": 9,
         "weight": 5.5,
@@ -25798,7 +25071,6 @@
         "recipe/dried-stingray"
       ],
       "drops": [],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 3,
@@ -25835,7 +25107,6 @@
           "text": "Spotted Jellyfish Tentacle"
         }
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 1,
@@ -25878,7 +25149,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.5,
@@ -25908,7 +25178,6 @@
       "relatedRecipes": [
         "recipe/cardinalfish-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.2,
@@ -25939,7 +25208,6 @@
         "recipe/clown-frogfish-sushi",
         "recipe/crimson-fish-roll"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.3,
@@ -25974,7 +25242,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 0.5,
@@ -26009,7 +25276,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.5,
@@ -26044,7 +25310,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.5,
@@ -26079,7 +25344,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 3,
         "weight": 0.5,
@@ -26114,7 +25378,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.5,
@@ -26144,7 +25407,6 @@
       "relatedRecipes": [
         "recipe/rainbow-cap-triggerfish-fishcake"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.7,
@@ -26176,7 +25438,6 @@
       "relatedRecipes": [
         "recipe/seadragon-onigiri"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 0.5,
@@ -26211,7 +25472,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 0.5,
@@ -26246,7 +25506,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 4,
         "weight": 0.5,
@@ -26277,7 +25536,6 @@
         "recipe/batfish-ricebowl",
         "recipe/orbicular-batfish-fry"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.3,
@@ -26312,7 +25570,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.5,
@@ -26343,7 +25600,6 @@
         "recipe/rainbow-wrasse-sushi",
         "recipe/wrasse-curry"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.6,
@@ -26373,7 +25629,6 @@
       "relatedRecipes": [
         "recipe/red-banded-lobster-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.1,
@@ -26403,7 +25658,6 @@
       "relatedRecipes": [
         "recipe/salema-porgy-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.4,
@@ -26433,7 +25687,6 @@
       "relatedRecipes": [
         "recipe/sea-goldie-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.3,
@@ -26466,7 +25719,6 @@
         "recipe/rice-with-great-spider-crab-meat",
         "recipe/spider-crab-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 7.5,
@@ -26501,7 +25753,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 2,
         "weight": 0.5,
@@ -26532,7 +25783,6 @@
         "recipe/striped-red-mullet-sushi",
         "recipe/striped-red-mullet-tangle-roll"
       ],
-      "facts": [],
       "stats": {
         "rank": 1,
         "weight": 0.7,
@@ -26567,7 +25817,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 5,
         "weight": 0.5,
@@ -26599,7 +25848,6 @@
       "relatedRecipes": [
         "recipe/seadragon-onigiri"
       ],
-      "facts": [],
       "stats": {
         "rank": 8,
         "weight": 0.5,
@@ -26634,7 +25882,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 0.5,
@@ -26669,7 +25916,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "rank": 7,
         "weight": 0.5,
@@ -26699,7 +25945,6 @@
       "relatedRecipes": [
         "recipe/blood-belly-comb-jelly-sushi"
       ],
-      "facts": [],
       "stats": {
         "rank": 6,
         "weight": 7,
@@ -26727,7 +25972,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26756,7 +26000,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26785,7 +26028,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26814,7 +26056,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26843,7 +26084,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26872,7 +26112,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26901,7 +26140,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26930,7 +26168,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26959,7 +26196,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -26988,7 +26224,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -27017,7 +26252,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": 99,
         "weight": null,
@@ -27050,7 +26284,6 @@
         "recipe/electric-eel-pineapple-stir-fried",
         "recipe/giant-mottled-eel-sliced"
       ],
-      "facts": [],
       "stats": {
         "rank": null,
         "weight": 12.5,
@@ -27062,32 +26295,6 @@
       "region": [],
       "facets": {
         "time": null
-      }
-    },
-    {
-      "id": "fish/poison-ghost-squid",
-      "type": "fish",
-      "en": "Poison Ghost Squid",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/poison-ghost-squid/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [],
-      "facts": [],
-      "stats": {
-        "rank": 99,
-        "weight": null,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": null
-      },
-      "region": [
-        "region/blue-hole-depths"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab"
       }
     },
     {
@@ -27103,7 +26310,6 @@
         "recipe/piranha-head-soup",
         "recipe/redeye-piranha"
       ],
-      "facts": [],
       "stats": {
         "rank": null,
         "weight": 3.4,
@@ -27115,93 +26321,6 @@
       "region": [],
       "facets": {
         "time": null
-      }
-    },
-    {
-      "id": "fish/warrior-parrotfish",
-      "type": "fish",
-      "en": "Warrior Parrotfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/warrior-parrotfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [],
-      "facts": [
-        {
-          "labelId": "field/active-period",
-          "values": [
-            {
-              "text": "day"
-            }
-          ]
-        }
-      ],
-      "stats": {
-        "rank": 99,
-        "weight": 15,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": null
-      },
-      "region": [
-        "region/blue-hole-shallows"
-      ],
-      "facets": {
-        "time": "time/6fa7e15a01ab"
-      }
-    },
-    {
-      "id": "fish/humpback-whale",
-      "type": "fish",
-      "en": "Humpback Whale",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/humpback-whale/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [],
-      "facts": [
-        {
-          "labelId": "field/affiliation",
-          "values": [
-            {
-              "nameId": "fish/baby-humpback-whale",
-              "entityId": "fish/baby-humpback-whale"
-            }
-          ]
-        },
-        {
-          "labelId": "field/species",
-          "values": [
-            {
-              "nameId": "fish/humpback-whale",
-              "entityId": "fish/humpback-whale"
-            }
-          ]
-        },
-        {
-          "labelId": "field/appearance",
-          "values": [
-            {
-              "text": "Chapter 2"
-            }
-          ]
-        }
-      ],
-      "stats": {
-        "rank": null,
-        "weight": null,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": null
-      },
-      "region": [],
-      "facets": {
-        "time": null,
-        "gender": "text/0ab4610b9257"
       }
     },
     {
@@ -27217,7 +26336,6 @@
       "relatedRecipes": [
         "recipe/sword-fish"
       ],
-      "facts": [],
       "stats": {
         "rank": null,
         "weight": 7.5,
@@ -27241,7 +26359,6 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "rank": null,
         "weight": null,
@@ -27276,7 +26393,6 @@
         "recipe/plotosid-pie",
         "recipe/rice-with-great-spider-crab-meat"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 20,
         "weight": 0.1,
@@ -27307,7 +26423,6 @@
       "acquisition-method": {
         "text": "冰川区"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1,
@@ -27341,7 +26456,6 @@
         "recipe/vege-fried",
         "recipe/vege-tsukemono"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 25,
         "weight": 0.1,
@@ -27374,7 +26488,6 @@
         "recipe/haddock-acqua-pazza",
         "recipe/seahorse-salad"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 17,
         "weight": 0.1,
@@ -27409,7 +26522,6 @@
         "recipe/vege-fried",
         "recipe/vege-tsukemono"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 20,
         "weight": 0.1,
@@ -27445,7 +26557,6 @@
         "recipe/pufferfish-dumpling-soup",
         "recipe/sweet-and-sour-stargazer"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 15,
         "weight": 0.1,
@@ -27478,7 +26589,6 @@
         "recipe/vege-tsukemono",
         "recipe/special-mantis-shrimp-shell-meat-boiled"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 21,
         "weight": 0.1,
@@ -27511,7 +26621,6 @@
         "recipe/nasu-dengaku",
         "recipe/roasted-tropical-fish-and-garlic"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 19,
         "weight": 0.1,
@@ -27547,7 +26656,6 @@
       "acquisition-method": {
         "text": "130"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 7,
         "weight": 0.1,
@@ -27578,7 +26686,6 @@
         "recipe/trevally-nanbanzuke",
         "recipe/vege-fried"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 20,
         "weight": 0.1,
@@ -27621,7 +26728,6 @@
         "recipe/rainbow-cap-pacific-fanfish-ochazuke",
         "recipe/tropical-fish-sushi-set"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 15,
         "weight": 0.1,
@@ -27658,7 +26764,6 @@
       "acquisition-method": {
         "text": "stalactite"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -27689,7 +26794,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -27727,7 +26831,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.1,
@@ -27752,7 +26855,6 @@
         "recipe/spear-squid-soba-futomaki",
         "recipe/warm-atlantic-mackerel-soba"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 18,
         "weight": 0.1,
@@ -27783,7 +26885,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -27810,7 +26911,6 @@
       "acquisition-method": {
         "text": "glacial seaweed"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 65,
         "weight": 0.1,
@@ -27844,7 +26944,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 7,
         "weight": 0.1,
@@ -27880,7 +26979,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1,
@@ -27932,7 +27030,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -27960,7 +27057,6 @@
       "acquisition-method": {
         "text": "jango mushroomer"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 147,
         "weight": 0.1,
@@ -28000,7 +27096,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1,
@@ -28042,7 +27137,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -28072,7 +27166,6 @@
       "acquisition-method": {
         "text": "jango mushroomer"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 130,
         "weight": 0.1,
@@ -28101,7 +27194,6 @@
       "acquisition-method": {
         "text": "陶罐／采集点"
       },
-      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.1,
@@ -28132,16 +27224,6 @@
         "recipe/special-mantis-shrimp-shell-meat-boiled",
         "recipe/special-wolffish-tail-meat-steamed"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "gumo"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 3,
         "weight": 0.1,
@@ -28150,7 +27232,10 @@
       "region": [
         "region/blue-hole-shallows"
       ],
-      "facets": {}
+      "facets": {},
+      "harvest-source": {
+        "text": "gumo"
+      }
     },
     {
       "id": "ingredient/grade-a-egg",
@@ -28170,16 +27255,6 @@
         "recipe/latok-omelet",
         "recipe/seaweed-rolled-omelet"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "otto"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 90,
         "weight": 0.1,
@@ -28188,7 +27263,10 @@
         "buyGoldJango": 382
       },
       "facets": {},
-      "region": []
+      "region": [],
+      "harvest-source": {
+        "text": "otto"
+      }
     },
     {
       "id": "ingredient/kelp",
@@ -28211,16 +27289,6 @@
         "recipe/boiled-asian-sheepshead-wrasse-and-truffle",
         "recipe/rainbow-cap-pacific-fanfish-ochazuke"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "gumo"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 6,
         "weight": 0.1,
@@ -28229,7 +27297,10 @@
       "region": [
         "region/blue-hole-medium-depth"
       ],
-      "facets": {}
+      "facets": {},
+      "harvest-source": {
+        "text": "gumo"
+      }
     },
     {
       "id": "ingredient/klauss-fin",
@@ -28243,16 +27314,6 @@
       "relatedRecipes": [
         "recipe/white-shark-omelet"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "Great White Shark Klaus"
-            }
-          ]
-        }
-      ],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -28262,6 +27323,9 @@
       ],
       "facets": {
         "time": "text/b77ea2b347b8"
+      },
+      "harvest-source": {
+        "text": "Great White Shark Klaus"
       }
     },
     {
@@ -28284,16 +27348,6 @@
         "recipe/warm-atlantic-mackerel-soba",
         "recipe/rainbow-cap-triggerfish-fishcake"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "gumo"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 5,
         "weight": 0.1,
@@ -28302,7 +27356,10 @@
       "facets": {},
       "region": [
         "region/blue-hole-shallows"
-      ]
+      ],
+      "harvest-source": {
+        "text": "gumo"
+      }
     },
     {
       "id": "ingredient/southern-bull-kelp",
@@ -28319,16 +27376,6 @@
         "recipe/boiled-sailfish-and-seaweed",
         "recipe/steamed-kronosaurus-tongue"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "gumo"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1,
@@ -28337,7 +27384,10 @@
       "facets": {},
       "region": [
         "region/glacial-area"
-      ]
+      ],
+      "harvest-source": {
+        "text": "gumo"
+      }
     },
     {
       "id": "ingredient/wheat",
@@ -28363,16 +27413,6 @@
         "recipe/smoked-atlantic-mackerel-scramble",
         "recipe/sweet-and-sour-stargazer"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "otto"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 19,
         "weight": 0.1,
@@ -28381,7 +27421,10 @@
         "buyGoldJango": 161
       },
       "facets": {},
-      "region": []
+      "region": [],
+      "harvest-source": {
+        "text": "otto"
+      }
     },
     {
       "id": "ingredient/whitetip-reefshark-head",
@@ -28398,17 +27441,6 @@
       "relatedRecipes": [
         "recipe/whole-roasted-shark-head"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "nameId": "fish/whitetip-reefshark",
-              "entityId": "fish/whitetip-reefshark"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 40,
         "weight": 2.5,
@@ -28417,7 +27449,11 @@
       "region": [
         "region/blue-hole-shallows"
       ],
-      "facets": {}
+      "facets": {},
+      "harvest-source": {
+        "nameId": "fish/whitetip-reefshark",
+        "entityId": "fish/whitetip-reefshark"
+      }
     },
     {
       "id": "ingredient/whitetip-reefshark-meat",
@@ -28433,17 +27469,6 @@
       "relatedRecipes": [
         "recipe/whitetip-reefshark-sushi"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "nameId": "fish/whitetip-reefshark",
-              "entityId": "fish/whitetip-reefshark"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 8,
         "weight": 2.5,
@@ -28452,7 +27477,11 @@
       "region": [
         "region/blue-hole-shallows"
       ],
-      "facets": {}
+      "facets": {},
+      "harvest-source": {
+        "nameId": "fish/whitetip-reefshark",
+        "entityId": "fish/whitetip-reefshark"
+      }
     },
     {
       "id": "ingredient/bladderwrack",
@@ -28470,7 +27499,6 @@
         "recipe/moonlight-bladderwrack-roll",
         "recipe/pufferfish-dumpling-soup"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 10,
         "weight": 0.1
@@ -28494,16 +27522,6 @@
         "recipe/green-sea-urchin-and-cucumber-salad",
         "recipe/narwhal-miso-soup"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "gumo"
-            }
-          ]
-        }
-      ],
       "stats": {
         "weight": 0.1,
         "rank": 4,
@@ -28512,7 +27530,10 @@
       "facets": {},
       "region": [
         "region/hydrothermal-vents"
-      ]
+      ],
+      "harvest-source": {
+        "text": "gumo"
+      }
     },
     {
       "id": "ingredient/chili-pepper",
@@ -28524,7 +27545,6 @@
       "inferred": false,
       "relatedFish": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "sellPrice": 16,
         "weight": 0.1
@@ -28544,7 +27564,6 @@
       "relatedRecipes": [
         "recipe/clione-queen-soup"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -28566,7 +27585,6 @@
       "inferred": false,
       "relatedFish": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "weight": 0.1,
         "rank": 1,
@@ -28589,7 +27607,6 @@
       "relatedRecipes": [
         "recipe/water-cashewnut-duck-grilled"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 2,
         "weight": 1
@@ -28609,7 +27626,6 @@
       "relatedRecipes": [
         "recipe/hindleg-mix-fried"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 1
@@ -28629,7 +27645,6 @@
       "relatedRecipes": [
         "recipe/goblin-shark-belly-roast"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -28656,16 +27671,6 @@
         "recipe/fried-habanero-fangtooth",
         "recipe/grilled-eel-with-habanero"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "otto"
-            }
-          ]
-        }
-      ],
       "stats": {
         "weight": 0.1,
         "rank": 4,
@@ -28673,7 +27678,10 @@
         "buyGoldJango": 153
       },
       "facets": {},
-      "region": []
+      "region": [],
+      "harvest-source": {
+        "text": "otto"
+      }
     },
     {
       "id": "ingredient/helicoprion-tail",
@@ -28687,7 +27695,6 @@
       "relatedRecipes": [
         "recipe/roasted-helicoprion-tail"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -28709,7 +27716,6 @@
       "inferred": false,
       "relatedFish": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "weight": 0.1,
         "rank": 2,
@@ -28732,7 +27738,6 @@
       "relatedRecipes": [
         "recipe/steamed-kronosaurus-tongue"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -28759,7 +27764,6 @@
         "recipe/electric-eel-pineapple-stir-fried",
         "recipe/water-cashewnut-duck-grilled"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 1.2
@@ -28779,7 +27783,6 @@
       "relatedRecipes": [
         "recipe/hindleg-mix-fried"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 7,
         "weight": 1
@@ -28809,7 +27812,6 @@
         "recipe/tumidocarcinus-tamarind-stir-fried",
         "recipe/walking-catfish-tom-yum"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 0.3
@@ -28836,7 +27838,6 @@
         "recipe/stylonurus-honeydew-salad",
         "recipe/tuzoia-soup"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.3
@@ -28866,7 +27867,6 @@
         "recipe/hindleg-mix-fried",
         "recipe/salmon-watermelon-salad"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 4,
         "weight": 0.3
@@ -28897,7 +27897,6 @@
         "recipe/tangsuyuk-fried",
         "recipe/tropical-fish-steamed"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 0.5
@@ -28931,7 +27930,6 @@
         "recipe/shell-mix-hot-pot",
         "recipe/tuzoia-soup"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 2,
         "weight": 0.6
@@ -28964,7 +27962,6 @@
         "recipe/walking-catfish-tom-yum",
         "recipe/water-cashewnut-duck-grilled"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 0.3
@@ -28993,7 +27990,6 @@
         "recipe/pirarucu-banana-lasagna",
         "recipe/squid-mix-stir-fried"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.5
@@ -29023,7 +28019,6 @@
         "recipe/sacabambaspis-sate",
         "recipe/tropical-fruit-salad"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 4,
         "weight": 0.8
@@ -29050,7 +28045,6 @@
         "recipe/stylonurus-honeydew-salad",
         "recipe/water-cashewnut-duck-grilled"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.6
@@ -29078,7 +28072,6 @@
         "recipe/tangsuyuk-fried",
         "recipe/tumidocarcinus-tamarind-stir-fried"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 5,
         "weight": 0.4
@@ -29098,7 +28091,6 @@
       "relatedRecipes": [
         "recipe/wiwaxia"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 13,
         "weight": 2
@@ -29118,7 +28110,6 @@
       "relatedRecipes": [
         "recipe/lusca-neck-tadaki"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -29142,7 +28133,6 @@
       "relatedRecipes": [
         "recipe/blanched-lusca-tentacle"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -29166,7 +28156,6 @@
       "relatedRecipes": [
         "recipe/boiled-mantis-shrimp-with-soy-paste"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -29188,7 +28177,6 @@
       "inferred": false,
       "relatedFish": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {
         "sellPrice": 47,
         "weight": 13
@@ -29215,7 +28203,6 @@
       "facets": {
         "time": "text/6fa7e15a01ab"
       },
-      "facts": [],
       "region": []
     },
     {
@@ -29230,7 +28217,6 @@
       "relatedRecipes": [
         "recipe/bird-mix-seasoned"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 3,
         "weight": 1
@@ -29250,7 +28236,6 @@
       "relatedRecipes": [
         "recipe/bird-mix-seasoned"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 2,
         "weight": 1
@@ -29270,7 +28255,6 @@
       "relatedRecipes": [
         "recipe/tangsuyuk-fried"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 2,
         "weight": 1
@@ -29298,7 +28282,6 @@
         "recipe/rice-with-purple-sea-urchin-sushi",
         "recipe/special-lusca-neck-meat-tataki"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 8,
         "weight": 0.1
@@ -29318,7 +28301,6 @@
       "relatedRecipes": [
         "recipe/stir-fried-hermit-crab-and-seaweed"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -29342,7 +28324,6 @@
       "relatedRecipes": [
         "recipe/steamed-wolf-eel"
       ],
-      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
@@ -29365,7 +28346,6 @@
       "acquisition-method": {
         "text": "与夜枝遗体互动"
       },
-      "facts": [],
       "stats": {},
       "facets": {
         "prerequisites": "text/8d172a80f749",
@@ -29389,7 +28369,6 @@
         "recipe/bluefin-tuna-rice-bowl",
         "recipe/bluefin-tuna-akami-sushi"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 27,
         "weight": 8
@@ -29413,23 +28392,16 @@
       "relatedRecipes": [
         "recipe/seadragon-onigiri"
       ],
-      "facts": [
-        {
-          "labelId": "field/harvest-source",
-          "values": [
-            {
-              "text": "Weedy Seadragon, Leafy Seadragon, Ruby Seadragon"
-            }
-          ]
-        }
-      ],
       "stats": {
         "sellPrice": 10,
         "weight": 0.5,
         "rank": 8
       },
       "facets": {},
-      "region": []
+      "region": [],
+      "harvest-source": {
+        "text": "Weedy Seadragon, Leafy Seadragon, Ruby Seadragon"
+      }
     },
     {
       "id": "ingredient/bluefin-tuna-chutoro",
@@ -29447,7 +28419,6 @@
         "recipe/bluefin-tuna-chutoro-sushi",
         "recipe/chirashi-sushi"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 32,
         "weight": 8
@@ -29470,7 +28441,6 @@
         "recipe/hawaiian-poke",
         "recipe/yellowfin-tuna-akami-sushi"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 24,
         "weight": 6
@@ -29493,7 +28463,6 @@
         "recipe/hyalonema-tuna-sashimi",
         "recipe/bluefin-tuna-ootoro-sushi"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 45,
         "weight": 8
@@ -29516,7 +28485,6 @@
         "recipe/hyalonema-tuna-sashimi",
         "recipe/yellowfin-tuna-ootoro-sushi"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 42,
         "weight": 6
@@ -29539,7 +28507,6 @@
         "recipe/yellowfin-tuna-steak",
         "recipe/yellowfin-tuna-chutoro-sushi"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 30,
         "weight": 6
@@ -29557,7 +28524,6 @@
       "relatedRecipes": [
         "recipe/shortfin-mako-sushi"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29572,7 +28538,6 @@
       "relatedRecipes": [
         "recipe/smooth-hammerhead-sushi"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29607,7 +28572,6 @@
         "recipe/seahorse-skewers",
         "recipe/seahorse-udon"
       ],
-      "facts": [],
       "stats": {
         "sellPrice": 10,
         "weight": 0.5
@@ -29627,7 +28591,6 @@
       "relatedRecipes": [
         "recipe/alligator-gar-durian-head-curry"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29644,7 +28607,6 @@
         "recipe/boss-snapping-turtle-seafood-soup",
         "recipe/striped-snakehead-fried"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29662,7 +28624,6 @@
         "recipe/jungle-egg-omelet",
         "recipe/king-trumpet-mushroom-pepper-stir-fried"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29682,7 +28643,6 @@
         "recipe/sacabambaspis-sate",
         "recipe/striped-snakehead-fried"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29698,7 +28658,6 @@
         "recipe/bamboo-shoot-soup",
         "recipe/king-trumpet-mushroom-pepper-stir-fried"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29716,7 +28675,6 @@
         "recipe/lemon-yellow-lab-banana-fried",
         "recipe/pirarucu-banana-lasagna"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29732,7 +28690,6 @@
         "recipe/banana-dragon-fruit-pudding",
         "recipe/dragon-fruit-salad"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29748,7 +28705,6 @@
         "recipe/banana-halo-halo",
         "recipe/mangosteen-coconut-dessert"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29765,7 +28721,6 @@
         "recipe/electric-eel-pineapple-stir-fried",
         "recipe/tropical-fruit-salad"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29789,7 +28744,6 @@
         "recipe/tilapia-calamansi-steamed",
         "recipe/tuzoia-soup"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29808,7 +28762,6 @@
         "recipe/goliath-tigerfish-salad",
         "recipe/lemon-yellow-lab-banana-fried"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29825,7 +28778,6 @@
         "recipe/battle-dish-dimsum",
         "recipe/battle-dish-fish-and-chips"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29840,7 +28792,6 @@
       "relatedRecipes": [
         "recipe/black-caiman-grilled"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29856,7 +28807,6 @@
         "recipe/black-caiman-red-pineapple-stir-fried",
         "recipe/premium-fruit-salad"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29871,7 +28821,6 @@
       "relatedRecipes": [
         "recipe/boss-basilosaurus-hot-pot"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29886,7 +28835,6 @@
       "relatedRecipes": [
         "recipe/boss-fringehead-herb-roast"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29903,7 +28851,6 @@
         "recipe/ciurcopterus-boiled-stir-fried",
         "recipe/fiddlehead-fern-boiled"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29918,7 +28865,6 @@
       "relatedRecipes": [
         "recipe/boss-giant-mudskipper-cheek-steamed"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29933,7 +28879,6 @@
       "relatedRecipes": [
         "recipe/boss-snapping-turtle-seafood-soup"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29948,7 +28893,6 @@
       "relatedRecipes": [
         "recipe/boss-stethacanthus-shark-fin-soup"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29963,7 +28907,6 @@
       "relatedRecipes": [
         "recipe/boss-surong-foreleg-seasoned"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29978,7 +28921,6 @@
       "relatedRecipes": [
         "recipe/boss-xiphactinus-spicy-soup"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -29993,7 +28935,6 @@
       "relatedRecipes": [
         "recipe/burgessomedusa-pink-honeydew-jelly"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30009,7 +28950,6 @@
         "recipe/clown-featherback-taro-fried",
         "recipe/eagle-shark-stew"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30024,7 +28964,6 @@
       "relatedRecipes": [
         "recipe/giant-snakehead-fin-soup"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30042,7 +28981,6 @@
         "recipe/sacabambaspis-sate",
         "recipe/tangsuyuk-fried"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30057,7 +28995,6 @@
       "relatedRecipes": [
         "recipe/pink-durian-pudding"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30072,7 +29009,6 @@
       "relatedRecipes": [
         "recipe/premium-fruit-salad"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30087,7 +29023,6 @@
       "relatedRecipes": [
         "recipe/premium-fruit-salad"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30103,7 +29038,6 @@
         "recipe/salmon-watermelon-salad",
         "recipe/tropical-fruit-salad"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30118,7 +29052,6 @@
       "relatedRecipes": [
         "recipe/snake-mix-spicy-soup"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30133,7 +29066,6 @@
       "relatedRecipes": [
         "recipe/snake-mix-spicy-soup"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30146,7 +29078,6 @@
       "inferred": true,
       "relatedFish": [],
       "relatedRecipes": [],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30161,7 +29092,6 @@
       "relatedRecipes": [
         "recipe/special-goblin-shark-belly-meat-grilled"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30176,7 +29106,6 @@
       "relatedRecipes": [
         "recipe/special-lusca-leg-blanched"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30191,7 +29120,6 @@
       "relatedRecipes": [
         "recipe/special-lusca-neck-meat-tataki"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30206,7 +29134,6 @@
       "relatedRecipes": [
         "recipe/special-mantis-shrimp-shell-meat-boiled"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30221,7 +29148,6 @@
       "relatedRecipes": [
         "recipe/special-wolffish-tail-meat-steamed"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30236,7 +29162,6 @@
       "relatedRecipes": [
         "recipe/squid-mix-stir-fried"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30252,7 +29177,6 @@
         "recipe/stylonurus-honeydew-salad",
         "recipe/tropical-fruit-salad"
       ],
-      "facts": [],
       "stats": {},
       "facets": {},
       "region": []
@@ -30268,7 +29192,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 562,
         "wage": 20,
@@ -30306,7 +29229,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 410,
         "wage": 10,
@@ -30345,7 +29267,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 123,
         "wage": 13,
@@ -30384,7 +29305,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 2917,
         "wage": null,
@@ -30425,7 +29345,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 143,
         "wage": 12.5,
@@ -30464,7 +29383,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 297,
         "wage": 31,
@@ -30502,7 +29420,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 2327,
         "wage": 39,
@@ -30540,7 +29457,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 1187,
         "wage": null,
@@ -30580,7 +29496,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 215,
         "wage": null,
@@ -30620,7 +29535,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 4,
         "wage": 22.5,
@@ -30659,7 +29573,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 707,
         "wage": 20,
@@ -30698,7 +29611,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 302,
         "wage": 10,
@@ -30736,7 +29648,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 0,
         "wage": 7,
@@ -30774,7 +29685,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 125,
         "wage": 7,
@@ -30813,7 +29723,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 551,
         "wage": 14,
@@ -30851,7 +29760,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 258,
         "wage": 14,
@@ -30890,7 +29798,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 467,
         "wage": 10,
@@ -30930,7 +29837,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 1150,
         "wage": 36,
@@ -30968,7 +29874,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 991,
         "wage": 15,
@@ -31006,7 +29911,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 1307,
         "wage": 20,
@@ -31045,7 +29949,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 1464,
         "wage": 39,
@@ -31084,7 +29987,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 267,
         "wage": 14,
@@ -31124,7 +30026,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 1079,
         "wage": 36,
@@ -31163,7 +30064,6 @@
       ],
       "inferred": false,
       "occupation": "Sushi Staff",
-      "facts": [],
       "stats": {
         "hiringCost": 0,
         "wage": 0,
@@ -31200,7 +30100,6 @@
         "https://davethediver.net/zh-hans/staff/longbottom/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -31236,7 +30135,6 @@
         "https://davethediver.net/zh-hans/staff/martin-tweed/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -31272,7 +30170,6 @@
         "https://davethediver.net/zh-hans/staff/mita/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -31308,7 +30205,6 @@
         "https://davethediver.net/zh-hans/staff/om-nom/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -31344,7 +30240,6 @@
         "https://davethediver.net/zh-hans/staff/rover/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -31380,7 +30275,6 @@
         "https://davethediver.net/zh-hans/staff/sato/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -31416,7 +30310,6 @@
         "https://davethediver.net/zh-hans/staff/udo/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -31452,7 +30345,6 @@
         "https://davethediver.net/zh-hans/staff/yasuto/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,
@@ -31488,7 +30380,6 @@
         "https://davethediver.net/zh-hans/staff/dave-shirt/"
       ],
       "inferred": false,
-      "facts": [],
       "stats": {
         "hiringCost": null,
         "wage": null,

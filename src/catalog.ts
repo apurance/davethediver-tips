@@ -17,7 +17,6 @@ interface EntityBase {
   en: string;
   sourceUrls: string[];
   inferred: boolean;
-  facts: { labelId: string; values: FactValue[] }[];
   stats: Record<string, number | null>;
   /** Translation IDs for scalar text attributes; null means unprovided. */
   facets: Record<string, string | null>;
@@ -32,6 +31,7 @@ export interface RecipeEntity extends EntityBase {
 }
 export interface IngredientEntity extends EntityBase {
   type: "ingredient";
+  "harvest-source"?: FactValue;
   "acquisition-method"?: AcquisitionMethod;
   relatedRecipes: string[];
   relatedFish: string[];
@@ -39,6 +39,7 @@ export interface IngredientEntity extends EntityBase {
 }
 export interface FishEntity extends EntityBase {
   type: "fish";
+  "harvest-source"?: FactValue;
   drops?: { text?: string; entityId?: string }[];
   relatedRecipes: string[];
   relatedIngredients: string[];
