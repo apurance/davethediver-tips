@@ -7368,7 +7368,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/hammerhead-meat",
+          "ingredientId": "fish/smooth-hammerhead",
           "quantity": 1
         }
       ],
@@ -24755,7 +24755,7 @@
       ],
       "drops": [
         {
-          "entityId": "ingredient/hammerhead-meat"
+          "entityId": "fish/smooth-hammerhead"
         },
         {
           "text": "Hammerhead Shark Skull"
@@ -28419,20 +28419,6 @@
         "sellPrice": 30,
         "weight": 6
       },
-      "facets": {},
-      "region": []
-    },
-    {
-      "id": "ingredient/hammerhead-meat",
-      "type": "ingredient",
-      "en": "Hammerhead Meat",
-      "sourceUrls": [],
-      "inferred": true,
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/smooth-hammerhead-sushi"
-      ],
-      "stats": {},
       "facets": {},
       "region": []
     },

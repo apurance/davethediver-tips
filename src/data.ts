@@ -35,12 +35,6 @@ export const sections = [
     desc: "一份食材能做几盘，比菜名是否稀有更重要。",
   },
   {
-    id: "staff",
-    title: "员工与分店",
-    en: "THE RIGHT CREW",
-    desc: "技能覆盖优先，属性与等级决定方案能否稳定运转。",
-  },
-  {
     id: "ingredients",
     title: "食材与鱼类",
     en: "INGREDIENTS & MARINE LIFE",
@@ -53,16 +47,22 @@ export const sections = [
     desc: "用实际日产量安排菜单，把潜水留给供应链的瓶颈。",
   },
   {
-    id: "bosses",
-    title: "Boss 作战手册",
-    en: "BOSS ENCOUNTERS",
-    desc: "观察前摇、命中弱点，场景机关往往胜过纯伤害。",
+    id: "staff",
+    title: "员工与分店",
+    en: "THE RIGHT CREW",
+    desc: "技能覆盖优先，属性与等级决定方案能否稳定运转。",
   },
   {
     id: "events",
     title: "派对与支线",
     en: "SPECIAL ORDERS",
     desc: "按邮件倒排备货，给任务食材留安全库存。",
+  },
+  {
+    id: "bosses",
+    title: "Boss 作战手册",
+    en: "BOSS ENCOUNTERS",
+    desc: "观察前摇、命中弱点，场景机关往往胜过纯伤害。",
   },
   {
     id: "collection",
