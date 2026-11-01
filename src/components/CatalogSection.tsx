@@ -24,6 +24,9 @@ export function CatalogSection({ type }: { type: EntityType }) {
   const data = entries.filter(e => searchable(e).includes(term.trim().toLocaleLowerCase()) &&
     matchesRegion(e, region) &&
     (kind === "all" || (kind === "multiple" ? (e.stats.maxServings ?? 0) > 1 : kind === "simple" ? e.type === "recipe" && e.ingredients.length === 1 : kind === "taste" ? (e.stats.maxTaste ?? 0) >= 375 : e.facets.tier === kind)));
+  if (type === "fish") {
+    data.sort((a, b) => (a.stats.marincaCardNumber ?? Number.MAX_SAFE_INTEGER) - (b.stats.marincaCardNumber ?? Number.MAX_SAFE_INTEGER));
+  }
   const columns = [
     { title: `${entityTypes[type]} / 英文名`, key: "name", width: 245, render: (_: unknown, e: Entity) => <div><strong><EntityLink id={e.id} /></strong><small className="catalog-en">{e.en}</small></div> },
     ...(type === "recipe" ? [
