@@ -28,6 +28,7 @@ export function CatalogSection({ type }: { type: EntityType }) {
     data.sort((a, b) => (a.stats.marincaCardNumber ?? Number.MAX_SAFE_INTEGER) - (b.stats.marincaCardNumber ?? Number.MAX_SAFE_INTEGER));
   }
   const columns = [
+    ...(type === "fish" ? [{ title: "图鉴 ID", key: "marincaCardNumber", width: 100, render: (_: unknown, e: Entity) => e.stats.marincaCardNumber == null ? "未提供" : String(e.stats.marincaCardNumber) }] : []),
     { title: `${entityTypes[type]} / 英文名`, key: "name", width: 245, render: (_: unknown, e: Entity) => <div><strong><EntityLink id={e.id} /></strong><small className="catalog-en">{e.en}</small></div> },
     ...(type === "recipe" ? [
       { title: "基础售价", key: "basePrice", render: (_: unknown, e: Entity) => statText(e.stats.basePrice, " G"), sorter: (a: Entity, b: Entity) => (a.stats.basePrice ?? -1) - (b.stats.basePrice ?? -1) },
@@ -42,9 +43,8 @@ export function CatalogSection({ type }: { type: EntityType }) {
       } },
     ] : type === "fish" ? [
       { title: "区域 / 时段", key: "location", render: (_: unknown, e: Entity) => <>{e.type === "fish" && e.region?.length ? e.region.map(name).join("、") : "未提供"}<small className="catalog-en">{e.facets.time ? name(e.facets.time) : "未提供"}</small></> },
-      { title: "等级", key: "rank", render: (_: unknown, e: Entity) => statText(e.stats.rank), sorter: (a: Entity, b: Entity) => (a.stats.rank ?? -1) - (b.stats.rank ?? -1) },
-      { title: "重量", key: "weight", render: (_: unknown, e: Entity) => statText(e.stats.weight, " kg") },
-      { title: "鱼肉 · 1 / 2 / 3 星", key: "meat", render: (_: unknown, e: Entity) => [1, 2, 3].map(i => statText(e.stats[`meat${i}`])).join(" / ") },
+      { title: "等级", key: "rank", render: (_: unknown, e: Entity) => statText(e.stats.rank) },
+      { title: "体长", key: "length", render: (_: unknown, e: Entity) => statText(e.stats.length, " cm") },
       { title: "关联菜谱", key: "recipes", render: (_: unknown, e: Entity) => e.type === "fish" ? `${e.relatedRecipes.length} 道` : "" },
     ] : [
       { title: "来源鱼类", key: "fish", width: 260, render: (_: unknown, e: Entity) => e.type === "ingredient" && e.relatedFish.length ? <Space wrap>{e.relatedFish.map(id => <EntityLink key={id} id={id} />)}</Space> : "农场、派遣或其他来源" },

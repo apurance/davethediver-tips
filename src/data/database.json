@@ -7297,7 +7297,7 @@
       ],
       "ingredients": [
         {
-          "ingredientId": "ingredient/mako-meat",
+          "ingredientId": "fish/shortfin-mako",
           "quantity": 1
         }
       ],
@@ -11271,9 +11271,9 @@
       "facets": {}
     },
     {
-      "id": "recipe/comber",
+      "id": "recipe/comber-sushi",
       "type": "recipe",
-      "en": "Comber",
+      "en": "Comber Sushi",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/recipe/comber/",
         "https://davethediver.net/zh-hans/recipe/comber-sushi/"
@@ -13121,36 +13121,6 @@
       "facets": {}
     },
     {
-      "id": "recipe/sword-fish",
-      "type": "recipe",
-      "en": "Sword Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/sword-fish/"
-      ],
-      "inferred": false,
-      "relatedFish": [
-        "fish/sword-fish"
-      ],
-      "ingredients": [
-        {
-          "ingredientId": "fish/sword-fish",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 88,
-        "maxPrice": null,
-        "baseTaste": 37,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 38,
-        "estimatedProfit": 50
-      },
-      "facets": {}
-    },
-    {
       "id": "recipe/tambaqui",
       "type": "recipe",
       "en": "Tambaqui",
@@ -13851,27 +13821,6 @@
         "basePrice": 120,
         "maxPrice": null,
         "baseTaste": 50,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10
-      },
-      "facets": {}
-    },
-    {
-      "id": "recipe/blackfin-barracuda",
-      "type": "recipe",
-      "en": "Blackfin Barracuda",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/blackfin-barracuda/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [],
-      "stats": {
-        "basePrice": 20,
-        "maxPrice": null,
-        "baseTaste": 20,
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
@@ -16609,7 +16558,8 @@
         "marincaCardNumber": 123
       },
       "region": [
-        "region/shipwreck"
+        "region/shipwreck",
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -16727,7 +16677,8 @@
         "marincaCardNumber": 319
       },
       "region": [
-        "region/glacial-area-dungeon-1"
+        "region/glacial-area-dungeon-1",
+        "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -16799,7 +16750,8 @@
         "marincaCardNumber": 318
       },
       "region": [
-        "region/glacial-area-dungeon-1"
+        "region/glacial-area-dungeon-1",
+        "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -16836,7 +16788,8 @@
         "marincaCardNumber": 122
       },
       "region": [
-        "region/limestone-cave"
+        "region/limestone-cave",
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17022,7 +16975,8 @@
         "marincaCardNumber": 124
       },
       "region": [
-        "region/shipwreck"
+        "region/shipwreck",
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17151,7 +17105,7 @@
       "inferred": false,
       "relatedIngredients": [],
       "relatedRecipes": [
-        "recipe/comber",
+        "recipe/comber-sushi",
         "recipe/comber-sandwich"
       ],
       "stats": {
@@ -17867,7 +17821,8 @@
         "marincaCardNumber": 408
       },
       "region": [
-        "region/hydrothermal-vents"
+        "region/hydrothermal-vents",
+        "region/control-room"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18259,11 +18214,6 @@
       "relatedRecipes": [
         "recipe/shortfin-mako-sushi"
       ],
-      "drops": [
-        {
-          "entityId": "ingredient/mako-meat"
-        }
-      ],
       "stats": {
         "rank": 8,
         "weight": 9,
@@ -18317,7 +18267,8 @@
         "marincaCardNumber": 321
       },
       "region": [
-        "region/glacial-area-dungeon-3"
+        "region/glacial-area-dungeon-3",
+        "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19747,6 +19698,7 @@
         "meat2": 2,
         "meat3": 3,
         "sellPrice": 1,
+        "length": 20,
         "health": 3,
         "damage": 0,
         "harvestCount": 0,
@@ -20203,7 +20155,8 @@
         "marincaCardNumber": 320
       },
       "region": [
-        "region/glacial-area-dungeon-3"
+        "region/glacial-area-dungeon-3",
+        "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20286,7 +20239,8 @@
         "marincaCardNumber": 126
       },
       "region": [
-        "region/shipwreck"
+        "region/shipwreck",
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24779,7 +24733,8 @@
         "marincaCardNumber": 715
       },
       "region": [
-        "region/control-room"
+        "region/control-room",
+        "region/hydrothermal-vents"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -24817,7 +24772,8 @@
         "marincaCardNumber": 125
       },
       "region": [
-        "region/shipwreck"
+        "region/shipwreck",
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25927,7 +25883,8 @@
         "marincaCardNumber": 613
       },
       "region": [
-        "region/limestone-cave"
+        "region/limestone-cave",
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25980,7 +25937,7 @@
         "meat3": null,
         "sellPrice": null,
         "length": 20,
-        "marincaCardNumber": 990
+        "marincaCardNumber": 909
       },
       "region": [
         "region/hydrothermal-vents"
@@ -26036,7 +25993,7 @@
         "meat3": null,
         "sellPrice": null,
         "length": 3000,
-        "marincaCardNumber": 982
+        "marincaCardNumber": 912
       },
       "region": [
         "region/glacial-area"
@@ -26092,7 +26049,7 @@
         "meat3": null,
         "sellPrice": null,
         "length": 400,
-        "marincaCardNumber": 514
+        "marincaCardNumber": 904
       },
       "region": [
         "region/blue-hole-shallows"
@@ -26120,7 +26077,7 @@
         "meat3": null,
         "sellPrice": null,
         "length": 1100,
-        "marincaCardNumber": 219
+        "marincaCardNumber": 906
       },
       "region": [
         "region/blue-hole-depths"
@@ -26148,7 +26105,7 @@
         "meat3": null,
         "sellPrice": null,
         "length": 350,
-        "marincaCardNumber": 218
+        "marincaCardNumber": 905
       },
       "region": [
         "region/blue-hole-depths"
@@ -26204,7 +26161,7 @@
         "meat3": null,
         "sellPrice": null,
         "length": 40,
-        "marincaCardNumber": 515
+        "marincaCardNumber": 908
       },
       "region": [
         "region/blue-hole-shallows"
@@ -26232,7 +26189,7 @@
         "meat3": null,
         "sellPrice": null,
         "length": 220,
-        "marincaCardNumber": 980
+        "marincaCardNumber": 910
       },
       "region": [
         "region/glacial-area"
@@ -26260,10 +26217,11 @@
         "meat3": null,
         "sellPrice": null,
         "length": 50,
-        "marincaCardNumber": 981
+        "marincaCardNumber": 911
       },
       "region": [
-        "region/glacial-area-dungeon-1"
+        "region/glacial-area-dungeon-1",
+        "region/glacial-area"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -26319,57 +26277,6 @@
         "sellPrice": 8
       },
       "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/sword-fish",
-      "type": "fish",
-      "en": "Sword Fish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/sword-fish/",
-        "https://davethediver.net/zh-hans/fish/meat-sword-fish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [
-        "recipe/sword-fish"
-      ],
-      "stats": {
-        "rank": null,
-        "weight": 7.5,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": 38
-      },
-      "region": [],
-      "facets": {
-        "time": null
-      }
-    },
-    {
-      "id": "fish/viperfish",
-      "type": "fish",
-      "en": "Viperfish",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/fish/viperfish/"
-      ],
-      "inferred": false,
-      "relatedIngredients": [],
-      "relatedRecipes": [],
-      "stats": {
-        "rank": null,
-        "weight": null,
-        "meat1": null,
-        "meat2": null,
-        "meat3": null,
-        "sellPrice": null
-      },
-      "region": [
-        "region/blue-hole-depths"
-      ],
       "facets": {
         "time": null
       }
@@ -27703,7 +27610,8 @@
         "time": "text/6fa7e15a01ab"
       },
       "region": [
-        "region/glacial-area-dungeon-3"
+        "region/glacial-area-dungeon-3",
+        "region/glacial-area"
       ]
     },
     {
@@ -28511,20 +28419,6 @@
         "sellPrice": 30,
         "weight": 6
       },
-      "facets": {},
-      "region": []
-    },
-    {
-      "id": "ingredient/mako-meat",
-      "type": "ingredient",
-      "en": "Mako Meat",
-      "sourceUrls": [],
-      "inferred": true,
-      "relatedFish": [],
-      "relatedRecipes": [
-        "recipe/shortfin-mako-sushi"
-      ],
-      "stats": {},
       "facets": {},
       "region": []
     },
