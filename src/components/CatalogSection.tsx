@@ -5,14 +5,14 @@ import { database, entityTypes, name, searchable } from "../catalog";
 import type { Entity, EntityType } from "../catalog";
 import { EntityLink } from "./EntityLink";
 import { formatNumber } from "../utils/formatNumber";
-import { getRegions, matchesRegion } from "../regions";
+import { getRegions, matchesRegion, regionFilter } from "../regions";
 
 export const statText = (value: number | null | undefined, suffix = "") => value == null ? "未提供" : `${formatNumber(value)}${suffix}`;
 
 export function CatalogSection({ type }: { type: EntityType }) {
   const [params, setParams] = useSearchParams();
   const term = params.get("name") ?? "";
-  const region = type === "fish" ? params.get("region") ?? "all" : "all";
+  const region = type === "fish" ? regionFilter(params.get("region")) : "all";
   const kind = type === "recipe" || type === "staff" ? params.get("kind") ?? "all" : "all";
   const set = (key: string, value: string) => setParams(current => {
     const next = new URLSearchParams(current);

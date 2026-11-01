@@ -1,3 +1,4 @@
+import type { Region } from "./regions.ts";
 import snapshot from "./data/database.json" with { type: "json" };
 import translations from "./data/names.zh-CN.json" with { type: "json" };
 
@@ -34,14 +35,14 @@ export interface IngredientEntity extends EntityBase {
   "acquisition-method"?: AcquisitionMethod;
   relatedRecipes: string[];
   relatedFish: string[];
-  region?: string[];
+  region: Region[];
 }
 export interface FishEntity extends EntityBase {
   type: "fish";
   drops?: { text?: string; entityId?: string }[];
   relatedRecipes: string[];
   relatedIngredients: string[];
-  region?: string[];
+  region: Region[];
 }
 export interface StaffEntity extends EntityBase {
   type: "staff";

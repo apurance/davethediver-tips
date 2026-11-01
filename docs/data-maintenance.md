@@ -43,13 +43,17 @@
 
 ## 区域列表与名称归一
 
-鱼类位置按人工确认结果统一保存到顶层 `region`，区域筛选与详情共用该值，鱼类的 `location` 副本已全部删除。已确认的“浅海 / 蓝洞，0-50 米”使用后者；白对虾使用“蓝洞，0-130 米”，蓝鳍及黄鳍金枪鱼使用“蓝洞，0-50 米”，巨型笔石使用“热泉喷口”。Glacial Area / Glacier Zone（含大小写变体）统一为 `region/glacial-area`，英文采用 Glacial Area，中文为“冰川区域”。
+区域统一由 `src/regions.ts` 的 `Region` 常量枚举定义，类型为枚举值的联合类型，兼容 Node 的 TypeScript strip-types 测试模式。鱼类和食材的 `region` 均为必填 `Region[]`，未知区域使用 `[]`；JSON 只保存枚举中的 `region/...` 语义 ID，不再保存哈希 ID 或 `text/...` ID。新增区域时同时更新枚举和名称表。筛选选项按枚举顺序排列，仅接受当前枚举 ID，旧 ID 或无效区域参数回退到全部区域。
+
+食材中的浅海、中层、深海及 glacier zone、vents、glacial 3 已归入对应枚举。猫粮来源中的 `cat` 和 Seaweed 的 `130` 原始区域信息已删除；Seaweed 的区域确认为 `Region.BlueHoleShallows`（蓝洞，0-50 米）；区域不再存储于 `facts`、`facets` 或 `stats`。
+
+鱼类位置按人工确认结果统一保存到顶层 `region`，区域筛选与详情共用该值，鱼类的 `location` 副本已全部删除。已确认的“浅海 / 蓝洞，0-50 米”使用后者；白对虾同时使用 `Region.BlueHoleShallows`（蓝洞，0-50 米）和 `Region.BlueHoleMediumDepth`（蓝洞，50-130 米），蓝鳍及黄鳍金枪鱼使用“蓝洞，0-50 米”，巨型笔石使用“热泉喷口”。Glacial Area / Glacier Zone（含大小写变体）统一为 `region/glacial-area`，英文采用 Glacial Area，中文为“冰川区域”。
 
 Cargo Ship / shipwreck 已统一为 shipwreck，中文为“遇难船”；红石蟹、旗鱼、黑虎虾共用该区域，黑虎虾原有的“中层”已修正。Glacial Passage / Glacier Passage 已统一为 Glacier Passage，中文为“冰川通道”，对应 6 条鱼的独立位置副本已删除。
 
 “深层水域”和“深海”统一使用“蓝洞，130-250 米”。Glacial Area Dungeon 1 / glacial 1 统一为 `region/glacial-area-dungeon-1`（第一冰川洞穴）；Vents / vents 与已有“热泉喷口”统一为 `region/hydrothermal-vents`（Hydrothermal Vents，热泉喷口）；已确认的 Limestone Cave / stalactite 统一为 `region/limestone-cave`（Limestone Cave，钟乳石窟）。
 
-顶层 `region` 保存区域 ID 列表，例如 `"region": ["region/8c354854b261", "region/glacial-area"]`；未知区域使用空列表 `[]`。同一条鱼可以属于多个区域：区域筛选检查列表是否包含选中 ID，下拉选项合并所有列表并去重，列表、详情和搜索读取全部区域译名。原先的单个区域已包装为单元素列表，该迁移不新增分布信息；`facets` 仅保存单个译名 ID 或 `null`，区域列表独立于 `facets`。
+顶层 `region` 保存区域 ID 列表，例如 `"region": ["region/blue-hole-shallows", "region/glacial-area"]`；未知区域使用空列表 `[]`。同一条鱼可以属于多个区域：区域筛选检查列表是否包含选中 ID，下拉选项合并所有列表并去重，列表、详情和搜索读取全部区域译名。原先的单个区域已包装为单元素列表，该迁移不新增分布信息；`facets` 仅保存单个译名 ID 或 `null`，区域列表独立于 `facets`。
 
 已确认的“蓝洞，50-130 米 / 中层”及“中层水域 / 中层”使用“蓝洞，50-130 米”；“浅水区”合并到“蓝洞，0-50 米”，limestone 合并到“钟乳石窟”，旧区域 ID 已删除。白斑水母（White Spotted Jellyfish）的区域为“钟乳石窟”。Glacial Area Dungeon 3 / glacial 3 统一为 `region/glacial-area-dungeon-3`（第三冰川洞穴）。
 

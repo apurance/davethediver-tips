@@ -16763,7 +16763,7 @@
         "marincaCardNumber": 508
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -16850,7 +16850,7 @@
         "marincaCardNumber": 504
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -16887,7 +16887,7 @@
         "marincaCardNumber": 210
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -16930,7 +16930,7 @@
         "marincaCardNumber": 215
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17050,7 +17050,7 @@
         "marincaCardNumber": 206
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17088,7 +17088,7 @@
         "marincaCardNumber": 123
       },
       "region": [
-        "region/42a2a7652438"
+        "region/shipwreck"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17132,7 +17132,7 @@
         "marincaCardNumber": 305
       },
       "region": [
-        "region/22dcf4d19351"
+        "region/glacier-passage"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17171,7 +17171,8 @@
         "marincaCardNumber": 509
       },
       "region": [
-        "region/blue-hole-0-130-meters"
+        "region/blue-hole-shallows",
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/0b97c851e4a7",
@@ -17359,7 +17360,7 @@
         "marincaCardNumber": 115
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17397,7 +17398,7 @@
         "marincaCardNumber": 104
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17434,7 +17435,7 @@
         "marincaCardNumber": 108
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17471,7 +17472,7 @@
         "marincaCardNumber": 18
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17511,7 +17512,7 @@
         "marincaCardNumber": 124
       },
       "region": [
-        "region/42a2a7652438"
+        "region/shipwreck"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17586,7 +17587,7 @@
         "marincaCardNumber": 201
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17624,7 +17625,7 @@
         "marincaCardNumber": 501
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -17662,7 +17663,7 @@
         "marincaCardNumber": 2
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17700,7 +17701,7 @@
         "marincaCardNumber": 209
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17739,7 +17740,7 @@
         "marincaCardNumber": 109
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17863,7 +17864,7 @@
         "marincaCardNumber": 114
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17939,7 +17940,7 @@
         "marincaCardNumber": 202
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -17983,7 +17984,7 @@
         "marincaCardNumber": 203
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18028,7 +18029,7 @@
         "marincaCardNumber": 116
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18104,7 +18105,7 @@
         "marincaCardNumber": 107
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18144,7 +18145,7 @@
         "marincaCardNumber": 512
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -18182,7 +18183,7 @@
         "marincaCardNumber": 503
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -18220,7 +18221,7 @@
         "marincaCardNumber": 502
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -18258,7 +18259,7 @@
         "marincaCardNumber": 106
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18303,7 +18304,7 @@
         "marincaCardNumber": 33
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18341,7 +18342,7 @@
         "marincaCardNumber": 16
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18416,7 +18417,7 @@
         "marincaCardNumber": 120
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18454,7 +18455,7 @@
         "marincaCardNumber": 14
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18492,7 +18493,7 @@
         "marincaCardNumber": 103
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18531,7 +18532,7 @@
         "marincaCardNumber": 301
       },
       "region": [
-        "region/22dcf4d19351"
+        "region/glacier-passage"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18644,7 +18645,7 @@
         "marincaCardNumber": 217
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18682,7 +18683,7 @@
         "marincaCardNumber": 17
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18720,7 +18721,7 @@
         "marincaCardNumber": 212
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18758,7 +18759,7 @@
         "marincaCardNumber": 211
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18801,7 +18802,7 @@
         "marincaCardNumber": 37
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18878,7 +18879,7 @@
         "marincaCardNumber": 511
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -18916,7 +18917,7 @@
         "marincaCardNumber": 35
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -18959,7 +18960,7 @@
         "marincaCardNumber": 39
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19036,7 +19037,7 @@
         "marincaCardNumber": 112
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19077,7 +19078,7 @@
         "marincaCardNumber": 34
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19154,7 +19155,7 @@
         "marincaCardNumber": 13
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19191,7 +19192,7 @@
         "marincaCardNumber": 702
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19228,7 +19229,7 @@
         "marincaCardNumber": 111
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19265,7 +19266,7 @@
         "marincaCardNumber": 703
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -19302,7 +19303,7 @@
         "marincaCardNumber": 705
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19341,7 +19342,7 @@
         "marincaCardNumber": 507
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -19378,7 +19379,7 @@
         "marincaCardNumber": 708
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -19451,7 +19452,7 @@
         "marincaCardNumber": 710
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19488,7 +19489,7 @@
         "marincaCardNumber": 704
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19524,7 +19525,7 @@
         "marincaCardNumber": 706
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -19563,7 +19564,7 @@
         "marincaCardNumber": 19
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19603,7 +19604,7 @@
         "marincaCardNumber": 40
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/0b97c851e4a7",
@@ -19677,7 +19678,7 @@
         "marincaCardNumber": 709
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19788,7 +19789,7 @@
         "marincaCardNumber": 707
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19863,7 +19864,7 @@
         "marincaCardNumber": 303
       },
       "region": [
-        "region/22dcf4d19351"
+        "region/glacier-passage"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19900,7 +19901,7 @@
         "marincaCardNumber": 304
       },
       "region": [
-        "region/22dcf4d19351"
+        "region/glacier-passage"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19936,7 +19937,7 @@
         "marincaCardNumber": 101
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -19973,7 +19974,7 @@
         "marincaCardNumber": 302
       },
       "region": [
-        "region/22dcf4d19351"
+        "region/glacier-passage"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20089,7 +20090,7 @@
         "marincaCardNumber": 110
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20126,7 +20127,7 @@
         "marincaCardNumber": 306
       },
       "region": [
-        "region/22dcf4d19351"
+        "region/glacier-passage"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20202,7 +20203,7 @@
         "marincaCardNumber": 36
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20244,7 +20245,7 @@
         "marincaCardNumber": 614
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20280,7 +20281,7 @@
         "marincaCardNumber": 214
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20316,7 +20317,7 @@
         "marincaCardNumber": 6
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20364,7 +20365,7 @@
         "marincaCardNumber": 1
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20410,7 +20411,7 @@
         "marincaCardNumber": 113
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20453,7 +20454,7 @@
         "marincaCardNumber": 513
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -20495,7 +20496,7 @@
         "marincaCardNumber": 506
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -20534,7 +20535,7 @@
         "marincaCardNumber": 9
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20593,7 +20594,7 @@
         "marincaCardNumber": 27
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20667,7 +20668,7 @@
         "marincaCardNumber": 31
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20705,7 +20706,7 @@
         "marincaCardNumber": 29
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20744,7 +20745,7 @@
         "marincaCardNumber": 15
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20821,7 +20822,7 @@
         "marincaCardNumber": 5
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20867,7 +20868,7 @@
         "marincaCardNumber": 126
       },
       "region": [
-        "region/42a2a7652438"
+        "region/shipwreck"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20906,7 +20907,7 @@
         "marincaCardNumber": 12
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -20964,7 +20965,7 @@
         "marincaCardNumber": 28
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -21021,7 +21022,7 @@
         "marincaCardNumber": 22
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
@@ -21057,7 +21058,7 @@
         "marincaCardNumber": 20
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -21094,7 +21095,7 @@
         "marincaCardNumber": 505
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8"
@@ -21129,7 +21130,7 @@
         "marincaCardNumber": 213
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -21168,7 +21169,7 @@
         "marincaCardNumber": 25
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
@@ -21199,7 +21200,7 @@
         "marincaCardNumber": 510
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/b77ea2b347b8"
@@ -21238,7 +21239,7 @@
         "marincaCardNumber": 1109
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21272,7 +21273,7 @@
         "marincaCardNumber": 21
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -21312,7 +21313,7 @@
         "marincaCardNumber": 1132
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21352,7 +21353,7 @@
         "marincaCardNumber": 208
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -21426,7 +21427,7 @@
         "marincaCardNumber": 118
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
@@ -21457,7 +21458,7 @@
         "marincaCardNumber": 26
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
@@ -21496,7 +21497,7 @@
         "marincaCardNumber": 1120
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21533,7 +21534,7 @@
         "marincaCardNumber": 1124
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21571,7 +21572,7 @@
         "marincaCardNumber": 1107
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21608,7 +21609,7 @@
         "marincaCardNumber": 1116
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21646,7 +21647,7 @@
         "marincaCardNumber": 1129
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21683,7 +21684,7 @@
         "marincaCardNumber": 1111
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21720,7 +21721,7 @@
         "marincaCardNumber": 1131
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21757,7 +21758,7 @@
         "marincaCardNumber": 1123
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21794,7 +21795,7 @@
         "marincaCardNumber": 1134
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21831,7 +21832,7 @@
         "marincaCardNumber": 1118
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21868,7 +21869,7 @@
         "marincaCardNumber": 1101
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21905,7 +21906,7 @@
         "marincaCardNumber": 1117
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21942,7 +21943,7 @@
         "marincaCardNumber": 1114
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -21976,7 +21977,7 @@
         "marincaCardNumber": 119
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
@@ -22010,7 +22011,7 @@
         "marincaCardNumber": 1103
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22047,7 +22048,7 @@
         "marincaCardNumber": 1108
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22084,7 +22085,7 @@
         "marincaCardNumber": 1133
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22120,7 +22121,7 @@
         "marincaCardNumber": 121
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
@@ -22154,7 +22155,7 @@
         "marincaCardNumber": 1112
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22192,7 +22193,7 @@
         "marincaCardNumber": 1104
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22230,7 +22231,7 @@
         "marincaCardNumber": 1125
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22267,7 +22268,7 @@
         "marincaCardNumber": 1128
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22304,7 +22305,7 @@
         "marincaCardNumber": 1126
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22341,7 +22342,7 @@
         "marincaCardNumber": 1110
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22378,7 +22379,7 @@
         "marincaCardNumber": 1130
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22415,7 +22416,7 @@
         "marincaCardNumber": 1113
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22452,7 +22453,7 @@
         "marincaCardNumber": 1127
       },
       "region": [
-        "region/565a3a911b9e"
+        "region/jellyfish-basin"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22489,7 +22490,7 @@
         "marincaCardNumber": 1115
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22526,7 +22527,7 @@
         "marincaCardNumber": 1122
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22564,7 +22565,7 @@
         "marincaCardNumber": 1119
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22601,7 +22602,7 @@
         "marincaCardNumber": 1102
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22638,7 +22639,7 @@
         "marincaCardNumber": 1105
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22675,7 +22676,7 @@
         "marincaCardNumber": 1106
       },
       "region": [
-        "region/a7a86e92fda1"
+        "region/fog-coast"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22712,7 +22713,7 @@
         "marincaCardNumber": 1121
       },
       "region": [
-        "region/d3b15f5fc5e0"
+        "region/black-cliff"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -22750,7 +22751,7 @@
         "marincaCardNumber": 3206
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -22786,7 +22787,7 @@
         "marincaCardNumber": 3008
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -22823,7 +22824,7 @@
         "marincaCardNumber": 3106
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -22859,7 +22860,7 @@
         "marincaCardNumber": 3113
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -22897,7 +22898,7 @@
         "marincaCardNumber": 3009
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -22934,7 +22935,7 @@
         "marincaCardNumber": 3016
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -22971,7 +22972,7 @@
         "marincaCardNumber": 3012
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23007,7 +23008,7 @@
         "marincaCardNumber": 3007
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23044,7 +23045,7 @@
         "marincaCardNumber": 3014
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23081,7 +23082,7 @@
         "marincaCardNumber": 3215
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23118,7 +23119,7 @@
         "marincaCardNumber": 3010
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23155,7 +23156,7 @@
         "marincaCardNumber": 3118
       },
       "region": [
-        "region/32aeb2b0139d"
+        "region/jungle-lake-75m-f"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23191,7 +23192,7 @@
         "marincaCardNumber": 3003
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23228,7 +23229,7 @@
         "marincaCardNumber": 3307
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23264,7 +23265,7 @@
         "marincaCardNumber": 3301
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23301,7 +23302,7 @@
         "marincaCardNumber": 3304
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23338,7 +23339,7 @@
         "marincaCardNumber": 3303
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23374,7 +23375,7 @@
         "marincaCardNumber": 3306
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23411,7 +23412,7 @@
         "marincaCardNumber": 3305
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23447,7 +23448,7 @@
         "marincaCardNumber": 3302
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23484,7 +23485,7 @@
         "marincaCardNumber": 3308
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23521,7 +23522,7 @@
         "marincaCardNumber": 3309
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23558,7 +23559,7 @@
         "marincaCardNumber": 3201
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23594,7 +23595,7 @@
         "marincaCardNumber": 3406
       },
       "region": [
-        "region/359ebf977a3a"
+        "region/jungle-rpg"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23630,7 +23631,7 @@
         "marincaCardNumber": 3211
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23666,7 +23667,7 @@
         "marincaCardNumber": 3212
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23703,7 +23704,7 @@
         "marincaCardNumber": 3117
       },
       "region": [
-        "region/b1ea289d6e31"
+        "region/jungle-lake-75m-e"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23739,7 +23740,7 @@
         "marincaCardNumber": 3213
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23776,7 +23777,7 @@
         "marincaCardNumber": 3101
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23812,7 +23813,7 @@
         "marincaCardNumber": 3405
       },
       "region": [
-        "region/359ebf977a3a"
+        "region/jungle-rpg"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23850,7 +23851,7 @@
         "marincaCardNumber": 3105
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23887,7 +23888,7 @@
         "marincaCardNumber": 3021
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23924,7 +23925,7 @@
         "marincaCardNumber": 3112
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23961,7 +23962,7 @@
         "marincaCardNumber": 3115
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -23997,7 +23998,7 @@
         "marincaCardNumber": 3015
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24033,7 +24034,7 @@
         "marincaCardNumber": 3216
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24069,7 +24070,7 @@
         "marincaCardNumber": 3017
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24105,7 +24106,7 @@
         "marincaCardNumber": 3209
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24141,7 +24142,7 @@
         "marincaCardNumber": 3104
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24179,7 +24180,7 @@
         "marincaCardNumber": 3111
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24216,7 +24217,7 @@
         "marincaCardNumber": 3116
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24253,7 +24254,7 @@
         "marincaCardNumber": 3001
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24290,7 +24291,7 @@
         "marincaCardNumber": 3108
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24327,7 +24328,7 @@
         "marincaCardNumber": 3006
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24363,7 +24364,7 @@
         "marincaCardNumber": 3403
       },
       "region": [
-        "region/79551b7d17a7"
+        "region/jungle-tropical-zone-inside"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24399,7 +24400,7 @@
         "marincaCardNumber": 3410
       },
       "region": [
-        "region/359ebf977a3a"
+        "region/jungle-rpg"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24435,7 +24436,7 @@
         "marincaCardNumber": 3018
       },
       "region": [
-        "region/c35e35fc142f"
+        "region/jungle-lake-20m-a"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24471,7 +24472,7 @@
         "marincaCardNumber": 3401
       },
       "region": [
-        "region/79551b7d17a7"
+        "region/jungle-tropical-zone-inside"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24508,7 +24509,7 @@
         "marincaCardNumber": 3109
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24577,7 +24578,7 @@
         "marincaCardNumber": 3103
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24614,7 +24615,7 @@
         "marincaCardNumber": 3202
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24651,7 +24652,7 @@
         "marincaCardNumber": 3214
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24687,7 +24688,7 @@
         "marincaCardNumber": 3204
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24724,7 +24725,7 @@
         "marincaCardNumber": 3203
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24760,7 +24761,7 @@
         "marincaCardNumber": 3408
       },
       "region": [
-        "region/359ebf977a3a"
+        "region/jungle-rpg"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24797,7 +24798,7 @@
         "marincaCardNumber": 3013
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24835,7 +24836,7 @@
         "marincaCardNumber": 3110
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24872,7 +24873,7 @@
         "marincaCardNumber": 3019
       },
       "region": [
-        "region/e5e3f5c9a576"
+        "region/jungle-lake-20m-b"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24909,7 +24910,7 @@
         "marincaCardNumber": 3114
       },
       "region": [
-        "region/3d6617b736c4"
+        "region/jungle-lake-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24946,7 +24947,7 @@
         "marincaCardNumber": 3218
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -24982,7 +24983,7 @@
         "marincaCardNumber": 3208
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25019,7 +25020,7 @@
         "marincaCardNumber": 3011
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25056,7 +25057,7 @@
         "marincaCardNumber": 3005
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25092,7 +25093,7 @@
         "marincaCardNumber": 3210
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25128,7 +25129,7 @@
         "marincaCardNumber": 3411
       },
       "region": [
-        "region/359ebf977a3a"
+        "region/jungle-rpg"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25165,7 +25166,7 @@
         "marincaCardNumber": 3217
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25201,7 +25202,7 @@
         "marincaCardNumber": 3404
       },
       "region": [
-        "region/79551b7d17a7"
+        "region/jungle-tropical-zone-inside"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25238,7 +25239,7 @@
         "marincaCardNumber": 3407
       },
       "region": [
-        "region/359ebf977a3a"
+        "region/jungle-rpg"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25275,7 +25276,7 @@
         "marincaCardNumber": 3205
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25312,7 +25313,7 @@
         "marincaCardNumber": 3409
       },
       "region": [
-        "region/359ebf977a3a"
+        "region/jungle-rpg"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25348,7 +25349,7 @@
         "marincaCardNumber": 3412
       },
       "region": [
-        "region/359ebf977a3a"
+        "region/jungle-rpg"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25384,7 +25385,7 @@
         "marincaCardNumber": 3402
       },
       "region": [
-        "region/79551b7d17a7"
+        "region/jungle-tropical-zone-inside"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25421,7 +25422,7 @@
         "marincaCardNumber": 3004
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25458,7 +25459,7 @@
         "marincaCardNumber": 3002
       },
       "region": [
-        "region/a1667dce2eba"
+        "region/jungle-lake-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25491,7 +25492,7 @@
         "marincaCardNumber": 715
       },
       "region": [
-        "region/c7dc7765b88f"
+        "region/control-room"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25530,7 +25531,7 @@
         "marincaCardNumber": 125
       },
       "region": [
-        "region/42a2a7652438"
+        "region/shipwreck"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25563,7 +25564,7 @@
         "marincaCardNumber": 3207
       },
       "region": [
-        "region/07c551962a8c"
+        "region/jungle-underwater-cave"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -25602,7 +25603,7 @@
         "marincaCardNumber": 204
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25634,7 +25635,7 @@
         "marincaCardNumber": 38
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25707,7 +25708,7 @@
         "marincaCardNumber": 30
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25745,7 +25746,7 @@
         "marincaCardNumber": 23
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
@@ -25809,7 +25810,7 @@
         "marincaCardNumber": 32
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25850,7 +25851,7 @@
         "marincaCardNumber": 117
       },
       "region": [
-        "region/82a8f0e0b78d",
+        "region/blue-hole-medium-depth",
         "region/limestone-cave"
       ],
       "facets": {
@@ -25889,7 +25890,7 @@
         "marincaCardNumber": 602
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25919,7 +25920,7 @@
         "marincaCardNumber": 3
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25950,7 +25951,7 @@
         "marincaCardNumber": 102
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -25985,7 +25986,7 @@
         "marincaCardNumber": 603
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26020,7 +26021,7 @@
         "marincaCardNumber": 604
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26055,7 +26056,7 @@
         "marincaCardNumber": 605
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26090,7 +26091,7 @@
         "marincaCardNumber": 606
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26125,7 +26126,7 @@
         "marincaCardNumber": 607
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26155,7 +26156,7 @@
         "marincaCardNumber": 11
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26222,7 +26223,7 @@
         "marincaCardNumber": 608
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26257,7 +26258,7 @@
         "marincaCardNumber": 609
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26288,7 +26289,7 @@
         "marincaCardNumber": 8
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26323,7 +26324,7 @@
         "marincaCardNumber": 610
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26354,7 +26355,7 @@
         "marincaCardNumber": 10
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26384,7 +26385,7 @@
         "marincaCardNumber": 701
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8"
@@ -26414,7 +26415,7 @@
         "marincaCardNumber": 7
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26444,7 +26445,7 @@
         "marincaCardNumber": 4
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26477,7 +26478,7 @@
         "marincaCardNumber": 207
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26512,7 +26513,7 @@
         "marincaCardNumber": 611
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26543,7 +26544,7 @@
         "marincaCardNumber": 105
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26578,7 +26579,7 @@
         "marincaCardNumber": 612
       },
       "region": [
-        "region/82a8f0e0b78d"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26645,7 +26646,7 @@
         "marincaCardNumber": 601
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26710,7 +26711,7 @@
         "marincaCardNumber": 216
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -26767,7 +26768,7 @@
         "marincaCardNumber": 901
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -26825,7 +26826,7 @@
         "marincaCardNumber": 907
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -26854,7 +26855,7 @@
         "marincaCardNumber": 514
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -26883,7 +26884,7 @@
         "marincaCardNumber": 219
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -26912,7 +26913,7 @@
         "marincaCardNumber": 218
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -26941,7 +26942,7 @@
         "marincaCardNumber": 902
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab",
@@ -26970,7 +26971,7 @@
         "marincaCardNumber": 515
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/b77ea2b347b8",
@@ -27083,7 +27084,7 @@
         "sellPrice": null
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -27145,7 +27146,7 @@
         "sellPrice": null
       },
       "region": [
-        "region/8c354854b261"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
@@ -27250,7 +27251,7 @@
         "sellPrice": null
       },
       "region": [
-        "region/721eb9e71c69"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": null
@@ -27285,7 +27286,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/black-coral",
@@ -27313,7 +27315,8 @@
       },
       "facets": {
         "gatheringSource": "text/43786205d026"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/carrot",
@@ -27348,7 +27351,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/cherry-tomato",
@@ -27380,7 +27384,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/cucumber",
@@ -27413,7 +27418,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/egg",
@@ -27449,7 +27455,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/eggplant",
@@ -27481,7 +27488,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/garlic",
@@ -27513,7 +27521,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/kajime",
@@ -27546,7 +27555,8 @@
       },
       "facets": {
         "gatheringSource": "text/43786205d026"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/onion",
@@ -27578,7 +27588,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/rice",
@@ -27619,7 +27630,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/sea-grape",
@@ -27654,7 +27666,8 @@
       },
       "facets": {
         "gatheringSource": "text/43786205d026"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/black-pepper",
@@ -27683,7 +27696,8 @@
         "rank": 1,
         "purchasePriceJango": 60
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/black-vinegar",
@@ -27720,7 +27734,8 @@
         "rank": 1,
         "purchasePriceJango": 50
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/buckwheat",
@@ -27746,7 +27761,8 @@
       },
       "facets": {
         "gatheringSource": "text/660af5fdf8cd"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/curry-block",
@@ -27774,7 +27790,8 @@
         "rank": 1,
         "purchasePriceJango": 60
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/hyalonema",
@@ -27801,7 +27818,8 @@
       },
       "facets": {
         "gatheringSource": "text/43786205d026"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/mayonnaise",
@@ -27833,7 +27851,8 @@
         "rank": 1,
         "purchasePriceJango": 70
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/miso",
@@ -27868,7 +27887,8 @@
         "rank": 1,
         "purchasePriceJango": 80
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/olive-oil",
@@ -27919,7 +27939,8 @@
         "rank": 1,
         "purchasePriceJango": 60
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/rainbow-cap",
@@ -27947,7 +27968,8 @@
         "purchasePriceMushroomer": 735,
         "purchasePriceJango": 750
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/salt",
@@ -27985,7 +28007,8 @@
         "rank": 1,
         "purchasePriceJango": 80
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/soy-sauce",
@@ -28026,7 +28049,8 @@
         "rank": 1,
         "purchasePriceJango": 60
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/truffle",
@@ -28055,7 +28079,8 @@
         "rank": 1,
         "purchasePriceJangoAndMushroomer": 650
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/turmeric",
@@ -28083,7 +28108,8 @@
         "rank": 1,
         "purchasePriceJango": 50
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/agar",
@@ -28122,7 +28148,7 @@
         "rank": 2
       },
       "region": [
-        "text/544dd3e67759"
+        "region/blue-hole-shallows"
       ],
       "facets": {}
     },
@@ -28161,7 +28187,8 @@
         "buyGoldOtto": 450,
         "buyGoldJango": 382
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/kelp",
@@ -28200,7 +28227,7 @@
         "rank": 2
       },
       "region": [
-        "text/ef809f2febc3"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {}
     },
@@ -28231,7 +28258,7 @@
         "rank": 99
       },
       "region": [
-        "text/544dd3e67759"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "text/b77ea2b347b8"
@@ -28270,10 +28297,12 @@
       "stats": {
         "sellPrice": 5,
         "weight": 0.1,
-        "rank": 2,
-        "region": 130
+        "rank": 2
       },
-      "facets": {}
+      "facets": {},
+      "region": [
+        "region/blue-hole-shallows"
+      ]
     },
     {
       "id": "ingredient/southern-bull-kelp",
@@ -28292,14 +28321,6 @@
       ],
       "facts": [
         {
-          "labelId": "field/region",
-          "values": [
-            {
-              "text": "glacier zone"
-            }
-          ]
-        },
-        {
           "labelId": "field/harvest-source",
           "values": [
             {
@@ -28313,7 +28334,10 @@
         "weight": 0.1,
         "rank": 2
       },
-      "facets": {}
+      "facets": {},
+      "region": [
+        "region/glacial-area"
+      ]
     },
     {
       "id": "ingredient/wheat",
@@ -28356,7 +28380,8 @@
         "buyGoldOtto": 190,
         "buyGoldJango": 161
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/whitetip-reefshark-head",
@@ -28390,7 +28415,7 @@
         "rank": 4
       },
       "region": [
-        "text/544dd3e67759"
+        "region/blue-hole-shallows"
       ],
       "facets": {}
     },
@@ -28425,7 +28450,7 @@
         "rank": 4
       },
       "region": [
-        "text/544dd3e67759"
+        "region/blue-hole-shallows"
       ],
       "facets": {}
     },
@@ -28450,7 +28475,8 @@
         "sellPrice": 10,
         "weight": 0.1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/buckbean",
@@ -28470,14 +28496,6 @@
       ],
       "facts": [
         {
-          "labelId": "field/region",
-          "values": [
-            {
-              "text": "vents"
-            }
-          ]
-        },
-        {
           "labelId": "field/harvest-source",
           "values": [
             {
@@ -28491,7 +28509,10 @@
         "rank": 4,
         "sellPrice": 9
       },
-      "facets": {}
+      "facets": {},
+      "region": [
+        "region/hydrothermal-vents"
+      ]
     },
     {
       "id": "ingredient/chili-pepper",
@@ -28508,7 +28529,8 @@
         "sellPrice": 16,
         "weight": 0.1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/clione-queen-tentacle",
@@ -28528,7 +28550,7 @@
         "rank": 99
       },
       "region": [
-        "text/d16725cb6347"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "text/6fa7e15a01ab"
@@ -28544,16 +28566,7 @@
       "inferred": false,
       "relatedFish": [],
       "relatedRecipes": [],
-      "facts": [
-        {
-          "labelId": "field/region",
-          "values": [
-            {
-              "text": "cat"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "weight": 0.1,
         "rank": 1,
@@ -28561,7 +28574,8 @@
       },
       "facets": {
         "uses": "text/0bda1e2366df"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/duck-meat",
@@ -28580,7 +28594,8 @@
         "sellPrice": 2,
         "weight": 1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/frog-meat",
@@ -28599,7 +28614,8 @@
         "sellPrice": 5,
         "weight": 1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/goblin-sharks-fatty-meat",
@@ -28619,7 +28635,7 @@
         "rank": 99
       },
       "region": [
-        "text/d16725cb6347"
+        "region/blue-hole-depths"
       ],
       "facets": {
         "time": "text/6fa7e15a01ab"
@@ -28656,7 +28672,8 @@
         "buyGoldOtto": 180,
         "buyGoldJango": 153
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/helicoprion-tail",
@@ -28670,23 +28687,17 @@
       "relatedRecipes": [
         "recipe/roasted-helicoprion-tail"
       ],
-      "facts": [
-        {
-          "labelId": "field/region",
-          "values": [
-            {
-              "text": "glacial 3"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
       },
       "facets": {
         "time": "text/6fa7e15a01ab"
-      }
+      },
+      "region": [
+        "region/glacial-area-dungeon-3"
+      ]
     },
     {
       "id": "ingredient/high-quality-cat-food",
@@ -28698,16 +28709,7 @@
       "inferred": false,
       "relatedFish": [],
       "relatedRecipes": [],
-      "facts": [
-        {
-          "labelId": "field/region",
-          "values": [
-            {
-              "text": "cat"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "weight": 0.1,
         "rank": 2,
@@ -28715,7 +28717,8 @@
       },
       "facets": {
         "uses": "text/0bda1e2366df"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/kronosaurus-tongue",
@@ -28729,23 +28732,17 @@
       "relatedRecipes": [
         "recipe/steamed-kronosaurus-tongue"
       ],
-      "facts": [
-        {
-          "labelId": "field/region",
-          "values": [
-            {
-              "text": "vents"
-            }
-          ]
-        }
-      ],
+      "facts": [],
       "stats": {
         "weight": 1,
         "rank": 99
       },
       "facets": {
         "time": "text/6fa7e15a01ab"
-      }
+      },
+      "region": [
+        "region/hydrothermal-vents"
+      ]
     },
     {
       "id": "ingredient/lake-weeds-water-chestnut",
@@ -28767,7 +28764,8 @@
         "sellPrice": 3,
         "weight": 1.2
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/lizard-meat",
@@ -28786,7 +28784,8 @@
         "sellPrice": 7,
         "weight": 1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-birds-eye-chili",
@@ -28815,7 +28814,8 @@
         "sellPrice": 3,
         "weight": 0.3
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-capirlime-leaf",
@@ -28841,7 +28841,8 @@
         "sellPrice": 5,
         "weight": 0.3
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-cilantro",
@@ -28870,7 +28871,8 @@
         "sellPrice": 4,
         "weight": 0.3
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-coconut-milk",
@@ -28900,7 +28902,8 @@
         "sellPrice": 3,
         "weight": 0.5
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-fish-sauce",
@@ -28933,7 +28936,8 @@
         "sellPrice": 2,
         "weight": 0.6
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-lemongrass",
@@ -28965,7 +28969,8 @@
         "sellPrice": 3,
         "weight": 0.3
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-palm-sugar",
@@ -28993,7 +28998,8 @@
         "sellPrice": 5,
         "weight": 0.5
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-sambal-sauce",
@@ -29022,7 +29028,8 @@
         "sellPrice": 4,
         "weight": 0.8
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-shallot",
@@ -29048,7 +29055,8 @@
         "sellPrice": 5,
         "weight": 0.6
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-tamarind",
@@ -29075,7 +29083,8 @@
         "sellPrice": 5,
         "weight": 0.4
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/loot-wiwaxia-01",
@@ -29094,7 +29103,8 @@
         "sellPrice": 13,
         "weight": 2
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/lusca-neck-meat",
@@ -29114,7 +29124,7 @@
         "rank": 99
       },
       "region": [
-        "text/ef809f2febc3"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "text/b77ea2b347b8"
@@ -29138,7 +29148,7 @@
         "rank": 99
       },
       "region": [
-        "text/ef809f2febc3"
+        "region/blue-hole-medium-depth"
       ],
       "facets": {
         "time": "text/b77ea2b347b8"
@@ -29162,7 +29172,7 @@
         "rank": 99
       },
       "region": [
-        "text/544dd3e67759"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "text/b77ea2b347b8"
@@ -29183,7 +29193,8 @@
         "sellPrice": 47,
         "weight": 13
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/phantom-jellyfish-meat",
@@ -29204,7 +29215,8 @@
       "facets": {
         "time": "text/6fa7e15a01ab"
       },
-      "facts": []
+      "facts": [],
+      "region": []
     },
     {
       "id": "ingredient/pheasant-meat",
@@ -29223,7 +29235,8 @@
         "sellPrice": 3,
         "weight": 1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/quail-meat",
@@ -29242,7 +29255,8 @@
         "sellPrice": 2,
         "weight": 1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/raw-meat",
@@ -29261,7 +29275,8 @@
         "sellPrice": 2,
         "weight": 1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/sesame-seed",
@@ -29288,7 +29303,8 @@
         "sellPrice": 8,
         "weight": 0.1
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/truck-hermit-crab-legs",
@@ -29308,7 +29324,7 @@
         "rank": 99
       },
       "region": [
-        "text/544dd3e67759"
+        "region/blue-hole-shallows"
       ],
       "facets": {
         "time": "text/b77ea2b347b8"
@@ -29331,7 +29347,8 @@
         "weight": 1,
         "rank": 99
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/yawies-inner-flesh",
@@ -29354,7 +29371,8 @@
         "prerequisites": "text/8d172a80f749",
         "collectionTiming": "text/a814a2347a4d",
         "location": "text/c9d9e5d0e38c"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/bluefin-tuna-akami",
@@ -29376,7 +29394,8 @@
         "sellPrice": 27,
         "weight": 8
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/seadragon",
@@ -29409,7 +29428,8 @@
         "weight": 0.5,
         "rank": 8
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/bluefin-tuna-chutoro",
@@ -29432,7 +29452,8 @@
         "sellPrice": 32,
         "weight": 8
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/yellowfin-tuna-akami",
@@ -29454,7 +29475,8 @@
         "sellPrice": 24,
         "weight": 6
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/bluefin-tuna-ootoro",
@@ -29476,7 +29498,8 @@
         "sellPrice": 45,
         "weight": 8
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/yellowfin-tuna-ootoro",
@@ -29498,7 +29521,8 @@
         "sellPrice": 42,
         "weight": 6
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/yellowfin-tuna-chutoro",
@@ -29520,7 +29544,8 @@
         "sellPrice": 30,
         "weight": 6
       },
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/mako-meat",
@@ -29534,7 +29559,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/hammerhead-meat",
@@ -29548,7 +29574,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/seahorse",
@@ -29587,7 +29614,8 @@
       },
       "facets": {
         "acquisitionSource": "text/1bc9bdbab075"
-      }
+      },
+      "region": []
     },
     {
       "id": "ingredient/durian",
@@ -29601,7 +29629,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/water-spinach",
@@ -29617,7 +29646,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/jungle-egg",
@@ -29634,7 +29664,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/bamboo-shoot",
@@ -29653,7 +29684,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/king-trumpet-mushroom",
@@ -29668,7 +29700,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/banana",
@@ -29685,7 +29718,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/dragon-fruit",
@@ -29700,7 +29734,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/mangosteen",
@@ -29715,7 +29750,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/pineapple",
@@ -29731,7 +29767,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/calamansi",
@@ -29754,7 +29791,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/banana-blossom",
@@ -29772,7 +29810,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/gim",
@@ -29788,7 +29827,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-black-caiman-tail",
@@ -29802,7 +29842,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/pineapple-colored",
@@ -29817,7 +29858,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/basilosaurus",
@@ -29831,7 +29873,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-fringehead",
@@ -29845,7 +29888,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/fiddlehead-fern",
@@ -29861,7 +29905,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-mud-skipper",
@@ -29875,7 +29920,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/boss-snapper-turtle",
@@ -29889,7 +29935,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/stethacanthus",
@@ -29903,7 +29950,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/boss-sulong",
@@ -29917,7 +29965,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/boss-xiphactinus",
@@ -29931,7 +29980,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/honeydew-melon-colored",
@@ -29945,7 +29995,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/taro",
@@ -29960,7 +30011,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-giant-snakehead",
@@ -29974,7 +30026,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/cassava",
@@ -29991,7 +30044,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/durian-colored",
@@ -30005,7 +30059,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/watermelon-colored",
@@ -30019,7 +30074,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/dragon-fruit-colored",
@@ -30033,7 +30089,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/watermelon",
@@ -30048,7 +30105,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/snake-meat",
@@ -30062,7 +30120,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/viper-meat",
@@ -30076,7 +30135,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-anomalocaris-shell-meat",
@@ -30088,7 +30148,8 @@
       "relatedRecipes": [],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-goblin-shark-belly-meat",
@@ -30102,7 +30163,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-lusca-leg",
@@ -30116,7 +30178,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-lusca-neck-meat",
@@ -30130,7 +30193,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-mantis-shrimp-shell-meat",
@@ -30144,7 +30208,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/special-wolffish-tail-meat",
@@ -30158,7 +30223,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/starfruit",
@@ -30172,7 +30238,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     },
     {
       "id": "ingredient/honeydew-melon",
@@ -30187,7 +30254,8 @@
       ],
       "facts": [],
       "stats": {},
-      "facets": {}
+      "facets": {},
+      "region": []
     }
   ],
   "staff": [

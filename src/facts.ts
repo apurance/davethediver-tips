@@ -42,7 +42,7 @@ const additionalStatFields: Record<Entity["type"], [string, string][]> = {
   ],
   ingredient: [
     ["level", "rank"], ["purchase-price", "purchasePrice"],
-    ["region", "region"], ["daily-limit", "dailyLimit"],
+    ["daily-limit", "dailyLimit"],
   ],
   fish: [
     ["marinca-card-number", "marincaCardNumber"],
