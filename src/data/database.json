@@ -13271,86 +13271,6 @@
       "facets": {}
     },
     {
-      "id": "recipe/vege-fried",
-      "type": "recipe",
-      "en": "Vege Fried",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/vege-fried/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/cucumber",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/onion",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/carrot",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/olive-oil",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 312,
-        "maxPrice": null,
-        "baseTaste": 153,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 71,
-        "estimatedProfit": 241
-      },
-      "facets": {}
-    },
-    {
-      "id": "recipe/vege-tsukemono",
-      "type": "recipe",
-      "en": "Vege Tsukemono",
-      "sourceUrls": [
-        "https://davethediver.net/zh-hans/recipe/vege-tsukemono/"
-      ],
-      "inferred": false,
-      "relatedFish": [],
-      "ingredients": [
-        {
-          "ingredientId": "ingredient/cucumber",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/eggplant",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/carrot",
-          "quantity": null
-        },
-        {
-          "ingredientId": "ingredient/black-vinegar",
-          "quantity": null
-        }
-      ],
-      "stats": {
-        "basePrice": 316,
-        "maxPrice": null,
-        "baseTaste": 157,
-        "maxTaste": null,
-        "baseServings": null,
-        "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 71,
-        "estimatedProfit": 245
-      },
-      "facets": {}
-    },
-    {
       "id": "recipe/wiwaxia",
       "type": "recipe",
       "en": "Wiwaxia",
@@ -26359,9 +26279,7 @@
         "recipe/deep-fried-vegetables",
         "recipe/haddock-acqua-pazza",
         "recipe/narwhal-miso-soup",
-        "recipe/pickled-vegetables",
-        "recipe/vege-fried",
-        "recipe/vege-tsukemono"
+        "recipe/pickled-vegetables"
       ],
       "stats": {
         "sellPrice": 25,
@@ -26425,9 +26343,7 @@
         "recipe/trevally-sandwich",
         "recipe/deep-fried-vegetables",
         "recipe/green-sea-urchin-and-cucumber-salad",
-        "recipe/pickled-vegetables",
-        "recipe/vege-fried",
-        "recipe/vege-tsukemono"
+        "recipe/pickled-vegetables"
       ],
       "stats": {
         "sellPrice": 20,
@@ -26493,7 +26409,6 @@
         "recipe/deep-fried-eggplant-shrimp-meatballs",
         "recipe/nasu-dengaku",
         "recipe/pickled-vegetables",
-        "recipe/vege-tsukemono",
         "recipe/special-mantis-shrimp-shell-meat-boiled"
       ],
       "stats": {
@@ -26590,8 +26505,7 @@
         "recipe/deep-fried-vegetables",
         "recipe/fried-onion-cuttlefish",
         "recipe/plotosid-pie",
-        "recipe/trevally-nanbanzuke",
-        "recipe/vege-fried"
+        "recipe/trevally-nanbanzuke"
       ],
       "stats": {
         "sellPrice": 20,
@@ -26732,7 +26646,6 @@
         "recipe/seasoned-long-spine-porcupinefish-skin",
         "recipe/steamed-wolf-eel",
         "recipe/stir-fried-hermit-crab-and-seaweed",
-        "recipe/vege-tsukemono",
         "recipe/special-wolffish-tail-meat-steamed"
       ],
       "acquisition-method": {
@@ -26930,7 +26843,6 @@
         "recipe/trevally-nanbanzuke",
         "recipe/fried-habanero-fangtooth",
         "recipe/sweet-and-sour-stargazer",
-        "recipe/vege-fried",
         "recipe/special-goblin-shark-belly-meat-grilled",
         "recipe/special-lusca-leg-blanched"
       ],
