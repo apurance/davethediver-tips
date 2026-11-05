@@ -1,5 +1,6 @@
 import type { Entity, FactValue } from "./catalog.ts";
 import { formatNumber } from "./utils/formatNumber.ts";
+import { partyNames } from "./events.ts";
 
 export type DisplayFactValue = FactValue & {
   number?: number;
@@ -35,10 +36,6 @@ const statFields: Record<Entity["type"], [string, string, string?][]> = {
 const additionalStatFields: Record<Entity["type"], [string, string][]> = {
   recipe: [
     ["flame-cost", "flameCost"], ["max-level", "maxLevel"],
-    ["ingredient-cost", "ingredientCost"], ["estimated-profit", "estimatedProfit"],
-    ["servings-per-plate", "servingsPerPlate"], ["serving-time", "servingTime"],
-    ["research-cost", "researchCost"], ["repeat-research-taste", "repeatResearchTaste"],
-    ["plates-per-serving", "platesPerServing"],
   ],
   ingredient: [
     ["level", "rank"], ["purchase-price", "purchasePrice"],
@@ -55,11 +52,11 @@ const additionalStatFields: Record<Entity["type"], [string, string][]> = {
 // Units and quantity templates are determined by the stat key, not stored per entity.
 const statUnits: Record<string, string> = {
   ...Object.fromEntries(Object.values(statFields).flat().filter(([, , unit]) => unit).map(([, stat, unit]) => [stat, unit!])),
-  ingredientCost: "unit/gold", estimatedProfit: "unit/gold", purchasePrice: "unit/gold",
-  length: "unit/centimeter", servingTime: "unit/second", dailyLimit: "unit/can",
+  purchasePrice: "unit/gold",
+  length: "unit/centimeter", dailyLimit: "unit/can",
 };
 const statTemplates: Record<string, string> = {
-  servingTime: "template/per-plate-quantity", dailyLimit: "template/daily-quantity",
+  dailyLimit: "template/daily-quantity",
 };
 const vendors: [string, string][] = [
   ["Otto", "Otto"], ["Mushroomer", "Mushroomer"], ["Jango", "Jango"],
@@ -85,7 +82,7 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
   if ((entity.type === "fish" || entity.type === "ingredient") && entity["harvest-source"]) {
     append("harvest-source", [entity["harvest-source"]]);
   }
-  if (entity.type === "recipe" && entity.event !== undefined) append("event", [{ text: entity.event }]);
+  if (entity.type === "recipe" && entity.event?.length) append("event", entity.event.map(event => ({ text: partyNames[event] ?? event })));
   if (entity.type === "staff" && entity.occupation !== undefined) append("occupation", [{ text: entity.occupation }]);
   for (const [field, stat] of [...statFields[entity.type], ...additionalStatFields[entity.type]]) {
     if (entity.stats[stat] != null) append(field, [{ stat }]);

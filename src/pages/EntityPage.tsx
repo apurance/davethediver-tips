@@ -8,6 +8,7 @@ import { EntityLink } from "../components/EntityLink";
 import { statText } from "../components/CatalogSection";
 import { PageHeading } from "../components/PageHeading";
 import { recipes } from "../data";
+import { partyNames, partyUrl } from "../events";
 
 function FactContent({ values, entity }: { values: DisplayFactValue[]; entity: Entity }) {
   return <>{values.map((value, index) => <span key={index}>{index > 0 ? " " : ""}{value.entityId ? <EntityLink id={value.entityId} /> : formatFactValue(value, entity, name)}</span>)}</>;
@@ -20,15 +21,20 @@ export function EntityPage({ type }: { type: EntityType }) {
   if (!entity) return <><PageHeading title="条目未找到" description="该条目不存在，或链接中的名称有误。" /><Empty description="没有对应数据" /><Link to={entityLists[type]}>返回{entityTypes[type]}目录</Link></>;
   const strategy = recipes.find(recipe => recipe.entityId === entity.id);
   const summarized = type === "recipe" ? ["base-price", "base-selling-price", "sell-price", "base-taste", "taste", "base-servings", "max-price", "max-taste", "max-servings", "highest-sell-price", "highest-taste"] : type === "staff" ? ["base-cooking", "base-serving", "base-procurement", "base-appeal", "max-cooking", "max-serving", "max-procurement", "max-appeal", "cooking", "serving", "procurement", "appeal", "hiring-cost", "wage", "manager-rank", "tier"] : [];
-  const facts = getDisplayFacts(entity).filter(f => !summarized.some(field => f.labelId === `field/${field}`));
+  const hiddenRecipeFields = [
+    "max-level",
+  ];
+  const facts = getDisplayFacts(entity).filter(f =>
+    !(entity.type === "recipe" && hiddenRecipeFields.some(field => f.labelId === `field/${field}`)) &&
+    !summarized.some(field => f.labelId === `field/${field}`));
   return <>
     <Breadcrumb items={[{ title: <Link to="/">概览</Link> }, { title: <Link to={entityLists[type]}>{entityTypes[type]}数据库</Link> }, { title: name(entity.id) }]} />
     <PageHeading eyebrow={`${entityTypes[type]} / ${entity.en}`} title={name(entity.id)} description={`本地资料 · ${database.metadata.importedAt} 导入`} />
     {entity.inferred && <Alert type="info" showIcon title="由菜谱用料建立的食材条目" description="来源网站未提供独立食材页，以下关联根据菜谱及鱼类记录整理。" />}
-    {entity.type === "recipe" && <Card title="售价、口感与份数" className="catalog-detail-card">
+    {entity.type === "recipe" && <Card title="基础数据" className="catalog-detail-card">
       <Table pagination={false} rowKey="level" size="small" dataSource={[
         { level: "基础", price: entity.stats.basePrice, taste: entity.stats.baseTaste, servings: entity.stats.baseServings },
-        { level: "满级", price: entity.stats.maxPrice, taste: entity.stats.maxTaste, servings: entity.stats.maxServings },
+        { level: entity.stats.maxLevel != null ? `满级（${entity.stats.maxLevel}）` : "满级", price: entity.stats.maxPrice, taste: entity.stats.maxTaste, servings: entity.stats.maxServings },
       ]} columns={[
         { title: "等级", dataIndex: "level" }, { title: "每份售价", dataIndex: "price", render: v => statText(v, " G") },
         { title: "口感", dataIndex: "taste", render: v => statText(v) }, { title: "每批份数", dataIndex: "servings", render: v => statText(v) },
@@ -49,8 +55,13 @@ export function EntityPage({ type }: { type: EntityType }) {
       <h3 className="catalog-subheading">{name("field/skills")}</h3>
       {entity.skills.length ? <Descriptions bordered column={1} size="small" items={entity.skills.map((skill, index) => ({ key: index, label: name(skill.name), children: name(skill.description) }))} /> : <Empty description="来源未提供技能" />}
     </Card>}
-    <Card title={type === "recipe" || type === "staff" ? "解锁与其他信息" : "游戏数据"} className="catalog-detail-card">
-      {facts.length ? <Descriptions bordered column={1} size="small" items={facts.map((f, i) => ({ key: i, label: name(f.labelId), children: <FactContent values={f.values} entity={entity} /> }))} /> : <p className="muted">来源未提供其他独立属性数据。</p>}
+    <Card title={type === "recipe" ? "其他信息" : type === "staff" ? "解锁与其他信息" : "游戏数据"} className="catalog-detail-card">
+      {facts.length ? <Descriptions bordered column={1} size="small" items={facts.map((f, i) => ({
+        key: i, label: name(f.labelId),
+        children: entity.type === "recipe" && f.labelId === "field/event"
+          ? <Space wrap>{entity.event?.map(event => <Link key={event} to={partyUrl(event)}>{partyNames[event] ?? event}</Link>)}</Space>
+          : <FactContent values={f.values} entity={entity} />,
+      }))} /> : <p className="muted">来源未提供其他独立属性数据。</p>}
     </Card>
     {entity.type === "fish" && !!entity.drops?.length && <Card title={name("field/drops")} className="catalog-detail-card">
       <div className="catalog-related">{entity.drops.map((drop, index) => {

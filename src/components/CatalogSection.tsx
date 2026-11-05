@@ -6,6 +6,7 @@ import type { Entity, EntityType } from "../catalog";
 import { EntityLink } from "./EntityLink";
 import { formatNumber } from "../utils/formatNumber";
 import { getRegions, matchesRegion, regionFilter } from "../regions";
+import { matchesParty, partyFilter, partyNames } from "../events";
 
 export const statText = (value: number | null | undefined, suffix = "") => value == null ? "未提供" : `${formatNumber(value)}${suffix}`;
 
@@ -13,7 +14,8 @@ export function CatalogSection({ type }: { type: EntityType }) {
   const [params, setParams] = useSearchParams();
   const term = params.get("name") ?? "";
   const region = type === "fish" ? regionFilter(params.get("region")) : "all";
-  const kind = type === "recipe" || type === "staff" ? params.get("kind") ?? "all" : "all";
+  const party = type === "recipe" ? partyFilter(params.get("event")) : "all";
+  const kind = type === "staff" ? params.get("kind") ?? "all" : "all";
   const set = (key: string, value: string) => setParams(current => {
     const next = new URLSearchParams(current);
     if (!value || value === "all") next.delete(key); else next.set(key, value);
@@ -23,7 +25,8 @@ export function CatalogSection({ type }: { type: EntityType }) {
   const entries: Entity[] = type === "recipe" ? database.recipes : type === "ingredient" ? database.ingredients : type === "fish" ? database.fish : database.staff;
   const data = entries.filter(e => searchable(e).includes(term.trim().toLocaleLowerCase()) &&
     matchesRegion(e, region) &&
-    (kind === "all" || (kind === "multiple" ? (e.stats.maxServings ?? 0) > 1 : kind === "simple" ? e.type === "recipe" && e.ingredients.length === 1 : kind === "taste" ? (e.stats.maxTaste ?? 0) >= 375 : e.facets.tier === kind)));
+    matchesParty(e, party) &&
+    (kind === "all" || e.facets.tier === kind));
   if (type === "fish") {
     data.sort((a, b) => (a.stats.marincaCardNumber ?? Number.MAX_SAFE_INTEGER) - (b.stats.marincaCardNumber ?? Number.MAX_SAFE_INTEGER));
   }
@@ -32,7 +35,7 @@ export function CatalogSection({ type }: { type: EntityType }) {
     { title: `${entityTypes[type]} / 英文名`, key: "name", width: 245, render: (_: unknown, e: Entity) => <div><strong><EntityLink id={e.id} /></strong><small className="catalog-en">{e.en}</small></div> },
     ...(type === "recipe" ? [
       { title: "基础售价", key: "basePrice", render: (_: unknown, e: Entity) => statText(e.stats.basePrice, " G"), sorter: (a: Entity, b: Entity) => (a.stats.basePrice ?? -1) - (b.stats.basePrice ?? -1) },
-      { title: "满级售价", key: "maxPrice", render: (_: unknown, e: Entity) => statText(e.stats.maxPrice, " G"), sorter: (a: Entity, b: Entity) => (a.stats.maxPrice ?? -1) - (b.stats.maxPrice ?? -1) },
+      { title: "满级售价", key: "maxPrice", defaultSortOrder: "descend" as const, render: (_: unknown, e: Entity) => statText(e.stats.maxPrice, " G"), sorter: (a: Entity, b: Entity) => (a.stats.maxPrice ?? -1) - (b.stats.maxPrice ?? -1) },
       { title: "满级口感 / 份数", key: "portions", render: (_: unknown, e: Entity) => `${statText(e.stats.maxTaste)} / ${statText(e.stats.maxServings)}` },
       { title: "每批用料", key: "ingredients", width: 290, render: (_: unknown, e: Entity) => <div className="ingredient-mini">{e.type === "recipe" && e.ingredients.map((i, index) => <span key={`${i.ingredientId}-${index}`}><EntityLink id={i.ingredientId} /> ×{i.quantity ?? "?"}</span>)}</div> },
     ] : type === "staff" ? [
@@ -54,11 +57,11 @@ export function CatalogSection({ type }: { type: EntityType }) {
   return <div className="catalog-section">
     <div className="inline-toolbar catalog-toolbar">
       <CompositionInput aria-label={`搜索${entityTypes[type]}数据库`} placeholder="搜索中文名、英文名或原料…" allowClear value={term} onValueChange={value => set("name", value)} />
-      {type === "recipe" && <Select aria-label="数据库菜谱筛选" value={kind} onChange={value => set("kind", value)} options={[
-        { value: "all", label: "全部菜谱" }, { value: "multiple", label: "多份料理" }, { value: "simple", label: "单一原料" }, { value: "taste", label: "满级口感 ≥ 375" },
-      ]} />}
       {type === "fish" && <Select aria-label="鱼类区域筛选" value={region} onChange={value => set("region", value)} options={[{ value: "all", label: "全部区域" }, ...getRegions(entries).map(value => ({ value, label: name(value) }))]} />}
       {type === "staff" && <Select aria-label="员工评级筛选" value={kind} onChange={value => set("kind", value)} options={[{ value: "all", label: "全部评级" }, ...[...new Set(entries.map(e => e.facets.tier).filter((v): v is string => !!v))].map(value => ({ value, label: name(value) }))]} />}
+      {type === "recipe" && <Select aria-label="派对筛选" value={party} onChange={value => set("event", value)} options={[
+        { value: "all", label: "全部派对" }, ...Object.entries(partyNames).map(([value, label]) => ({ value, label })),
+      ]} />}
       <span className="muted small">{data.length} / {entries.length} 条</span>
     </div>
     <Table rowKey="id" dataSource={data} columns={columns} scroll={{ x: type === "recipe" || type === "staff" ? 1050 : 800 }}

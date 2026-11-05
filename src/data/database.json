@@ -44,7 +44,7 @@
       "acquisition-method": {
         "text": "Cooksta Platinum Rank"
       },
-      "event": "curry"
+      "event": ["curry"]
     },
     {
       "id": "recipe/bluefin-tuna-rice-bowl",
@@ -89,7 +89,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/crystal-lobster-roll",
@@ -130,7 +130,7 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/ice-fish-curry",
@@ -171,7 +171,7 @@
       "acquisition-method": {
         "text": "Train Drae to Level 15"
       },
-      "event": "curry"
+      "event": ["curry"]
     },
     {
       "id": "recipe/moray-eel-curry",
@@ -208,7 +208,7 @@
       "acquisition-method": {
         "text": "Cooksta Silver Rank"
       },
-      "event": "curry"
+      "event": ["curry"]
     },
     {
       "id": "recipe/seadragon-onigiri",
@@ -236,8 +236,6 @@
         "maxTaste": 470,
         "baseServings": 1,
         "maxServings": 1,
-        "ingredientCost": 35,
-        "estimatedProfit": 70,
         "maxLevel": 10
       },
       "facets": {},
@@ -275,9 +273,7 @@
         "maxTaste": 390,
         "baseServings": 1,
         "maxServings": 1,
-        "maxLevel": 10,
-        "ingredientCost": 61,
-        "estimatedProfit": 314
+        "maxLevel": 10
       },
       "facets": {},
       "acquisition-method": {
@@ -328,7 +324,7 @@
       "acquisition-method": {
         "text": "Train Jandi to Level 15"
       },
-      "event": "curry"
+      "event": ["curry"]
     },
     {
       "id": "recipe/antarctic-octopus-carpaccio",
@@ -587,7 +583,7 @@
       "acquisition-method": {
         "text": "Complete Spicy Pepper Seeds!"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/lobster-platter",
@@ -629,7 +625,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/peacock-squid-ripieni",
@@ -945,15 +941,13 @@
         "baseTaste": 29,
         "maxTaste": 290,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 43,
-        "estimatedProfit": 86
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/american-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/barrel-jellyfish-sushi",
@@ -979,15 +973,13 @@
         "baseTaste": 16,
         "maxTaste": 160,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 5,
-        "estimatedProfit": 10
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/barrel-jellyfish"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/blue-lobster-sushi",
@@ -1013,15 +1005,13 @@
         "baseTaste": 32,
         "maxTaste": 320,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 47,
-        "estimatedProfit": 94
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/blue-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/box-jellyfish-sushi",
@@ -1047,15 +1037,13 @@
         "baseTaste": 27,
         "maxTaste": 270,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 18,
-        "estimatedProfit": 37
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/box-jellyfish"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/california-spiny-lobster-sushi",
@@ -1081,15 +1069,13 @@
         "baseTaste": 28,
         "maxTaste": 280,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 22,
-        "estimatedProfit": 44
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/california-spiny-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/comb-jelly-sushi",
@@ -1115,15 +1101,13 @@
         "baseTaste": 25,
         "maxTaste": 250,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 14,
-        "estimatedProfit": 31
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/comb-jelly"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/cooked-whiteleg-shrimp-sushi",
@@ -1148,15 +1132,13 @@
         "baseTaste": 22,
         "maxTaste": 220,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 11,
-        "estimatedProfit": 24
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/whiteleg-shrimp"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/cookiecutter-shark-sushi",
@@ -1182,15 +1164,13 @@
         "baseTaste": 27,
         "maxTaste": 270,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 25,
-        "estimatedProfit": 50
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/cookiecutter-shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/crystal-lobster-sushi",
@@ -1216,15 +1196,13 @@
         "baseTaste": 34,
         "maxTaste": 340,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 47,
-        "estimatedProfit": 94
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/crystal-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/dollocaris-ingens-sushi",
@@ -1250,15 +1228,13 @@
         "baseTaste": 41,
         "maxTaste": 410,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 45,
-        "estimatedProfit": 90
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/dollocaris-ingens"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/eastern-rock-lobster-sushi",
@@ -1284,15 +1260,13 @@
         "baseTaste": 39,
         "maxTaste": 390,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 47,
-        "estimatedProfit": 94
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/eastern-rock-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/european-lobster-sushi",
@@ -1318,15 +1292,13 @@
         "baseTaste": 25,
         "maxTaste": 250,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 23,
-        "estimatedProfit": 46
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/european-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/falcatus-sushi",
@@ -1352,15 +1324,13 @@
         "baseTaste": 38,
         "maxTaste": 380,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 43,
-        "estimatedProfit": 87
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/falcatus"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/fan-lobster-sushi",
@@ -1386,15 +1356,13 @@
         "baseTaste": 30,
         "maxTaste": 300,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 22,
-        "estimatedProfit": 44
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/fan-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/fried-egg-jellyfish-sushi",
@@ -1420,15 +1388,13 @@
         "baseTaste": 16,
         "maxTaste": 160,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 5,
-        "estimatedProfit": 10
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/fried-egg-jellyfish"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/norway-lobster-sushi",
@@ -1454,15 +1420,13 @@
         "baseTaste": 33,
         "maxTaste": 330,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 25,
-        "estimatedProfit": 50
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/norway-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/raw-black-tiger-shrimp-sushi",
@@ -1487,15 +1451,13 @@
         "baseTaste": 24,
         "maxTaste": 240,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 17,
-        "estimatedProfit": 33
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/black-tiger-shrimp"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/skewered-cucumber",
@@ -1519,15 +1481,13 @@
         "baseTaste": 160,
         "maxTaste": 340,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 20,
-        "estimatedProfit": 300
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber"
+      "event": ["cucumber"]
     },
     {
       "id": "recipe/tokummia-katalepsis-sushi",
@@ -1553,15 +1513,13 @@
         "baseTaste": 46,
         "maxTaste": 460,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 55,
-        "estimatedProfit": 110
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/tokummia-katalepsis"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/tropical-rock-lobster-sushi",
@@ -1587,15 +1545,13 @@
         "baseTaste": 30,
         "maxTaste": 300,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 45,
-        "estimatedProfit": 90
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/tropical-rock-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/waptia-sushi",
@@ -1621,15 +1577,13 @@
         "baseTaste": 40,
         "maxTaste": 400,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 34,
-        "estimatedProfit": 69
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/waptia-fieldensis"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/white-shrimp-sushi",
@@ -1655,15 +1609,13 @@
         "baseTaste": 28,
         "maxTaste": 280,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 17,
-        "estimatedProfit": 36
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/white-shrimp"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/alaska-pollock-sushi",
@@ -1689,9 +1641,7 @@
         "baseTaste": 38,
         "maxTaste": 380,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 45,
-        "estimatedProfit": 90
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1722,9 +1672,7 @@
         "baseTaste": 36,
         "maxTaste": 360,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 42,
-        "estimatedProfit": 83
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1755,9 +1703,7 @@
         "baseTaste": 36,
         "maxTaste": 360,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 40,
-        "estimatedProfit": 80
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1788,9 +1734,7 @@
         "baseTaste": 34,
         "maxTaste": 340,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 32,
-        "estimatedProfit": 63
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1821,9 +1765,7 @@
         "baseTaste": 35,
         "maxTaste": 350,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 40,
-        "estimatedProfit": 80
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1854,9 +1796,7 @@
         "baseTaste": 24,
         "maxTaste": 240,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 11,
-        "estimatedProfit": 22
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1887,9 +1827,7 @@
         "baseTaste": 18,
         "maxTaste": 180,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 7,
-        "estimatedProfit": 14
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1920,9 +1858,7 @@
         "baseTaste": 19,
         "maxTaste": 190,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 7,
-        "estimatedProfit": 14
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1953,9 +1889,7 @@
         "baseTaste": 15,
         "maxTaste": 150,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 3,
-        "estimatedProfit": 6
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -1986,9 +1920,7 @@
         "baseTaste": 28,
         "maxTaste": 280,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 35,
-        "estimatedProfit": 35
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2019,9 +1951,7 @@
         "baseTaste": 14,
         "maxTaste": 140,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 6,
-        "estimatedProfit": 11
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2051,9 +1981,7 @@
         "baseTaste": 17,
         "maxTaste": 170,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 6,
-        "estimatedProfit": 13
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2083,9 +2011,7 @@
         "baseTaste": 28,
         "maxTaste": 280,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 20,
-        "estimatedProfit": 40
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2116,9 +2042,7 @@
         "baseTaste": 31,
         "maxTaste": 310,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 40,
-        "estimatedProfit": 80
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2149,9 +2073,7 @@
         "baseTaste": 14,
         "maxTaste": 140,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 5,
-        "estimatedProfit": 10
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2200,7 +2122,7 @@
       "acquisition-method": {
         "text": "Train Raptor to Level 5"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/boiled-mantis-shrimp-with-soy-paste",
@@ -2242,7 +2164,7 @@
       "acquisition-method": {
         "text": "Defeat Mantis Shrimp"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/boiled-porbeagle-shark",
@@ -2282,7 +2204,7 @@
       "acquisition-method": {
         "text": "Train Raul to Level 15"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/boiled-sailfish-and-seaweed",
@@ -2326,7 +2248,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Marlin Party"
       },
-      "event": "marlin"
+      "event": ["marlin"]
     },
     {
       "id": "recipe/capelin-sushi",
@@ -2352,9 +2274,7 @@
         "baseTaste": 33,
         "maxTaste": 330,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 15,
-        "estimatedProfit": 30
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2385,9 +2305,7 @@
         "baseTaste": 22,
         "maxTaste": 220,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 12,
-        "estimatedProfit": 23
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2418,9 +2336,7 @@
         "baseTaste": 25,
         "maxTaste": 250,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 8,
-        "estimatedProfit": 16
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2451,9 +2367,7 @@
         "baseTaste": 22,
         "maxTaste": 220,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 25,
-        "estimatedProfit": 10
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2499,7 +2413,7 @@
       "acquisition-method": {
         "entityId": "fish/green-sea-urchin"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/coral-trout-sushi",
@@ -2525,9 +2439,7 @@
         "baseTaste": 17,
         "maxTaste": 170,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 6,
-        "estimatedProfit": 12
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2574,7 +2486,7 @@
       "acquisition-method": {
         "text": "Train Billy to Level 15"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/deep-fried-eggplant-shrimp-meatballs",
@@ -2619,7 +2531,7 @@
       "acquisition-method": {
         "text": "Train Yusuke to Level 15"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/dumbo-octopus-sushi",
@@ -2645,9 +2557,7 @@
         "baseTaste": 33,
         "maxTaste": 330,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 38,
-        "estimatedProfit": 42
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2678,9 +2588,7 @@
         "baseTaste": 20,
         "maxTaste": 200,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 10,
-        "estimatedProfit": 20
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2729,7 +2637,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Shark Party"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/fangtooth-sushi",
@@ -2755,9 +2663,7 @@
         "baseTaste": 26,
         "maxTaste": 260,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 15,
-        "estimatedProfit": 30
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2788,9 +2694,7 @@
         "baseTaste": 33,
         "maxTaste": 330,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 28,
-        "estimatedProfit": 57
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2837,7 +2741,7 @@
       "acquisition-method": {
         "text": "Defeat Goblin Shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/golden-king-crab-sushi",
@@ -2863,9 +2767,7 @@
         "baseTaste": 37,
         "maxTaste": 370,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 45,
-        "estimatedProfit": 90
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2896,9 +2798,7 @@
         "baseTaste": 22,
         "maxTaste": 220,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 6,
-        "estimatedProfit": 14
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -2939,7 +2839,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber"
+      "event": ["cucumber"]
     },
     {
       "id": "recipe/great-spider-crab-curry",
@@ -2979,7 +2879,7 @@
       "acquisition-method": {
         "text": "Train Charlie to Level 15"
       },
-      "event": "curry"
+      "event": ["curry"]
     },
     {
       "id": "recipe/green-humphead-parrotfish-sushi",
@@ -3005,9 +2905,7 @@
         "baseTaste": 23,
         "maxTaste": 230,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 5,
-        "estimatedProfit": 11
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3038,9 +2936,7 @@
         "baseTaste": 17,
         "maxTaste": 170,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 6,
-        "estimatedProfit": 11
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3071,9 +2967,7 @@
         "baseTaste": 34,
         "maxTaste": 340,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 37,
-        "estimatedProfit": 73
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3104,9 +2998,7 @@
         "baseTaste": 18,
         "maxTaste": 180,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 6,
-        "estimatedProfit": 12
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3155,7 +3047,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/humphead-parrotfish-curry",
@@ -3195,7 +3087,7 @@
       "acquisition-method": {
         "text": "Cooksta Platinum Rank"
       },
-      "event": "curry"
+      "event": ["curry"]
     },
     {
       "id": "recipe/hyalonema-tuna-sashimi",
@@ -3236,7 +3128,7 @@
       "acquisition-method": {
         "text": "Complete Trapped in the Glacial Cave"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/ice-fish-sushi",
@@ -3262,9 +3154,7 @@
         "baseTaste": 32,
         "maxTaste": 320,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 32,
-        "estimatedProfit": 63
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3295,9 +3185,7 @@
         "baseTaste": 26,
         "maxTaste": 260,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 3,
-        "estimatedProfit": 6
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3344,7 +3232,7 @@
       "acquisition-method": {
         "text": "Defeat Lusca"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/mackerel-scad-sushi",
@@ -3370,9 +3258,7 @@
         "baseTaste": 15,
         "maxTaste": 150,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 5,
-        "estimatedProfit": 10
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3417,7 +3303,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Marlin Party"
       },
-      "event": "marlin"
+      "event": ["marlin"]
     },
     {
       "id": "recipe/mediterranean-parrotfish-sushi",
@@ -3443,9 +3329,7 @@
         "baseTaste": 14,
         "maxTaste": 140,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 3,
-        "estimatedProfit": 7
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3476,9 +3360,7 @@
         "baseTaste": 40,
         "maxTaste": 400,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 46,
-        "estimatedProfit": 94
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3528,7 +3410,7 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/moray-eel-sushi",
@@ -3554,9 +3436,7 @@
         "baseTaste": 25,
         "maxTaste": 250,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 17,
-        "estimatedProfit": 33
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3587,9 +3467,7 @@
         "baseTaste": 19,
         "maxTaste": 190,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 10,
-        "estimatedProfit": 20
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3620,9 +3498,7 @@
         "baseTaste": 13,
         "maxTaste": 130,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 2,
-        "estimatedProfit": 6
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3653,9 +3529,7 @@
         "baseTaste": 14,
         "maxTaste": 140,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 6,
-        "estimatedProfit": 11
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3686,9 +3560,7 @@
         "baseTaste": 29,
         "maxTaste": 290,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 36,
-        "estimatedProfit": 39
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3719,9 +3591,7 @@
         "baseTaste": 36,
         "maxTaste": 360,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 60,
-        "estimatedProfit": 120
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3765,7 +3635,7 @@
       "acquisition-method": {
         "text": "Defeat Phantom Jellyfish"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/pikaia-sushi",
@@ -3791,9 +3661,7 @@
         "baseTaste": 36,
         "maxTaste": 360,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 38,
-        "estimatedProfit": 77
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3824,9 +3692,7 @@
         "baseTaste": 32,
         "maxTaste": 320,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 30,
-        "estimatedProfit": 60
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3857,9 +3723,7 @@
         "baseTaste": 27,
         "maxTaste": 270,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 20,
-        "estimatedProfit": 40
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3890,9 +3754,7 @@
         "baseTaste": 38,
         "maxTaste": 380,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 40,
-        "estimatedProfit": 80
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3923,9 +3785,7 @@
         "baseTaste": 27,
         "maxTaste": 270,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 12,
-        "estimatedProfit": 23
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3956,9 +3816,7 @@
         "baseTaste": 20,
         "maxTaste": 200,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 3,
-        "estimatedProfit": 7
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -3989,9 +3847,7 @@
         "baseTaste": 15,
         "maxTaste": 150,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 3,
-        "estimatedProfit": 6
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4040,7 +3896,7 @@
       "acquisition-method": {
         "text": "Train Kyoko to Level 15"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/roasted-capelin",
@@ -4080,7 +3936,7 @@
       "acquisition-method": {
         "text": "Train Drae to Level 10"
       },
-      "event": "curry"
+      "event": ["curry"]
     },
     {
       "id": "recipe/roasted-helicoprion-tail",
@@ -4123,7 +3979,7 @@
       "acquisition-method": {
         "text": "Defeat Helicoprion"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/sally-lightfoot-crab-sushi",
@@ -4149,9 +4005,7 @@
         "baseTaste": 32,
         "maxTaste": 320,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 18,
-        "estimatedProfit": 32
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4182,9 +4036,7 @@
         "baseTaste": 23,
         "maxTaste": 230,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 20,
-        "estimatedProfit": 40
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4225,7 +4077,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber"
+      "event": ["cucumber"]
     },
     {
       "id": "recipe/sea-toad-sushi",
@@ -4251,9 +4103,7 @@
         "baseTaste": 23,
         "maxTaste": 230,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 18,
-        "estimatedProfit": 37
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4303,7 +4153,7 @@
       "acquisition-method": {
         "text": "Train James to Level 15"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/seasoned-waptia-fieldensis",
@@ -4347,7 +4197,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber shrimp"
+      "event": ["cucumber", "shrimp"]
     },
     {
       "id": "recipe/shark-karaage",
@@ -4392,7 +4242,7 @@
       "acquisition-method": {
         "text": "Train Itsuki to Level 15"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/snow-crab-sushi",
@@ -4418,9 +4268,7 @@
         "baseTaste": 42,
         "maxTaste": 420,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 40,
-        "estimatedProfit": 80
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4451,9 +4299,7 @@
         "baseTaste": 39,
         "maxTaste": 390,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 60,
-        "estimatedProfit": 120
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4484,9 +4330,7 @@
         "baseTaste": 30,
         "maxTaste": 300,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 17,
-        "estimatedProfit": 34
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4537,7 +4381,7 @@
       "acquisition-method": {
         "text": "Train Drae to Level 5"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/steamed-eastern-rock-lobster-and-egg",
@@ -4577,7 +4421,7 @@
       "acquisition-method": {
         "text": "Complete Chinese Cuisine Contest!, Seasonal Event: Lobster Party"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/striped-catfish-sushi",
@@ -4603,9 +4447,7 @@
         "baseTaste": 26,
         "maxTaste": 260,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 2,
-        "estimatedProfit": 3
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4636,9 +4478,7 @@
         "baseTaste": 25,
         "maxTaste": 250,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 23,
-        "estimatedProfit": 47
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4669,9 +4509,7 @@
         "baseTaste": 20,
         "maxTaste": 200,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 5,
-        "estimatedProfit": 10
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4718,7 +4556,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber"
+      "event": ["cucumber"]
     },
     {
       "id": "recipe/vampire-squid-sushi",
@@ -4744,9 +4582,7 @@
         "baseTaste": 34,
         "maxTaste": 340,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 41,
-        "estimatedProfit": 74
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4785,7 +4621,7 @@
       "acquisition-method": {
         "text": "Defeat Klaus"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/white-trevally-sushi",
@@ -4811,9 +4647,7 @@
         "baseTaste": 19,
         "maxTaste": 190,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 7,
-        "estimatedProfit": 15
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4850,15 +4684,13 @@
         "baseServings": 5,
         "maxServings": 7,
         "flameCost": 3,
-        "maxLevel": 10,
-        "ingredientCost": 46,
-        "estimatedProfit": 29
+        "maxLevel": 10
       },
       "facets": {},
       "acquisition-method": {
         "text": "Complete A Scolding from Yoshie"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/yawie-steamed-meat",
@@ -4892,7 +4724,7 @@
       "acquisition-method": {
         "text": "Defeat Yawie"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/yellow-tang-sushi",
@@ -4918,9 +4750,7 @@
         "baseTaste": 10,
         "maxTaste": 100,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 1,
-        "estimatedProfit": 3
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4951,9 +4781,7 @@
         "baseTaste": 12,
         "maxTaste": 120,
         "baseServings": 1,
-        "maxServings": 1,
-        "ingredientCost": 2,
-        "estimatedProfit": 5
+        "maxServings": 1
       },
       "facets": {},
       "acquisition-method": {
@@ -4999,7 +4827,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Tuna Party"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/agar-tokoroten",
@@ -5232,7 +5060,7 @@
       "acquisition-method": {
         "entityId": "fish/blacktip-reefshark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/blanched-lusca-tentacle",
@@ -5300,7 +5128,7 @@
       "acquisition-method": {
         "entityId": "fish/blood-belly-comb-jellyfish"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/bluefin-tuna-akami-sushi",
@@ -5332,7 +5160,7 @@
       "acquisition-method": {
         "text": "Bluefin Tuna Akami"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/bluefin-tuna-chutoro-sushi",
@@ -5364,7 +5192,7 @@
       "acquisition-method": {
         "text": "Bluefin Tuna Chutoro"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/bluefin-tuna-ootoro-sushi",
@@ -5392,7 +5220,7 @@
         "maxServings": 1
       },
       "facets": {},
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/boiled-yellowback-fusilier",
@@ -5469,7 +5297,7 @@
       "acquisition-method": {
         "text": "Complete Inspirational Chirashi Sushi"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/clione-queen-soup",
@@ -5543,7 +5371,7 @@
       "acquisition-method": {
         "text": "Copper Shark Meat"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/deep-fish-tempura",
@@ -5588,7 +5416,7 @@
       "acquisition-method": {
         "text": "Complete Whose Fried food is the Best?"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/deep-fried-red-lionfish",
@@ -5716,7 +5544,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber"
+      "event": ["cucumber"]
     },
     {
       "id": "recipe/deep-sea-kaiju-ramen",
@@ -5755,7 +5583,7 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/dried-stingray",
@@ -5871,7 +5699,7 @@
       "acquisition-method": {
         "entityId": "fish/dunkleosteus"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/dusky-grouper-steak",
@@ -5955,7 +5783,7 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/fried-onion-cuttlefish",
@@ -6183,7 +6011,7 @@
       "acquisition-method": {
         "text": "Complete Go to Bancho Sushi"
       },
-      "event": "curry lobster"
+      "event": ["curry", "lobster"]
     },
     {
       "id": "recipe/green-sea-urchin-and-cucumber-salad",
@@ -6222,7 +6050,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "cucumber"
+      "event": ["cucumber"]
     },
     {
       "id": "recipe/greenland-shark-sushi",
@@ -6254,7 +6082,7 @@
       "acquisition-method": {
         "entityId": "fish/greenland-shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/haddock-acqua-pazza",
@@ -6342,7 +6170,7 @@
       "acquisition-method": {
         "text": "Complete Let Us Begin the Contest"
       },
-      "event": "shrimp"
+      "event": ["shrimp"]
     },
     {
       "id": "recipe/latok-omelet",
@@ -6415,7 +6243,7 @@
       "acquisition-method": {
         "entityId": "fish/long-nose-saw-shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/mackerel-scad-hotdog",
@@ -6486,7 +6314,7 @@
       "acquisition-method": {
         "entityId": "fish/marlin"
       },
-      "event": "marlin"
+      "event": ["marlin"]
     },
     {
       "id": "recipe/megamouth-shark-sushi",
@@ -6518,7 +6346,7 @@
       "acquisition-method": {
         "entityId": "fish/megamouth-shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/narrow-barred-spanish-mackerel-arancini",
@@ -6687,7 +6515,7 @@
       "acquisition-method": {
         "text": "Seasonal Event: Cucumber Party"
       },
-      "event": "cucumber"
+      "event": ["cucumber"]
     },
     {
       "id": "recipe/plotosid-pie",
@@ -6762,7 +6590,7 @@
       "acquisition-method": {
         "entityId": "fish/porbeagle-shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/red-banded-lobster-sushi",
@@ -6794,7 +6622,7 @@
       "acquisition-method": {
         "entityId": "fish/red-banded-lobster"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/rice-with-great-spider-crab-meat",
@@ -6949,7 +6777,7 @@
       "acquisition-method": {
         "entityId": "fish/sailfish"
       },
-      "event": "marlin"
+      "event": ["marlin"]
     },
     {
       "id": "recipe/salt-grilled-redtoothed-triggerfish",
@@ -7019,15 +6847,13 @@
         "maxTaste": 280,
         "baseServings": 1,
         "maxServings": 1,
-        "maxLevel": 10,
-        "ingredientCost": 20,
-        "estimatedProfit": 205
+        "maxLevel": 10
       },
       "facets": {},
       "acquisition-method": {
         "text": "Complete Gourmet Vincent's Challenge"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/seagrapes-special-sushi",
@@ -7313,7 +7139,7 @@
       "acquisition-method": {
         "entityId": "fish/shortfin-mako"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/smoked-atlantic-mackerel-scramble",
@@ -7384,7 +7210,7 @@
       "acquisition-method": {
         "entityId": "fish/smooth-hammerhead"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/steamed-hyalonema-angler-fish",
@@ -7546,6 +7372,7 @@
     },
     {
       "id": "recipe/stir-fried-habanero-lobster",
+      "event": ["lobster"],
       "type": "recipe",
       "en": "Stir-fried Habanero Lobster",
       "sourceUrls": [
@@ -7735,7 +7562,7 @@
       "acquisition-method": {
         "entityId": "fish/thresher-shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/tiger-shark-sushi",
@@ -7767,7 +7594,7 @@
       "acquisition-method": {
         "entityId": "fish/tiger-shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/trevally-nanbanzuke",
@@ -7888,7 +7715,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "lobster"
+      "event": ["lobster"]
     },
     {
       "id": "recipe/truffle-sailfish-tartare",
@@ -7928,7 +7755,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "marlin"
+      "event": ["marlin"]
     },
     {
       "id": "recipe/truffle-shark-sandwich",
@@ -7969,7 +7796,7 @@
       "acquisition-method": {
         "text": "Jango Secret Recipe"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/warm-atlantic-mackerel-soba",
@@ -8039,15 +7866,13 @@
         "maxTaste": 180,
         "baseServings": 1,
         "maxServings": 1,
-        "maxLevel": 10,
-        "ingredientCost": 6,
-        "estimatedProfit": 12
+        "maxLevel": 10
       },
       "facets": {},
       "acquisition-method": {
         "entityId": "fish/white-spotted-jellyfish"
       },
-      "event": "jellyfish"
+      "event": ["jellyfish"]
     },
     {
       "id": "recipe/white-trevally-kombu-ochazuke",
@@ -8119,7 +7944,7 @@
       "acquisition-method": {
         "entityId": "fish/whitetip-reefshark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/yellowfin-tuna-akami-sushi",
@@ -8151,7 +7976,7 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Akami"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/yellowfin-tuna-chutoro-sushi",
@@ -8183,7 +8008,7 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Chutoro"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/yellowfin-tuna-ootoro-sushi",
@@ -8215,7 +8040,7 @@
       "acquisition-method": {
         "text": "Yellowfin Tuna Ootoro"
       },
-      "event": "tuna"
+      "event": ["tuna"]
     },
     {
       "id": "recipe/zebra-shark-sushi",
@@ -8246,7 +8071,7 @@
       "acquisition-method": {
         "entityId": "fish/zebra-shark"
       },
-      "event": "shark"
+      "event": ["shark"]
     },
     {
       "id": "recipe/aurora-jellyfish-sushi",
@@ -8939,6 +8764,7 @@
     },
     {
       "id": "recipe/frilled-shark-sushi",
+      "event": ["shark"],
       "type": "recipe",
       "en": "Frilled Shark Sushi",
       "sourceUrls": [
@@ -9925,6 +9751,7 @@
     },
     {
       "id": "recipe/rhinochimaeridae-sushi",
+      "event": ["shark"],
       "type": "recipe",
       "en": "Rhinochimaeridae Sushi",
       "sourceUrls": [
@@ -10779,14 +10606,9 @@
         "maxTaste": null,
         "baseServings": 1,
         "maxServings": null,
-        "maxLevel": 10,
-        "servingsPerPlate": 1,
-        "servingTime": 19,
-        "researchCost": 0,
-        "repeatResearchTaste": 0
+        "maxLevel": 10
       },
       "facets": {
-        "unlockRequirements": "text/426bf9db215a"
       }
     },
     {
@@ -10813,9 +10635,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 17,
-        "estimatedProfit": 55
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -10843,9 +10663,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 7
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -10873,9 +10691,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 8
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -10903,9 +10719,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 11,
-        "estimatedProfit": 31
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -10933,9 +10747,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 15,
-        "estimatedProfit": 45
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -10963,9 +10775,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 3,
-        "estimatedProfit": 2
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -10993,9 +10803,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 4
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11023,9 +10831,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 6
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11053,9 +10859,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 3,
-        "estimatedProfit": 2
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11083,9 +10887,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 18,
-        "estimatedProfit": 57
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11113,9 +10915,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 10,
-        "estimatedProfit": 26
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11143,9 +10943,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 3,
-        "estimatedProfit": 3
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11173,9 +10971,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 6
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11203,9 +10999,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 13,
-        "estimatedProfit": 37
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11234,9 +11028,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 1,
-        "estimatedProfit": 1
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11264,9 +11056,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 7
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11295,9 +11085,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 1,
-        "estimatedProfit": 1
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11325,9 +11113,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 20,
-        "estimatedProfit": 65
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11355,9 +11141,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 8,
-        "estimatedProfit": 19
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11385,9 +11169,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 41
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11415,9 +11197,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 5,
-        "estimatedProfit": 8
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11445,9 +11225,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 10,
-        "estimatedProfit": 30
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11475,9 +11253,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 11,
-        "estimatedProfit": 31
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11505,9 +11281,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 5,
-        "estimatedProfit": 8
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11535,9 +11309,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 16,
-        "estimatedProfit": 49
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11565,9 +11337,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 12,
-        "estimatedProfit": 34
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11608,9 +11378,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 31,
-        "estimatedProfit": 59
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11638,9 +11406,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 19,
-        "estimatedProfit": 61
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11668,9 +11434,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 12,
-        "estimatedProfit": 33
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11698,9 +11462,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 10,
-        "estimatedProfit": 26
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11728,9 +11490,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 41
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11758,9 +11518,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 41
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11788,9 +11546,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 10,
-        "estimatedProfit": 30
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11818,9 +11574,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 42
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11848,9 +11602,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 17,
-        "estimatedProfit": 55
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11886,9 +11638,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 26,
-        "estimatedProfit": 89
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11916,9 +11666,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 9,
-        "estimatedProfit": 26
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11946,9 +11694,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 9,
-        "estimatedProfit": 26
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -11976,9 +11722,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 13,
-        "estimatedProfit": 38
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12006,9 +11750,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 9,
-        "estimatedProfit": 22
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12036,9 +11778,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 17,
-        "estimatedProfit": 53
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12066,9 +11806,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 3,
-        "estimatedProfit": 2
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12096,9 +11834,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 42
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12126,9 +11862,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 3,
-        "estimatedProfit": 3
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12156,9 +11890,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 42
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12186,9 +11918,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 7
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12215,8 +11945,7 @@
         "baseTaste": 45,
         "maxTaste": 450,
         "baseServings": 1,
-        "maxServings": null,
-        "platesPerServing": 1
+        "maxServings": null
       },
       "facets": {}
     },
@@ -12244,9 +11973,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 7,
-        "estimatedProfit": 18
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12274,9 +12001,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 10,
-        "estimatedProfit": 30
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12304,9 +12029,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 3,
-        "estimatedProfit": 4
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12334,9 +12057,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 5,
-        "estimatedProfit": 9
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12364,9 +12085,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 6
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12394,9 +12113,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 5
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12424,9 +12141,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 13,
-        "estimatedProfit": 37
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12454,9 +12169,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 5,
-        "estimatedProfit": 8
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12484,9 +12197,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 4
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12514,9 +12225,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 8
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12544,9 +12253,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 11,
-        "estimatedProfit": 30
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12574,9 +12281,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 20,
-        "estimatedProfit": 65
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12604,9 +12309,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 19,
-        "estimatedProfit": 59
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12634,9 +12337,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 44
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12664,9 +12365,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 19,
-        "estimatedProfit": 59
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12694,9 +12393,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 12,
-        "estimatedProfit": 35
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12724,9 +12421,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 3,
-        "estimatedProfit": 4
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12754,9 +12449,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 12,
-        "estimatedProfit": 33
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12784,9 +12477,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 11,
-        "estimatedProfit": 30
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12814,9 +12505,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 44
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12844,9 +12533,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 43
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12874,9 +12561,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 42
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12904,9 +12589,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 7
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12934,9 +12617,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 3,
-        "estimatedProfit": 2
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12964,9 +12645,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 12,
-        "estimatedProfit": 36
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -12994,9 +12673,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 8,
-        "estimatedProfit": 21
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13024,9 +12701,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 16,
-        "estimatedProfit": 49
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13054,9 +12729,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 14,
-        "estimatedProfit": 43
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13084,9 +12757,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 5,
-        "estimatedProfit": 9
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13114,9 +12785,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 18,
-        "estimatedProfit": 57
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13144,9 +12813,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 12,
-        "estimatedProfit": 35
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13174,9 +12841,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 16,
-        "estimatedProfit": 49
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13204,9 +12869,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 5
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13234,9 +12897,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 4,
-        "estimatedProfit": 4
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13264,9 +12925,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 17,
-        "estimatedProfit": 55
+        "maxLevel": 10
       },
       "facets": {}
     },
@@ -13292,9 +12951,7 @@
         "maxTaste": null,
         "baseServings": null,
         "maxServings": null,
-        "maxLevel": 10,
-        "ingredientCost": 13,
-        "estimatedProfit": 40
+        "maxLevel": 10
       },
       "facets": {}
     },
