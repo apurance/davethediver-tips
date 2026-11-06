@@ -1,4 +1,4 @@
-import { App as AntApp, Drawer, Space, Tag, Switch, Button } from "antd";
+import { App as AntApp, Drawer, Space, Tag, Button } from "antd";
 import { useGuideState } from "./hooks/useGuideState";
 import { Sidebar } from "./components/layout/Sidebar";
 import { Topbar } from "./components/layout/Topbar";
@@ -26,8 +26,6 @@ function GuideApp() {
     setSavedOnly,
     saved,
     searchRef,
-    spoilers,
-    setSpoilers,
   } = state;
   const sidebar = (
     <Sidebar
@@ -68,15 +66,6 @@ function GuideApp() {
                 本体为主
               </Tag>
               <span className="muted small">资料核对 2026.10.09</span>
-            </Space>
-            <Space>
-              <span className="muted small">Boss 身份与打法剧透</span>
-              <Switch
-                aria-label="显示Boss剧透"
-                checked={spoilers}
-                onChange={setSpoilers}
-                size="small"
-              />
             </Space>
           </div>
           <Outlet context={state} />

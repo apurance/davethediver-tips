@@ -15,10 +15,8 @@ function recipeIngredientId(id: string, index: number) {
 
 export function RecipeSection({
   phase,
-  onPlan,
 }: {
   phase: string;
-  onPlan: (id: string) => void;
 }) {
   const [kind, setKind] = useState("all");
   const [compare, setCompare] = useState<string[]>(["tropical", "crimson"]);
@@ -112,15 +110,6 @@ export function RecipeSection({
               </div>
             ),
           },
-          {
-            title: "备菜",
-            key: "action",
-            render: (_, r) => (
-              <Button size="small" onClick={() => onPlan(r.id)}>
-                计算
-              </Button>
-            ),
-          },
         ]}
       />
       <div className="section-heading">
@@ -171,19 +160,7 @@ export function RecipeSection({
         open={!!detail}
         title={detail?.name}
         onCancel={() => setDetail(null)}
-        footer={
-          detail ? (
-            <Button
-              type="primary"
-              onClick={() => {
-                onPlan(detail.id);
-                setDetail(null);
-              }}
-            >
-              用这道菜计算备货
-            </Button>
-          ) : null
-        }
+        footer={null}
         width={650}
       >
         {detail && (

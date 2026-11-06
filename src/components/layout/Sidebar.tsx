@@ -5,10 +5,8 @@ import {
   ShopOutlined,
   TeamOutlined,
   ExperimentOutlined,
-  CalendarOutlined,
   StarOutlined,
   ExportOutlined,
-  ToolOutlined,
   FileSearchOutlined,
 } from "@ant-design/icons";
 import type { SectionId } from "../../data";
@@ -26,11 +24,8 @@ const icons = [
   <TeamOutlined />,
   <ExperimentOutlined />,
   <ExperimentOutlined />,
-  <ThunderboltOutlined />,
-  <CalendarOutlined />,
   <StarOutlined />,
   <ExportOutlined />,
-  <ToolOutlined />,
   <FileSearchOutlined />,
 ];
 

@@ -6,7 +6,6 @@ import {
   TeamOutlined,
   ShopOutlined,
   ExperimentOutlined,
-  CalendarOutlined,
   StarOutlined,
   BulbOutlined,
 } from "@ant-design/icons";
@@ -58,13 +57,6 @@ export function OverviewPage({
             >
               开始阅读 <ArrowRightOutlined />
             </Button>
-            <Button
-              size="large"
-              className="hero-secondary"
-              onClick={() => navigate("tools")}
-            >
-              规划今晚菜单
-            </Button>
           </Space>
           <div className="hero-foot">
             <span /> 非官方中文攻略 · 推荐均附适用条件
@@ -81,7 +73,7 @@ export function OverviewPage({
       </div>
       <div className="metric-grid">
         <Card>
-          <Statistic title="子系统专题" value={10} suffix="类" />
+          <Statistic title="子系统专题" value={8} suffix="类" />
           <small>从推进路线到扩展玩法</small>
         </Card>
         <Card>
@@ -141,14 +133,6 @@ export function OverviewPage({
             tag: "SUPPLY",
             text: "目标种鱼至少留两条，日产量决定可持续菜单。",
             hint: "保种 · 农田 · 海藻 · 蟹笼",
-          },
-          {
-            id: "events",
-            icon: <CalendarOutlined />,
-            name: "活动与任务",
-            tag: "CALENDAR",
-            text: "派对前倒排备货，VIP 请求优先打开新功能。",
-            hint: "主题加成 · 原料安全库存",
           },
           {
             id: "collection",

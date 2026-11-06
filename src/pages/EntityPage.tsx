@@ -7,7 +7,6 @@ import type { DisplayFactValue } from "../facts";
 import { EntityLink } from "../components/EntityLink";
 import { statText } from "../components/CatalogSection";
 import { PageHeading } from "../components/PageHeading";
-import { recipes } from "../data";
 import { partyNames, partyUrl } from "../events";
 
 const primaryFishFields = ["field/level", "field/marinca-card-number", "field/region", "field/active-time"];
@@ -21,7 +20,6 @@ export function EntityPage({ type }: { type: EntityType }) {
   const requestedId = `${type}/${slug}`;
   const entity = getEntity(requestedId);
   if (!entity) return <><PageHeading title="条目未找到" description="该条目不存在，或链接中的名称有误。" /><Empty description="没有对应数据" /><Link to={entityLists[type]}>返回{entityTypes[type]}目录</Link></>;
-  const strategy = recipes.find(recipe => recipe.entityId === entity.id);
   const summarized = type === "recipe" ? ["base-price", "base-selling-price", "sell-price", "base-taste", "taste", "base-servings", "max-price", "max-taste", "max-servings", "highest-sell-price", "highest-taste"] : type === "staff" ? ["base-cooking", "base-serving", "base-procurement", "base-appeal", "max-cooking", "max-serving", "max-procurement", "max-appeal", "cooking", "serving", "procurement", "appeal", "hiring-cost", "wage", "manager-rank", "tier"] : [];
   const hiddenRecipeFields = [
     "max-level",
@@ -45,7 +43,6 @@ export function EntityPage({ type }: { type: EntityType }) {
       ]} />
       <h3 className="catalog-subheading">每批用料</h3>
       {entity.ingredients.length ? <div className="catalog-ingredients">{entity.ingredients.map((i, index) => <div key={`${i.ingredientId}-${index}`}><div><EntityLink id={i.ingredientId} /><small className="catalog-en">{getEntity(i.ingredientId)?.en}</small></div><strong>× {i.quantity ?? "未提供数量"}</strong></div>)}</div> : <Empty description="来源未提供用料" />}
-      {strategy && <Link className="catalog-tab catalog-tab-active" to={`/tools?recipe=${strategy.id}`}>计算备货</Link>}
     </Card>}
     {entity.type === "staff" && <Card title="员工属性" className="catalog-detail-card">
       {entity.facets.tier && <div className="catalog-skills"><Tag color="cyan">{name(entity.facets.tier)}</Tag></div>}

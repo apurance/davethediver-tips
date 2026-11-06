@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useMemo } from "react";
 import type { SectionId, Phase } from "../data";
-import { sections, articles, recipes } from "../data";
+import { sections, articles } from "../data";
 import { useSaved } from "./useSaved";
 import type { InputRef } from "antd";
 import { useLocation, useMatches, useNavigate, useSearchParams } from "react-router";
@@ -10,7 +10,7 @@ import { searchCatalog } from "../catalog";
 export function useGuideState() {
   const location = useLocation();
   const routerNavigate = useNavigate();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const matches = useMatches();
   const route = matches[matches.length - 1];
   const page = (route.handle as { section?: SectionId } | undefined)?.section;
@@ -24,9 +24,6 @@ export function useGuideState() {
   const query = isSearching ? searchParams.get("q") ?? "" : "";
   const savedOnly = route.id === "bookmarks";
   const [mobile, setMobile] = useState(false);
-  const calcRecipe =
-    recipes.find((recipe) => recipe.id === searchParams.get("recipe"))?.id ??
-    "tropical";
   const searchRef = useRef<InputRef>(null);
   const returnTo = typeof location.state?.returnTo === "string"
     ? location.state.returnTo
@@ -47,16 +44,6 @@ export function useGuideState() {
     routerNavigate(value ? "/bookmarks" : returnTo, {
       state: value ? { returnTo: backgroundPath } : null,
     });
-  };
-  const setCalcRecipe = (id: string) => {
-    setSearchParams(
-      (current) => {
-        const next = new URLSearchParams(current);
-        next.set("recipe", id);
-        return next;
-      },
-      { replace: true },
-    );
   };
   const navigate = (id: SectionId) => {
     routerNavigate(sectionPath(id));
@@ -106,10 +93,6 @@ export function useGuideState() {
   };
   const searchMode = isSearching || savedOnly;
   const matchedCatalog = !savedOnly && query.trim() ? searchCatalog(query) : [];
-  const plan = (id: string) => {
-    routerNavigate(`/tools?${new URLSearchParams({ recipe: id })}`);
-    setMobile(false);
-  };
 
   return {
     page,
@@ -124,8 +107,6 @@ export function useGuideState() {
     setSavedOnly,
     mobile,
     setMobile,
-    calcRecipe,
-    setCalcRecipe,
     searchRef,
     navigate,
     toggle,
@@ -133,7 +114,6 @@ export function useGuideState() {
     active,
     searchMode,
     matchedCatalog,
-    plan,
   };
 }
 

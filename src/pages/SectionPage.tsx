@@ -1,8 +1,7 @@
-import { Alert, Card, Empty, Button, Tabs } from "antd";
+import { Card, Empty, Tabs } from "antd";
 import { useState } from "react";
 import { CatalogSection } from "../components/CatalogSection";
 import { database } from "../catalog";
-import { ArrowRightOutlined } from "@ant-design/icons";
 import type { SectionId } from "../data";
 import { ArticleCard } from "../components/ArticleCard";
 import { CrewPlanner } from "../components/CrewPlanner";
@@ -12,7 +11,7 @@ import { RecipeSection } from "../components/RecipeSection";
 import { useGuideContext } from "../hooks/useGuideContext";
 
 export function SectionPage({ section: page }: { section: SectionId }) {
-  const { phase, plan, spoilers, filtered, saved, toggle, navigate } = useGuideContext();
+  const { phase, filtered, saved, toggle } = useGuideContext();
   const [tab, setTab] = useState("database");
   const hasDatabase = page === "recipes" || page === "staff";
   const showGuide = !hasDatabase || tab === "guide";
@@ -25,7 +24,7 @@ export function SectionPage({ section: page }: { section: SectionId }) {
       ]} />}
       {hasDatabase && tab === "database" && <CatalogSection key={page} type={page === "recipes" ? "recipe" : "staff"} />}
       {showGuide && page === "recipes" && (
-        <RecipeSection phase={phase} onPlan={plan} />
+        <RecipeSection phase={phase} />
       )}
       {showGuide && page === "staff" && <CrewPlanner />}
       {page === "progression" && (
@@ -35,14 +34,6 @@ export function SectionPage({ section: page }: { section: SectionId }) {
             下方按阶段给出推进路线。解锁由任务进度驱动，游戏天数会因玩法不同而变化。
           </p>
         </Card>
-      )}
-      {page === "bosses" && !spoilers && (
-        <Alert
-          type="info"
-          showIcon
-          title="Boss 身份与具体打法已隐藏"
-          description="打开右上角的剧透开关即可显示。开关只隐藏标记的 Boss 卡片，不屏蔽装备、地区和系统解锁信息。"
-        />
       )}
       {showGuide && <div className="article-grid detail-articles">
         {filtered
@@ -57,17 +48,7 @@ export function SectionPage({ section: page }: { section: SectionId }) {
           ))}
       </div>}
       {showGuide && !filtered.some((a) => a.section === page) && (
-        <Empty description="此阶段没有可见条目，请切换全部阶段或开启 Boss 剧透。" />
-      )}
-      {page === "farm" && (
-        <Card title="供应是否跟得上？">
-          <p>
-            把养殖、农田与派遣的实际日产量输入计算器，找出最短缺的一种原料。
-          </p>
-          <Button type="primary" onClick={() => navigate("tools")}>
-            打开供给计算器 <ArrowRightOutlined />
-          </Button>
-        </Card>
+        <Empty description="此阶段没有可见条目，请切换全部阶段。" />
       )}
     </>
   );
