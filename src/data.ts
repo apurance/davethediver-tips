@@ -1,5 +1,4 @@
-import strategyRecipes from "./data/strategy-recipes.json";
-import { getEntity, name, translateText } from "./catalog";
+import { name } from "./catalog";
 
 export type Phase = "early" | "mid" | "late";
 export const phases = { early: "新手起步", mid: "中期成型", late: "后期优化" };
@@ -30,7 +29,7 @@ export const sections = [
   },
   {
     id: "recipes",
-    title: "菜谱与经营",
+    title: "菜谱",
     en: "MENU ENGINEERING",
     desc: "一份食材能做几盘，比菜名是否稀有更重要。",
   },
@@ -789,34 +788,6 @@ export const articles: Article[] = [
   },
 ];
 
-export interface Recipe {
-  entityId: string;
-  id: string;
-  name: string;
-  en: string;
-  phase: Phase;
-  role: string;
-  base: number;
-  max: number;
-  taste: number;
-  servings: number;
-  ingredients: [string, number][];
-  unlock: string;
-  constraint: string;
-  source: string;
-  portions: number[];
-  prices: number[];
-}
-export const recipes: Recipe[] = strategyRecipes.map(recipe => ({
-  ...recipe,
-  role: translateText(recipe.role),
-  unlock: translateText(recipe.unlock),
-  constraint: translateText(recipe.constraint),
-  phase: recipe.phase as Phase,
-  name: name(recipe.entityId),
-  en: getEntity(recipe.entityId)?.en ?? "",
-  ingredients: recipe.ingredients.map(([id, quantity]) => [name(String(id)), Number(quantity)] as [string, number]),
-}));
 export const dailyTasks = [
   {
     id: "mail",

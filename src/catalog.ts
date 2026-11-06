@@ -62,9 +62,6 @@ export function name(id: string) {
   const entity = getEntity(id);
   return names[id] ?? entity?.en ?? id;
 }
-export function translateText(text: string) {
-  return text.replace(/\{\{([^{}]+)\}\}/g, (_, id: string) => name(id));
-}
 export const entityTypes: Record<EntityType, string> = { recipe: "食谱", ingredient: "食材", fish: "鱼类", staff: "员工" };
 export const entityLists: Record<EntityType, string> = { recipe: "/recipes", ingredient: "/ingredients", fish: "/fish", staff: "/staff" };
 export function getRelatedGroups(entity: Entity): { type: EntityType; ids: string[] }[] {

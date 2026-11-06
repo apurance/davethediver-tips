@@ -11,7 +11,7 @@ import {
 } from "@ant-design/icons";
 import { OceanArt } from "../components/OceanArt";
 import { PhaseFilter } from "../components/PhaseFilter";
-import { articles, recipes } from "../data";
+import { articles } from "../data";
 import { FlowDiagram } from "../components/FlowDiagram";
 import { DailyChecklist } from "../components/DailyChecklist";
 import { ArticleCard } from "../components/ArticleCard";
@@ -86,11 +86,11 @@ export function OverviewPage({
         </Card>
         <Card>
           <Statistic
-            title="代表性菜谱"
-            value={recipes.length}
+            title="菜谱数据库"
+            value={database.recipes.length}
             suffix="道"
           />
-          <small>各级售价 / 份数可查</small>
+          <small>基础与满级售价 / 份数可查</small>
         </Card>
       </div>
       <div className="section-heading">
@@ -220,4 +220,4 @@ export function OverviewPage({
     </>
   );
 }
-import { name } from "../catalog";
+import { database, name } from "../catalog";

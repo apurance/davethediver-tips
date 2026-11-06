@@ -49,7 +49,6 @@ pnpm test     # 使用 Node 内置 test runner 验证经营模型（Node 22.18+�
 - `src/data.ts`：攻略、资料、代表菜谱的显示适配与清单。
 - `src/data/database.json`：食谱、食材、鱼类、员工属性和稳定 ID 关联。
 - `src/data/names.zh-CN.json`：中文名称和译文的唯一维护入口。
-- `src/data/strategy-recipes.json`：七道代表菜谱的经营用途与已核对等级曲线。
 - `src/catalog.ts`：统一名称读取、关联解析和数据库搜索。
 - `src/facts.ts`：属性数值、单位、模板格式化与每公斤价值的运行时计算。
 - `scripts/`：地图导出等辅助工具，不参与应用运行。
@@ -58,7 +57,6 @@ pnpm test     # 使用 Node 内置 test runner 验证经营模型（Node 22.18+�
 - `src/pages/`：各路由页面。
 - `src/components/`：布局与功能组件。
 - `src/hooks/`：路由导航、搜索、收藏、本地保存与共享页面状态。
-- `src/calculations.ts`：经营与供给计算逻辑。
 - `src/styles.css`：布局、主题、手机与打印样式。
 - `src/pages/MapsPage.tsx`、`src/components/DeepSeaMap.tsx`：深海地图交互及 SVG 渲染。
 - `src/data/deep-sea-terrain.json`：两份共用地形，每份为 64 × 69 方格；`#` 为岩石、`.` 为水域、`p` 为原图紫色岩层。

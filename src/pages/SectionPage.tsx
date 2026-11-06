@@ -7,25 +7,21 @@ import { ArticleCard } from "../components/ArticleCard";
 import { CrewPlanner } from "../components/CrewPlanner";
 import { FlowDiagram } from "../components/FlowDiagram";
 import { PageHeading } from "../components/PageHeading";
-import { RecipeSection } from "../components/RecipeSection";
 import { useGuideContext } from "../hooks/useGuideContext";
 
 export function SectionPage({ section: page }: { section: SectionId }) {
-  const { phase, filtered, saved, toggle } = useGuideContext();
+  const { filtered, saved, toggle } = useGuideContext();
   const [tab, setTab] = useState("database");
   const hasDatabase = page === "recipes" || page === "staff";
-  const showGuide = !hasDatabase || tab === "guide";
+  const showGuide = !hasDatabase || (page === "staff" && tab === "guide");
   return (
     <>
       <PageHeading filter={showGuide} />
-      {hasDatabase && <Tabs activeKey={tab} onChange={setTab} items={[
-        { key: "database", label: `全部${page === "recipes" ? "食谱" : "员工"} · ${page === "recipes" ? database.recipes.length : database.staff.length}` },
-        { key: "guide", label: page === "recipes" ? "经营建议与对比" : "配队与分店建议" },
+      {page === "staff" && <Tabs activeKey={tab} onChange={setTab} items={[
+        { key: "database", label: `全部员工 · ${database.staff.length}` },
+        { key: "guide", label: "配队与分店建议" },
       ]} />}
-      {hasDatabase && tab === "database" && <CatalogSection key={page} type={page === "recipes" ? "recipe" : "staff"} />}
-      {showGuide && page === "recipes" && (
-        <RecipeSection phase={phase} />
-      )}
+      {hasDatabase && !showGuide && <CatalogSection key={page} type={page === "recipes" ? "recipe" : "staff"} />}
       {showGuide && page === "staff" && <CrewPlanner />}
       {page === "progression" && (
         <Card className="timeline-card">
