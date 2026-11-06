@@ -15822,9 +15822,6 @@
         "size": "text/8bc868b54922",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "harvest-source": {
-        "text": "fish"
       }
     },
     {
@@ -19328,9 +19325,6 @@
         "size": "text/c8242d4e2db7",
         "behavior": "text/ad14cad5a8ba",
         "knockbackResistance": "text/b5141d3d19e9"
-      },
-      "harvest-source": {
-        "text": "fish"
       }
     },
     {
@@ -19963,9 +19957,6 @@
       ],
       "facets": {
         "time": "time/0b97c851e4a7"
-      },
-      "harvest-source": {
-        "text": "fish"
       }
     },
     {
@@ -24486,9 +24477,6 @@
       ],
       "facets": {
         "time": "time/6fa7e15a01ab"
-      },
-      "harvest-source": {
-        "text": "Ruby Deposit"
       }
     },
     {
@@ -25885,7 +25873,6 @@
         "purchasePriceJango": 170
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -25913,7 +25900,6 @@
         "rank": 2
       },
       "facets": {
-        "gatheringSource": "text/43786205d026"
       },
       "region": []
     },
@@ -25946,7 +25932,6 @@
         "purchasePriceJango": 106
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -25978,7 +25963,6 @@
         "purchasePriceJango": 148
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -26009,7 +25993,6 @@
         "purchasePriceOtto": 200
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -26045,7 +26028,6 @@
         "purchasePriceJango": 63
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -26076,7 +26058,6 @@
         "purchasePriceJango": 178
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -26108,7 +26089,6 @@
         "purchasePriceJango": 161
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -26141,7 +26121,6 @@
         "rank": 2
       },
       "facets": {
-        "gatheringSource": "text/43786205d026"
       },
       "region": []
     },
@@ -26172,7 +26151,6 @@
         "purchasePriceJango": 170
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -26213,7 +26191,6 @@
         "purchasePrice": 150
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -26248,7 +26225,6 @@
         "rank": 2
       },
       "facets": {
-        "gatheringSource": "text/43786205d026"
       },
       "region": []
     },
@@ -26339,7 +26315,6 @@
         "purchasePriceOtto": 185
       },
       "facets": {
-        "gatheringSource": "text/660af5fdf8cd"
       },
       "region": []
     },
@@ -26394,7 +26369,6 @@
         "rank": 3
       },
       "facets": {
-        "gatheringSource": "text/43786205d026"
       },
       "region": []
     },
@@ -26708,10 +26682,7 @@
       "region": [
         "region/blue-hole-shallows"
       ],
-      "facets": {},
-      "harvest-source": {
-        "text": "gumo"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/grade-a-egg",
@@ -26739,10 +26710,7 @@
         "buyGoldJango": 382
       },
       "facets": {},
-      "region": [],
-      "harvest-source": {
-        "text": "otto"
-      }
+      "region": []
     },
     {
       "id": "ingredient/kelp",
@@ -26773,10 +26741,7 @@
       "region": [
         "region/blue-hole-medium-depth"
       ],
-      "facets": {},
-      "harvest-source": {
-        "text": "gumo"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/klauss-fin",
@@ -26799,9 +26764,6 @@
       ],
       "facets": {
         "time": "text/b77ea2b347b8"
-      },
-      "harvest-source": {
-        "text": "Great White Shark Klaus"
       }
     },
     {
@@ -26832,10 +26794,7 @@
       "facets": {},
       "region": [
         "region/blue-hole-shallows"
-      ],
-      "harvest-source": {
-        "text": "gumo"
-      }
+      ]
     },
     {
       "id": "ingredient/southern-bull-kelp",
@@ -26860,10 +26819,7 @@
       "facets": {},
       "region": [
         "region/glacial-area"
-      ],
-      "harvest-source": {
-        "text": "gumo"
-      }
+      ]
     },
     {
       "id": "ingredient/wheat",
@@ -26897,10 +26853,7 @@
         "buyGoldJango": 161
       },
       "facets": {},
-      "region": [],
-      "harvest-source": {
-        "text": "otto"
-      }
+      "region": []
     },
     {
       "id": "ingredient/whitetip-reefshark-head",
@@ -26925,11 +26878,7 @@
       "region": [
         "region/blue-hole-shallows"
       ],
-      "facets": {},
-      "harvest-source": {
-        "nameId": "fish/whitetip-reefshark",
-        "entityId": "fish/whitetip-reefshark"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/whitetip-reefshark-meat",
@@ -26953,11 +26902,7 @@
       "region": [
         "region/blue-hole-shallows"
       ],
-      "facets": {},
-      "harvest-source": {
-        "nameId": "fish/whitetip-reefshark",
-        "entityId": "fish/whitetip-reefshark"
-      }
+      "facets": {}
     },
     {
       "id": "ingredient/bladderwrack",
@@ -27006,10 +26951,7 @@
       "facets": {},
       "region": [
         "region/hydrothermal-vents"
-      ],
-      "harvest-source": {
-        "text": "gumo"
-      }
+      ]
     },
     {
       "id": "ingredient/chili-pepper",
@@ -27154,10 +27096,7 @@
         "buyGoldJango": 153
       },
       "facets": {},
-      "region": [],
-      "harvest-source": {
-        "text": "otto"
-      }
+      "region": []
     },
     {
       "id": "ingredient/helicoprion-tail",
@@ -27875,10 +27814,7 @@
         "rank": 8
       },
       "facets": {},
-      "region": [],
-      "harvest-source": {
-        "text": "Weedy Seadragon, Leafy Seadragon, Ruby Seadragon"
-      }
+      "region": []
     },
     {
       "id": "ingredient/bluefin-tuna-chutoro",

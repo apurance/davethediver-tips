@@ -79,9 +79,6 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
   if ((entity.type === "recipe" || entity.type === "ingredient") && entity["acquisition-method"]) {
     append("acquisition-method", [entity["acquisition-method"]]);
   }
-  if ((entity.type === "fish" || entity.type === "ingredient") && entity["harvest-source"]) {
-    append("harvest-source", [entity["harvest-source"]]);
-  }
   if (entity.type === "recipe" && entity.event?.length) append("event", entity.event.map(event => ({ text: partyNames[event] ?? event })));
   if (entity.type === "staff" && entity.occupation !== undefined) append("occupation", [{ text: entity.occupation }]);
   for (const [field, stat] of [...statFields[entity.type], ...additionalStatFields[entity.type]]) {
