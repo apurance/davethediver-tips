@@ -16,6 +16,9 @@
 .catalog-tab { display: inline-block; padding: 7px 16px; border: 1px solid #cfdddf; border-radius: 6px; background: white; }
 .catalog-tab-active, .catalog-tab-active:hover { background: #087f8c; border-color: #087f8c; color: white; }
 .catalog-detail-card { margin-bottom: 20px; }
+.fish-detail-facts .ant-descriptions-view > table { table-layout: fixed; }
+.fish-detail-facts .ant-descriptions-item-label { width: 160px; overflow-wrap: anywhere; }
+.fish-detail-facts .ant-descriptions-item-content { overflow-wrap: anywhere; }
 .catalog-subheading { margin-top: 24px; }
 .catalog-ingredients { display: grid; gap: 12px; margin-bottom: 24px; }
 .catalog-ingredients > div { display: flex; gap: 16px; justify-content: space-between; max-width: 480px; }
@@ -24,6 +27,7 @@
 .catalog-back { margin-top: 24px; }
 .catalog-search-results { margin-bottom: 30px; }
 @media (max-width: 600px) {
+  .fish-detail-facts .ant-descriptions-item-label { width: 120px; }
   .catalog-toolbar .ant-input-affix-wrapper { width: 100%; }
   .catalog-toolbar .ant-select { width: 100%; }
   .catalog-related { grid-template-columns: 1fr; }

@@ -10,6 +10,8 @@ import { PageHeading } from "../components/PageHeading";
 import { recipes } from "../data";
 import { partyNames, partyUrl } from "../events";
 
+const primaryFishFields = ["field/level", "field/marinca-card-number", "field/region", "field/active-time"];
+
 function FactContent({ values, entity }: { values: DisplayFactValue[]; entity: Entity }) {
   return <>{values.map((value, index) => <span key={index}>{index > 0 ? " " : ""}{value.entityId ? <EntityLink id={value.entityId} /> : formatFactValue(value, entity, name)}</span>)}</>;
 }
@@ -24,7 +26,9 @@ export function EntityPage({ type }: { type: EntityType }) {
   const hiddenRecipeFields = [
     "max-level",
   ];
-  const facts = getDisplayFacts(entity).filter(f =>
+  const displayFacts = getDisplayFacts(entity);
+  const facts = displayFacts.filter(f =>
+    !(entity.type === "fish" && primaryFishFields.includes(f.labelId)) &&
     !(entity.type === "recipe" && hiddenRecipeFields.some(field => f.labelId === `field/${field}`)) &&
     !summarized.some(field => f.labelId === `field/${field}`));
   return <>
@@ -55,8 +59,19 @@ export function EntityPage({ type }: { type: EntityType }) {
       <h3 className="catalog-subheading">{name("field/skills")}</h3>
       {entity.skills.length ? <Descriptions bordered column={1} size="small" items={entity.skills.map((skill, index) => ({ key: index, label: name(skill.name), children: name(skill.description) }))} /> : <Empty description="来源未提供技能" />}
     </Card>}
-    <Card title={type === "recipe" ? "其他信息" : type === "staff" ? "解锁与其他信息" : "游戏数据"} className="catalog-detail-card">
-      {facts.length ? <Descriptions bordered column={1} size="small" items={facts.map((f, i) => ({
+    {entity.type === "fish" && <Card title="主要数据" className="catalog-detail-card">
+      <Descriptions className="fish-detail-facts" bordered column={1} size="small" items={primaryFishFields.map(labelId => {
+        const fact = displayFacts.find(f => f.labelId === labelId);
+        return {
+          key: labelId, label: name(labelId),
+          children: labelId === "field/region" && entity.region?.length
+            ? <Space wrap>{entity.region.map(region => <Link key={region} to={`/fish?${new URLSearchParams({ region })}`}>{name(region)}</Link>)}</Space>
+            : fact ? <FactContent values={fact.values} entity={entity} /> : "未提供",
+        };
+      })} />
+    </Card>}
+    <Card title={type === "recipe" ? "其他信息" : type === "staff" ? "解锁与其他信息" : type === "fish" ? "次要数据" : "游戏数据"} className="catalog-detail-card">
+      {facts.length ? <Descriptions className={type === "fish" ? "fish-detail-facts" : undefined} bordered column={1} size="small" items={facts.map((f, i) => ({
         key: i, label: name(f.labelId),
         children: entity.type === "recipe" && f.labelId === "field/event"
           ? <Space wrap>{entity.event?.map(event => <Link key={event} to={partyUrl(event)}>{partyNames[event] ?? event}</Link>)}</Space>
@@ -72,7 +87,15 @@ export function EntityPage({ type }: { type: EntityType }) {
     {getRelatedGroups(entity).map(group => {
       const entries = group.ids.map(getEntity).filter((e): e is Entity => !!e && e.type === group.type);
       return entries.length ? <Card key={group.type} title={group.type === "recipe" ? `可制作食谱 · ${entries.length}` : `关联${entityTypes[group.type]} · ${entries.length}`} className="catalog-detail-card">
-        <div className="catalog-related">{entries.map(e => <div key={e.id}><EntityLink id={e.id} /><small className="catalog-en">{e.en}</small></div>)}</div>
+        <div className="catalog-related">{entries.map(e => <div key={e.id}>
+          <Space wrap>
+            <EntityLink id={e.id} />
+            {entity.type === "fish" && e.type === "recipe" && <span aria-label="满级售价 × 满级份数">
+              {e.stats.maxPrice ?? "未提供"} × {e.stats.maxServings ?? "未提供"}
+            </span>}
+          </Space>
+          <small className="catalog-en">{e.en}</small>
+        </div>)}</div>
       </Card> : null;
     })}
     <p className="muted small">基础数值及中文名沿用来源网站；派生数值根据当前基础数据计算。来源：</p>
