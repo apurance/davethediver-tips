@@ -1,4 +1,4 @@
-import { name } from "./catalog";
+import { name } from "./catalog.ts";
 
 export type Phase = "early" | "mid" | "late";
 export const phases = { early: "新手起步", mid: "中期成型", late: "后期优化" };

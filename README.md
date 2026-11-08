@@ -42,7 +42,7 @@ pnpm dev
 
 正式站点由 **Cloudflare Pages** 托管，推送到本仓库的 `main` 分支后自动构建和部署。
 
-项目可作为纯静态网站部署：执行 `pnpm build`，发布 `dist/`，并为前端路由配置 `index.html` 回退。Cloudflare 的版本设置及其他静态服务器配置见 [部署指南](docs/deployment.md)。
+项目可作为纯静态网站部署。执行 `pnpm build` 后发布 `dist/`，并配置无扩展名的页面路由。Cloudflare 的版本设置及其他静态服务器配置见 [部署指南](docs/deployment.md)。
 
 ## 文档与贡献
 

@@ -1,7 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { seoPages } from "./scripts/vite-seo.ts";
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), seoPages()],
   // Research HTML files are inputs to offline scripts, not application entries.
   optimizeDeps: { entries: ["index.html"] },
   server: {

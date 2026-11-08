@@ -208,6 +208,7 @@ kbd {
 }
 .global-search {
   max-width: 380px;
+  min-width: 0;
   margin-left: auto;
   background: #f5f8f9 !important;
   border-color: #e9eef0 !important;
@@ -222,9 +223,18 @@ kbd {
   color: #7a909d;
   white-space: nowrap;
 }
+.topbar-actions {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 4px;
+}
+.save-label,
+.github-label {
+  font-size: 12px;
+}
 .save-label {
   padding-right: 12px;
-  font-size: 12px;
 }
 .mobile-menu {
   display: none;
@@ -1046,8 +1056,13 @@ footer .mono {
   .global-search kbd {
     display: none;
   }
-  .save-label {
+  .save-label,
+  .github-label {
     display: none;
+  }
+  .topbar-actions .github-link {
+    width: 32px;
+    padding-inline: 0;
   }
   .page-controls {
     gap: 8px;

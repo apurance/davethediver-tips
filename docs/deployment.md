@@ -44,14 +44,15 @@ pnpm preview
 
 项目使用 React Router 的 Browser History 路由。除了首页，还需要支持直接访问、刷新 `/maps`、`/fish/tiger-shark` 等子页面。
 
-Cloudflare Pages 在没有顶层 `404.html` 时默认启用 SPA 回退，当前构建符合这一条件，无需添加 Functions。详情见 [Pages 的 SPA 路由说明](https://developers.cloudflare.com/pages/configuration/serving-pages/#single-page-application-spa-rendering)。
+构建会为各路由生成独立的 HTML 元数据，同时生成 `sitemap.xml` 和 `robots.txt`。Cloudflare Pages 直接提供 `/maps`、`/fish/tiger-shark` 等无扩展名的 URL，并使用顶层 `404.html` 响应不存在的路径。详情见 [Pages 的静态页面路由说明](https://developers.cloudflare.com/pages/configuration/serving-pages/)。
 
-其他静态服务器需要将不存在的文件路径回退到 `index.html`，同时保留真实静态资源请求。例如 Nginx：
+其他静态服务器也应优先查找对应的 `.html` 文件，并以 HTTP 404 提供错误页。例如 Nginx：
 
 ```nginx
 location / {
-  try_files $uri $uri/ /index.html;
+  try_files $uri $uri.html $uri/ =404;
 }
+error_page 404 /404.html;
 ```
 
 发布后检查首页、直接打开详情页、刷新子页面，以及带查询参数的地图链接，例如 [`/maps?type=B&layout=03`](https://davethediver-tips.pages.dev/maps?type=B&layout=03)。

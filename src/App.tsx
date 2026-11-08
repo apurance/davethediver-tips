@@ -1,10 +1,18 @@
 import { App as AntApp, Drawer, Space, Tag, Button } from "antd";
+import { useEffect } from "react";
 import { useGuideState } from "./hooks/useGuideState";
 import { Sidebar } from "./components/layout/Sidebar";
 import { Topbar } from "./components/layout/Topbar";
-import { Outlet, ScrollRestoration } from "react-router";
+import { Outlet, ScrollRestoration, useLocation } from "react-router";
+import { getPageMetadata, renderPageMetadata } from "./routing/seo";
 
 export default function App() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    document.head.querySelectorAll("[data-page-seo]").forEach((tag) => tag.remove());
+    document.head.insertAdjacentHTML("beforeend", renderPageMetadata(getPageMetadata(pathname)));
+  }, [pathname]);
+
   return (
     <AntApp>
       <GuideApp />

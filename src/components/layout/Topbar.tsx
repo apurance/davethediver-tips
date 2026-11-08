@@ -2,7 +2,7 @@ import type { Ref } from "react";
 import type { InputRef } from "antd";
 import { Button, Tooltip, Badge } from "antd";
 import { CompositionInput } from "../CompositionInput";
-import { MenuOutlined, SearchOutlined, HeartOutlined } from "@ant-design/icons";
+import { GithubOutlined, MenuOutlined, SearchOutlined, HeartOutlined } from "@ant-design/icons";
 
 interface TopbarProps {
   title: string;
@@ -49,18 +49,31 @@ export function Topbar({
         value={query}
         onValueChange={setQuery}
       />
-      <Tooltip title="只看收藏的攻略">
+      <div className="topbar-actions">
+        <Tooltip title="只看收藏的攻略">
+          <Button
+            type={savedOnly ? "primary" : "text"}
+            icon={<HeartOutlined />}
+            aria-label="查看收藏"
+            onClick={() => setSavedOnly(!savedOnly)}
+          >
+            <Badge count={savedCount} size="small" color="#087f8c">
+              <span className="save-label">收藏</span>
+            </Badge>
+          </Button>
+        </Tooltip>
         <Button
-          type={savedOnly ? "primary" : "text"}
-          icon={<HeartOutlined />}
-          aria-label="查看收藏"
-          onClick={() => setSavedOnly(!savedOnly)}
+          className="github-link"
+          type="text"
+          href="https://github.com/apurance/davethediver-tips"
+          target="_blank"
+          rel="noopener noreferrer"
+          icon={<GithubOutlined />}
+          aria-label="在 GitHub 查看开源代码（新标签页）"
         >
-          <Badge count={savedCount} size="small" color="#087f8c">
-            <span className="save-label">收藏</span>
-          </Badge>
+          <span className="github-label">GitHub</span>
         </Button>
-      </Tooltip>
+      </div>
     </header>
   );
 }
