@@ -7,7 +7,11 @@ export const stores = ["main", "branch"] as const;
 export type Store = typeof stores[number];
 export const storeNames = { main: "主店", branch: "分店" };
 export const partyIds = Object.keys(partyNames);
-export interface DishAllocation { id: string; recipeId: string; servings: number; batchServings: number | null }
+export const maxAllocationBatches = 9999;
+interface DishRow { id: string; recipeId: string }
+interface LegacyDishAllocation extends DishRow { servings: number; batchServings: number | null }
+export interface BatchDishAllocation extends DishRow { batches: number | null; legacyServings?: number }
+export type DishAllocation = LegacyDishAllocation | BatchDishAllocation;
 export interface MenuAllocation { inheritDaily: boolean; dishes: DishAllocation[] }
 export type StoreMenus = Record<Store, MenuAllocation>;
 export interface AllocationPlan {
@@ -35,13 +39,22 @@ function readMenus(value: unknown, inherit: boolean): StoreMenus {
     result[store].inheritDaily = inherit && slot.inheritDaily === true;
     if (!Array.isArray(slot.dishes)) continue;
     const ids = new Set<string>();
-    result[store].dishes = slot.dishes.filter(row => row && typeof row.id === "string" &&
-      typeof row.recipeId === "string" && integer(row.servings, 0, 9999) &&
-      (row.batchServings === null || integer(row.batchServings, 1, 999))).map((row, index) => {
+    result[store].dishes = slot.dishes.flatMap((row, index): DishAllocation[] => {
+      if (!row || typeof row.id !== "string" || typeof row.recipeId !== "string") return [];
+      const { recipeId } = row;
         let id = row.id;
         while (!id || ids.has(id)) id = `${id}-${store}-${index}`;
+      let dish: DishAllocation;
+      if ("batches" in row) {
+        if (integer(row.batches, 0, maxAllocationBatches)) dish = { id, recipeId, batches: row.batches };
+        else if (row.batches === null && integer(row.legacyServings, 1, 9999)) dish = { id, recipeId, batches: null, legacyServings: row.legacyServings };
+        else return [];
+      } else {
+        if (!integer(row.servings, 0, 9999) || (row.batchServings !== null && !integer(row.batchServings, 1, 999))) return [];
+        dish = { id, recipeId, servings: row.servings, batchServings: row.batchServings };
+      }
         ids.add(id);
-        return { id, recipeId: row.recipeId, servings: row.servings, batchServings: row.batchServings };
+      return [dish];
       });
   }
   return result;
@@ -63,6 +76,36 @@ export function defaultBatchServings(recipe: RecipeEntity): number | null {
   const count = recipe.stats.maxServings;
   return count != null && integer(count, 1, 999) ? count : null;
 }
+export function recipeBatchServings(recipeId: string): number | null {
+  const recipe = getEntity(recipeId);
+  return recipe?.type === "recipe" ? defaultBatchServings(recipe) : null;
+}
+export function menuBatches(dishes: DishAllocation[]): BatchDishAllocation[] {
+  const legacyTotals = new Map<string, number>();
+  return dishes.map(row => {
+    if ("batches" in row) return row;
+    const { id, recipeId, servings } = row;
+    if (servings === 0) return { id, recipeId, batches: 0 };
+    const perBatch = recipeBatchServings(recipeId);
+    if (perBatch === null) return { id, recipeId, batches: null, legacyServings: servings };
+    // Old menus rounded the combined servings for each recipe once per store.
+    const previous = legacyTotals.get(recipeId) ?? 0;
+    const total = previous + servings;
+    legacyTotals.set(recipeId, total);
+    return { id, recipeId, batches: Math.ceil(total / perBatch) - Math.ceil(previous / perBatch) };
+  });
+}
+export function menuOutput(dishes: DishAllocation[]): { servings: number; incomplete: boolean } {
+  let servings = 0;
+  let incomplete = false;
+  for (const { recipeId, batches } of menuBatches(dishes)) {
+    if (batches === 0) continue;
+    const perBatch = recipeBatchServings(recipeId);
+    if (batches === null || perBatch === null) incomplete = true;
+    else servings += batches * perBatch;
+  }
+  return { servings, incomplete };
+}
 export function resolvedMenu(plan: AllocationPlan, scenario: string, store: Store): DishAllocation[] {
   if (scenario === "daily") return plan.daily[store].dishes;
   const slot = plan.parties[scenario]?.[store];
@@ -74,29 +117,19 @@ export interface DemandResult { rows: MaterialDemand[]; warnings: string[] }
 export function menuDemand(dishes: DishAllocation[], context: string): { amounts: Map<string, number>; warnings: string[] } {
   const amounts = new Map<string, number>();
   const warnings: string[] = [];
-  // Identical recipes in one kitchen share batches; two kitchens round independently.
-  const grouped = new Map<string, DishAllocation>();
-  for (const row of dishes) {
-    if (!integer(row.servings, 0, 9999)) { warnings.push(`${context}：供应份数无效。`); continue; }
-    if (row.servings === 0) continue;
-    const key = row.recipeId;
-    const previous = grouped.get(key);
-    grouped.set(key, { ...row, servings: row.servings + (previous?.servings ?? 0) });
-  }
-  for (const row of grouped.values()) {
+  for (const row of menuBatches(dishes)) {
+    if (row.batches === 0) continue;
     if (!row.recipeId) { warnings.push(`${context}：还有菜品未选择。`); continue; }
     const recipe = getEntity(row.recipeId);
     if (!recipe || recipe.type !== "recipe") { warnings.push(`${context}：菜谱 ${name(row.recipeId)} 已失效，请重新选择。`); continue; }
-    const batchServings = defaultBatchServings(recipe);
-    if (batchServings === null) { warnings.push(`${context} · ${name(recipe.id)}：满级出餐份数缺失，尚未计入用料。`); continue; }
+    if (!integer(row.batches, 1, maxAllocationBatches)) { warnings.push(`${context} · ${name(recipe.id)}：请填写有效的制作批数。`); continue; }
     if (!recipe.ingredients.length) warnings.push(`${context} · ${name(recipe.id)}：配方缺失，尚未计入用料。`);
-    const batches = Math.ceil(row.servings / batchServings);
     for (const ingredient of recipe.ingredients) {
       if (ingredient.quantity === null || !Number.isFinite(ingredient.quantity) || ingredient.quantity < 0) {
         warnings.push(`${context} · ${name(recipe.id)}：${name(ingredient.ingredientId)} 的配方数量缺失，合计不完整。`);
         continue;
       }
-      amounts.set(ingredient.ingredientId, (amounts.get(ingredient.ingredientId) ?? 0) + batches * ingredient.quantity);
+      amounts.set(ingredient.ingredientId, (amounts.get(ingredient.ingredientId) ?? 0) + row.batches * ingredient.quantity);
     }
   }
   return { amounts, warnings };

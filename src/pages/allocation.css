@@ -3,6 +3,15 @@
 .allocation-toolbar p { margin: 0; }
 .allocation-scenario { width: 200px; }
 .allocation-jump-links { display: flex; flex-wrap: wrap; gap: 10px 18px; padding: 14px 0; margin-bottom: 20px; border-block: 1px solid #dbe5e8; font-size: 13px; }
+.allocation-summary { margin-bottom: 24px; }
+.allocation-summary h2 { margin: 0; font-size: 16px; }
+.allocation-summary table { width: 100%; border-collapse: collapse; table-layout: fixed; text-align: right; font-variant-numeric: tabular-nums; }
+.allocation-summary :is(th, td) { padding: 6px 8px; border-bottom: 1px solid #dbe5e8; overflow-wrap: anywhere; }
+.allocation-summary tr > :first-child { width: 30%; text-align: left; }
+.allocation-summary tbody th { font-weight: normal; }
+.allocation-summary tbody tr:last-child > * { border-bottom: 0; }
+.allocation-summary .allocation-summary-note { margin: 8px 0 0; }
+.allocation-output-pending { font-size: 12px; font-weight: normal; color: #91651c; }
 .allocation-section, #allocation-requirements { scroll-margin-top: 90px; }
 .allocation-section-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
 .allocation-section-heading h2 { font-size: 20px; }
@@ -14,14 +23,16 @@
 .allocation-dishes { display: grid; gap: 16px; margin-bottom: 16px; }
 .allocation-dish { padding: 14px; border: 1px solid #dbe5e8; border-radius: 6px; background: #f8fbfc; }
 .allocation-dish-top { display: flex; align-items: center; gap: 6px; margin-bottom: 14px; }
-.allocation-recipe-select { flex: 1; min-width: 0; }
+.allocation-recipe-picker { flex: 1; min-width: 150px; }
+.allocation-recipe-select { width: 100%; }
 .allocation-dish-fields { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
 .allocation-dish-fields label, .allocation-occurrences label { display: flex; flex-direction: column; gap: 6px; color: #617987; font-size: 12px; }
 .allocation-dish-fields .ant-input-number { width: 100%; }
 .allocation-batches { display: flex; flex-direction: column; justify-content: flex-end; gap: 2px; }
 .allocation-batches strong { color: #087f8c; font-size: 20px; line-height: 1; }
 .allocation-batches span { color: #617987; font-size: 11px; }
-.allocation-filter { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; font-size: 12px; color: #617987; }
+.allocation-filter { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; padding: 8px; border-bottom: 1px solid #dbe5e8; font-size: 12px; color: #617987; }
+.allocation-filter .ant-switch { flex-shrink: 0; }
 .allocation-warning { margin-top: 8px; color: #91651c; }
 .allocation-cycle { margin-bottom: 24px; }
 .allocation-days { display: flex; align-items: center; gap: 16px; margin: 20px 0; }
@@ -51,7 +62,6 @@
 .allocation-dish { padding: 8px; min-width: 410px; }
 .allocation-dish-row { display: flex; align-items: center; gap: 8px; flex-wrap: nowrap; }
 .allocation-dish-row > strong { flex: 1; min-width: 150px; }
-.allocation-dish-row .allocation-recipe-select { min-width: 150px; }
-.allocation-dish-row .allocation-servings { width: 88px; flex: 0 0 88px; }
+.allocation-dish-row .allocation-batch-input { width: 88px; flex: 0 0 88px; }
 .allocation-batch-inline { white-space: nowrap; font-size: 12px; color: #087f8c; }
 .allocation-dish-row .allocation-warning { margin: 0; }
