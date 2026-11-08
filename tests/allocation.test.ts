@@ -25,6 +25,7 @@ test("duplicate recipes in one kitchen share a batch, zero portions do not consu
 
 test("party replaces daily only for customized shop, with precise daily averaging", () => {
   const plan = createAllocationPlan();
+  for (const menus of Object.values(plan.parties)) for (const slot of Object.values(menus)) slot.inheritDaily = true;
   plan.daily.main.dishes = [dish()];
   plan.daily.branch.dishes = [dish()];
   plan.parties.shrimp.main = { inheritDaily: false, dishes: [dish("recipe/seasoned-waptia-fieldensis", 8, 7)] };
@@ -42,6 +43,7 @@ test("party replaces daily only for customized shop, with precise daily averagin
 
 test("empty custom party means no supply; inherited party follows edits to daily", () => {
   const plan = createAllocationPlan();
+  for (const menus of Object.values(plan.parties)) for (const slot of Object.values(menus)) slot.inheritDaily = true;
   plan.daily.main.dishes = [dish()];
   assert.deepEqual(resolvedMenu(plan, "shark", "main"), plan.daily.main.dishes);
   plan.parties.shark.main.inheritDaily = false;
@@ -77,10 +79,10 @@ test("zero event counts and a one-day all-party horizon avoid phantom daily cons
   assert.equal(result.warnings.length, 0);
 });
 
-test("missing recipes and batch size warn instead of fabricating zero-cost meals", () => {
+test("missing recipes warn while legacy batch sizes do not override max servings", () => {
   const result = menuDemand([dish("recipe/missing"), dish(undefined, 1, null), dish("", 1, null)], "test");
-  assert.equal(result.amounts.size, 0);
-  assert.equal(result.warnings.length, 3);
+  assert.equal(result.amounts.get("fish/red-bream"), 3);
+  assert.equal(result.warnings.length, 2);
   const recipe = database.recipes.find(recipe => recipe.ingredients.some(item => item.quantity === null));
   if (recipe) assert.ok(menuDemand([dish(recipe.id)], "test").warnings.length > 0);
 });
@@ -115,4 +117,12 @@ test("saved data handles corruption and preserves selections and unique row keys
   const recipe = database.recipes.find(recipe => recipe.id === "recipe/crimson-fish-roll")!;
   assert.equal(defaultBatchServings(recipe), 9);
   assert.equal(defaultBatchServings({ ...recipe, stats: {} }), null);
+});
+
+
+test("max servings override saved custom batch sizes and merge duplicate recipes", () => {
+  const result = menuDemand([dish(undefined, 4, 1), dish(undefined, 5, 6)], "test");
+  assert.equal(result.amounts.get("fish/red-bream"), 3);
+  assert.equal(result.warnings.length, 0);
+  assert.equal(menuDemand([dish(undefined, 10, 99)], "test").amounts.get("fish/red-bream"), 6);
 });

@@ -22,17 +22,17 @@ const emptyMenus = (inheritDaily: boolean): StoreMenus => ({
 });
 export function createAllocationPlan(): AllocationPlan {
   return { version: 1, days: 40, occurrences: Object.fromEntries(partyIds.map(id => [id, 1])),
-    daily: emptyMenus(false), parties: Object.fromEntries(partyIds.map(id => [id, emptyMenus(true)])) };
+    daily: emptyMenus(false), parties: Object.fromEntries(partyIds.map(id => [id, emptyMenus(false)])) };
 }
 const integer = (value: unknown, min: number, max: number): value is number =>
   typeof value === "number" && Number.isInteger(value) && value >= min && value <= max;
 function readMenus(value: unknown, inherit: boolean): StoreMenus {
-  const result = emptyMenus(inherit);
+  const result = emptyMenus(false);
   if (!value || typeof value !== "object") return result;
   for (const store of stores) {
     const slot = (value as Partial<StoreMenus>)[store];
     if (!slot || typeof slot !== "object") continue;
-    result[store].inheritDaily = inherit && slot.inheritDaily !== false;
+    result[store].inheritDaily = inherit && slot.inheritDaily === true;
     if (!Array.isArray(slot.dishes)) continue;
     const ids = new Set<string>();
     result[store].dishes = slot.dishes.filter(row => row && typeof row.id === "string" &&
@@ -79,7 +79,7 @@ export function menuDemand(dishes: DishAllocation[], context: string): { amounts
   for (const row of dishes) {
     if (!integer(row.servings, 0, 9999)) { warnings.push(`${context}：供应份数无效。`); continue; }
     if (row.servings === 0) continue;
-    const key = `${row.recipeId}:${row.batchServings}`;
+    const key = row.recipeId;
     const previous = grouped.get(key);
     grouped.set(key, { ...row, servings: row.servings + (previous?.servings ?? 0) });
   }
@@ -87,9 +87,10 @@ export function menuDemand(dishes: DishAllocation[], context: string): { amounts
     if (!row.recipeId) { warnings.push(`${context}：还有菜品未选择。`); continue; }
     const recipe = getEntity(row.recipeId);
     if (!recipe || recipe.type !== "recipe") { warnings.push(`${context}：菜谱 ${name(row.recipeId)} 已失效，请重新选择。`); continue; }
-    if (!integer(row.batchServings, 1, 999)) { warnings.push(`${context} · ${name(recipe.id)}：请填写每批份数，尚未计入用料。`); continue; }
+    const batchServings = defaultBatchServings(recipe);
+    if (batchServings === null) { warnings.push(`${context} · ${name(recipe.id)}：满级出餐份数缺失，尚未计入用料。`); continue; }
     if (!recipe.ingredients.length) warnings.push(`${context} · ${name(recipe.id)}：配方缺失，尚未计入用料。`);
-    const batches = Math.ceil(row.servings / row.batchServings);
+    const batches = Math.ceil(row.servings / batchServings);
     for (const ingredient of recipe.ingredients) {
       if (ingredient.quantity === null || !Number.isFinite(ingredient.quantity) || ingredient.quantity < 0) {
         warnings.push(`${context} · ${name(recipe.id)}：${name(ingredient.ingredientId)} 的配方数量缺失，合计不完整。`);

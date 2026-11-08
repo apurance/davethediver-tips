@@ -2,6 +2,11 @@
 .allocation-toolbar, .allocation-results-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
 .allocation-toolbar p { margin: 0; }
 .allocation-scenario { width: 200px; }
+.allocation-jump-links { display: flex; flex-wrap: wrap; gap: 10px 18px; padding: 14px 0; margin-bottom: 20px; border-block: 1px solid #dbe5e8; font-size: 13px; }
+.allocation-section, #allocation-requirements { scroll-margin-top: 90px; }
+.allocation-section-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.allocation-section-heading h2 { font-size: 20px; }
+.allocation-menu-empty { margin: 8px 0 16px; }
 .allocation-menus { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-bottom: 24px; }
 .allocation-menu { min-width: 0; }
 .allocation-menu .ant-card-head { padding-inline: 18px; }
@@ -40,3 +45,13 @@
   .allocation-supply .ant-card-body { padding-inline: 8px; }
   .allocation-results-heading { align-items: flex-start; }
 }
+
+/* Each recipe remains one compact row; narrow cards can scroll horizontally. */
+.allocation-dishes { overflow-x: auto; gap: 8px; }
+.allocation-dish { padding: 8px; min-width: 410px; }
+.allocation-dish-row { display: flex; align-items: center; gap: 8px; flex-wrap: nowrap; }
+.allocation-dish-row > strong { flex: 1; min-width: 150px; }
+.allocation-dish-row .allocation-recipe-select { min-width: 150px; }
+.allocation-dish-row .allocation-servings { width: 88px; flex: 0 0 88px; }
+.allocation-batch-inline { white-space: nowrap; font-size: 12px; color: #087f8c; }
+.allocation-dish-row .allocation-warning { margin: 0; }
