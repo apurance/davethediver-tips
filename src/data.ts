@@ -34,6 +34,12 @@ export const sections = [
     desc: "一份食材能做几盘，比菜名是否稀有更重要。",
   },
   {
+    id: "allocation",
+    title: "经营分配",
+    en: "OPERATIONS PLANNER",
+    desc: "安排两店的日常与派对菜单，按鱼池汇总备货需求。",
+  },
+  {
     id: "ingredients",
     title: "食材与鱼类",
     en: "INGREDIENTS & MARINE LIFE",

@@ -1,5 +1,7 @@
 # 使用说明
 
+经营菜单与备货计算见 [经营分配](allocation.md)：支持主店／分店多菜、八类派对菜单、鱼池分组和可调整的日均折算。
+
 [返回 README](../README.md)
 
 在线使用：[davethediver-tips.pages.dev](https://davethediver-tips.pages.dev/)

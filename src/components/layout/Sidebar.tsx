@@ -21,6 +21,7 @@ const icons = [
   <ThunderboltOutlined />,
   <CompassOutlined />,
   <ShopOutlined />,
+  <ShopOutlined />,
   <TeamOutlined />,
   <ExperimentOutlined />,
   <ExperimentOutlined />,
