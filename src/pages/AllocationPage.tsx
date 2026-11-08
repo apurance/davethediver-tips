@@ -111,6 +111,31 @@ function outputLabel({ servings, incomplete }: ReturnType<typeof menuOutput>) {
   return servings === 0 ? "待补" : `至少 ${format(servings)}份`;
 }
 
+function summarizeStore(plan: AllocationPlan, scenario: string, store: Store) {
+  const dishes = menuBatches(resolvedMenu(plan, scenario, store)).filter(dish => dish.batches !== 0);
+  return { ...menuOutput(dishes), dishes };
+}
+
+function SummaryDishes({ dishes }: { dishes: BatchDishAllocation[] }) {
+  return <ul className="allocation-summary-dishes">{dishes.map(({ id, recipeId, batches }) => <li key={id}>
+    <span>{recipeId ? name(recipeId) : "未选菜谱"}</span>
+    <span className="allocation-summary-quantity">{batches === null ? "批数待填" : `${format(batches)}批`}</span>
+  </li>)}</ul>;
+}
+
+function SummaryStoreCell({ menu }: { menu: ReturnType<typeof summarizeStore> }) {
+  const visibleCount = 3;
+  const remaining = menu.dishes.length - visibleCount;
+  return <td className="allocation-summary-store">
+    <strong>{outputLabel(menu)}</strong>
+    {menu.dishes.length > 0 && <SummaryDishes dishes={menu.dishes.slice(0, visibleCount)} />}
+    {remaining > 0 && <details className="allocation-summary-more">
+      <summary>其余 {format(remaining)} 道</summary>
+      <SummaryDishes dishes={menu.dishes.slice(visibleCount)} />
+    </details>}
+  </td>;
+}
+
 export function AllocationPage() {
   const [saved, setSaved] = useSaved<unknown>("blue-hole-allocation-v1", createAllocationPlans());
   const library = useMemo(() => restoreAllocationPlans(saved), [saved]);
@@ -138,8 +163,8 @@ export function AllocationPage() {
   const [grade, setGrade] = useState<"meat2" | "meat3">("meat2");
   const result = useMemo(() => calculateDemand(plan, view, scenario), [plan, view, scenario]);
   const summaries = useMemo(() => scenarioOptions.map(item => ({ ...item,
-    main: menuOutput(resolvedMenu(plan, item.value, "main")),
-    branch: menuOutput(resolvedMenu(plan, item.value, "branch")),
+    main: summarizeStore(plan, item.value, "main"),
+    branch: summarizeStore(plan, item.value, "branch"),
   })), [plan]);
   const overview = summaries.filter(({ value, main, branch }) =>
     value === "daily" || main.servings > 0 || branch.servings > 0 || main.incomplete || branch.incomplete);
@@ -187,11 +212,12 @@ export function AllocationPage() {
     <p className="muted small">日常与全部派对可同时分配。新方案的派对默认独立配置，空菜单不计用料；需要时可手动开启“沿用日常”。按制作批数和满级菜谱计算出餐份数，不计员工额外出餐或升级消耗。</p>
     <nav className="allocation-jump-links" aria-label="跳转菜单">{scenarioOptions.map(item => <a key={item.value} href={`#menu-${item.value}`}>{item.label}</a>)}<a href="#allocation-requirements">备货需求 ↓</a></nav>
     <Card size="small" className="allocation-summary" role="region" aria-labelledby="allocation-summary-heading" title={<h2 id="allocation-summary-heading">分配小结</h2>}>
-      <table aria-label="单晚出餐份数">
+      <table aria-label="单晚菜谱分配及出餐份数">
+        <colgroup><col className="allocation-summary-scenario" /><col span={2} /><col className="allocation-summary-total" /></colgroup>
         <thead><tr><th scope="col">供应场景</th>{stores.map(store => <th scope="col" key={store}>{storeNames[store]}</th>)}<th scope="col">两店合计</th></tr></thead>
-        <tbody>{overview.map(({ value, label, main, branch }) => <tr key={value}>
+        <tbody>{overview.map(({ value, label, main, branch }) => <tr key={`${active.id}-${value}`}>
           <th scope="row"><a href={`#menu-${value}`}>{label}</a></th>
-          <td>{outputLabel(main)}</td><td>{outputLabel(branch)}</td>
+          <SummaryStoreCell menu={main} /><SummaryStoreCell menu={branch} />
           <td><strong>{outputLabel({ servings: main.servings + branch.servings, incomplete: main.incomplete || branch.incomplete })}</strong></td>
         </tr>)}</tbody>
       </table>
