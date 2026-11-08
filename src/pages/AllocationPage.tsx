@@ -7,12 +7,14 @@ import { EntityLink } from "../components/EntityLink";
 import { PageHeading } from "../components/PageHeading";
 import { useSaved } from "../hooks/useSaved";
 import { calculateDemand, createAllocationPlan, dailyReserveMaterials, materialSource, maxAllocationBatches, menuBatches, menuOutput, poolNames, recipeBatchServings, resolvedMenu, scheduleDays, storeNames, stores, partyIds } from "../allocation";
-import { addAllocationPlan, createAllocationPlans, removeAllocationPlan, restoreAllocationPlans, updateAllocationPlan } from "../allocationPlans";
+import { addAllocationPlan, createAllocationPlans, importAllocationPlan, removeAllocationPlan, restoreAllocationPlans, updateAllocationPlan, type AllocationPlanData } from "../allocationPlans";
 import type { AllocationPlan, BatchDishAllocation, DishAllocation, MaterialDemand, Store } from "../allocation";
+import { AllocationPlanClipboard } from "./AllocationPlanClipboard";
 import "./allocation.css";
 
 const format = (value: number) => new Intl.NumberFormat("zh-CN", { maximumFractionDigits: 3 }).format(value);
 const bounded = (value: number, min: number, max: number) => Math.min(max, Math.max(min, Math.trunc(value)));
+const newPlanId = () => globalThis.crypto?.randomUUID?.() ?? `plan-${Date.now()}-${Math.random().toString(36).slice(2)}`;
 const recipeOptions = database.recipes.map(recipe => ({ value: recipe.id, label: name(recipe.id), search: searchable(recipe) }));
 const scenarioOptions = [{ value: "daily", label: "日常供应" }, ...partyIds.map(value => ({ value, label: partyNames[value] }))];
 const menuLinks = [scenarioOptions[0], { value: "daily-reserve", label: "日常替补菜单" }, ...scenarioOptions.slice(1)];
@@ -151,6 +153,10 @@ export function AllocationPage() {
   const active = library.plans.find(entry => entry.id === library.activeId)!;
   const plan = active.plan;
   const updatePlan = (plan: AllocationPlan) => setSaved((current: unknown) => updateAllocationPlan(restoreAllocationPlans(current), active.id, plan));
+  function saveImportedPlan(data: AllocationPlanData) {
+    const id = newPlanId();
+    setSaved((current: unknown) => importAllocationPlan(restoreAllocationPlans(current), id, data));
+  }
   const [dialog, setDialog] = useState<"new" | "copy" | "rename" | null>(null);
   const [planName, setPlanName] = useState("");
   const nameError = !planName.trim() ? "请输入方案名称" : library.plans.some(entry => entry.name === planName.trim() && (dialog !== "rename" || entry.id !== active.id)) ? "已有同名方案，请换一个名称" : "";
@@ -164,7 +170,7 @@ export function AllocationPage() {
   function saveDialog() {
     if (nameError) return;
     if (dialog === "rename") setSaved({ ...library, plans: library.plans.map(entry => entry.id === active.id ? { ...entry, name: planName.trim() } : entry) });
-    else setSaved(addAllocationPlan(library, globalThis.crypto?.randomUUID?.() ?? `plan-${Date.now()}-${Math.random().toString(36).slice(2)}`, planName, dialog === "copy" ? active.id : undefined));
+    else setSaved(addAllocationPlan(library, newPlanId(), planName, dialog === "copy" ? active.id : undefined));
     setDialog(null);
   }
   const [scenario, setScenario] = useState("daily");
@@ -214,6 +220,7 @@ export function AllocationPage() {
       <Button onClick={() => openDialog("new")} icon={<PlusOutlined />}>新建方案</Button>
       <Button onClick={() => openDialog("copy")}>复制方案</Button>
       <Button onClick={() => openDialog("rename")}>重命名</Button>
+      <AllocationPlanClipboard plan={active} onImport={saveImportedPlan} />
       <span className="muted small">自动保存在此浏览器</span>
     </Space><Space wrap><Popconfirm title={`清空「${active.name}」的分配？`} description="仅重置当前方案的菜单和周期设置。" okText="清空" cancelText="取消" onConfirm={() => updatePlan(createAllocationPlan())}>
       <Button>重置当前方案</Button>
