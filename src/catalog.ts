@@ -29,8 +29,17 @@ export interface RecipeEntity extends EntityBase {
   ingredients: { ingredientId: string; quantity: number | null }[];
   relatedFish: string[];
 }
+export const IngredientType = {
+  Seasoning: "ingredient-type/seasoning",
+  GardenIngredient: "ingredient-type/garden-ingredient",
+  MarineIngredient: "ingredient-type/marine-ingredient",
+  JangoIngredient: "ingredient-type/jango-ingredient",
+} as const;
+export type IngredientType = typeof IngredientType[keyof typeof IngredientType];
+
 export interface IngredientEntity extends EntityBase {
   type: "ingredient";
+  ingredientType?: IngredientType;
   "acquisition-method"?: AcquisitionMethod;
   relatedRecipes: string[];
   relatedFish: string[];
@@ -81,8 +90,9 @@ export function searchable(entity: Entity) {
   const ingredients = entity.type === "recipe" ? entity.ingredients.map(i => `${name(i.ingredientId)} ${getEntity(i.ingredientId)?.en ?? ""}`) : [];
   const skills = entity.type === "staff" ? entity.skills.flatMap(skill => [name(skill.name), name(skill.description)]) : [];
   const regions = entity.type === "fish" || entity.type === "ingredient" ? (entity.region ?? []).map(name) : [];
+  const ingredientType = entity.type === "ingredient" && entity.ingredientType ? name(entity.ingredientType) : "";
   const acquisition = entity.type === "recipe" || entity.type === "ingredient" ? entity["acquisition-method"] : undefined;
-  return [name(entity.id), entity.en, ...ingredients, ...skills, ...regions,
+  return [name(entity.id), entity.en, ...ingredients, ...skills, ...regions, ingredientType,
     acquisition?.text ?? (acquisition?.entityId ? name(acquisition.entityId) : ""),
     ...Object.values(entity.facets).filter((value): value is string => !!value).map(name)]
     .join(" ").toLocaleLowerCase();

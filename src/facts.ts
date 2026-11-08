@@ -76,6 +76,9 @@ export function getDisplayFacts(entity: Entity): DisplayFact[] {
       labels.add(labelId);
     }
   };
+  if (entity.type === "ingredient" && entity.ingredientType) {
+    append("ingredient-type", [{ nameId: entity.ingredientType }]);
+  }
   if ((entity.type === "recipe" || entity.type === "ingredient") && entity["acquisition-method"]) {
     append("acquisition-method", [entity["acquisition-method"]]);
   }

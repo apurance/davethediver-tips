@@ -208,5 +208,6 @@ export function materialSource(id: string): { group: string; fishIds: string[]; 
     return { group: "external", fishIds: entity.relatedFish,
       note: /tuna-(chutoro|ootoro)$/.test(id) ? "金枪鱼特殊部位：需捕捞确认，不按普通养殖鱼肉换算。" : "特殊产物：按材料备货，不能直接用整鱼产肉量换算。" };
   }
-  return { group: "ingredients", fishIds: [] };
+  const ingredientType = entity?.type === "ingredient" ? entity.ingredientType : undefined;
+  return { group: ingredientType ?? "ingredients", fishIds: [] };
 }

@@ -44,6 +44,8 @@
 
 需要翻译的单个文本属性统一放在 `facets`，值直接保存译名 ID，例如 `"gatheringSource": "text/660af5fdf8cd"`、`"knockbackResistance": "text/b5141d3d19e9"`。字段键按驼峰形式还原为 `field/gathering-source` 等译名键；已有的 `time` 仍对应 `field/active-time`。字段名和值均通过名称表显示，`null` 表示来源未提供。带 `entityId` 的链接及多值内容保存在对应的独立属性中，例如 `harvest-source`、`acquisition-method` 和 `drops`，以保留跳转目标和原有顺序。所有条目的空 `facts` 已移除，详情统一由 `getDisplayFacts()` 生成。
 
+食材分类使用顶层 `ingredientType`，保存 `IngredientType` 枚举中的译名 ID（调味料、小菜园辅料、海产品辅料、张戈辅料）。列表筛选、详情页和搜索共用该字段。未分类的食材省略该字段。
+
 ## 区域列表与名称归一
 
 区域统一由 `src/regions.ts` 的 `Region` 常量枚举定义，类型为枚举值的联合类型，兼容 Node 的 TypeScript strip-types 测试模式。鱼类和食材的 `region` 均为必填 `Region[]`，未知区域使用 `[]`；JSON 只保存枚举中的 `region/...` 语义 ID，不再保存哈希 ID 或 `text/...` ID。新增区域时同时更新枚举和名称表。筛选选项按枚举顺序排列，仅接受当前枚举 ID，旧 ID 或无效区域参数回退到全部区域。

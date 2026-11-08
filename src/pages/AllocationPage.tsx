@@ -1,7 +1,7 @@
 import { Fragment, useMemo, useRef, useState, type ComponentRef } from "react";
 import { Alert, Button, Card, Collapse, Empty, Input, InputNumber, Modal, Popconfirm, Segmented, Select, Space, Switch, Table, Tag, type TableColumnsType } from "antd";
 import { DeleteOutlined, PlusOutlined } from "@ant-design/icons";
-import { database, getEntity, name, searchable } from "../catalog";
+import { database, getEntity, IngredientType, name, searchable } from "../catalog";
 import { matchesParty, partyNames } from "../events";
 import { EntityLink } from "../components/EntityLink";
 import { PageHeading } from "../components/PageHeading";
@@ -19,6 +19,11 @@ const recipeOptions = database.recipes.map(recipe => ({ value: recipe.id, label:
 const scenarioOptions = [{ value: "daily", label: "日常供应" }, ...partyIds.map(value => ({ value, label: partyNames[value] }))];
 const menuLinks = [scenarioOptions[0], { value: "daily-reserve", label: "日常替补菜单" }, ...scenarioOptions.slice(1)];
 const partyFilterLabel = "选菜时仅显示本派对菜谱";
+const supplyGroups = [
+  ...Object.entries(poolNames).map(([id, title]) => ({ id, title, showFishEstimate: true })),
+  ...Object.values(IngredientType).map(id => ({ id, title: name(id), showFishEstimate: false })),
+  { id: "ingredients", title: "其他辅料", showFishEstimate: false },
+];
 
 function RecipePicker({ label, value, options, onChange, partyFilter }: {
   label: string; value: string; options: typeof recipeOptions; onChange: (id: string) => void;
@@ -187,9 +192,11 @@ export function AllocationPage() {
   const schedule = scheduleDays(plan);
   const materials = new Map<string, SupplyRow>(result.rows.map(demand => [demand.id, { id: demand.id, demand }]));
   for (const id of reserve.materialIds) materials.set(id, { id, demand: materials.get(id)?.demand, isReserve: true });
-  const materialRows = [...materials.values()].sort((a, b) => name(a.id).localeCompare(name(b.id), "zh-CN"));
-  const groups = [...Object.entries(poolNames), ["ingredients", "其他辅料"]].map(([id, title]) => ({
-    id, title, rows: materialRows.filter(row => materialSource(row.id).group === id),
+  const materialRows = [...materials.values()]
+    .sort((a, b) => name(a.id).localeCompare(name(b.id), "zh-CN"))
+    .map(row => ({ ...row, group: materialSource(row.id).group }));
+  const groups = supplyGroups.map(group => ({
+    ...group, rows: materialRows.filter(row => row.group === group.id),
   })).filter(group => group.rows.length > 0);
   const timeUnit = view === "average" ? "／日均" : view === "cycle" ? "／周期" : "／晚";
   const columns: TableColumnsType<SupplyRow> = [
@@ -295,7 +302,7 @@ export function AllocationPage() {
     {reserve.materialIds.size > 0 && <p className="muted small">标有「日常替补」的材料供选菜参考；表中数量只计算已填写批数的菜单。</p>}
     {groups.length === 0 ? <Card><Empty description={result.warnings.length || reserve.missingRecipes.length ? "请补齐上方缺失信息后查看需求" : "添加供应或替补菜品后，这里会列出所需的鱼类和辅料"} /></Card> :
       groups.map(group => <Card key={group.id} className="allocation-supply" title={<Space>{group.title}<Tag>{group.rows.length} 种</Tag></Space>}>
-        <Table rowKey="id" size="small" pagination={false} dataSource={group.rows} columns={group.id === "ingredients" ? columns.slice(0, 4) : columns} scroll={{ x: group.id === "ingredients" ? 570 : 760 }} />
+        <Table rowKey="id" size="small" pagination={false} dataSource={group.rows} columns={group.showFishEstimate ? columns : columns.slice(0, -1)} scroll={{ x: group.showFishEstimate ? 760 : 570 }} />
       </Card>)}
     <p className="muted small allocation-footnote">鱼类按本地栖息区域与夜行标签归组，特殊来源另列；分组不保证所有鱼都可养殖。材料合计是配方单位，折合鱼数采用图鉴产肉量作为参考，实际以鱼池出货为准，不代表需要保留的种鱼数量。不同部位不合并换算，繁殖数量与鱼池容量未纳入此表。</p>
   </div>;

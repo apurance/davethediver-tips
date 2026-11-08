@@ -25851,6 +25851,7 @@
     {
       "id": "ingredient/bean",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Bean",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/bean/",
@@ -25879,6 +25880,7 @@
     {
       "id": "ingredient/black-coral",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Black Coral",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/black-coral/",
@@ -25906,6 +25908,7 @@
     {
       "id": "ingredient/carrot",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Carrot",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/carrot/",
@@ -25938,6 +25941,7 @@
     {
       "id": "ingredient/cherry-tomato",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Cherry Tomato",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/cherry-tomato/",
@@ -25969,6 +25973,7 @@
     {
       "id": "ingredient/cucumber",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Cucumber",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/cucumber/",
@@ -25999,6 +26004,7 @@
     {
       "id": "ingredient/egg",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Egg",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/egg/",
@@ -26034,6 +26040,7 @@
     {
       "id": "ingredient/eggplant",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Eggplant",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/eggplant/",
@@ -26064,6 +26071,7 @@
     {
       "id": "ingredient/garlic",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Garlic",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/garlic/",
@@ -26095,6 +26103,7 @@
     {
       "id": "ingredient/kajime",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Kajime",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/kajime/",
@@ -26127,6 +26136,7 @@
     {
       "id": "ingredient/onion",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Onion",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/onion/",
@@ -26157,6 +26167,7 @@
     {
       "id": "ingredient/rice",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Rice",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/rice/",
@@ -26197,6 +26208,7 @@
     {
       "id": "ingredient/sea-grape",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Sea Grape",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/sea-grape/",
@@ -26231,6 +26243,7 @@
     {
       "id": "ingredient/black-pepper",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Black Pepper",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/black-pepper/",
@@ -26260,6 +26273,7 @@
     {
       "id": "ingredient/black-vinegar",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Black Vinegar",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/black-vinegar/",
@@ -26296,6 +26310,7 @@
     {
       "id": "ingredient/buckwheat",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Buckwheat",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/buckwheat/",
@@ -26321,6 +26336,7 @@
     {
       "id": "ingredient/curry-block",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Curry Block",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/curry-block/",
@@ -26349,6 +26365,7 @@
     {
       "id": "ingredient/hyalonema",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Hyalonema",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/hyalonema/",
@@ -26375,6 +26392,7 @@
     {
       "id": "ingredient/mayonnaise",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Mayonnaise",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/mayonnaise/",
@@ -26407,6 +26425,7 @@
     {
       "id": "ingredient/miso",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Miso",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/miso/",
@@ -26442,6 +26461,7 @@
     {
       "id": "ingredient/olive-oil",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Olive Oil",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/olive-oil/",
@@ -26492,6 +26512,7 @@
     {
       "id": "ingredient/rainbow-cap",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/jango-ingredient",
       "en": "Rainbow Cap",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/rainbow-cap/",
@@ -26520,6 +26541,7 @@
     {
       "id": "ingredient/salt",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Salt",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/salt/",
@@ -26558,6 +26580,7 @@
     {
       "id": "ingredient/soy-sauce",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Soy Sauce",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/soy-sauce/",
@@ -26599,6 +26622,7 @@
     {
       "id": "ingredient/truffle",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/jango-ingredient",
       "en": "Truffle",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/truffle/",
@@ -26628,6 +26652,7 @@
     {
       "id": "ingredient/turmeric",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Turmeric",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/turmeric/",
@@ -26656,6 +26681,7 @@
     {
       "id": "ingredient/agar",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Agar",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/ingredient/agar/",
@@ -26687,6 +26713,7 @@
     {
       "id": "ingredient/grade-a-egg",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Grade A Egg",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/ingredient/grade-a-egg/"
@@ -26715,6 +26742,7 @@
     {
       "id": "ingredient/kelp",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Kelp",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/ingredient/kelp/",
@@ -26769,6 +26797,7 @@
     {
       "id": "ingredient/seaweed",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Seaweed",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/ingredient/seaweed/",
@@ -26799,6 +26828,7 @@
     {
       "id": "ingredient/southern-bull-kelp",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Southern Bull Kelp",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/ingredient/southern-bull-kelp/",
@@ -26824,6 +26854,7 @@
     {
       "id": "ingredient/wheat",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Wheat",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/ingredient/wheat/"
@@ -26907,6 +26938,7 @@
     {
       "id": "ingredient/bladderwrack",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Bladder Wrack",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/bladder-wrack/",
@@ -26930,6 +26962,7 @@
     {
       "id": "ingredient/buckbean",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/marine-ingredient",
       "en": "Buckbean",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/ingredient/buckbean/",
@@ -27077,6 +27110,7 @@
     {
       "id": "ingredient/habanero",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/garden-ingredient",
       "en": "Habanero",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/ingredient/habanero/"
@@ -27681,6 +27715,7 @@
     {
       "id": "ingredient/sesame-seed",
       "type": "ingredient",
+      "ingredientType": "ingredient-type/seasoning",
       "en": "Sesame",
       "sourceUrls": [
         "https://davethediver.net/zh-hans/fish/sesame/",

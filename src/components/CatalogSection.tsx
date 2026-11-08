@@ -1,7 +1,7 @@
-import { Select, Space, Table, Tag } from "antd";
+import { Select, Table, Tag } from "antd";
 import { CompositionInput } from "./CompositionInput";
 import { useSearchParams } from "react-router";
-import { database, entityTypes, name, searchable } from "../catalog";
+import { database, entityTypes, IngredientType, name, searchable } from "../catalog";
 import type { Entity, EntityType } from "../catalog";
 import { EntityLink } from "./EntityLink";
 import { formatNumber } from "../utils/formatNumber";
@@ -10,12 +10,22 @@ import { matchesParty, partyFilter, partyNames } from "../events";
 
 export const statText = (value: number | null | undefined, suffix = "") => value == null ? "未提供" : `${formatNumber(value)}${suffix}`;
 
+const unclassifiedIngredientType = { value: "unclassified", label: "未分类" };
+const ingredientTypeOptions = [
+  { value: "all", label: "全部类型" },
+  ...Object.values(IngredientType).map(value => ({ value, label: name(value) })),
+  unclassifiedIngredientType,
+];
+
 export function CatalogSection({ type }: { type: EntityType }) {
   const [params, setParams] = useSearchParams();
   const term = params.get("name") ?? "";
   const region = type === "fish" ? regionFilter(params.get("region")) : "all";
   const party = type === "recipe" ? partyFilter(params.get("event")) : "all";
   const kind = type === "staff" ? params.get("kind") ?? "all" : "all";
+  const ingredientType = type === "ingredient"
+    ? ingredientTypeOptions.find(option => option.value === params.get("ingredientType"))?.value ?? "all"
+    : "all";
   const set = (key: string, value: string) => setParams(current => {
     const next = new URLSearchParams(current);
     if (!value || value === "all") next.delete(key); else next.set(key, value);
@@ -26,6 +36,7 @@ export function CatalogSection({ type }: { type: EntityType }) {
   const data = entries.filter(e => searchable(e).includes(term.trim().toLocaleLowerCase()) &&
     matchesRegion(e, region) &&
     matchesParty(e, party) &&
+    (ingredientType === "all" || (e.type === "ingredient" && (e.ingredientType ?? unclassifiedIngredientType.value) === ingredientType)) &&
     (kind === "all" || e.facets.tier === kind));
   if (type === "fish") {
     data.sort((a, b) => (a.stats.marincaCardNumber ?? Number.MAX_SAFE_INTEGER) - (b.stats.marincaCardNumber ?? Number.MAX_SAFE_INTEGER));
@@ -50,13 +61,14 @@ export function CatalogSection({ type }: { type: EntityType }) {
       { title: "体长", key: "length", render: (_: unknown, e: Entity) => statText(e.stats.length, " cm") },
       { title: "关联菜谱", key: "recipes", render: (_: unknown, e: Entity) => e.type === "fish" ? `${e.relatedRecipes.length} 道` : "" },
     ] : [
-      { title: "来源鱼类", key: "fish", width: 260, render: (_: unknown, e: Entity) => e.type === "ingredient" && e.relatedFish.length ? <Space wrap>{e.relatedFish.map(id => <EntityLink key={id} id={id} />)}</Space> : "农场、派遣或其他来源" },
+      { title: "食材类型", key: "ingredientType", render: (_: unknown, e: Entity) => e.type === "ingredient" && e.ingredientType ? name(e.ingredientType) : unclassifiedIngredientType.label },
       { title: "可制作菜谱", key: "recipes", render: (_: unknown, e: Entity) => e.type === "ingredient" ? `${e.relatedRecipes.length} 道` : "" },
     ]),
   ];
   return <div className="catalog-section">
     <div className="inline-toolbar catalog-toolbar">
       <CompositionInput aria-label={`搜索${entityTypes[type]}数据库`} placeholder="搜索中文名、英文名或原料…" allowClear value={term} onValueChange={value => set("name", value)} />
+      {type === "ingredient" && <Select aria-label="食材类型筛选" value={ingredientType} onChange={value => set("ingredientType", value)} options={ingredientTypeOptions} />}
       {type === "fish" && <Select aria-label="鱼类区域筛选" value={region} onChange={value => set("region", value)} options={[{ value: "all", label: "全部区域" }, ...getRegions(entries).map(value => ({ value, label: name(value) }))]} />}
       {type === "staff" && <Select aria-label="员工评级筛选" value={kind} onChange={value => set("kind", value)} options={[{ value: "all", label: "全部评级" }, ...[...new Set(entries.map(e => e.facets.tier).filter((v): v is string => !!v))].map(value => ({ value, label: name(value) }))]} />}
       {type === "recipe" && <Select aria-label="派对筛选" value={party} onChange={value => set("event", value)} options={[
