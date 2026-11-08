@@ -19,6 +19,7 @@ export interface AllocationPlan {
   days: number;
   occurrences: Record<string, number>;
   daily: StoreMenus;
+  dailyReserve: string[];
   parties: Record<string, StoreMenus>;
 }
 const emptyMenus = (inheritDaily: boolean): StoreMenus => ({
@@ -26,7 +27,8 @@ const emptyMenus = (inheritDaily: boolean): StoreMenus => ({
 });
 export function createAllocationPlan(): AllocationPlan {
   return { version: 1, days: 40, occurrences: Object.fromEntries(partyIds.map(id => [id, 1])),
-    daily: emptyMenus(false), parties: Object.fromEntries(partyIds.map(id => [id, emptyMenus(false)])) };
+    daily: emptyMenus(false), dailyReserve: [],
+    parties: Object.fromEntries(partyIds.map(id => [id, emptyMenus(false)])) };
 }
 const integer = (value: unknown, min: number, max: number): value is number =>
   typeof value === "number" && Number.isInteger(value) && value >= min && value <= max;
@@ -63,9 +65,15 @@ function readMenus(value: unknown, inherit: boolean): StoreMenus {
 export function restoreAllocationPlan(value: unknown): AllocationPlan {
   const result = createAllocationPlan();
   if (!value || typeof value !== "object" || (value as AllocationPlan).version !== 1) return result;
-  const saved = value as AllocationPlan;
+  const saved = value as Omit<AllocationPlan, "dailyReserve"> & { dailyReserve?: string[] | Partial<Record<Store, string[]>> };
   if (integer(saved.days, 1, 3650)) result.days = saved.days;
   result.daily = readMenus(saved.daily, false);
+  const reserve = saved.dailyReserve;
+  const recipes = Array.isArray(reserve) ? reserve : stores.flatMap(store => {
+    const oldRecipes = reserve?.[store];
+    return Array.isArray(oldRecipes) ? oldRecipes : [];
+  });
+  result.dailyReserve = [...new Set(recipes.filter(id => typeof id === "string" && id.trim() !== ""))];
   for (const id of partyIds) {
     result.parties[id] = readMenus(saved.parties?.[id], true);
     if (integer(saved.occurrences?.[id], 0, 3650)) result.occurrences[id] = saved.occurrences[id];
@@ -113,6 +121,20 @@ export function resolvedMenu(plan: AllocationPlan, scenario: string, store: Stor
 }
 export interface MaterialDemand { id: string; main: number; branch: number; total: number }
 export interface DemandResult { rows: MaterialDemand[]; warnings: string[] }
+
+export function dailyReserveMaterials(plan: AllocationPlan) {
+  const materialIds = new Set<string>();
+  const missingRecipes: string[] = [];
+  for (const id of plan.dailyReserve) {
+    const recipe = getEntity(id);
+    if (recipe?.type !== "recipe" || recipe.ingredients.length === 0) {
+      missingRecipes.push(id);
+      continue;
+    }
+    for (const { ingredientId } of recipe.ingredients) materialIds.add(ingredientId);
+  }
+  return { materialIds, missingRecipes };
+}
 
 export function menuDemand(dishes: DishAllocation[], context: string): { amounts: Map<string, number>; warnings: string[] } {
   const amounts = new Map<string, number>();

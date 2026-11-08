@@ -1,12 +1,12 @@
-import { useMemo, useRef, useState, type ComponentRef } from "react";
-import { Alert, Button, Card, Collapse, Empty, Input, InputNumber, Modal, Popconfirm, Segmented, Select, Space, Switch, Table, Tag } from "antd";
+import { Fragment, useMemo, useRef, useState, type ComponentRef } from "react";
+import { Alert, Button, Card, Collapse, Empty, Input, InputNumber, Modal, Popconfirm, Segmented, Select, Space, Switch, Table, Tag, type TableColumnsType } from "antd";
 import { DeleteOutlined, PlusOutlined } from "@ant-design/icons";
 import { database, getEntity, name, searchable } from "../catalog";
 import { matchesParty, partyNames } from "../events";
 import { EntityLink } from "../components/EntityLink";
 import { PageHeading } from "../components/PageHeading";
 import { useSaved } from "../hooks/useSaved";
-import { calculateDemand, createAllocationPlan, materialSource, maxAllocationBatches, menuBatches, menuOutput, poolNames, recipeBatchServings, resolvedMenu, scheduleDays, storeNames, stores, partyIds } from "../allocation";
+import { calculateDemand, createAllocationPlan, dailyReserveMaterials, materialSource, maxAllocationBatches, menuBatches, menuOutput, poolNames, recipeBatchServings, resolvedMenu, scheduleDays, storeNames, stores, partyIds } from "../allocation";
 import { addAllocationPlan, createAllocationPlans, removeAllocationPlan, restoreAllocationPlans, updateAllocationPlan } from "../allocationPlans";
 import type { AllocationPlan, BatchDishAllocation, DishAllocation, MaterialDemand, Store } from "../allocation";
 import "./allocation.css";
@@ -15,6 +15,7 @@ const format = (value: number) => new Intl.NumberFormat("zh-CN", { maximumFracti
 const bounded = (value: number, min: number, max: number) => Math.min(max, Math.max(min, Math.trunc(value)));
 const recipeOptions = database.recipes.map(recipe => ({ value: recipe.id, label: name(recipe.id), search: searchable(recipe) }));
 const scenarioOptions = [{ value: "daily", label: "日常供应" }, ...partyIds.map(value => ({ value, label: partyNames[value] }))];
+const menuLinks = [scenarioOptions[0], { value: "daily-reserve", label: "日常替补菜单" }, ...scenarioOptions.slice(1)];
 const partyFilterLabel = "选菜时仅显示本派对菜谱";
 
 function RecipePicker({ label, value, options, onChange, partyFilter }: {
@@ -116,24 +117,32 @@ function summarizeStore(plan: AllocationPlan, scenario: string, store: Store) {
   return { ...menuOutput(dishes), dishes };
 }
 
-function SummaryDishes({ dishes }: { dishes: BatchDishAllocation[] }) {
+type SummaryDish = Pick<BatchDishAllocation, "id" | "recipeId"> & { batches?: number | null };
+
+function SummaryDishList({ dishes }: { dishes: SummaryDish[] }) {
   return <ul className="allocation-summary-dishes">{dishes.map(({ id, recipeId, batches }) => <li key={id}>
     <span>{recipeId ? name(recipeId) : "未选菜谱"}</span>
-    <span className="allocation-summary-quantity">{batches === null ? "批数待填" : `${format(batches)}批`}</span>
+    {batches !== undefined && <span className="allocation-summary-quantity">{batches === null ? "批数待填" : `${format(batches)}批`}</span>}
   </li>)}</ul>;
 }
 
-function SummaryStoreCell({ menu }: { menu: ReturnType<typeof summarizeStore> }) {
+function SummaryDishes({ dishes }: { dishes: SummaryDish[] }) {
   const visibleCount = 3;
-  const remaining = menu.dishes.length - visibleCount;
-  return <td className="allocation-summary-store">
-    <strong>{outputLabel(menu)}</strong>
-    {menu.dishes.length > 0 && <SummaryDishes dishes={menu.dishes.slice(0, visibleCount)} />}
+  const remaining = dishes.length - visibleCount;
+  return <>
+    {dishes.length > 0 && <SummaryDishList dishes={dishes.slice(0, visibleCount)} />}
     {remaining > 0 && <details className="allocation-summary-more">
       <summary>其余 {format(remaining)} 道</summary>
-      <SummaryDishes dishes={menu.dishes.slice(visibleCount)} />
+      <SummaryDishList dishes={dishes.slice(visibleCount)} />
     </details>}
-  </td>;
+  </>;
+}
+
+type SupplyRow = { id: string; demand?: MaterialDemand; isReserve?: boolean };
+
+function supplyAmount(row: SupplyRow, key: Store | "total") {
+  const amount = row.demand?.[key];
+  return amount === undefined || (amount === 0 && row.isReserve) ? "—" : format(amount);
 }
 
 export function AllocationPage() {
@@ -162,6 +171,7 @@ export function AllocationPage() {
   const [view, setView] = useState<"service" | "average" | "cycle">("average");
   const [grade, setGrade] = useState<"meat2" | "meat3">("meat2");
   const result = useMemo(() => calculateDemand(plan, view, scenario), [plan, view, scenario]);
+  const reserve = useMemo(() => dailyReserveMaterials(plan), [plan]);
   const summaries = useMemo(() => scenarioOptions.map(item => ({ ...item,
     main: summarizeStore(plan, item.value, "main"),
     branch: summarizeStore(plan, item.value, "branch"),
@@ -169,25 +179,30 @@ export function AllocationPage() {
   const overview = summaries.filter(({ value, main, branch }) =>
     value === "daily" || main.servings > 0 || branch.servings > 0 || main.incomplete || branch.incomplete);
   const schedule = scheduleDays(plan);
+  const materials = new Map<string, SupplyRow>(result.rows.map(demand => [demand.id, { id: demand.id, demand }]));
+  for (const id of reserve.materialIds) materials.set(id, { id, demand: materials.get(id)?.demand, isReserve: true });
+  const materialRows = [...materials.values()].sort((a, b) => name(a.id).localeCompare(name(b.id), "zh-CN"));
   const groups = [...Object.entries(poolNames), ["ingredients", "其他辅料"]].map(([id, title]) => ({
-    id, title, rows: result.rows.filter(row => materialSource(row.id).group === id),
+    id, title, rows: materialRows.filter(row => materialSource(row.id).group === id),
   })).filter(group => group.rows.length > 0);
   const timeUnit = view === "average" ? "／日均" : view === "cycle" ? "／周期" : "／晚";
-  const columns = [
-    { title: "鱼类／材料", dataIndex: "id", key: "id", render: (id: string) => {
+  const columns: TableColumnsType<SupplyRow> = [
+    { title: "鱼类／材料", dataIndex: "id", key: "id", render: (id: string, row) => {
       const source = materialSource(id);
-      return <><EntityLink id={id} />{source.note && <div className="small muted">{source.note}</div>}
+      return <><EntityLink id={id} />
+        {row.isReserve && <div className="small muted">日常替补</div>}
+        {source.note && <div className="small muted">{source.note}</div>}
         {source.group === "external" && source.fishIds.length > 0 && <div className="small muted">来源：{source.fishIds.map((fishId, i) => <span key={fishId}>{i > 0 && "、"}<EntityLink id={fishId} /></span>)}</div>}</>;
     } },
-    { title: `主店${timeUnit}`, dataIndex: "main", key: "main", width: 110, render: format },
-    { title: `分店${timeUnit}`, dataIndex: "branch", key: "branch", width: 110, render: format },
-    { title: `材料合计${timeUnit}`, dataIndex: "total", key: "total", width: 135, render: (v: number) => <strong>{format(v)}</strong> },
-    { title: `折合鱼数${timeUnit}`, key: "fish", width: 175, render: (_: unknown, row: MaterialDemand) => {
+    ...stores.map(store => ({ title: `${storeNames[store]}${timeUnit}`, key: store, width: 110, render: (_: unknown, row: SupplyRow) => supplyAmount(row, store) })),
+    { title: `材料合计${timeUnit}`, key: "total", width: 135, render: (_, row) => <strong>{supplyAmount(row, "total")}</strong> },
+    { title: `折合鱼数${timeUnit}`, key: "fish", width: 175, render: (_, row) => {
+      if (!row.demand) return <span className="muted">—</span>;
       const fish = getEntity(row.id);
       if (fish?.type !== "fish") return <span className="muted">—</span>;
       const meat = fish.stats[grade];
       if (!meat || meat <= 0 || !Number.isFinite(meat)) return <span className="muted">产肉量待确认</span>;
-      return <>{view === "average" ? `≈ ${format(row.total / meat)}` : Math.ceil(row.total / meat)} 条<div className="small muted">按 {meat} 材料／条估算</div></>;
+      return <>{view === "average" ? `≈ ${format(row.demand.total / meat)}` : Math.ceil(row.demand.total / meat)} 条<div className="small muted">按 {meat} 材料／条估算</div></>;
     } },
   ];
 
@@ -210,23 +225,45 @@ export function AllocationPage() {
       {nameError && <p className="allocation-warning small">{nameError}</p>}
     </Modal>
     <p className="muted small">日常与全部派对可同时分配。新方案的派对默认独立配置，空菜单不计用料；需要时可手动开启“沿用日常”。按制作批数和满级菜谱计算出餐份数，不计员工额外出餐或升级消耗。</p>
-    <nav className="allocation-jump-links" aria-label="跳转菜单">{scenarioOptions.map(item => <a key={item.value} href={`#menu-${item.value}`}>{item.label}</a>)}<a href="#allocation-requirements">备货需求 ↓</a></nav>
+    <nav className="allocation-jump-links" aria-label="跳转菜单">{menuLinks.map(item => <a key={item.value} href={`#menu-${item.value}`}>{item.label}</a>)}<a href="#allocation-requirements">备货需求 ↓</a></nav>
     <Card size="small" className="allocation-summary" role="region" aria-labelledby="allocation-summary-heading" title={<h2 id="allocation-summary-heading">分配小结</h2>}>
       <table aria-label="单晚菜谱分配及出餐份数">
         <colgroup><col className="allocation-summary-scenario" /><col span={2} /><col className="allocation-summary-total" /></colgroup>
         <thead><tr><th scope="col">供应场景</th>{stores.map(store => <th scope="col" key={store}>{storeNames[store]}</th>)}<th scope="col">两店合计</th></tr></thead>
-        <tbody>{overview.map(({ value, label, main, branch }) => <tr key={`${active.id}-${value}`}>
-          <th scope="row"><a href={`#menu-${value}`}>{label}</a></th>
-          <SummaryStoreCell menu={main} /><SummaryStoreCell menu={branch} />
-          <td><strong>{outputLabel({ servings: main.servings + branch.servings, incomplete: main.incomplete || branch.incomplete })}</strong></td>
-        </tr>)}</tbody>
+        <tbody>{overview.map(item => <Fragment key={`${active.id}-${item.value}`}>
+          <tr>
+            <th scope="row"><a href={`#menu-${item.value}`}>{item.label}</a></th>
+            {stores.map(store => <td key={store}>
+              <strong>{outputLabel(item[store])}</strong>
+              <SummaryDishes dishes={item[store].dishes} />
+            </td>)}
+            <td><strong>{outputLabel({ servings: item.main.servings + item.branch.servings, incomplete: item.main.incomplete || item.branch.incomplete })}</strong></td>
+          </tr>
+          {item.value === "daily" && plan.dailyReserve.length > 0 && <tr>
+            <th scope="row"><a href="#menu-daily-reserve">日常替补</a></th>
+            <td colSpan={2}><SummaryDishes dishes={plan.dailyReserve.map(recipeId => ({ id: recipeId, recipeId }))} /></td>
+            <td>—</td>
+          </tr>}
+        </Fragment>)}</tbody>
       </table>
-      <p className="muted small allocation-summary-note">按单晚出餐汇总，仅列出日常与已分配的派对。</p>
+      <p className="muted small allocation-summary-note">出餐份数按单晚汇总，日常替补只列菜名。</p>
     </Card>
-    {summaries.map(item => <section className="allocation-section" id={`menu-${item.value}`} key={`${active.id}-${item.value}`} aria-labelledby={`heading-${item.value}`}>
-      <div className="allocation-section-heading"><h2 id={`heading-${item.value}`}>{item.label}</h2><Button type="link" href="#allocation-requirements" onClick={() => { setScenario(item.value); setView("service"); }}>查看{item.label}单晚用料</Button></div>
-      <div className="allocation-menus">{stores.map(store => <MenuEditor key={store} plan={plan} store={store} scenario={item.value} output={item[store]} update={updatePlan} />)}</div>
-    </section>)}
+    {summaries.map(item => <Fragment key={`${active.id}-${item.value}`}>
+      <section className="allocation-section" id={`menu-${item.value}`} aria-labelledby={`heading-${item.value}`}>
+        <div className="allocation-section-heading"><h2 id={`heading-${item.value}`}>{item.label}</h2><Button type="link" href="#allocation-requirements" onClick={() => { setScenario(item.value); setView("service"); }}>查看{item.label}单晚用料</Button></div>
+        <div className="allocation-menus">{stores.map(store => <MenuEditor key={store} plan={plan} store={store} scenario={item.value} output={item[store]} update={updatePlan} />)}</div>
+      </section>
+      {item.value === "daily" && <section className="allocation-section" id="menu-daily-reserve" aria-labelledby="heading-daily-reserve">
+        <div className="allocation-section-heading"><h2 id="heading-daily-reserve">日常替补菜单</h2><Button type="link" href="#allocation-requirements">查看备货需求</Button></div>
+        <p className="muted small">两店共用，可选择多道菜谱，无需填写批数。</p>
+        <Card className="allocation-menu allocation-reserve-menu">
+          <Select mode="multiple" aria-label="日常替补菜谱" className="allocation-recipe-select"
+            placeholder="搜索并选择替补菜谱" value={plan.dailyReserve} options={recipeOptions}
+            showSearch={{ filterOption: (input, option) => !!option?.search.includes(input.toLocaleLowerCase().trim()) }}
+            onChange={recipeIds => updatePlan({ ...plan, dailyReserve: recipeIds })} />
+        </Card>
+      </section>}
+    </Fragment>)}
 
     <Collapse className="allocation-cycle" items={[{ key: "schedule", label: `日均折算设置 · ${plan.days} 天 / ${schedule.partyDays} 场派对 · 可调整假设`, children: <>
       <Alert type="info" showIcon title="40 天只是规划假设，不是固定轮回"
@@ -246,7 +283,10 @@ export function AllocationPage() {
     <div className="allocation-toolbar"><p className="muted small">{view === "service" ? `${scenario === "daily" ? "日常" : partyNames[scenario]} · 两店当晚完整备货` : `${plan.days} 天全部日常及派对菜单 · ${view === "average" ? "长期平均需求，不保证随机派对前库存充足" : "规划周期总需求"}`}</p>
       <Select aria-label="鱼数换算品质" value={grade} onChange={setGrade} options={[{ value: "meat2", label: "鱼数参考：二星产肉量" }, { value: "meat3", label: "鱼数参考：三星产肉量" }]} /></div>
     {result.warnings.length > 0 && <Alert type="warning" showIcon title="有用料未能计算，以下合计不完整" description={<ul>{result.warnings.map(warning => <li key={warning}>{warning}</li>)}</ul>} />}
-    {groups.length === 0 ? <Card><Empty description={result.warnings.length ? "请补齐上方缺失信息后查看需求" : "添加供应菜品后，这里会自动列出鱼类和辅料数量"} /></Card> :
+    {reserve.missingRecipes.length > 0 && <Alert type="warning" showIcon title="部分日常替补菜谱没有可用的配方"
+      description={reserve.missingRecipes.map(name).join("、")} />}
+    {reserve.materialIds.size > 0 && <p className="muted small">标有「日常替补」的材料供选菜参考；表中数量只计算已填写批数的菜单。</p>}
+    {groups.length === 0 ? <Card><Empty description={result.warnings.length || reserve.missingRecipes.length ? "请补齐上方缺失信息后查看需求" : "添加供应或替补菜品后，这里会列出所需的鱼类和辅料"} /></Card> :
       groups.map(group => <Card key={group.id} className="allocation-supply" title={<Space>{group.title}<Tag>{group.rows.length} 种</Tag></Space>}>
         <Table rowKey="id" size="small" pagination={false} dataSource={group.rows} columns={group.id === "ingredients" ? columns.slice(0, 4) : columns} scroll={{ x: group.id === "ingredients" ? 570 : 760 }} />
       </Card>)}
